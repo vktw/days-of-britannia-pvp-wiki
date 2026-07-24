@@ -67,4 +67,4 @@ Na prática, um personagem com INT 100 recupera aproximadamente **15,1 mana em 1
 
 Esses valores representam a taxa matemática real do Live; os pontos entram individualmente conforme cada intervalo é completado.
 
-O ajuste de redução da regeneração passiva permanece apenas em [Em teste](../em-teste.md) e não integra esses valores Live.
+O ajuste de redução da regeneração passiva pertence ao [Próximo Patch Planejado](../proximo-patch.md) e não integra esses valores Live.

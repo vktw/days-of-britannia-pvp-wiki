@@ -3,7 +3,7 @@
 Os exemplos abaixo seguem o servidor oficial **Live 0.6.0**. Eles isolam um golpe que já acertou; a chance de acerto e a chance de Parrying são sorteios anteriores e independentes.
 
 !!! note "Ambiente de testes"
-    O bônus de 15% ao atingir uma região sem armor ainda está apenas em [Em teste](../em-teste.md) e não entra nestes exemplos.
+    O bônus de 15% ao atingir uma região sem armor está no [Próximo Patch Planejado](../proximo-patch.md) e não entra nestes exemplos Live.
 
 ## Atacante usado
 
