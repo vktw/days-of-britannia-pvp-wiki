@@ -5,6 +5,9 @@
 
 Bem-vindo à wiki oficial do **Days of Britannia (DoB)**. Este manual reúne as regras do shard, os primeiros passos, o mundo, personagens, itens, sistemas e o combate inspirado no Sphere 51.
 
+[Começar por aqui](primeiros-passos/index.md){ .dob-primary-button }
+[Patch notes](patches.md){ .dob-secondary-button }
+
 ## Comece por aqui
 
 | Quero... | Página |
