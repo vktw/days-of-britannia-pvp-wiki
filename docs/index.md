@@ -4,113 +4,78 @@ hide:
   - toc
 ---
 
-<section class="dob-home-hero" aria-labelledby="dob-home-title">
-  <p class="dob-home-eyebrow">WIKI OFICIAL · LIVE 0.7.0</p>
-  <h1 id="dob-home-title">Days of Britannia</h1>
-  <p class="dob-home-lead">Conheça o mundo, domine o combate Sphere 51 e consulte as regras oficiais do shard.</p>
-
-  <button class="dob-home-search" type="button" data-dob-search aria-label="Abrir a busca da wiki">
-    <span>Pesquisar sistemas, magias, equipamentos e comandos...</span>
-    <strong>BUSCAR</strong>
-  </button>
-
-  <div class="dob-home-actions">
-    <a class="dob-primary-button" href="primeiros-passos/">Começar a jogar</a>
-    <a class="dob-secondary-button" href="patches/">Ver atualizações</a>
+<section class="dob-atlas-hero" aria-labelledby="dob-home-title">
+  <div class="dob-atlas-hero__copy">
+    <p class="dob-atlas-kicker">O CÓDICE DE BRITANNIA</p>
+    <h1 id="dob-home-title">Conhecimento para viver, lutar e conquistar.</h1>
+    <p>O manual oficial do shard, organizado do primeiro login às decisões mais profundas do PvP.</p>
+  </div>
+  <div class="dob-atlas-mark" aria-hidden="true">
+    <span>D</span>
+    <small>DAYS OF BRITANNIA</small>
   </div>
 </section>
 
-<section class="dob-home-status" aria-label="Estado atual do servidor">
-  <div>
-    <span>Versão oficial</span>
-    <strong>0.7.0</strong>
-  </div>
-  <div>
-    <span>Ruleset</span>
-    <strong>Sphere 51a</strong>
-  </div>
-  <div>
-    <span>Servidor</span>
-    <strong>Days of Britannia</strong>
-  </div>
-</section>
+<nav class="dob-atlas-journeys" aria-label="Jornadas da wiki">
+  <a href="primeiros-passos/">
+    <span>01</span>
+    <strong>Começar</strong>
+    <small>Cliente e personagem</small>
+  </a>
+  <a href="personagem/">
+    <span>02</span>
+    <strong>Preparar</strong>
+    <small>Stats, skills e itens</small>
+  </a>
+  <a href="combate/">
+    <span>03</span>
+    <strong>Dominar</strong>
+    <small>Combate e arena</small>
+  </a>
+  <a href="mundo/">
+    <span>04</span>
+    <strong>Explorar</strong>
+    <small>Mundo e sistemas</small>
+  </a>
+</nav>
 
-<section class="dob-home-section" aria-labelledby="dob-start-title">
-  <header class="dob-home-section__header">
-    <p>ROTAS PRINCIPAIS</p>
-    <h2 id="dob-start-title">Comece por aqui</h2>
-  </header>
+<section class="dob-atlas-content" aria-label="Conteúdo em destaque">
+  <article class="dob-atlas-feature">
+    <p class="dob-atlas-kicker">EM DESTAQUE</p>
+    <h2>O combate Sphere 51, explicado sem mistério</h2>
+    <p>Dano bruto, absorção regional, Parrying e exemplos reais reunidos em uma única leitura.</p>
+    <a href="combate/">LER CAPÍTULO <span aria-hidden="true">→</span></a>
+  </article>
 
-  <div class="dob-home-quick-links">
-    <a href="primeiros-passos/">
-      <span class="dob-home-card__index">01</span>
-      <h3>Primeiros passos</h3>
-      <p>Conecte-se, crie seu personagem e conheça o kit inicial.</p>
-      <span class="dob-home-card__action">ABRIR GUIA</span>
+  <div class="dob-atlas-index">
+    <a href="combate/magery/">
+      <span class="dob-atlas-index__code">MAG</span>
+      <span><strong>Magery</strong><small>Delays, dano e mana</small></span>
+      <i aria-hidden="true">→</i>
     </a>
-    <a href="combate/">
-      <span class="dob-home-card__index">02</span>
-      <h3>Combate Sphere 51</h3>
-      <p>Consulte fórmulas, Magery, armor, cura, poison e recursos.</p>
-      <span class="dob-home-card__action">VER COMBATE</span>
-    </a>
-    <a href="arena/">
-      <span class="dob-home-card__index">03</span>
-      <h3>Arena e treinamento</h3>
-      <p>Entenda duelos, kits, ranking e o PvP Trainer.</p>
-      <span class="dob-home-card__action">ENTRAR NA ARENA</span>
-    </a>
-  </div>
-</section>
-
-<section class="dob-home-section" aria-labelledby="dob-explore-title">
-  <header class="dob-home-section__header">
-    <p>COMPÊNDIO DO SHARD</p>
-    <h2 id="dob-explore-title">Explore a wiki</h2>
-  </header>
-
-  <div class="dob-home-directory">
-    <a href="personagem/">
-      <span>Personagem</span>
-      <small>Stats, skills, caps e raça</small>
-    </a>
-    <a href="mundo/">
-      <span>Mundo</span>
-      <small>Mapas, viagem, cidades e guards</small>
+    <a href="combate/cura-recursos/">
+      <span class="dob-atlas-index__code">HP</span>
+      <span><strong>Cura e recursos</strong><small>Bandagens, poções e meditação</small></span>
+      <i aria-hidden="true">→</i>
     </a>
     <a href="itens/">
-      <span>Itens</span>
-      <small>Armas, armaduras e consumíveis</small>
+      <span class="dob-atlas-index__code">EQP</span>
+      <span><strong>Equipamentos</strong><small>Armas e armaduras clássicas</small></span>
+      <i aria-hidden="true">→</i>
     </a>
-    <a href="sistemas/">
-      <span>Sistemas</span>
-      <small>Recursos ativos e desativados</small>
-    </a>
-    <a href="comandos/">
-      <span>Comandos</span>
-      <small>Arena, PvPCamp e utilidades</small>
-    </a>
-    <a href="proximo-patch/">
-      <span>Próximo patch</span>
-      <small>Mudanças em validação local</small>
+    <a href="arena/">
+      <span class="dob-atlas-index__code">PVP</span>
+      <span><strong>Arena</strong><small>Regras, kits e temporadas</small></span>
+      <i aria-hidden="true">→</i>
     </a>
   </div>
 </section>
 
-<section class="dob-home-release" aria-labelledby="dob-release-title">
-  <div class="dob-home-release__meta">
-    <span>ATUALIZAÇÃO MAIS RECENTE</span>
-    <strong>LIVE 0.7.0</strong>
+<section class="dob-atlas-update" aria-labelledby="dob-release-title">
+  <div>
+    <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
+    <h2 id="dob-release-title">0.7.0 · Equipamentos e Estratégia</h2>
   </div>
-  <div class="dob-home-release__content">
-    <h2 id="dob-release-title">Equipamentos e Estratégia</h2>
-    <p>O patch 0.7.0 consolidou a absorção percentual por região, os tiers clássicos de equipamentos, os kits configuráveis da Arena e novas decisões do PvP Trainer.</p>
-    <a href="patches/">LER PATCH NOTES COMPLETOS</a>
-  </div>
-</section>
-
-<section class="dob-home-legend" aria-label="Estados da documentação">
-  <span><i class="is-live"></i><strong>Live</strong> disponível no servidor oficial</span>
-  <span><i class="is-next"></i><strong>Próximo patch</strong> em validação local</span>
-  <span><i class="is-history"></i><strong>Histórico</strong> versões já publicadas</span>
+  <p>Absorção percentual por região, tiers clássicos e kits configuráveis da Arena.</p>
+  <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

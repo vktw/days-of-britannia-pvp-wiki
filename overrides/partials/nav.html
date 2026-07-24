@@ -1,0 +1,122 @@
+{# Compact Atlas navigation on desktop, accessible accordion drawer on mobile. #}
+{% set atlas_icons = [
+  "material/home-outline",
+  "material/rocket-launch-outline",
+  "material/account-outline",
+  "material/map-outline",
+  "material/sword-cross",
+  "material/shield-outline",
+  "material/trophy-outline",
+  "material/cog-outline",
+  "material/console",
+  "material/history"
+] %}
+
+<nav class="md-nav md-nav--primary dob-atlas-nav" aria-label="{{ lang.t('nav') }}" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-nav__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
+      {% include "partials/logo.html" %}
+    </a>
+    DoB Codex
+  </label>
+
+  <div class="dob-atlas-desktop">
+    <div class="dob-atlas-rail" aria-label="Seções da wiki">
+      {% for nav_item in nav.items %}
+        {% set icon = atlas_icons[loop.index0] %}
+        {% if nav_item.children %}
+          <button
+            class="dob-atlas-rail__item{% if nav_item.active %} is-current{% endif %}"
+            type="button"
+            aria-label="Abrir {{ nav_item.title }}"
+            title="{{ nav_item.title }}"
+            aria-controls="dob-atlas-panel-{{ loop.index }}"
+            aria-expanded="false"
+            data-dob-nav-target="dob-atlas-panel-{{ loop.index }}"
+            data-dob-nav-label="{{ nav_item.title }}"
+          >
+            {% include ".icons/" ~ icon ~ ".svg" %}
+          </button>
+        {% else %}
+          <a
+            class="dob-atlas-rail__item{% if nav_item.active %} is-current{% endif %}"
+            href="{{ nav_item.url | url }}"
+            aria-label="{{ nav_item.title }}"
+            title="{{ nav_item.title }}"
+            data-dob-nav-label="{{ nav_item.title }}"
+          >
+            {% include ".icons/" ~ icon ~ ".svg" %}
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="dob-atlas-panels" data-dob-nav-panels>
+      {% for nav_item in nav.items %}
+        {% if nav_item.children %}
+          {% set icon = atlas_icons[loop.index0] %}
+          <section class="dob-atlas-panel" id="dob-atlas-panel-{{ loop.index }}" data-dob-nav-panel hidden>
+            <header class="dob-atlas-panel__header">
+              <span class="dob-atlas-panel__icon">{% include ".icons/" ~ icon ~ ".svg" %}</span>
+              <div>
+                <small>SEÇÃO</small>
+                <strong>{{ nav_item.title }}</strong>
+              </div>
+              <button type="button" aria-label="Fechar navegação" data-dob-nav-close>
+                {% include ".icons/material/close.svg" %}
+              </button>
+            </header>
+            <ul class="dob-atlas-panel__list">
+              {% for child in nav_item.children %}
+                <li>
+                  {% if child.children %}
+                    <span>{{ child.title }}</span>
+                    <ul>
+                      {% for grandchild in child.children %}
+                        <li><a href="{{ grandchild.url | url }}"{% if grandchild.active %} aria-current="page"{% endif %}>{{ grandchild.title }}</a></li>
+                      {% endfor %}
+                    </ul>
+                  {% else %}
+                    <a href="{{ child.url | url }}"{% if child.active %} aria-current="page"{% endif %}>
+                      <span>{{ child.title }}</span>
+                      {% include ".icons/material/chevron-right.svg" %}
+                    </a>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </section>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="dob-atlas-mobile">
+    <ul class="dob-atlas-mobile__list">
+      {% for nav_item in nav.items %}
+        {% set icon = atlas_icons[loop.index0] %}
+        <li>
+          {% if nav_item.children %}
+            <details{% if nav_item.active %} class="is-current"{% endif %}>
+              <summary>
+                {% include ".icons/" ~ icon ~ ".svg" %}
+                <span>{{ nav_item.title }}</span>
+                {% include ".icons/material/chevron-down.svg" %}
+              </summary>
+              <ul>
+                {% for child in nav_item.children %}
+                  <li><a href="{{ child.url | url }}"{% if child.active %} aria-current="page"{% endif %}>{{ child.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </details>
+          {% else %}
+            <a href="{{ nav_item.url | url }}"{% if nav_item.active %} aria-current="page"{% endif %}>
+              {% include ".icons/" ~ icon ~ ".svg" %}
+              <span>{{ nav_item.title }}</span>
+            </a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>

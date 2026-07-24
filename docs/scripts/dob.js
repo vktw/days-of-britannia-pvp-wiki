@@ -20,32 +20,119 @@ function bindDobHome() {
   });
 }
 
-function bindDobNavigation() {
-  const selector = ".md-nav--primary > .md-nav__list > .md-nav__item--nested > .md-nav__toggle";
-  const toggles = Array.from(document.querySelectorAll(selector));
+function bindDobSearchShortcut() {
+  if (document.body.dataset.dobSearchShortcutBound === "true") {
+    return;
+  }
 
-  toggles.forEach((toggle) => {
-    if (toggle.dataset.dobAccordionBound === "true") {
+  document.body.dataset.dobSearchShortcutBound = "true";
+  document.addEventListener("keydown", (event) => {
+    if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k") {
+      event.preventDefault();
+      openDobSearch();
+    }
+  });
+}
+
+function personalizeDobSearch() {
+  const input = document.querySelector(".md-search__input");
+
+  if (input) {
+    input.placeholder = "Buscar no códice";
+  }
+}
+
+function bindDobNavigation() {
+  document.body.classList.remove("dob-atlas-nav-open");
+
+  const nav = document.querySelector(".dob-atlas-nav");
+
+  if (!nav) {
+    return;
+  }
+
+  const triggers = Array.from(nav.querySelectorAll("[data-dob-nav-target]"));
+  const panels = Array.from(nav.querySelectorAll("[data-dob-nav-panel]"));
+
+  function closeNavigation() {
+    document.body.classList.remove("dob-atlas-nav-open");
+    triggers.forEach((trigger) => trigger.setAttribute("aria-expanded", "false"));
+    panels.forEach((panel) => {
+      panel.hidden = true;
+    });
+  }
+
+  triggers.forEach((trigger) => {
+    if (trigger.dataset.dobAtlasBound === "true") {
       return;
     }
 
-    toggle.dataset.dobAccordionBound = "true";
-    toggle.addEventListener("change", () => {
-      if (!toggle.checked) {
+    trigger.dataset.dobAtlasBound = "true";
+    trigger.addEventListener("click", () => {
+      const targetId = trigger.dataset.dobNavTarget;
+      const target = document.getElementById(targetId);
+      const shouldOpen = trigger.getAttribute("aria-expanded") !== "true";
+
+      closeNavigation();
+
+      if (!shouldOpen || !target) {
         return;
       }
 
-      toggles.forEach((other) => {
-        if (other !== toggle) {
-          other.checked = false;
+      document.body.classList.add("dob-atlas-nav-open");
+      trigger.setAttribute("aria-expanded", "true");
+      target.hidden = false;
+    });
+  });
+
+  nav.querySelectorAll("[data-dob-nav-close]").forEach((button) => {
+    if (button.dataset.dobAtlasBound === "true") {
+      return;
+    }
+
+    button.dataset.dobAtlasBound = "true";
+    button.addEventListener("click", closeNavigation);
+  });
+
+  nav.querySelectorAll(".dob-atlas-mobile details").forEach((details) => {
+    if (details.dataset.dobAtlasBound === "true") {
+      return;
+    }
+
+    details.dataset.dobAtlasBound = "true";
+    details.addEventListener("toggle", () => {
+      if (!details.open) {
+        return;
+      }
+
+      nav.querySelectorAll(".dob-atlas-mobile details").forEach((other) => {
+        if (other !== details) {
+          other.open = false;
         }
       });
     });
   });
+
+  if (document.body.dataset.dobNavEscapeBound !== "true") {
+    document.body.dataset.dobNavEscapeBound = "true";
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        document.body.classList.remove("dob-atlas-nav-open");
+        document.querySelectorAll("[data-dob-nav-target]").forEach((trigger) => {
+          trigger.setAttribute("aria-expanded", "false");
+        });
+        document.querySelectorAll("[data-dob-nav-panel]").forEach((panel) => {
+          panel.hidden = true;
+        });
+      }
+    });
+  }
 }
 
 function bindDobUi() {
   bindDobHome();
+  bindDobSearchShortcut();
+  personalizeDobSearch();
   bindDobNavigation();
 }
 

@@ -1,4 +1,4 @@
-{# Days of Britannia header, based on Material for MkDocs' public template blocks. #}
+{# Days of Britannia Atlas header, based on Material for MkDocs' public template blocks. #}
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header') }}">
     <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-header__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
@@ -10,21 +10,21 @@
     </label>
     <div class="md-header__title">
       <div class="dob-header-brand">
-        <span class="dob-header-name">DoB WIKI</span>
-        <span class="dob-header-tagline">Manual oficial do Days of Britannia</span>
+        <span class="dob-header-name">DoB CODEX</span>
+        <span class="dob-header-tagline">Manual de Britannia</span>
       </div>
     </div>
-    <span class="dob-header-version">{{ config.extra.dob_version }}</span>
     {% if "material/search" in config.plugins %}
       {% set search = config.plugins["material/search"] | attr("config") %}
       {% if search.enabled %}
-        <label class="md-header__button md-icon" for="__search">
+        <label class="md-header__button md-icon dob-header-search-toggle" for="__search">
           {% set icon = config.theme.icon.search or "material/magnify" %}
           {% include ".icons/" ~ icon ~ ".svg" %}
         </label>
         {% include "partials/search.html" %}
       {% endif %}
     {% endif %}
+    <span class="dob-header-version">{{ config.extra.dob_version }}</span>
     {% if config.repo_url %}
       <div class="md-header__source">
         {% include "partials/source.html" %}

@@ -1,5 +1,5 @@
 site/
+dist/
 .cache/
 __pycache__/
 .venv/
-

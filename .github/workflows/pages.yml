@@ -1,4 +1,4 @@
-name: Publish documentation
+name: Validate documentation
 
 on:
   push:
@@ -7,12 +7,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
 
 jobs:
   build:
@@ -25,18 +19,3 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: mkdocs build --strict
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
-
