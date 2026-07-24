@@ -25,10 +25,35 @@ Cada peça exibe sua contribuição individual de Physical Resist/Armor Rating. 
 
 As resistências elementais modernas não participam do PvP.
 
-Quando existe armor na região sorteada, a peça absorve aleatoriamente entre `floor(AR / 4)` e `ceil(AR / 2)`. Essa absorção, isoladamente, nunca reduz o golpe para menos de 1 de dano.
+O `AR da região` corresponde ao `ArmorRatingScaled` da peça sorteada e já incorpora material, qualidade, durabilidade, propriedade clássica e o peso proporcional daquela região corporal. Protection acrescenta seu bônus de +5 a +10 a esse valor, inclusive quando a região sorteada está sem armor.
+
+A absorção regional é:
+
+```text
+AR efetivo = AR da região + bônus de Protection
+absorção mínima = floor(AR efetivo / 4)
+absorção máxima = ceil(AR efetivo / 2)
+absorção = inteiro aleatório entre o mínimo e o máximo
+dano final = max(1, dano bruto − absorção)
+```
+
+Sem armor e sem Protection, o AR efetivo é zero e o dano bruto passa integralmente.
 
 ## Escudos
 
-Com Parrying 100.0, a chance máxima de bloqueio é **45%**. Quando o bloqueio ocorre, o sorteio de região corporal é substituído pelo escudo. Ele absorve seu próprio Armor Rating arredondado, em vez de simplesmente anular todo o ataque, preservando no mínimo 1 de dano.
+Parrying exige um shield equipado. Sem shield, a chance de bloqueio é zero. A chance é calculada por:
+
+`chance de parry = min(45%, Parrying × 0,45%)`
+
+Com Parrying 100.0, portanto, a chance de bloqueio é **45%**. Quando o bloqueio ocorre, não existe sorteio de região corporal: o shield substitui completamente essa etapa.
+
+```text
+absorção do shield = max(0, round(ArmorRatingScaled do shield))
+dano final = max(1, dano bruto − absorção do shield)
+```
+
+O arredondamento segue o padrão numérico do servidor. Protection não é acrescentada à absorção do shield.
 
 O escudo, portanto, continua valorizando qualidades superiores como Invulnerability.
+
+Consulte [Exemplos de dano](exemplos-dano.md) para comparar região sem armor, armor regional e bloqueio com shield.

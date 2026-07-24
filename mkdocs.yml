@@ -36,6 +36,7 @@ nav:
   - Combate:
       - Melee e Archery: combate/melee-archery.md
       - Armor e Parrying: combate/armor-parrying.md
+      - Exemplos de dano: combate/exemplos-dano.md
       - Magery: combate/magery.md
       - Cura e recursos: combate/cura-recursos.md
       - Poison: combate/poison.md
@@ -44,4 +45,3 @@ nav:
   - Sistemas desativados: sistemas-desativados.md
   - Em teste: em-teste.md
   - Patch notes: patches.md
-

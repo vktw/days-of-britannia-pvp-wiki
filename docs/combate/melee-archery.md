@@ -24,11 +24,28 @@ Trocas de equipamento usam um action delay de **25 ms** por item. Esse intervalo
 
 ## Dano e alcance
 
-O dano físico considera a arma, sua propriedade clássica, STR, Tactics e Anatomy. A escala aplicada ao dano-base é:
+Cada golpe que acerta sorteia primeiro um valor inteiro entre `MinDamage` e `MaxDamage` da arma. Esse valor é o **dano-base sorteado**.
 
-`dano = dano-base × [1 + (Tactics − 50)/100 + Anatomy/500 + STR/500]`
+A escala do atacante é:
 
-A STR efetiva fica limitada entre 0 e 120. Ruin, Might, Force, Power e Vanquishing acrescentam, respectivamente, +1, +3, +5, +7 e +9 ao dano-base antes dessa escala.
+`escala = 1 + (Tactics − 50)/100 + Anatomy/500 + STR efetiva/500`
+
+A STR efetiva fica limitada entre 0 e 120. O dano bruto é calculado na seguinte ordem:
+
+`dano bruto = truncar(dano-base sorteado × escala) + bônus clássico da arma`
+
+`truncar` descarta a parte decimal. O resultado da escala nunca fica abaixo de 1 ponto antes do bônus clássico.
+
+| Propriedade | Bônus somado após a escala |
+|---|---:|
+| Regular | 0 |
+| Ruin | +1 |
+| Might | +3 |
+| Force | +5 |
+| Power | +7 |
+| Vanquishing | +9 |
+
+O mesmo cálculo é usado por Melee e Archery. A skill da arma determina a chance de acerto, mas não aparece novamente na fórmula de dano bruto.
 
 Armas envenenadas consomem uma carga e aplicam poison em todo golpe bem-sucedido.
 
@@ -49,3 +66,5 @@ O range adicional não modifica a velocidade da arma.
 Armas de Archery não podem ser equipadas enquanto o personagem usa uma peça de plate corporal. Também não é possível vestir plate corporal com uma arma de Archery equipada.
 
 **Plate Gorget e shields são exceções** e podem ser combinados com Archery.
+
+Consulte [Exemplos de dano](exemplos-dano.md) para acompanhar o cálculo completo do sorteio da arma até os hits retirados do alvo.
