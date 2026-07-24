@@ -20,8 +20,37 @@ function bindDobHome() {
   });
 }
 
+function bindDobNavigation() {
+  const selector = ".md-nav--primary > .md-nav__list > .md-nav__item--nested > .md-nav__toggle";
+  const toggles = Array.from(document.querySelectorAll(selector));
+
+  toggles.forEach((toggle) => {
+    if (toggle.dataset.dobAccordionBound === "true") {
+      return;
+    }
+
+    toggle.dataset.dobAccordionBound = "true";
+    toggle.addEventListener("change", () => {
+      if (!toggle.checked) {
+        return;
+      }
+
+      toggles.forEach((other) => {
+        if (other !== toggle) {
+          other.checked = false;
+        }
+      });
+    });
+  });
+}
+
+function bindDobUi() {
+  bindDobHome();
+  bindDobNavigation();
+}
+
 if (typeof document$ !== "undefined") {
-  document$.subscribe(bindDobHome);
+  document$.subscribe(bindDobUi);
 } else {
-  document.addEventListener("DOMContentLoaded", bindDobHome);
+  document.addEventListener("DOMContentLoaded", bindDobUi);
 }
