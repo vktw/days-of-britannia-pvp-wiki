@@ -248,6 +248,8 @@ body {
 }
 
 .md-content__inner {
+  box-sizing: border-box;
+  width: 100%;
   max-width: 860px;
   margin-right: auto;
   margin-left: auto;
@@ -480,6 +482,24 @@ body {
 @media screen and (min-width: 76.25em) {
   .md-grid {
     max-width: 92rem;
+  }
+
+  .md-content:not(.dob-home) {
+    display: flex;
+    min-width: 0;
+    justify-content: center;
+  }
+
+  .md-content:not(.dob-home) .md-content__inner {
+    max-width: 1120px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .md-content:not(.dob-home) .md-content__inner > p,
+  .md-content:not(.dob-home) .md-content__inner > ul,
+  .md-content:not(.dob-home) .md-content__inner > ol {
+    max-width: 90ch;
   }
 }
 
