@@ -1,55 +1,116 @@
-# Days of Britannia Wiki
+---
+template: home.html
+hide:
+  - toc
+---
 
-!!! success "Status: Live 0.7.0"
-    Esta wiki descreve o servidor oficial na versão **0.7.0**. Mudanças ainda não publicadas aparecem exclusivamente em [Próximo patch planejado](proximo-patch.md).
+<section class="dob-home-hero" aria-labelledby="dob-home-title">
+  <p class="dob-home-eyebrow">WIKI OFICIAL · LIVE 0.7.0</p>
+  <h1 id="dob-home-title">Days of Britannia</h1>
+  <p class="dob-home-lead">Conheça o mundo, domine o combate Sphere 51 e consulte as regras oficiais do shard.</p>
 
-Bem-vindo à wiki oficial do **Days of Britannia (DoB)**. Este manual reúne as regras do shard, os primeiros passos, o mundo, personagens, itens, sistemas e o combate inspirado no Sphere 51.
+  <button class="dob-home-search" type="button" data-dob-search aria-label="Abrir a busca da wiki">
+    <span>Pesquisar sistemas, magias, equipamentos e comandos...</span>
+    <strong>BUSCAR</strong>
+  </button>
 
-[Começar por aqui](primeiros-passos/index.md){ .dob-primary-button }
-[Patch notes](patches.md){ .dob-secondary-button }
+  <div class="dob-home-actions">
+    <a class="dob-primary-button" href="primeiros-passos/">Começar a jogar</a>
+    <a class="dob-secondary-button" href="patches/">Ver atualizações</a>
+  </div>
+</section>
 
-## Comece por aqui
+<section class="dob-home-status" aria-label="Estado atual do servidor">
+  <div>
+    <span>Versão oficial</span>
+    <strong>0.7.0</strong>
+  </div>
+  <div>
+    <span>Ruleset</span>
+    <strong>Sphere 51a</strong>
+  </div>
+  <div>
+    <span>Servidor</span>
+    <strong>Days of Britannia</strong>
+  </div>
+</section>
 
-| Quero... | Página |
-|---|---|
-| Entrar no servidor | [Como conectar](primeiros-passos/conexao.md) |
-| Entender meu personagem inicial | [Seu primeiro personagem](primeiros-passos/personagem-inicial.md) |
-| Consultar stats, skills e caps | [Personagem](personagem.md) |
-| Conhecer mapas e regras de viagem | [Mundo](mundo/index.md) |
-| Aprender as regras de combate | [Combate](combate/index.md) |
-| Comparar armas, armors e consumíveis | [Itens](itens/index.md) |
-| Participar das arenas | [Arena e treinamento](arena.md) |
-| Consultar comandos | [Comandos de jogador](comandos.md) |
+<section class="dob-home-section" aria-labelledby="dob-start-title">
+  <header class="dob-home-section__header">
+    <p>ROTAS PRINCIPAIS</p>
+    <h2 id="dob-start-title">Comece por aqui</h2>
+  </header>
 
-## Identidade do shard
+  <div class="dob-home-quick-links">
+    <a href="primeiros-passos/">
+      <span class="dob-home-card__index">01</span>
+      <h3>Primeiros passos</h3>
+      <p>Conecte-se, crie seu personagem e conheça o kit inicial.</p>
+      <span class="dob-home-card__action">ABRIR GUIA</span>
+    </a>
+    <a href="combate/">
+      <span class="dob-home-card__index">02</span>
+      <h3>Combate Sphere 51</h3>
+      <p>Consulte fórmulas, Magery, armor, cura, poison e recursos.</p>
+      <span class="dob-home-card__action">VER COMBATE</span>
+    </a>
+    <a href="arena/">
+      <span class="dob-home-card__index">03</span>
+      <h3>Arena e treinamento</h3>
+      <p>Entenda duelos, kits, ranking e o PvP Trainer.</p>
+      <span class="dob-home-card__action">ENTRAR NA ARENA</span>
+    </a>
+  </div>
+</section>
 
-Days of Britannia utiliza o TrueUO como base técnica, mas substitui grande parte do combate moderno por um ruleset próprio inspirado no **Sphere 51a**. O objetivo é oferecer leitura clara de dano, equipamentos clássicos, Magery com alvo antes do cast e decisões de combate compreensíveis pelo jogador.
+<section class="dob-home-section" aria-labelledby="dob-explore-title">
+  <header class="dob-home-section__header">
+    <p>COMPÊNDIO DO SHARD</p>
+    <h2 id="dob-explore-title">Explore a wiki</h2>
+  </header>
 
-O PvP continua sendo uma área central desta wiki, agora integrado ao restante do servidor em vez de existir como um manual isolado.
+  <div class="dob-home-directory">
+    <a href="personagem/">
+      <span>Personagem</span>
+      <small>Stats, skills, caps e raça</small>
+    </a>
+    <a href="mundo/">
+      <span>Mundo</span>
+      <small>Mapas, viagem, cidades e guards</small>
+    </a>
+    <a href="itens/">
+      <span>Itens</span>
+      <small>Armas, armaduras e consumíveis</small>
+    </a>
+    <a href="sistemas/">
+      <span>Sistemas</span>
+      <small>Recursos ativos e desativados</small>
+    </a>
+    <a href="comandos/">
+      <span>Comandos</span>
+      <small>Arena, PvPCamp e utilidades</small>
+    </a>
+    <a href="proximo-patch/">
+      <span>Próximo patch</span>
+      <small>Mudanças em validação local</small>
+    </a>
+  </div>
+</section>
 
-## Como ler a wiki
+<section class="dob-home-release" aria-labelledby="dob-release-title">
+  <div class="dob-home-release__meta">
+    <span>ATUALIZAÇÃO MAIS RECENTE</span>
+    <strong>LIVE 0.7.0</strong>
+  </div>
+  <div class="dob-home-release__content">
+    <h2 id="dob-release-title">Equipamentos e Estratégia</h2>
+    <p>O patch 0.7.0 consolidou a absorção percentual por região, os tiers clássicos de equipamentos, os kits configuráveis da Arena e novas decisões do PvP Trainer.</p>
+    <a href="patches/">LER PATCH NOTES COMPLETOS</a>
+  </div>
+</section>
 
-- **Live:** comportamento disponível no servidor oficial.
-- **Próximo patch:** mudança implementada localmente e anunciada para publicação futura.
-- **Planejado:** proposta aprovada, mas ainda não disponível.
-- **Histórico:** registro de versões anteriores.
-
-As páginas comuns descrevem somente o Live. Consulte [Patch notes](patches.md) para o histórico e [Próximo patch planejado](proximo-patch.md) para saber o que ainda não entrou no oficial.
-
-## Áreas principais
-
-### Mundo e personagem
-
-Novos personagens começam com uma base comum de stats, skills e equipamentos. As páginas de [Primeiros passos](primeiros-passos/index.md), [Personagem](personagem.md) e [Mundo](mundo/index.md) explicam essa fundação.
-
-### Combate
-
-Melee, Archery, Magery, armor regional, Parrying, poison, cura e mana possuem regras próprias. A seção [Combate](combate/index.md) reúne fórmulas e exemplos práticos.
-
-### Arena
-
-As arenas oferecem duelos estruturados, kits equivalentes, rankings e treinamento contra o PvP Trainer. Veja [Arena e treinamento](arena.md).
-
-### Atualizações
-
-O servidor usa versionamento semântico. A versão atual e todas as anteriores permanecem documentadas em [Patch notes](patches.md).
+<section class="dob-home-legend" aria-label="Estados da documentação">
+  <span><i class="is-live"></i><strong>Live</strong> disponível no servidor oficial</span>
+  <span><i class="is-next"></i><strong>Próximo patch</strong> em validação local</span>
+  <span><i class="is-history"></i><strong>Histórico</strong> versões já publicadas</span>
+</section>

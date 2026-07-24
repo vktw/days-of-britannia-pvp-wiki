@@ -24,6 +24,8 @@ extra:
   dob_version: "Live 0.7.0"
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - scripts/dob.js
 plugins:
   - search:
       lang: pt

@@ -1,0 +1,11 @@
+{% extends "main.html" %}
+
+{% block container %}
+  <div class="md-content dob-home" data-md-component="content">
+    <article class="md-content__inner md-typeset">
+      {% block content %}
+        {% include "partials/content.html" %}
+      {% endblock %}
+    </article>
+  </div>
+{% endblock %}
