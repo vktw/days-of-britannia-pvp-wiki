@@ -17,6 +17,8 @@
 - Os kits do `[PvPCamp`, da arena e do PvP Trainer passam a fornecer **15 Greater Heal Potions** e **15 Total Mana Potions**.
 - Os mesmos kits passam a fornecer **3 Deadly Poison Potions**, independentes do cooldown global das poções ingeríveis e sujeitas apenas ao fluxo normal da skill Poisoning.
 - `[PvPCamp` e `[PvPTrainer` passam a aceitar também os aliases `.pvpcamp` e `.pvptrainer`.
+- `.arena`, `.pvpcamp` e `.pvptrainer` passam a abrir uma seleção intermediária de armor e weapons. Armor segue Regular, Defense, Guarding, Hardening, Fortification e Invulnerability; weapons seguem Regular, Ruin, Might, Force, Power e Vanquishing.
+- Em lutas de arena, o loadout escolhido pelo desafiante é obrigatório para os dois jogadores ou para jogador e PvP Trainer. O anúncio global e os gumps de aceite e confirmação mostram os tiers selecionados.
 - A telemetria de arena recebe atribuição mais precisa da origem de dano e cura.
 
 ## Skills iniciais
