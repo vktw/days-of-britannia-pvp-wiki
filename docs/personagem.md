@@ -20,8 +20,9 @@ Não existe skill cap global efetivo. Cada skill de jogador é limitada individu
 - Buffs temporários, potions e itens podem elevar cada stat até 120.
 - Bless: +10 em STR, DEX e INT.
 - Strength, Agility e Cunning: +15 no stat correspondente.
-- Potion normal: +10 no stat correspondente.
-- Greater Potion: +15 no stat correspondente.
+- Agility Potion: +10 DEX; Greater Agility Potion: +15 DEX.
+- Strength Potion: +10 STR; Greater Strength Potion: +15 STR.
+- Não existe uma Cunning Potion equivalente para aumentar INT no conjunto atual.
 - Joias da arena concedem +5 de STR, DEX ou INT conforme a peça.
 
 STR influencia vida e dano físico. DEX influencia stamina e velocidade das armas. INT influencia mana e participa de fórmulas mágicas.
@@ -29,4 +30,3 @@ STR influencia vida e dano físico. DEX influencia stamina e velocidade das arma
 ## Raça
 
 Human é a única raça permanente disponível para jogadores. Transformações temporárias de magia continuam sendo efeitos separados.
-

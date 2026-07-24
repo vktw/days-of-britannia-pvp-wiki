@@ -52,20 +52,36 @@ Os valores abaixo consideram **100 INT e 100.0 Evaluating Intelligence**:
 | Flame Strike | 40 |
 | Chain Lightning | 40 |
 | Meteor Swarm | 40 |
+| Earthquake | 50% dos hits atuais + 0-15 |
 
 INT e Evaluating Intelligence abaixo de 100 reduzem esses valores. Embora buffs possam elevar INT até 120, **INT acima de 100 não aumenta o dano mágico**. Inscription também não modifica esse dano.
 
 Flame Strike é a âncora do equilíbrio: consome 40 mana e causa 40 de dano nas condições máximas. Sem scroll, sua Magery mínima é 50. Magias com projétil preservam apenas o tempo necessário para sincronizar dano e impacto visual, enquanto Explosion mantém seu fuse de três segundos.
 
-Resisting Spells participa das resistências e efeitos elegíveis, mas não recria as resistências elementais AOS.
+Harm causa seu dano integral a um tile, 50% a dois tiles e 25% além disso. Chain Lightning e Meteor Swarm dividem a reserva máxima de 40 pontos entre os alvos atingidos.
+
+Earthquake é uma exceção: não usa cursor, tem cast de 4,5 segundos e atinge uma área ao redor do caster. Contra jogadores, causa metade dos hits atuais mais 0 a 15 pontos; a parcela baseada nos hits é limitada entre 15 e 100 antes do adicional aleatório. Por depender da vida atual, seu dano pode superar o de Flame Strike.
+
+Resisting Spells pode impedir a aplicação de Poison mágico, participa da duração de Paralyze e integra a reserva de Magic Reflection. Ela não recria as cinco resistências elementais AOS nem reduz diretamente o dano mágico Sphere.
 
 ## Buffs e controle
 
 - Protection concede +5 a +10 AR por 60 segundos, sem penalidades modernas. Termina por morte, logout, Dispel, Purge Magic ou expiração e persiste em saves durante uma sessão válida.
 - Reactive Armor pode ser ativada e exibe seu buff, mas seu bônus de Physical Resistance AOS **não reduz o dano no PvP Live**. A reflexão clássica de dano também ainda não está implementada.
+- Magic Reflection usa uma reserva calculada por Magery e Resisting Spells para refletir magias elegíveis. Seus modificadores de resistências AOS não reduzem o dano mágico Sphere, e Inscription não participa do cálculo.
 - Paralyze pode ser renovado. Sua duração é `60 + (100 - Eval Int) × 0,3 + (100 - Resist) × 0,3` segundos, variando de 60 a 120 segundos dentro dos limites normais das skills.
 - Poison não rompe Paralyze. Dano direto abre a possibilidade de liberação.
 - Magic Arrow em si mesmo é uma forma válida de causar esse dano direto.
 - Paralyze Field usa as mesmas regras do Paralyze e também pode afetar o caster. Dano direto abre uma janela de **500 ms** antes de o field poder reaplicar Paralyze; permanecer ou voltar ao tile após essa janela permite nova aplicação.
 - Ataques melee e disparos de Archery já preparados continuam podendo ser liberados durante Paralyze quando suas demais condições forem atendidas.
 - Wall of Stone forma cinco tiles, dura 60 segundos e pode coexistir com outros fields.
+
+## Alvos benéficos e summons
+
+Create Food, Reactive Armor, Protection, Magic Reflection, Incognito e Polymorph aceitam qualquer `Mobile` vivo e válido em alcance 10, incluindo o próprio caster, jogadores e NPCs. Polymorph aplica ao alvo a forma previamente escolhida pelo caster, e Create Food entrega o alimento à mochila do alvo.
+
+Summon Creature, Summon Daemon e os elementais de Air, Earth, Fire e Water aceitam como referência o chão ou um `Mobile` em alcance 10. Na liberação, a criatura surge no ponto válido mais próximo da posição atual do alvo e permanece pertencendo e obedecendo ao caster. Summons de jogadores continuam impedidos de causar dano a outros jogadores.
+
+## Viagem em Trammel
+
+Recall, Mark e Gate Travel são bloqueados para jogadores quando a origem ou o destino está em Trammel. A regra também alcança scrolls, Runebooks e outros meios que utilizam o mesmo validador de viagem. Teleport continua disponível fora das restrições específicas de uma sessão de arena.
