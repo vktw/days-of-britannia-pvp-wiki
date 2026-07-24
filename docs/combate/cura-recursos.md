@@ -1,5 +1,8 @@
 # Cura e recursos
 
+!!! success "Status: Live 0.7.0"
+    Faixas, delays e recuperação correspondem ao servidor oficial.
+
 ## Faixas de cura
 
 Valores abaixo consideram as skills relevantes em 100.0:

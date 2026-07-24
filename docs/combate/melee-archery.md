@@ -1,5 +1,8 @@
 # Melee e Archery
 
+!!! success "Status: Live 0.7.0"
+    Fórmulas e comportamentos ativos no servidor oficial.
+
 ## Chance de acerto
 
 Com skill ofensiva 100.0 contra defesa 100.0, Melee e Archery possuem **65% de chance de acerto**. A fórmula é:

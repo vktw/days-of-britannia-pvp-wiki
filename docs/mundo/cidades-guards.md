@@ -1,0 +1,18 @@
+# Cidades e guards
+
+!!! success "Status: Live 0.7.0"
+    Esta página registra somente exceções confirmadas. A ausência de uma cidade na lista não significa que ela seja desprotegida.
+
+## Cove
+
+Cove em Felucca não possui proteção de guards e pode ser usada como área aberta de PvP. O transporte opcional de `[PvPCamp` leva o personagem para Cove, Felucca.
+
+## Moonglow em Trammel
+
+A região da cidade e o moongate de Moonglow em Trammel foram deixados sem guards para a operação da Arena Moonglow.
+
+## Yew Cemetery
+
+A Arena Yew Cemetery ocupa uma área controlada em Trammel e aceita apenas duelos entre jogadores.
+
+Consulte [Arena e treinamento](../arena.md) para regras de entrada, interferência externa e devolução dos personagens.

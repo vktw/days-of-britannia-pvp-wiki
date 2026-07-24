@@ -1,5 +1,5 @@
-site_name: Days of Britannia PvP
-site_description: Manual oficial das regras de PvP de Days of Britannia
+site_name: Days of Britannia Wiki
+site_description: Manual oficial do servidor Days of Britannia
 site_url: https://vktw.github.io/days-of-britannia-pvp-wiki/
 repo_url: https://github.com/vktw/days-of-britannia-pvp-wiki
 repo_name: vktw/days-of-britannia-pvp-wiki
@@ -32,16 +32,35 @@ markdown_extensions:
       permalink: true
 nav:
   - Inicio: index.md
-  - Personagem: personagem.md
+  - Primeiros passos:
+      - Comece aqui: primeiros-passos/index.md
+      - Como conectar: primeiros-passos/conexao.md
+      - Seu primeiro personagem: primeiros-passos/personagem-inicial.md
+  - Personagem:
+      - Stats, skills e raça: personagem.md
+  - Mundo:
+      - Visão geral: mundo/index.md
+      - Mapas e viagem: mundo/mapas-viagem.md
+      - Cidades e guards: mundo/cidades-guards.md
   - Combate:
+      - Visão geral: combate/index.md
       - Melee e Archery: combate/melee-archery.md
       - Armor e Parrying: combate/armor-parrying.md
       - Exemplos de dano: combate/exemplos-dano.md
       - Magery: combate/magery.md
       - Cura e recursos: combate/cura-recursos.md
       - Poison: combate/poison.md
-  - Arena: arena.md
+  - Itens:
+      - Visão geral: itens/index.md
+      - Armas clássicas: itens/armas.md
+      - Armaduras clássicas: itens/armaduras.md
+      - Consumíveis e utilidades: itens/consumiveis.md
+  - Arena e treinamento: arena.md
+  - Sistemas:
+      - Visão geral: sistemas/index.md
+      - Sistemas habilitados: sistemas/habilitados.md
+      - Sistemas desativados: sistemas-desativados.md
   - Comandos: comandos.md
-  - Sistemas desativados: sistemas-desativados.md
-  - Próximo Patch Planejado: proximo-patch.md
-  - Patch notes: patches.md
+  - Atualizações:
+      - Patch notes: patches.md
+      - Próximo patch planejado: proximo-patch.md

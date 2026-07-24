@@ -1,5 +1,8 @@
 # Comandos de jogador
 
+!!! success "Status: Live 0.7.0"
+    Os comandos abaixo estão disponíveis aos jogadores no servidor oficial.
+
 ## `[PvPCamp`
 
 Abre a seleção dos tiers clássicos de armor e weapons e entrega um kit completo de preparação para PvP, organizado em bolsas. O conjunto inclui:

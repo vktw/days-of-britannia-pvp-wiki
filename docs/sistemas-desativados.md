@@ -1,5 +1,8 @@
 # Sistemas desativados
 
+!!! success "Status: Live 0.7.0"
+    Os bloqueios abaixo fazem parte do ruleset oficial.
+
 Para preservar o equilíbrio clássico, os seguintes sistemas modernos não influenciam o PvP:
 
 - Weapon abilities e special moves.

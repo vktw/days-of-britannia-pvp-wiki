@@ -1,5 +1,8 @@
 # Armor e Parrying
 
+!!! success "Status: Live 0.7.0"
+    Absorção regional e Parrying correspondem ao servidor oficial.
+
 ## Regiões corporais
 
 Um golpe físico que acerta seleciona uma região corporal. Somente a armadura equipada naquela região contribui para a absorção; roupas comuns, joias e armas não contam como proteção.

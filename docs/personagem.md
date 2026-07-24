@@ -1,5 +1,8 @@
 # Personagem
 
+!!! success "Status: Live 0.7.0"
+    Stats, skills, caps e raça correspondem ao servidor oficial.
+
 ## Base inicial
 
 Todo novo personagem humano começa com **100 STR, 100 DEX e 100 INT**, 10.000 gold, Spellbook completo, Runebook e um cavalo shrinkado.

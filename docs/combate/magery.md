@@ -1,5 +1,8 @@
 # Magery
 
+!!! success "Status: Live 0.7.0"
+    Fluxo, delays e efeitos correspondem ao servidor oficial.
+
 ## Fluxo de cast
 
 Magery usa o fluxo **alvo → cast delay → revalidação → efeito**. O cursor aparece imediatamente após a ativação. Selecionar inicialmente um alvo inválido ou cancelar o cursor não consome recursos.

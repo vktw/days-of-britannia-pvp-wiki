@@ -1,5 +1,8 @@
 # Próximo Patch Planejado
 
+!!! warning "Conteúdo futuro"
+    Esta página nunca deve ser interpretada como regra disponível no Live.
+
 !!! info "Nenhum patch anunciado"
     As alterações que estavam em validação foram publicadas na versão **0.7.0**. Ainda não há outro pacote de mudanças anunciado para o servidor oficial.
 
