@@ -106,7 +106,7 @@ Do not push, deploy, or modify GitHub secrets unless the user explicitly asks.
 - CSS breakpoints at approximately 1220 px, 960 px, and 720 px control the
   desktop rail, drawer, and narrow layouts. Check all three regimes after
   structural changes.
-- CSS, JavaScript, logo, and favicon URLs use query-string versions to invalidate
+- CSS, JavaScript, and brand image URLs use query-string versions to invalidate
   the seven-day production cache. Bump the relevant version whenever one changes.
 - Keep interactive controls keyboard reachable and preserve `aria-*`, focus,
   `hidden`, and Escape behavior.

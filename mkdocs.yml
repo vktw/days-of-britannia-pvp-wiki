@@ -20,7 +20,7 @@ theme:
 extra:
   dob_version: "Live 0.7.0"
 extra_css:
-  - stylesheets/extra.css?v=20260724.3
+  - stylesheets/extra.css?v=20260724.4
 extra_javascript:
   - scripts/dob.js?v=20260724.1
 plugins:

@@ -11,8 +11,7 @@ hide:
     <p>O manual oficial do shard, organizado do primeiro login às decisões mais profundas do PvP.</p>
   </div>
   <div class="dob-atlas-mark" aria-hidden="true">
-    <span>D</span>
-    <small>DAYS OF BRITANNIA</small>
+    <img src="assets/hero-mark.png?v=20260724.1" alt="">
   </div>
 </section>
 
