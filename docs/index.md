@@ -4,7 +4,7 @@
 
 <div class="version-strip">
   <span>Live: 0.6.0</span>
-  <span>Atualizado: 23/07/2026</span>
+  <span>Atualizado: 24/07/2026</span>
   <span>Idioma: Português</span>
 </div>
 
@@ -25,4 +25,3 @@ Consulte [Personagem](personagem.md) para conhecer a base inicial, [Melee e Arch
 
 !!! note "Referência, não promessa histórica"
     Servidores Sphere 51a frequentemente usavam configurações próprias. O comportamento documentado aqui é o ruleset oficial do DoB, ainda que inspirado naquele estilo.
-

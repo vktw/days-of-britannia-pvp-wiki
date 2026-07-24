@@ -22,6 +22,14 @@ Cada arena aceita apenas uma luta por vez e apresenta seu estado antes da entrad
 7. Após o resultado, há 15 segundos antes do retorno.
 8. Participantes são ressuscitados, devolvidos à origem e recebem novamente seus itens e montarias pessoais.
 
+O kit Live fornece 10 Greater Heal Potions. A montaria pessoal é guardada junto dos pertences e não pode ser usada na arena; somente o cavalo shrinkado fornecido pelo kit da luta é permitido.
+
+## Desconexão
+
+- Durante a preparação, a desconexão cancela a luta sem resultado.
+- Durante o combate, o jogador desconectado perde por desistência.
+- O escrow da arena restaura itens e montaria. Se a sessão for interrompida, a recuperação também é verificada no próximo login.
+
 ## Ranking
 
 - Vitória: 3 pontos.
@@ -34,4 +42,3 @@ Cada arena aceita apenas uma luta por vez e apresenta seu estado antes da entrad
 ## PvP Trainer
 
 O PvP Trainer é um NPC criado para treinamento e segue as regras gerais de combate aplicáveis aos jogadores. Seu funcionamento tático e suas decisões internas não fazem parte da documentação pública.
-

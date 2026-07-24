@@ -16,3 +16,6 @@ Para preservar o equilíbrio clássico, os seguintes sistemas modernos não infl
 
 Alchemy continua relevante para o sucesso do craft, mas não altera a potência da potion pronta. Inscription não modifica dano mágico, Reactive Armor, Protection ou Magic Reflection.
 
+## Pets e summons
+
+Pets controlados e summons pertencentes a jogadores não podem atacar ou causar dano a outros jogadores. Essa restrição não impede seu uso normal em PvM e é independente do pet bonding, que permanece desativado.
