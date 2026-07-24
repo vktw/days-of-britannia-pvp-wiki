@@ -14,7 +14,7 @@
 **Status: implementado localmente.**
 
 - Ajustes de decisão do Trainer para reduzir ações desperdiçadas e escolher finalizações pelo dano projetado.
-- Os kits do `[PvPCamp`, da arena e do PvP Trainer passam de 10 para **20 Greater Heal Potions**.
+- Os kits do `[PvPCamp`, da arena e do PvP Trainer passam a fornecer **15 Greater Heal Potions** e **15 Total Mana Potions**.
 - A telemetria de arena recebe atribuição mais precisa da origem de dano e cura.
 
 ## Regeneração de mana
