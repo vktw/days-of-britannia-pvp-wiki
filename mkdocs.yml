@@ -32,7 +32,7 @@ markdown_extensions:
   - def_list
   - tables
   - toc:
-      permalink: true
+      permalink: false
 nav:
   - Inicio: index.md
   - Primeiros passos:
