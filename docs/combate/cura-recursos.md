@@ -50,6 +50,21 @@ itemBonus = (itemBase × sqrt(Mana Regen) − (itemBase − 1)) / 10
 intervalo = 1 / (0,2 + focusBonus + medBonus + itemBonus)
 ```
 
-`Mana Regen` representa o atributo de equipamento aplicável; os atributos modernos desativados não concedem vantagem no ruleset. Durante Meditation ativa, `medBonus` é dobrado. Com INT, Meditation e Focus em 100 e sem Mana Regen de itens, o intervalo Live é aproximadamente **0,662 segundo por mana** passivamente e **0,398 segundo por mana** durante Meditation ativa.
+`Mana Regen` representa o atributo de equipamento aplicável; os atributos modernos desativados não concedem vantagem no ruleset. Durante Meditation ativa, `medBonus` é dobrado.
+
+### Recuperação efetiva
+
+Os exemplos abaixo consideram Focus 100.0, Meditation 100.0 e nenhum Mana Regen de itens. STR e DEX não participam da recuperação de mana; entre os stats, somente INT altera o resultado.
+
+| INT | Estado | Intervalo por mana | Mana por segundo | Mana por minuto |
+|---:|---|---:|---:|---:|
+| 100 | Passiva | 0,662 s | **1,511** | **90,65** |
+| 100 | Meditation ativa | 0,398 s | **2,511** | **150,65** |
+| 120 | Passiva | 0,641 s | **1,561** | **93,65** |
+| 120 | Meditation ativa | 0,383 s | **2,611** | **156,65** |
+
+Na prática, um personagem com INT 100 recupera aproximadamente **15,1 mana em 10 segundos** passivamente ou **25,1 mana em 10 segundos** meditando ativamente. Com INT 120, recupera aproximadamente **15,6 mana em 10 segundos** passivamente ou **26,1 mana em 10 segundos** com Meditation ativa.
+
+Esses valores representam a taxa matemática real do Live; os pontos entram individualmente conforme cada intervalo é completado.
 
 O ajuste de redução da regeneração passiva permanece apenas em [Em teste](../em-teste.md) e não integra esses valores Live.
