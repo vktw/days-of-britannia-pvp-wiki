@@ -167,21 +167,6 @@ body {
   white-space: nowrap;
 }
 
-.md-header__source {
-  width: auto;
-  max-width: 2.3rem;
-  margin: 0;
-}
-
-.md-source {
-  padding-left: 0.15rem;
-}
-
-.md-source__repository,
-.md-source__facts {
-  display: none;
-}
-
 /* Search overlay */
 
 .md-search__form {
@@ -730,16 +715,25 @@ body {
   gap: 0.5rem;
   color: var(--dob-bg);
   background: var(--dob-gold);
+  border: 1px solid var(--dob-gold);
+  box-shadow: 0 0.3rem 1rem rgb(0 0 0 / 24%);
   font-size: 0.62rem;
   font-weight: 700;
   text-decoration: none;
-  transition: background-color 140ms ease, transform 140ms ease;
+  transition: background-color 140ms ease, border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease;
+}
+
+.md-typeset .dob-atlas-launcher > a:visited {
+  color: var(--dob-bg);
 }
 
 .md-typeset .dob-atlas-launcher > a:hover,
 .md-typeset .dob-atlas-launcher > a:focus-visible {
   color: var(--dob-bg);
   background: var(--dob-gold-hover);
+  border-color: var(--dob-gold-hover);
+  box-shadow: 0 0.4rem 1.2rem rgb(0 0 0 / 32%);
+  text-decoration: none;
   transform: translateY(-1px);
 }
 
@@ -1150,8 +1144,7 @@ body {
 
 @media screen and (max-width: 59.984375em) {
   .dob-header-tagline,
-  .dob-header-version,
-  .md-header__source {
+  .dob-header-version {
     display: none;
   }
 

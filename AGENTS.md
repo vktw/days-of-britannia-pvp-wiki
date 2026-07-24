@@ -106,6 +106,8 @@ Do not push, deploy, or modify GitHub secrets unless the user explicitly asks.
 - CSS breakpoints at approximately 1220 px, 960 px, and 720 px control the
   desktop rail, drawer, and narrow layouts. Check all three regimes after
   structural changes.
+- `extra_css` uses a query-string version to invalidate the seven-day production
+  cache. Bump it whenever `docs/stylesheets/extra.css` changes.
 - Keep interactive controls keyboard reachable and preserve `aria-*`, focus,
   `hidden`, and Escape behavior.
 
