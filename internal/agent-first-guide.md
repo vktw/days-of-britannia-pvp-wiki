@@ -246,10 +246,11 @@ git diff --check
 git status --short
 ```
 
-Production serves static CSS with a long browser cache. The `extra_css` entry in
-`mkdocs.yml` therefore includes a query-string asset version. Increment that
-version with every change to `docs/stylesheets/extra.css`; otherwise returning
-visitors can keep the previous presentation for up to seven days.
+Production serves static presentation assets with a long browser cache. The CSS,
+JavaScript, logo, and favicon entries in `mkdocs.yml` therefore include
+query-string asset versions. Increment the relevant version whenever one of
+those files changes; otherwise returning visitors can keep the previous
+presentation for up to seven days.
 
 ## Production pipeline
 

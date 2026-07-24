@@ -53,9 +53,13 @@ function bindDobNavigation() {
 
   const triggers = Array.from(nav.querySelectorAll("[data-dob-nav-target]"));
   const panels = Array.from(nav.querySelectorAll("[data-dob-nav-panel]"));
+  const panelContainer = nav.querySelector("[data-dob-nav-panels]");
 
   function closeNavigation() {
     document.body.classList.remove("dob-atlas-nav-open");
+    if (panelContainer) {
+      panelContainer.hidden = true;
+    }
     triggers.forEach((trigger) => trigger.setAttribute("aria-expanded", "false"));
     panels.forEach((panel) => {
       panel.hidden = true;
@@ -80,6 +84,9 @@ function bindDobNavigation() {
       }
 
       document.body.classList.add("dob-atlas-nav-open");
+      if (panelContainer) {
+        panelContainer.hidden = false;
+      }
       trigger.setAttribute("aria-expanded", "true");
       target.hidden = false;
     });
@@ -123,6 +130,9 @@ function bindDobNavigation() {
         });
         document.querySelectorAll("[data-dob-nav-panel]").forEach((panel) => {
           panel.hidden = true;
+        });
+        document.querySelectorAll("[data-dob-nav-panels]").forEach((container) => {
+          container.hidden = true;
         });
       }
     });

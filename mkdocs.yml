@@ -7,8 +7,8 @@ theme:
   name: material
   custom_dir: overrides
   language: pt-BR
-  favicon: assets/favicon.png
-  logo: assets/logo.png
+  favicon: assets/favicon.png?v=20260724.1
+  logo: assets/logo.png?v=20260724.1
   font: false
   features:
     - navigation.instant
@@ -20,9 +20,9 @@ theme:
 extra:
   dob_version: "Live 0.7.0"
 extra_css:
-  - stylesheets/extra.css?v=20260724.2
+  - stylesheets/extra.css?v=20260724.3
 extra_javascript:
-  - scripts/dob.js
+  - scripts/dob.js?v=20260724.1
 plugins:
   - search:
       lang: pt

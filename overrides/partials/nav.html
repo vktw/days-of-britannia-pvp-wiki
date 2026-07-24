@@ -36,6 +36,8 @@
             data-dob-nav-label="{{ nav_item.title }}"
           >
             {% include ".icons/" ~ icon ~ ".svg" %}
+            <span class="dob-atlas-rail__label">{{ nav_item.title }}</span>
+            <span class="dob-atlas-rail__chevron" aria-hidden="true">{% include ".icons/material/chevron-right.svg" %}</span>
           </button>
         {% else %}
           <a
@@ -46,12 +48,13 @@
             data-dob-nav-label="{{ nav_item.title }}"
           >
             {% include ".icons/" ~ icon ~ ".svg" %}
+            <span class="dob-atlas-rail__label">{{ nav_item.title }}</span>
           </a>
         {% endif %}
       {% endfor %}
     </div>
 
-    <div class="dob-atlas-panels" data-dob-nav-panels>
+    <div class="dob-atlas-panels" data-dob-nav-panels hidden>
       {% for nav_item in nav.items %}
         {% if nav_item.children %}
           {% set icon = atlas_icons[loop.index0] %}
