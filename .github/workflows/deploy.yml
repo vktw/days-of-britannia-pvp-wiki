@@ -128,7 +128,7 @@ jobs:
             body="$(curl --fail --silent --show-error --location \
               --connect-timeout 10 --max-time 20 \
               "https://dobshard.com/?deploy=${GITHUB_SHA}")" && \
-              grep -q "DoB CODEX" <<< "$body" && exit 0
+              grep -q 'data-dob-site="atlas"' <<< "$body" && exit 0
             sleep 10
           done
           echo "Production verification failed after 6 attempts." >&2

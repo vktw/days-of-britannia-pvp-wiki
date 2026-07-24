@@ -132,8 +132,8 @@ up.
 
 The theme is Material for MkDocs with a custom Jinja directory.
 
-- `header.html` renders the DoB CODEX identity, search, live version, and source
-  link.
+- `header.html` renders the Days of Britannia Atlas identity, search, live
+  version, and the stable production-verification marker.
 - `nav.html` implements two navigation systems: a desktop icon rail with panels
   and a mobile accordion drawer.
 - `home.html` removes the standard layout wrapper for the landing page.
@@ -220,7 +220,7 @@ user explicitly changes the release policy:
 - a pre-publication snapshot exists;
 - publication uses `rsync --delete` with explicit exclusions;
 - the three newest releases and backups are retained;
-- production verification requires the `DoB CODEX` marker.
+- production verification requires the stable `data-dob-site="atlas"` marker;
 
 The remote rollback trap protects errors inside the remote publication block.
 The later HTTP verification is a separate step; a failure there reports a failed
@@ -265,7 +265,8 @@ On a push to `main`, GitHub Actions:
 7. snapshots the current public tree;
 8. publishes with `rsync`, preserving downloads and ACME content;
 9. records the current SHA and prunes older releases/backups;
-10. fetches production up to six times and looks for `DoB CODEX`.
+10. fetches production up to six times and looks for
+    `data-dob-site="atlas"`.
 
 Required GitHub environment secrets are named in `README.md`. Never print,
 copy, commit, or replace their values during ordinary documentation work.
