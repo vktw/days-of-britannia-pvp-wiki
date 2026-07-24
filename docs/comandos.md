@@ -2,13 +2,12 @@
 
 ## `[PvPCamp`
 
-Entrega um kit completo de preparação para PvP, organizado em bolsas. O conjunto inclui:
+Abre a seleção dos tiers clássicos de armor e weapons e entrega um kit completo de preparação para PvP, organizado em bolsas. O conjunto inclui:
 
-- Plate e shield of Invulnerability.
-- Chain, ringmail e gorget of Invulnerability.
+- Plate, shield, chain, ringmail e gorget no tier de armor escolhido.
 - Reagentes, bandages, bow, arrows e armas melee.
-- Armas Vanquishing com Deadly Poison.
-- 10 Greater Heal Potions e 10 de cada Total Refresh, Total Mana e Invisibility Potion.
+- Bow e armas melee no tier de weapon escolhido, com Deadly Poison nas armas melee.
+- 15 Greater Heal, 15 Total Mana, 10 Total Refresh, 10 Invisibility e 3 Deadly Poison Potions.
 - Um cavalo shrinkado.
 
 As armas melee possuem **80 cargas de Deadly Poison**.
@@ -23,5 +22,11 @@ Informa como acessar o PvP Trainer. O comando não cria um NPC diretamente: o Tr
 
 Abre o gump da arena para escolher combate contra outro jogador ou contra o PvP Trainer, selecionar a arena disponível e acompanhar ranking e temporada.
 
+## Atalhos com ponto
+
+- `.pvpcamp` abre o mesmo fluxo de `[PvPCamp`.
+- `.patchnotes` abre as notas mais recentes, como `[PatchNotes`.
+- `.pvptrainer` apenas orienta o jogador a usar `.arena`.
+
 !!! info "Prefixos"
-    O shard mantém comandos tradicionais do TrueUO com `[` e preserva `.arena` como comando legado voltado ao jogador.
+    O shard mantém comandos tradicionais do TrueUO com `[` e oferece somente os aliases com ponto documentados nesta página.

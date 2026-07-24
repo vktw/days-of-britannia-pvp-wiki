@@ -1,9 +1,6 @@
 # Exemplos de dano
 
-Os exemplos abaixo seguem o servidor oficial **Live 0.6.0**. Eles isolam um golpe que já acertou; a chance de acerto e a chance de Parrying são sorteios anteriores e independentes.
-
-!!! note "Ambiente de testes"
-    O bônus de 15% ao atingir uma região sem armor está no [Próximo Patch Planejado](../proximo-patch.md) e não entra nestes exemplos Live.
+Os exemplos abaixo seguem o servidor oficial **Live 0.7.0**. Eles isolam um golpe que ja acertou; a chance de acerto e a chance de Parrying sao sorteios anteriores e independentes.
 
 ## Atacante usado
 
@@ -12,12 +9,12 @@ Nos primeiros exemplos, o atacante possui:
 - 100 Tactics.
 - 100 Anatomy.
 - 100 STR.
-- Arma of Vanquishing, com bônus final de +9.
+- Arma of Vanquishing, com bonus final de +9.
 
-Sua escala é:
+Sua escala e:
 
 ```text
-escala = 1 + (100 − 50)/100 + 100/500 + 100/500
+escala = 1 + (100 - 50)/100 + 100/500 + 100/500
 escala = 1 + 0,50 + 0,20 + 0,20
 escala = 1,90
 ```
@@ -26,84 +23,79 @@ escala = 1,90
 
 | Arma | Dano-base | Depois da escala e truncamento | Vanquishing | Dano bruto final |
 |---|---:|---:|---:|---:|
-| Kryss | 10–12 | 19–22 | +9 | **28–31** |
-| Bardiche | 17–20 | 32–38 | +9 | **41–47** |
-| Bow | 17–21 | 32–39 | +9 | **41–48** |
+| Kryss | 10-12 | 19-22 | +9 | **28-31** |
+| Bardiche | 17-20 | 32-38 | +9 | **41-47** |
+| Bow | 17-21 | 32-39 | +9 | **41-48** |
 
-Cada golpe sorteia um inteiro dentro da faixa de dano-base. Por isso, os valores intermediários não formam necessariamente uma progressão perfeitamente uniforme depois da multiplicação e do truncamento.
+Cada golpe sorteia um inteiro dentro da faixa de dano-base. Por isso, os valores intermediarios nao formam necessariamente uma progressao perfeitamente uniforme depois da multiplicacao e do truncamento.
 
-## Exemplo 1: região sem armor
+## Exemplo 1: regiao sem armor
 
 Um Bow of Vanquishing sorteia dano-base 19:
 
 ```text
-dano escalado = truncar(19 × 1,90) = truncar(36,10) = 36
+dano escalado = truncar(19 x 1,90) = truncar(36,10) = 36
 dano bruto = 36 + 9 = 45
-AR efetivo = 0
-absorção = 0
-dano final = 45
+bonus por regiao descoberta = arredondar(45 x 15%) = 7
+dano final = 45 + 7 = 52
 ```
 
-O personagem perde **45 hits**.
+O personagem perde **52 hits**. Roupas comuns e joias sem Physical Resist nao eliminam esse bonus.
 
 ## Exemplo 2: armor regional
 
-O mesmo golpe bruto de 45 acerta uma região com AR efetivo 13:
+O mesmo golpe bruto de 45 acerta uma peca que exibe 18% de Physical Resist:
 
 ```text
-absorção mínima = floor(13 / 4) = 3
-absorção máxima = ceil(13 / 2) = 7
+absorcao = arredondar(45 x 18%) = 8
+dano final = 45 - 8 = 37
 ```
 
-O servidor sorteia um inteiro entre 3 e 7:
-
-| Absorção sorteada | Dano bruto | Dano final |
-|---:|---:|---:|
-| 3 | 45 | 42 |
-| 4 | 45 | 41 |
-| 5 | 45 | 40 |
-| 6 | 45 | 39 |
-| 7 | 45 | 38 |
-
-Essa região reduz o golpe para uma faixa de **38–42 hits**.
+O personagem perde **37 hits**. Nao ha sorteio de absorcao: o percentual exibido pela peca determina diretamente o resultado.
 
 ## Exemplo 3: armor com Protection
 
-A região possui AR 13 e Protection concedeu +8:
+A regiao possui 18% de Physical Resist e Protection concedeu 8%:
 
 ```text
-AR efetivo = 13 + 8 = 21
-absorção mínima = floor(21 / 4) = 5
-absorção máxima = ceil(21 / 2) = 11
-dano final = 45 − inteiro aleatório entre 5 e 11
+absorcao da armor = arredondar(45 x 18%) = 8
+apos armor = 45 - 8 = 37
+absorcao de Protection = arredondar(37 x 8%) = 3
+dano final = 37 - 3 = 34
 ```
 
-O golpe causa entre **34 e 40 hits**.
+O personagem perde **34 hits**.
 
-Protection também funcionaria se a região estivesse vazia. Nesse caso, com bônus +8, a absorção seria de 2 a 4 e o golpe causaria entre 41 e 43 hits.
+Se a regiao estiver vazia, primeiro entra o bonus de 15% e depois Protection:
+
+```text
+apos bonus de regiao descoberta = 45 + arredondar(45 x 15%) = 52
+absorcao de Protection = arredondar(52 x 8%) = 4
+dano final = 52 - 4 = 48
+```
 
 ## Exemplo 4: Parrying com shield
 
-O defensor possui Parrying 100.0 e um shield com `ArmorRatingScaled` efetivo de 22:
+O defensor possui Parrying 100.0 e um shield que exibe 31% de Physical Resist:
 
 ```text
 chance de bloquear = 45%
-absorção em bloqueio bem-sucedido = round(22) = 22
-dano final = max(1, 45 − 22) = 23
+absorcao em bloqueio bem-sucedido = arredondar(45 x 31%) = 14
+dano final = 45 - 14 = 31
 ```
 
-Se o bloqueio acontecer, o personagem perde **23 hits** e nenhuma peça corporal é consultada. Se o Parrying falhar, o servidor sorteia normalmente uma região corporal e aplica a armor daquela região. Protection não aumenta os 22 pontos absorvidos pelo shield.
+Se o bloqueio acontecer, o personagem perde **31 hits** e nenhuma peca corporal e consultada. Se o Parrying falhar, o servidor sorteia normalmente uma regiao corporal e aplica a armor daquela regiao. Protection, quando ativa, e calculada sobre os 31 pontos restantes.
 
-## Exemplo 5: comparação completa
+## Exemplo 5: comparacao completa
 
 Para o mesmo dano bruto de 45:
 
-| Defesa encontrada | Absorção | Dano final |
-|---|---:|---:|
-| Região vazia, sem Protection | 0 | **45** |
-| Região com AR 13 | 3–7 | **38–42** |
-| Região com AR 13 e Protection +8 | 5–11 | **34–40** |
-| Região vazia e Protection +8 | 2–4 | **41–43** |
-| Parry bem-sucedido com shield AR 22 | 22 | **23** |
+| Defesa encontrada | Calculo | Dano final |
+|---|---|---:|
+| Regiao vazia, sem Protection | 45 + 15% | **52** |
+| Peca com 18% Physical Resist | 45 - 18% | **37** |
+| Peca com 18% e Protection 8% | 45 - 18%, depois -8% | **34** |
+| Regiao vazia e Protection 8% | 45 + 15%, depois -8% | **48** |
+| Parry com shield de 31% | 45 - 31% | **31** |
 
-O resultado prático pode envolver até quatro sorteios separados: acerto do ataque, sucesso do Parrying e, quando não há bloqueio, região corporal e absorção aleatória da armor.
+O resultado pratico pode envolver tres sorteios separados: acerto do ataque, sucesso do Parrying e, quando nao ha bloqueio, regiao corporal. Os percentuais de absorcao deixam de ser aleatorios.

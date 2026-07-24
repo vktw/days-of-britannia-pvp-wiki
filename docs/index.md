@@ -9,7 +9,7 @@
 </div>
 
 !!! live "Regras em produção"
-    Páginas comuns descrevem exclusivamente a versão **0.6.0**, atualmente publicada. Mudanças já implementadas localmente e planejadas para uma versão futura ficam em [Próximo Patch Planejado](proximo-patch.md) até serem publicadas.
+    Páginas comuns descrevem exclusivamente a versão **0.7.0**, atualmente publicada. Mudanças já implementadas localmente e planejadas para uma versão futura ficam em [Próximo Patch Planejado](proximo-patch.md) até serem publicadas.
 
 ## Princípios do combate
 

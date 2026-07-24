@@ -1,40 +1,6 @@
 # Próximo Patch Planejado
 
-!!! info "Implementado localmente"
-    As mudanças desta página já existem no servidor local de testes e estão planejadas para o próximo patch. Elas **ainda não estão disponíveis no servidor oficial 0.6.0** e podem receber ajustes durante a validação antes da publicação.
+!!! info "Nenhum patch anunciado"
+    As alterações que estavam em validação foram publicadas na versão **0.7.0**. Ainda não há outro pacote de mudanças anunciado para o servidor oficial.
 
-## Combate físico
-
-**Status: implementado localmente.**
-
-- Golpes que passam pelo Parrying e atingem uma região sem armor recebem bônus de 15% no dano físico, com mínimo de +1.
-
-## PvP Trainer e arena
-
-**Status: implementado localmente.**
-
-- Ajustes de decisão do Trainer para reduzir ações desperdiçadas e escolher finalizações pelo dano projetado.
-- Os kits do `[PvPCamp`, da arena e do PvP Trainer passam a fornecer **15 Greater Heal Potions** e **15 Total Mana Potions**.
-- Os mesmos kits passam a fornecer **3 Deadly Poison Potions**, independentes do cooldown global das poções ingeríveis e sujeitas apenas ao fluxo normal da skill Poisoning.
-- `[PvPCamp` passa a aceitar também o alias `.pvpcamp`. `[PvPTrainer` e `.pvptrainer` ficam desativados como atalhos e apenas orientam o jogador a usar `.arena`.
-- O comando `.patchnotes` passa a abrir manualmente o mesmo gump de `[PatchNotes`, sem alterar o controle da exibição automática no primeiro login após cada patch.
-- `.arena` e `.pvpcamp` passam a abrir uma seleção intermediária de armor e weapons. Armor segue Regular, Defense, Guarding, Hardening, Fortification e Invulnerability; weapons seguem Regular, Ruin, Might, Force, Power e Vanquishing.
-- Em lutas de arena, o loadout escolhido pelo desafiante é obrigatório para os dois jogadores ou para jogador e PvP Trainer. O anúncio global e os gumps de aceite e confirmação mostram os tiers selecionados.
-- A telemetria de arena recebe atribuição mais precisa da origem de dano e cura.
-
-## Skills iniciais
-
-**Status: implementado localmente.**
-
-- Novos personagens começam com Hiding, Stealth, Detect Hidden e Poisoning em 100.0.
-- Personagens existentes recebem essas quatro skills em 100.0 no primeiro login após o patch, por migração persistente executada uma única vez.
-
-## Regeneração de mana
-
-**Status: implementado localmente.**
-
-- Recuperação passiva de mana de jogadores e PvP Trainer passa a usar o dobro do intervalo atual, reduzindo a taxa passiva em 50%.
-- Meditation ativa permanece inalterada.
-
-!!! warning "Publicação ainda não autorizada"
-    Estas alterações ainda não possuem número de patch ou data de publicação autorizados. A inclusão nesta página representa o planejamento atual, não disponibilidade no Live.
+Quando uma nova versão entrar em testes, esta página voltará a separar claramente o que já está disponível no Live daquilo que permanece apenas no ambiente local.

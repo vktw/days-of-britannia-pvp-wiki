@@ -58,13 +58,13 @@ Os exemplos abaixo consideram Focus 100.0, Meditation 100.0 e nenhum Mana Regen 
 
 | INT | Estado | Intervalo por mana | Mana por segundo | Mana por minuto |
 |---:|---|---:|---:|---:|
-| 100 | Passiva | 0,662 s | **1,511** | **90,65** |
+| 100 | Passiva | 1,324 s | **0,755** | **45,33** |
 | 100 | Meditation ativa | 0,398 s | **2,511** | **150,65** |
-| 120 | Passiva | 0,641 s | **1,561** | **93,65** |
+| 120 | Passiva | 1,282 s | **0,780** | **46,83** |
 | 120 | Meditation ativa | 0,383 s | **2,611** | **156,65** |
 
-Na prática, um personagem com INT 100 recupera aproximadamente **15,1 mana em 10 segundos** passivamente ou **25,1 mana em 10 segundos** meditando ativamente. Com INT 120, recupera aproximadamente **15,6 mana em 10 segundos** passivamente ou **26,1 mana em 10 segundos** com Meditation ativa.
+Na prática, um personagem com INT 100 recupera aproximadamente **7,6 mana em 10 segundos** passivamente ou **25,1 mana em 10 segundos** meditando ativamente. Com INT 120, recupera aproximadamente **7,8 mana em 10 segundos** passivamente ou **26,1 mana em 10 segundos** com Meditation ativa.
 
 Esses valores representam a taxa matemática real do Live; os pontos entram individualmente conforme cada intervalo é completado.
 
-O ajuste de redução da regeneração passiva pertence ao [Próximo Patch Planejado](../proximo-patch.md) e não integra esses valores Live.
+A redução vale apenas para a regeneração passiva de jogadores e do PvP Trainer. Meditation ativa mantém sua velocidade normal.

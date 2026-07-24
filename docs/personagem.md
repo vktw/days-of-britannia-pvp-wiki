@@ -11,8 +11,11 @@ As seguintes skills começam em **100.0**:
 | Swordsmanship, Mace Fighting, Fencing | Anatomy, Tactics, Parrying |
 | Archery, Wrestling | Healing, Resisting Spells |
 | Magery | Evaluating Intelligence, Meditation, Focus |
+| Hiding, Stealth | Detect Hidden, Poisoning |
 
 Não existe skill cap global efetivo. Cada skill de jogador é limitada individualmente a **100.0**.
+
+Personagens criados antes da versão 0.7.0 recebem Hiding, Stealth, Detect Hidden e Poisoning em 100.0 uma única vez no primeiro login após a atualização.
 
 ## Stats e buffs
 

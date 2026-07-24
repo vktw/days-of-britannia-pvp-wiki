@@ -13,17 +13,19 @@ Cada arena aceita apenas uma luta por vez e apresenta seu estado antes da entrad
 
 ## Fluxo da luta
 
-1. O desafiante escolhe modalidade e arena.
+1. O desafiante escolhe modalidade, arena e os tiers de armor e weapons.
 2. Desafios públicos ficam disponíveis por um minuto para aceitação; personagens da mesma conta não podem se enfrentar.
 3. Quando um candidato aceita, sua vaga fica reservada por 15 segundos enquanto o desafiante confirma ou recusa o oponente.
 4. Itens pessoais, exceto Spellbook e Runebook, são protegidos temporariamente.
-5. Cada participante recebe o kit oficial de arena.
+5. Cada participante recebe o mesmo kit oficial com os tiers escolhidos pelo desafiante.
 6. Há 60 segundos de preparação sem movimento, ataque ou uso de potions. Equipar e organizar o kit, Meditation e os buffs autorizados no próprio participante são permitidos.
 7. A luta dura no máximo 10 minutos.
 8. Após o resultado, há 15 segundos antes do retorno.
 9. Participantes são ressuscitados, devolvidos à origem e recebem novamente seus itens e montarias pessoais.
 
-O kit Live fornece 10 Greater Heal Potions. A montaria pessoal é guardada junto dos pertences e não pode ser usada na arena; somente o cavalo shrinkado fornecido pelo kit da luta é permitido.
+O kit fornece 15 Greater Heal Potions, 15 Total Mana Potions, 10 Total Refresh, 10 Invisibility e 3 Deadly Poison Potions. A montaria pessoal é guardada junto dos pertences e não pode ser usada na arena; somente o cavalo shrinkado fornecido pelo kit da luta é permitido.
+
+Armor pode ser Regular, Defense, Guarding, Hardening, Fortification ou Invulnerability. Weapons podem ser Regular, Ruin, Might, Force, Power ou Vanquishing. O anúncio público e a confirmação mostram o equipamento definido para a luta.
 
 Durante a preparação, os buffs autorizados são Night Sight, Reactive Armor, Agility, Cunning, Protection, Strength, Bless, Incognito, Magic Reflection e Polymorph. Eles só podem ser aplicados no próprio participante. Heal, Greater Heal, efeitos benéficos em terceiros, ataques e potions permanecem bloqueados.
 

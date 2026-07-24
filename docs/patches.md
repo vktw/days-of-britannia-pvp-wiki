@@ -1,5 +1,13 @@
 # Patch notes
 
+## 0.7.0 · Equipamentos e Estratégia
+
+**Novidades:** seleção de tiers clássicos para Arena e PvPCamp; aliases `.pvpcamp` e `.patchnotes`.
+
+**Melhorias:** Physical Resist percentual por peça, resistência-base de armor reforçada, kits com mais suprimentos, quatro novas skills no baseline e decisões táticas aprimoradas do PvP Trainer.
+
+**Correções:** regeneração passiva de mana ajustada e atribuição mais precisa dos eventos de combate nos diagnósticos da arena.
+
 ## 0.6.0 · Ajustes de Combate
 
 **Melhorias:** chance de acerto de 65% em 100 contra 100; Parrying com chance máxima de 45%.
@@ -33,4 +41,3 @@ Consolidação de dano físico e mágico, caps, skills iniciais, armas e armadur
 ## 0.1.0 · Fundação
 
 Primeira versão do ruleset Days of Britannia sobre TrueUO, incluindo o núcleo de Magery Sphere 51.
-
