@@ -1,0 +1,28 @@
+:root {
+  --dob-ink: #191817;
+  --dob-red: #8c2f2f;
+  --dob-gold: #c69a43;
+  --dob-paper: #f3f0e8;
+  --dob-green: #355d4a;
+}
+
+[data-md-color-scheme="dob"] {
+  --md-primary-fg-color: var(--dob-ink);
+  --md-primary-bg-color: #fff;
+  --md-accent-fg-color: var(--dob-red);
+  --md-default-bg-color: #fbfaf7;
+  --md-default-fg-color: #252321;
+  --md-typeset-a-color: #7b2929;
+}
+
+.md-header { border-bottom: 3px solid var(--dob-gold); }
+.md-typeset h1, .md-typeset h2 { font-family: Georgia, "Times New Roman", serif; }
+.md-typeset h1 { color: var(--dob-ink); }
+.md-typeset h2 { border-bottom: 1px solid #d8d1c3; padding-bottom: .25rem; }
+.md-typeset table:not([class]) th { background: var(--dob-ink); color: #fff; }
+.md-typeset .admonition.live { border-color: var(--dob-green); }
+.md-typeset .live > .admonition-title { background: #e7f0eb; }
+.md-typeset .live > .admonition-title::before { background-color: var(--dob-green); }
+.version-strip { display: flex; gap: .65rem; flex-wrap: wrap; margin: 1rem 0 1.5rem; }
+.version-strip span { border: 1px solid #cfc7b7; border-radius: 3px; padding: .35rem .65rem; background: var(--dob-paper); font-weight: 600; }
+
