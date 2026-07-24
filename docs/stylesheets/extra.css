@@ -695,6 +695,54 @@ body {
   font-size: 0.48rem;
 }
 
+.dob-atlas-launcher {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2rem;
+  align-items: center;
+  margin: 1.4rem 0;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--dob-gold-muted);
+  background: linear-gradient(115deg, var(--dob-surface), transparent);
+  box-shadow: inset 3px 0 0 var(--dob-gold);
+}
+
+.md-typeset .dob-atlas-launcher h2 {
+  margin: 0.28rem 0 0.25rem;
+  padding: 0;
+  color: var(--dob-text-strong);
+  border: 0;
+  font-size: 1.1rem;
+}
+
+.dob-atlas-launcher p:last-child {
+  margin: 0;
+  color: var(--dob-text-muted);
+  font-size: 0.72rem;
+}
+
+.md-typeset .dob-atlas-launcher > a {
+  display: inline-flex;
+  min-height: 2.5rem;
+  padding: 0.7rem 1rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--dob-bg);
+  background: var(--dob-gold);
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 140ms ease, transform 140ms ease;
+}
+
+.md-typeset .dob-atlas-launcher > a:hover,
+.md-typeset .dob-atlas-launcher > a:focus-visible {
+  color: var(--dob-bg);
+  background: var(--dob-gold-hover);
+  transform: translateY(-1px);
+}
+
 .dob-atlas-journeys {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -1217,6 +1265,16 @@ body {
 
   .dob-atlas-journeys {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .dob-atlas-launcher {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1.1rem;
+  }
+
+  .md-typeset .dob-atlas-launcher > a {
+    width: 100%;
   }
 
   .md-typeset .dob-atlas-journeys > a:nth-child(3) {

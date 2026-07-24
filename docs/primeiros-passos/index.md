@@ -3,11 +3,11 @@
 !!! success "Status: Live 0.7.0"
     As informações desta página correspondem ao servidor oficial.
 
-Esta seção acompanha o caminho entre preparar o cliente e começar a explorar Britannia.
+Esta seção acompanha o caminho entre instalar o launcher oficial e começar a explorar Britannia.
 
 ## Sequência recomendada
 
-1. Configure o cliente em [Como conectar](conexao.md).
+1. Baixe e abra o [DoB Launcher oficial](conexao.md).
 2. Crie sua conta diretamente pela tela de login.
 3. Consulte o que o personagem recebe em [Seu primeiro personagem](personagem-inicial.md).
 4. Use `[PatchNotes` ou `.patchnotes` para ler a versão atual dentro do jogo.

@@ -16,6 +16,17 @@ hide:
   </div>
 </section>
 
+<aside class="dob-atlas-launcher" aria-labelledby="dob-launcher-title">
+  <div>
+    <p class="dob-atlas-kicker">ENTRE EM BRITANNIA</p>
+    <h2 id="dob-launcher-title">Jogue pelo launcher oficial</h2>
+    <p>O DoB Launcher prepara o cliente e mantém os arquivos necessários atualizados.</p>
+  </div>
+  <a href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
+    BAIXAR DOB LAUNCHER <span aria-hidden="true">↓</span>
+  </a>
+</aside>
+
 <nav class="dob-atlas-journeys" aria-label="Jornadas da wiki">
   <a href="primeiros-passos/">
     <span>01</span>

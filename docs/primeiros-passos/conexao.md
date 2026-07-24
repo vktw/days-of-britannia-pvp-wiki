@@ -1,20 +1,18 @@
 # Como conectar
 
 !!! success "Status: Live 0.7.0"
-    Endpoint público confirmado do servidor oficial.
+    O launcher oficial configura e inicia o cliente correto para o servidor.
 
-| Configuração | Valor |
-|---|---|
-| Servidor | `82.112.244.4` |
-| Porta | `2593` |
-| Criação de conta | Automática no primeiro login |
-| Conexões simultâneas | Até 2 por IP externo |
+## Launcher oficial
 
-## Cliente
+[Baixe o DoB Launcher](https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe){ .md-button .md-button--primary }
 
-Use uma instalação limpa do ClassicUO apontando para uma pasta válida de dados do Ultima Online. Dados de cliente modificados por outro shard podem alterar mapas, clilocs, interfaces ou arquivos esperados e não são recomendados como base.
+O acesso ao servidor deve ser feito pelo **DoB Launcher oficial**. Baixe o
+executável pelo botão acima, abra o launcher e siga as instruções apresentadas.
 
-O servidor utiliza conexão sem criptografia do protocolo de login. No ClassicUO, mantenha `encryption` como `0` e informe o IP e a porta acima.
+Não é necessário configurar manualmente um cliente ou informar dados de
+conexão. Para evitar arquivos incompatíveis, mantenha o launcher atualizado e
+utilize sempre o link oficial.
 
 ## Conta
 

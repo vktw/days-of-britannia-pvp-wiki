@@ -5,6 +5,10 @@ Public player-facing manual for the Days of Britannia shard.
 Production is served by Hostinger at [dobshard.com](https://dobshard.com/). GitHub
 is the source of truth and deploys every validated commit from `main`.
 
+Agents and maintainers should start with [`AGENTS.md`](AGENTS.md). The detailed
+architecture, change playbooks, verification matrix, and current risk register
+are in [`internal/agent-first-guide.md`](internal/agent-first-guide.md).
+
 ## Local preview
 
 ```powershell
