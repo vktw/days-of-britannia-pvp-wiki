@@ -1,0 +1,135 @@
+name: Validate and deploy Atlas
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: dob-atlas-production
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Audit documentation
+        run: python scripts/audit_wiki.py
+
+      - name: Build strict site
+        run: mkdocs build --strict --clean
+
+      - name: Package release
+        run: tar -C site -czf dob-atlas-${{ github.sha }}.tar.gz .
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dob-atlas-${{ github.sha }}
+          path: dob-atlas-${{ github.sha }}.tar.gz
+          if-no-files-found: error
+          retention-days: 14
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dob-atlas-${{ github.sha }}
+
+      - name: Configure SSH
+        env:
+          KNOWN_HOSTS: ${{ secrets.HOSTINGER_KNOWN_HOSTS }}
+          SSH_KEY: ${{ secrets.HOSTINGER_SSH_KEY }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/dob_atlas
+          printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/dob_atlas
+          chmod 600 ~/.ssh/known_hosts
+
+      - name: Upload release
+        env:
+          HOST: ${{ secrets.HOSTINGER_HOST }}
+          PORT: ${{ secrets.HOSTINGER_PORT }}
+          USER: ${{ secrets.HOSTINGER_USER }}
+        run: |
+          scp -i ~/.ssh/dob_atlas -P "$PORT" \
+            "dob-atlas-${GITHUB_SHA}.tar.gz" \
+            "$USER@$HOST:dob-atlas-${GITHUB_SHA}.tar.gz"
+
+      - name: Deploy with rollback
+        env:
+          HOST: ${{ secrets.HOSTINGER_HOST }}
+          PORT: ${{ secrets.HOSTINGER_PORT }}
+          USER: ${{ secrets.HOSTINGER_USER }}
+        run: |
+          ssh -i ~/.ssh/dob_atlas -p "$PORT" "$USER@$HOST" \
+            "GITHUB_SHA='$GITHUB_SHA' bash -s" <<'REMOTE'
+          set -Eeuo pipefail
+
+          domain_root="$HOME/domains/dobshard.com"
+          public_root="$domain_root/public_html"
+          deploy_root="$HOME/.dob-atlas-deploy"
+          release_root="$deploy_root/releases/$GITHUB_SHA"
+          backup_root="$deploy_root/backups/$GITHUB_SHA"
+          archive="$HOME/dob-atlas-$GITHUB_SHA.tar.gz"
+
+          mkdir -p "$release_root" "$backup_root"
+          tar -xzf "$archive" -C "$release_root"
+          test -s "$release_root/index.html"
+
+          rsync -a \
+            --exclude='dob-downloads/' \
+            --exclude='.well-known/' \
+            "$public_root/" "$backup_root/"
+
+          rollback() {
+            rsync -a --delete \
+              --exclude='dob-downloads/' \
+              --exclude='.well-known/' \
+              "$backup_root/" "$public_root/"
+          }
+          trap rollback ERR
+
+          rsync -a --delete \
+            --exclude='dob-downloads/' \
+            --exclude='.well-known/' \
+            "$release_root/" "$public_root/"
+          test -s "$public_root/index.html"
+
+          trap - ERR
+          rm -f "$archive"
+          printf '%s\n' "$GITHUB_SHA" > "$deploy_root/current"
+
+          find "$deploy_root/releases" -mindepth 1 -maxdepth 1 -type d \
+            -printf '%T@ %p\n' | sort -nr | tail -n +4 | cut -d' ' -f2- | xargs -r rm -rf
+          find "$deploy_root/backups" -mindepth 1 -maxdepth 1 -type d \
+            -printf '%T@ %p\n' | sort -nr | tail -n +4 | cut -d' ' -f2- | xargs -r rm -rf
+          REMOTE
+
+      - name: Verify production
+        run: |
+          for attempt in {1..6}; do
+            body="$(curl --fail --silent --show-error --location \
+              --connect-timeout 10 --max-time 20 \
+              "https://dobshard.com/?deploy=${GITHUB_SHA}")" && \
+              grep -q "DoB CODEX" <<< "$body" && exit 0
+            sleep 10
+          done
+          echo "Production verification failed after 6 attempts." >&2
+          exit 1
