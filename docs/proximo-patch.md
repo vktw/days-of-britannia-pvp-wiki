@@ -16,6 +16,7 @@
 - Ajustes de decisão do Trainer para reduzir ações desperdiçadas e escolher finalizações pelo dano projetado.
 - Os kits do `[PvPCamp`, da arena e do PvP Trainer passam a fornecer **15 Greater Heal Potions** e **15 Total Mana Potions**.
 - Os mesmos kits passam a fornecer **3 Deadly Poison Potions**, independentes do cooldown global das poções ingeríveis e sujeitas apenas ao fluxo normal da skill Poisoning.
+- `[PvPCamp` e `[PvPTrainer` passam a aceitar também os aliases `.pvpcamp` e `.pvptrainer`.
 - A telemetria de arena recebe atribuição mais precisa da origem de dano e cura.
 
 ## Skills iniciais
