@@ -60,7 +60,7 @@ Flame Strike é a âncora do equilíbrio: consome 40 mana e causa 40 de dano nas
 
 Harm causa seu dano integral a um tile, 50% a dois tiles e 25% além disso. Chain Lightning e Meteor Swarm dividem a reserva máxima de 40 pontos entre os alvos atingidos.
 
-Earthquake é uma exceção: não usa cursor, tem cast de 4,5 segundos e atinge uma área ao redor do caster. Contra jogadores, causa metade dos hits atuais mais 0 a 15 pontos; a parcela baseada nos hits é limitada entre 15 e 100 antes do adicional aleatório. Por depender da vida atual, seu dano pode superar o de Flame Strike.
+Earthquake é uma exceção: não usa cursor, tem cast de 4,5 segundos e atinge uma área ao redor do caster. Contra jogadores, causa metade dos hits atuais mais 0 a 15 pontos, sem limite intermediário. Contra NPCs e outros alvos, a metade dos hits é limitada entre 15 e 100 antes do adicional aleatório. Por depender da vida atual, seu dano contra jogadores diminui conforme o alvo perde vida e pode superar o de Flame Strike quando o alvo ainda está saudável.
 
 Resisting Spells pode impedir a aplicação de Poison mágico, participa da duração de Paralyze e integra a reserva de Magic Reflection. Ela não recria as cinco resistências elementais AOS nem reduz diretamente o dano mágico Sphere.
 
@@ -68,13 +68,33 @@ Resisting Spells pode impedir a aplicação de Poison mágico, participa da dura
 
 - Protection concede +5 a +10 AR por 60 segundos, sem penalidades modernas. Termina por morte, logout, Dispel, Purge Magic ou expiração e persiste em saves durante uma sessão válida.
 - Reactive Armor pode ser ativada e exibe seu buff, mas seu bônus de Physical Resistance AOS **não reduz o dano no PvP Live**. A reflexão clássica de dano também ainda não está implementada.
-- Magic Reflection usa uma reserva calculada por Magery e Resisting Spells para refletir magias elegíveis. Seus modificadores de resistências AOS não reduzem o dano mágico Sphere, e Inscription não participa do cálculo.
+- Magic Reflection usa uma reserva calculada por Magery e Resisting Spells para refletir magias elegíveis. A reserva é `min(100, floor[(Magery / 20) × (1 + floor[Resisting Spells × 0,075])])`; com ambas as skills em 100.0, ela começa em 40. Cada reflexão consome `10 × círculo` e falha se a reserva for insuficiente. Ao esgotar, o efeito entra em cooldown; sua reposição usa uma janela de 30 segundos. Os modificadores de resistências AOS exibidos não reduzem o dano mágico Sphere, e Inscription não participa do cálculo.
 - Paralyze pode ser renovado. Sua duração é `60 + (100 - Eval Int) × 0,3 + (100 - Resist) × 0,3` segundos, variando de 60 a 120 segundos dentro dos limites normais das skills.
 - Poison não rompe Paralyze. Dano direto abre a possibilidade de liberação.
 - Magic Arrow em si mesmo é uma forma válida de causar esse dano direto.
 - Paralyze Field usa as mesmas regras do Paralyze e também pode afetar o caster. Dano direto abre uma janela de **500 ms** antes de o field poder reaplicar Paralyze; permanecer ou voltar ao tile após essa janela permite nova aplicação.
 - Ataques melee e disparos de Archery já preparados continuam podendo ser liberados durante Paralyze quando suas demais condições forem atendidas.
 - Wall of Stone forma cinco tiles, dura 60 segundos e pode coexistir com outros fields.
+
+### Fields
+
+Os fields abaixo usam target de até 15 tiles e formam cinco tiles:
+
+| Field | Efeito | Duração com Magery 100.0 |
+|---|---|---:|
+| Fire Field | Causa 2 pontos ao atravessar o tile e nas verificações periódicas enquanto o alvo permanece nele | 53 s |
+| Poison Field | Aplica ou reinicia poison ao atravessar o tile e enquanto o alvo permanece nele | 43 s |
+| Energy Field | Bloqueia passagem | 30 s |
+
+Paralyze Field segue as regras de Paralyze descritas acima. Wall of Stone também possui cinco tiles, mas usa suas regras próprias de posicionamento, sobreposição e duração de 60 segundos.
+
+### Curses de stats
+
+- Clumsy reduz DEX, Feeblemind reduz INT e Weaken reduz STR.
+- Curse reduz STR, DEX e INT do alvo; Mass Curse aplica essa lógica em área.
+- As curses direcionadas possuem alcance 10.
+- Evaluating Intelligence do caster aumenta o percentual, enquanto Resisting Spells do alvo o reduz. Com ambas em 100.0, a redução calculada é de 8%.
+- Com Evaluating Intelligence 100.0, a duração é de 121 segundos.
 
 ## Alvos benéficos e summons
 

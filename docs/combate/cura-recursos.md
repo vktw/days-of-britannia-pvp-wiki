@@ -40,4 +40,16 @@ Quando mais de dois alvos entram na explosão, o dano é dividido pelo número d
 
 ## Mana
 
-Focus e Meditation funcionam independentemente do equipamento. Meditation ativa acelera a recuperação; a recuperação passiva de jogadores usa INT, Meditation e Focus conforme a fórmula do shard.
+Focus e Meditation funcionam independentemente do equipamento. O servidor recupera um ponto de mana a cada intervalo calculado por:
+
+```text
+focusBonus = Focus / 200
+medBonus = 0,0075 × Meditation + 0,0025 × INT
+itemBase = (((Meditation / 2 + Focus / 4) / 90) × 0,65) + 2,35
+itemBonus = (itemBase × sqrt(Mana Regen) − (itemBase − 1)) / 10
+intervalo = 1 / (0,2 + focusBonus + medBonus + itemBonus)
+```
+
+`Mana Regen` representa o atributo de equipamento aplicável; os atributos modernos desativados não concedem vantagem no ruleset. Durante Meditation ativa, `medBonus` é dobrado. Com INT, Meditation e Focus em 100 e sem Mana Regen de itens, o intervalo Live é aproximadamente **0,662 segundo por mana** passivamente e **0,398 segundo por mana** durante Meditation ativa.
+
+O ajuste de redução da regeneração passiva permanece apenas em [Em teste](../em-teste.md) e não integra esses valores Live.

@@ -2,7 +2,11 @@
 
 ## Chance de acerto
 
-Com skill ofensiva 100.0 contra defesa 100.0, Melee e Archery possuem **65% de chance de acerto**. Valores diferentes de ataque e defesa escalonam a chance a partir dessa referência.
+Com skill ofensiva 100.0 contra defesa 100.0, Melee e Archery possuem **65% de chance de acerto**. A fórmula é:
+
+`chance = 1,30 × (ataque + 50) ÷ [2 × (defesa + 50)]`
+
+O resultado final fica limitado entre 2% e 98%.
 
 A defesa utiliza a skill adequada ao equipamento do alvo. Wrestling cobre o personagem sem arma.
 
@@ -20,7 +24,11 @@ Trocas de equipamento usam um action delay de **25 ms** por item. Esse intervalo
 
 ## Dano e alcance
 
-O dano físico considera a arma, sua propriedade clássica, STR, Tactics e Anatomy. Ruin, Might, Force, Power e Vanquishing acrescentam, respectivamente, +1, +3, +5, +7 e +9 ao dano.
+O dano físico considera a arma, sua propriedade clássica, STR, Tactics e Anatomy. A escala aplicada ao dano-base é:
+
+`dano = dano-base × [1 + (Tactics − 50)/100 + Anatomy/500 + STR/500]`
+
+A STR efetiva fica limitada entre 0 e 120. Ruin, Might, Force, Power e Vanquishing acrescentam, respectivamente, +1, +3, +5, +7 e +9 ao dano-base antes dessa escala.
 
 Armas envenenadas consomem uma carga e aplicam poison em todo golpe bem-sucedido.
 
