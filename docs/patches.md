@@ -1,26 +1,11 @@
 # Patch notes
 
+!!! info "Histórico oficial"
+    Esta página preserva as versões já publicadas no servidor.
+
 ## 0.7.0 · Equipamentos e Estratégia
 
-### Novidades
-
-- `.arena` e `[Arena` agora permitem escolher separadamente o tier das armors e das weapons antes da abertura da luta.
-- Os tiers de armor disponíveis são **Regular, Defense, Guarding, Hardening, Fortification e Invulnerability**.
-- Os tiers de weapon disponíveis são **Regular, Ruin, Might, Force, Power e Vanquishing**.
-- Em duelos entre jogadores, quem abre o desafio define o perfil. Os dois participantes recebem exatamente os mesmos tiers, que também aparecem no anúncio global e nos gumps de aceitação e confirmação.
-- A luta contra o PvP Trainer segue o mesmo perfil escolhido pelo jogador: armor, shield e weapons do Trainer usam os mesmos tiers do kit da partida.
-- `[PvPCamp` também abre o seletor de equipamento antes de entregar o kit.
-- Os atalhos `.pvpcamp` e `.patchnotes` foram adicionados. `.patchnotes` abre o patch mais recente sem alterar o controle de primeira leitura do personagem.
-- `.pvptrainer` foi mantido apenas como orientação para usar `.arena`; o Trainer continua exclusivo da Arena Moonglow.
-
-### Kits e personagens
-
-- Os kits de Arena, PvPCamp e PvP Trainer agora incluem **15 Greater Heal Potions**, **15 Total Mana Potions** e **3 Deadly Poison Potions**.
-- Deadly Poison Potion é usada para aplicar poison em armas. Como não é uma potion ingerida, ela não ativa nem consome o cooldown global de 15 segundos das potions bebíveis.
-- Novos personagens começam também com **Hiding, Stealth, Detect Hidden e Poisoning em 100.0**.
-- Personagens existentes recebem essas quatro skills em 100.0 uma única vez no primeiro login após o patch. A migração não reduz nem reinicia outras skills.
-
-### Armor, Physical Resist e dano
+### Alterações de PvP
 
 - O `Physical Resist` exibido em cada peça agora representa diretamente o percentual de dano físico absorvido quando aquela região corporal é atingida.
 - Exemplo: uma peça com 10% de Physical Resist absorve 4 pontos de um golpe bruto de 40.
@@ -33,22 +18,31 @@
 - Protection permanece separada: seus 5% a 10% são aplicados sobre o dano restante depois da armor ou do shield.
 - Todo dano final continua limitado ao mínimo de 1 ponto.
 - Essas fórmulas percentuais são exclusivas do PvP Sphere. O PvM mantém a absorção aleatória anterior baseada em Armor Rating.
-
-### Mana e combate
-
-- O intervalo da regeneração passiva de mana foi dobrado para jogadores e PvP Trainer, reduzindo a recuperação passiva em aproximadamente **50%**.
+- O intervalo da regeneração passiva de mana dos jogadores foi dobrado, reduzindo a recuperação passiva em aproximadamente **50%**.
 - Meditation ativa não foi reduzida e continua usando sua velocidade normal.
-- O PvP Trainer agora calcula o dano esperado de Harm, Lightning e Flame Strike antes de escolher um finisher.
-- Quando Paralyze não abre uma finalização real, o Trainer pode priorizar cura, recuperação de mana ou pressão curta de melee em vez de gastar Flame Strike prematuramente.
-- Harm passou a fazer parte das opções de finalização, respeitando sua redução de dano por distância.
-- O posicionamento do combo de Paralyze Field e Wall of Stone em X foi aprimorado, com escolha de tiles livres, tentativas limitadas de reposicionamento e cancelamento seguro quando o fechamento não é viável.
-- O Trainer reage com mais cautela a áreas congestionadas por Paralyze Field, tenta sair para um tile livre e favorece pressão à distância quando necessário.
-- Contra invisibilidade, o Trainer usa Detect Hidden 100.0 na última posição conhecida do adversário, respeitando o cooldown real da skill.
+- Deadly Poison Potion pode ser usada para aplicar poison em armas sem ativar nem consumir o cooldown global de 15 segundos das potions bebíveis.
+
+### Sistema de PvP
+
+- `.arena` e `[Arena` agora permitem escolher separadamente o tier das armors e das weapons antes da abertura da luta.
+- Os tiers de armor disponíveis são **Regular, Defense, Guarding, Hardening, Fortification e Invulnerability**.
+- Os tiers de weapon disponíveis são **Regular, Ruin, Might, Force, Power e Vanquishing**.
+- Em duelos entre jogadores, quem abre o desafio define o perfil. Os dois participantes recebem exatamente os mesmos tiers, apresentados também no anúncio global e nos gumps de aceitação e confirmação.
+- Lutas contra o PvP Trainer seguem o mesmo perfil de armor e weapon escolhido pelo jogador.
+- `[PvPCamp` também abre o seletor de equipamento antes de entregar o kit.
+- Os kits de Arena, PvPCamp e PvP Trainer agora incluem **15 Greater Heal Potions**, **15 Total Mana Potions** e **3 Deadly Poison Potions**.
+- Os atalhos `.pvpcamp` e `.patchnotes` foram adicionados. `.patchnotes` abre o patch mais recente sem alterar o controle de primeira leitura do personagem.
+- `.pvptrainer` foi mantido apenas como orientação para usar `.arena`; o Trainer continua exclusivo da Arena Moonglow.
+- Novos personagens começam também com **Hiding, Stealth, Detect Hidden e Poisoning em 100.0**.
+- Personagens existentes recebem essas quatro skills em 100.0 uma única vez no primeiro login após o patch, sem reduzir ou reiniciar outras skills.
+- Os logs unificados da Arena agora identificam com maior precisão a origem de danos e curas e registram os componentes de absorção usados nas lutas.
+
+### PvP Trainer
+
+- O PvP Trainer recebeu melhorias gerais em suas decisões de combate, posicionamento, administração de recursos e resposta às ações do adversário.
 
 ### Correções e compatibilidade
 
-- Os logs unificados da Arena agora preservam com maior precisão a origem de danos e curas atrasadas, incluindo spells, potions e bandages.
-- Os diagnósticos registram separadamente percentual e quantidade absorvida por armor, shield e Protection, facilitando futuras análises de balanceamento.
 - O perfil de equipamento escolhido é persistido no escrow da Arena. Escrows criados por versões anteriores continuam compatíveis e usam Invulnerability/Vanquishing como fallback.
 - Saves, personagens existentes, regras de PvM e comandos tradicionais com `[` permanecem compatíveis.
 
