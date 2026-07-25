@@ -1,6 +1,6 @@
 # Arena
 
-!!! success "Status: Live 0.7.0"
+!!! success "Status: Live 0.8.0"
     Estas são as regras disponíveis no servidor oficial.
 
 Use `.arena` para abrir o sistema. É possível desafiar outro jogador ou, na arena compatível, treinar contra o **PvP Trainer**.
@@ -26,6 +26,8 @@ Cada arena aceita apenas uma luta por vez e apresenta seu estado antes da entrad
 8. Após o resultado, há 15 segundos antes do retorno.
 9. Participantes são ressuscitados, devolvidos à origem e recebem novamente seus itens e montarias pessoais.
 
+Antes da devolução, a arena encerra casts e ações pendentes e remove estados temporários de combate, incluindo Paralyze, Frozen, poison, invisibilidade, buffs, curses e efeitos defensivos. Essa limpeza também ocorre em empate, desconexão e recuperação de uma sessão interrompida.
+
 O kit fornece 15 Greater Heal Potions, 15 Total Mana Potions, 10 Total Refresh, 10 Invisibility e 3 Deadly Poison Potions. A montaria pessoal é guardada junto dos pertences e não pode ser usada na arena; somente o cavalo shrinkado fornecido pelo kit da luta é permitido.
 
 Armor pode ser Regular, Defense, Guarding, Hardening, Fortification ou Invulnerability. Weapons podem ser Regular, Ruin, Might, Force, Power ou Vanquishing. O anúncio público e a confirmação mostram o equipamento definido para a luta.
@@ -49,4 +51,4 @@ Durante a preparação, os buffs autorizados são Night Sight, Reactive Armor, A
 
 ## PvP Trainer
 
-O PvP Trainer é um NPC criado para treinamento e segue as regras gerais de combate aplicáveis aos jogadores. Seu funcionamento tático e suas decisões internas não fazem parte da documentação pública.
+O PvP Trainer é um NPC criado para treinamento e segue as regras gerais de combate aplicáveis aos jogadores. Ele foi aprimorado para exercer pressão de melee, recuperar-se com mais critério e escolher melhor suas finalizações. Seu funcionamento tático e suas decisões internas não fazem parte da documentação pública.

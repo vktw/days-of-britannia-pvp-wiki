@@ -1,6 +1,6 @@
 # Personagem
 
-!!! success "Status: Live 0.7.0"
+!!! success "Status: Live 0.8.0"
     Stats, skills, caps e raça correspondem ao servidor oficial.
 
 ## Base inicial
@@ -36,3 +36,7 @@ STR influencia vida e dano físico. DEX influencia stamina e velocidade das arma
 ## Raça
 
 Human é a única raça permanente disponível para jogadores. Transformações temporárias de magia continuam sendo efeitos separados.
+
+## Hiding
+
+Ao usar Hiding, o personagem permanece visível durante 3 segundos de preparação. Movimento, dano, ataque, magia, fala, potion, bandagem, ação reveladora, morte, logout ou troca de mapa interrompem a tentativa. Ao final, as condições de combate são verificadas novamente antes do teste da skill.

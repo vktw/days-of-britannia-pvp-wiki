@@ -3,6 +3,29 @@
 !!! info "Histórico oficial"
     Esta página preserva as versões já publicadas no servidor.
 
+## 0.8.0 · Combate e Resposta
+
+### Melhorias
+
+- Ações comuns de itens e equipamentos agora respondem imediatamente. Delays próprios de potions, bandagens, skills, magias e ataques continuam valendo normalmente.
+- Bandagens de cura completam o efeito em **3,5 segundos**; a remoção imediata de poison permanece inalterada.
+- Hiding agora possui **3 segundos de preparação** e pode ser interrompido antes de esconder o personagem.
+- Resurrection usa alcance 10, começa sua faixa de sucesso em 60.0 Magery e pode recuperar itens quando o ghost está junto do próprio corpse.
+- Weaken, Clumsy e Feeblemind aplicam -15 ao stat correspondente; Curse e Mass Curse aplicam -10 a STR, DEX e INT.
+- O dano direto máximo de Magery foi redistribuído em uma progressão de **10/15/20/25/30/35/40**, de Magic Arrow a Flame Strike. Harm não perde mais dano pela distância.
+- Reaplicar o mesmo nível de poison renova sua duração silenciosamente, e os avisos periódicos foram reduzidos.
+- O PvP Trainer foi reconstruído para exercer pressão de melee, recuperar-se com mais critério e reservar magias ofensivas para finalizações.
+
+### Correções
+
+- Falhas de Magery na revalidação do alvo agora exibem o efeito completo de fizzle depois do consumo dos recursos.
+- Toda saída da arena limpa estados temporários de combate antes de restaurar o personagem em seu local de origem.
+
+### Segurança e compatibilidade
+
+- O servidor agora protege conexões contra excesso sustentado de ações sem adicionar atraso artificial ao uso legítimo.
+- Saves, personagens, escrows antigos e os cooldowns específicos de combate permanecem compatíveis.
+
 ## 0.7.0 · Equipamentos e Estratégia
 
 ### Alterações de PvP

@@ -1,6 +1,6 @@
 # Melee e Archery
 
-!!! success "Status: Live 0.7.0"
+!!! success "Status: Live 0.8.0"
     Fórmulas e comportamentos ativos no servidor oficial.
 
 ## Chance de acerto

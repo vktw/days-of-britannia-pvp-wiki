@@ -1,6 +1,6 @@
 # Consumíveis e utilidades
 
-!!! success "Status: Live 0.7.0"
+!!! success "Status: Live 0.8.0"
     Quantidades de kits e efeitos detalhados correspondem ao servidor oficial.
 
 ## Potions
@@ -11,7 +11,7 @@ Poison Potions não são ingeridas quando aplicadas em armas e não acionam o co
 
 ## Bandages
 
-Bandages removem poison imediatamente sem curar vida no mesmo uso. Sem poison, a cura leva 2,5 segundos e alcança 30-40 hits com Healing e Anatomy em 100.0.
+Bandages removem poison imediatamente sem curar vida no mesmo uso. Sem poison, a cura leva 3,5 segundos e alcança 30-40 hits com Healing e Anatomy em 100.0.
 
 ## Livros e montarias
 

@@ -13,11 +13,14 @@
 ] %}
 
 <nav class="md-nav md-nav--primary dob-atlas-nav" aria-label="{{ lang.t('nav') }}" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
+  <label class="md-nav__title" for="__drawer" aria-label="Fechar menu de navegação">
     <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-nav__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
       {% include "partials/logo.html" %}
     </a>
-    DoB Codex
+    <span class="dob-atlas-mobile__brand">Days of Britannia Atlas</span>
+    <span class="dob-atlas-mobile__close" aria-hidden="true">
+      {% include ".icons/material/close.svg" %}
+    </span>
   </label>
 
   <div class="dob-atlas-desktop">

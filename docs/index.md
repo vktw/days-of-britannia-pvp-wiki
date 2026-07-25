@@ -84,8 +84,8 @@ hide:
 <section class="dob-atlas-update" aria-labelledby="dob-release-title">
   <div>
     <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
-    <h2 id="dob-release-title">0.7.0 · Equipamentos e Estratégia</h2>
+    <h2 id="dob-release-title">0.8.0 · Combate e Resposta</h2>
   </div>
-  <p>Absorção percentual por região, tiers clássicos e kits configuráveis da Arena.</p>
+  <p>Ações imediatas, Magery refinada, recuperação segura da Arena e novas decisões do PvP Trainer.</p>
   <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

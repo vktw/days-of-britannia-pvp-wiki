@@ -1,6 +1,6 @@
 # Comandos de jogador
 
-!!! success "Status: Live 0.7.0"
+!!! success "Status: Live 0.8.0"
     Os comandos abaixo estão disponíveis aos jogadores no servidor oficial.
 
 ## `[PvPCamp`

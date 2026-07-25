@@ -1,6 +1,6 @@
 # Cura e recursos
 
-!!! success "Status: Live 0.7.0"
+!!! success "Status: Live 0.8.0"
     Faixas, delays e recuperação correspondem ao servidor oficial.
 
 ## Faixas de cura
@@ -16,7 +16,7 @@ Valores abaixo consideram as skills relevantes em 100.0:
 
 Heal e Greater Heal curam o caster ou outro personagem pela mesma faixa. Poison não bloqueia Heal, Greater Heal ou Greater Heal Potion.
 
-Bandage cura poison imediatamente sem restaurar vida. Quando não há poison, a cura de vida ocorre após 2,5 segundos. O uso de bandage exige mãos livres e desequipa automaticamente itens das mãos; um personagem paralisado só consegue usá-la se já estiver com as mãos vazias.
+Bandage cura poison imediatamente sem restaurar vida. Quando não há poison, a cura de vida ocorre após 3,5 segundos. O uso de bandage exige mãos livres e desequipa automaticamente itens das mãos; um personagem paralisado só consegue usá-la se já estiver com as mãos vazias.
 
 ## Potions
 

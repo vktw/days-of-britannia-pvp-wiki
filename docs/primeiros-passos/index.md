@@ -1,6 +1,6 @@
 # Primeiros passos
 
-!!! success "Status: Live 0.7.0"
+!!! success "Status: Live 0.8.0"
     As informações desta página correspondem ao servidor oficial.
 
 Esta seção acompanha o caminho entre instalar o launcher oficial e começar a explorar Britannia.

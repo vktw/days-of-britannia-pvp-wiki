@@ -1,6 +1,6 @@
 # Magery
 
-!!! success "Status: Live 0.7.0"
+!!! success "Status: Live 0.8.0"
     Fluxo, delays e efeitos correspondem ao servidor oficial.
 
 ## Fluxo de cast
@@ -46,12 +46,12 @@ Os valores abaixo consideram **100 INT e 100.0 Evaluating Intelligence**:
 | Magia | Dano máximo |
 |---|---:|
 | Magic Arrow | 10 |
-| Harm | 16 |
-| Fireball | 18 |
-| Lightning | 20 |
-| Mind Blast | 25 |
-| Explosion | 34 |
-| Energy Bolt | 34 |
+| Harm | 15 |
+| Fireball | 20 |
+| Lightning | 25 |
+| Mind Blast | 30 |
+| Explosion | 35 |
+| Energy Bolt | 35 |
 | Flame Strike | 40 |
 | Chain Lightning | 40 |
 | Meteor Swarm | 40 |
@@ -61,7 +61,7 @@ INT e Evaluating Intelligence abaixo de 100 reduzem esses valores. Embora buffs 
 
 Flame Strike é a âncora do equilíbrio: consome 40 mana e causa 40 de dano nas condições máximas. Sem scroll, sua Magery mínima é 50. Magias com projétil preservam apenas o tempo necessário para sincronizar dano e impacto visual, enquanto Explosion mantém seu fuse de três segundos.
 
-Harm causa seu dano integral a um tile, 50% a dois tiles e 25% além disso. Chain Lightning e Meteor Swarm dividem a reserva máxima de 40 pontos entre os alvos atingidos.
+Harm causa seu dano integral em qualquer distância válida. Chain Lightning e Meteor Swarm dividem a reserva máxima de 40 pontos entre os alvos atingidos.
 
 Earthquake é uma exceção: não usa cursor, tem cast de 4,5 segundos e atinge uma área ao redor do caster. Contra jogadores, causa metade dos hits atuais mais 0 a 15 pontos, sem limite intermediário. Contra NPCs e outros alvos, a metade dos hits é limitada entre 15 e 100 antes do adicional aleatório. Por depender da vida atual, seu dano contra jogadores diminui conforme o alvo perde vida e pode superar o de Flame Strike quando o alvo ainda está saudável.
 
@@ -93,11 +93,16 @@ Paralyze Field segue as regras de Paralyze descritas acima. Wall of Stone també
 
 ### Curses de stats
 
-- Clumsy reduz DEX, Feeblemind reduz INT e Weaken reduz STR.
-- Curse reduz STR, DEX e INT do alvo; Mass Curse aplica essa lógica em área.
+- Clumsy reduz DEX em 15, Feeblemind reduz INT em 15 e Weaken reduz STR em 15.
+- Curse reduz STR, DEX e INT em 10; Mass Curse aplica a mesma lógica em área.
 - As curses direcionadas possuem alcance 10.
-- Evaluating Intelligence do caster aumenta o percentual, enquanto Resisting Spells do alvo o reduz. Com ambas em 100.0, a redução calculada é de 8%.
+- Resisting Spells não altera a magnitude fixa dessas reduções.
+- Uma curse individual de 15 pontos prevalece temporariamente sobre o componente correspondente de Curse, que retorna quando o efeito individual termina.
 - Com Evaluating Intelligence 100.0, a duração é de 121 segundos.
+
+### Resurrection
+
+Resurrection, ou An Corp, usa alcance 10. A faixa de sucesso pelo spellbook começa em 60.0 Magery e chega a 100% em 100.0. Ao aceitar, o ressuscitado perde 10% da Fame atual. Se estiver no mesmo mapa e a até um tile do próprio corpse, seus itens móveis retornam para a mochila; itens sem espaço permanecem no corpo.
 
 ## Alvos benéficos e summons
 
