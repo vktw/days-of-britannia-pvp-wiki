@@ -1,6 +1,6 @@
 # Seu primeiro personagem
 
-!!! success "Status: Live 0.8.0"
+!!! success "Status: Live 0.9.0"
     A base abaixo é aplicada a todo novo personagem, independentemente da profissão escolhida no cliente.
 
 ## Local inicial

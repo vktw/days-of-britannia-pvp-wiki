@@ -1,6 +1,6 @@
 # Mundo
 
-!!! success "Status: Live 0.8.0"
+!!! success "Status: Live 0.9.0"
     Esta seção documenta as regras gerais de mapas e regiões do servidor oficial.
 
 Britannia utiliza Felucca e Trammel, com ajustes próprios para manter o combate e as arenas coerentes com o ruleset do shard.

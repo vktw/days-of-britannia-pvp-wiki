@@ -1,6 +1,6 @@
 # Armas clássicas
 
-!!! success "Status: Live 0.8.0"
+!!! success "Status: Live 0.9.0"
     Os tiers e bônus abaixo estão ativos no servidor oficial.
 
 | Tier | Bônus de dano |

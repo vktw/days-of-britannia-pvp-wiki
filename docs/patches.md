@@ -1,5 +1,37 @@
 # Patch notes
 
+## 0.9.0 · Fundação do Mundo
+
+### Novidades
+
+- Ocllo, em Felucca, agora é o **Safe Haven** oficial: conflito entre jogadores, stealing e ações nocivas de pets ou summons ficam bloqueados em toda a ilha.
+- Mortes fora da arena oferecem retorno imediato a Ocllo, recuperação dos itens restantes no corpo após 60 segundos ou espera por ajuda por até cinco minutos.
+- O **Threat Rating** passa a exibir uma classificação textual das criaturas, mantendo Paragons como variante separada.
+- O benefício newcomer dura 168 horas para o primeiro personagem elegível por conta e IP.
+
+### Melhorias
+
+- Felucca passa a ser a única faceta pública. As arenas oficiais em Trammel continuam como exceção controlada.
+- `.arena` permanece como o único sistema oficial de duelos e treinamento.
+- Magery com alvo usa alcance uniforme de 12 tiles e permite substituir uma magia em preparo por outra, com fizzle normal da anterior.
+- Magic Reflection possui uma carga e reflete integralmente a próxima magia ou field nocivo. Na reflexão dupla, as duas cargas são consumidas sem dano.
+- Reactive Armor dura 90 segundos e devolve 20% do dano melee final; Protection também dura 90 segundos e mantém absorção de 5% a 10%.
+- Mana Drain e Mana Vampire não afetam jogadores ou o PvP Trainer, preservando o funcionamento contra criaturas.
+- Armas melee e ranged receberam novas escadas de velocidade e dano; Archery competitivo mantém alcance 10.
+- Spellbooks permanecem na mochila; wands e artefatos modernos selecionados passam a ser históricos; itens incompatíveis com humanos deixam de circular para jogadores.
+- A economia concede 10.000 gold somente ao primeiro personagem elegível por IP e limita vendas a vendors a 20.000 gold por IP por dia.
+- Quests originais ficam temporariamente indisponíveis, preservando scripts e estado salvo.
+- O PvM passa a usar uma baseline central sem loot ou recompensas diretas para criaturas elegíveis nesta primeira fase.
+
+### Correções
+
+- Ocllo foi removida permanentemente das batalhas Vice vs Virtue.
+- Questers sem lista de quests deixam de causar erro durante a classificação de Threat.
+- Magic Reflection é removida corretamente em morte ou logout.
+- Personagens fora de Felucca sem sessão válida de arena retornam para Ocllo.
+
+Para números exatos, consulte as páginas de Magery, Melee e Archery, Armor e Parrying, Poison e Cura e recursos.
+
 !!! info "Histórico oficial"
     Esta página preserva as versões já publicadas no servidor.
 

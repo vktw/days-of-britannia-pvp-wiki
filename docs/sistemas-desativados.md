@@ -1,6 +1,6 @@
 # Sistemas desativados
 
-!!! success "Status: Live 0.8.0"
+!!! success "Status: Live 0.9.0"
     Os bloqueios abaixo fazem parte do ruleset oficial.
 
 Para preservar o equilíbrio clássico, os seguintes sistemas modernos não influenciam o PvP:
