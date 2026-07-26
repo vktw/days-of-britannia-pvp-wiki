@@ -10,6 +10,7 @@ Felucca é a única faceta pública de Britannia. Trammel permanece reservada à
 - [Mapas e viagem](mapas-viagem.md): Felucca, Trammel, Recall, Mark, Gate Travel e Teleport.
 - [Cidades e guards](cidades-guards.md): regiões com exceções conhecidas de proteção.
 - [Threat Rating](threat-rating.md): classes de ameaça, catálogo de referências e XP das criaturas.
+- [Inventário de Threat](threat-inventory.md): Threat, XP, classe e capacidades das 618 criaturas disponíveis nos scripts.
 
 ## Mundo persistente
 

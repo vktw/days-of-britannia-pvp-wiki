@@ -5,6 +5,8 @@
 
 O **Threat Rating** resume a ameaça de cada criatura em uma classe textual e colorida. Ele ajuda a comparar inimigos rapidamente sem transformar o jogo em uma planilha de atributos.
 
+[Consultar o inventário completo de 618 criaturas](threat-inventory.md){ .md-button }
+
 O rating é calculado quando a criatura surge e fica congelado nela. Reinícios e saves preservam a classificação; quando a fórmula muda, criaturas antigas são recalculadas durante o carregamento do mundo.
 
 ## Classes

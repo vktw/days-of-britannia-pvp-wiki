@@ -17,6 +17,104 @@
   --dob-panel-width: 14rem;
 }
 
+.dob-inventory-controls {
+  display: grid;
+  grid-template-columns: minmax(16rem, 2fr) repeat(2, minmax(10rem, 1fr));
+  gap: 0.75rem;
+  margin: 1.25rem 0 0.75rem;
+}
+
+.dob-inventory-controls label {
+  display: grid;
+  gap: 0.35rem;
+  color: var(--dob-muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.dob-inventory-controls input,
+.dob-inventory-controls select {
+  min-height: 2.45rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--dob-border);
+  border-radius: 0;
+  outline: none;
+  background: var(--dob-card);
+  color: var(--dob-text);
+  font: inherit;
+  text-transform: none;
+}
+
+.dob-inventory-controls input:focus,
+.dob-inventory-controls select:focus {
+  border-color: var(--dob-gold);
+  box-shadow: 0 0 0 1px var(--dob-gold-old);
+}
+
+.dob-inventory-count {
+  color: var(--dob-muted);
+  font-size: 0.82rem;
+}
+
+.dob-inventory-table {
+  max-height: 68vh;
+  overflow: auto;
+  border: 1px solid var(--dob-border);
+  background: var(--dob-secondary);
+}
+
+.md-typeset .dob-inventory-table table {
+  width: 100%;
+  min-width: 58rem;
+  margin: 0;
+  border: 0;
+}
+
+.md-typeset .dob-inventory-table th {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background: var(--dob-card);
+  color: var(--dob-gold);
+}
+
+.md-typeset .dob-inventory-table td,
+.md-typeset .dob-inventory-table th {
+  padding: 0.65rem 0.75rem;
+  border-color: var(--dob-border);
+}
+
+.md-typeset .dob-inventory-table tbody tr:hover {
+  background: rgba(36, 67, 75, 0.28);
+}
+
+.dob-number {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.dob-threat-class {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.dob-threat-trivial { color: #a8b2b0; }
+.dob-threat-common { color: #ece7da; }
+.dob-threat-dangerous { color: #77c879; }
+.dob-threat-deadly { color: #e3c75f; }
+.dob-threat-legendary { color: #e08a3e; }
+.dob-threat-mythic { color: #e35d5d; }
+.dob-threat-cataclysmic { color: #d879d8; }
+.dob-threat-world-threat { color: #73aee8; }
+.dob-threat-apocalyptic { color: #b691e8; }
+
+@media (max-width: 800px) {
+  .dob-inventory-controls {
+    grid-template-columns: 1fr;
+  }
+}
+
 [data-md-color-scheme="dob"] {
   color-scheme: dark;
   --md-primary-fg-color: var(--dob-bg);
