@@ -1,0 +1,20 @@
+# Maps and travel
+
+!!! success "Status: Live 0.9.1"
+Verified rules for players on the official server.
+
+## Felucca
+
+New characters start in Britain, Felucca. The map uses the shard's notoriety and combat rules.
+
+## Trammel
+
+Trammel is not a public facet. It remains accessible only within the controlled areas of the official arenas, where combat follows the shard ruleset. Regions outside the arenas are not part of the public travel flow.
+
+## Travel spells
+
+Recall, Mark, and Gate Travel do not allow players to leave the public Felucca facet. The policy also reaches scrolls, Runebooks and other media that use central travel validation.
+
+Teleport remains available within the current facet, outside the specific restrictions of an occupied arena, and does not bypass facet policy.
+
+Administrators can override these limitations for maintenance.

@@ -23,6 +23,13 @@
         {% include "partials/search.html" %}
       {% endif %}
     {% endif %}
+    {% if config.extra.alternate %}
+      <nav class="dob-language-switcher" aria-label="{% if i18n_page_locale == 'en' %}Language{% else %}Idioma{% endif %}">
+        {% for alternate in config.extra.alternate %}
+          <a href="{{ alternate.link | url }}" lang="{{ alternate.lang }}" hreflang="{{ alternate.lang }}"{% if alternate.lang == i18n_page_locale %} aria-current="page"{% endif %}>{{ 'EN' if alternate.lang == 'en' else 'PT' }}</a>
+        {% endfor %}
+      </nav>
+    {% endif %}
     <span class="dob-header-version">{{ config.extra.dob_version }}</span>
   </nav>
 </header>

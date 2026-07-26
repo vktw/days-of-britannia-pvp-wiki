@@ -243,6 +243,30 @@ body {
   display: none;
 }
 
+.dob-language-switcher {
+  display: inline-flex;
+  overflow: hidden;
+  border: 1px solid var(--dob-border);
+}
+
+.dob-language-switcher a {
+  padding: 0.24rem 0.4rem;
+  color: var(--dob-text-muted);
+  font-size: 0.56rem;
+  font-weight: 650;
+  line-height: 1.2;
+}
+
+.dob-language-switcher a + a {
+  border-left: 1px solid var(--dob-border);
+}
+
+.dob-language-switcher a:hover,
+.dob-language-switcher a[aria-current="page"] {
+  color: var(--dob-bg);
+  background: var(--dob-gold);
+}
+
 .dob-header-version {
   padding: 0.24rem 0.48rem;
   color: var(--dob-gold);

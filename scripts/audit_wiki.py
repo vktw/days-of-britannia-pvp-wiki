@@ -80,6 +80,7 @@ def anchors(text):
 def main():
     errors = []
     compatibility_command_pattern = re.compile(r"`\[[^`\r\n]*`")
+    command_pattern = re.compile(r"`(\.[a-z][a-z0-9]*)`", re.I)
     for relative in sorted(BASELINE_PATHS):
         if not (DOCS / relative).is_file():
             errors.append(f"baseline path missing: {relative}")
@@ -101,6 +102,26 @@ def main():
         for claim in claims:
             if claim in text:
                 errors.append(f"stale live claim exposed: {relative}: {claim}")
+
+    portuguese_pages = [
+        page for page in DOCS.rglob("*.md") if not page.name.endswith(".en.md")
+    ]
+    for page in portuguese_pages:
+        english_page = page.with_name(f"{page.stem}.en.md")
+        relative = page.relative_to(DOCS)
+        if not english_page.is_file():
+            errors.append(f"English translation missing: {relative}")
+            continue
+        source_text = page.read_text(encoding="utf-8-sig")
+        english_text = english_page.read_text(encoding="utf-8-sig")
+        if page.name != "index.md" and len(re.findall(r"^# ", english_text, re.M)) != 1:
+            errors.append(f"English translation must have one H1: {english_page.relative_to(DOCS)}")
+        if re.search(r"^#{2,6}[^#\s]", english_text, re.M):
+            errors.append(f"English heading missing space: {english_page.relative_to(DOCS)}")
+        if "DOBTOKEN" in english_text or "DOB TOKEN" in english_text:
+            errors.append(f"translation placeholder exposed: {english_page.relative_to(DOCS)}")
+        if set(command_pattern.findall(source_text)) != set(command_pattern.findall(english_text)):
+            errors.append(f"player command changed in translation: {english_page.relative_to(DOCS)}")
 
     link_pattern = re.compile(r"(?<!!)\[[^\]]+\]\(([^)]+)\)")
     for page in DOCS.rglob("*.md"):
@@ -125,7 +146,10 @@ def main():
     if errors:
         print("\n".join(errors))
         return 1
-    print(f"wiki audit passed: {len(BASELINE_PATHS)} baseline paths preserved")
+    print(
+        f"wiki audit passed: {len(BASELINE_PATHS)} baseline paths preserved; "
+        f"{len(portuguese_pages)} English translations present"
+    )
     return 0
 
 
