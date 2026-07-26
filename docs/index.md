@@ -86,6 +86,6 @@ hide:
     <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
     <h2 id="dob-release-title">0.9.0 · Fundação do Mundo</h2>
   </div>
-  <p>Ações imediatas, Magery refinada, recuperação segura da Arena e novas decisões do PvP Trainer.</p>
+  <p>Felucca como faceta pública, Ocllo Safe Haven, recuperação de morte e a nova fundação de PvM e Threat Rating.</p>
   <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

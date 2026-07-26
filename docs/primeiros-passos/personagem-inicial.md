@@ -32,6 +32,6 @@ O personagem começa com:
 - Spellbook completo.
 - Runebook vazio.
 - Cavalo shrinkado.
-- 10.000 gold.
+- 10.000 gold, somente para o primeiro personagem elegível por IP.
 
 Consulte [Personagem](../personagem.md) para buffs, caps e raça, e [Itens](../itens/index.md) para equipamentos clássicos.

@@ -3,7 +3,7 @@
 !!! success "Status: Live 0.9.0"
     Os bloqueios abaixo fazem parte do ruleset oficial.
 
-Para preservar o equilíbrio clássico, os seguintes sistemas modernos não influenciam o PvP:
+Para preservar o equilíbrio clássico, os seguintes sistemas modernos ficam bloqueados globalmente ou têm seus efeitos neutralizados no PvP Sphere. Classes e propriedades podem continuar serializáveis para compatibilidade com saves, e algumas mecânicas conservam comportamento fora do PvP quando indicado:
 
 - Weapon abilities e special moves.
 - Necromancy, Chivalry, Bushido, Ninjitsu, Spellweaving e Mysticism.

@@ -124,6 +124,13 @@ function bindDobNavigation() {
     document.body.dataset.dobNavEscapeBound = "true";
     document.addEventListener("keydown", (event) => {
       if (event.key === "Escape") {
+        const drawerToggle = document.querySelector("#__drawer");
+
+        if (drawerToggle?.checked) {
+          drawerToggle.checked = false;
+          drawerToggle.dispatchEvent(new Event("change", { bubbles: true }));
+        }
+
         document.body.classList.remove("dob-atlas-nav-open");
         document.querySelectorAll("[data-dob-nav-target]").forEach((trigger) => {
           trigger.setAttribute("aria-expanded", "false");

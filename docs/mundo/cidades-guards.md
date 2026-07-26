@@ -9,7 +9,7 @@ Cove em Felucca não possui proteção de guards e pode ser usada como área abe
 
 ## Moonglow em Trammel
 
-A região da cidade e o moongate de Moonglow em Trammel foram deixados sem guards para a operação da Arena Moonglow.
+A configuração da região da cidade e do moongate de Moonglow em Trammel remove a proteção de guards para a operação controlada da Arena Moonglow.
 
 ## Yew Cemetery
 

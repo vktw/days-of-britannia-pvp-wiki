@@ -20,8 +20,8 @@ O bônus é aplicado depois do escalonamento de dano por skills e STR e antes da
 - Armas que ocupam `TwoHanded` impedem o uso simultâneo de shield.
 - Polearms e outras armas longas configuradas pelo shard podem atacar a range 2.
 - Archery possui alcance próprio, exige munição e libera o tiro preparado quando o arqueiro para de se mover.
-- Poison pode ser aplicado a polearms de duas mãos e armas cuja definição possui Infectious Strike.
+- Poison pode ser aplicado a swords, spears e knives melee elegíveis, além dos polearms de duas mãos autorizados pelo shard. Armas ranged, armas utilitárias e as demais armas de duas mãos são incompatíveis.
 
-Special moves permanecem desativados mesmo quando a definição interna da arma é usada para determinar compatibilidade com poison.
+Special moves permanecem desativados e não determinam a compatibilidade da arma com poison.
 
 Veja [Melee e Archery](../combate/melee-archery.md) e [Poison](../combate/poison.md).

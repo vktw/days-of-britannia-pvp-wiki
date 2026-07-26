@@ -55,23 +55,23 @@ Os valores abaixo consideram **100 INT e 100.0 Evaluating Intelligence**:
 | Flame Strike | 40 |
 | Chain Lightning | 40 |
 | Meteor Swarm | 40 |
-| Earthquake | 50% dos hits atuais + 0-15 |
+| Earthquake | Reserva de 40 dividida entre os alvos PvP |
 
 INT e Evaluating Intelligence abaixo de 100 reduzem esses valores. Embora buffs possam elevar INT até 120, **INT acima de 100 não aumenta o dano mágico**. Inscription também não modifica esse dano.
 
-Flame Strike é a âncora do equilíbrio: consome 40 mana e causa 40 de dano nas condições máximas. Sem scroll, sua Magery mínima é 50. Magias com projétil preservam apenas o tempo necessário para sincronizar dano e impacto visual, enquanto Explosion mantém seu fuse de três segundos.
+Flame Strike é a âncora do equilíbrio: consome 40 mana e causa 40 de dano nas condições máximas. Sem scroll, sua faixa normal de sucesso começa em aproximadamente 65,7 Magery. Magias com projétil preservam apenas o tempo necessário para sincronizar dano e impacto visual, enquanto Explosion mantém seu fuse de três segundos.
 
 Harm causa seu dano integral em qualquer distância válida. Chain Lightning e Meteor Swarm dividem a reserva máxima de 40 pontos entre os alvos atingidos.
 
-Earthquake é uma exceção: não usa cursor, tem cast de 4,5 segundos e atinge uma área ao redor do caster. Contra jogadores, causa metade dos hits atuais mais 0 a 15 pontos, sem limite intermediário. Contra NPCs e outros alvos, a metade dos hits é limitada entre 15 e 100 antes do adicional aleatório. Por depender da vida atual, seu dano contra jogadores diminui conforme o alvo perde vida e pode superar o de Flame Strike quando o alvo ainda está saudável.
+Earthquake é uma exceção: não usa cursor, tem cast de 4,5 segundos e atinge uma área ao redor do caster. Em PvP, possui uma reserva máxima de 40 pontos, dividida entre os jogadores atingidos. Contra NPCs e outros alvos fora do PvP Sphere, causa metade dos hits atuais, limitada entre 15 e 100, mais 0 a 15 pontos.
 
-Resisting Spells pode impedir a aplicação de Poison mágico, participa da duração de Paralyze e integra a reserva de Magic Reflection. Ela não recria as cinco resistências elementais AOS nem reduz diretamente o dano mágico Sphere.
+Resisting Spells pode impedir a aplicação de Poison mágico e participa da duração de Paralyze. Magic Reflection não utiliza essa skill no sistema de uma carga. Resisting Spells não recria as cinco resistências elementais AOS nem reduz diretamente o dano mágico Sphere.
 
 ## Buffs e controle
 
-- Protection concede +5 a +10 AR por 60 segundos, sem penalidades modernas. Termina por morte, logout, Dispel, Purge Magic ou expiração e persiste em saves durante uma sessão válida.
-- Reactive Armor pode ser ativada e exibe seu buff, mas seu bônus de Physical Resistance AOS **não reduz o dano no PvP Live**. A reflexão clássica de dano também ainda não está implementada.
-- Magic Reflection usa uma reserva calculada por Magery e Resisting Spells para refletir magias elegíveis. A reserva é `min(100, floor[(Magery / 20) × (1 + floor[Resisting Spells × 0,075])])`; com ambas as skills em 100.0, ela começa em 40. Cada reflexão consome `10 × círculo` e falha se a reserva for insuficiente. Ao esgotar, o efeito entra em cooldown; sua reposição usa uma janela de 30 segundos. Os modificadores de resistências AOS exibidos não reduzem o dano mágico Sphere, e Inscription não participa do cálculo.
+- Protection concede de 5% a 10% de absorção adicional no PvP por 90 segundos, aplicada depois da armor, do shield ou do bônus de região descoberta. Não possui as penalidades modernas. Termina por morte, logout, Dispel, Purge Magic ou expiração e persiste em saves durante uma sessão válida.
+- Reactive Armor dura 90 segundos. Ao receber dano melee, devolve 20% do dano final ao atacante e reduz o dano recebido pelo mesmo valor, preservando o mínimo de 1 ponto. Seu bônus de Physical Resistance AOS não participa separadamente do dano PvP.
+- Magic Reflection possui uma carga e reflete integralmente a próxima magia ou field nocivo elegível. Se atacante e defensor estiverem protegidos, as duas cargas são consumidas e a magia é anulada sem dano. Não existe reserva por círculo nem reposição automática em 30 segundos. Os modificadores de resistências AOS exibidos não reduzem o dano mágico Sphere, e Inscription não participa do cálculo.
 - Paralyze pode ser renovado. Sua duração é `60 + (100 - Eval Int) × 0,3 + (100 - Resist) × 0,3` segundos, variando de 60 a 120 segundos dentro dos limites normais das skills.
 - Poison não rompe Paralyze. Dano direto abre a possibilidade de liberação.
 - Magic Arrow em si mesmo é uma forma válida de causar esse dano direto.
@@ -81,7 +81,7 @@ Resisting Spells pode impedir a aplicação de Poison mágico, participa da dura
 
 ### Fields
 
-Os fields abaixo usam target de até 15 tiles e formam cinco tiles:
+Os fields abaixo usam o alcance padrão de Magery de 12 tiles e formam cinco tiles:
 
 | Field | Efeito | Duração com Magery 100.0 |
 |---|---|---:|
@@ -95,21 +95,21 @@ Paralyze Field segue as regras de Paralyze descritas acima. Wall of Stone també
 
 - Clumsy reduz DEX em 15, Feeblemind reduz INT em 15 e Weaken reduz STR em 15.
 - Curse reduz STR, DEX e INT em 10; Mass Curse aplica a mesma lógica em área.
-- As curses direcionadas possuem alcance 10.
+- As curses direcionadas possuem alcance 12.
 - Resisting Spells não altera a magnitude fixa dessas reduções.
 - Uma curse individual de 15 pontos prevalece temporariamente sobre o componente correspondente de Curse, que retorna quando o efeito individual termina.
 - Com Evaluating Intelligence 100.0, a duração é de 121 segundos.
 
 ### Resurrection
 
-Resurrection, ou An Corp, usa alcance 10. A faixa de sucesso pelo spellbook começa em 60.0 Magery e chega a 100% em 100.0. Ao aceitar, o ressuscitado perde 10% da Fame atual. Se estiver no mesmo mapa e a até um tile do próprio corpse, seus itens móveis retornam para a mochila; itens sem espaço permanecem no corpo.
+Resurrection, ou An Corp, usa alcance 12. A faixa de sucesso pelo spellbook começa em 60.0 Magery e chega a 100% em 100.0. Ao aceitar, o ressuscitado perde 10% da Fame atual. Se estiver no mesmo mapa e a até um tile do próprio corpse, seus itens móveis retornam para a mochila; itens sem espaço permanecem no corpo.
 
 ## Alvos benéficos e summons
 
-Create Food, Reactive Armor, Protection, Magic Reflection, Incognito e Polymorph aceitam qualquer `Mobile` vivo e válido em alcance 10, incluindo o próprio caster, jogadores e NPCs. Polymorph aplica ao alvo a forma previamente escolhida pelo caster, e Create Food entrega o alimento à mochila do alvo.
+Create Food, Reactive Armor, Protection, Magic Reflection, Incognito e Polymorph aceitam qualquer `Mobile` vivo e válido em alcance 12, incluindo o próprio caster, jogadores e NPCs. Polymorph aplica ao alvo a forma previamente escolhida pelo caster, e Create Food entrega o alimento à mochila do alvo.
 
-Summon Creature, Summon Daemon e os elementais de Air, Earth, Fire e Water aceitam como referência o chão ou um `Mobile` em alcance 10. Na liberação, a criatura surge no ponto válido mais próximo da posição atual do alvo e permanece pertencendo e obedecendo ao caster. Summons de jogadores continuam impedidos de causar dano a outros jogadores.
+Summon Creature, Summon Daemon e os elementais de Air, Earth, Fire e Water aceitam como referência o chão ou um `Mobile` em alcance 12. Na liberação, a criatura surge no ponto válido mais próximo da posição atual do alvo e permanece pertencendo e obedecendo ao caster. Summons de jogadores continuam impedidos de causar dano a outros jogadores.
 
 ## Viagem em Trammel
 
-Recall, Mark e Gate Travel são bloqueados para jogadores quando a origem ou o destino está em Trammel. A regra também alcança scrolls, Runebooks e outros meios que utilizam o mesmo validador de viagem. Teleport continua disponível fora das restrições específicas de uma sessão de arena.
+Felucca é a única faceta pública. Recall, Mark, Gate Travel, scrolls, Runebooks e outros meios de viagem não permitem que jogadores acessem outras facetas. Trammel permanece disponível somente nas áreas controladas das arenas oficiais. Teleport continua disponível dentro da faceta atual, fora das restrições específicas de uma sessão de arena.

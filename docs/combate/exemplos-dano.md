@@ -26,9 +26,9 @@ escala = 1,90
 
 | Arma | Dano-base | Depois da escala e truncamento | Vanquishing | Dano bruto final |
 |---|---:|---:|---:|---:|
-| Kryss | 10-12 | 19-22 | +9 | **28-31** |
+| Kryss | 10-13 | 19-24 | +9 | **28-33** |
 | Bardiche | 17-20 | 32-38 | +9 | **41-47** |
-| Bow | 17-21 | 32-39 | +9 | **41-48** |
+| Bow | 17-22 | 32-41 | +9 | **41-50** |
 
 Cada golpe sorteia um inteiro dentro da faixa de dano-base. Por isso, os valores intermediarios nao formam necessariamente uma progressao perfeitamente uniforme depois da multiplicacao e do truncamento.
 

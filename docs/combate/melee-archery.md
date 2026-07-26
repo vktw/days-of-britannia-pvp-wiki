@@ -19,11 +19,11 @@ O valor `Speed` da arma representa o delay em segundos com 100 DEX:
 
 `delay = Speed × 200 ÷ (DEX + 100)`
 
-A DEX efetiva usada na fórmula fica entre 0 e 120 e existe um delay mínimo global de 1,25 segundo. O bow clássico tem Speed 4.0, portanto dispara a cada 4 segundos com 100 DEX.
+A DEX efetiva usada na fórmula fica entre 0 e 120 e existe um delay mínimo global de 1,25 segundo. O Bow clássico tem Speed 4.5, portanto dispara a cada 4,5 segundos com 100 DEX.
 
-O swing pertence ao alvo atual. Caminhar não reinicia o preparo do tiro, mas Archery mantém o disparo em buffer e só o libera quando o personagem para e continua em alcance válido.
+O swing pertence ao alvo atual. Caminhar não reinicia o preparo do tiro, mas Archery mantém o disparo em buffer e só o libera quando o personagem continua em alcance válido e permanece parado por 250 ms.
 
-Trocas de equipamento usam um action delay de **25 ms** por item. Esse intervalo controla ações de equipar e desequipar; ele não substitui nem reduz o swing delay da arma.
+Ações comuns de equipar e desequipar respondem imediatamente, sem action delay artificial. Os delays próprios de ataques, magias, potions, bandages e skills continuam valendo normalmente.
 
 ## Dano e alcance
 

@@ -35,6 +35,37 @@ REQUIRED_HEADINGS = {
     "sistemas-desativados.md": ["# Sistemas desativados", "## Pets e summons"],
 }
 
+REQUIRED_LIVE_CLAIMS = {
+    "personagem.md": ["primeiro personagem elegível por IP"],
+    "primeiros-passos/personagem-inicial.md": ["primeiro personagem elegível por IP"],
+    "combate/melee-archery.md": ["Speed 4.5", "permanece parado por 250 ms"],
+    "combate/exemplos-dano.md": ["| Kryss | 10-13 | 19-24 | +9 | **28-33** |", "| Bow | 17-22 | 32-41 | +9 | **41-50** |"],
+    "combate/magery.md": ["Reserva de 40 dividida entre os alvos PvP", "reserva máxima de 40 pontos", "uma carga", "alcance padrão de Magery de 12 tiles"],
+    "mundo/index.md": ["Felucca é a única faceta pública"],
+    "mundo/mapas-viagem.md": ["Trammel não é uma faceta pública"],
+    "itens/armas.md": ["não determinam a compatibilidade da arma com poison"],
+}
+
+FORBIDDEN_LIVE_CLAIMS = {
+    "combate/melee-archery.md": ["Speed 4.0", "action delay de **25 ms**"],
+    "combate/magery.md": [
+        "causa metade dos hits atuais mais 0 a 15",
+        "| Earthquake | 50% dos hits atuais + 0-15 |",
+        "por 60 segundos, sem penalidades modernas",
+        "a reflexão clássica de dano também ainda não está implementada",
+        "Magic Reflection usa uma reserva calculada",
+        "integra a reserva de Magic Reflection",
+        "target de até 15 tiles",
+        "curses direcionadas possuem alcance 10",
+        "Resurrection, ou An Corp, usa alcance 10",
+        "Mobile` vivo e válido em alcance 10",
+        "elementais de Air, Earth, Fire e Water aceitam como referência o chão ou um `Mobile` em alcance 10",
+    ],
+    "mundo/index.md": ["Britannia utiliza Felucca e Trammel"],
+    "mundo/mapas-viagem.md": ["Trammel utiliza regras de combate equivalentes"],
+    "itens/armas.md": ["definição possui Infectious Strike"],
+}
+
 
 def anchors(text):
     result = set()
@@ -57,6 +88,18 @@ def main():
         for heading in headings:
             if heading not in text:
                 errors.append(f"baseline heading missing: {relative}: {heading}")
+
+    for relative, claims in REQUIRED_LIVE_CLAIMS.items():
+        text = (DOCS / relative).read_text(encoding="utf-8-sig")
+        for claim in claims:
+            if claim not in text:
+                errors.append(f"required live claim missing: {relative}: {claim}")
+
+    for relative, claims in FORBIDDEN_LIVE_CLAIMS.items():
+        text = (DOCS / relative).read_text(encoding="utf-8-sig")
+        for claim in claims:
+            if claim in text:
+                errors.append(f"stale live claim exposed: {relative}: {claim}")
 
     link_pattern = re.compile(r"(?<!!)\[[^\]]+\]\(([^)]+)\)")
     for page in DOCS.rglob("*.md"):

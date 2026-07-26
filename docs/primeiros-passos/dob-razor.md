@@ -1,7 +1,7 @@
 # DoB Razor
 
 !!! warning "Status: experimental"
-    Use cópias dos seus scripts durante os testes. O DoB Razor mantém compatibilidade com scripts existentes, mas as funções reutilizáveis ainda pertencem ao pacote experimental.
+    Use cópias dos seus scripts durante os testes. Scripts que não dependem das novas funções devem preservar o comportamento anterior, mas o pacote experimental não oferece garantia universal de compatibilidade.
 
 O launcher oficial inicia automaticamente o **DoB Razor** junto com o cliente. Não é necessário abrir o assistente manualmente.
 
@@ -27,7 +27,7 @@ As declarações podem aparecer antes ou depois da chamada. Cada execução mant
 
 ## Compatibilidade e diagnóstico
 
-Scripts que não usam funções continuam funcionando como antes. Comandos como `wait` e `target`, além de pausa e cancelamento, preservam seu comportamento normal dentro das funções.
+Scripts que não usam as novas funções devem continuar funcionando como antes. Nos testes publicados do projeto, comandos como `wait` e `target`, além de pausa e cancelamento, preservam seu comportamento normal dentro das funções.
 
 Os erros continuam indicando as linhas originais no editor, facilitando localizar funções ausentes, argumentos incorretos, definições incompletas e chamadas excessivamente profundas.
 

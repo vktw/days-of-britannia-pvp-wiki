@@ -9,12 +9,12 @@ Novos personagens começam em Britain, Felucca. O mapa utiliza as regras de noto
 
 ## Trammel
 
-Trammel utiliza regras de combate equivalentes às de Felucca para permitir as arenas oficiais. Essa alteração não transforma todas as cidades em áreas sem guards; proteções regionais continuam existindo onde não foram explicitamente removidas.
+Trammel não é uma faceta pública. Ela permanece acessível somente dentro das áreas controladas das arenas oficiais, onde o combate segue o ruleset do shard. Regiões externas às arenas não fazem parte do fluxo público de viagem.
 
 ## Magias de viagem
 
-Recall, Mark e Gate Travel ficam bloqueadas para jogadores quando o caster ou o destino está em Trammel. A regra também alcança itens que usam a mesma validação central, como Runebooks.
+Recall, Mark e Gate Travel não permitem que jogadores saiam da faceta pública Felucca. A política também alcança scrolls, Runebooks e outros meios que utilizam a validação central de viagem.
 
-Teleport permanece disponível fora das restrições específicas de uma arena ocupada.
+Teleport permanece disponível dentro da faceta atual, fora das restrições específicas de uma arena ocupada, e não contorna a política de facetas.
 
 Administradores podem ignorar essas limitações para manutenção.

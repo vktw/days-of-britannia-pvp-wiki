@@ -3,7 +3,7 @@
 !!! success "Status: Live 0.9.0"
     Esta seção documenta as regras gerais de mapas e regiões do servidor oficial.
 
-Britannia utiliza Felucca e Trammel, com ajustes próprios para manter o combate e as arenas coerentes com o ruleset do shard.
+Felucca é a única faceta pública de Britannia. Trammel permanece reservada às áreas controladas das arenas oficiais.
 
 ## Páginas
 
@@ -12,6 +12,6 @@ Britannia utiliza Felucca e Trammel, com ajustes próprios para manter o combate
 
 ## Mundo persistente
 
-Portas, placas, decorações, spawners, vendors, personagens e itens fazem parte do mundo persistente do servidor. Atualizações de código não substituem os saves oficiais.
+Portas, placas, decorações, spawners, vendors, personagens e itens podem fazer parte do mundo persistente do servidor. Atualizações de código não substituem os saves oficiais.
 
-Os spawns são mantidos pelo mundo salvo e pelas definições carregadas pelo servidor. Objetos colocados manualmente por administração permanecem até serem removidos ou afetados por uma rotina específica do mundo.
+Os spawns combinam o estado do mundo salvo com as definições carregadas pelo servidor. A presença efetiva de objetos gerados ou colocados manualmente depende do estado atual do mundo.

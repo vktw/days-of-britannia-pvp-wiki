@@ -5,7 +5,7 @@
 
 ## Base inicial
 
-Todo novo personagem humano começa com **100 STR, 100 DEX e 100 INT**, 10.000 gold, Spellbook completo, Runebook e um cavalo shrinkado.
+Todo novo personagem humano começa com **100 STR, 100 DEX e 100 INT**, Spellbook completo, Runebook e um cavalo shrinkado. Os **10.000 gold** iniciais são concedidos somente ao primeiro personagem elegível por IP.
 
 As seguintes skills começam em **100.0**:
 

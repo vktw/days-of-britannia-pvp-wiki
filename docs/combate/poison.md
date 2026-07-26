@@ -14,6 +14,6 @@ Poison é um recurso de pressão, especialmente útil para disputar janelas de c
 
 O percentual usa a vida atual do alvo; depois do cálculo, o servidor aplica o mínimo e o máximo do respectivo nível. Poison de magia e de arma seguem a mesma cadência. Darkglow, Parasitic e Lethal permanecem desativados para o ruleset.
 
-Reaplicar o mesmo nível reinicia a duração sem repetir a mensagem inicial. Durante uma aplicação completa, a vítima recebe 2/2/4/4 avisos em Lesser/Regular/Greater/Deadly, enquanto observadores próximos recebem 2/2/3/4. Os ticks e números visíveis de dano permanecem inalterados.
+Reaplicar o mesmo nível reinicia a duração sem repetir a mensagem inicial. Os avisos periódicos são reduzidos e variam por nível: Lesser e Regular não repetem aviso local durante os ticks; Greater e Deadly repetem duas vezes. Observadores próximos recebem um aviso periódico em Lesser e Regular, dois em Greater e três em Deadly. As mensagens de aplicação e encerramento são separadas dessas repetições. Os ticks e números visíveis de dano permanecem inalterados.
 
 Armas envenenadas aplicam poison em todo golpe bem-sucedido e consomem uma carga. A linha de propriedade da arma mostra nível e cargas restantes.

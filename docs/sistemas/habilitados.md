@@ -11,7 +11,7 @@
 - Armas e armaduras com tiers clássicos.
 - Poison clássico: Lesser, Regular, Greater e Deadly.
 - Bandages e potions clássicas.
-- Runebooks, Recall e Gate Travel fora das restrições específicas de Trammel.
+- Runebooks, Recall e Gate Travel dentro da faceta pública Felucca; Trammel permanece restrita às arenas oficiais.
 - Arenas, rankings, temporadas e PvP Trainer.
 - Auto-account e até duas conexões simultâneas por IP externo.
 
