@@ -1,6 +1,6 @@
 # Sistemas habilitados
 
-!!! success "Status: Live 0.9.0"
+!!! success "Status: Live 0.9.1"
     Lista resumida das mecânicas centrais disponíveis aos jogadores.
 
 - Combate físico com Swords, Macing, Fencing, Archery e Wrestling.
@@ -13,6 +13,7 @@
 - Bandages e potions clássicas.
 - Runebooks, Recall e Gate Travel dentro da faceta pública Felucca; Trammel permanece restrita às arenas oficiais.
 - Arenas, rankings, temporadas e PvP Trainer.
+- Threat Rating textual para criaturas PvM, com Paragon exibido como variante separada.
 - Auto-account e até duas conexões simultâneas por IP externo.
 
 Consulte as páginas específicas para limites e exceções. A presença nesta lista não significa que a mecânica mantenha o comportamento padrão do TrueUO.

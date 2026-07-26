@@ -1,6 +1,6 @@
 # Armor e Parrying
 
-!!! success "Status: Live 0.9.0"
+!!! success "Status: Live 0.9.1"
     Absorção regional e Parrying correspondem ao servidor oficial.
 
 ## Regiões corporais

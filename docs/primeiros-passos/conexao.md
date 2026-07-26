@@ -1,6 +1,6 @@
 # Como conectar
 
-!!! success "Status: Live 0.9.0"
+!!! success "Status: Live 0.9.1"
     O launcher oficial configura e inicia o cliente correto para o servidor.
 
 ## Launcher oficial

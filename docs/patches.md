@@ -1,5 +1,15 @@
 # Patch notes
 
+## 0.9.1 · Correções de equipamento e kit PvP
+
+### Melhoria
+
+- O kit entregue por `.pvpcamp` agora inclui uma bolsa de joias mágicas com Magic Earrings (+5 INT), Magic Ring (+5 STR) e Magic Bracelet (+5 DEX), igual ao conjunto usado na arena. As joias seguem as regras normais de loot e não são Blessed.
+
+### Correção
+
+- Dois cliques em um Spellbook acessível na mochila agora abrem corretamente o livro sem equipá-lo, mover armas ou shields das mãos, nem alterar a regra que impede jogadores de equipar Spellbooks.
+
 ## 0.9.0 · Fundação do Mundo
 
 ### Novidades

@@ -18,7 +18,7 @@ theme:
   palette:
     scheme: dob
 extra:
-  dob_version: "Live 0.9.0"
+  dob_version: "Live 0.9.1"
 extra_css:
   - stylesheets/extra.css?v=20260724.5
 extra_javascript:
@@ -46,6 +46,7 @@ nav:
       - Visão geral: mundo/index.md
       - Mapas e viagem: mundo/mapas-viagem.md
       - Cidades e guards: mundo/cidades-guards.md
+      - Threat Rating: mundo/threat-rating.md
   - Combate:
       - Visão geral: combate/index.md
       - Melee e Archery: combate/melee-archery.md

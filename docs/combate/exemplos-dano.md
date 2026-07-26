@@ -1,9 +1,9 @@
 # Exemplos de dano
 
-!!! success "Status: Live 0.9.0"
+!!! success "Status: Live 0.9.1"
     Os exemplos utilizam as fórmulas atualmente publicadas.
 
-Os exemplos abaixo seguem o servidor oficial **Live 0.9.0**. Eles isolam um golpe que ja acertou; a chance de acerto e a chance de Parrying sao sorteios anteriores e independentes.
+Os exemplos abaixo seguem o servidor oficial **Live 0.9.1**. Eles isolam um golpe que ja acertou; a chance de acerto e a chance de Parrying sao sorteios anteriores e independentes.
 
 ## Atacante usado
 

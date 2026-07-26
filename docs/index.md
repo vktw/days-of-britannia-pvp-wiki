@@ -84,8 +84,8 @@ hide:
 <section class="dob-atlas-update" aria-labelledby="dob-release-title">
   <div>
     <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
-    <h2 id="dob-release-title">0.9.0 · Fundação do Mundo</h2>
+    <h2 id="dob-release-title">0.9.1 · Equipamento e kit PvP</h2>
   </div>
-  <p>Felucca como faceta pública, Ocllo Safe Haven, recuperação de morte e a nova fundação de PvM e Threat Rating.</p>
+  <p>Spellbooks voltam a abrir naturalmente na mochila, e o kit de <code>.pvpcamp</code> passa a incluir as joias mágicas usadas na arena.</p>
   <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

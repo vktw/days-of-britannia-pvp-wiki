@@ -30,12 +30,13 @@ REQUIRED_HEADINGS = {
     "combate/cura-recursos.md": ["# Cura e recursos", "## Faixas de cura", "## Mana"],
     "combate/exemplos-dano.md": ["# Exemplos de dano", "## Faixas de dano bruto"],
     "combate/poison.md": ["# Poison"],
-    "patches.md": ["# Patch notes", "## 0.1.0", "## 0.7.0"],
+    "patches.md": ["# Patch notes", "## 0.9.1", "## 0.7.0", "## 0.1.0"],
     "proximo-patch.md": ["# Próximo Patch Planejado"],
     "sistemas-desativados.md": ["# Sistemas desativados", "## Pets e summons"],
 }
 
 REQUIRED_LIVE_CLAIMS = {
+    "patches.md": ["Correções de equipamento e kit PvP", "Magic Earrings (+5 INT)", "Dois cliques em um Spellbook"],
     "personagem.md": ["primeiro personagem elegível por IP"],
     "primeiros-passos/personagem-inicial.md": ["primeiro personagem elegível por IP"],
     "combate/melee-archery.md": ["Speed 4.5", "permanece parado por 250 ms"],
