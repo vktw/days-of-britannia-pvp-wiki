@@ -1,0 +1,23 @@
+# Getting started
+
+!!! success "Status: Live 0.9.1"
+    The information on this page corresponds to the official server.
+
+This section walks you through installing the official launcher and starting to explore Britannia.
+
+## Recommended sequence
+
+1. Download and open the [official DOB Launcher](conexao.md).
+2. Create your account directly through the login screen.
+3. See what the character receives in [Your first character](personagem-inicial.md).
+4. Use `.patchnotes` to read the current version within the game.
+5. Use `.pvpcamp` when you want to put together a training kit.
+6. Use `.arena` for official challenges or training against PvP Trainer.
+
+## Useful references
+
+- [DoB Razor](dob-razor.md)
+- [Stats, skills, buffs and race](../personagem.md)
+- [Maps and travel](../mundo/mapas-viagem.md)
+- [Player commands](../comandos.md)
+- [Systems enabled and disabled](../sistemas/index.md)

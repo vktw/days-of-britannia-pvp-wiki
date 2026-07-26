@@ -11,7 +11,6 @@ theme:
   logo: assets/logo.png?v=20260724.1
   font: false
   features:
-    - navigation.instant
     - navigation.top
     - search.highlight
     - content.tooltips
@@ -20,12 +19,56 @@ theme:
 extra:
   dob_version: "Live 0.9.1"
 extra_css:
-  - stylesheets/extra.css?v=20260726.6
+  - stylesheets/extra.css?v=20260726.7
 extra_javascript:
-  - scripts/dob.js?v=20260726.1
+  - scripts/dob.js?v=20260726.2
 plugins:
   - search:
-      lang: pt
+      lang:
+        - pt
+        - en
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: false
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: pt-BR
+          default: true
+          name: Português
+          build: true
+        - locale: en
+          name: English
+          build: true
+          nav_translations:
+            Inicio: Home
+            Primeiros passos: Getting started
+            Comece aqui: Start here
+            Como conectar: How to connect
+            Seu primeiro personagem: Your first character
+            Personagem: Character
+            "Stats, skills e raça": Stats, skills and race
+            Mundo: World
+            Visão geral: Overview
+            Mapas e viagem: Maps and travel
+            Cidades e guards: Cities and guards
+            Inventário de Threat: Threat inventory
+            Combate: Combat
+            Melee e Archery: Melee and Archery
+            Armor e Parrying: Armor and Parrying
+            Exemplos de dano: Damage examples
+            Cura e recursos: Healing and resources
+            Itens: Items
+            Armas clássicas: Classic weapons
+            Armaduras clássicas: Classic armor
+            Consumíveis e utilidades: Consumables and utilities
+            Arena e treinamento: Arena and training
+            Sistemas: Systems
+            Sistemas habilitados: Enabled systems
+            Sistemas desativados: Disabled systems
+            Comandos: Commands
+            Atualizações: Updates
+            Próximo patch planejado: Planned next patch
 markdown_extensions:
   - admonition
   - attr_list

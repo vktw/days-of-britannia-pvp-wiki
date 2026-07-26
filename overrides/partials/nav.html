@@ -13,7 +13,7 @@
 ] %}
 
 <nav class="md-nav md-nav--primary dob-atlas-nav" aria-label="{{ lang.t('nav') }}" data-md-level="0">
-  <label class="md-nav__title" for="__drawer" aria-label="Fechar menu de navegação">
+  <label class="md-nav__title" for="__drawer" aria-label="{% if i18n_page_locale == 'en' %}Close navigation menu{% else %}Fechar menu de navegação{% endif %}">
     <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-nav__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
       {% include "partials/logo.html" %}
     </a>
@@ -24,7 +24,7 @@
   </label>
 
   <div class="dob-atlas-desktop">
-    <div class="dob-atlas-rail" aria-label="Seções da wiki">
+    <div class="dob-atlas-rail" aria-label="{% if i18n_page_locale == 'en' %}Wiki sections{% else %}Seções da wiki{% endif %}">
       {% for nav_item in nav.items %}
         {% set icon = atlas_icons[loop.index0] %}
         {% if nav_item.children %}
@@ -65,10 +65,10 @@
             <header class="dob-atlas-panel__header">
               <span class="dob-atlas-panel__icon">{% include ".icons/" ~ icon ~ ".svg" %}</span>
               <div>
-                <small>SEÇÃO</small>
+                <small>{% if i18n_page_locale == 'en' %}SECTION{% else %}SEÇÃO{% endif %}</small>
                 <strong>{{ nav_item.title }}</strong>
               </div>
-              <button type="button" aria-label="Fechar navegação" data-dob-nav-close>
+              <button type="button" aria-label="{% if i18n_page_locale == 'en' %}Close navigation{% else %}Fechar navegação{% endif %}" data-dob-nav-close>
                 {% include ".icons/material/close.svg" %}
               </button>
             </header>

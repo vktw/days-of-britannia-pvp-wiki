@@ -3,10 +3,10 @@
     <div class="dob-footer__brand">
       <span>Days of Britannia · Manual oficial</span>
     </div>
-    <nav aria-label="Links do rodapé">
-      <a href="{{ nav.homepage.url | url }}">Início</a>
-      <a href="{{ 'patches/' | url }}">Atualizações</a>
-      <a href="{{ 'comandos/' | url }}">Comandos</a>
+    <nav aria-label="{% if i18n_page_locale == 'en' %}Footer links{% else %}Links do rodapé{% endif %}">
+      <a href="{{ nav.homepage.url | url }}">{% if i18n_page_locale == 'en' %}Home{% else %}Início{% endif %}</a>
+      <a href="{{ 'patches/' | url }}">{% if i18n_page_locale == 'en' %}Updates{% else %}Atualizações{% endif %}</a>
+      <a href="{{ 'comandos/' | url }}">{% if i18n_page_locale == 'en' %}Commands{% else %}Comandos{% endif %}</a>
     </nav>
   </div>
 </footer>

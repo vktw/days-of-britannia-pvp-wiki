@@ -38,7 +38,9 @@ function personalizeDobSearch() {
   const input = document.querySelector(".md-search__input");
 
   if (input) {
-    input.placeholder = "Buscar no códice";
+    input.placeholder = document.documentElement.lang.toLowerCase().startsWith("en")
+      ? "Search the codex"
+      : "Buscar no códice";
   }
 }
 
