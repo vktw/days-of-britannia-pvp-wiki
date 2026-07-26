@@ -79,14 +79,14 @@ Para números exatos, consulte as páginas de Magery, Melee e Archery, Armor e P
 
 ### Sistema de PvP
 
-- `.arena` e `[Arena` agora permitem escolher separadamente o tier das armors e das weapons antes da abertura da luta.
+- `.arena` agora permite escolher separadamente o tier das armors e das weapons antes da abertura da luta.
 - Os tiers de armor disponíveis são **Regular, Defense, Guarding, Hardening, Fortification e Invulnerability**.
 - Os tiers de weapon disponíveis são **Regular, Ruin, Might, Force, Power e Vanquishing**.
 - Em duelos entre jogadores, quem abre o desafio define o perfil. Os dois participantes recebem exatamente os mesmos tiers, apresentados também no anúncio global e nos gumps de aceitação e confirmação.
 - Lutas contra o PvP Trainer seguem o mesmo perfil de armor e weapon escolhido pelo jogador.
-- `[PvPCamp` também abre o seletor de equipamento antes de entregar o kit.
+- `.pvpcamp` também abre o seletor de equipamento antes de entregar o kit.
 - Os kits de Arena, PvPCamp e PvP Trainer agora incluem **15 Greater Heal Potions**, **15 Total Mana Potions** e **3 Deadly Poison Potions**.
-- Os atalhos `.pvpcamp` e `.patchnotes` foram adicionados. `.patchnotes` abre o patch mais recente sem alterar o controle de primeira leitura do personagem.
+- Os comandos `.pvpcamp` e `.patchnotes` foram adicionados. `.patchnotes` abre o patch mais recente sem alterar o controle de primeira leitura do personagem.
 - `.pvptrainer` foi mantido apenas como orientação para usar `.arena`; o Trainer continua exclusivo da Arena Moonglow.
 - Novos personagens começam também com **Hiding, Stealth, Detect Hidden e Poisoning em 100.0**.
 - Personagens existentes recebem essas quatro skills em 100.0 uma única vez no primeiro login após o patch, sem reduzir ou reiniciar outras skills.
@@ -99,7 +99,7 @@ Para números exatos, consulte as páginas de Magery, Melee e Archery, Armor e P
 ### Correções e compatibilidade
 
 - O perfil de equipamento escolhido é persistido no escrow da Arena. Escrows criados por versões anteriores continuam compatíveis e usam Invulnerability/Vanquishing como fallback.
-- Saves, personagens existentes, regras de PvM e comandos tradicionais com `[` permanecem compatíveis.
+- Saves, personagens existentes e regras de PvM permanecem compatíveis.
 
 ## 0.6.0 · Ajustes de Combate
 

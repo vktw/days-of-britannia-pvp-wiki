@@ -5,7 +5,7 @@
 
 ## Cove
 
-Cove em Felucca não possui proteção de guards e pode ser usada como área aberta de PvP. O transporte opcional de `[PvPCamp` leva o personagem para Cove, Felucca.
+Cove em Felucca não possui proteção de guards e pode ser usada como área aberta de PvP. O transporte opcional de `.pvpcamp` leva o personagem para Cove, Felucca.
 
 ## Moonglow em Trammel
 

@@ -7,7 +7,8 @@ DOCS = ROOT / "docs"
 
 BASELINE_PATHS = {
     "arena.md", "comandos.md", "index.md", "patches.md", "personagem.md",
-    "proximo-patch.md", "sistemas-desativados.md", "assets/favicon.png",
+    "proximo-patch.md", "sistemas-desativados.md", "primeiros-passos/dob-razor.md",
+    "assets/favicon.png",
     "assets/logo.png", "stylesheets/extra.css", "combate/armor-parrying.md",
     "combate/cura-recursos.md", "combate/exemplos-dano.md", "combate/magery.md",
     "combate/melee-archery.md", "combate/poison.md",
@@ -15,7 +16,13 @@ BASELINE_PATHS = {
 
 REQUIRED_HEADINGS = {
     "arena.md": ["# Arena", "## Arenas disponíveis", "## PvP Trainer"],
-    "comandos.md": ["# Comandos de jogador", "## `[PvPCamp`", "## `.arena`"],
+    "primeiros-passos/dob-razor.md": [
+        "# DoB Razor", "## Funções reutilizáveis", "## Compatibilidade e diagnóstico",
+    ],
+    "comandos.md": [
+        "# Comandos de jogador", "## `.arena`", "## `.pvpcamp`",
+        "## `.patchnotes`", "## `.pvptrainer`",
+    ],
     "personagem.md": ["# Personagem", "## Base inicial", "## Stats e buffs", "## Raça"],
     "combate/magery.md": ["# Magery", "## Fluxo de cast", "## Dano e mana"],
     "combate/melee-archery.md": ["# Melee e Archery", "## Chance de acerto", "## Velocidade"],
@@ -40,6 +47,7 @@ def anchors(text):
 
 def main():
     errors = []
+    compatibility_command_pattern = re.compile(r"`\[[^`\r\n]*`")
     for relative in sorted(BASELINE_PATHS):
         if not (DOCS / relative).is_file():
             errors.append(f"baseline path missing: {relative}")
@@ -53,6 +61,10 @@ def main():
     link_pattern = re.compile(r"(?<!!)\[[^\]]+\]\(([^)]+)\)")
     for page in DOCS.rglob("*.md"):
         text = page.read_text(encoding="utf-8-sig")
+        for command in compatibility_command_pattern.findall(text):
+            errors.append(
+                f"compatibility command exposed: {page.relative_to(DOCS)}: {command}"
+            )
         for target in link_pattern.findall(text):
             if target.startswith(("http://", "https://", "mailto:")):
                 continue

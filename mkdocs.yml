@@ -39,6 +39,7 @@ nav:
       - Comece aqui: primeiros-passos/index.md
       - Como conectar: primeiros-passos/conexao.md
       - Seu primeiro personagem: primeiros-passos/personagem-inicial.md
+      - DoB Razor: primeiros-passos/dob-razor.md
   - Personagem:
       - Stats, skills e raça: personagem.md
   - Mundo:
