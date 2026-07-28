@@ -1,17 +1,17 @@
 # Magery
 
-!!! success "Status: Live 0.9.6"
+!!! success "Status: Live 0.9.8"
 Flow, delays and effects correspond to the official server.
 
 ## Cast flow
 
 Magery uses the **target → cast delay → revalidation → effect** flow. The cursor appears immediately after activation. Initially selecting an invalid target or canceling the cursor does not consume resources.
 
-- It is allowed to move during the cast.
+- Characters may move during the cast.
 - Frozen or Paralyzed, alone, do not prevent starting or completing Magery.
 - A paralyzed character with a weapon or shield in their hands cannot cast or unequip these items manually.
 - With empty hands, a paralyzed character can cast and use bandage.
-- Outside of this specific block, activating Magery automatically sends items from your hands to your backpack.
+- Outside of this specific restriction, activating Magery automatically moves items from the character's hands to their backpack.
 - Items can be equipped after activation.
 - Common damage does not cause fizzle, except in Teleport, Recall and Gate Travel.
 - FC, FCR, LRC and LMC do not affect Magery.
@@ -28,7 +28,7 @@ Magery uses the **target → cast delay → revalidation → effect** flow. The 
 
 Protection has its own exception of 1.4 seconds.
 
-Recall and Gate Travel are travel exceptions: both use **4.0 real seconds** after a valid destination is selected, regardless of circle, Faster Casting, or Faster Cast Recovery. This applies to Spellbooks, scrolls, Runebooks, Runic Atlases, and other supported sources. Damage during that period may cause a fizzle; canceling before selecting a valid destination remains free.
+Recall and Gate Travel are travel exceptions: both take **4.0 actual seconds** after a valid destination is selected, regardless of circle, Faster Casting or Faster Cast Recovery. This applies to Spellbooks, scrolls, Runebooks, Runic Atlases and other supported sources. Damage during that period may cause a fizzle; canceling before selecting a valid destination remains free.
 
 ## Damage and mana
 
@@ -67,12 +67,12 @@ Harm deals its full damage at any valid range. Chain Lightning and Meteor Swarm 
 
 Earthquake is an exception: it doesn't use a cursor, has a cast of 4.5 seconds and hits an area around the caster. In PvP, it has a maximum reserve of 40 points, divided between the affected players. Against NPCs and other targets outside of the PvP Sphere, deals half the current hits, capped at between 15 and 100, plus 0 to 15 points.
 
-Resisting Spells can prevent the application of magical Poison and participates in the duration of Paralyze. Magic Reflection does not use this skill in the one-charge system. Resisting Spells do not recreate the five AOS elemental resistances nor directly reduce Sphere magic damage.
+Resisting Spells can prevent the application of magical Poison and affects the duration of Paralyze. Magic Reflection does not use this skill in the one-charge system. Resisting Spells does not recreate the five AOS elemental resistances or directly reduce Sphere magic damage.
 
 ## Buffs and control
 
 - Protection grants 5% to 10% additional absorption in PvP for 90 seconds, applied after armor, shield or uncovered region bonus. It does not have modern penalties. Ends on death, logout, Dispel, Purge Magic, or expiration and persists across saves for the duration of a valid session.
-- Reactive Armor lasts 90 seconds. When receiving melee damage, it returns 20% of the final damage to the attacker and reduces the damage received by the same amount, preserving a minimum of 1 point. Your Physical Resistance AOS bonus does not participate separately from PvP damage.
+- Reactive Armor lasts 90 seconds. When receiving melee damage, it returns 20% of the final damage to the attacker and reduces the damage received by the same amount, preserving a minimum of 1 point. Its AOS Physical Resistance bonus does not participate separately in PvP damage.
 - Magic Reflection has a charge and fully reflects the next eligible harmful spell or field. If attacker and defender are shielded, both charges are consumed and the spell is negated without damage. There is no reserve per circle or automatic reset in 30 seconds. The AOS resistance modifiers displayed do not reduce Sphere magic damage, and Inscription does not participate in the calculation.
 - Paralyze can be renewed. Its duration is `60 + (100 - Eval Int) × 0,3 + (100 - Resist) × 0,3` seconds, varying from 60 to 120 seconds within the normal skill limits.
 - Poison does not break Paralyze. Direct damage opens up the possibility of release.
@@ -93,10 +93,10 @@ The fields below use the standard Magery range of 12 tiles and form five tiles:
 
 Paralyze Field follows the Paralyze rules described above. Wall of Stone also has five tiles, but uses its own rules for positioning, overlapping and duration of 60 seconds.
 
-### Stats courses
+### Stat curses
 
 - Clumsy reduces DEX by 15, Feeblemind reduces INT by 15 and Weaken reduces STR by 15.
-- Curse reduces STR, DEX and INT by 10; Mass Curse applies the same logic to area.
+- Curse reduces STR, DEX and INT by 10; Mass Curse applies the same logic in an area.
 - Targeted curses have a range of 12.
 - Resisting Spells does not change the fixed magnitude of these reductions.
 - An individual curse of 15 points temporarily prevails over the corresponding Curse component, which returns when the individual effect ends.
@@ -112,6 +112,6 @@ Create Food, Reactive Armor, Protection, Magic Reflection, Incognito and Polymor
 
 Summon Creature, Summon Daemon and the Air, Earth, Fire and Water elementals accept as reference the ground or a `Mobile` at range 12. Upon release, the creature appears at the closest valid point to the target's current position and remains belonging to and obeying the caster. Player summons are still prevented from damaging other players.
 
-## Trip in Trammel
+## Travel in Trammel
 
 Felucca is the only public facet. Recall, Mark, Gate Travel, scrolls, Runebooks, and other means of travel do not allow players to access other facets. Trammel remains available only in controlled areas of official arenas. Teleport remains available within the current facet, outside of the specific restrictions of an arena session.

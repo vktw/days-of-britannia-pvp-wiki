@@ -26,7 +26,7 @@ DOWNLOAD DOB LAUNCHER <span aria-hidden="true">↓</span>
 </a>
 </aside>
 
-<nav class="dob-atlas-journeys" aria-label="Jornadas da wiki">
+<nav class="dob-atlas-journeys" aria-label="Wiki journeys">
 <a href="primeiros-passos/">
 <span>01</span>
 <strong>Get started</strong>
@@ -49,7 +49,7 @@ DOWNLOAD DOB LAUNCHER <span aria-hidden="true">↓</span>
 </a>
 </nav>
 
-<section class="dob-atlas-content" aria-label="Conteúdo em destaque">
+<section class="dob-atlas-content" aria-label="Featured content">
 <article class="dob-atlas-feature">
 <p class="dob-atlas-kicker">FEATURED</p>
 <h2>Sphere 51 combat, explained without mystery</h2>
