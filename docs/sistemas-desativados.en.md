@@ -1,6 +1,6 @@
 # Systems disabled
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
     The blocks below are part of the official ruleset.
 
 To preserve classic balance, the following modern systems are globally locked or neutralized in PvP Sphere. Classes and properties can remain serializable for compatibility with saves, and some mechanics retain behavior outside of PvP when indicated:
@@ -21,4 +21,4 @@ Alchemy remains relevant to the success of the craft, but does not change the po
 
 ## Pets and summons
 
-Controlled pets and player-owned summons cannot attack or cause damage to other players. This restriction does not prevent its normal use in PvM and is independent of pet bonding, which remains disabled.
+Controlled pets and player-owned summons cannot attack or damage other players. This restriction does not prevent their normal use in PvM and is independent of pet bonding, which remains disabled.

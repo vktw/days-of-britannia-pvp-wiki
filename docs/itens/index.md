@@ -1,6 +1,6 @@
 # Itens
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
     Esta seção descreve propriedades e utilidades ativas no ruleset atual.
 
 ## Categorias

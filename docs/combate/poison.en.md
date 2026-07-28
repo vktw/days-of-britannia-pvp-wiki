@@ -1,6 +1,6 @@
 # Poison
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
 Levels, ticks and renewal correspond to the official server.
 
 Poison is a pressure feature, especially useful for fighting healing windows. New application resets its duration.

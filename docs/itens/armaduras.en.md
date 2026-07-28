@@ -1,6 +1,6 @@
 # Classic armor
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
 Physical Resist and tiers correspond to the official behavior of the current version.
 
 | Tier | Physical Resist Bonus |

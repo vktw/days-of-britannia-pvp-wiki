@@ -1,6 +1,6 @@
 # Armor e Parrying
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
     Absorção regional e Parrying correspondem ao servidor oficial.
 
 ## Regiões corporais
@@ -16,7 +16,7 @@ Um golpe físico que acerta seleciona uma região corporal. Somente a armadura e
 | Hands | 7% |
 | Neck | 7% |
 
-Cada peça exibe seu Physical Resist individual. Esse número é exatamente o percentual de dano absorvido quando aquela região é atingida. A resistência-base Regular recebe um multiplicador de 1,30; depois disso, as propriedades clássicas acrescentam pontos percentuais:
+Cada peça exibe seu Physical Resist individual. Esse número é exatamente o percentual de dano absorvido quando aquela região é atingida. A resistência-base Regular recebe um multiplicador de 1,40; depois disso, as propriedades clássicas acrescentam pontos percentuais:
 
 | Propriedade | Bônus de Physical Resist |
 |---|---:|

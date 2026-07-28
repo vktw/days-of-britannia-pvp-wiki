@@ -1,6 +1,6 @@
 # Maps and travel
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
 Verified rules for players on the official server.
 
 ## Felucca
@@ -13,7 +13,9 @@ Trammel is not a public facet. It remains accessible only within the controlled 
 
 ## Travel spells
 
-Recall, Mark, and Gate Travel do not allow players to leave the public Felucca facet. The policy also reaches scrolls, Runebooks and other media that use central travel validation.
+Recall, Mark, and Gate Travel do not allow players to leave the public Felucca facet. The policy also covers scrolls, Runebooks, and other travel sources that use central validation.
+
+Recall and Gate Travel take four real seconds after selecting a valid destination through any supported source. Faster Casting and Faster Cast Recovery do not shorten that time, and damage may interrupt the cast.
 
 Teleport remains available within the current facet, outside the specific restrictions of an occupied arena, and does not bypass facet policy.
 

@@ -1,6 +1,6 @@
 # Mapas e viagem
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
     Regras verificadas para jogadores no servidor oficial.
 
 ## Felucca
@@ -14,6 +14,8 @@ Trammel não é uma faceta pública. Ela permanece acessível somente dentro das
 ## Magias de viagem
 
 Recall, Mark e Gate Travel não permitem que jogadores saiam da faceta pública Felucca. A política também alcança scrolls, Runebooks e outros meios que utilizam a validação central de viagem.
+
+Recall e Gate Travel levam quatro segundos reais depois da escolha de um destino válido por qualquer fonte suportada. Faster Casting e Faster Cast Recovery não reduzem esse tempo, e dano pode interromper o cast.
 
 Teleport permanece disponível dentro da faceta atual, fora das restrições específicas de uma arena ocupada, e não contorna a política de facetas.
 

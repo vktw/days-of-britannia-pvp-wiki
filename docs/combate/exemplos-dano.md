@@ -1,9 +1,9 @@
 # Exemplos de dano
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
     Os exemplos utilizam as fórmulas atualmente publicadas.
 
-Os exemplos abaixo seguem o servidor oficial **Live 0.9.1**. Eles isolam um golpe que ja acertou; a chance de acerto e a chance de Parrying sao sorteios anteriores e independentes.
+Os exemplos abaixo seguem o servidor oficial **Live 0.9.6**. Eles isolam um golpe que ja acertou; a chance de acerto e a chance de Parrying sao sorteios anteriores e independentes.
 
 ## Atacante usado
 
@@ -27,8 +27,8 @@ escala = 1,90
 | Arma | Dano-base | Depois da escala e truncamento | Vanquishing | Dano bruto final |
 |---|---:|---:|---:|---:|
 | Kryss | 10-13 | 19-24 | +9 | **28-33** |
-| Bardiche | 17-20 | 32-38 | +9 | **41-47** |
-| Bow | 17-22 | 32-41 | +9 | **41-50** |
+| Bardiche | 29-33 | 55-62 | +9 | **64-71** |
+| Bow | 15-20 | 28-38 | +9 | **37-47** |
 
 Cada golpe sorteia um inteiro dentro da faixa de dano-base. Por isso, os valores intermediarios nao formam necessariamente uma progressao perfeitamente uniforme depois da multiplicacao e do truncamento.
 

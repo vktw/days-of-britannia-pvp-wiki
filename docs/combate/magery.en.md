@@ -1,6 +1,6 @@
 # Magery
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
 Flow, delays and effects correspond to the official server.
 
 ## Cast flow
@@ -27,6 +27,8 @@ Magery uses the **target → cast delay → revalidation → effect** flow. The 
 | 4 | 2.5s | 8 | 4.5s |
 
 Protection has its own exception of 1.4 seconds.
+
+Recall and Gate Travel are travel exceptions: both use **4.0 real seconds** after a valid destination is selected, regardless of circle, Faster Casting, or Faster Cast Recovery. This applies to Spellbooks, scrolls, Runebooks, Runic Atlases, and other supported sources. Damage during that period may cause a fizzle; canceling before selecting a valid destination remains free.
 
 ## Damage and mana
 
@@ -59,7 +61,7 @@ The values ​​below consider **100 INT and 100.0 Evaluating Intelligence**:
 
 INT and Evaluating Intelligence below 100 reduce these values. Although buffs can raise INT up to 120, **INT above 100 does not increase magic damage**. Inscription also does not modify this damage.
 
-Flame Strike is the anchor of balance: it consumes 40 mana and deals 40 damage at maximum conditions. Without scrolling, your normal hit range starts at approximately 65.7 Magery. Projectile spells only preserve the time needed to synchronize damage and visual impact, while Explosion maintains its three-second fuse.
+Flame Strike is the anchor of balance: it consumes 40 mana and deals 40 damage at maximum conditions. Without a scroll, its normal success range starts at approximately 65.7 Magery. Projectile spells only preserve the time needed to synchronize damage and visual impact, while Explosion maintains its three-second fuse.
 
 Harm deals its full damage at any valid range. Chain Lightning and Meteor Swarm divide the maximum pool of 40 points between targets hit.
 

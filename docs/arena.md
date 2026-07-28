@@ -1,6 +1,6 @@
 # Arena
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
     Estas são as regras disponíveis no servidor oficial.
 
 Use `.arena` para abrir o sistema. É possível desafiar outro jogador ou, na arena compatível, treinar contra o **PvP Trainer**.

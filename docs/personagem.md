@@ -1,11 +1,11 @@
 # Personagem
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
     Stats, skills, caps e raça correspondem ao servidor oficial.
 
 ## Base inicial
 
-Todo novo personagem humano começa com **100 STR, 100 DEX e 100 INT**, Spellbook completo, Runebook e um cavalo shrinkado. Os **10.000 gold** iniciais são concedidos somente ao primeiro personagem elegível por IP.
+Todo novo personagem humano começa com **100 STR, 100 DEX e 100 INT**, Spellbook completo, Runebook, um cavalo shrinkado e um **Starter PvP Iron kit** permanente. O kit usa o catálogo compartilhado da Arena e do PvP Camp, sem duplicar o cavalo, e não pode ser vendido a vendors. Os **10.000 gold** iniciais são concedidos somente ao primeiro personagem elegível por IP.
 
 As seguintes skills começam em **100.0**:
 
