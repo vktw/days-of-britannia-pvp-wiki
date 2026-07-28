@@ -1,6 +1,6 @@
 # Your first character
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
     The base below is applied to every new character, regardless of the client's chosen profession.
 
 ## Starting location
@@ -31,7 +31,8 @@ The character starts with:
 
 - Complete Spellbook.
 - Empty runebook.
-- Shrinking horse.
+- Shrunken horse.
 - 10,000 gold, only for the first eligible character by IP.
+- A permanent **Starter PvP Iron kit** with Regular armor, weapons, a Black Staff, supplies, potions, and jewelry from the shared Arena and PvP Camp catalog. It does not include another horse and cannot be sold to vendors.
 
 See [CHARACTER](../personagem.md) for buffs, caps, and race, and [Items](../itens/index.md) for classic gear.

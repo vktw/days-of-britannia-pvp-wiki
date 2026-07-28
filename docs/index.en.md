@@ -84,8 +84,8 @@ DOWNLOAD DOB LAUNCHER <span aria-hidden="true">↓</span>
 <section class="dob-atlas-update" aria-labelledby="dob-release-title">
 <div>
 <p class="dob-atlas-kicker">LATEST UPDATE</p>
-<h2 id="dob-release-title">0.9.1 · PvP gear and kit</h2>
+<h2 id="dob-release-title">0.9.6 · Weapon and armor balance</h2>
 </div>
-<p>Spellbooks reopen naturally in the backpack, and the <code>.pvpcamp</code> kit now includes the magical jewels used in the arena.</p>
+<p>Weapons now have clear competitive roles, armor provides more physical protection, and kits include a Black Staff.</p>
 <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

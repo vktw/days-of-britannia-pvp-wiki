@@ -1,5 +1,38 @@
 # Patch notes
 
+## 0.9.6 · Equilíbrio de armas e armaduras
+
+- Archery foi normalizada para aproximadamente 6,00 DPS Vanquishing esperado; armas de uma mão com shield e poison permanecem próximas de 6,50, e armas longas com poison ficam próximas de 7,00.
+- Quarter Staff, Black Staff, Gnarled Staff e Skull Gnarled Staff formam uma progressão própria próxima de 5,00 DPS.
+- Armors e shields passaram a usar multiplicador-base 1,40 no Physical Resist clássico.
+- Shepherd's Crook passou a ser um utilitário de Herding fora do ranking competitivo.
+- Armas competitivas de Macing agora removem stamina igual ao dano final aplicado.
+- Kits iniciais, `.pvpcamp` e Arena incluem Black Staff no tier correspondente.
+
+## 0.9.5 · Threat por MaxHits
+
+- O índice oculto de Threat passa a ser o snapshot de MaxHits da criatura.
+- As âncoras apenas validam as classes; não atribuem nem forçam scores.
+- Paragon usa seu MaxHits efetivo e não recebe um segundo bônus de 10%.
+- Neira valida Legendary e cada forma do Harrower valida Mythic com seu próprio snapshot.
+
+## 0.9.4 · Armas e preparação PvP
+
+- As armas longas poisonable foram recalibradas para aproximadamente 7,50 DPS Vanquishing esperado.
+- O PvP Trainer ganhou uma sequência mais persistente após Paralyze.
+- Todo novo personagem recebe um Starter PvP Iron kit permanente baseado no catálogo compartilhado da Arena e do PvP Camp.
+
+## 0.9.3 · Armas longas e Poison
+
+- Pitchfork, Double Bladed Staff, Spear, Bladed Staff, Pike e Lajatang passaram a aceitar Poison pelo fluxo normal da skill.
+- Tribal Spear deixou de circular para jogadores e permanece apenas em equipamentos próprios de NPCs.
+
+## 0.9.2 · Tempo uniforme de viagem mágica
+
+- Recall e Gate Travel usam quatro segundos reais de cast por Spellbook, scroll, Runebook, Runic Atlas e demais destinos suportados.
+- O cast começa depois de um destino válido, não recebe redução de Faster Casting ou Faster Cast Recovery e pode sofrer fizzle por dano.
+- Gate Travel cria os dois gates ao concluir os quatro segundos, sem um timer oculto adicional.
+
 ## 0.9.1 · Correções de equipamento e kit PvP
 
 ### Melhoria

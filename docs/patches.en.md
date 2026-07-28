@@ -1,5 +1,38 @@
 # Patch notes
 
+## 0.9.6 · Weapon and armor balance
+
+- Archery was normalized to approximately 6.00 expected Vanquishing DPS; one-handed shield-and-poison weapons remain near 6.50, while long poisonable weapons are near 7.00.
+- Quarter Staff, Black Staff, Gnarled Staff, and Skull Gnarled Staff form a separate progression near 5.00 DPS.
+- Armor and shields now use a 1.40 base multiplier for classic Physical Resist.
+- Shepherd's Crook is now a Herding utility outside the competitive ranking.
+- Competitive Macing weapons now remove stamina equal to the final damage applied.
+- Starting, `.pvpcamp`, and Arena kits include a Black Staff at the corresponding tier.
+
+## 0.9.5 · MaxHits-based Threat
+
+- The hidden Threat index is now the creature's MaxHits snapshot.
+- Anchors validate classes only; they neither assign nor force scores.
+- A Paragon uses its effective MaxHits and receives no separate 10% bonus.
+- Neira validates Legendary, and each Harrower form validates Mythic using its own snapshot.
+
+## 0.9.4 · Weapons and PvP preparation
+
+- Long poisonable weapons were recalibrated to approximately 7.50 expected Vanquishing DPS.
+- The PvP Trainer gained a more persistent post-Paralyze sequence.
+- Every new character receives a permanent Starter PvP Iron kit based on the shared Arena and PvP Camp catalog.
+
+## 0.9.3 · Long weapons and Poison
+
+- Pitchfork, Double Bladed Staff, Spear, Bladed Staff, Pike, and Lajatang now accept Poison through the normal skill flow.
+- Tribal Spear no longer circulates among players and remains available only as native NPC equipment.
+
+## 0.9.2 · Uniform magical travel timing
+
+- Recall and Gate Travel use a real four-second cast through Spellbooks, scrolls, Runebooks, Runic Atlases, and other supported destinations.
+- Casting begins after a valid destination, is not reduced by Faster Casting or Faster Cast Recovery, and can fizzle from damage.
+- Gate Travel creates both gates when the four seconds finish, without an additional hidden timer.
+
 ## 0.9.1 · PvP gear and kit fixes
 
 ### Improvement

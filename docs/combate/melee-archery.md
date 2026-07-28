@@ -1,6 +1,6 @@
 # Melee e Archery
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
     Fórmulas e comportamentos ativos no servidor oficial.
 
 ## Chance de acerto
@@ -52,15 +52,26 @@ O mesmo cálculo é usado por Melee e Archery. A skill da arma determina a chanc
 
 Armas envenenadas consomem uma carga e aplicam poison em todo golpe bem-sucedido.
 
+### Papéis competitivos
+
+| Papel | Referência de DPS Vanquishing esperado |
+|---|---:|
+| Archery | aproximadamente 6,00 |
+| Uma mão, shield e poison | aproximadamente 6,50 |
+| Duas mãos, range 2 e poison | aproximadamente 7,00 |
+| Staves longos sem poison | aproximadamente 5,00 |
+
+O DPS de referência usa 100 STR, 100 DEX, 100.0 Tactics, 100.0 Anatomy, skill da arma 100.0 e chance-base de acerto de 65%. Poison, armor, Parrying e tempo fora de combate não entram nessa comparação. Armas competitivas de Macing também removem stamina igual ao dano final do golpe.
+
 ### Armas com range 2
 
 As seguintes armas de duas mãos alcançam dois tiles:
 
 - Polearms, incluindo Bardiche, Halberd e Scythe.
 - Pike, Gargish Pike, Lance e Gargish Lance.
-- Spear, Tribal Spear e Pitchfork.
+- Spear e Pitchfork. Tribal Spear não circula para jogadores.
 - Bladed Staff, Double Bladed Staff e Lajatang.
-- Quarter Staff, Black Staff, Gnarled Staff e Shepherd's Crook.
+- Quarter Staff, Black Staff e Gnarled Staff. Shepherd's Crook permanece como utilitário de Herding fora do ranking competitivo.
 
 O range adicional não modifica a velocidade da arma.
 

@@ -1,91 +1,64 @@
 # Threat Rating
 
-!!! info "Next scheduled patch"
-    Formula 2 is under evaluation on the local server and is not yet active on the official shard. This page publishes the planned catalog in advance for board review.
+!!! success "Status: Live 0.9.6"
+    Classification uses formula 3 based on a MaxHits snapshot. The number remains internal; players see only the class, color, and variant.
 
-The **Threat Rating** summarizes each creature's threat into a textual and colored class. It helps you quickly compare enemies without turning the game into a stat sheet.
+**Threat Rating** summarizes each creature's endurance as a colored textual class. It lets players compare enemies without exposing an attribute spreadsheet in game.
 
-[See the complete inventory of 618 creatures](threat-inventory.md){ .md-button }
+[See the creature inventory](threat-inventory.md){ .md-button }
 
-The rating is calculated when the creature appears and becomes frozen in it. Restarts and saves preserve rank; When the formula changes, ancient creatures are recalculated during world loading.
+Classification is calculated when a creature spawns and remains frozen on that instance. Saves preserve the snapshot; a formula-version change recalculates older creatures during world loading. Multi-form creatures such as the Harrower refresh their snapshot when their MaxHits change.
 
 ## Classes
 
-| Class | Color | Practical reading |
+| Class | Color | Practical meaning |
 | --- | --- | --- |
 | Trivial | Gray | Very weak or introductory creatures |
 | Common | White | Common threat to prepared adventurers |
-| Dangerous | Green | Requires attention and appropriate equipment |
-| Deadly | Yellow | Dangerous combat with little margin for error |
-| Legendary | Orange | Elite enemies and big bosses |
+| Dangerous | Green | Requires attention and suitable equipment |
+| Deadly | Yellow | Dangerous combat with little room for error |
+| Legendary | Orange | Elite enemies and major bosses |
 | Mythic | Red | Exceptional threat |
-| Cataclysmic | Magenta | High-risk meeting |
-| World Threat | Blue | Threat capable of demanding collective response |
-| Apocalyptic | Purple | Open track for the shard's biggest challenges |
+| Cataclysmic | Magenta | Extremely high-risk encounter |
+| World Threat | Blue | Threat that may require a collective response |
+| Apocalyptic | Purple | Open band for the shard's greatest challenges |
 
-The upper classes remain open to the future growth of the world. **Apocalyptic** is the highest class; There is no artificial limit to the internal score.
+**Apocalyptic** is the highest class. The internal index has no artificial cap.
 
-## What influences
+## What influences the rating
 
-The calculation jointly considers:
+Formula 3 uses only a snapshot of the creature's **effective MaxHits**, with a minimum of one. Damage, skills, Armor Rating, artificial intelligence, poison, self-healing, and other abilities receive no separate weights.
 
-- maximum life and Armor Rating;
-- physical damage, attack skill and hit chance;
-- Magery, Evaluating Intelligence and mana reserve;
-- artificial intelligence of Mage or NecroMage;
-- poison, immunities, Auto Dispel and teleports;
-- special abilities, Dragon Breath and explicit self-healing ability;
-- difficulty of the encounter when a creature represents or is part of a larger fight.
+High hits represent a creature that remains dangerous for longer and has more opportunities to apply pressure, exploit mistakes, and land damage sequences. The index does not change during ordinary combat.
 
-The curve is continuous: improving a creature's attributes or mechanics never reduces its threat just by crossing a rating band.
+## Validation anchors
 
-## Reference catalog
+Anchors verify that the common formula produces the intended scale. They receive no fixed values or bonuses by name or type, and they are never forced into a class.
 
-Nine creatures have fixed profiles in the server catalog and serve as references to keep the scale coherent. They are part of the catalog even when they are not spawned in the world. Other creatures use the general formula, unless they receive a revised profile in the future.
+| Reference | Expected class | Validation role |
+| --- | --- | --- |
+| Zombie | Trivial | Start of the scale |
+| Skeleton | Trivial | Introductory creature |
+| Harpy | Trivial | Upper introductory reference |
+| Troll | Trivial | Top introductory reference |
+| Drake | Common | First material combat step |
+| Dragon | Dangerous | Classic dangerous creature |
+| Greater Dragon | Deadly | Top classic creature |
+| Neira | Legendary | Champion reference |
+| Harrower | Mythic | Major boss reference |
 
-| Reference | Threat | XP | Calibrated class | Paper on the scale |
-| --- | ---: | ---: | --- | --- |
-| Zombie | 100 | 10 | Trivial | Start of scale |
-| Skeleton | 120 | 12 | Trivial | Introductory Enemy |
-| Harpy | 250 | 25 | Trivial | Top step of the starting lane |
-| Troll | 400 | 40 | Trivial | Top of introductory anchors |
-| Drake | 900 | 90 | Common | First combat-relevant jump |
-| Dragon | 2,300 | 230 | Dangerous | Classic Dangerous Creature Reference |
-| Shadow Wyrm | 5,000 | 500 | Deadly | High Risk Referral |
-| GreaterDragon | 5,800 | 580 | Deadly | Top of classic creatures used in calibration |
-| Harrower | 12,950–15,650 | 1295–1565 | Legendary | Variable Big Boss Encounter |
-
-The **Harrower** range represents the calculated variance for the encounter. In all cases, XP corresponds to `Threat / 10`.
-
-## Practical examples
-
-- A **Zombie** and a **Skeleton** appear as `Threat: Trivial`.
-- A **Drake** appears as `Threat: Common`.
-- A **Dragon** appears as `Threat: Dangerous`.
-- A **Shadow Wyrm** and a **Greater Dragon** appear as `Threat: Deadly`.
-- The **Harrower** appears as `Threat: Legendary`.
-- If an eligible creature becomes Paragon, its property also shows `Variant: Paragon`; the class may increase if the bonus crosses the next band.
-
-The exact score of the creatures calculated by the general formula, the Threat Level and the Encounter Score remain internal. The wiki publishes the fixed reference values ​​to make the scale understandable to the player.
+If an anchor falls outside its expected class, validation fails and the general calibration must be reviewed.
 
 ## Paragons
 
-**Paragon is not a class above Apocalyptic.** It appears as a separate variant next to the creature's Threat Rating.
-
-When becoming a Paragon, the creature receives a 10% increase in its threat score and can change classes if it exceeds the next threshold. The property continues to show the `Paragon` class and variant separately.
+**Paragon is not a class above Apocalyptic.** It is shown as a separate variant. The formula uses the Paragon's effective MaxHits when the snapshot is assigned; no separate 10% score bonus is applied.
 
 ## Rewards
 
-In the next patch, each creature will grant XP equal to its Threat divided by 10:
-
-`XP = Threat / 10`
-
-For example, a Zombie with Threat 100 grants 10 XP, while a Dragon with Threat 2,300 grants 230 XP.
-
-Threat Rating does not increase loot or gold by itself. These rewards continue to follow the rules of the creature and the server economy.
+Threat Rating grants no XP, gold, or loot multiplier of its own. The planned 0.10.0 PvM system uses the same MaxHits snapshot as an independent input without changing the textual class.
 
 ## Classification limits
 
-The rating is a consistent comparison, not a promise of identical difficulty for every character. Terrain, number of enemies, group composition, resistances and strategy can still make two encounters of the same class very different.
+Threat is a consistent endurance comparison, not a guarantee of identical difficulty. Terrain, enemy count, party composition, resistances, abilities, and strategy can still make two encounters in the same class feel very different.
 
-Controlled creatures, summons, vendors and the PvP Trainer do not receive PvM Threat Rating.
+Controlled creatures, summons, vendors, and the PvP Trainer are not eligible for PvM Threat Rating.

@@ -1,0 +1,4946 @@
+[
+  {
+    "name": "HireFighter",
+    "class": "Não resolvido",
+    "abilities": "Magery 22",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SoulboundPirateRaider",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BlackSolenWarrior",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BlackSolenInfiltratorWarrior",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SwampTentacle",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "EffetePutridGargoyle",
+    "class": "Trivial",
+    "abilities": "Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "VorpalBunny",
+    "class": "Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DireWolf",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MeerCaptain",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "RedSolenInfiltratorWarrior",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Snake",
+    "class": "Trivial",
+    "abilities": "Poison Lesser",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GreenGoblinScout",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SkeletalMount",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GrizzlyBear",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Slime",
+    "class": "Trivial",
+    "abilities": "Poison Lesser",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "JukaWarrior",
+    "class": "Trivial–Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "RedSolenWarrior",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "HirePaladin",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Doppleganger",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GiantSerpent",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Mummy",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "LavaLizard",
+    "class": "Trivial",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GoreFiend",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Slith",
+    "class": "Trivial",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Gibberling",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Treefellow",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "TerathanWarrior",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "StoneHarpy",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Protector",
+    "class": "Common–Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ParoxysmusSwampDragon",
+    "class": "Trivial",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "LeatherWolfFellow",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SwampDragon",
+    "class": "Trivial",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ScaledSwampDragon",
+    "class": "Trivial",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "IceSerpent",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "CrystalSeaSerpent",
+    "class": "Common",
+    "abilities": "Mage, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "EarthElemental",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SavageRider",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Infernus",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Ogre",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ClanRS",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SeaSerpent",
+    "class": "Trivial",
+    "abilities": "Mage, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "PredatorHellCat",
+    "class": "Trivial",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "HellHound",
+    "class": "Trivial–Common",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SpeckledScorpion",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "EnslavedGoblinKeeper",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Troll",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": true,
+    "expectedClass": "Trivial",
+    "validation": "pass"
+  },
+  {
+    "name": "Scorpion",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "EnslavedGreenGoblin",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GreenGoblinAlchemist",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "EnslavedGreenGoblinAlchemist",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "PlagueSpawn",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MorgBergen",
+    "class": "Trivial–Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Gaman",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "TavaraSewel",
+    "class": "Trivial–Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "PolarBear",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Betballem",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GrimmochDrummel",
+    "class": "Trivial–Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Ghoul",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DeepSeaSerpent",
+    "class": "Trivial–Common",
+    "abilities": "Mage, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Brigand",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Kappa",
+    "class": "Trivial",
+    "abilities": "LifeLeech",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ElfBrigand",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SpawnedOrcishLord",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ForgottenServant",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "EnslavedGoblinScout",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "OrcishLord",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GrayGoblinKeeper",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "WailingBanshee",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "EnslavedGargoyle",
+    "class": "Trivial–Common",
+    "abilities": "AngryFire",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GrayGoblin",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "OrcChopper",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Savage",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Ettin",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SandVortex",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "EnslavedGrayGoblin",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "EnslavedGoblinMage",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GreenGoblin",
+    "class": "Trivial–Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Gallusaurus",
+    "class": "Dangerous",
+    "abilities": "GraspingClaw",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Minotaur",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ClanRC",
+    "class": "Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "LeatherWolf",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FrostTroll",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Ballem",
+    "class": "Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MyrmidexDrone",
+    "class": "Dangerous",
+    "abilities": "Poison Regular",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MougGuur",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BloodWorm",
+    "class": "Common",
+    "abilities": "Anemia",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Kraken",
+    "class": "Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GiantSpider",
+    "class": "Trivial",
+    "abilities": "Poison Regular",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FireBeetle",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ToxicSlith",
+    "class": "Trivial–Common",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "PatchworkSkeleton",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Beetle",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ClockworkScorpion",
+    "class": "Trivial–Common",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Ravager",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MeerWarrior",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ClanCT",
+    "class": "Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SummonedEarthElemental",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MinotaurCaptain",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BronzeElemental",
+    "class": "Trivial",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SpectralArmour",
+    "class": "Trivial–Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ShadowWisp",
+    "class": "Trivial",
+    "abilities": "Magery 50, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Moloch",
+    "class": "Trivial–Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Gregorio",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Kepetch",
+    "class": "Common",
+    "abilities": "ViciousBite",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ExodusOverseer",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "CopperElemental",
+    "class": "Trivial",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MinotaurScout",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BogThing",
+    "class": "Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ChaosDragoon",
+    "class": "Trivial–Common",
+    "abilities": "AutoDispel, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FanDancer",
+    "class": "Common",
+    "abilities": "Repel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "EnragedEarthElemental",
+    "class": "Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GoldenElemental",
+    "class": "Trivial",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DullCopperElemental",
+    "class": "Trivial",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BritannianInfantry",
+    "class": "Deadly",
+    "abilities": "Explicit self-heal 100%",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "VeriteElemental",
+    "class": "Trivial",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "TrapdoorSpider",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "RedSolenQueen",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "RedSolenInfiltratorQueen",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "UndeadGuardian",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GreenGoblinAlchemistRenowned",
+    "class": "Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BlackSolenQueen",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FrenziedOstard",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SkeletalKnight",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BlackSolenInfiltratorQueen",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "StoneGargoyle",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "LavaSerpent",
+    "class": "Common",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Korpre",
+    "class": "Trivial",
+    "abilities": "Poison Regular",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "PlatinumDrake",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "CorrosiveSlime",
+    "class": "Trivial",
+    "abilities": "Poison Regular",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Corpser",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Drake",
+    "class": "Common",
+    "abilities": "Breath, DragonBreath",
+    "anchor": true,
+    "expectedClass": "Common",
+    "validation": "pass"
+  },
+  {
+    "name": "BladeSpirits",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "TanglingRoots",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "CrimsonDrake",
+    "class": "Common",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "RaiJu",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ClanSH",
+    "class": "Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Raptor",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FleshGolem",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AntLion",
+    "class": "Trivial",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SnowElemental",
+    "class": "Trivial–Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "TreefellowGuardian",
+    "class": "Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BloodFox",
+    "class": "Trivial–Common",
+    "abilities": "GraspingClaw",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FireAnt",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Cyclops",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "JukaLord",
+    "class": "Common",
+    "abilities": "Explicit self-heal 100%",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "YomotsuWarrior",
+    "class": "Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MyrmidexLarvae",
+    "class": "Common–Dangerous",
+    "abilities": "Poison Lesser",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BoneKnight",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "CursedMetallicKnight",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ChaosDaemon",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "StoneSlith",
+    "class": "Trivial",
+    "abilities": "GraspingClaw, TailSwipe",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AcidSlug",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Troglodyte",
+    "class": "Common",
+    "abilities": "Explicit self-heal 100%",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "WhippingVine",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "HireBard",
+    "class": "Não resolvido",
+    "abilities": "Magery 22",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Cow",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "HungryCoconutCrab",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Squirrel",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Pig",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Goat",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BullFrog",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Turkey",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "HireBeggar",
+    "class": "Não resolvido",
+    "abilities": "Magery 2",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Boar",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Crane",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Rabbit",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Cat",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Chicken",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Bird",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Sewerrat",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Sheep",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "JackRabbit",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Rat",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Mongbat",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "RestlessSoul",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Dog",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Horse",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Palomino",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ChickenLizard",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Ridgeback",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FrostOoze",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "HordeMinion",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SavageRidgeback",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Ferret",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Hind",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Grubber",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "RidableLlama",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Llama",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BravehornsMate",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "PackLlama",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "LavaSnake",
+    "class": "Trivial",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Dolphin",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "CursedSoul",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "TropicalBird",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Ninja",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Naba",
+    "class": "Não resolvido",
+    "abilities": "Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Phantom",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Paladin",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Mannequin",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Gypsy",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GargishWarrior",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Hellion",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "HarborMaster",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Prometheoid",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SilverSteed",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Silenii",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Ursadane",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Skeletrex",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ServantOfSemidar",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Samurai",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Sagittarri",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SeaHorse",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Sculptor",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AttendantFortuneTeller",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AttendantFemaleLuckyDealer",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AttendantMaleHerald",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AttendantMaleGuide",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AttendantFemaleHerald",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Aminia",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Actor",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AttendantFemaleGuide",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Artist",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AttendantMaleLuckyDealer",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Fairy",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Echidnite",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GargishRefugee",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ForestNymph",
+    "class": "Não resolvido",
+    "abilities": "Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DivineGuardian",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Darkmane",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BirlingBlades",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DespiseUnicorn",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Dendrite",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Bull",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Executioner",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Orc",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Lizardman",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Bogling",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Zombie",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": true,
+    "expectedClass": "Trivial",
+    "validation": "pass"
+  },
+  {
+    "name": "Panther",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Spellbinder",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "VampireBat",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "OrcBomber",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BattleChickenLizard",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "HellCat",
+    "class": "Trivial",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "TerathanDrone",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "OrcCaptain",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GazerLarva",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BlackSolenWorker",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AnimatedWeapon",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ClanSS",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "RedSolenWorker",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "RatmanArcher",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GiantToad",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MoundOfMaggots",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ClanCA",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DeathwatchBeetle",
+    "class": "Trivial",
+    "abilities": "PoisonSpit",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FrostSpider",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "HireBardArcher",
+    "class": "Não resolvido",
+    "abilities": "Magery 22",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SoulboundSwashbuckler",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SilverbackGorilla",
+    "class": "Common–Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ClanSSW",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "HireThief",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "HireSailor",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BrownBear",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ForestOstard",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Drelgor",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Alligator",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Harpy",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": true,
+    "expectedClass": "Trivial",
+    "validation": "pass"
+  },
+  {
+    "name": "PutridUndeadGuardian",
+    "class": "Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Skeleton",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": true,
+    "expectedClass": "Trivial",
+    "validation": "pass"
+  },
+  {
+    "name": "BlackBear",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Gremlin",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GreaterMongbat",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SkitteringHopper",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "OrcScout",
+    "class": "Trivial",
+    "abilities": "Explicit self-heal 100%",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GiantRat",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "RisingColossus",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "HeadlessOne",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DeathwatchBeetleHatchling",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Rotworm",
+    "class": "Common",
+    "abilities": "BloodDisease",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Windrunner",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MountainGoat",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SkeletalCat",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Walrus",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "StrongMongbat",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Lasher",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "CoconutCrab",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Capybara",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Eowmu",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Eagle",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "TimberWolf",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "PackHorse",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Ratman",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Cursed",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "OphidianWarrior",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Gorilla",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Cougar",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "IceSnake",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DesertOstard",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SnowLeopard",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ClanRibbonPlagueRat",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "WhiteWolf",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "EnergyVortex",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "IceHound",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GreyWolf",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "HirePeasant",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GreatHart",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "EffeteUndeadGargoyle",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "PlagueRat",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BloodElemental",
+    "class": "Common",
+    "abilities": "Magery 93, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Spite",
+    "class": "Deadly",
+    "abilities": "Magery 114, ManaDrain",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "CrystalLatticeSeeker",
+    "class": "Common–Dangerous",
+    "abilities": "Magery 100, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "EtherealWarrior",
+    "class": "Common–Dangerous",
+    "abilities": "Magery 100, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Guile",
+    "class": "Deadly",
+    "abilities": "Magery 114, StealLife",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AcidElementalRenowned",
+    "class": "Deadly",
+    "abilities": "Magery 90, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SerpentineDragon",
+    "class": "Dangerous",
+    "abilities": "Magery 115, Mage, AutoDispel, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Mimic",
+    "class": "Dangerous",
+    "abilities": "Magery 108, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MasterMikael",
+    "class": "Dangerous–Deadly",
+    "abilities": "Magery 106, NecroMage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MasterJonath",
+    "class": "Dangerous",
+    "abilities": "Magery 103, NecroMage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SkeletalDrake",
+    "class": "Common",
+    "abilities": "Magery 58, NecroMage, AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Flurry",
+    "class": "Dangerous",
+    "abilities": "Magery 107, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "RedDeath",
+    "class": "Deadly",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FireElementalRenowned",
+    "class": "Deadly",
+    "abilities": "Magery 108, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MeerEternal",
+    "class": "Common",
+    "abilities": "Magery 95, AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DreadSpider",
+    "class": "Trivial",
+    "abilities": "Magery 73, Mage, Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "UndeadGargoyle",
+    "class": "Common",
+    "abilities": "Magery 120",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SummonedDaemon",
+    "class": "Não resolvido",
+    "abilities": "Magery 95, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Betrayer",
+    "class": "Common",
+    "abilities": "Magery 75, Mage, ColossalBlow",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MeerMage",
+    "class": "Trivial",
+    "abilities": "Magery 75, AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Devourer",
+    "class": "Dangerous",
+    "abilities": "Magery 95, NecroMage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Mistral",
+    "class": "Common–Dangerous",
+    "abilities": "Magery 107, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "WhiteWyrm",
+    "class": "Common–Dangerous",
+    "abilities": "Magery 100, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "StygianDrake",
+    "class": "Dangerous",
+    "abilities": "Magery 100, Mage, AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SkeletalLich",
+    "class": "Deadly",
+    "abilities": "Magery 127, NecroMage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Tempest",
+    "class": "Dangerous",
+    "abilities": "Magery 101, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Szavetra",
+    "class": "Common",
+    "abilities": "Magery 100, Mage, LifeDrain",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "RevenantLion",
+    "class": "Common",
+    "abilities": "Magery 85, Mage, Poison Greater",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SoulboundBattleMage",
+    "class": "Common",
+    "abilities": "Magery 108, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "CrystalDaemon",
+    "class": "Common",
+    "abilities": "Magery 125, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "TyballsShadow",
+    "class": "Deadly",
+    "abilities": "Magery 100, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ToxicElemental",
+    "class": "Trivial–Common",
+    "abilities": "Magery 78, Mage, Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Succubus",
+    "class": "Common",
+    "abilities": "Magery 100, Mage, LifeDrain",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Phoenix",
+    "class": "Common",
+    "abilities": "Magery 95, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Oni",
+    "class": "Common–Dangerous",
+    "abilities": "Magery 101, Mage, AngryFire",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BulbousPutrification",
+    "class": "Deadly",
+    "abilities": "Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "InterredGrizzle",
+    "class": "Deadly",
+    "abilities": "Magery 87, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BaneDragon",
+    "class": "Dangerous",
+    "abilities": "Magery 45, Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MantraEffervescence",
+    "class": "Trivial–Common",
+    "abilities": "Magery 100",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FireGargoyle",
+    "class": "Common",
+    "abilities": "Magery 98, Mage, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "WildfireOstard",
+    "class": "Common",
+    "abilities": "Magery 65",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DragonsFlameMage",
+    "class": "Dangerous",
+    "abilities": "Magery 95, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BakeKitsune",
+    "class": "Common",
+    "abilities": "Magery 85, Mage, Rage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "TormentedMinotaur",
+    "class": "Legendary",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "HireMage",
+    "class": "Não resolvido",
+    "abilities": "Magery 112, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "LavaElemental",
+    "class": "Common",
+    "abilities": "Magery 86, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SoulboundSpellSlinger",
+    "class": "Trivial–Common",
+    "abilities": "Magery 105, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Titan",
+    "class": "Common",
+    "abilities": "Magery 93, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "TerathanMatriarch",
+    "class": "Trivial–Common",
+    "abilities": "Magery 95, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SummonedFireElemental",
+    "class": "Não resolvido",
+    "abilities": "Magery 90, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Wisp",
+    "class": "Trivial",
+    "abilities": "Magery 80, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "JukaMage",
+    "class": "Trivial",
+    "abilities": "Magery 100, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GreaterPhoenix",
+    "class": "Trivial–Common",
+    "abilities": "Magery 95, Mage, GraspingClaw",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MysteriousWisp",
+    "class": "Trivial",
+    "abilities": "Magery 80, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "IceFiend",
+    "class": "Common",
+    "abilities": "Magery 85, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "LysanderGathenwale",
+    "class": "Trivial–Common",
+    "abilities": "Magery 95, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DarkWisp",
+    "class": "Trivial",
+    "abilities": "Magery 80, NecroMage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "CrystalWisp",
+    "class": "Trivial",
+    "abilities": "Magery 80, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FleshRenderer",
+    "class": "Legendary",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Yamandon",
+    "class": "Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ElderGazer",
+    "class": "Trivial",
+    "abilities": "Magery 95, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "PitFiend",
+    "class": "Common",
+    "abilities": "Magery 85, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "TribeChieftan",
+    "class": "Legendary",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GrayGoblinMageRenowned",
+    "class": "Deadly",
+    "abilities": "Magery 105, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ChaosDragoonElite",
+    "class": "Common",
+    "abilities": "Magery 93, Mage, AutoDispel, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FireDaemon",
+    "class": "Deadly",
+    "abilities": "Magery 98, Mage, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "KhaldunSummoner",
+    "class": "Common–Dangerous",
+    "abilities": "Magery 95, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Dimetrosaur",
+    "class": "Common–Legendary",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "UnfrozenMummy",
+    "class": "Deadly",
+    "abilities": "Magery 55, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "LichLord",
+    "class": "Common",
+    "abilities": "Magery 95, NecroMage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "OphidianMatriarch",
+    "class": "Common",
+    "abilities": "Magery 95, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GrayGoblinMage",
+    "class": "Trivial",
+    "abilities": "Magery 112, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "StoneMonster",
+    "class": "Trivial–Dangerous",
+    "abilities": "Magery 120, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DragonsFlameGrandMage",
+    "class": "Dangerous",
+    "abilities": "Magery 95, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Meraktus",
+    "class": "Legendary",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GargoyleDestroyer",
+    "class": "Dangerous",
+    "abilities": "Magery 95, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "YomotsuPriest",
+    "class": "Dangerous",
+    "abilities": "Magery 110, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Semidar",
+    "class": "Legendary",
+    "abilities": "Magery 98, Mage, LifeDrain",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "PixieRenowned",
+    "class": "Legendary",
+    "abilities": "Magery 100, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DarknightCreeper",
+    "class": "Legendary",
+    "abilities": "Magery 116, Mage, Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Barracoon",
+    "class": "Legendary",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Putrefier",
+    "class": "Deadly–Legendary",
+    "abilities": "Magery 118, Mage, Poison Deadly",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "VoidManifestation",
+    "class": "Deadly",
+    "abilities": "Magery 130",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Rikktor",
+    "class": "Legendary",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "WyvernRenowned",
+    "class": "Deadly",
+    "abilities": "Magery 108, Mage, AutoDispel, Poison Deadly",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Ilhenir",
+    "class": "Legendary",
+    "abilities": "Magery 100, Mage, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AbysmalHorror",
+    "class": "Legendary",
+    "abilities": "Magery 115, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FrostDragon",
+    "class": "Deadly",
+    "abilities": "Magery 125, Mage, AutoDispel, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ShadowWyrm",
+    "class": "Dangerous",
+    "abilities": "Magery 90, NecroMage, AutoDispel, Poison Deadly, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ShadowKnight",
+    "class": "Legendary",
+    "abilities": "Magery 100, NecroMage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DragonTurtleHatchling",
+    "class": "Dangerous",
+    "abilities": "Magery 135, Mage, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Pyre",
+    "class": "Deadly",
+    "abilities": "Magery 125, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Mephitis",
+    "class": "Legendary",
+    "abilities": "Poison Lethal, Webbing",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Neira",
+    "class": "Legendary",
+    "abilities": "Magery 120, Mage",
+    "anchor": true,
+    "expectedClass": "Legendary",
+    "validation": "pass"
+  },
+  {
+    "name": "PutridUndeadGargoyle",
+    "class": "Dangerous",
+    "abilities": "Magery 127, Poison Deadly",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GreaterDragon",
+    "class": "Deadly",
+    "abilities": "Magery 125, Mage, AutoDispel, Breath, DragonBreath",
+    "anchor": true,
+    "expectedClass": "Deadly",
+    "validation": "pass"
+  },
+  {
+    "name": "NightTerror",
+    "class": "Mythic",
+    "abilities": "Magery 100, NecroMage, Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DragonTurtle",
+    "class": "Mythic",
+    "abilities": "Mage, Teleport, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "VitaviRenowned",
+    "class": "Mythic",
+    "abilities": "Magery 75",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Charydbis",
+    "class": "Mythic–World Threat",
+    "abilities": "Magery 138, AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AndrosTheDreadLord",
+    "class": "Mythic",
+    "abilities": "Magery 120, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Osiredon",
+    "class": "Mythic",
+    "abilities": "Magery 125",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GargoyleGuardian",
+    "class": "Dangerous",
+    "abilities": "Magery 95, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AdrianTheGloriousLord",
+    "class": "Mythic",
+    "abilities": "Magery 120, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "CorgulTheSoulBinder",
+    "class": "Mythic",
+    "abilities": "Magery 115, Teleport",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Navrey",
+    "class": "Mythic",
+    "abilities": "Magery 95, Mage, Poison Lethal, Webbing",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "LordOaks",
+    "class": "Legendary",
+    "abilities": "Magery 120, AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AbyssalInfernal",
+    "class": "Mythic",
+    "abilities": "Magery 135, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Allosaurus",
+    "class": "Dangerous–Legendary",
+    "abilities": "Magery 75",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GiantTurkey",
+    "class": "Mythic",
+    "abilities": "HowlOfCacophony",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "PrimevalLich",
+    "class": "Mythic",
+    "abilities": "Magery 105, NecroMage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "RakktaviRenowned",
+    "class": "Mythic",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DemonKnight",
+    "class": "Mythic",
+    "abilities": "Magery 100, NecroMage, Teleport",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MinionOfScelestus",
+    "class": "Mythic",
+    "abilities": "Magery 120, Mage, Poison Lethal, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "TikitaviRenowned",
+    "class": "Mythic",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Serado",
+    "class": "Legendary",
+    "abilities": "Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "RuneBeetle",
+    "class": "Common",
+    "abilities": "Magery 105, Mage, Poison Greater, RuneCorruption",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Irk",
+    "class": "Deadly",
+    "abilities": "Magery 114, AngryFire",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Impaler",
+    "class": "Legendary",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "TribeShaman",
+    "class": "Deadly",
+    "abilities": "Magery 120, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MaddeningHorror",
+    "class": "Dangerous",
+    "abilities": "Magery 125, NecroMage, ManaDrain",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MasterTheophilus",
+    "class": "Dangerous",
+    "abilities": "Magery 141, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "PumpkinHead",
+    "class": "Dangerous",
+    "abilities": "Magery 160, AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GreaterPoisonElemental",
+    "class": "Dangerous",
+    "abilities": "Magery 89, Mage, Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Harrower",
+    "class": "Mythic",
+    "abilities": "Magery 120, NecroMage, AutoDispel, Teleport",
+    "anchor": true,
+    "expectedClass": "Mythic",
+    "validation": "pass"
+  },
+  {
+    "name": "TerathanAvenger",
+    "class": "Common",
+    "abilities": "Magery 85, Mage, Poison Deadly",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Twaulo",
+    "class": "Legendary",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Coil",
+    "class": "Deadly",
+    "abilities": "Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AcidElemental",
+    "class": "Trivial–Common",
+    "abilities": "Magery 78, Mage, Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FireDaemonRenowned",
+    "class": "Deadly",
+    "abilities": "Magery 99, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DreamWraith",
+    "class": "Dangerous",
+    "abilities": "Magery 110, NecroMage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DevourerRenowned",
+    "class": "Deadly",
+    "abilities": "Magery 95, NecroMage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "PoisonElemental",
+    "class": "Common",
+    "abilities": "Magery 88, Mage, Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Balron",
+    "class": "Dangerous",
+    "abilities": "Magery 98, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ArchDaemon",
+    "class": "Dangerous",
+    "abilities": "Magery 98, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Silvani",
+    "class": "Dangerous",
+    "abilities": "Magery 103, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AbyssalAbomination",
+    "class": "Dangerous",
+    "abilities": "Magery 115, NecroMage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Abscess",
+    "class": "Legendary",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AncientWyrm",
+    "class": "Dangerous",
+    "abilities": "Magery 90, Mage, AutoDispel, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AncientLichRenowned",
+    "class": "Deadly",
+    "abilities": "Magery 125, NecroMage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "RenegadeChangeling",
+    "class": "Deadly",
+    "abilities": "Magery 115",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BoneDemon",
+    "class": "Deadly",
+    "abilities": "Magery 83, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Malefic",
+    "class": "Dangerous",
+    "abilities": "Magery 111, Mage, Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Virulent",
+    "class": "Dangerous",
+    "abilities": "Magery 112, Mage, Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SkeletalDragon",
+    "class": "Dangerous",
+    "abilities": "Magery 90, NecroMage, AutoDispel, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Vasanord",
+    "class": "Legendary",
+    "abilities": "Magery 101, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Leviathan",
+    "class": "Deadly",
+    "abilities": "Magery 103, Mage, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FetidEssence",
+    "class": "Dangerous",
+    "abilities": "Magery 100, Poison Deadly",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Rend",
+    "class": "Legendary",
+    "abilities": "Breath, DragonBreath, GraspingClaw",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AncientLich",
+    "class": "Dangerous",
+    "abilities": "Magery 125, NecroMage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Lifestealer",
+    "class": "Legendary",
+    "abilities": "Magery 95, NecroMage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SkeletalDragonRenowned",
+    "class": "Dangerous",
+    "abilities": "Magery 90, Mage, AutoDispel, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GargishRouser",
+    "class": "Deadly",
+    "abilities": "Magery 130",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MyrmidexWarrior",
+    "class": "Deadly",
+    "abilities": "Magery 85, Mage, Poison Deadly",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Lich",
+    "class": "Trivial",
+    "abilities": "Magery 75, NecroMage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Wyvern",
+    "class": "Trivial",
+    "abilities": "Poison Deadly",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Imp",
+    "class": "Trivial",
+    "abilities": "Magery 95, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SerpentsFangHighExecutioner",
+    "class": "Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "LesserHiryu",
+    "class": "Common–Dangerous",
+    "abilities": "GraspingClaw",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Anlorlem",
+    "class": "Dangerous",
+    "abilities": "Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Quagmire",
+    "class": "Trivial",
+    "abilities": "Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Miasma",
+    "class": "Common–Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "TigersClawMaster",
+    "class": "Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Ortanord",
+    "class": "Trivial",
+    "abilities": "Magery 106",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ColdDrake",
+    "class": "Dangerous",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "EliteNinja",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SabreToothedTiger",
+    "class": "Common",
+    "abilities": "Explicit self-heal 17%",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "OgreLord",
+    "class": "Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ArcticOgreLord",
+    "class": "Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "IceElemental",
+    "class": "Trivial",
+    "abilities": "Magery 35, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "CursedMetallicMage",
+    "class": "Trivial",
+    "abilities": "Magery 65, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FrostDrake",
+    "class": "Dangerous",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "WolfSpider",
+    "class": "Trivial",
+    "abilities": "Poison Regular",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "KhaldunZealot",
+    "class": "Common–Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ExodusMinion",
+    "class": "Dangerous",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SoulboundApprenticeMage",
+    "class": "Trivial",
+    "abilities": "Magery 66, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Bogle",
+    "class": "Trivial",
+    "abilities": "Magery 63, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "EnragedColossus",
+    "class": "Não resolvido",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Anlorvaglem",
+    "class": "Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "HighPlainsBoura",
+    "class": "Dangerous",
+    "abilities": "TailSwipe, ColossalBlow",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "CuSidhe",
+    "class": "Deadly",
+    "abilities": "Explicit self-heal 100%",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "WaterElemental",
+    "class": "Trivial",
+    "abilities": "Magery 68, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "CoralSnake",
+    "class": "Trivial–Common",
+    "abilities": "Poison Deadly",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Shade",
+    "class": "Trivial",
+    "abilities": "Magery 63, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SkeletalMage",
+    "class": "Trivial",
+    "abilities": "Magery 65, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "BoneMagi",
+    "class": "Trivial",
+    "abilities": "Magery 65, NecroMage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FeralTreefellow",
+    "class": "Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DragonWolf",
+    "class": "Dangerous",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ValoriteElemental",
+    "class": "Trivial",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Wraith",
+    "class": "Trivial",
+    "abilities": "Magery 63, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Spectre",
+    "class": "Trivial",
+    "abilities": "Magery 63, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AgapiteElemental",
+    "class": "Trivial",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "OrcishMage",
+    "class": "Trivial",
+    "abilities": "Magery 66, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Gazer",
+    "class": "Trivial",
+    "abilities": "Magery 58, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Centaur",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SerpentsFangAssassin",
+    "class": "Common–Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Juggernaut",
+    "class": "Trivial–Common",
+    "abilities": "ColossalBlow",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "TsukiWolf",
+    "class": "Common–Dangerous",
+    "abilities": "Rage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Relanord",
+    "class": "Common–Dangerous",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Lion",
+    "class": "Common",
+    "abilities": "Explicit self-heal 17%",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "WildWhiteTiger",
+    "class": "Common–Dangerous",
+    "abilities": "Explicit self-heal 17%, GraspingClaw",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "RagingGrizzlyBear",
+    "class": "Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FireSteed",
+    "class": "Common",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ShadowIronElemental",
+    "class": "Trivial",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "KepetchAmbusher",
+    "class": "Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "CorruptedSoul",
+    "class": "Trivial",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Satyr",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "EnslavedSatyr",
+    "class": "Common",
+    "abilities": "AngryFire",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Golem",
+    "class": "Trivial–Common",
+    "abilities": "AutoDispel, ColossalBlow",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "HireRanger",
+    "class": "Não resolvido",
+    "abilities": "Magery 62",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FireRabbit",
+    "class": "Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "HellSteed",
+    "class": "Common",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "RuddyBoura",
+    "class": "Common–Dangerous",
+    "abilities": "ColossalBlow",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "CrystalVortex",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SentinelSpider",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Gnaw",
+    "class": "Dangerous",
+    "abilities": "Rage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Grobu",
+    "class": "Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Archaeosaurus",
+    "class": "Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FrostMite",
+    "class": "Dangerous–Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MinotaurGeneral",
+    "class": "Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GiantBlackWidow",
+    "class": "Trivial",
+    "abilities": "Poison Deadly",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Thrasher",
+    "class": "Common–Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "JuvenileUmbrascale",
+    "class": "Dangerous",
+    "abilities": "Explicit self-heal 100%",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "TigersClawThief",
+    "class": "Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "OsseinRam",
+    "class": "Dangerous",
+    "abilities": "LifeLeech",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "WildTiger",
+    "class": "Common–Dangerous",
+    "abilities": "Explicit self-heal 17%, GraspingClaw",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "WildBlackTiger",
+    "class": "Common–Dangerous",
+    "abilities": "Explicit self-heal 17%, GraspingClaw",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "IronBeetle",
+    "class": "Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "LowlandBoura",
+    "class": "Common–Dangerous",
+    "abilities": "ColossalBlow",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Triton",
+    "class": "Dangerous",
+    "abilities": "Heal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Wight",
+    "class": "Trivial–Common",
+    "abilities": "Magery 70, NecroMage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GiantIceWorm",
+    "class": "Trivial",
+    "abilities": "Poison Greater",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "EvilMageLord",
+    "class": "Trivial",
+    "abilities": "Magery 98, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "LadyJennifyr",
+    "class": "Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DreadWarhorse",
+    "class": "Dangerous",
+    "abilities": "Magery 44",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Saurosaurus",
+    "class": "Deadly",
+    "abilities": "Mage, TailSwipe, LifeLeech",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Chiikkaha",
+    "class": "Common",
+    "abilities": "Magery 80, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Vollem",
+    "class": "Common",
+    "abilities": "Magery 32, Mage, AutoDispel, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Najasaurus",
+    "class": "Dangerous",
+    "abilities": "Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Daemon",
+    "class": "Common",
+    "abilities": "Magery 75, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Lurg",
+    "class": "Deadly",
+    "abilities": "Explicit self-heal 100%",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "CrystalElemental",
+    "class": "Trivial",
+    "abilities": "Magery 73, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SAPixie",
+    "class": "Trivial",
+    "abilities": "Magery 95, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Pixie",
+    "class": "Trivial",
+    "abilities": "Magery 95, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SavageShaman",
+    "class": "Não resolvido",
+    "abilities": "Magery 84, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GargishOutcast",
+    "class": "Deadly",
+    "abilities": "Magery 65",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "YomotsuElder",
+    "class": "Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "OphidianMage",
+    "class": "Trivial",
+    "abilities": "Magery 93, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "OphidianKnight",
+    "class": "Common",
+    "abilities": "Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Grim",
+    "class": "Deadly",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "LadyOfTheSnow",
+    "class": "Dangerous",
+    "abilities": "Magery 103, NecroMage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GargoyleEnforcer",
+    "class": "Dangerous",
+    "abilities": "Magery 85, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Silk",
+    "class": "Common",
+    "abilities": "Poison Deadly",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Swoop",
+    "class": "Deadly",
+    "abilities": "GraspingClaw",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Skree",
+    "class": "Common",
+    "abilities": "Magery 102",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ArcaneDaemon",
+    "class": "Trivial",
+    "abilities": "Magery 85, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GolemController",
+    "class": "Trivial",
+    "abilities": "Magery 98, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "ShadowDweller",
+    "class": "Trivial",
+    "abilities": "Magery 75, Mage, LifeLeech",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SummonedWaterElemental",
+    "class": "Trivial",
+    "abilities": "Magery 80, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Reaper",
+    "class": "Trivial",
+    "abilities": "Magery 95, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "LadySabrix",
+    "class": "Common",
+    "abilities": "Poison Deadly",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "OphidianArchmage",
+    "class": "Trivial",
+    "abilities": "Magery 98, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Kirin",
+    "class": "Trivial–Common",
+    "abilities": "Magery 80",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "MLDryad",
+    "class": "Common",
+    "abilities": "Magery 75, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "InsaneDryad",
+    "class": "Common",
+    "abilities": "Magery 75, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Anzuanord",
+    "class": "Trivial",
+    "abilities": "Magery 75, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Changeling",
+    "class": "Common",
+    "abilities": "Magery 96",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "LadyLissith",
+    "class": "Common",
+    "abilities": "Poison Deadly",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Unicorn",
+    "class": "Trivial–Common",
+    "abilities": "Magery 70",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Dragon",
+    "class": "Dangerous",
+    "abilities": "Magery 35, Mage, AutoDispel, Breath, DragonBreath",
+    "anchor": true,
+    "expectedClass": "Dangerous",
+    "validation": "pass"
+  },
+  {
+    "name": "SirPatrick",
+    "class": "Dangerous",
+    "abilities": "LifeDrain",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SilverSerpent",
+    "class": "Trivial–Common",
+    "abilities": "Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "OrcBrute",
+    "class": "Dangerous",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FairyDragon",
+    "class": "Common",
+    "abilities": "AutoDispel, Poison Greater",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "TribeWarrior",
+    "class": "Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "SummonedAirElemental",
+    "class": "Trivial",
+    "abilities": "Magery 70, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "KazeKemono",
+    "class": "Common",
+    "abilities": "Magery 100, Mage, ConductiveBlast, FlurryForce",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Viscera",
+    "class": "Common",
+    "abilities": "Poison Lethal, StickySkin",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "PlagueBeast",
+    "class": "Common",
+    "abilities": "AutoDispel, PoisonSpit",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Reptalon",
+    "class": "Dangerous",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "FireElemental",
+    "class": "Trivial",
+    "abilities": "Magery 68, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "GargoyleShade",
+    "class": "Trivial",
+    "abilities": "Magery 65, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "UsagralemBallem",
+    "class": "Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Nightmare",
+    "class": "Common",
+    "abilities": "Magery 30, Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "HarrowerTentacles",
+    "class": "Dangerous",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "AirElemental",
+    "class": "Trivial",
+    "abilities": "Magery 68, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Ronin",
+    "class": "Common",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Macaw",
+    "class": "Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Triceratops",
+    "class": "Deadly",
+    "abilities": "Explicit self-heal 17%",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DarkGuardian",
+    "class": "Trivial",
+    "abilities": "Magery 55, NecroMage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Saliva",
+    "class": "Common–Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "CrystalHydra",
+    "class": "Deadly",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Anchisaur",
+    "class": "Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "DesertScorpion",
+    "class": "Common",
+    "abilities": "Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Hydra",
+    "class": "Deadly",
+    "abilities": "Breath, DragonBreath",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "WandererOfTheVoid",
+    "class": "Common",
+    "abilities": "Magery 65, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "LadyMarai",
+    "class": "Dangerous",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "CorporealBrume",
+    "class": "Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "EvilMage",
+    "class": "Trivial",
+    "abilities": "Magery 88, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Hiryu",
+    "class": "Dangerous–Deadly",
+    "abilities": "GraspingClaw",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Tangle",
+    "class": "Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Anlorzen",
+    "class": "Common",
+    "abilities": "Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "PlagueBeastLord",
+    "class": "Deadly",
+    "abilities": "Nenhuma detectada",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "PestilentBandage",
+    "class": "Common",
+    "abilities": "Poison Lethal, Explicit self-heal 100%",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Efreet",
+    "class": "Trivial–Common",
+    "abilities": "Magery 68, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "RatmanMage",
+    "class": "Trivial",
+    "abilities": "Magery 75, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "Gargoyle",
+    "class": "Trivial",
+    "abilities": "Magery 78, Mage",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "TheButcher",
+    "class": "Dangerous–Deadly",
+    "abilities": "AutoDispel",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  },
+  {
+    "name": "RottingCorpse",
+    "class": "Deadly",
+    "abilities": "Poison Lethal",
+    "anchor": false,
+    "expectedClass": null,
+    "validation": null
+  }
+]

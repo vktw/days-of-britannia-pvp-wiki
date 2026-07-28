@@ -1,6 +1,6 @@
 # Seu primeiro personagem
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
     A base abaixo é aplicada a todo novo personagem, independentemente da profissão escolhida no cliente.
 
 ## Local inicial
@@ -33,5 +33,6 @@ O personagem começa com:
 - Runebook vazio.
 - Cavalo shrinkado.
 - 10.000 gold, somente para o primeiro personagem elegível por IP.
+- Um **Starter PvP Iron kit** permanente, com armor Regular, armas, Black Staff, suprimentos, potions e joias do catálogo compartilhado da Arena e do PvP Camp. O kit não inclui outro cavalo e não pode ser vendido a vendors.
 
 Consulte [Personagem](../personagem.md) para buffs, caps e raça, e [Itens](../itens/index.md) para equipamentos clássicos.

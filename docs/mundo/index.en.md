@@ -1,16 +1,16 @@
 # World
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
 This section documents the general map and region rules of the official server.
 
 Felucca is the only public facet of Britannia. Trammel remains reserved for the controlled areas of official arenas.
 
 ## Pages
 
-- [](mapas-viagem.md) maps and travel: Felucca, Trammel, Recall, Mark, Gate Travel and Teleport.
+- [Maps and travel](mapas-viagem.md): Felucca, Trammel, Recall, Mark, Gate Travel, and Teleport.
 - [Cities and guards](cidades-guards.md): regions with known protection exceptions.
-- [Threat Rating](threat-rating.md): threat classes, reference catalog and XP of creatures.
-- [Threat](threat-inventory.md) inventory: Threat, XP, class and abilities of the 618 creatures available in the scripts.
+- [Threat Rating](threat-rating.md): textual classification through formula 3 based on a MaxHits snapshot.
+- [Threat inventory](threat-inventory.md): classes, capabilities, and validation for creatures resolved from the scripts.
 
 ## Persistent world
 

@@ -1,6 +1,6 @@
 # Comandos de jogador
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
     Os comandos abaixo estão disponíveis aos jogadores no servidor oficial.
 
 ## `.arena`

@@ -2,6 +2,8 @@ import re
 import sys
 from pathlib import Path
 
+from audit_parity import audit as audit_parity
+
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 
@@ -11,7 +13,8 @@ BASELINE_PATHS = {
     "assets/favicon.png",
     "assets/logo.png", "stylesheets/extra.css", "combate/armor-parrying.md",
     "combate/cura-recursos.md", "combate/exemplos-dano.md", "combate/magery.md",
-    "combate/melee-archery.md", "combate/poison.md",
+    "combate/melee-archery.md", "combate/poison.md", "sistemas/pvm-mastery.md",
+    "data/threat-inventory-v3.json",
 }
 
 REQUIRED_HEADINGS = {
@@ -30,9 +33,12 @@ REQUIRED_HEADINGS = {
     "combate/cura-recursos.md": ["# Cura e recursos", "## Faixas de cura", "## Mana"],
     "combate/exemplos-dano.md": ["# Exemplos de dano", "## Faixas de dano bruto"],
     "combate/poison.md": ["# Poison"],
-    "patches.md": ["# Patch notes", "## 0.9.1", "## 0.7.0", "## 0.1.0"],
+    "patches.md": ["# Patch notes", "## 0.9.6", "## 0.9.2", "## 0.7.0", "## 0.1.0"],
     "proximo-patch.md": ["# Próximo Patch Planejado"],
     "sistemas-desativados.md": ["# Sistemas desativados", "## Pets e summons"],
+    "mundo/threat-rating.md": ["# Threat Rating", "## Âncoras de validação"],
+    "mundo/threat-inventory.md": ["# Inventário de Threat"],
+    "sistemas/pvm-mastery.md": ["# PvM Mastery", "## Progressão e pontos", "## Scrolls of Knowledge"],
 }
 
 REQUIRED_LIVE_CLAIMS = {
@@ -40,11 +46,13 @@ REQUIRED_LIVE_CLAIMS = {
     "personagem.md": ["primeiro personagem elegível por IP"],
     "primeiros-passos/personagem-inicial.md": ["primeiro personagem elegível por IP"],
     "combate/melee-archery.md": ["Speed 4.5", "permanece parado por 250 ms"],
-    "combate/exemplos-dano.md": ["| Kryss | 10-13 | 19-24 | +9 | **28-33** |", "| Bow | 17-22 | 32-41 | +9 | **41-50** |"],
+    "combate/exemplos-dano.md": ["| Kryss | 10-13 | 19-24 | +9 | **28-33** |", "| Bow | 15-20 | 28-38 | +9 | **37-47** |"],
     "combate/magery.md": ["Reserva de 40 dividida entre os alvos PvP", "reserva máxima de 40 pontos", "uma carga", "alcance padrão de Magery de 12 tiles"],
     "mundo/index.md": ["Felucca é a única faceta pública"],
     "mundo/mapas-viagem.md": ["Trammel não é uma faceta pública"],
     "itens/armas.md": ["não determinam a compatibilidade da arma com poison"],
+    "mundo/threat-rating.md": ["snapshot de MaxHits", "Neira | Legendary", "Harrower | Mythic"],
+    "mundo/threat-inventory.md": ["fórmula 3", "não possui score fixo"],
 }
 
 FORBIDDEN_LIVE_CLAIMS = {
@@ -65,6 +73,8 @@ FORBIDDEN_LIVE_CLAIMS = {
     "mundo/index.md": ["Britannia utiliza Felucca e Trammel"],
     "mundo/mapas-viagem.md": ["Trammel utiliza regras de combate equivalentes"],
     "itens/armas.md": ["definição possui Infectious Strike"],
+    "mundo/threat-rating.md": ["perfis fixos", "12.950", "15.650"],
+    "mundo/threat-inventory.md": ["Âncora fixa", "Perfil fixo"],
 }
 
 
@@ -143,6 +153,10 @@ def main():
                 if fragment not in anchors(target_text):
                     errors.append(f"broken anchor: {page.relative_to(DOCS)} -> {target}")
 
+    if errors:
+        print("\n".join(errors))
+        return 1
+    errors.extend(audit_parity())
     if errors:
         print("\n".join(errors))
         return 1

@@ -1,6 +1,6 @@
 # Healing and resources
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
 Tracks, delays and recovery correspond to the official server.
 
 ## Healing Tracks

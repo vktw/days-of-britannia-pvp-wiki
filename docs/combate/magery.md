@@ -1,6 +1,6 @@
 # Magery
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
     Fluxo, delays e efeitos correspondem ao servidor oficial.
 
 ## Fluxo de cast
@@ -27,6 +27,8 @@ Magery usa o fluxo **alvo → cast delay → revalidação → efeito**. O curso
 | 4 | 2,5 s | 8 | 4,5 s |
 
 Protection possui exceção própria de 1,4 segundo.
+
+Recall e Gate Travel são exceções de viagem: ambos usam **4,0 segundos reais** depois da escolha de um destino válido, independentemente do círculo, de Faster Casting ou de Faster Cast Recovery. A regra vale para Spellbook, scroll, Runebook, Runic Atlas e demais fontes suportadas. Dano durante esse período pode causar fizzle; cancelar antes de escolher um destino válido continua sem custo.
 
 ## Dano e mana
 

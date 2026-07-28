@@ -1,6 +1,6 @@
 # Melee and Archery
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
 Formulas and behaviors active on the official server.
 
 ## Chance of success
@@ -31,13 +31,13 @@ Each hit that lands first draws an integer value between `MinDamage` and `MaxDam
 
 The attacker's scale is:
 
-`escala = 1 + (Tactics − 50)/100 + Anatomy/500 + STR efetiva/500`
+`scale = 1 + (Tactics − 50)/100 + Anatomy/500 + effective STR/500`
 
 Effective STR is limited between 0 and 120. Raw damage is calculated in the following order:
 
-`dano bruto = truncar(dano-base sorteado × escala) + bônus clássico da arma`
+`raw damage = truncate(rolled base damage × scale) + classic weapon bonus`
 
-`truncar` discards the decimal part. The scale result never falls below 1 point before the classic bonus.
+`truncate` discards the decimal part. The scale result never falls below 1 point before the classic bonus.
 
 | Property | Bonus added after scale |
 |---|---:|
@@ -52,15 +52,26 @@ The same calculation is used by Melee and Archery. The weapon's skill determines
 
 Poisoned weapons consume a charge and poison every successful hit.
 
+### Competitive roles
+
+| Role | Expected Vanquishing DPS reference |
+|---|---:|
+| Archery | approximately 6.00 |
+| One-handed, shield, and poison | approximately 6.50 |
+| Two-handed, range 2, and poison | approximately 7.00 |
+| Long non-poisonable staves | approximately 5.00 |
+
+The reference uses 100 STR, 100 DEX, 100.0 Tactics, 100.0 Anatomy, 100.0 weapon skill, and a 65% base hit chance. Poison, armor, Parrying, and downtime are excluded. Competitive Macing weapons also remove stamina equal to the final damage dealt by the hit.
+
 ### Weapons with range 2
 
 The following two-handed weapons reach two tiles:
 
 - Polearms, including Bardiche, Halberd and Scythe.
 - Pike, Gargish Pike, Lance and Gargish Lance.
-- Spear, Tribal Spear and Pitchfork.
+- Spear and Pitchfork. Tribal Spear does not circulate among players.
 - Bladed Staff, Double Bladed Staff and Lajatang.
-- Quarter Staff, Black Staff, Gnarled Staff and Shepherd's Crook.
+- Quarter Staff, Black Staff, and Gnarled Staff. Shepherd's Crook remains a Herding utility outside the competitive ranking.
 
 The additional range does not change the weapon's speed.
 
@@ -70,4 +81,4 @@ Archery weapons cannot be equipped while the character is wearing a body plate p
 
 **Plate Gorget and shields are exceptions** and can be combined with Archery.
 
-See [](exemplos-dano.md) damage examples to follow the complete calculation from weapon draw to hits taken from the target.
+See [Damage examples](exemplos-dano.md) for the complete calculation from the weapon roll to the target's lost hits.

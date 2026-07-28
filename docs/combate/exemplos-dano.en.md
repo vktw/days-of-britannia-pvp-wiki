@@ -1,9 +1,9 @@
 # Examples of damage
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
 The examples use currently published formulas.
 
-The examples below follow the official server **Live 0.9.1**. They isolate a blow that has already landed; The chance of success and the chance of parrying are previous and independent draws.
+The examples below follow the official server **Live 0.9.6**. They isolate a blow that has already landed; The chance of success and the chance of parrying are previous and independent draws.
 
 ## Striker used
 
@@ -27,8 +27,8 @@ escala = 1,90
 | Weapon | Base damage | After scaling and truncation | Vanquishing | Final raw damage |
 |---|---:|---:|---:|---:|
 | Kryss | 10-13 | 19-24 | +9 | **28-33** |
-| Bardiche | 17-20 | 32-38 | +9 | **41-47** |
-| Bow | 17-22 | 32-41 | +9 | **41-50** |
+| Bardiche | 29-33 | 55-62 | +9 | **64-71** |
+| Bow | 15-20 | 28-38 | +9 | **37-47** |
 
 Each hit deals an integer within the base damage range. Therefore, intermediate values ​​do not necessarily form a perfectly uniform progression after multiplication and truncation.
 

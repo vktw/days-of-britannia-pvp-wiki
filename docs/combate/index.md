@@ -1,6 +1,6 @@
 # Combate
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
     As páginas desta seção descrevem o ruleset ativo no servidor oficial.
 
 O combate de Days of Britannia separa dano físico, dano mágico e poison. Sistemas modernos de dano elemental e atributos AOS não determinam o resultado do PvP Sphere.

@@ -1,6 +1,6 @@
 # Sistemas desativados
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
     Os bloqueios abaixo fazem parte do ruleset oficial.
 
 Para preservar o equilíbrio clássico, os seguintes sistemas modernos ficam bloqueados globalmente ou têm seus efeitos neutralizados no PvP Sphere. Classes e propriedades podem continuar serializáveis para compatibilidade com saves, e algumas mecânicas conservam comportamento fora do PvP quando indicado:

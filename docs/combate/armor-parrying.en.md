@@ -1,6 +1,6 @@
 # Armor and Parrying
 
-!!! success "Status: Live 0.9.1"
+!!! success "Status: Live 0.9.6"
     Regional absorption and Parrying correspond to the official server.
 
 ## Body regions
@@ -16,7 +16,7 @@ A physical blow that lands selects a body region. Only armor equipped in that re
 | Hands | 7% |
 | Neck | 7% |
 
-Each piece displays its individual Physical Resist. This number is exactly the percentage of damage absorbed when that region is hit. The Regular base resistance receives a multiplier of 1.30; after that, classic properties add percentage points:
+Each piece displays its individual Physical Resist. This number is exactly the percentage of damage absorbed when that region is hit. The Regular base resistance receives a multiplier of 1.40; after that, classic properties add percentage points:
 
 | Property | Physical Resist Bonus |
 |---|---:|
