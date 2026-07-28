@@ -1,6 +1,6 @@
 # Sistemas habilitados
 
-!!! success "Status: Live 0.9.6"
+!!! success "Status: Live 0.9.8"
     Lista resumida das mecânicas centrais disponíveis aos jogadores.
 
 - Combate físico com Swords, Macing, Fencing, Archery e Wrestling.

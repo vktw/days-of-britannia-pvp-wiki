@@ -33,7 +33,7 @@ REQUIRED_HEADINGS = {
     "combate/cura-recursos.md": ["# Cura e recursos", "## Faixas de cura", "## Mana"],
     "combate/exemplos-dano.md": ["# Exemplos de dano", "## Faixas de dano bruto"],
     "combate/poison.md": ["# Poison"],
-    "patches.md": ["# Patch notes", "## 0.9.6", "## 0.9.2", "## 0.7.0", "## 0.1.0"],
+    "patches.md": ["# Patch notes", "## 0.9.8", "## 0.9.6", "## 0.9.2", "## 0.7.0", "## 0.1.0"],
     "proximo-patch.md": ["# Próximo Patch Planejado"],
     "sistemas-desativados.md": ["# Sistemas desativados", "## Pets e summons"],
     "mundo/threat-rating.md": ["# Threat Rating", "## Âncoras de validação"],

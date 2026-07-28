@@ -17,7 +17,7 @@ theme:
   palette:
     scheme: dob
 extra:
-  dob_version: "Live 0.9.6"
+  dob_version: "Live 0.9.8"
 extra_css:
   - stylesheets/extra.css?v=20260726.7
 extra_javascript:
@@ -46,12 +46,15 @@ plugins:
             Comece aqui: Start here
             Como conectar: How to connect
             Seu primeiro personagem: Your first character
+            Newcomer e proteção: Newcomer and protection
+            Morte e recuperação: Death and recovery
             Personagem: Character
             "Stats, skills e raça": Stats, skills and race
             Mundo: World
             Visão geral: Overview
             Mapas e viagem: Maps and travel
             Cidades e guards: Cities and guards
+            Ocllo Safe Haven: Ocllo Safe Haven
             Inventário de Threat: Threat inventory
             Combate: Combat
             Melee e Archery: Melee and Archery
@@ -83,6 +86,8 @@ nav:
       - Comece aqui: primeiros-passos/index.md
       - Como conectar: primeiros-passos/conexao.md
       - Seu primeiro personagem: primeiros-passos/personagem-inicial.md
+      - Newcomer e proteção: primeiros-passos/newcomer.md
+      - Morte e recuperação: primeiros-passos/morte-recuperacao.md
       - DoB Razor: primeiros-passos/dob-razor.md
   - Personagem:
       - Stats, skills e raça: personagem.md
@@ -90,6 +95,7 @@ nav:
       - Visão geral: mundo/index.md
       - Mapas e viagem: mundo/mapas-viagem.md
       - Cidades e guards: mundo/cidades-guards.md
+      - Ocllo Safe Haven: mundo/ocllo.md
       - Threat Rating: mundo/threat-rating.md
       - Inventário de Threat: mundo/threat-inventory.md
   - Combate:

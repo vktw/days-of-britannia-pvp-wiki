@@ -1,13 +1,13 @@
 # Melee e Archery
 
-!!! success "Status: Live 0.9.6"
+!!! success "Status: Live 0.9.8"
     Fórmulas e comportamentos ativos no servidor oficial.
 
 ## Chance de acerto
 
-Com skill ofensiva 100.0 contra defesa 100.0, Melee e Archery possuem **65% de chance de acerto**. A fórmula é:
+Com skill ofensiva 100.0 contra defesa 100.0, Melee e Archery possuem **70% de chance de acerto**. A fórmula é:
 
-`chance = 1,30 × (ataque + 50) ÷ [2 × (defesa + 50)]`
+`chance = 1,40 × (ataque + 50) ÷ [2 × (defesa + 50)]`
 
 O resultado final fica limitado entre 2% e 98%.
 
@@ -56,12 +56,12 @@ Armas envenenadas consomem uma carga e aplicam poison em todo golpe bem-sucedido
 
 | Papel | Referência de DPS Vanquishing esperado |
 |---|---:|
-| Archery | aproximadamente 6,00 |
-| Uma mão, shield e poison | aproximadamente 6,50 |
-| Duas mãos, range 2 e poison | aproximadamente 7,00 |
-| Staves longos sem poison | aproximadamente 5,00 |
+| Archery | aproximadamente 6,46 |
+| Uma mão, shield e poison | aproximadamente 7,00 |
+| Duas mãos, range 2 e poison | aproximadamente 7,54 |
+| Staves longos sem poison | aproximadamente 5,38 |
 
-O DPS de referência usa 100 STR, 100 DEX, 100.0 Tactics, 100.0 Anatomy, skill da arma 100.0 e chance-base de acerto de 65%. Poison, armor, Parrying e tempo fora de combate não entram nessa comparação. Armas competitivas de Macing também removem stamina igual ao dano final do golpe.
+O DPS de referência usa 100 STR, 100 DEX, 100.0 Tactics, 100.0 Anatomy, skill da arma 100.0 e chance-base de acerto de 70%. Poison, armor, Parrying e tempo fora de combate não entram nessa comparação. Armas competitivas de Macing também removem stamina igual ao dano final do golpe.
 
 ### Armas com range 2
 

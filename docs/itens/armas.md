@@ -1,6 +1,6 @@
 # Armas clássicas
 
-!!! success "Status: Live 0.9.6"
+!!! success "Status: Live 0.9.8"
     Os tiers e bônus abaixo estão ativos no servidor oficial.
 
 | Tier | Bônus de dano |
@@ -26,10 +26,10 @@ Special moves permanecem desativados e não determinam a compatibilidade da arma
 
 ## Papéis atuais
 
-- Archery: aproximadamente 6,00 DPS Vanquishing esperado.
-- Uma mão compatível com shield e poison: aproximadamente 6,50.
-- Duas mãos, range 2 e poison: aproximadamente 7,00.
-- Quarter Staff, Black Staff, Gnarled Staff e Skull Gnarled Staff: aproximadamente 5,00, sem poison.
+- Archery: aproximadamente 6,46 DPS Vanquishing esperado.
+- Uma mão compatível com shield e poison: aproximadamente 7,00.
+- Duas mãos, range 2 e poison: aproximadamente 7,54.
+- Quarter Staff, Black Staff, Gnarled Staff e Skull Gnarled Staff: aproximadamente 5,38, sem poison.
 - Armas competitivas de Macing removem stamina igual ao dano final aplicado.
 - Shepherd's Crook é utilitário de Herding; Tribal Spear não circula para jogadores.
 

@@ -4,7 +4,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
-LIVE_VERSION = "Live 0.9.6"
+LIVE_VERSION = "Live 0.9.8"
 
 NUMBER_RE = re.compile(r"(?<![\w])\d+(?:[.,]\d+)?%?")
 COMMAND_RE = re.compile(r"`(\.[a-z][a-z0-9]*)`", re.I)
@@ -54,8 +54,8 @@ def audit():
     config = (ROOT / "mkdocs.yml").read_text(encoding="utf-8-sig")
     if f'dob_version: "{LIVE_VERSION}"' not in config:
         errors.append(f"mkdocs live version is not {LIVE_VERSION}")
-    if "0.9.6" not in (DOCS / "index.md").read_text(encoding="utf-8-sig"):
-        errors.append("home release card is not 0.9.6")
+    if "0.9.8" not in (DOCS / "index.md").read_text(encoding="utf-8-sig"):
+        errors.append("home release card is not 0.9.8")
     if (DOCS / "data" / "threat-inventory-v2.json").exists():
         errors.append("obsolete Threat v2 inventory still exists")
 

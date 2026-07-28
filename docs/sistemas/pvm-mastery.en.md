@@ -1,7 +1,7 @@
 # PvM Mastery
 
 !!! warning "Planned for 0.10.0"
-    This system is enabled only in the local environment for acceptance testing. It is not part of the official Live 0.9.6 server yet.
+    This system is enabled in the local environment for acceptance testing. It is not part of the official Live 0.9.8 server yet.
 
 The **Hunter's Compendium** provides character-based PvM progression. Scrolls of Knowledge found through Slayer families reveal masteries; players distribute generic points among them and build a loadout with up to **five active masteries**.
 
@@ -64,8 +64,8 @@ The bands are disjoint. If a rolled rarity has no operational mastery in that gr
 ## Gold and Loot Pack
 
 - Centralized gold: `floor(MaxHits × 2.3)`, split into piles of at most 7,500.
-- Every 10,000 MaxHits guarantees one Loot Pack roll; the remainder becomes the exact chance of one additional roll.
-- Each roll creates one item: 20% classic equipment, 40% magic jewelry, or 40% a magic skill amulet.
+- Every 8,000 MaxHits guarantees one Loot Pack roll; the remainder becomes the exact chance of one additional roll.
+- Each roll creates one item: 20% classic equipment, 30% magic jewelry, 30% a magic skill amulet, or 20% utility. Utility provides a Bag of Sending or, when it is not rolled, 3 to 6 Powder of Translocation.
 - Both Harrower forms grant XP, gold, and rolls separately.
 
 Threat and rewards use the same MaxHits snapshot, but the textual class grants no multiplier.

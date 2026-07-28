@@ -1,6 +1,6 @@
 # Classic weapons
 
-!!! success "Status: Live 0.9.6"
+!!! success "Status: Live 0.9.8"
 The tiers and bonuses below are active on the official server.
 
 | Tier | Damage bonus |
@@ -26,10 +26,10 @@ Special moves remain disabled and do not determine the weapon's poison compatibi
 
 ## Current roles
 
-- Archery: approximately 6.00 expected Vanquishing DPS.
-- One-handed weapons compatible with shields and poison: approximately 6.50.
-- Two-handed range-2 poisonable weapons: approximately 7.00.
-- Quarter Staff, Black Staff, Gnarled Staff, and Skull Gnarled Staff: approximately 5.00, without poison.
+- Archery: approximately 6.46 expected Vanquishing DPS.
+- One-handed weapons compatible with shields and poison: approximately 7.00.
+- Two-handed range-2 poisonable weapons: approximately 7.54.
+- Quarter Staff, Black Staff, Gnarled Staff, and Skull Gnarled Staff: approximately 5.38, without poison.
 - Competitive Macing weapons remove stamina equal to the final damage applied.
 - Shepherd's Crook is a Herding utility; Tribal Spear does not circulate among players.
 

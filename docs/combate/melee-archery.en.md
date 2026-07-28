@@ -1,13 +1,13 @@
 # Melee and Archery
 
-!!! success "Status: Live 0.9.6"
+!!! success "Status: Live 0.9.8"
 Formulas and behaviors active on the official server.
 
 ## Chance of success
 
-With offensive skill 100.0 against defense 100.0, Melee and Archery have **65% hit chance**. The formula is:
+With offensive skill 100.0 against defense 100.0, Melee and Archery have **70% hit chance**. The formula is:
 
-`chance = 1,30 × (ataque + 50) ÷ [2 × (defesa + 50)]`
+`chance = 1.40 × (attack + 50) ÷ [2 × (defense + 50)]`
 
 The final result is limited between 2% and 98%.
 
@@ -56,12 +56,12 @@ Poisoned weapons consume a charge and poison every successful hit.
 
 | Role | Expected Vanquishing DPS reference |
 |---|---:|
-| Archery | approximately 6.00 |
-| One-handed, shield, and poison | approximately 6.50 |
-| Two-handed, range 2, and poison | approximately 7.00 |
-| Long non-poisonable staves | approximately 5.00 |
+| Archery | approximately 6.46 |
+| One-handed, shield, and poison | approximately 7.00 |
+| Two-handed, range 2, and poison | approximately 7.54 |
+| Long non-poisonable staves | approximately 5.38 |
 
-The reference uses 100 STR, 100 DEX, 100.0 Tactics, 100.0 Anatomy, 100.0 weapon skill, and a 65% base hit chance. Poison, armor, Parrying, and downtime are excluded. Competitive Macing weapons also remove stamina equal to the final damage dealt by the hit.
+The reference uses 100 STR, 100 DEX, 100.0 Tactics, 100.0 Anatomy, 100.0 weapon skill, and a 70% base hit chance. Poison, armor, Parrying, and downtime are excluded. Competitive Macing weapons also remove stamina equal to the final damage dealt by the hit.
 
 ### Weapons with range 2
 

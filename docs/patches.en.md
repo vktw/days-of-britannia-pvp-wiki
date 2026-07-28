@@ -1,5 +1,14 @@
 # Patch notes
 
+## 0.9.8 · Ocllo connected
+
+- Ocllo joins Felucca's public moongate network.
+- The city receives an Animal Trainer and keeps its Safe Haven rules.
+
+## 0.9.7 · Combat accuracy
+
+- At 100.0 offensive skill against 100.0 defense, Melee and Archery now have a 70% hit chance.
+
 ## 0.9.6 · Weapon and armor balance
 
 - Archery was normalized to approximately 6.00 expected Vanquishing DPS; one-handed shield-and-poison weapons remain near 6.50, while long poisonable weapons are near 7.00.

@@ -1,6 +1,6 @@
 # Magery
 
-!!! success "Status: Live 0.9.6"
+!!! success "Status: Live 0.9.8"
     Fluxo, delays e efeitos correspondem ao servidor oficial.
 
 ## Fluxo de cast

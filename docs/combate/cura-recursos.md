@@ -1,6 +1,6 @@
 # Cura e recursos
 
-!!! success "Status: Live 0.9.6"
+!!! success "Status: Live 0.9.8"
     Faixas, delays e recuperação correspondem ao servidor oficial.
 
 ## Faixas de cura

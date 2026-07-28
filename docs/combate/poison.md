@@ -1,6 +1,6 @@
 # Poison
 
-!!! success "Status: Live 0.9.6"
+!!! success "Status: Live 0.9.8"
     Níveis, ticks e renovação correspondem ao servidor oficial.
 
 Poison é um recurso de pressão, especialmente útil para disputar janelas de cura. Nova aplicação reinicia sua duração.

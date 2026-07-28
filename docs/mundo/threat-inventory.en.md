@@ -1,9 +1,9 @@
 # Threat Inventory
 
-!!! success "Status: Live 0.9.6"
+!!! success "Status: Live 0.9.8"
     This catalog is generated from the creature classes available in the scripts using formula 3. It does not depend on the world's current population.
 
-The source catalog contains **618 classes**. Static analysis resolved the Threat class of **551** of them; the remaining 67 do not declare a statically determinable MaxHits value in their script chain and stay out of the public table until runtime validation. Vendors, summons, controlled creatures, and other ineligible types still receive no Threat even when their source class can be analyzed.
+The source catalog contains **618 classes**, all resolved by static analysis. Vendors, summons, controlled creatures, and other ineligible types still receive no Threat even when their source class can be analyzed.
 
 Use search and filters to inspect the textual classification. The numeric MaxHits index is not published.
 

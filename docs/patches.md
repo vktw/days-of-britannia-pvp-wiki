@@ -1,5 +1,14 @@
 # Patch notes
 
+## 0.9.8 · Ocllo conectado
+
+- Ocllo passa a integrar a rede pública de moongates de Felucca.
+- A cidade recebe Animal Trainer e mantém as regras do Safe Haven.
+
+## 0.9.7 · Precisão de combate
+
+- Com skill ofensiva 100.0 contra defesa 100.0, Melee e Archery passam a ter 70% de chance de acerto.
+
 ## 0.9.6 · Equilíbrio de armas e armaduras
 
 - Archery foi normalizada para aproximadamente 6,00 DPS Vanquishing esperado; armas de uma mão com shield e poison permanecem próximas de 6,50, e armas longas com poison ficam próximas de 7,00.

@@ -1,9 +1,9 @@
 # Inventário de Threat
 
-!!! success "Status: Live 0.9.6"
+!!! success "Status: Live 0.9.8"
     Este catálogo é gerado sobre as classes disponíveis nos scripts usando a fórmula 3. Ele não depende da população atual do mundo.
 
-O catálogo-fonte contém **618 classes**. A análise estática resolveu a classe de Threat de **551** delas; as 67 restantes não declaram um MaxHits determinável na própria cadeia de scripts e ficam fora da tabela pública até validação em runtime. Vendors, summons, criaturas controladas e outros tipos inelegíveis continuam sem Threat mesmo quando a classe-fonte pode ser analisada.
+O catálogo-fonte contém **618 classes**, todas resolvidas pela análise estática. Vendors, summons, criaturas controladas e outros tipos inelegíveis continuam sem Threat mesmo quando a classe-fonte pode ser analisada.
 
 Use a busca e os filtros para consultar a classificação textual. O índice numérico de MaxHits não é publicado.
 

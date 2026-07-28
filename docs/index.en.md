@@ -84,8 +84,8 @@ DOWNLOAD DOB LAUNCHER <span aria-hidden="true">↓</span>
 <section class="dob-atlas-update" aria-labelledby="dob-release-title">
 <div>
 <p class="dob-atlas-kicker">LATEST UPDATE</p>
-<h2 id="dob-release-title">0.9.6 · Weapon and armor balance</h2>
+<h2 id="dob-release-title">0.9.8 · Ocllo connected</h2>
 </div>
-<p>Weapons now have clear competitive roles, armor provides more physical protection, and kits include a Black Staff.</p>
+<p>Ocllo gains an Animal Trainer and a connection to Felucca's public moongate network while keeping the Safe Haven.</p>
 <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

@@ -1,6 +1,6 @@
 # Maps and travel
 
-!!! success "Status: Live 0.9.6"
+!!! success "Status: Live 0.9.8"
 Verified rules for players on the official server.
 
 ## Felucca
