@@ -11,7 +11,7 @@ hide:
 <p>The official shard handbook, organized from first login to deeper PvP decisions.</p>
 </div>
 <div class="dob-atlas-mark" aria-hidden="true">
-<img src="assets/hero-mark.png?v=20260724.1" alt="">
+<img src="../assets/hero-mark.png?v=20260724.1" alt="">
 </div>
 </section>
 

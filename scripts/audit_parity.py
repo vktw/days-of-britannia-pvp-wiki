@@ -55,6 +55,9 @@ def audit():
         errors.append(f"mkdocs live version is not {LIVE_VERSION}")
     if "0.10.2" not in (DOCS / "index.md").read_text(encoding="utf-8-sig"):
         errors.append("home release card is not 0.10.2")
+    english_home = (DOCS / "index.en.md").read_text(encoding="utf-8-sig")
+    if 'src="../assets/hero-mark.png' not in english_home:
+        errors.append("English home hero mark does not resolve to the shared assets directory")
     for exposed in [
         DOCS / "data" / "threat-inventory-v2.json",
         DOCS / "data" / "threat-inventory-v3.json",
