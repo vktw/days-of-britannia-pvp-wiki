@@ -1,18 +1,16 @@
 # Planned Next Patch
 
-## Weapons in candidate 0.10.1
+!!! warning "Content in development"
+    This page describes product direction, not a promised date or final values. The official server remains on Live 0.9.12.
 
-- All 46 available competitive families participate in the Loot Pack weapon roll.
-- Arena and PvP Camp share seven kit weapons: Bow, War Mace, Kryss, Bardiche, Black Staff, War Hammer, and Axe.
-- The <a href="/assets/inventario-armas-0.10.1.html">complete interactive inventory</a> lists role, poison, Stamina Damage, range, speed, and expected DPS for every family.
+## Hunter's Compendium
 
-!!! warning "0.10.0 under local testing"
-    The official server remains on Live 0.9.12. PvM Mastery, MaxHits rewards, and the Loot Pack are not available to players yet.
+The next PvM cycle is exploring character-based progression, knowledge found during adventures, and builds with a limited number of active masteries.
 
-The 0.10.0 candidate introduces the Hunter's Compendium, 18 PvM masteries, five-slot builds, XP progression, and the purchase of generic character points. Scrolls of Knowledge use Slayer families and a shared rarity table.
+Playstyles under evaluation include offensive specialization, resource recovery, defense, and situational effects. Costs, probabilities, and final values will be published when approved for Live.
 
-Planned rewards use `floor(MaxHits / 6)` for XP, `floor(MaxHits × 2.3)` for gold, and one Loot Pack roll for every 8,000 MaxHits, with an exact residual chance. Each roll has 20% classic equipment, 30% magic jewelry, 30% magic skill amulet, and 20% utility.
+[Learn about the PvM Mastery proposal](sistemas/pvm-mastery.md){ .md-button }
 
-[See the complete planned contract](sistemas/pvm-mastery.md){ .md-button }
+## Weapons and rewards
 
-Candidates 0.10.0, 0.10.1, and later remain planned: this documentation identifies them as local and does not present them as live behavior.
+The weapon catalog and PvM rewards are also under review. The public wiki will present available options and their practical roles when the set is final, without exposing technical development inventories.

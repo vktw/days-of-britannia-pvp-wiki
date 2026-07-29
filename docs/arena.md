@@ -38,7 +38,7 @@ Durante a preparação, os buffs autorizados são Night Sight, Reactive Armor, A
 
 - Durante a preparação, a desconexão cancela a luta sem resultado.
 - Durante o combate, o jogador desconectado perde por desistência.
-- O escrow da arena restaura itens e montaria. Se a sessão for interrompida, a recuperação também é verificada no próximo login.
+- A arena restaura itens e montaria. Se a sessão for interrompida, a recuperação também é verificada no próximo login.
 
 ## Ranking
 

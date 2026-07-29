@@ -1,104 +1,42 @@
 # Exemplos de dano
 
 !!! success "Status: Live 0.9.12"
-    Os exemplos utilizam as fórmulas atualmente publicadas.
-
-Os exemplos abaixo seguem o servidor oficial **Live 0.9.12**. Eles isolam um golpe que ja acertou; a chance de acerto e a chance de Parrying sao sorteios anteriores e independentes.
-
-## Atacante usado
-
-Nos primeiros exemplos, o atacante possui:
-
-- 100 Tactics.
-- 100 Anatomy.
-- 100 STR.
-- Arma of Vanquishing, com bonus final de +9.
-
-Sua escala e:
-
-```text
-escala = 1 + (100 - 50)/100 + 100/500 + 100/500
-escala = 1 + 0,50 + 0,20 + 0,20
-escala = 1,90
-```
+    Exemplos práticos para entender decisões de equipamento, sem reproduzir a fórmula interna do servidor.
 
 ## Faixas de dano bruto
 
-| Arma | Dano-base | Depois da escala e truncamento | Vanquishing | Dano bruto final |
-|---|---:|---:|---:|---:|
-| Kryss | 10-13 | 19-24 | +9 | **28-33** |
-| Bardiche | 29-33 | 55-62 | +9 | **64-71** |
-| Bow | 15-20 | 28-38 | +9 | **37-47** |
+O dano varia conforme arma, qualidade, STR, Tactics e Anatomy. A skill da arma determina principalmente a chance de acertar; armor, Parrying e Protection entram depois do acerto.
 
-Cada golpe sorteia um inteiro dentro da faixa de dano-base. Por isso, os valores intermediarios nao formam necessariamente uma progressao perfeitamente uniforme depois da multiplicacao e do truncamento.
+## Região sem armor
 
-## Exemplo 1: regiao sem armor
+Em PvP, um golpe que encontra uma região sem armor efetiva recebe **25% de dano adicional**. Por isso, deixar Neck, Hands ou Head descobertos pode ser arriscado mesmo que as peças principais sejam fortes.
 
-Um Bow of Vanquishing sorteia dano-base 19:
+## Armor regional
 
-```text
-dano escalado = truncar(19 x 1,90) = truncar(36,10) = 36
-dano bruto = 36 + 9 = 45
-bonus por regiao descoberta = arredondar(45 x 25%) = 11
-dano final = 45 + 11 = 56
-```
+Quando o golpe encontra uma peça, o `Physical Resist` exibido nela reduz aquele ataque. Uma peça melhor protege apenas sua própria região; ela não compensa outra região vazia.
 
-O personagem perde **56 hits**. Roupas comuns e joias sem Physical Resist nao eliminam esse bonus.
+## Protection
 
-## Exemplo 2: armor regional
+Protection reduz parte do dano que restou depois da armor, do shield ou do bônus de região descoberta. Isso significa que a ordem prática é:
 
-O mesmo golpe bruto de 45 acerta uma peca que exibe 18% de Physical Resist:
+1. verificar Parrying;
+2. usar shield ou região corporal;
+3. aplicar o bônus se a região estiver sem armor;
+4. aplicar Protection, quando ativa.
 
-```text
-absorcao = arredondar(45 x 18%) = 8
-dano final = 45 - 8 = 37
-```
+## Parrying
 
-O personagem perde **37 hits**. Nao ha sorteio de absorcao: o percentual exibido pela peca determina diretamente o resultado.
+Em um bloqueio bem-sucedido, o shield é usado no lugar da região corporal. Se o bloqueio falhar, a armor da região sorteada decide a proteção.
 
-## Exemplo 3: armor com Protection
+## Comparação rápida
 
-A regiao possui 18% de Physical Resist e Protection concedeu 8%:
+Para o mesmo golpe que acertou:
 
-```text
-absorcao da armor = arredondar(45 x 18%) = 8
-apos armor = 45 - 8 = 37
-absorcao de Protection = arredondar(37 x 8%) = 3
-dano final = 37 - 3 = 34
-```
+| Situação | Resultado esperado |
+| --- | --- |
+| Região sem armor | Maior dano recebido |
+| Região com armor | Dano reduzido pelo Physical Resist da peça |
+| Armor e Protection | Redução em duas etapas |
+| Bloqueio com shield | Shield substitui a região corporal |
 
-O personagem perde **34 hits**.
-
-Se a regiao estiver vazia, primeiro entra o bonus de 25% e depois Protection:
-
-```text
-apos bonus de regiao descoberta = 45 + arredondar(45 x 25%) = 56
-absorcao de Protection = arredondar(56 x 8%) = 4
-dano final = 56 - 4 = 52
-```
-
-## Exemplo 4: Parrying com shield
-
-O defensor possui Parrying 100.0 e um shield que exibe 31% de Physical Resist:
-
-```text
-chance de bloquear = 45%
-absorcao em bloqueio bem-sucedido = arredondar(45 x 31%) = 14
-dano final = 45 - 14 = 31
-```
-
-Se o bloqueio acontecer, o personagem perde **31 hits** e nenhuma peca corporal e consultada. Se o Parrying falhar, o servidor sorteia normalmente uma regiao corporal e aplica a armor daquela regiao. Protection, quando ativa, e calculada sobre os 31 pontos restantes.
-
-## Exemplo 5: comparacao completa
-
-Para o mesmo dano bruto de 45:
-
-| Defesa encontrada | Calculo | Dano final |
-|---|---|---:|
-| Regiao vazia, sem Protection | 45 + 25% | **56** |
-| Peca com 18% Physical Resist | 45 - 18% | **37** |
-| Peca com 18% e Protection 8% | 45 - 18%, depois -8% | **34** |
-| Regiao vazia e Protection 8% | 45 + 25%, depois -8% | **52** |
-| Parry com shield de 31% | 45 - 31% | **31** |
-
-O resultado pratico pode envolver tres sorteios separados: acerto do ataque, sucesso do Parrying e, quando nao ha bloqueio, regiao corporal. Os percentuais de absorcao deixam de ser aleatorios.
+**Proteção muda o resultado final**, mas cobertura completa também importa. Consulte [Armor e Parrying](armor-parrying.md) para montar seu equipamento.

@@ -1,209 +1,103 @@
 # Patch notes
 
+This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
+
 ## 0.9.12 · PvP balance
 
-- Equal-skill PvP hit chance is now 80%; outside PvP it remains 70%.
-- Flame Strike, Harm, Fireball, and Paralyze use 3.5 / 2.0 / 2.5 / 2.5-second delays; Fireball deals 17, Mind Blast 26, and Energy Bolt 27 at PvP maximum scaling.
-- PvP Deadly Poison uses 12 ticks, a 30-point cap, 6% of current health, and a 6-point floor; PvP poison has no initial resistance roll or distance potency loss.
-- Player and PvP Trainer fields form seven tiles and last 1.5 times longer. Energy Field blocks the opposing direct PvP participant on every segment.
-- Active Meditation no longer doubles its regeneration component; passive regeneration is unchanged. PvP Dispel now removes only the explicit list of classic buffs and states documented in [Magery](combate/magery.md).
+- Updates to hit chance, Magery, poison, fields, and Meditation.
+- Dispel now removes only compatible classic effects.
 
-## 0.9.11 · Recovery and backups
+## 0.9.11 · Recovery
 
-- Ghosts can request resurrection from a healer with a double-click, including during DoB recovery, while meeting the healer's normal conditions.
-- The encrypted off-site backup gains a second daily cycle; this is an operational change and does not alter gameplay flow.
+- Ghosts can request resurrection from healers with a double-click during DoB recovery.
+- Operational world-protection improvements with no change to the player routine.
 
 ## 0.9.10 · Moving ghosts
 
-- Ghosts can walk during DoB recovery choices and countdowns without cancelling the return deadline.
+- Ghosts can walk while choosing how to return to Ocllo.
 
-## 0.9.9 · Server cycle
+## 0.9.9 · Stability
 
-- The server's idle cycle uses an operating-system wait while preserving game cadence and processing.
+- Better server resource use without changing game pace.
 
 ## 0.9.8 · Ocllo connected
 
-- Ocllo joins Felucca's public moongate network.
-- The city receives an Animal Trainer and keeps its Safe Haven rules.
+- Ocllo joins Felucca's public moongate network and receives an Animal Trainer.
 
 ## 0.9.7 · Combat accuracy
 
-- At 100.0 offensive skill against 100.0 defense, Melee and Archery now have a 70% hit chance.
+- Melee and Archery hit chance adjustment.
 
-## 0.9.6 · Weapon and armor balance
+## 0.9.6 · Weapons and armor
 
-- Archery was normalized to approximately 6.00 expected Vanquishing DPS; one-handed shield-and-poison weapons remain near 6.50, while long poisonable weapons are near 7.00.
-- Quarter Staff, Black Staff, Gnarled Staff, and Skull Gnarled Staff form a separate progression near 5.00 DPS.
-- Armor and shields now use a 1.40 base multiplier for classic Physical Resist.
-- Shepherd's Crook is now a Herding utility outside the competitive ranking.
-- Competitive Macing weapons now remove stamina equal to the final damage applied.
-- Starting, `.pvpcamp`, and Arena kits include a Black Staff at the corresponding tier.
+- Rebalanced weapon roles, armor, shields, and Macing.
+- Black Staff joins the official kits.
 
-## 0.9.5 · MaxHits-based Threat
+## 0.9.5 · Threat Rating
 
-- The hidden Threat index is now the creature's MaxHits snapshot.
-- Anchors validate classes only; they neither assign nor force scores.
-- A Paragon uses its effective MaxHits and receives no separate 10% bonus.
-- Neira validates Legendary, and each Harrower form validates Mythic using its own snapshot.
+- Creatures now display a textual threat classification.
 
-## 0.9.4 · Weapons and PvP preparation
+## 0.9.4 · PvP preparation
 
-- Long poisonable weapons were recalibrated to approximately 7.50 expected Vanquishing DPS.
-- The PvP Trainer gained a more persistent post-Paralyze sequence.
-- Every new character receives a permanent Starter PvP Iron kit based on the shared Arena and PvP Camp catalog.
+- Updates to long weapons and the PvP Trainer.
+- New characters receive the Starter PvP Iron kit.
 
 ## 0.9.3 · Long weapons and Poison
 
-- Pitchfork, Double Bladed Staff, Spear, Bladed Staff, Pike, and Lajatang now accept Poison through the normal skill flow.
-- Tribal Spear no longer circulates among players and remains available only as native NPC equipment.
+- More classic weapons can use poison; incompatible options stop circulating among players.
 
-## 0.9.2 · Uniform magical travel timing
+## 0.9.2 · Magical travel
 
-- Recall and Gate Travel use a real four-second cast through Spellbooks, scrolls, Runebooks, Runic Atlases, and other supported destinations.
-- Casting begins after a valid destination, is not reduced by Faster Casting or Faster Cast Recovery, and can fizzle from damage.
-- Gate Travel creates both gates when the four seconds finish, without an additional hidden timer.
+- Recall and Gate Travel receive a uniform delay after choosing a valid destination.
 
-## 0.9.1 · PvP gear and kit fixes
+## 0.9.1 · Equipment and PvP kit fixes
 
-### Improvement
+- The `.pvpcamp` kit receives Magic Earrings (+5 INT) and the matching STR and DEX jewelry.
+- Double-clicking an accessible Spellbook in the backpack opens it without moving weapons or shields.
 
-- The kit delivered by `.pvpcamp` now includes a bag of magic jewelry with Magic Earrings (+5 INT), Magic Ring (+5 STR) and Magic Bracelet (+5 DEX), the same as the set used in the arena. Gems follow normal loot rules and are not Blessed.
+## 0.9.0 · World foundation
 
-### Correction
+- Ocllo becomes the Safe Haven; deaths outside the Arena receive recovery choices.
+- Felucca becomes the only public facet, with Trammel reserved for arenas.
+- Threat Rating, Newcomer protection, classic Magery rules, and the new equipment balance arrive.
 
-- Two clicks on a Spellbook accessible in the backpack now correctly opens the book without equipping it, moving weapons or hand shields, or changing the rule that prevents players from equipping Spellbooks.
+## 0.8.0 · Combat and response
 
-## 0.9.0 · World Foundation
+- Common actions become more responsive, with updates to Hiding, bandages, Magery, poison, and Arena.
 
-### News
+## 0.7.0 · Equipment and strategy
 
-- Ocllo, in Felucca, is now the official **Safe Haven**: conflict between players, stealing and harmful actions by pets or summons are blocked throughout the island.
-- Kills outside the arena offer immediate return to Ocllo, recovery of remaining items on the body after 60 seconds, or waiting for help for up to five minutes.
-- **Threat Rating** now displays a textual classification of creatures, keeping Paragons as a separate variant.
-- The newcomer benefit lasts 168 hours for the first eligible character per account and IP.
+- Regional armor, Parrying, Protection, and equipment qualities gain clearer roles.
+- Arena and PvP Camp receive tier selection and expanded kits.
 
-### Improvements
+## 0.6.0 · Combat updates
 
-- Felucca becomes the only public facet. Official arenas in Trammel remain a controlled exception.
-- `.arena` remains the only official dueling and training system.
-- Magery with target uses a uniform range of 12 tiles and allows you to replace a spell in preparation with another, with normal fizzle of the previous one.
-- Magic Reflection has a charge and fully reflects the next harmful spell or field. In double reflection, both charges are consumed without damage.
-- Reactive Armor lasts 90 seconds and returns 20% of final melee damage; Protection also lasts 90 seconds and maintains 5% to 10% absorption.
-- Mana Drain and Mana Vampire do not affect players or the PvP Trainer, preserving functionality against creatures.
-- Melee and ranged weapons received new speed and damage ladders; Competitive Archery maintains range 10.
-- Spellbooks remain in the backpack; selected modern wands and artifacts become historic; Items incompatible with humans no longer circulate to players.
-- The economy grants 10,000 gold only to the first eligible character per IP and limits sales to vendors to 20,000 gold per IP per day.
-- Original quests are temporarily unavailable, preserving scripts and saved state.
-- PvM now uses a central baseline without loot or direct rewards for eligible creatures in this first phase.
+- Improvements to hit chance, Parrying, and official-match observation.
 
-### Corrections
+## 0.5.0 · Server stability
 
-- Ocllo has been permanently removed from Vice vs Virtue battles.
-- Questers without a quest list no longer cause an error during Threat classification.
-- Magic Reflection is correctly removed on death or logout.
-- Characters outside of Felucca without a valid arena session return to Ocllo.
+- Automatic process recovery and availability monitoring.
 
-For exact numbers, see the Magery, Melee and Archery, Armor and Parrying, Poison and Healing, and resource pages.
+## 0.4.2 · World protection
 
-!!! info "Official history"
-    This page preserves versions already published on the server.
+- Encrypted off-site backups and recovery checks.
 
-## 0.8.0 · Combat and Response
+## 0.4.1 · World persistence
 
-### Improvements
+- Persistence fixes for accounts, characters, and the world.
 
-- Common item and equipment actions now respond immediately. Delays for potions, bandages, skills, spells and attacks continue to apply normally.
-- Healing bandages complete their effect in **3.5 seconds**; immediate poison removal remains unchanged.
-- Hiding now has **3 seconds of preparation** and can be interrupted before hiding the character.
-- Resurrection uses range 10, starts its success range at 60.0 Magery and can recover items when the ghost is next to the corpse itself.
-- Weaken, Clumsy and Feeblemind apply -15 to the corresponding stat; Curse and Mass Curse apply -10 to STR, DEX and INT.
-- Magery's maximum direct damage has been redistributed into a progression of **10/15/20/25/30/35/40**, from Magic Arrow to Flame Strike. Harm no longer loses damage over distance.
-- Reapplying the same poison level silently renews its duration, and periodic warnings have been reduced.
-- The PvP Trainer has been rebuilt to exert melee pressure, recover more judiciously, and reserve offensive spells for submissions.
+## 0.4.0 · Combat refinements
 
-### Corrections
-
-- Magery failures on target revalidation now display the full fizzle effect after resource consumption.
-- Every exit from the arena clears temporary combat states before restoring the character to their original location.
-
-### Security and compatibility
-
-- The server now protects connections against sustained overload without adding artificial delay to legitimate usage.
-- Saves, characters, old escrows and combat-specific cooldowns remain compatible.
-
-## 0.7.0 · Equipment and Strategy
-
-### PvP Changes
-
-- The `Physical Resist` displayed on each piece now directly represents the percentage of physical damage absorbed when that body region is hit.
-- Example: a piece with 10% Physical Resist absorbs 4 points from a raw hit of 40.
-- The base resistance of Regular armor and shields has been increased by **30%**. The result is rounded to the nearest integer.
-- The magical bonus is added after the base resistance and is valid in full per piece: Defense +1, Guarding +3, Hardening +5, Fortification +7 and Invulnerability +9 percentage points.
-- Thus, an Invulnerability version always displays and absorbs exactly 9 percentage points more than an equivalent Regular piece under the same conditions.
-- When a melee or archery attack passes through Parrying and hits an unarmored region, it receives **15% additional physical damage**.
-- Ordinary clothing and jewelry without Physical Resist do not count as armor and do not prevent this bonus.
-- On a successful Parrying, the shield absorbs the percentage of Physical Resist displayed on it. No body region is drawn in this scam.
-- Protection remains separate: its 5% to 10% is applied to the remaining damage after the armor or shield.
-- All final damage remains limited to a minimum of 1 point.
-- These percentage formulas are exclusive to PvP Sphere. PvM maintains the previous random absorption based on Armor Rating.
-- Players' passive mana regeneration interval has been doubled, reducing passive recovery by approximately **50%**.
-- Active Meditation has not been slowed down and continues to use its normal speed.
-- Deadly Poison Potion can be used to poison weapons without activating or consuming the 15 second global cooldown of drinkable potions.
-
-### PvP system
-
-- `.arena` now allows you to choose the tier of armor and weapons separately before starting the fight.
-- The available armor tiers are **Regular, Defense, Guarding, Hardening, Fortification and Invulnerability**.
-- The available weapon tiers are **Regular, Ruin, Might, Force, Power and Vanquishing**.
-- In duels between players, whoever opens the challenge defines the profile. The two participants receive exactly the same tiers, also presented in the global announcement and in the acceptance and confirmation gumps.
-- Fights against the PvP Trainer follow the same armor and weapon profile chosen by the player.
-- `.pvpcamp` also opens the equipment selector before delivering the kit.
-- Arena, PvPCamp and PvP Trainer kits now include **15 Greater Heal Potions**, **15 Total Mana Potions** and **3 Deadly Poison Potions**.
-- `.pvpcamp` and `.patchnotes` commands have been added. `.patchnotes` opens the latest patch without changing the character's first read control.
-- `.pvptrainer` was kept only as a guideline for using `.arena`; the Trainer remains exclusive to the Moonglow Arena.
-- New characters also start with **Hiding, Stealth, Detect Hidden and Poisoning at 100.0**.
-- Existing characters receive these four skills at 100.0 once upon first login after the patch, without reducing or resetting other skills.
-- Unified Arena logs now more accurately identify the source of damage and healing and record absorption components used in fights.
-
-### PvP Trainer
-
-- The PvP Trainer received general improvements in its combat decisions, positioning, resource management and response to the opponent's actions.
-
-### Fixes and compatibility
-
-- The chosen equipment profile is persisted in the Arena escrow. Escrows created by previous versions remain compatible and use Invulnerability/Vanquishing as a fallback.
-- Saves, existing characters and PvM rules remain compatible.
-
-## 0.6.0 · Combat Adjustments
-
-**Improvements:** 65% hit chance in 100 vs. 100; Parrying with a maximum chance of 45%.
-
-**News:** unified monitoring of official arena fights to guide adjustments.
-
-## 0.5.0 · Server Stability
-
-Automatic process recovery after failures and external availability monitoring.
-
-## 0.4.2 · World Protection
-
-Encrypted offsite backups and periodic recovery checks.
-
-## 0.4.1 · Persistence of the World
-
-Corrections to the persistence of accounts, characters, world and spawn generation.
-
-## 0.4.0 · Combat Refinements
-
-Paralyze Field window, buffs up to 120, magical jewels from the arena, regional armor absorption, Parrying with shield, healing under poison, immediate potions, Meditation without equipment restrictions, new poison and protection of mounts in the arena.
+- Evolution of Arena, regional armor, Parrying, healing, potions, Meditation, and poison.
 
 ## 0.3.0 · Arena and fields
 
-Arena system, Paralyze and Wall of Stone refinements, combat log expansion, and Trammel travel adjustments.
+- Arena system and updates to Paralyze, fields, and travel.
 
 ## 0.2.0 · Classic combat
 
-Consolidation of physical and magical damage, caps, initial skills, classic weapons and armor, PvPCamp and main Sphere 51 rules.
+- Consolidation of stats, skills, Magery, weapons, armor, and PvP Camp.
 
 ## 0.1.0 · Foundation
 
-First version of the Days of Britannia ruleset on TrueUO, including the Magery Sphere 51 core.
+- First public version of the Days of Britannia ruleset.

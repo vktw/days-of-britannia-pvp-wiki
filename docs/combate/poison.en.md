@@ -1,19 +1,21 @@
 # Poison
 
 !!! success "Status: Live 0.9.12"
-Levels, ticks and renewal correspond to the official server.
+    Poison pressures healing and forces the opponent to react.
 
-Poison is a pressure feature, especially useful for fighting healing windows. New application resets its duration.
+Applying the same level again restarts its duration. Compatible weapons consume one charge when poison is applied on a successful hit; the weapon property shows its level and remaining charges.
 
-| Level | Damage calculated per tick | Limits | First tick | Interval | Ticks |
-|---|---:|---:|---:|---:|---:|
-| Lesser | 1 + 1% of current life | 1–16 | 3 s | 5s | 8 |
-| Regular | 1 + 2% of current life | 1–18 | 3 s | 4.5s | 8 |
-| Greater | 1 + 3% of current life | 1–20 | 2.5s | 4 s | 10 |
-| PvP Deadly | 6 + 6% of current life | 6–30 | 2 s | 3.5s | 12 |
+## Levels
 
-The percentage uses the target's current health; after calculation, the server applies the minimum and maximum for the relevant level. In PvP, poison ignores the initial resistance roll, does not lose potency with distance, and 100.0 Magery applies Deadly Poison. PvP Deadly follows the table above; weapon poison and other contexts retain their respective rules. Darkglow, Parasitic and Lethal remain disabled for the ruleset.
+| Level | Pressure | First tick | Ticks |
+| --- | --- | ---: | ---: |
+| Lesser | Low | 3 s | 8 |
+| Regular | Moderate | 3 s | 8 |
+| Greater | High | 2.5 s | 10 |
+| PvP Deadly | Very high | 2 s | 12 |
 
-Reapplying the same level resets the duration without repeating the initial message. Periodic warnings are reduced and vary by level: Lesser and Regular do not repeat local warnings during ticks; Greater and Deadly repeat twice. Nearby observers receive a periodic warning on Lesser and Regular, two on Greater, and three on Deadly. The apply and terminate messages are separate from these repetitions. Visible damage ticks and numbers remain unchanged.
+Deadly Poison in PvP deals at least **6** and at most **30** per tick, varying with the target's current health.
 
-Poisoned weapons poison every successful hit and consume a charge. The weapon's ownership line shows level and remaining charges.
+In PvP, the Poison spell does not lose potency with distance, and 100.0 Magery applies Deadly Poison. A bandage can remove poison immediately, but that application does not restore health.
+
+Darkglow, Parasitic, and Lethal remain outside the ruleset.

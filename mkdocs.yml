@@ -55,7 +55,7 @@ plugins:
             Mapas e viagem: Maps and travel
             Cidades e guards: Cities and guards
             Ocllo Safe Haven: Ocllo Safe Haven
-            Inventário de Threat: Threat inventory
+            Como consultar Threat: Checking Threat
             Combate: Combat
             Melee e Archery: Melee and Archery
             Armor e Parrying: Armor and Parrying
@@ -97,7 +97,7 @@ nav:
       - Cidades e guards: mundo/cidades-guards.md
       - Ocllo Safe Haven: mundo/ocllo.md
       - Threat Rating: mundo/threat-rating.md
-      - Inventário de Threat: mundo/threat-inventory.md
+      - Como consultar Threat: mundo/threat-inventory.md
   - Combate:
       - Visão geral: combate/index.md
       - Melee e Archery: combate/melee-archery.md

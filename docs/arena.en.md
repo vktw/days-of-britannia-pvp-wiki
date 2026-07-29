@@ -38,7 +38,7 @@ During preparation, the authorized buffs are Night Sight, Reactive Armor, Agilit
 
 - During preparation, disconnection cancels the fight without result.
 - During combat, the disconnected player loses by forfeiting.
-- Arena escrow restores items and mounts. If the session is interrupted, recovery is also checked at the next login.
+- The arena restores items and mounts. If the session is interrupted, recovery is also checked at the next login.
 
 ## Ranking
 

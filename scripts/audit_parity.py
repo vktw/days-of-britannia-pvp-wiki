@@ -1,4 +1,3 @@
-import json
 import re
 from pathlib import Path
 
@@ -56,18 +55,13 @@ def audit():
         errors.append(f"mkdocs live version is not {LIVE_VERSION}")
     if "0.9.12" not in (DOCS / "index.md").read_text(encoding="utf-8-sig"):
         errors.append("home release card is not 0.9.12")
-    if (DOCS / "data" / "threat-inventory-v2.json").exists():
-        errors.append("obsolete Threat v2 inventory still exists")
-
-    inventory = json.loads((DOCS / "data" / "threat-inventory-v3.json").read_text(encoding="utf-8-sig"))
-    by_name = {row["name"]: row for row in inventory}
-    for name, expected in {
-        "Zombie": "Trivial", "Drake": "Common", "Dragon": "Dangerous",
-        "GreaterDragon": "Deadly", "Neira": "Legendary", "Harrower": "Mythic",
-    }.items():
-        row = by_name.get(name, {})
-        if row.get("expectedClass") != expected or row.get("validation") != "pass":
-            errors.append(f"Threat anchor invalid in v3 inventory: {name} -> {expected}")
+    for exposed in [
+        DOCS / "data" / "threat-inventory-v2.json",
+        DOCS / "data" / "threat-inventory-v3.json",
+        DOCS / "assets" / "inventario-armas-0.10.1.html",
+    ]:
+        if exposed.exists():
+            errors.append(f"technical public artifact still exists: {exposed.relative_to(DOCS)}")
 
     forbidden = {
         "mundo/threat-rating.md": ["Threat / 10", "aumento de 10% em seu score", "Shadow Wyrm | Deadly"],

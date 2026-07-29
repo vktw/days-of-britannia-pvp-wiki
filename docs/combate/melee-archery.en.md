@@ -1,84 +1,40 @@
 # Melee and Archery
 
 !!! success "Status: Live 0.9.12"
-Formulas and behaviors active on the official server.
+    Practical rules for choosing weapons, distance, and attack pace.
 
-## Chance of success
+## Hit chance
 
-With offensive skill 100.0 against defense 100.0, Melee and Archery have an **80% PvP hit chance** and 70% outside PvP. The formula is:
+With attack and defense at 100.0, PvP hit chance is **80%**. Outside PvP, it is **70%**. Differences between offensive skill and the target's defense change that chance.
 
-`chance = multiplier × (attack + 50) ÷ [2 × (defense + 50)]`, where the multiplier is 1.60 in PvP and 1.40 outside it.
-
-The final result is limited between 2% and 98%.
-
-Defense uses the skill appropriate to the target's equipment. Wrestling covers the character without a weapon.
+Defense uses the skill appropriate to the equipped weapon. An unarmed character relies on Wrestling.
 
 ## Speed
 
-The weapon's `Speed` value represents the delay in seconds with 100 DEX:
+The weapon's displayed `Speed` is its delay at 100 DEX. More DEX speeds attacks up to the allowed limit; less DEX increases the interval. Every attack respects the global 1.25-second minimum delay.
 
-`delay = Speed × 200 ÷ (DEX + 100)`
+The classic Bow has Speed 4.5 and fires every 4.5 seconds at 100 DEX.
 
-The effective DEX used in the formula is between 0 and 120 and there is a global minimum delay of 1.25 seconds. The classic Bow has Speed ​​4.5, so it fires every 4.5 seconds with 100 DEX.
-
-The swing belongs to the current target. Walking does not reset the preparation of the shot, but Archery keeps the shot in buffer and only releases it when the character remains within valid range and remains stationary for 250 ms.
-
-Common equip and unequip actions respond immediately, without artificial action delay. The delays for attacks, spells, potions, bandages and skills continue to apply normally.
+In Archery, walking does not discard a prepared shot. The arrow is released when the target is in range and the archer remains still for 250 ms.
 
 ## Damage and range
 
-Each hit that lands first draws an integer value between `MinDamage` and `MaxDamage` from the weapon. This value is the **base damage drawn**.
+- STR, Tactics, Anatomy, weapon quality, and weapon type affect physical damage.
+- Ruin, Might, Force, Power, and Vanquishing increase damage in that order.
+- Poison is applied when a compatible charged weapon hits.
+- Competitive Macing weapons also remove stamina according to damage dealt.
+- Polearms and some spears reach two tiles; most melee weapons reach one.
+- Competitive Archery reaches ten tiles.
 
-The attacker's scale is:
+In PvP, hitting a region without effective armor grants **25% additional damage**. Protection is applied afterward. See [Armor and Parrying](armor-parrying.md).
 
-`scale = 1 + (Tactics − 50)/100 + Anatomy/500 + effective STR/500`
+## Practical choice
 
-Effective STR is limited between 0 and 120. Raw damage is calculated in the following order:
+- One-handed weapons allow a shield and favor defense.
+- Two-handed weapons trade the shield for greater pressure or reach.
+- Archery offers distance but requires a brief stop before firing.
+- Speed, range, poison, and Stamina Damage usually matter more than small theoretical damage differences.
 
-`raw damage = truncate(rolled base damage × scale) + classic weapon bonus`
+Archery weapons cannot be used with body plate. Plate Gorgets and shields are exceptions.
 
-`truncate` discards the decimal part. The scale result never falls below 1 point before the classic bonus.
-
-| Property | Bonus added after scale |
-|---|---:|
-| Regular | 0 |
-| Ruin | +1 |
-| Might | +3 |
-| Force | +5 |
-| Power | +7 |
-| Vanquishing | +9 |
-
-The same calculation is used by Melee and Archery. The weapon's skill determines the hit chance, but does not appear again in the raw damage formula.
-
-Poisoned weapons consume a charge and poison every successful hit. In PvP, a hit on a body region without effective armor receives a 25% damage bonus, rounded to the nearest integer with a minimum bonus of 1 point; Protection is applied afterward. Reactive Armor does not make the region count as equipped.
-
-### Competitive roles
-
-| Role | Expected Vanquishing DPS reference |
-|---|---:|
-| Archery | approximately 6.46 |
-| One-handed, shield, and poison | approximately 7.00 |
-| Two-handed, range 2, and poison | approximately 7.54 |
-| Long non-poisonable staves | approximately 5.38 |
-
-The reference uses 100 STR, 100 DEX, 100.0 Tactics, 100.0 Anatomy, 100.0 weapon skill, and a 70% base hit chance. Poison, armor, Parrying, and downtime are excluded. Competitive Macing weapons also remove stamina equal to the final damage dealt by the hit.
-
-### Weapons with range 2
-
-The following two-handed weapons reach two tiles:
-
-- Polearms, including Bardiche, Halberd and Scythe.
-- Pike, Gargish Pike, Lance and Gargish Lance.
-- Spear and Pitchfork. Tribal Spear does not circulate among players.
-- Bladed Staff, Double Bladed Staff and Lajatang.
-- Quarter Staff, Black Staff, and Gnarled Staff. Shepherd's Crook remains a Herding utility outside the competitive ranking.
-
-The additional range does not change the weapon's speed.
-
-## Archery and plate
-
-Archery weapons cannot be equipped while the character is wearing a body plate piece. It is also not possible to wear body plate with an Archery weapon equipped.
-
-**Plate Gorget and shields are exceptions** and can be combined with Archery.
-
-See [Damage examples](exemplos-dano.md) for the complete calculation from the weapon roll to the target's lost hits.
+See [Classic weapons](../itens/armas.md) and [Damage examples](exemplos-dano.md).

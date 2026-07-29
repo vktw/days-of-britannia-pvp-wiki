@@ -9,14 +9,14 @@ Days of Britannia's combat separates physical damage, magical damage and poison.
 
 - [Melee and Archery](melee-archery.md): hit, speed, damage and range.
 - [Armor and Parrying](armor-parrying.md): body regions and percentage absorption.
-- [Examples of damage](exemplos-dano.md): complete calculations.
+- [Damage examples](exemplos-dano.md): how coverage, shields, and Protection change a hit.
 - [Magery](magery.md): flow, delays, damage, buffs and control.
 - [Healing and resources](cura-recursos.md): bandages, spells, potions and mana.
 - [Poison](poison.md): levels, ticks and renewal.
 
 ## Principles
 
-- Attack and defense skills equal to 100.0 produce a 65% gross hit chance.
+- Attack and defense skills equal to 100.0 produce an 80% PvP hit chance.
 - Shield Parrying reaches 45% with 100.0 Parrying.
 - Physical Resistance of the piece represents its percentage of absorption when the region is reached.
 - Body regions without effective armor receive 25% additional physical damage in PvP.

@@ -9,11 +9,9 @@ Felucca é a única faceta pública de Britannia. Trammel permanece reservada à
 
 - [Mapas e viagem](mapas-viagem.md): Felucca, Trammel, Recall, Mark, Gate Travel e Teleport.
 - [Cidades e guards](cidades-guards.md): regiões com exceções conhecidas de proteção.
-- [Threat Rating](threat-rating.md): classificação textual pela fórmula 3 baseada no snapshot de MaxHits.
-- [Inventário de Threat](threat-inventory.md): classes, capacidades e validação das criaturas resolvidas nos scripts.
+- [Threat Rating](threat-rating.md): como interpretar a classe e a cor exibidas nas criaturas.
+- [Consulta de Threat](threat-inventory.md): como avaliar uma criatura dentro do jogo.
 
 ## Mundo persistente
 
-Portas, placas, decorações, spawners, vendors, personagens e itens podem fazer parte do mundo persistente do servidor. Atualizações de código não substituem os saves oficiais.
-
-Os spawns combinam o estado do mundo salvo com as definições carregadas pelo servidor. A presença efetiva de objetos gerados ou colocados manualmente depende do estado atual do mundo.
+Britannia continua evoluindo entre atualizações. Vendors, criaturas, objetos e decorações podem mudar conforme o mundo recebe conteúdo novo ou manutenção.

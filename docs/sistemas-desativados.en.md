@@ -3,7 +3,7 @@
 !!! success "Status: Live 0.9.12"
     The blocks below are part of the official ruleset.
 
-To preserve classic balance, the following modern systems are globally locked or neutralized in PvP Sphere. Classes and properties can remain serializable for compatibility with saves, and some mechanics retain behavior outside of PvP when indicated:
+To preserve classic balance, the following modern systems are unavailable or grant no advantage in Sphere PvP:
 
 - Weapon abilities and special moves.
 - Necromancy, Chivalry, Bushido, Ninjitsu, Spellweaving and Mysticism.

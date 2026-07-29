@@ -6,7 +6,7 @@
 Days of Britannia preserves systems compatible with the shard's objective and neutralizes modern mechanics that would alter classic combat.
 
 - [Enabled systems](habilitados.md)
-- [PvM Mastery planned for 0.10.0](pvm-mastery.md)
+- [PvM Mastery in development](pvm-mastery.md)
 - [Systems disabled](../sistemas-desativados.md)
 
-Some classes and properties remain serializable so that TrueUO saves remain loadable, even when their active use is blocked.
+These pages explain only what is available to players and how it affects the experience.

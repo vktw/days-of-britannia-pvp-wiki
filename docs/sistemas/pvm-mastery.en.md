@@ -1,75 +1,35 @@
 # PvM Mastery
 
-!!! warning "Planned for 0.10.0"
-    This system is enabled in the local environment for acceptance testing. It is not part of the official Live 0.9.12 server yet.
+!!! warning "In development"
+    The Hunter's Compendium is not part of the Live server yet. Features, names, and values may change before release.
 
-The **Hunter's Compendium** provides character-based PvM progression. Scrolls of Knowledge found through Slayer families reveal masteries; players distribute generic points among them and build a loadout with up to **five active masteries**.
+The **Hunter's Compendium** is a planned progression system for players who fight creatures. The proposal lets characters discover knowledge, invest points, and assemble a combination of masteries suited to their playstyle.
 
 ## Progression and points
 
-- The first point requires 1,000 XP; each following point requires 500 more XP than the previous one.
-- Reaching the target leaves a point pending. Unlocking it costs 1,000 gold for the first, 2,000 for the second, increasing by 1,000 for every purchased point.
-- Payment consumes gold from the backpack or bank.
-- Once purchased, a point belongs to the character and can be redistributed among discovered masteries while out of combat.
-- Each mastery reaches level 10; a character has a 45-point limit.
+- Progression belongs to the character.
+- Earned points may be assigned among knowledge already discovered.
+- Builds will have a limited number of active masteries.
+- Redistribution will happen outside combat.
 
-## XP and participation
-
-A creature's base XP is `floor(MaxHits / 6)`. Participants with native looting rights who are alive, connected, on the same map, and within 18 tiles receive:
-
-| Eligible participants | XP for each player |
-| ---: | ---: |
-| 1 | 100% |
-| 2 | 80% |
-| 3 | 70% |
-| 4 | 60% |
-| 5 or more | 50% |
+Costs, limits, and progression pace will be published when the system is approved for Live.
 
 ## Scrolls of Knowledge
 
-Each death creates at most one scroll. Every Slayer group, including Undead, uses the same table:
+Scrolls found through PvM will reveal new masteries associated with creature families. Final rarity and drop chances remain under balance review.
 
-| Rarity | Chance |
-| --- | ---: |
-| Basic | 1% |
-| Proc | 0.5% |
-| Synergy | 0.25% |
-| Area | 0.1% |
+## Planned playstyles
 
-The bands are disjoint. If a rolled rarity has no operational mastery in that group, no scroll is created.
+Masteries under testing cover styles such as:
 
-## MVP masteries
+- life or mana recovery during PvM;
+- melee, Archery, or Magery specialization;
+- defense against damage and magical effects;
+- bonuses for maintaining focus on a target or creature family;
+- occasional control or area-damage effects.
 
-| Mastery | Scroll family | Summary |
-| --- | --- | --- |
-| Hit Life Leech | Undead | Restores health from effective PvM damage |
-| Hit Mana Leech | Undead | Restores mana from effective PvM damage |
-| Spell Effect Resistance | Undead | May negate compatible hostile magical effects |
-| Melee Damage Increase | Humanoid | Increases direct melee damage |
-| Melee Hit Chance Increase | Humanoid | Relatively increases melee hit chance |
-| Focused Hunter | Humanoid | Builds a bonus through consecutive kills in one Slayer group |
-| Archery Damage Increase | Reptilian | Increases direct Archery damage |
-| Archery Hit Chance Increase | Reptilian | Relatively increases Archery hit chance |
-| Spell Damage Increase | Abyssal | Increases player-owned magical PvM damage |
-| Magic Damage Resistance | Abyssal | Reduces remaining magical PvM damage |
-| Relentless Focus | Abyssal | Builds damage while persisting on one target |
-| Parrying Block Chance Increase | Fey | Relatively increases normal Parrying blocks |
-| Versatile Hunter | Fey | Strengthens the first hit against a creature type not seen recently |
-| Physical Damage Resistance | Elemental | Reduces remaining physical PvM damage |
-| Hit Lightning Chance | Elemental | May trigger Lightning from compatible damage |
-| Hit Effect Area | Elemental | Divides an effect among nearby PvM creatures |
-| Hit Paralyze Chance | Arachnid | May paralyze after a direct weapon hit |
-| Paralyzed Damage Bonus | Arachnid | Increases the next compatible hit against a paralyzed creature |
+## Limits
 
-## Gold and Loot Pack
+The system will be exclusive to eligible PvM. It should not grant effects against players, controlled pets, summons, or Arena participants.
 
-- Centralized gold: `floor(MaxHits × 2.3)`, split into piles of at most 7,500.
-- Every 8,000 MaxHits guarantees one Loot Pack roll; the remainder becomes the exact chance of one additional roll.
-- Each roll creates one item: 20% classic equipment, 30% magic jewelry, 30% a magic skill amulet, or 20% utility. Utility provides a Bag of Sending or, when it is not rolled, 3 to 6 Powder of Translocation.
-- Both Harrower forms grant XP, gold, and rolls separately.
-
-Threat and rewards use the same MaxHits snapshot, but the textual class grants no multiplier.
-
-## Combat limits
-
-Masteries work only against eligible PvM creatures. Players, controlled pets, summons, Arena participants, and characters with recent PvP aggression are excluded. Each mastery can enable a persistent log that reports only effects actually applied.
+Confirmed news will be summarized under [Planned Next Patch](../proximo-patch.md).

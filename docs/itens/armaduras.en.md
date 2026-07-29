@@ -1,21 +1,29 @@
 # Classic armor
 
 !!! success "Status: Live 0.9.12"
-Physical Resist and tiers correspond to the official behavior of the current version.
+    Each piece protects only the body region where it is equipped.
 
-| Tier | Physical Resist Bonus |
-|---|---:|
-| Regular | +0 |
-| Defense | +1 |
-| Guarding | +3 |
-| Hardening | +5 |
-| Fortification | +7 |
-| Invulnerability | +9 |
+## Qualities
 
-The bonus is applied individually to each piece. An Invulnerability armor has exactly nine percentage points more than an equivalent Regular armor under the same conditions.
+Defensive qualities follow this order:
 
-The `Physical Resist` shown in the item is the percentage absorbed when that body region is reached. Shields utilize the same concept in a successful block.
+| Quality | Protection |
+| --- | --- |
+| Regular | Base |
+| Defense | Low |
+| Guarding | Moderate |
+| Hardening | High |
+| Fortification | Very high |
+| Invulnerability | Maximum |
 
-Archery cannot be equipped with plate parts, with the exception of the `Plate Gorget` used by the shard kit. Shields do not count as part of the plate for this restriction.
+The piece's displayed `Physical Resist` shows its practical protection. Durability and quality matter; modern elemental resistances do not apply separately in Sphere PvP.
 
-See [Armor and Parrying](../combate/armor-parrying.md) for the full formula.
+## Coverage
+
+- Chest, Legs, Arms, Head, Hands, and Neck are independent regions.
+- An uncovered region receives additional PvP damage.
+- Ordinary clothing and jewelry do not replace armor.
+- Shields work through Parrying and occupy the second hand.
+- Body plate prevents Archery; Plate Gorgets and shields are allowed.
+
+See [Armor and Parrying](../combate/armor-parrying.md).

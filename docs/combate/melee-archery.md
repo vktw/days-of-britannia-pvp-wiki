@@ -1,84 +1,40 @@
 # Melee e Archery
 
 !!! success "Status: Live 0.9.12"
-    Fórmulas e comportamentos ativos no servidor oficial.
+    Regras práticas para escolher armas, distância e ritmo de ataque.
 
 ## Chance de acerto
 
-Com skill ofensiva 100.0 contra defesa 100.0, Melee e Archery possuem **80% de chance de acerto em PvP** e 70% fora do PvP. A fórmula é:
+Com ataque e defesa em 100.0, a chance de acerto em PvP é **80%**. Fora do PvP, é **70%**. Diferenças entre a skill ofensiva e a defesa do alvo alteram essa chance.
 
-`chance = multiplicador × (ataque + 50) ÷ [2 × (defesa + 50)]`, onde o multiplicador é 1,60 em PvP e 1,40 fora dele.
-
-O resultado final fica limitado entre 2% e 98%.
-
-A defesa utiliza a skill adequada ao equipamento do alvo. Wrestling cobre o personagem sem arma.
+A defesa considera a skill adequada ao equipamento usado. Sem arma, o personagem depende de Wrestling.
 
 ## Velocidade
 
-O valor `Speed` da arma representa o delay em segundos com 100 DEX:
+O `Speed` mostrado pela arma representa seu delay com 100 DEX. Mais DEX acelera os ataques até o limite permitido; menos DEX deixa o intervalo maior. Todo ataque respeita o delay mínimo global de 1,25 segundo.
 
-`delay = Speed × 200 ÷ (DEX + 100)`
+O Bow clássico tem Speed 4.5 e dispara a cada 4,5 segundos com 100 DEX.
 
-A DEX efetiva usada na fórmula fica entre 0 e 120 e existe um delay mínimo global de 1,25 segundo. O Bow clássico tem Speed 4.5, portanto dispara a cada 4,5 segundos com 100 DEX.
-
-O swing pertence ao alvo atual. Caminhar não reinicia o preparo do tiro, mas Archery mantém o disparo em buffer e só o libera quando o personagem continua em alcance válido e permanece parado por 250 ms.
-
-Ações comuns de equipar e desequipar respondem imediatamente, sem action delay artificial. Os delays próprios de ataques, magias, potions, bandages e skills continuam valendo normalmente.
+Em Archery, caminhar não perde o disparo preparado. A flecha é liberada quando o alvo está em alcance e o arqueiro permanece parado por 250 ms.
 
 ## Dano e alcance
 
-Cada golpe que acerta sorteia primeiro um valor inteiro entre `MinDamage` e `MaxDamage` da arma. Esse valor é o **dano-base sorteado**.
+- STR, Tactics, Anatomy, qualidade e tipo da arma influenciam o dano físico.
+- Ruin, Might, Force, Power e Vanquishing aumentam o dano nessa ordem.
+- Poison é aplicado quando uma arma compatível acerta e possui cargas.
+- Armas competitivas de Macing também retiram stamina conforme o dano causado.
+- Armas de haste e algumas lanças alcançam dois tiles; a maioria das armas melee alcança um.
+- Archery competitivo alcança dez tiles.
 
-A escala do atacante é:
+Em PvP, atingir uma região sem armor efetiva concede **25% de dano adicional**. Protection é aplicada depois. Consulte [Armor e Parrying](armor-parrying.md).
 
-`escala = 1 + (Tactics − 50)/100 + Anatomy/500 + STR efetiva/500`
+## Escolha prática
 
-A STR efetiva fica limitada entre 0 e 120. O dano bruto é calculado na seguinte ordem:
+- Uma mão permite usar shield e favorece defesa.
+- Duas mãos trocam o shield por maior pressão ou alcance.
+- Archery oferece distância, mas exige parar brevemente para disparar.
+- Velocidade, alcance, poison e Stamina Damage costumam importar mais que pequenas diferenças teóricas de dano.
 
-`dano bruto = truncar(dano-base sorteado × escala) + bônus clássico da arma`
+Armas de Archery não podem ser usadas com plate corporal. Plate Gorget e shields são exceções.
 
-`truncar` descarta a parte decimal. O resultado da escala nunca fica abaixo de 1 ponto antes do bônus clássico.
-
-| Propriedade | Bônus somado após a escala |
-|---|---:|
-| Regular | 0 |
-| Ruin | +1 |
-| Might | +3 |
-| Force | +5 |
-| Power | +7 |
-| Vanquishing | +9 |
-
-O mesmo cálculo é usado por Melee e Archery. A skill da arma determina a chance de acerto, mas não aparece novamente na fórmula de dano bruto.
-
-Armas envenenadas consomem uma carga e aplicam poison em todo golpe bem-sucedido. Em PvP, um acerto em região sem armor efetiva recebe 25% de dano adicional, arredondado ao inteiro mais próximo e com mínimo de 1 ponto; Protection é aplicada depois. Reactive Armor não faz a região contar como equipada.
-
-### Papéis competitivos
-
-| Papel | Referência de DPS Vanquishing esperado |
-|---|---:|
-| Archery | aproximadamente 6,46 |
-| Uma mão, shield e poison | aproximadamente 7,00 |
-| Duas mãos, range 2 e poison | aproximadamente 7,54 |
-| Staves longos sem poison | aproximadamente 5,38 |
-
-O DPS de referência usa 100 STR, 100 DEX, 100.0 Tactics, 100.0 Anatomy, skill da arma 100.0 e chance-base de acerto de 70%. Poison, armor, Parrying e tempo fora de combate não entram nessa comparação. Armas competitivas de Macing também removem stamina igual ao dano final do golpe.
-
-### Armas com range 2
-
-As seguintes armas de duas mãos alcançam dois tiles:
-
-- Polearms, incluindo Bardiche, Halberd e Scythe.
-- Pike, Gargish Pike, Lance e Gargish Lance.
-- Spear e Pitchfork. Tribal Spear não circula para jogadores.
-- Bladed Staff, Double Bladed Staff e Lajatang.
-- Quarter Staff, Black Staff e Gnarled Staff. Shepherd's Crook permanece como utilitário de Herding fora do ranking competitivo.
-
-O range adicional não modifica a velocidade da arma.
-
-## Archery e plate
-
-Armas de Archery não podem ser equipadas enquanto o personagem usa uma peça de plate corporal. Também não é possível vestir plate corporal com uma arma de Archery equipada.
-
-**Plate Gorget e shields são exceções** e podem ser combinados com Archery.
-
-Consulte [Exemplos de dano](exemplos-dano.md) para acompanhar o cálculo completo do sorteio da arma até os hits retirados do alvo.
+Veja [Armas clássicas](../itens/armas.md) e [Exemplos de dano](exemplos-dano.md).

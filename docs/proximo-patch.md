@@ -1,18 +1,16 @@
 # Próximo Patch Planejado
 
-## Armas do candidato 0.10.1
+!!! warning "Conteúdo em desenvolvimento"
+    Esta página apresenta direção de produto, não uma promessa de data ou de valores finais. O servidor oficial permanece no Live 0.9.12.
 
-- As 46 famílias competitivas disponíveis compõem o roll de armas do Loot Pack.
-- Arena e PvP Camp compartilham sete armas no kit: Bow, War Mace, Kryss, Bardiche, Black Staff, War Hammer e Axe.
-- O <a href="/assets/inventario-armas-0.10.1.html">inventário interativo completo</a> apresenta função, poison, Stamina Damage, alcance, velocidade e DPS esperado de cada família.
+## Hunter's Compendium
 
-!!! warning "0.10.0 em testes locais"
-    O servidor oficial permanece no Live 0.9.12. PvM Mastery, recompensas por MaxHits e o Loot Pack ainda não estão disponíveis para jogadores.
+O próximo ciclo de PvM trabalha em uma progressão por personagem, com conhecimentos encontrados durante aventuras e uma build limitada de masteries ativas.
 
-O candidato 0.10.0 introduz o Hunter's Compendium, 18 masteries PvM, builds com cinco slots, progressão por XP e compra de pontos genéricos. Scrolls of Knowledge usam famílias Slayer e uma tabela comum de raridades.
+Os estilos em avaliação incluem especialização ofensiva, recuperação de recursos, defesa e efeitos situacionais. Custos, probabilidades e valores finais serão divulgados quando estiverem aprovados para o Live.
 
-As recompensas planejadas usam `floor(MaxHits / 6)` para XP, `floor(MaxHits × 2,3)` para gold e um roll do Loot Pack a cada 8.000 MaxHits, com chance residual exata. Cada roll tem 20% de equipamento clássico, 30% de joia mágica, 30% de amuleto mágico de skill e 20% de utilidade.
+[Conhecer a proposta do PvM Mastery](sistemas/pvm-mastery.md){ .md-button }
 
-[Consultar o contrato planejado completo](sistemas/pvm-mastery.md){ .md-button }
+## Armas e recompensas
 
-Os candidatos 0.10.0, 0.10.1 e posteriores permanecem planejados: a documentação os identifica como locais e não os apresenta como comportamento live.
+O catálogo de armas e as recompensas PvM também estão em revisão. A wiki pública apresentará as opções disponíveis e seu papel prático quando o conjunto estiver fechado, sem expor inventários técnicos de desenvolvimento.

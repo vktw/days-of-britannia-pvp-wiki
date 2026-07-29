@@ -1,21 +1,29 @@
 # Armaduras clássicas
 
 !!! success "Status: Live 0.9.12"
-    Physical Resist e tiers correspondem ao comportamento oficial da versão atual.
+    Cada peça protege somente a região corporal em que está equipada.
 
-| Tier | Bônus de Physical Resist |
-|---|---:|
-| Regular | +0 |
-| Defense | +1 |
-| Guarding | +3 |
-| Hardening | +5 |
-| Fortification | +7 |
-| Invulnerability | +9 |
+## Qualidades
 
-O bônus é aplicado individualmente a cada peça. Uma armor Invulnerability possui exatamente nove pontos percentuais a mais que uma Regular equivalente nas mesmas condições.
+As qualidades defensivas seguem esta ordem:
 
-O `Physical Resist` mostrado no item é o percentual absorvido quando aquela região corporal é atingida. Shields utilizam o mesmo conceito em um bloqueio bem-sucedido.
+| Qualidade | Proteção |
+| --- | --- |
+| Regular | Base |
+| Defense | Baixa |
+| Guarding | Moderada |
+| Hardening | Alta |
+| Fortification | Muito alta |
+| Invulnerability | Máxima |
 
-Archery não pode ser equipada com partes de plate, com exceção do `Plate Gorget` usado pelo kit do shard. Shields não contam como parte de plate para essa restrição.
+O `Physical Resist` exibido na peça mostra sua proteção prática. Durabilidade e qualidade importam; resistências elementais modernas não entram separadamente no PvP Sphere.
 
-Consulte [Armor e Parrying](../combate/armor-parrying.md) para a fórmula completa.
+## Cobertura
+
+- Chest, Legs, Arms, Head, Hands e Neck são regiões independentes.
+- Região descoberta recebe dano adicional em PvP.
+- Roupas comuns e joias não substituem armor.
+- Shields funcionam por Parrying e ocupam a segunda mão.
+- Plate corporal impede Archery; Plate Gorget e shields são permitidos.
+
+Veja [Armor e Parrying](../combate/armor-parrying.md).

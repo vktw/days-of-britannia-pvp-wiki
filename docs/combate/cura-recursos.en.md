@@ -1,73 +1,41 @@
 # Healing and resources
 
 !!! success "Status: Live 0.9.12"
-Tracks, delays and recovery correspond to the official server.
+    Values and restrictions that affect decisions during combat.
 
-## Healing Tracks
+## Healing ranges
 
-Values ​​below consider relevant skills at 100.0:
+With the relevant skills at 100.0:
 
-| Resource | Healing | Reach |
-|---|---:|---:|
-| Heal | 9–12 | 10 tiles |
-| Greater Heal | 30–40 | 10 tiles |
-| Bandage | 30–40 | 2 tiles |
-| Greater Heal Potion | 40 fixed | Own use |
+| Resource | Healing | Use |
+| --- | ---: | --- |
+| Heal | 9–12 | Up to 10 tiles |
+| Greater Heal | 30–40 | Up to 10 tiles |
+| Bandage | 30–40 | Up to 2 tiles |
+| Greater Heal Potion | 40 | Self only |
 
-Heal and Greater Heal heal the caster or another character for the same range. Poison does not block Heal, Greater Heal or Greater Heal Potion.
+Poison does not prevent Heal, Greater Heal, or Greater Heal Potion.
 
-Bandage cures poison immediately without restoring health. When there is no poison, health healing occurs after 3.5 seconds. Using a bandage requires free hands and automatically unequips items from the hands; a paralyzed character can only use it if his hands are already empty.
+A bandage removes poison immediately without restoring health in that application. Without poison, healing completes after **3.5 seconds**. Using a bandage frees the hands automatically; if the character is paralyzed, they must already be empty.
 
 ## Potions
 
-All potions share a **15-second** global cooldown and do not require free hands. The effects of the drinkable potions below are immediate.
+Drinkable potions share a global **15-second** cooldown and do not require empty hands.
 
-- Greater Heal: 40 hits.
-- Total Mana: 40 mana.
-- Total Refresh: recovers stamina depending on the type.
-- Invisibility: Applies invisibility immediately.
+- Greater Heal restores 40 hits.
+- Total Mana restores 40 mana.
+- Total Refresh restores stamina.
+- Invisibility immediately makes the character invisible.
 
-Every potion drunk reproduces the classic sound of consumption.
-
-### Explosion Potions
-
-Explosion Potions are throwable and therefore do not take effect immediately. They open a targeting cursor, use a countdown of approximately 3.6 seconds, and explode in a two-tile area. Base damage varies by tier:
-
-| Tier | Base damage |
-|---|---:|
-| Lesser Explosion | 5–10 |
-| Explosion | 10–20 |
-| Greater Explosion | 20–40 |
-
-When more than two targets enter the blast, the damage is divided by the number of other targets hit. The values ​​still go through the scale applicable to the potion before distribution.
+Explosion Potions use a target cursor and countdown. They can affect an area, so positioning and timing matter more than memorizing a damage calculation.
 
 ## Mana
 
-Focus and Meditation work regardless of equipment. The server recovers one mana point at each interval calculated by:
+Focus, Meditation, and INT help mana recovery. Disabled modern equipment attributes grant no extra advantage.
 
-```text
-focusBonus = Focus / 200
-medBonus = 0.0075 × Meditation + 0.0025 × INT
-itemBase = (((Meditation / 2 + Focus / 4) / 90) × 0.65) + 2.35
-itemBonus = (itemBase × sqrt(Mana Regen) − (itemBase − 1)) / 10
-interval = 1 / (0.2 + focusBonus + medBonus + itemBonus)
-```
+With 100.0 Focus, 100.0 Meditation, 100 INT, and no item Mana Regen:
 
-`Mana Regen` represents the applicable equipment attribute; disabled modern attributes do not grant ruleset advantage. During active Meditation, `medBonus` is not doubled.
+- passive recovery: approximately **0.76 mana per second**;
+- active Meditation: approximately **1.51 mana per second**.
 
-### Effective recovery
-
-The examples below consider Focus 100.0, Meditation 100.0 and no Mana Regen from items. STR and DEX do not participate in mana recovery; among the stats, only INT changes the result.
-
-| INT | Status | Range per mana | Mana per second | Mana per minute |
-|---:|---|---:|---:|---:|
-| 100 | Passive | 1.324 s | **0.755** | **45.33** |
-| 100 | Active Meditation | 0.662 s | **1.511** | **90.67** |
-| 120 | Passive | 1.282 s | **0.780** | **46.83** |
-| 120 | Active Meditation | 0.641 s | **1.561** | **93.66** |
-
-In practice, a character with INT 100 recovers approximately **7.6 mana in 10 seconds** passively or **15.1 mana in 10 seconds** by actively meditating. With INT 120, recovers approximately **7.8 mana in 10 seconds** passively or **15.6 mana in 10 seconds** with Meditation active.
-
-These values ​​represent Live's actual mathematical rate; points enter individually as each interval is completed.
-
-Passive regeneration remains unchanged. Active Meditation for players and the PvP Trainer no longer doubles the Meditation component.
+Active Meditation is faster, but does not fully double recovery. Plan a safe window before relying on it during combat.

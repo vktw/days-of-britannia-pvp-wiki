@@ -14,7 +14,6 @@ BASELINE_PATHS = {
     "assets/logo.png", "stylesheets/extra.css", "combate/armor-parrying.md",
     "combate/cura-recursos.md", "combate/exemplos-dano.md", "combate/magery.md",
     "combate/melee-archery.md", "combate/poison.md", "sistemas/pvm-mastery.md",
-    "data/threat-inventory-v3.json",
 }
 
 REQUIRED_HEADINGS = {
@@ -36,8 +35,8 @@ REQUIRED_HEADINGS = {
     "patches.md": ["# Patch notes", "## 0.9.12", "## 0.9.8", "## 0.9.6", "## 0.9.2", "## 0.7.0", "## 0.1.0"],
     "proximo-patch.md": ["# Próximo Patch Planejado"],
     "sistemas-desativados.md": ["# Sistemas desativados", "## Pets e summons"],
-    "mundo/threat-rating.md": ["# Threat Rating", "## Âncoras de validação"],
-    "mundo/threat-inventory.md": ["# Inventário de Threat"],
+    "mundo/threat-rating.md": ["# Threat Rating", "## Exemplos da escala"],
+    "mundo/threat-inventory.md": ["# Como consultar Threat"],
     "sistemas/pvm-mastery.md": ["# PvM Mastery", "## Progressão e pontos", "## Scrolls of Knowledge"],
 }
 
@@ -46,13 +45,13 @@ REQUIRED_LIVE_CLAIMS = {
     "personagem.md": ["primeiro personagem elegível por IP"],
     "primeiros-passos/personagem-inicial.md": ["primeiro personagem elegível por IP"],
     "combate/melee-archery.md": ["Speed 4.5", "permanece parado por 250 ms"],
-    "combate/exemplos-dano.md": ["| Kryss | 10-13 | 19-24 | +9 | **28-33** |", "| Bow | 15-20 | 28-38 | +9 | **37-47** |"],
-    "combate/magery.md": ["Reserva de 40 dividida entre os alvos PvP", "reserva máxima de 40 pontos", "uma carga", "alcance padrão de Magery de 12 tiles"],
+    "combate/exemplos-dano.md": ["Proteção muda o resultado final", "região sem armor"],
+    "combate/magery.md": ["uma carga", "alcance de 12 tiles"],
     "mundo/index.md": ["Felucca é a única faceta pública"],
     "mundo/mapas-viagem.md": ["Trammel não é uma faceta pública"],
     "itens/armas.md": ["não determinam a compatibilidade da arma com poison"],
-    "mundo/threat-rating.md": ["snapshot de MaxHits", "Neira | Legendary", "Harrower | Mythic"],
-    "mundo/threat-inventory.md": ["fórmula 3", "não possui score fixo"],
+    "mundo/threat-rating.md": ["Neira | Legendary", "Harrower | Mythic"],
+    "mundo/threat-inventory.md": ["classificação visível no jogo"],
 }
 
 FORBIDDEN_LIVE_CLAIMS = {
@@ -75,6 +74,8 @@ FORBIDDEN_LIVE_CLAIMS = {
     "itens/armas.md": ["definição possui Infectious Strike"],
     "mundo/threat-rating.md": ["perfis fixos", "12.950", "15.650"],
     "mundo/threat-inventory.md": ["Âncora fixa", "Perfil fixo"],
+    "sistemas/pvm-mastery.md": ["floor(MaxHits", "Cada 8.000 MaxHits", "log persistente"],
+    "proximo-patch.md": ["floor(MaxHits", "chance residual exata"],
 }
 
 
