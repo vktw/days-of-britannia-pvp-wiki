@@ -1,6 +1,6 @@
 # Combat
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
 The pages in this section describe the active ruleset on the official server.
 
 Days of Britannia's combat separates physical damage, magical damage and poison. Modern elemental damage systems and AOS attributes do not determine the outcome of PvP Sphere.
@@ -17,7 +17,7 @@ Days of Britannia's combat separates physical damage, magical damage and poison.
 ## Principles
 
 - Attack and defense skills equal to 100.0 produce an 80% PvP hit chance.
-- Shield Parrying reaches 45% with 100.0 Parrying.
+- Shield Parrying reaches 45% in PvP and 50% in PvM with 100.0 Parrying.
 - Physical Resistance of the piece represents its percentage of absorption when the region is reached.
 - Body regions without effective armor receive 25% additional physical damage in PvP.
 - Magery uses immediate target, followed by the cast delay and the release of the effect.

@@ -1,6 +1,6 @@
 # Newcomer and protection
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     The Newcomer benefit is active for the account's first eligible character.
 
 Newcomer helps you get started safely. It lasts **168 hours** (seven days) and marks the character as `(Young)`.
@@ -8,6 +8,7 @@ Newcomer helps you get started safely. It lasts **168 hours** (seven days) and m
 ## During the benefit
 
 - It provides a 25% bonus to skill-gain chance.
+- Eligible PvM grants 25% additional PvM Mastery experience and creature gold.
 - [Ocllo Safe Haven](../mundo/ocllo.md) blocks player conflict, stealing, and harmful actions by pets or summons across the island.
 - When a newcomer dies outside the Arena, they return automatically to Ocllo after 15 seconds. Remaining items stay on the corpse.
 

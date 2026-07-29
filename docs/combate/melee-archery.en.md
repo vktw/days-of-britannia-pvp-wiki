@@ -1,11 +1,11 @@
 # Melee and Archery
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     Practical rules for choosing weapons, distance, and attack pace.
 
 ## Hit chance
 
-With attack and defense at 100.0, PvP hit chance is **80%**. Outside PvP, it is **70%**. Differences between offensive skill and the target's defense change that chance.
+With attack and defense at 100.0, PvP hit chance is **80%**. In PvM, it is **50%**. Differences between offensive skill and the target's defense change that chance.
 
 Defense uses the skill appropriate to the equipped weapon. An unarmed character relies on Wrestling.
 
@@ -13,7 +13,7 @@ Defense uses the skill appropriate to the equipped weapon. An unarmed character 
 
 The weapon's displayed `Speed` is its delay at 100 DEX. More DEX speeds attacks up to the allowed limit; less DEX increases the interval. Every attack respects the global 1.25-second minimum delay.
 
-The classic Bow has Speed 4.5 and fires every 4.5 seconds at 100 DEX.
+The classic Bow has Speed 3.75 and fires every 3.75 seconds at 100 DEX.
 
 In Archery, walking does not discard a prepared shot. The arrow is released when the target is in range and the archer remains still for 250 ms.
 

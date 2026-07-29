@@ -1,11 +1,15 @@
 # Cidades e guards
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     Esta página registra somente exceções confirmadas. A ausência de uma cidade na lista não significa que ela seja desprotegida.
 
 ## Cove
 
 Cove em Felucca não possui proteção de guards e pode ser usada como área aberta de PvP. O transporte opcional de `.pvpcamp` leva o personagem para Cove, Felucca.
+
+## Britain e Moonglow em Felucca
+
+Somente os núcleos urbanos clássicos de Britain e Moonglow permanecem protegidos. As fazendas a oeste de Britain, ilhas periféricas de Moonglow e as áreas separadas dos moongates são desprotegidas. Observe a indicação de região e não presuma proteção apenas por estar perto da cidade.
 
 ## Moonglow em Trammel
 

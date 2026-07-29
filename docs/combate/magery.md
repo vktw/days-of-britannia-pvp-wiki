@@ -1,6 +1,6 @@
 # Magery
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     Delays, alcance e efeitos necessários para jogar e planejar combates.
 
 ## Fluxo de cast
@@ -14,13 +14,14 @@ Magery segue o fluxo **escolher alvo → aguardar o cast → aplicar o efeito**.
 - Ativar Magery normalmente envia arma e shield para a mochila.
 - Dano comum não interrompe a maioria das magias; Teleport, Recall e Gate Travel são exceções.
 - Trocar de magia durante o cast faz a anterior falhar e consumir seus recursos.
+- Iniciar uma magia aceita cancela uma bandage pendente; o tratamento imediato de poison não cria essa espera.
 - FC, FCR, LRC e LMC não modificam este ruleset.
 
 ## Delays importantes
 
 | Magia | Delay |
 | --- | ---: |
-| Harm | 2,0 s |
+| Harm | 1,75 s |
 | Fireball | 2,5 s |
 | Paralyze | 2,5 s |
 | Flame Strike | 3,5 s |
@@ -53,6 +54,7 @@ INT ou Evaluating Intelligence abaixo de 100 reduzem o dano. Valores acima de 10
 - Paralyze pode ser renovado; dano direto pode libertar o alvo.
 - Poison não rompe Paralyze.
 - Dispel remove apenas efeitos mágicos clássicos compatíveis; não remove poison de arma, efeitos de potion, Young ou estados da Arena.
+- Magic Arrow usada no próprio personagem aplica efeito e dano juntos ao terminar o cast. Contra outros alvos, mantém o projétil e a espera normal do impacto.
 
 ## Fields
 

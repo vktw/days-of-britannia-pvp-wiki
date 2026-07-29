@@ -1,6 +1,6 @@
 # Death and recovery
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     This flow applies to deaths outside the Arena.
 
 When you die, choose how to return to [Ocllo Safe Haven](../mundo/ocllo.md):

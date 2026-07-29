@@ -1,11 +1,11 @@
 # Melee e Archery
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     Regras práticas para escolher armas, distância e ritmo de ataque.
 
 ## Chance de acerto
 
-Com ataque e defesa em 100.0, a chance de acerto em PvP é **80%**. Fora do PvP, é **70%**. Diferenças entre a skill ofensiva e a defesa do alvo alteram essa chance.
+Com ataque e defesa em 100.0, a chance de acerto em PvP é **80%**. No PvM, é **50%**. Diferenças entre a skill ofensiva e a defesa do alvo alteram essa chance.
 
 A defesa considera a skill adequada ao equipamento usado. Sem arma, o personagem depende de Wrestling.
 
@@ -13,7 +13,7 @@ A defesa considera a skill adequada ao equipamento usado. Sem arma, o personagem
 
 O `Speed` mostrado pela arma representa seu delay com 100 DEX. Mais DEX acelera os ataques até o limite permitido; menos DEX deixa o intervalo maior. Todo ataque respeita o delay mínimo global de 1,25 segundo.
 
-O Bow clássico tem Speed 4.5 e dispara a cada 4,5 segundos com 100 DEX.
+O Bow clássico tem Speed 3.75 e dispara a cada 3,75 segundos com 100 DEX.
 
 Em Archery, caminhar não perde o disparo preparado. A flecha é liberada quando o alvo está em alcance e o arqueiro permanece parado por 250 ms.
 

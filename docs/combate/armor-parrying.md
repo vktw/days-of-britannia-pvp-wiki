@@ -1,6 +1,6 @@
 # Armor e Parrying
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     Armor protege a região atingida; shield pode substituir completamente essa etapa.
 
 ## Regiões corporais
@@ -13,7 +13,7 @@ Em PvP, uma região sem armor efetiva recebe **25% de dano adicional**. Reactive
 
 ## Escudos
 
-Parrying exige um shield equipado. Com Parrying 100.0, a chance máxima de bloqueio é **45%**.
+Parrying exige um shield equipado. Com Parrying 100.0, a chance base máxima de bloqueio é **45% no PvP** e **50% no PvM**.
 
 Quando o bloqueio acontece:
 

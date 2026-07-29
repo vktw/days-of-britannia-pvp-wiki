@@ -1,35 +1,40 @@
 # PvM Mastery
 
-!!! warning "In development"
-    The Hunter's Compendium is not part of the Live server yet. Features, names, and values may change before release.
+!!! success "Status: Live 0.10.2"
+    The Hunter's Compendium provides dedicated progression for characters who fight creatures.
 
-The **Hunter's Compendium** is a planned progression system for players who fight creatures. The proposal lets characters discover knowledge, invest points, and assemble a combination of masteries suited to their playstyle.
+The **Hunter's Compendium** records hunting knowledge, points, and the character's active build. Existing characters receive the book on their first login while the system is active; new characters receive it at creation. Keep it in the main backpack and double-click it to open.
 
 ## Progression and points
 
-- Progression belongs to the character.
-- Earned points may be assigned among knowledge already discovered.
-- Builds will have a limited number of active masteries.
-- Redistribution will happen outside combat.
+- Eligible creatures grant PvM Mastery experience to nearby participants with looting rights.
+- Experience belongs to the character and is shared in a group-friendly way.
+- After qualifying for a new point, confirm its purchase through the Compendium using gold from the backpack or bank.
+- Each mastery can reach level 10; a character can hold up to 45 points.
+- A build accepts up to five active masteries.
+- Points can be redistributed through the Compendium while the character is out of combat.
 
-Costs, limits, and progression pace will be published when the system is approved for Live.
+Progress remains saved even when a mastery is not in the current build.
 
 ## Scrolls of Knowledge
 
-Scrolls found through PvM will reveal new masteries associated with creature families. Final rarity and drop chances remain under balance review.
+Eligible creatures may drop **Scrolls of Knowledge**. Each scroll belongs to a Slayer family and reveals a mastery from that family. The Compendium itself shows which families can reveal knowledge that is still locked.
 
-## Planned playstyles
+Scrolls have different rarities and use the normal corpse loot lifetime. Finding one does not require a mastery to be active beforehand.
 
-Masteries under testing cover styles such as:
+## Available playstyles
 
-- life or mana recovery during PvM;
-- melee, Archery, or Magery specialization;
-- defense against damage and magical effects;
-- bonuses for maintaining focus on a target or creature family;
-- occasional control or area-damage effects.
+Masteries cover playstyles such as health or mana recovery, Melee, Archery or Magery specialization, defense, effect resistance, situational damage, and focused hunting.
+
+Live 0.10.2 also includes:
+
+- **Resonant Cascade:** can spread targeted Peacemaking, Discordance, or Provocation to nearby eligible creatures.
+- **Summoned Vitality:** increases the health of summons created by the player while the mastery is active.
+
+Use the description inside the Compendium to understand the effect and progression of each discovered mastery.
 
 ## Limits
 
-The system will be exclusive to eligible PvM. It should not grant effects against players, controlled pets, summons, or Arena participants.
+PvM Mastery works only in eligible PvM encounters. It grants no effects against players, controlled pets, opposing summons, Arena participants, or during recent PvP aggression.
 
-Confirmed news will be summarized under [Planned Next Patch](../proximo-patch.md).
+See [PvM rewards](../itens/recompensas-pvm.md) for XP, Loot Packs, jewelry, and amulets.

@@ -1,6 +1,6 @@
 # Consumíveis e utilidades
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     Quantidades de kits e efeitos detalhados correspondem ao servidor oficial.
 
 ## Potions

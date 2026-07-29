@@ -84,8 +84,8 @@ DOWNLOAD DOB LAUNCHER <span aria-hidden="true">↓</span>
 <section class="dob-atlas-update" aria-labelledby="dob-release-title">
 <div>
 <p class="dob-atlas-kicker">LATEST UPDATE</p>
-<h2 id="dob-release-title">0.9.12 · PvP balance</h2>
+<h2 id="dob-release-title">0.10.2 · New mastery paths</h2>
 </div>
-<p>PvP combat receives updates to Magery, poison, fields, hit chance, and mana regeneration.</p>
+<p>Bards and summoners gain new masteries, alongside updates to Threat, Loot Packs, jewelry, and Magic Arrow.</p>
 <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

@@ -17,7 +17,7 @@ theme:
   palette:
     scheme: dob
 extra:
-  dob_version: "Live 0.9.12"
+  dob_version: "Live 0.10.2"
 extra_css:
   - stylesheets/extra.css?v=20260726.7
 extra_javascript:
@@ -65,10 +65,11 @@ plugins:
             Armas clássicas: Classic weapons
             Armaduras clássicas: Classic armor
             Consumíveis e utilidades: Consumables and utilities
+            Recompensas PvM: PvM rewards
             Arena e treinamento: Arena and training
             Sistemas: Systems
             Sistemas habilitados: Enabled systems
-            "PvM Mastery (planejado)": PvM Mastery (planned)
+            PvM Mastery: PvM Mastery
             Sistemas desativados: Disabled systems
             Comandos: Commands
             Atualizações: Updates
@@ -111,11 +112,12 @@ nav:
       - Armas clássicas: itens/armas.md
       - Armaduras clássicas: itens/armaduras.md
       - Consumíveis e utilidades: itens/consumiveis.md
+      - Recompensas PvM: itens/recompensas-pvm.md
   - Arena e treinamento: arena.md
   - Sistemas:
       - Visão geral: sistemas/index.md
       - Sistemas habilitados: sistemas/habilitados.md
-      - PvM Mastery (planejado): sistemas/pvm-mastery.md
+      - PvM Mastery: sistemas/pvm-mastery.md
       - Sistemas desativados: sistemas-desativados.md
   - Comandos: comandos.md
   - Atualizações:

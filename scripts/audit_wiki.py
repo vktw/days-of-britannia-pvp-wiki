@@ -14,6 +14,7 @@ BASELINE_PATHS = {
     "assets/logo.png", "stylesheets/extra.css", "combate/armor-parrying.md",
     "combate/cura-recursos.md", "combate/exemplos-dano.md", "combate/magery.md",
     "combate/melee-archery.md", "combate/poison.md", "sistemas/pvm-mastery.md",
+    "itens/recompensas-pvm.md",
 }
 
 REQUIRED_HEADINGS = {
@@ -32,30 +33,33 @@ REQUIRED_HEADINGS = {
     "combate/cura-recursos.md": ["# Cura e recursos", "## Faixas de cura", "## Mana"],
     "combate/exemplos-dano.md": ["# Exemplos de dano", "## Faixas de dano bruto"],
     "combate/poison.md": ["# Poison"],
-    "patches.md": ["# Patch notes", "## 0.9.12", "## 0.9.8", "## 0.9.6", "## 0.9.2", "## 0.7.0", "## 0.1.0"],
+    "patches.md": ["# Patch notes", "## 0.10.2", "## 0.10.1", "## 0.10.0", "## 0.9.12", "## 0.9.8", "## 0.9.6", "## 0.9.2", "## 0.7.0", "## 0.1.0"],
     "proximo-patch.md": ["# Próximo Patch Planejado"],
     "sistemas-desativados.md": ["# Sistemas desativados", "## Pets e summons"],
     "mundo/threat-rating.md": ["# Threat Rating", "## Exemplos da escala"],
     "mundo/threat-inventory.md": ["# Como consultar Threat"],
     "sistemas/pvm-mastery.md": ["# PvM Mastery", "## Progressão e pontos", "## Scrolls of Knowledge"],
+    "itens/recompensas-pvm.md": ["# Recompensas PvM", "## Loot Packs", "## Joias mágicas", "## Amuletos de skill"],
 }
 
 REQUIRED_LIVE_CLAIMS = {
     "patches.md": ["Correções de equipamento e kit PvP", "Magic Earrings (+5 INT)", "Dois cliques em um Spellbook"],
     "personagem.md": ["primeiro personagem elegível por IP"],
     "primeiros-passos/personagem-inicial.md": ["primeiro personagem elegível por IP"],
-    "combate/melee-archery.md": ["Speed 4.5", "permanece parado por 250 ms"],
+    "combate/melee-archery.md": ["Speed 3.75", "No PvM, é **50%**", "permanece parado por 250 ms"],
     "combate/exemplos-dano.md": ["Proteção muda o resultado final", "região sem armor"],
-    "combate/magery.md": ["uma carga", "alcance de 12 tiles"],
     "mundo/index.md": ["Felucca é a única faceta pública"],
     "mundo/mapas-viagem.md": ["Trammel não é uma faceta pública"],
     "itens/armas.md": ["não determinam a compatibilidade da arma com poison"],
     "mundo/threat-rating.md": ["Neira | Legendary", "Harrower | Mythic"],
     "mundo/threat-inventory.md": ["classificação visível no jogo"],
+    "sistemas/pvm-mastery.md": ["Status: Live 0.10.2", "até cinco masteries ativas"],
+    "primeiros-passos/newcomer.md": ["25% adicionais de experiência de PvM Mastery"],
+    "combate/magery.md": ["uma carga", "alcance de 12 tiles", "| Harm | 1,75 s |"],
 }
 
 FORBIDDEN_LIVE_CLAIMS = {
-    "combate/melee-archery.md": ["Speed 4.0", "action delay de **25 ms**"],
+    "combate/melee-archery.md": ["Speed 4.0", "Speed 4.5", "Fora do PvP, é **70%**", "action delay de **25 ms**"],
     "combate/magery.md": [
         "causa metade dos hits atuais mais 0 a 15",
         "| Earthquake | 50% dos hits atuais + 0-15 |",

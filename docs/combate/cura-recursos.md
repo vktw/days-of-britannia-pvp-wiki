@@ -1,6 +1,6 @@
 # Cura e recursos
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     Valores e restrições que afetam decisões durante o combate.
 
 ## Faixas de cura
@@ -17,6 +17,8 @@ Com as skills relevantes em 100.0:
 Poison não impede Heal, Greater Heal ou Greater Heal Potion.
 
 Bandage remove poison imediatamente, sem recuperar vida nessa aplicação. Sem poison, a cura termina após **3,5 segundos**. Usar bandage libera as mãos automaticamente; se o personagem estiver paralisado, elas já precisam estar vazias.
+
+Iniciar uma magia aceita pelo servidor cancela a bandage que ainda estiver em andamento. A bandage não é devolvida e não completa a cura depois. O tratamento imediato de poison não é afetado.
 
 ## Potions
 

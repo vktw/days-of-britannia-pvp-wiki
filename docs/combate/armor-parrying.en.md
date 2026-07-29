@@ -1,6 +1,6 @@
 # Armor and Parrying
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     Armor protects the region that is hit; a shield can replace that step entirely.
 
 ## Body regions
@@ -13,7 +13,7 @@ In PvP, a region without effective armor receives **25% additional damage**. Rea
 
 ## Shields
 
-Parrying requires an equipped shield. At 100.0 Parrying, the maximum block chance is **45%**.
+Parrying requires an equipped shield. At 100.0 Parrying, the maximum base block chance is **45% in PvP** and **50% in PvM**.
 
 When a block occurs:
 

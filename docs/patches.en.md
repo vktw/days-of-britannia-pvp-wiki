@@ -2,6 +2,31 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.10.2 · New mastery paths
+
+- Resonant Cascade arrives for Bards and Summoned Vitality for summoners.
+- Dragon Breath now increases a creature's Threat and proportional rewards.
+- Loot Packs receive a more balanced distribution across equipment, jewelry, amulets, and utilities.
+- Magical stat jewelry now has durability and can be repaired with Tinkering.
+- Magic Arrow used on your own character synchronizes effect and damage with the end of the cast.
+
+## 0.10.1 · Weapon selection
+
+- The available weapon catalog is refined, and official kits now share Bow, War Mace, Kryss, Bardiche, Black Staff, War Hammer, and Axe.
+- Kit Kryss, Bardiche, and Axe receive Deadly Poison; short two-handed Fencing or Swords weapons can also accept poison.
+- Bow now uses Speed 3.75 at 100 DEX, and Harm now has a 1.75-second cast.
+- Starting an accepted spell cancels a pending bandage.
+- In Felucca, Britain and Moonglow guard protection is limited to their classic urban cores.
+- The `.patchnotes` panel can now switch between Portuguese and English.
+
+## 0.10.0 · PvM Mastery
+
+- The Hunter's Compendium goes live with character progression, Scrolls of Knowledge, and builds of up to five masteries.
+- Eligible creatures now grant PvM Mastery experience, gold, and Loot Pack opportunities scaled to the encounter.
+- In PvM, equal skills produce a 50% base hit chance and up to 50% blocking with Parrying.
+- Eligible Newcomers receive 25% additional PvM Mastery experience and creature gold.
+- Loot Packs can deliver classic equipment, stat jewelry, skill amulets, and utilities.
+
 ## 0.9.12 · PvP balance
 
 - Updates to hit chance, Magery, poison, fields, and Meditation.

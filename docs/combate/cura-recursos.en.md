@@ -1,6 +1,6 @@
 # Healing and resources
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     Values and restrictions that affect decisions during combat.
 
 ## Healing ranges
@@ -17,6 +17,8 @@ With the relevant skills at 100.0:
 Poison does not prevent Heal, Greater Heal, or Greater Heal Potion.
 
 A bandage removes poison immediately without restoring health in that application. Without poison, healing completes after **3.5 seconds**. Using a bandage frees the hands automatically; if the character is paralyzed, they must already be empty.
+
+Starting a spell accepted by the server cancels any bandage still in progress. The bandage is not refunded and does not complete its healing later. Immediate poison treatment is unaffected.
 
 ## Potions
 

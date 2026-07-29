@@ -1,6 +1,6 @@
 # Arena
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     Estas são as regras disponíveis no servidor oficial.
 
 Use `.arena` para abrir o sistema. É possível desafiar outro jogador ou, na arena compatível, treinar contra o **PvP Trainer**.
@@ -29,6 +29,8 @@ Cada arena aceita apenas uma luta ou desafio público pendente por vez e apresen
 Antes da devolução, a arena encerra casts e ações pendentes e remove os principais estados temporários de combate, incluindo Paralyze, Frozen, poison, invisibilidade, buffs, curses e efeitos defensivos. A limpeza não se limita a essa lista e também ocorre em empate, desconexão e recuperação de uma sessão interrompida.
 
 O kit fornece 15 Greater Heal Potions, 15 Total Mana Potions, 10 Total Refresh, 10 Invisibility e 3 Deadly Poison Potions. A montaria pessoal é guardada junto dos pertences e não pode ser usada na arena; somente o cavalo shrinkado fornecido pelo kit da luta é permitido.
+
+As opções de arma são Bow, War Mace, Kryss, Bardiche, Black Staff, War Hammer e Axe. Kryss, Bardiche e Axe recebem Deadly Poison; as demais preservam seu papel normal.
 
 Armor pode ser Regular, Defense, Guarding, Hardening, Fortification ou Invulnerability. Weapons podem ser Regular, Ruin, Might, Force, Power ou Vanquishing. O anúncio público e a confirmação mostram o equipamento definido para a luta.
 

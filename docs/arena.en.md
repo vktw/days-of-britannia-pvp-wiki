@@ -1,6 +1,6 @@
 # Arena
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     These are the rules available on the official server.
 
 Use `.arena` to open the system. You can challenge another player or, in the compatible arena, train against the **PvP Trainer**.
@@ -29,6 +29,8 @@ Each arena accepts only one pending public fight or challenge at a time and disp
 Before return, the arena closes pending casts and actions and removes the main temporary combat states, including Paralyze, Frozen, poison, invisibility, buffs, curses and defensive effects. Cleanup is not limited to this list and also occurs on tie-in, disconnection, and recovery from an interrupted session.
 
 The kit provides 15 Greater Heal Potions, 15 Total Mana Potions, 10 Total Refresh, 10 Invisibility and 3 Deadly Poison Potions. The personal mount is kept with the belongings and cannot be used in the arena; only the shrunken horse provided by the fight kit is allowed.
+
+Weapon choices are Bow, War Mace, Kryss, Bardiche, Black Staff, War Hammer, and Axe. Kryss, Bardiche, and Axe receive Deadly Poison; the others keep their normal role.
 
 Armor can be Regular, Defense, Guarding, Hardening, Fortification or Invulnerability. Weapons can be Regular, Ruin, Might, Force, Power or Vanquishing. The public announcement and confirmation show the equipment set for the fight.
 

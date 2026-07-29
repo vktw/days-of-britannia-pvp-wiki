@@ -1,6 +1,6 @@
 # Comandos de jogador
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     Os comandos abaixo estão disponíveis aos jogadores no servidor oficial.
 
 ## `.arena`
@@ -13,17 +13,17 @@ Abre a seleção dos tiers clássicos de armor e weapons e entrega um kit comple
 
 - Plate, shield, chain, ringmail e gorget no tier de armor escolhido.
 - Reagentes, bandages, bow, arrows e armas melee.
-- Bow e armas melee no tier de weapon escolhido, com Deadly Poison nas armas melee.
+- Bow e armas melee no tier de weapon escolhido. Kryss, Bardiche e Axe recebem Deadly Poison; as demais preservam seu papel normal.
 - 15 Greater Heal, 15 Total Mana, 10 Total Refresh, 10 Invisibility e 3 Deadly Poison Potions.
 - Um cavalo shrinkado.
 
-As armas melee possuem **80 cargas de Deadly Poison**.
+Kryss, Bardiche e Axe possuem **80 cargas de Deadly Poison**.
 
 Ao final, o comando abre uma confirmação opcional de viagem para Cove em Felucca.
 
 ## `.patchnotes`
 
-Abre as notas da versão mais recente dentro do jogo.
+Abre as notas da versão mais recente dentro do jogo. O painel permite alternar entre português e inglês enquanto permanece aberto.
 
 ## `.pvptrainer`
 

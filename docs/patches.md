@@ -2,6 +2,31 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.10.2 · Novos caminhos de Mestria
+
+- Entram Resonant Cascade para Bardos e Summoned Vitality para invocadores.
+- Dragon Breath passa a aumentar o Threat e as recompensas proporcionais da criatura.
+- Loot Packs recebem uma distribuição mais equilibrada entre equipamentos, joias, amuletos e utilidades.
+- Joias mágicas de atributos passam a ter durabilidade e podem ser reparadas com Tinkering.
+- Magic Arrow usada no próprio personagem sincroniza efeito e dano com o fim do cast.
+
+## 0.10.1 · Seleção de armas
+
+- O catálogo de armas disponíveis é refinado e os kits oficiais passam a compartilhar Bow, War Mace, Kryss, Bardiche, Black Staff, War Hammer e Axe.
+- Kryss, Bardiche e Axe dos kits recebem Deadly Poison; armas curtas de duas mãos de Fencing ou Swords também podem aceitar poison.
+- Bow passa a usar Speed 3.75 com 100 DEX, e Harm passa a ter cast de 1,75 segundo.
+- Iniciar uma magia aceita cancela a bandage pendente.
+- Em Felucca, a proteção de guards de Britain e Moonglow fica restrita aos núcleos urbanos clássicos.
+- O painel `.patchnotes` passa a permitir alternância entre português e inglês.
+
+## 0.10.0 · Mestria PvM
+
+- O Hunter's Compendium entra em operação com progressão por personagem, Scrolls of Knowledge e builds de até cinco masteries.
+- Criaturas elegíveis passam a conceder experiência de PvM Mastery, gold e oportunidades de Loot Pack proporcionais ao encontro.
+- No PvM, skills equivalentes resultam em 50% de chance base de acerto e até 50% de bloqueio com Parrying.
+- Newcomers elegíveis recebem 25% adicionais de experiência de PvM Mastery e gold de criaturas.
+- Loot Packs podem entregar equipamentos clássicos, joias de atributos, amuletos de skill e utilidades.
+
 ## 0.9.12 · Equilíbrio PvP
 
 - Ajustes de acerto, Magery, poison, fields e Meditation.

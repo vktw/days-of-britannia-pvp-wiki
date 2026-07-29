@@ -1,6 +1,6 @@
 # Threat Rating
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     The color and name displayed over a creature help estimate the danger of the encounter.
 
 **Threat Rating** is a quick endurance reference. Use it to decide whether to fight alone, prepare consumables, or form a group.
@@ -37,7 +37,10 @@ Some well-known creatures help players interpret the scale:
 - Paragon appears as a separate variant, not as a class above Apocalyptic.
 - The class represents general endurance, but does not by itself measure damage, magic, poison, self-healing, or enemy intelligence.
 - Terrain, creature count, party composition, and strategy can greatly change the actual difficulty.
-- Threat Rating does not grant an XP, gold, or loot bonus by itself.
+- Threat follows the scale of PvM rewards, but a class does not guarantee a specific amount or item.
+- Creatures with a magical profile or Dragon Breath may receive additional Threat; both factors can stack.
 - Pets, summons, vendors, and the PvP Trainer do not receive PvM Threat Rating.
 
 [Learn how to check the classification](threat-inventory.md){ .md-button }
+
+[Understand PvM rewards](../itens/recompensas-pvm.md){ .md-button }

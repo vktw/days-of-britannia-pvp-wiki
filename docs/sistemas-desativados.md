@@ -1,6 +1,6 @@
 # Sistemas desativados
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     Os bloqueios abaixo fazem parte do ruleset oficial.
 
 Para preservar o equilíbrio clássico, os seguintes sistemas modernos ficam indisponíveis ou não concedem vantagem no PvP Sphere:
@@ -8,7 +8,7 @@ Para preservar o equilíbrio clássico, os seguintes sistemas modernos ficam ind
 - Weapon abilities e special moves.
 - Necromancy, Chivalry, Bushido, Ninjitsu, Spellweaving e Mysticism.
 - Throwing e Imbuing.
-- Skill Masteries.
+- Skill Masteries modernas do UO. O [PvM Mastery próprio do DoB](sistemas/pvm-mastery.md) permanece ativo.
 - Slayer e Super Slayer.
 - Talismans, set bonuses e Extended Weapon Attributes.
 - Bônus especiais de artifacts.

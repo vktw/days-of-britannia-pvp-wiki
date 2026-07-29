@@ -1,6 +1,6 @@
 # Systems disabled
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     The blocks below are part of the official ruleset.
 
 To preserve classic balance, the following modern systems are unavailable or grant no advantage in Sphere PvP:
@@ -8,7 +8,7 @@ To preserve classic balance, the following modern systems are unavailable or gra
 - Weapon abilities and special moves.
 - Necromancy, Chivalry, Bushido, Ninjitsu, Spellweaving and Mysticism.
 - Throwing and Imbuing.
-- Skill Masteries.
+- Modern UO Skill Masteries. DoB's own [PvM Mastery](sistemas/pvm-mastery.md) remains active.
 - Slayer and Super Slayer.
 - Talismans, set bonuses and Extended Weapon Attributes.
 - Special artifact bonuses.

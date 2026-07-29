@@ -1,9 +1,9 @@
 # Como consultar Threat
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     A classificação visível no jogo é a fonte prática para avaliar cada criatura.
 
-O antigo inventário técnico foi retirado da wiki pública. Ele misturava detalhes de desenvolvimento com informações úteis para jogadores e podia ficar desatualizado em relação ao mundo ativo.
+Use a classificação mostrada no próprio jogo para avaliar a criatura que está diante de você. Essa informação acompanha o mundo ativo e preserva a descoberta durante a aventura.
 
 ## Como consultar
 
@@ -12,4 +12,4 @@ O antigo inventário técnico foi retirado da wiki pública. Ele misturava detal
 3. Compare a classe com a [escala de Threat](threat-rating.md).
 4. Considere também habilidades, quantidade de inimigos e terreno antes de iniciar a luta.
 
-Essa leitura mantém a descoberta dentro do jogo e evita transformar o manual em uma planilha de criaturas.
+Essa leitura combina a referência da wiki com a situação real do encontro.

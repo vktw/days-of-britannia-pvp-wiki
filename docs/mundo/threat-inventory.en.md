@@ -1,9 +1,9 @@
 # Checking Threat
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     The classification visible in game is the practical source for evaluating each creature.
 
-The former technical inventory has been removed from the public wiki. It mixed development details with useful player information and could become outdated compared with the active world.
+Use the classification shown in game to evaluate the creature in front of you. This information follows the active world and preserves discovery during the adventure.
 
 ## How to check
 
@@ -12,4 +12,4 @@ The former technical inventory has been removed from the public wiki. It mixed d
 3. Compare the class with the [Threat scale](threat-rating.md).
 4. Consider abilities, enemy count, and terrain before starting the fight.
 
-This keeps discovery inside the game and avoids turning the manual into a creature spreadsheet.
+This reading combines the wiki reference with the actual encounter situation.

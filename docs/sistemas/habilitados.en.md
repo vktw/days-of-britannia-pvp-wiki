@@ -1,6 +1,6 @@
 # Enabled systems
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     Summary list of core mechanics available to players.
 
 - Physical combat with Swords, Macing, Fencing, Archery and Wrestling.
@@ -14,6 +14,8 @@
 - Runebooks, Recall and Gate Travel within the Felucca public facet; Trammel remains restricted to official arenas.
 - Arenas, rankings, seasons and PvP Trainer.
 - Textual Threat Rating for PvM creatures, with Paragon displayed as a separate variant.
+- PvM Mastery with the Hunter's Compendium, Scrolls of Knowledge, and builds of up to five active masteries.
+- Encounter-scaled PvM rewards, including Loot Packs, jewelry, and skill amulets.
 - Auto-account and up to two simultaneous connections via external IP.
 
 See specific pages for limits and exceptions. Presence on this list does not mean that the mechanics maintain TrueUO's default behavior.

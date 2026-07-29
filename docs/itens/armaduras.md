@@ -1,6 +1,6 @@
 # Armaduras clássicas
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     Cada peça protege somente a região corporal em que está equipada.
 
 ## Qualidades

@@ -1,6 +1,6 @@
 # Magery
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     Delays, range, and effects needed to play and plan combat.
 
 ## Cast flow
@@ -14,13 +14,14 @@ Magery follows **choose target → wait for cast → apply effect**.
 - Activating Magery normally moves the weapon and shield to the backpack.
 - Ordinary damage does not interrupt most spells; Teleport, Recall, and Gate Travel are exceptions.
 - Switching spells during a cast makes the previous one fizzle and consume its resources.
+- Starting an accepted spell cancels a pending bandage; immediate poison treatment does not create that delay.
 - FC, FCR, LRC, and LMC do not modify this ruleset.
 
 ## Important delays
 
 | Spell | Delay |
 | --- | ---: |
-| Harm | 2.0 s |
+| Harm | 1.75 s |
 | Fireball | 2.5 s |
 | Paralyze | 2.5 s |
 | Flame Strike | 3.5 s |
@@ -53,6 +54,7 @@ INT or Evaluating Intelligence below 100 reduce damage. Values above 100 do not 
 - Paralyze can be renewed; direct damage may free the target.
 - Poison does not break Paralyze.
 - Dispel removes only compatible classic magical effects; it does not remove weapon poison, potion effects, Young, or Arena states.
+- Magic Arrow used on your own character applies its effect and damage together when the cast ends. Against other targets, it keeps the projectile and normal impact delay.
 
 ## Fields
 

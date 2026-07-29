@@ -1,6 +1,6 @@
 # Player commands
 
-!!! success "Status: Live 0.9.12"
+!!! success "Status: Live 0.10.2"
     The commands below are available to players on the official server.
 
 ## `.arena`
@@ -13,17 +13,17 @@ Opens the selection of classic armor and weapons tiers and delivers a complete P
 
 - Plate, shield, chain, ringmail and gorget in the chosen armor tier.
 - Reagents, bandages, bow, arrows and melee weapons.
-- Bow and melee weapons in the chosen weapon tier, with Deadly Poison on melee weapons.
+- Bow and melee weapons in the chosen weapon tier. Kryss, Bardiche, and Axe receive Deadly Poison; the others keep their normal role.
 - 15 Greater Heal, 15 Total Mana, 10 Total Refresh, 10 Invisibility and 3 Deadly Poison Potions.
 - A shrunken horse.
 
-Melee weapons have **80 Deadly Poison charges**.
+Kryss, Bardiche, and Axe have **80 Deadly Poison charges**.
 
 At the end, the command opens an optional travel confirmation to Cove on Felucca.
 
 ## `.patchnotes`
 
-Open the latest version notes within the game.
+Open the latest version notes within the game. The panel can switch between Portuguese and English while it remains open.
 
 ## `.pvptrainer`
 

@@ -84,8 +84,8 @@ hide:
 <section class="dob-atlas-update" aria-labelledby="dob-release-title">
   <div>
     <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
-    <h2 id="dob-release-title">0.9.12 · Equilíbrio PvP</h2>
+    <h2 id="dob-release-title">0.10.2 · Novos caminhos de Mestria</h2>
   </div>
-  <p>O combate PvP recebe ajustes de Magery, poison, fields, acerto e regeneração de mana.</p>
+  <p>Bardos e invocadores ganham novas masteries, com ajustes em Threat, Loot Packs, joias e Magic Arrow.</p>
   <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

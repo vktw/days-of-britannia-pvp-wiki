@@ -3,7 +3,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
-LIVE_VERSION = "Live 0.9.12"
+LIVE_VERSION = "Live 0.10.2"
 
 NUMBER_RE = re.compile(r"(?<![\w])\d+(?:[.,]\d+)?%?")
 COMMAND_RE = re.compile(r"`(\.[a-z][a-z0-9]*)`", re.I)
@@ -53,8 +53,8 @@ def audit():
     config = (ROOT / "mkdocs.yml").read_text(encoding="utf-8-sig")
     if f'dob_version: "{LIVE_VERSION}"' not in config:
         errors.append(f"mkdocs live version is not {LIVE_VERSION}")
-    if "0.9.12" not in (DOCS / "index.md").read_text(encoding="utf-8-sig"):
-        errors.append("home release card is not 0.9.12")
+    if "0.10.2" not in (DOCS / "index.md").read_text(encoding="utf-8-sig"):
+        errors.append("home release card is not 0.10.2")
     for exposed in [
         DOCS / "data" / "threat-inventory-v2.json",
         DOCS / "data" / "threat-inventory-v3.json",
