@@ -41,4 +41,4 @@ Veja [Melee e Archery](../combate/melee-archery.md) e [Poison](../combate/poison
 
 O candidato local 0.10.1 possui 46 famílias competitivas no roll de armas do Loot Pack. Os kits compartilhados pela Arena e pelo PvP Camp usam Bow, War Mace, Kryss, Bardiche, Black Staff, War Hammer e Axe.
 
-<a class="md-button md-button--primary" href="../assets/inventario-armas-0.10.1.html">Abrir o inventário interativo de armas do candidato 0.10.1</a>
+<a class="md-button md-button--primary" href="/assets/inventario-armas-0.10.1.html">Abrir o inventário interativo de armas do candidato 0.10.1</a>

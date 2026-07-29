@@ -4,7 +4,7 @@
 
 - As 46 famílias competitivas disponíveis compõem o roll de armas do Loot Pack.
 - Arena e PvP Camp compartilham sete armas no kit: Bow, War Mace, Kryss, Bardiche, Black Staff, War Hammer e Axe.
-- O <a href="assets/inventario-armas-0.10.1.html">inventário interativo completo</a> apresenta função, poison, Stamina Damage, alcance, velocidade e DPS esperado de cada família.
+- O <a href="/assets/inventario-armas-0.10.1.html">inventário interativo completo</a> apresenta função, poison, Stamina Damage, alcance, velocidade e DPS esperado de cada família.
 
 !!! warning "0.10.0 em testes locais"
     O servidor oficial permanece no Live 0.9.12. PvM Mastery, recompensas por MaxHits e o Loot Pack ainda não estão disponíveis para jogadores.
