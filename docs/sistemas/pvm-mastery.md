@@ -1,7 +1,7 @@
 # PvM Mastery
 
 !!! warning "Planejado para 0.10.0"
-    Este sistema está habilitado no ambiente local para testes de aceitação. Ele ainda não faz parte do servidor oficial Live 0.9.8.
+    Este sistema está habilitado no ambiente local para testes de aceitação. Ele ainda não faz parte do servidor oficial Live 0.9.12.
 
 O **Hunter's Compendium** cria uma progressão PvM por personagem. Scrolls of Knowledge encontrados em famílias Slayer revelam masteries; o jogador distribui pontos genéricos entre elas e monta uma build com até **cinco masteries ativas**.
 

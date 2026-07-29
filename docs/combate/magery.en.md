@@ -1,6 +1,6 @@
 # Magery
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
 Flow, delays and effects correspond to the official server.
 
 ## Cast flow
@@ -14,6 +14,7 @@ Magery uses the **target → cast delay → revalidation → effect** flow. The 
 - Outside of this specific restriction, activating Magery automatically moves items from the character's hands to their backpack.
 - Items can be equipped after activation.
 - Common damage does not cause fizzle, except in Teleport, Recall and Gate Travel.
+- Starting another spell during the current cast delay makes the interrupted spell fizzle and consume its scaled mana cost and reagents before the replacement begins. A rejected replacement attempt preserves the current cast.
 - FC, FCR, LRC and LMC do not affect Magery.
 - Earthquake is the only spell without a cursor.
 
@@ -49,11 +50,11 @@ The values ​​below consider **100 INT and 100.0 Evaluating Intelligence**:
 |---|---:|
 | Magic Arrow | 10 |
 | Harm | 15 |
-| Fireball | 20 |
+| Fireball | 17 |
 | Lightning | 25 |
-| Mind Blast | 30 |
+| Mind Blast | 26 |
 | Explosion | 35 |
-| Energy Bolt | 35 |
+| Energy Bolt | 27 |
 | Flame Strike | 40 |
 | Chain Lightning | 40 |
 | Meteor Swarm | 40 |
@@ -61,7 +62,7 @@ The values ​​below consider **100 INT and 100.0 Evaluating Intelligence**:
 
 INT and Evaluating Intelligence below 100 reduce these values. Although buffs can raise INT up to 120, **INT above 100 does not increase magic damage**. Inscription also does not modify this damage.
 
-Flame Strike is the anchor of balance: it consumes 40 mana and deals 40 damage at maximum conditions. Without a scroll, its normal success range starts at approximately 65.7 Magery. Projectile spells only preserve the time needed to synchronize damage and visual impact, while Explosion maintains its three-second fuse.
+Flame Strike is the balance anchor: it consumes 40 mana, deals 40 damage under maximum conditions, and has a 3.5-second cast. Harm has a 2.0-second cast, Fireball 2.5, and Paralyze 2.5. Without a scroll, Flame Strike's normal success range starts at approximately 65.7 Magery. Projectile spells retain only the time needed to synchronize damage and visual impact, while Explosion keeps its three-second fuse.
 
 Harm deals its full damage at any valid range. Chain Lightning and Meteor Swarm divide the maximum pool of 40 points between targets hit.
 
@@ -77,19 +78,20 @@ Resisting Spells can prevent the application of magical Poison and affects the d
 - Paralyze can be renewed. Its duration is `60 + (100 - Eval Int) × 0,3 + (100 - Resist) × 0,3` seconds, varying from 60 to 120 seconds within the normal skill limits.
 - Poison does not break Paralyze. Direct damage opens up the possibility of release.
 - Magic Arrow itself is a valid way to do this direct damage.
+- In PvP, Dispel removes only Reactive Armor, Protection/Arch Protection, Magic Reflection, Bless and stat buffs, Curse and individual stat curses, Paralyze, and poison whose current application came from the Poison spell. Weapon poison, potion effects, Young, Arena, and other-system states are not removed.
 - Paralyze Field uses the same rules as Paralyze and can also affect the caster. Direct damage opens a **500ms** window before the field can reapply Paralyze; remaining or returning to the tile after this window allows new application.
 - Prepared melee attacks and Archery shots can still be released during Paralyze when its other conditions are met.
 - Wall of Stone forms five tiles, lasts 60 seconds and can coexist with other fields.
 
 ### Fields
 
-The fields below use the standard Magery range of 12 tiles and form five tiles:
+Player and PvP Trainer fields use Magery's standard 12-tile range, form seven tiles, and last 1.5 times their former duration. Arena bounds do not crop segments on valid terrain outside them.
 
 | Field | Effect | Duration with Magery 100.0 |
 |---|---|---:|
-| Fire Field | Deals 2 points when crossing the tile and on periodic checks while the target remains on it | 53 s |
-| Poison Field | Applies or resets poison when crossing the tile and while the target remains on it | 43 s |
-| Energy Field | Blocks passage | 30 s |
+| Fire Field | Deals 2 points when crossing the tile and on periodic checks while the target remains on it | 79.5 s |
+| Poison Field | Applies or resets poison when crossing the tile and while the target remains on it | 64.5 s |
+| Energy Field | Blocks the opposing direct PvP participant on every segment | 45 s |
 
 Paralyze Field follows the Paralyze rules described above. Wall of Stone also has five tiles, but uses its own rules for positioning, overlapping and duration of 60 seconds.
 

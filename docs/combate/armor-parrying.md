@@ -1,6 +1,6 @@
 # Armor e Parrying
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
     Absorção regional e Parrying correspondem ao servidor oficial.
 
 ## Regiões corporais
@@ -39,7 +39,7 @@ absorção de Protection = arredondar(após armor × Protection / 100)
 dano final = max(1, após armor − absorção de Protection)
 ```
 
-Sem armor na região atingida, o golpe recebe o bônus de 15% por região descoberta. Protection, quando ativa, absorve depois uma parcela percentual desse total.
+Sem armor efetiva na região atingida, o golpe PvP recebe o bônus de 25% por região descoberta, arredondado ao inteiro mais próximo e com mínimo de 1 ponto. Protection, quando ativa, absorve depois uma parcela percentual desse total. Reactive Armor não transforma uma região descoberta em equipada.
 
 ## Escudos
 

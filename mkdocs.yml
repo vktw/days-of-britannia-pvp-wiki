@@ -17,7 +17,7 @@ theme:
   palette:
     scheme: dob
 extra:
-  dob_version: "Live 0.9.8"
+  dob_version: "Live 0.9.12"
 extra_css:
   - stylesheets/extra.css?v=20260726.7
 extra_javascript:

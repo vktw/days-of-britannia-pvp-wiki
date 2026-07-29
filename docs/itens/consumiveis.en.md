@@ -1,6 +1,6 @@
 # Consumables and utilities
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
 Kit quantities and detailed effects correspond to the official server.
 
 ## Potions

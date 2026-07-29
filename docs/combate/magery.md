@@ -1,6 +1,6 @@
 # Magery
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
     Fluxo, delays e efeitos correspondem ao servidor oficial.
 
 ## Fluxo de cast
@@ -14,6 +14,7 @@ Magery usa o fluxo **alvo → cast delay → revalidação → efeito**. O curso
 - Fora desse bloqueio específico, ativar Magery envia automaticamente os itens das mãos para a mochila.
 - Itens podem ser equipados depois da ativação.
 - Dano comum não causa fizzle, exceto em Teleport, Recall e Gate Travel.
+- Iniciar outra magia durante o delay de cast faz a magia interrompida falhar e consumir seu mana escalado e reagentes antes de a substituta começar. Uma tentativa de substituição rejeitada preserva o cast atual.
 - FC, FCR, LRC e LMC não afetam Magery.
 - Earthquake é a única magia sem cursor.
 
@@ -49,11 +50,11 @@ Os valores abaixo consideram **100 INT e 100.0 Evaluating Intelligence**:
 |---|---:|
 | Magic Arrow | 10 |
 | Harm | 15 |
-| Fireball | 20 |
+| Fireball | 17 |
 | Lightning | 25 |
-| Mind Blast | 30 |
+| Mind Blast | 26 |
 | Explosion | 35 |
-| Energy Bolt | 35 |
+| Energy Bolt | 27 |
 | Flame Strike | 40 |
 | Chain Lightning | 40 |
 | Meteor Swarm | 40 |
@@ -61,7 +62,7 @@ Os valores abaixo consideram **100 INT e 100.0 Evaluating Intelligence**:
 
 INT e Evaluating Intelligence abaixo de 100 reduzem esses valores. Embora buffs possam elevar INT até 120, **INT acima de 100 não aumenta o dano mágico**. Inscription também não modifica esse dano.
 
-Flame Strike é a âncora do equilíbrio: consome 40 mana e causa 40 de dano nas condições máximas. Sem scroll, sua faixa normal de sucesso começa em aproximadamente 65,7 Magery. Magias com projétil preservam apenas o tempo necessário para sincronizar dano e impacto visual, enquanto Explosion mantém seu fuse de três segundos.
+Flame Strike é a âncora do equilíbrio: consome 40 mana, causa 40 de dano nas condições máximas e usa 3,5 segundos de cast. Harm usa 2,0 segundos, Fireball 2,5 e Paralyze 2,5. Sem scroll, a faixa normal de sucesso de Flame Strike começa em aproximadamente 65,7 Magery. Magias com projétil preservam apenas o tempo necessário para sincronizar dano e impacto visual, enquanto Explosion mantém seu fuse de três segundos.
 
 Harm causa seu dano integral em qualquer distância válida. Chain Lightning e Meteor Swarm dividem a reserva máxima de 40 pontos entre os alvos atingidos.
 
@@ -77,19 +78,20 @@ Resisting Spells pode impedir a aplicação de Poison mágico e participa da dur
 - Paralyze pode ser renovado. Sua duração é `60 + (100 - Eval Int) × 0,3 + (100 - Resist) × 0,3` segundos, variando de 60 a 120 segundos dentro dos limites normais das skills.
 - Poison não rompe Paralyze. Dano direto abre a possibilidade de liberação.
 - Magic Arrow em si mesmo é uma forma válida de causar esse dano direto.
+- Em PvP, Dispel remove somente Reactive Armor, Protection/Arch Protection, Magic Reflection, Bless e buffs de stats, Curse e curses individuais de stats, Paralyze e poison cuja aplicação atual veio da magia Poison. Poison de arma, efeitos de potion, Young, Arena e estados de outros sistemas não são removidos.
 - Paralyze Field usa as mesmas regras do Paralyze e também pode afetar o caster. Dano direto abre uma janela de **500 ms** antes de o field poder reaplicar Paralyze; permanecer ou voltar ao tile após essa janela permite nova aplicação.
 - Ataques melee e disparos de Archery já preparados continuam podendo ser liberados durante Paralyze quando suas demais condições forem atendidas.
 - Wall of Stone forma cinco tiles, dura 60 segundos e pode coexistir com outros fields.
 
 ### Fields
 
-Os fields abaixo usam o alcance padrão de Magery de 12 tiles e formam cinco tiles:
+Os fields de jogadores e do PvP Trainer usam o alcance padrão de Magery de 12 tiles, formam sete tiles e duram 1,5 vez a duração anterior. Os limites da Arena não cortam segmentos em terreno válido fora dela.
 
 | Field | Efeito | Duração com Magery 100.0 |
 |---|---|---:|
-| Fire Field | Causa 2 pontos ao atravessar o tile e nas verificações periódicas enquanto o alvo permanece nele | 53 s |
-| Poison Field | Aplica ou reinicia poison ao atravessar o tile e enquanto o alvo permanece nele | 43 s |
-| Energy Field | Bloqueia passagem | 30 s |
+| Fire Field | Causa 2 pontos ao atravessar o tile e nas verificações periódicas enquanto o alvo permanece nele | 79,5 s |
+| Poison Field | Aplica ou reinicia poison ao atravessar o tile e enquanto o alvo permanece nele | 64,5 s |
+| Energy Field | Bloqueia a passagem do participante PvP adversário em todos os segmentos | 45 s |
 
 Paralyze Field segue as regras de Paralyze descritas acima. Wall of Stone também possui cinco tiles, mas usa suas regras próprias de posicionamento, sobreposição e duração de 60 segundos.
 

@@ -1,6 +1,6 @@
 # Threat Rating
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
     A classificação usa a fórmula 3 baseada no snapshot de MaxHits. O número permanece interno; jogadores veem apenas classe, cor e variante.
 
 O **Threat Rating** resume a resistência de cada criatura em uma classe textual e colorida. Ele permite comparar inimigos sem expor uma planilha de atributos no jogo.

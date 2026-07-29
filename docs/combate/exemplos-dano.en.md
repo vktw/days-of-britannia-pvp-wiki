@@ -1,9 +1,9 @@
 # Examples of damage
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
 The examples use currently published formulas.
 
-The examples below follow the official **Live 0.9.8** server. They isolate a hit that has already landed; hit chance and Parrying chance are separate, prior rolls.
+The examples below follow the official **Live 0.9.12** server. They isolate a hit that has already landed; hit chance and Parrying chance are separate, prior rolls.
 
 ## Striker used
 
@@ -39,11 +39,11 @@ A Bow of Vanquishing rolls 19 base damage:
 ```text
 scaled damage = truncate(19 × 1.90) = truncate(36.10) = 36
 raw damage = 36 + 9 = 45
-unarmored-region bonus = round(45 × 15%) = 7
-final damage = 45 + 7 = 52
+unarmored-region bonus = round(45 × 25%) = 11
+final damage = 45 + 11 = 56
 ```
 
-The character loses **52 hits**. Ordinary clothing and jewelry without Physical Resist do not eliminate this bonus.
+The character loses **56 hits**. Ordinary clothing and jewelry without Physical Resist do not eliminate this bonus.
 
 ## Example 2: regional armor
 
@@ -69,12 +69,12 @@ final damage = 37 - 3 = 34
 
 The character loses **34 hits**.
 
-If the region is empty, the 15% bonus comes in first and then Protection:
+If the region is empty, the 25% bonus comes in first and then Protection:
 
 ```text
-after unarmored-region bonus = 45 + round(45 × 15%) = 52
-Protection absorption = round(52 × 8%) = 4
-final damage = 52 - 4 = 48
+after unarmored-region bonus = 45 + round(45 × 25%) = 56
+Protection absorption = round(56 × 8%) = 4
+final damage = 56 - 4 = 52
 ```
 
 ## Example 4: Parrying with shield
@@ -95,10 +95,10 @@ For the same 45 raw damage:
 
 | Defense found | Calculation | Final damage |
 |---|---|---:|
-| Empty region, without Protection | 45 + 15% | **52** |
+| Empty region, without Protection | 45 + 25% | **56** |
 | Piece with 18% Physical Resist | 45 - 18% | **37** |
 | Piece with 18% and Protection 8% | 45 - 18%, then -8% | **34** |
-| Empty region and Protection 8% | 45 + 15%, then -8% | **48** |
+| Empty region and Protection 8% | 45 + 25%, then -8% | **52** |
 | Parry with 31% shield | 45 - 31% | **31** |
 
 The practical result may involve three separate draws: attack success, parrying success and, when there is no block, body region. The absorption percentages are no longer random.

@@ -1,6 +1,6 @@
 # Armas clássicas
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
     Os tiers e bônus abaixo estão ativos no servidor oficial.
 
 | Tier | Bônus de dano |
@@ -36,3 +36,9 @@ Special moves permanecem desativados e não determinam a compatibilidade da arma
 Esses valores são referências comparativas nas condições canônicas descritas em [Melee e Archery](../combate/melee-archery.md), sem somar poison ou mitigação defensiva.
 
 Veja [Melee e Archery](../combate/melee-archery.md) e [Poison](../combate/poison.md).
+
+## Inventário planejado para 0.10.1
+
+O candidato local 0.10.1 possui 46 famílias competitivas no roll de armas do Loot Pack. Os kits compartilhados pela Arena e pelo PvP Camp usam Bow, War Mace, Kryss, Bardiche, Black Staff, War Hammer e Axe.
+
+<a class="md-button md-button--primary" href="../assets/inventario-armas-0.10.1.html">Abrir o inventário interativo de armas do candidato 0.10.1</a>

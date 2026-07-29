@@ -84,8 +84,8 @@ DOWNLOAD DOB LAUNCHER <span aria-hidden="true">↓</span>
 <section class="dob-atlas-update" aria-labelledby="dob-release-title">
 <div>
 <p class="dob-atlas-kicker">LATEST UPDATE</p>
-<h2 id="dob-release-title">0.9.8 · Ocllo connected</h2>
+<h2 id="dob-release-title">0.9.12 · PvP balance</h2>
 </div>
-<p>Ocllo gains an Animal Trainer and a connection to Felucca's public moongate network while keeping the Safe Haven.</p>
+<p>PvP combat receives updates to Magery, poison, fields, hit chance, and mana regeneration.</p>
 <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

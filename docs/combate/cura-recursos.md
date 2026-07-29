@@ -1,6 +1,6 @@
 # Cura e recursos
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
     Faixas, delays e recuperação correspondem ao servidor oficial.
 
 ## Faixas de cura
@@ -53,7 +53,7 @@ itemBonus = (itemBase × sqrt(Mana Regen) − (itemBase − 1)) / 10
 intervalo = 1 / (0,2 + focusBonus + medBonus + itemBonus)
 ```
 
-`Mana Regen` representa o atributo de equipamento aplicável; os atributos modernos desativados não concedem vantagem no ruleset. Durante Meditation ativa, `medBonus` é dobrado.
+`Mana Regen` representa o atributo de equipamento aplicável; os atributos modernos desativados não concedem vantagem no ruleset. Durante Meditation ativa, `medBonus` não é dobrado.
 
 ### Recuperação efetiva
 
@@ -62,12 +62,12 @@ Os exemplos abaixo consideram Focus 100.0, Meditation 100.0 e nenhum Mana Regen 
 | INT | Estado | Intervalo por mana | Mana por segundo | Mana por minuto |
 |---:|---|---:|---:|---:|
 | 100 | Passiva | 1,324 s | **0,755** | **45,33** |
-| 100 | Meditation ativa | 0,398 s | **2,511** | **150,65** |
+| 100 | Meditation ativa | 0,662 s | **1,511** | **90,67** |
 | 120 | Passiva | 1,282 s | **0,780** | **46,83** |
-| 120 | Meditation ativa | 0,383 s | **2,611** | **156,65** |
+| 120 | Meditation ativa | 0,641 s | **1,561** | **93,66** |
 
-Na prática, um personagem com INT 100 recupera aproximadamente **7,6 mana em 10 segundos** passivamente ou **25,1 mana em 10 segundos** meditando ativamente. Com INT 120, recupera aproximadamente **7,8 mana em 10 segundos** passivamente ou **26,1 mana em 10 segundos** com Meditation ativa.
+Na prática, um personagem com INT 100 recupera aproximadamente **7,6 mana em 10 segundos** passivamente ou **15,1 mana em 10 segundos** meditando ativamente. Com INT 120, recupera aproximadamente **7,8 mana em 10 segundos** passivamente ou **15,6 mana em 10 segundos** com Meditation ativa.
 
 Esses valores representam a taxa matemática real do Live; os pontos entram individualmente conforme cada intervalo é completado.
 
-A redução vale apenas para a regeneração passiva de jogadores e do PvP Trainer. Meditation ativa mantém sua velocidade normal.
+A regeneração passiva permanece inalterada. A Meditation ativa de jogadores e do PvP Trainer não recebe mais a duplicação do componente de Meditation.

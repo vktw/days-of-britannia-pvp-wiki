@@ -1,6 +1,6 @@
 # Healing and resources
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
 Tracks, delays and recovery correspond to the official server.
 
 ## Healing Tracks
@@ -53,7 +53,7 @@ itemBonus = (itemBase × sqrt(Mana Regen) − (itemBase − 1)) / 10
 interval = 1 / (0.2 + focusBonus + medBonus + itemBonus)
 ```
 
-`Mana Regen` represents the applicable equipment attribute; disabled modern attributes do not grant ruleset advantage. During active Meditation, `medBonus` is doubled.
+`Mana Regen` represents the applicable equipment attribute; disabled modern attributes do not grant ruleset advantage. During active Meditation, `medBonus` is not doubled.
 
 ### Effective recovery
 
@@ -62,12 +62,12 @@ The examples below consider Focus 100.0, Meditation 100.0 and no Mana Regen from
 | INT | Status | Range per mana | Mana per second | Mana per minute |
 |---:|---|---:|---:|---:|
 | 100 | Passive | 1.324 s | **0.755** | **45.33** |
-| 100 | Active Meditation | 0.398 s | **2,511** | **150.65** |
+| 100 | Active Meditation | 0.662 s | **1.511** | **90.67** |
 | 120 | Passive | 1.282 s | **0.780** | **46.83** |
-| 120 | Active Meditation | 0.383 s | **2,611** | **156.65** |
+| 120 | Active Meditation | 0.641 s | **1.561** | **93.66** |
 
-In practice, a character with INT 100 recovers approximately **7.6 mana in 10 seconds** passively or **25.1 mana in 10 seconds** by actively meditating. With INT 120, recovers approximately **7.8 mana in 10 seconds** passively or **26.1 mana in 10 seconds** with Meditation active.
+In practice, a character with INT 100 recovers approximately **7.6 mana in 10 seconds** passively or **15.1 mana in 10 seconds** by actively meditating. With INT 120, recovers approximately **7.8 mana in 10 seconds** passively or **15.6 mana in 10 seconds** with Meditation active.
 
 These values ​​represent Live's actual mathematical rate; points enter individually as each interval is completed.
 
-The reduction only applies to the passive regeneration of players and the PvP Trainer. Active Meditation maintains your normal speed.
+Passive regeneration remains unchanged. Active Meditation for players and the PvP Trainer no longer doubles the Meditation component.

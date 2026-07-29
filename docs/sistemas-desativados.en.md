@@ -1,6 +1,6 @@
 # Systems disabled
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
     The blocks below are part of the official ruleset.
 
 To preserve classic balance, the following modern systems are globally locked or neutralized in PvP Sphere. Classes and properties can remain serializable for compatibility with saves, and some mechanics retain behavior outside of PvP when indicated:

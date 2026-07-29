@@ -1,6 +1,6 @@
 # Classic weapons
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
 The tiers and bonuses below are active on the official server.
 
 | Tier | Damage bonus |
@@ -36,3 +36,9 @@ Special moves remain disabled and do not determine the weapon's poison compatibi
 These are comparative references under the canonical conditions described in [Melee and Archery](../combate/melee-archery.md), before poison or defensive mitigation.
 
 See [Melee and Archery](../combate/melee-archery.md) and [Poison](../combate/poison.md).
+
+## Planned 0.10.1 inventory
+
+The local 0.10.1 candidate has 46 competitive weapon families in the Loot Pack weapon roll. The shared Arena and PvP Camp kits use Bow, War Mace, Kryss, Bardiche, Black Staff, War Hammer, and Axe.
+
+<a class="md-button md-button--primary" href="../assets/inventario-armas-0.10.1.html">Open the Portuguese interactive inventory for candidate 0.10.1</a>

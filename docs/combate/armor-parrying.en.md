@@ -1,6 +1,6 @@
 # Armor and Parrying
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
     Regional absorption and Parrying correspond to the official server.
 
 ## Body regions
@@ -39,7 +39,7 @@ Protection absorption = round(after armor × Protection / 100)
 final damage = max(1, after armor − Protection absorption)
 ```
 
-Without armor in the affected region, the attack receives a 15% bonus for an unarmored region. Protection, when active, then absorbs a percentage of this total.
+Without effective armor in the affected region, a PvP hit receives the 25% uncovered-region bonus, rounded to the nearest integer with a minimum bonus of 1 point. When active, Protection then absorbs a percentage of this total. Reactive Armor does not turn an uncovered region into an equipped one.
 
 ## Shields
 
