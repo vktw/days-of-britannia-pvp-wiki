@@ -1,5 +1,26 @@
 # Patch notes
 
+## 0.9.12 · Equilíbrio PvP
+
+- Chance de acerto em PvP com skills iguais passa a 80%; fora do PvP permanece em 70%.
+- Flame Strike, Harm, Fireball e Paralyze recebem os delays de 3,5 / 2,0 / 2,5 / 2,5 segundos; Fireball causa 17, Mind Blast 26 e Energy Bolt 27 no máximo PvP.
+- Deadly Poison PvP usa 12 ticks, limite de 30, 6% da vida atual e mínimo de 6; poison PvP não faz a rolagem inicial de resistência nem perde potência por distância.
+- Fields de jogador e PvP Trainer formam sete tiles e duram 1,5 vez mais. Energy Field bloqueia o participante PvP adversário em todos os segmentos.
+- Meditation ativa deixa de dobrar seu componente de regeneração; a passiva não muda. Dispel PvP passa a remover somente a lista explícita de buffs e estados clássicos documentada em [Magery](combate/magery.md).
+
+## 0.9.11 · Recuperação e backups
+
+- Ghosts podem pedir ressurreição a um healer com dois cliques, inclusive durante a recuperação DoB, respeitando as condições normais do healer.
+- O backup externo criptografado passa a ter segundo ciclo diário; é uma mudança operacional sem alterar o fluxo de jogo.
+
+## 0.9.10 · Ghosts em movimento
+
+- Ghosts podem caminhar durante as escolhas e contagens da recuperação DoB sem cancelar o prazo de retorno.
+
+## 0.9.9 · Ciclo do servidor
+
+- O ciclo ocioso do servidor usa espera do sistema operacional, preservando a cadência e o processamento de jogo.
+
 ## 0.9.8 · Ocllo conectado
 
 - Ocllo passa a integrar a rede pública de moongates de Felucca.

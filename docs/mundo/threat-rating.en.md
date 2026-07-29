@@ -1,6 +1,6 @@
 # Threat Rating
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
     Classification uses formula 3 based on a MaxHits snapshot. The number remains internal; players see only the class, color, and variant.
 
 **Threat Rating** summarizes each creature's endurance as a colored textual class. It lets players compare enemies without exposing an attribute spreadsheet in game.

@@ -1,6 +1,6 @@
 # Newcomer e proteção
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
     O benefício Newcomer está ativo para o primeiro personagem elegível da conta.
 
 Newcomer ajuda a começar com segurança. Ele dura **168 horas** (sete dias) e identifica o personagem com a marca `(Young)`.

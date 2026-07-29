@@ -1,9 +1,9 @@
 # Exemplos de dano
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
     Os exemplos utilizam as fórmulas atualmente publicadas.
 
-Os exemplos abaixo seguem o servidor oficial **Live 0.9.8**. Eles isolam um golpe que ja acertou; a chance de acerto e a chance de Parrying sao sorteios anteriores e independentes.
+Os exemplos abaixo seguem o servidor oficial **Live 0.9.12**. Eles isolam um golpe que ja acertou; a chance de acerto e a chance de Parrying sao sorteios anteriores e independentes.
 
 ## Atacante usado
 
@@ -39,11 +39,11 @@ Um Bow of Vanquishing sorteia dano-base 19:
 ```text
 dano escalado = truncar(19 x 1,90) = truncar(36,10) = 36
 dano bruto = 36 + 9 = 45
-bonus por regiao descoberta = arredondar(45 x 15%) = 7
-dano final = 45 + 7 = 52
+bonus por regiao descoberta = arredondar(45 x 25%) = 11
+dano final = 45 + 11 = 56
 ```
 
-O personagem perde **52 hits**. Roupas comuns e joias sem Physical Resist nao eliminam esse bonus.
+O personagem perde **56 hits**. Roupas comuns e joias sem Physical Resist nao eliminam esse bonus.
 
 ## Exemplo 2: armor regional
 
@@ -69,12 +69,12 @@ dano final = 37 - 3 = 34
 
 O personagem perde **34 hits**.
 
-Se a regiao estiver vazia, primeiro entra o bonus de 15% e depois Protection:
+Se a regiao estiver vazia, primeiro entra o bonus de 25% e depois Protection:
 
 ```text
-apos bonus de regiao descoberta = 45 + arredondar(45 x 15%) = 52
-absorcao de Protection = arredondar(52 x 8%) = 4
-dano final = 52 - 4 = 48
+apos bonus de regiao descoberta = 45 + arredondar(45 x 25%) = 56
+absorcao de Protection = arredondar(56 x 8%) = 4
+dano final = 56 - 4 = 52
 ```
 
 ## Exemplo 4: Parrying com shield
@@ -95,10 +95,10 @@ Para o mesmo dano bruto de 45:
 
 | Defesa encontrada | Calculo | Dano final |
 |---|---|---:|
-| Regiao vazia, sem Protection | 45 + 15% | **52** |
+| Regiao vazia, sem Protection | 45 + 25% | **56** |
 | Peca com 18% Physical Resist | 45 - 18% | **37** |
 | Peca com 18% e Protection 8% | 45 - 18%, depois -8% | **34** |
-| Regiao vazia e Protection 8% | 45 + 15%, depois -8% | **48** |
+| Regiao vazia e Protection 8% | 45 + 25%, depois -8% | **52** |
 | Parry com shield de 31% | 45 - 31% | **31** |
 
 O resultado pratico pode envolver tres sorteios separados: acerto do ataque, sucesso do Parrying e, quando nao ha bloqueio, regiao corporal. Os percentuais de absorcao deixam de ser aleatorios.

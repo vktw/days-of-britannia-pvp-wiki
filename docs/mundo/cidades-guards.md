@@ -1,6 +1,6 @@
 # Cidades e guards
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
     Esta página registra somente exceções confirmadas. A ausência de uma cidade na lista não significa que ela seja desprotegida.
 
 ## Cove

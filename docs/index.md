@@ -84,8 +84,8 @@ hide:
 <section class="dob-atlas-update" aria-labelledby="dob-release-title">
   <div>
     <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
-    <h2 id="dob-release-title">0.9.8 · Ocllo conectado</h2>
+    <h2 id="dob-release-title">0.9.12 · Equilíbrio PvP</h2>
   </div>
-  <p>Ocllo ganha Animal Trainer e conexão à rede pública de moongates de Felucca, mantendo o Safe Haven.</p>
+  <p>O combate PvP recebe ajustes de Magery, poison, fields, acerto e regeneração de mana.</p>
   <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

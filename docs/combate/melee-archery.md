@@ -1,13 +1,13 @@
 # Melee e Archery
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
     Fórmulas e comportamentos ativos no servidor oficial.
 
 ## Chance de acerto
 
-Com skill ofensiva 100.0 contra defesa 100.0, Melee e Archery possuem **70% de chance de acerto**. A fórmula é:
+Com skill ofensiva 100.0 contra defesa 100.0, Melee e Archery possuem **80% de chance de acerto em PvP** e 70% fora do PvP. A fórmula é:
 
-`chance = 1,40 × (ataque + 50) ÷ [2 × (defesa + 50)]`
+`chance = multiplicador × (ataque + 50) ÷ [2 × (defesa + 50)]`, onde o multiplicador é 1,60 em PvP e 1,40 fora dele.
 
 O resultado final fica limitado entre 2% e 98%.
 
@@ -50,7 +50,7 @@ A STR efetiva fica limitada entre 0 e 120. O dano bruto é calculado na seguinte
 
 O mesmo cálculo é usado por Melee e Archery. A skill da arma determina a chance de acerto, mas não aparece novamente na fórmula de dano bruto.
 
-Armas envenenadas consomem uma carga e aplicam poison em todo golpe bem-sucedido.
+Armas envenenadas consomem uma carga e aplicam poison em todo golpe bem-sucedido. Em PvP, um acerto em região sem armor efetiva recebe 25% de dano adicional, arredondado ao inteiro mais próximo e com mínimo de 1 ponto; Protection é aplicada depois. Reactive Armor não faz a região contar como equipada.
 
 ### Papéis competitivos
 

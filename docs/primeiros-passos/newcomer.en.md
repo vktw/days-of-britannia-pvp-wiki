@@ -1,6 +1,6 @@
 # Newcomer and protection
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
     The Newcomer benefit is active for the account's first eligible character.
 
 Newcomer helps you get started safely. It lasts **168 hours** (seven days) and marks the character as `(Young)`.

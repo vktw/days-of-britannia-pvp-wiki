@@ -1,13 +1,13 @@
 # Melee and Archery
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
 Formulas and behaviors active on the official server.
 
 ## Chance of success
 
-With offensive skill 100.0 against defense 100.0, Melee and Archery have **70% hit chance**. The formula is:
+With offensive skill 100.0 against defense 100.0, Melee and Archery have an **80% PvP hit chance** and 70% outside PvP. The formula is:
 
-`chance = 1.40 × (attack + 50) ÷ [2 × (defense + 50)]`
+`chance = multiplier × (attack + 50) ÷ [2 × (defense + 50)]`, where the multiplier is 1.60 in PvP and 1.40 outside it.
 
 The final result is limited between 2% and 98%.
 
@@ -50,7 +50,7 @@ Effective STR is limited between 0 and 120. Raw damage is calculated in the foll
 
 The same calculation is used by Melee and Archery. The weapon's skill determines the hit chance, but does not appear again in the raw damage formula.
 
-Poisoned weapons consume a charge and poison every successful hit.
+Poisoned weapons consume a charge and poison every successful hit. In PvP, a hit on a body region without effective armor receives a 25% damage bonus, rounded to the nearest integer with a minimum bonus of 1 point; Protection is applied afterward. Reactive Armor does not make the region count as equipped.
 
 ### Competitive roles
 

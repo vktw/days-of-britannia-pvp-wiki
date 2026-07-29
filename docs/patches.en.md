@@ -1,5 +1,26 @@
 # Patch notes
 
+## 0.9.12 · PvP balance
+
+- Equal-skill PvP hit chance is now 80%; outside PvP it remains 70%.
+- Flame Strike, Harm, Fireball, and Paralyze use 3.5 / 2.0 / 2.5 / 2.5-second delays; Fireball deals 17, Mind Blast 26, and Energy Bolt 27 at PvP maximum scaling.
+- PvP Deadly Poison uses 12 ticks, a 30-point cap, 6% of current health, and a 6-point floor; PvP poison has no initial resistance roll or distance potency loss.
+- Player and PvP Trainer fields form seven tiles and last 1.5 times longer. Energy Field blocks the opposing direct PvP participant on every segment.
+- Active Meditation no longer doubles its regeneration component; passive regeneration is unchanged. PvP Dispel now removes only the explicit list of classic buffs and states documented in [Magery](combate/magery.md).
+
+## 0.9.11 · Recovery and backups
+
+- Ghosts can request resurrection from a healer with a double-click, including during DoB recovery, while meeting the healer's normal conditions.
+- The encrypted off-site backup gains a second daily cycle; this is an operational change and does not alter gameplay flow.
+
+## 0.9.10 · Moving ghosts
+
+- Ghosts can walk during DoB recovery choices and countdowns without cancelling the return deadline.
+
+## 0.9.9 · Server cycle
+
+- The server's idle cycle uses an operating-system wait while preserving game cadence and processing.
+
 ## 0.9.8 · Ocllo connected
 
 - Ocllo joins Felucca's public moongate network.

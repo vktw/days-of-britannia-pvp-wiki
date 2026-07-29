@@ -1,6 +1,6 @@
 # Inventário de Threat
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
     Este catálogo é gerado sobre as classes disponíveis nos scripts usando a fórmula 3. Ele não depende da população atual do mundo.
 
 O catálogo-fonte contém **618 classes**, todas resolvidas pela análise estática. Vendors, summons, criaturas controladas e outros tipos inelegíveis continuam sem Threat mesmo quando a classe-fonte pode ser analisada.

@@ -1,6 +1,6 @@
 # Armaduras clássicas
 
-!!! success "Status: Live 0.9.8"
+!!! success "Status: Live 0.9.12"
     Physical Resist e tiers correspondem ao comportamento oficial da versão atual.
 
 | Tier | Bônus de Physical Resist |
