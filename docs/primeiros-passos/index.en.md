@@ -5,6 +5,8 @@
 
 This section walks you through installing the official launcher and starting to explore Britannia.
 
+If this is your first contact with the game, start with [Ultima Online Brasil: shards, servers, and community](ultima-online-brasil.md) to understand UO, freeshards, and the Brazilian community.
+
 ## Recommended sequence
 
 1. Download and open the [official DOB Launcher](conexao.md).
@@ -16,6 +18,7 @@ This section walks you through installing the official launcher and starting to 
 
 ## Useful references
 
+- [Ultima Online Brasil: shards, servers, and community](ultima-online-brasil.md)
 - [DoB Razor](dob-razor.md)
 - [Stats, skills, buffs and race](../personagem.md)
 - [Maps and travel](../mundo/mapas-viagem.md)

@@ -5,6 +5,8 @@
 
 Esta seção acompanha o caminho entre instalar o launcher oficial e começar a explorar Britannia.
 
+Se este é seu primeiro contato com o jogo, comece por [Ultima Online Brasil: shards, servidores e comunidade](ultima-online-brasil.md) para entender UO, freeshards e a comunidade brasileira.
+
 ## Sequência recomendada
 
 1. Baixe e abra o [DoB Launcher oficial](conexao.md).
@@ -16,6 +18,7 @@ Esta seção acompanha o caminho entre instalar o launcher oficial e começar a 
 
 ## Referências úteis
 
+- [Ultima Online Brasil: shards, servidores e comunidade](ultima-online-brasil.md)
 - [DoB Razor](dob-razor.md)
 - [Stats, skills, buffs e raça](../personagem.md)
 - [Mapas e viagem](../mundo/mapas-viagem.md)

@@ -44,6 +44,7 @@ plugins:
             Inicio: Home
             Primeiros passos: Getting started
             Comece aqui: Start here
+            Ultima Online Brasil: Ultima Online Brasil
             Como conectar: How to connect
             Seu primeiro personagem: Your first character
             Newcomer e proteção: Newcomer and protection
@@ -85,6 +86,7 @@ nav:
   - Inicio: index.md
   - Primeiros passos:
       - Comece aqui: primeiros-passos/index.md
+      - Ultima Online Brasil: primeiros-passos/ultima-online-brasil.md
       - Como conectar: primeiros-passos/conexao.md
       - Seu primeiro personagem: primeiros-passos/personagem-inicial.md
       - Newcomer e proteção: primeiros-passos/newcomer.md
