@@ -5,33 +5,137 @@
 
 The **Hunter's Compendium** records hunting knowledge, points, and the character's active build. Existing characters receive the book on their first login while the system is active; new characters receive it at creation. Keep it in the main backpack and double-click it to open.
 
+## How the system works
+
+1. Participate in killing eligible creatures to earn PvM Mastery XP.
+2. Accumulate the required XP and purchase points through the Compendium with gold from the backpack or bank.
+3. Find **Scrolls of Knowledge** to discover new masteries.
+4. Distribute points among the knowledge you have discovered.
+5. Choose up to five masteries for your active build.
+
+A discovered mastery remains available to the character. Its levels also remain saved when it leaves the active build.
+
 ## Progression and points
 
-- Eligible creatures grant PvM Mastery experience to nearby participants with looting rights.
-- Experience belongs to the character and is shared in a group-friendly way.
-- After qualifying for a new point, confirm its purchase through the Compendium using gold from the backpack or bank.
-- Each mastery can reach level 10; a character can hold up to 45 points.
-- A build accepts up to five active masteries.
-- Points can be redistributed through the Compendium while the character is out of combat.
+Each mastery has 10 levels. A character can hold up to 45 points and keep no more than five masteries active, so five masteries cannot all be maximized at once: point distribution is part of the build.
 
-Progress remains saved even when a mastery is not in the current build.
+| Next point | XP requirement | Gold cost |
+|---|---:|---:|
+| 1st | 1,000 | 1,000 |
+| Each following point | +500 over the previous requirement | +1,000 over the previous cost |
+
+In a group, each eligible participant receives a share of the XP:
+
+| Eligible players | XP for each player |
+|---:|---:|
+| 1 | 100% |
+| 2 | 80% |
+| 3 | 70% |
+| 4 | 60% |
+| 5 or more | 50% |
+
+To participate, the character must have looting rights and be within 18 tiles of the encounter. Points can be redistributed through the Compendium while the character is out of combat. This makes it possible to keep different setups for hunts, groups, or roles without losing progress.
 
 ## Scrolls of Knowledge
 
-Eligible creatures may drop **Scrolls of Knowledge**. Each scroll belongs to a Slayer family and reveals a mastery from that family. The Compendium itself shows which families can reveal knowledge that is still locked.
+Eligible creatures may leave **Scrolls of Knowledge** on the corpse. Each scroll belongs to a Slayer family and reveals a mastery from that family. The Compendium shows the family of each piece of knowledge that is still locked, helping players choose which creatures to hunt.
 
-Scrolls have different rarities and use the normal corpse loot lifetime. Finding one does not require a mastery to be active beforehand.
+The seven families are **Undead**, **Humanoid**, **Reptilian**, **Abyssal**, **Elemental**, **Arachnid**, and **Fey**. Rarities indicate the general type of knowledge:
 
-## Available playstyles
+- **Basic:** a direct, consistent improvement;
+- **Proc:** an effect that may trigger during combat;
+- **Synergy:** rewards a condition, sequence, or combination;
+- **Area:** interacts with nearby eligible creatures.
 
-Masteries cover playstyles such as health or mana recovery, Melee, Archery or Magery specialization, defense, effect resistance, situational damage, and focused hunting.
+The scroll uses the normal corpse loot lifetime. A mastery does not need to be active for its scroll to drop. After discovering a mastery, use the Compendium to track its level and read the description shown in game.
 
-Live 0.10.2 also includes:
+## Live 0.10.2 catalog
 
-- **Resonant Cascade:** can spread targeted Peacemaking, Discordance, or Provocation to nearby eligible creatures.
-- **Summoned Vitality:** increases the health of summons created by the player while the mastery is active.
+### Offense and resources
 
-Use the description inside the Compendium to understand the effect and progression of each discovered mastery.
+| Mastery | Family | Rarity | What it offers |
+|---|---|---|---|
+| **Hit Life Leech** | Undead | Basic | Restores health from effective PvM damage. Helps characters that remain in combat for longer. |
+| **Hit Mana Leech** | Undead | Basic | Restores mana from effective PvM damage. Useful for builds that consume mana frequently. |
+| **Melee Damage Increase** | Humanoid | Basic | Increases direct Melee damage against creatures. |
+| **Archery Damage Increase** | Reptilian | Basic | Increases direct Archery damage against creatures. |
+| **Spell Damage Increase** | Abyssal | Basic | Increases magical PvM damage dealt directly by the character. |
+| **Melee Hit Chance Increase** | Humanoid | Basic | Improves the chance to hit with Melee attacks in PvM. |
+| **Archery Hit Chance Increase** | Reptilian | Basic | Improves the chance to hit with Archery attacks in PvM. |
+| **Hit Lightning Chance** | Elemental | Proc | May add magical Lightning when dealing compatible PvM damage. |
+
+### Defense and control
+
+| Mastery | Family | Rarity | What it offers |
+|---|---|---|---|
+| **Parrying Block Chance Increase** | Fey | Basic | Improves the normal chance to block with Parrying. |
+| **Physical Damage Resistance** | Elemental | Basic | Reduces incoming physical PvM damage. |
+| **Magic Damage Resistance** | Abyssal | Basic | Reduces incoming magical PvM damage. |
+| **Spell Effect Resistance** | Undead | Basic | May negate eligible hostile magical effects. |
+| **Hit Paralyze Chance** | Arachnid | Proc | May paralyze a creature after a direct weapon attack. |
+| **Paralyzed Damage Bonus** | Arachnid | Synergy | Strengthens the next compatible attack against a paralyzed creature. It pairs naturally with sources of paralyze. |
+
+### Hunting rhythm, area, and support
+
+| Mastery | Family | Rarity | What it offers |
+|---|---|---|---|
+| **Hit Effect Area** | Elemental | Area | May distribute an attack's effect among nearby PvM creatures. The original effect is divided, not duplicated. |
+| **Relentless Focus** | Abyssal | Synergy | Increases damage while pressure is maintained on the same creature. It is designed for tougher targets. |
+| **Focused Hunter** | Humanoid | Synergy | Builds strength through consecutive kills of creatures from the same Slayer group. It favors specialized hunts. |
+| **Versatile Hunter** | Fey | Synergy | Strengthens the first direct attack against creature types not faced recently. It favors varied hunting routes. |
+| **Resonant Cascade** | Arachnid | Area | May spread targeted Peacemaking, Discordance, or Provocation to other nearby eligible creatures. |
+| **Summoned Vitality** | Reptilian | Basic | Increases the maximum and current health of player-created summons while active. |
+
+## Example builds
+
+The combinations below are starting points, not mandatory recipes. The best setup depends on discovered scrolls, equipment, creature type, and whether the character hunts alone or in a group.
+
+### Sustained Melee
+
+- **Core:** Melee Damage Increase, Melee Hit Chance Increase, and Hit Life Leech.
+- **Flexible slots:** Relentless Focus for tougher targets; Physical Damage Resistance or Magic Damage Resistance according to the hunt's main threat.
+
+### Versatile Archer
+
+- **Core:** Archery Damage Increase, Archery Hit Chance Increase, and Hit Life Leech.
+- **Flexible slots:** Versatile Hunter for routes with varied enemies; one resistance to reduce the main source of incoming damage.
+
+### Offensive Mage
+
+- **Core:** Spell Damage Increase, Hit Mana Leech, and Hit Lightning Chance.
+- **Flexible slots:** Magic Damage Resistance and Spell Effect Resistance for greater safety, or Relentless Focus against more durable creatures.
+
+### Defense and survival
+
+- **Core:** Physical Damage Resistance, Magic Damage Resistance, and Spell Effect Resistance.
+- **Flexible slots:** Parrying Block Chance Increase for characters using Parrying; Hit Life Leech for recovery during combat.
+
+### Paralyze control
+
+- **Core:** Hit Paralyze Chance and Paralyzed Damage Bonus.
+- **Flexible slots:** a damage mastery suited to the weapon, Hit Effect Area for groups, and a defensive option.
+
+### Group Bard
+
+- **Core:** Resonant Cascade to extend the practical reach of targeted Barding skills.
+- **Flexible slots:** resistances to remain safe while controlling the encounter, plus resource or damage masteries compatible with the rest of the character.
+
+### Durable Summoner
+
+- **Core:** Summoned Vitality to improve the survival of player-created summons.
+- **Flexible slots:** Spell Damage Increase for the character's direct magical attacks, mana recovery, and resistances suited to the hunt.
+
+## Choosing your five slots
+
+Start by identifying the problem that limits the hunt most:
+
+- if enemies take too long to defeat, combine the damage mastery for your style with accuracy or a synergy suited to the encounter;
+- if health or mana runs out too quickly, prioritize the matching leech;
+- if the character takes sudden bursts of damage, choose physical, magical, or effect resistance according to the threat;
+- if the build is already stable, use the remaining slots for specialization, area, control, or support;
+- in a group, do not judge only personal damage: control, survival, and consistency also improve the team's results.
+
+Test one change at a time and use the Compendium's optional combat record to compare discovered masteries. Remember to leave combat before redistributing points.
 
 ## Limits
 

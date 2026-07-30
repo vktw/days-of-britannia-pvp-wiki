@@ -5,33 +5,137 @@
 
 O **Hunter's Compendium** registra conhecimentos de caça, pontos e a build ativa do personagem. Personagens existentes recebem o livro no primeiro login com o sistema ativo; novos personagens o recebem na criação. Mantenha-o na mochila principal e use dois cliques para abrir.
 
+## Como o sistema funciona
+
+1. Participe da morte de criaturas elegíveis para receber XP de PvM Mastery.
+2. Acumule a XP necessária e compre pontos pelo Compendium com gold da mochila ou do banco.
+3. Encontre **Scrolls of Knowledge** para descobrir novas masteries.
+4. Distribua seus pontos entre os conhecimentos descobertos.
+5. Escolha até cinco masteries para formar sua build ativa.
+
+Uma mastery descoberta continua disponível para o personagem. Seus níveis também permanecem salvos quando ela sai da build ativa.
+
 ## Progressão e pontos
 
-- Criaturas elegíveis concedem experiência de PvM Mastery aos participantes com direito ao loot e próximos do encontro.
-- A experiência pertence ao personagem e é compartilhada de forma favorável para grupos.
-- Ao alcançar um novo ponto, confirme a compra pelo Compendium usando gold da mochila ou do banco.
-- Cada mastery pode chegar ao nível 10; o personagem pode acumular até 45 pontos.
-- Uma build aceita até cinco masteries ativas.
-- Pontos podem ser redistribuídos pelo Compendium quando o personagem estiver fora de combate.
+Cada mastery possui 10 níveis. O personagem pode acumular até 45 pontos e manter **até cinco masteries ativas**, portanto não é possível maximizar cinco delas ao mesmo tempo: a distribuição dos pontos faz parte da build.
 
-O progresso continua salvo mesmo quando uma mastery não está na build atual.
+| Próximo ponto | Requisito de XP | Custo em gold |
+|---|---:|---:|
+| 1º | 1.000 | 1.000 |
+| Cada ponto seguinte | +500 sobre o requisito anterior | +1.000 sobre o custo anterior |
+
+Em grupo, cada participante elegível recebe uma parte da XP:
+
+| Jogadores elegíveis | XP para cada jogador |
+|---:|---:|
+| 1 | 100% |
+| 2 | 80% |
+| 3 | 70% |
+| 4 | 60% |
+| 5 ou mais | 50% |
+
+Para participar, o personagem precisa ter direito ao loot e estar a até 18 tiles do encontro. Os pontos podem ser redistribuídos pelo Compendium quando o personagem estiver fora de combate. Isso permite manter configurações diferentes para caçadas, grupos ou funções distintas sem perder progresso.
 
 ## Scrolls of Knowledge
 
-Criaturas elegíveis podem deixar **Scrolls of Knowledge**. Cada scroll pertence a uma família Slayer e revela uma mastery daquela família. O próprio Compendium mostra quais famílias podem liberar conhecimentos ainda ocultos.
+Criaturas elegíveis podem deixar **Scrolls of Knowledge** no corpo. Cada scroll pertence a uma família Slayer e revela uma mastery daquela família. O Compendium mostra a família de cada conhecimento ainda oculto, ajudando a escolher quais criaturas caçar.
 
-Scrolls possuem raridades diferentes e usam o tempo normal de permanência do loot no corpo. Encontrar um scroll não exige ativar previamente uma mastery.
+As sete famílias são **Undead**, **Humanoid**, **Reptilian**, **Abyssal**, **Elemental**, **Arachnid** e **Fey**. As raridades indicam o tipo geral do conhecimento:
 
-## Estilos disponíveis
+- **Basic:** melhoria direta e constante;
+- **Proc:** efeito que pode ser ativado durante o combate;
+- **Synergy:** recompensa uma condição, sequência ou combinação;
+- **Area:** interage com criaturas elegíveis próximas.
 
-As masteries cobrem estilos como recuperação de vida ou mana, especialização em Melee, Archery ou Magery, defesa, resistência a efeitos, dano situacional e caça focada.
+O scroll usa o tempo normal de permanência do loot no corpo. Não é necessário ter uma mastery ativa para encontrá-lo. Ao descobrir uma mastery, consulte o Compendium para acompanhar seu nível e a descrição exibida no jogo.
 
-No Live 0.10.2 também estão disponíveis:
+## Catálogo do Live 0.10.2
 
-- **Resonant Cascade:** pode propagar Peacemaking direcionada, Discordance ou Provocation para criaturas próximas elegíveis.
-- **Summoned Vitality:** aumenta a vida de summons criados pelo próprio jogador enquanto a mastery estiver ativa.
+### Ataque e recursos
 
-Use a descrição dentro do Compendium para entender o efeito e a evolução de cada conhecimento descoberto.
+| Mastery | Família | Raridade | O que oferece |
+|---|---|---|---|
+| **Hit Life Leech** | Undead | Basic | Recupera vida a partir do dano PvM efetivo. Ajuda personagens que permanecem em combate por mais tempo. |
+| **Hit Mana Leech** | Undead | Basic | Recupera mana a partir do dano PvM efetivo. Útil para builds com consumo frequente de mana. |
+| **Melee Damage Increase** | Humanoid | Basic | Aumenta o dano direto de ataques Melee contra criaturas. |
+| **Archery Damage Increase** | Reptilian | Basic | Aumenta o dano direto de Archery contra criaturas. |
+| **Spell Damage Increase** | Abyssal | Basic | Aumenta o dano mágico PvM causado diretamente pelo personagem. |
+| **Melee Hit Chance Increase** | Humanoid | Basic | Melhora a chance de acertar ataques Melee em PvM. |
+| **Archery Hit Chance Increase** | Reptilian | Basic | Melhora a chance de acertar ataques de Archery em PvM. |
+| **Hit Lightning Chance** | Elemental | Proc | Pode acrescentar um Lightning mágico ao causar dano PvM compatível. |
+
+### Defesa e controle
+
+| Mastery | Família | Raridade | O que oferece |
+|---|---|---|---|
+| **Parrying Block Chance Increase** | Fey | Basic | Melhora a chance normal de bloqueio com Parrying. |
+| **Physical Damage Resistance** | Elemental | Basic | Reduz o dano físico PvM recebido. |
+| **Magic Damage Resistance** | Abyssal | Basic | Reduz o dano mágico PvM recebido. |
+| **Spell Effect Resistance** | Undead | Basic | Pode negar efeitos mágicos hostis elegíveis. |
+| **Hit Paralyze Chance** | Arachnid | Proc | Pode paralisar uma criatura após um ataque direto com arma. |
+| **Paralyzed Damage Bonus** | Arachnid | Synergy | Fortalece o próximo ataque compatível contra uma criatura paralisada. Combina naturalmente com fontes de paralyze. |
+
+### Ritmo de caça, área e suporte
+
+| Mastery | Família | Raridade | O que oferece |
+|---|---|---|---|
+| **Hit Effect Area** | Elemental | Area | Pode distribuir o efeito de um ataque entre criaturas PvM próximas. O efeito original é dividido, não duplicado. |
+| **Relentless Focus** | Abyssal | Synergy | Aumenta o dano ao manter pressão sobre a mesma criatura. É voltada a alvos mais resistentes. |
+| **Focused Hunter** | Humanoid | Synergy | Ganha força com abates consecutivos de criaturas do mesmo grupo Slayer. Favorece caçadas especializadas. |
+| **Versatile Hunter** | Fey | Synergy | Fortalece o primeiro ataque direto contra tipos de criatura que não foram enfrentados recentemente. Favorece rotas variadas. |
+| **Resonant Cascade** | Arachnid | Area | Pode propagar Peacemaking direcionada, Discordance ou Provocation para outras criaturas elegíveis próximas. |
+| **Summoned Vitality** | Reptilian | Basic | Aumenta a vida máxima e atual de summons criados pelo próprio jogador enquanto estiver ativa. |
+
+## Exemplos de builds
+
+As combinações abaixo são pontos de partida, não receitas obrigatórias. O melhor conjunto depende dos scrolls descobertos, do equipamento, do tipo de criatura e de jogar sozinho ou em grupo.
+
+### Melee com sustentação
+
+- **Base:** Melee Damage Increase, Melee Hit Chance Increase e Hit Life Leech.
+- **Espaços flexíveis:** Relentless Focus para alvos resistentes; Physical Damage Resistance ou Magic Damage Resistance conforme o perigo da caçada.
+
+### Archer versátil
+
+- **Base:** Archery Damage Increase, Archery Hit Chance Increase e Hit Life Leech.
+- **Espaços flexíveis:** Versatile Hunter para rotas com inimigos variados; uma resistência para reduzir a principal fonte de dano recebida.
+
+### Mage ofensivo
+
+- **Base:** Spell Damage Increase, Hit Mana Leech e Hit Lightning Chance.
+- **Espaços flexíveis:** Magic Damage Resistance e Spell Effect Resistance para maior segurança, ou Relentless Focus ao enfrentar criaturas mais duráveis.
+
+### Defesa e sobrevivência
+
+- **Base:** Physical Damage Resistance, Magic Damage Resistance e Spell Effect Resistance.
+- **Espaços flexíveis:** Parrying Block Chance Increase para personagens que usam Parrying; Hit Life Leech para recuperação durante o combate.
+
+### Controle com Paralyze
+
+- **Base:** Hit Paralyze Chance e Paralyzed Damage Bonus.
+- **Espaços flexíveis:** uma mastery de dano apropriada à arma, Hit Effect Area para grupos e uma opção defensiva.
+
+### Bard em grupo
+
+- **Base:** Resonant Cascade para ampliar o alcance prático das habilidades direcionadas de Barding.
+- **Espaços flexíveis:** resistências para permanecer seguro enquanto controla o encontro e masteries de recurso ou dano compatíveis com o restante do personagem.
+
+### Summoner resistente
+
+- **Base:** Summoned Vitality para melhorar a sobrevivência dos summons próprios.
+- **Espaços flexíveis:** Spell Damage Increase para os ataques mágicos diretos do personagem, recuperação de mana e resistências adequadas à caçada.
+
+## Como escolher seus cinco espaços
+
+Comece identificando o problema que mais limita a caçada:
+
+- se os inimigos demoram a cair, combine a mastery de dano do seu estilo com acerto ou uma synergy adequada ao encontro;
+- se vida ou mana acabam cedo, priorize o leech correspondente;
+- se o personagem recebe picos de dano, escolha resistência física, mágica ou a efeitos conforme a ameaça;
+- se a build já é estável, use os últimos espaços para especialização, área, controle ou suporte;
+- em grupo, evite avaliar apenas dano pessoal: controle, sobrevivência e continuidade também aumentam o resultado da equipe.
+
+Teste uma mudança por vez e use o registro de combate opcional do Compendium para comparar o desempenho das masteries descobertas. Lembre-se de sair do combate antes de redistribuir os pontos.
 
 ## Limites
 
