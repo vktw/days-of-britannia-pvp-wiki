@@ -1,4 +1,4 @@
-# PvM Mastery
+# Maestria PvM
 
 !!! success "Status: Live 0.10.2"
     O Hunter's Compendium oferece progressão própria para personagens que enfrentam criaturas.
@@ -7,17 +7,17 @@ O **Hunter's Compendium** registra conhecimentos de caça, pontos e a build ativ
 
 ## Como o sistema funciona
 
-1. Participe da morte de criaturas elegíveis para receber XP de PvM Mastery.
+1. Participe da morte de criaturas elegíveis para receber XP de Maestria PvM.
 2. Acumule a XP necessária e compre pontos pelo Compendium com gold da mochila ou do banco.
-3. Encontre **Scrolls of Knowledge** para descobrir novas masteries.
+3. Encontre **Scrolls of Knowledge** para descobrir novas Maestrias.
 4. Distribua seus pontos entre os conhecimentos descobertos.
-5. Escolha até cinco masteries para formar sua build ativa.
+5. Escolha até cinco Maestrias para formar sua build ativa.
 
-Uma mastery descoberta continua disponível para o personagem. Seus níveis também permanecem salvos quando ela sai da build ativa.
+Uma Maestria descoberta continua disponível para o personagem. Seus níveis também permanecem salvos quando ela sai da build ativa.
 
 ## Progressão e pontos
 
-Cada mastery possui 10 níveis. O personagem pode acumular até 45 pontos e manter **até cinco masteries ativas**, portanto não é possível maximizar cinco delas ao mesmo tempo: a distribuição dos pontos faz parte da build.
+Cada Maestria possui 10 níveis. O personagem pode acumular até 45 pontos e manter **até cinco Maestrias ativas**, portanto não é possível maximizar cinco delas ao mesmo tempo: a distribuição dos pontos faz parte da build.
 
 | Próximo ponto | Requisito de XP | Custo em gold |
 |---|---:|---:|
@@ -38,7 +38,7 @@ Para participar, o personagem precisa ter direito ao loot e estar a até 18 tile
 
 ## Scrolls of Knowledge
 
-Criaturas elegíveis podem deixar **Scrolls of Knowledge** no corpo. Cada scroll pertence a uma família Slayer e revela uma mastery daquela família. O Compendium mostra a família de cada conhecimento ainda oculto, ajudando a escolher quais criaturas caçar.
+Criaturas elegíveis podem deixar **Scrolls of Knowledge** no corpo. Cada scroll pertence a uma família Slayer e revela uma Maestria daquela família. O Compendium mostra a família de cada conhecimento ainda oculto, ajudando a escolher quais criaturas caçar.
 
 As sete famílias são **Undead**, **Humanoid**, **Reptilian**, **Abyssal**, **Elemental**, **Arachnid** e **Fey**. As raridades indicam o tipo geral do conhecimento:
 
@@ -47,13 +47,13 @@ As sete famílias são **Undead**, **Humanoid**, **Reptilian**, **Abyssal**, **E
 - **Synergy:** recompensa uma condição, sequência ou combinação;
 - **Area:** interage com criaturas elegíveis próximas.
 
-O scroll usa o tempo normal de permanência do loot no corpo. Não é necessário ter uma mastery ativa para encontrá-lo. Ao descobrir uma mastery, consulte o Compendium para acompanhar seu nível e a descrição exibida no jogo.
+O scroll usa o tempo normal de permanência do loot no corpo. Não é necessário ter uma Maestria ativa para encontrá-lo. Ao descobrir uma Maestria, consulte o Compendium para acompanhar seu nível e a descrição exibida no jogo.
 
 ## Catálogo do Live 0.10.2
 
 ### Ataque e recursos
 
-| Mastery | Família | Raridade | O que oferece |
+| Maestria | Família | Raridade | O que oferece |
 |---|---|---|---|
 | **Hit Life Leech** | Undead | Basic | Recupera vida a partir do dano PvM efetivo. Ajuda personagens que permanecem em combate por mais tempo. |
 | **Hit Mana Leech** | Undead | Basic | Recupera mana a partir do dano PvM efetivo. Útil para builds com consumo frequente de mana. |
@@ -66,7 +66,7 @@ O scroll usa o tempo normal de permanência do loot no corpo. Não é necessári
 
 ### Defesa e controle
 
-| Mastery | Família | Raridade | O que oferece |
+| Maestria | Família | Raridade | O que oferece |
 |---|---|---|---|
 | **Parrying Block Chance Increase** | Fey | Basic | Melhora a chance normal de bloqueio com Parrying. |
 | **Physical Damage Resistance** | Elemental | Basic | Reduz o dano físico PvM recebido. |
@@ -77,7 +77,7 @@ O scroll usa o tempo normal de permanência do loot no corpo. Não é necessári
 
 ### Ritmo de caça, área e suporte
 
-| Mastery | Família | Raridade | O que oferece |
+| Maestria | Família | Raridade | O que oferece |
 |---|---|---|---|
 | **Hit Effect Area** | Elemental | Area | Pode distribuir o efeito de um ataque entre criaturas PvM próximas. O efeito original é dividido, não duplicado. |
 | **Relentless Focus** | Abyssal | Synergy | Aumenta o dano ao manter pressão sobre a mesma criatura. É voltada a alvos mais resistentes. |
@@ -113,12 +113,12 @@ As combinações abaixo são pontos de partida, não receitas obrigatórias. O m
 ### Controle com Paralyze
 
 - **Base:** Hit Paralyze Chance e Paralyzed Damage Bonus.
-- **Espaços flexíveis:** uma mastery de dano apropriada à arma, Hit Effect Area para grupos e uma opção defensiva.
+- **Espaços flexíveis:** uma Maestria de dano apropriada à arma, Hit Effect Area para grupos e uma opção defensiva.
 
 ### Bard em grupo
 
 - **Base:** Resonant Cascade para ampliar o alcance prático das habilidades direcionadas de Barding.
-- **Espaços flexíveis:** resistências para permanecer seguro enquanto controla o encontro e masteries de recurso ou dano compatíveis com o restante do personagem.
+- **Espaços flexíveis:** resistências para permanecer seguro enquanto controla o encontro e Maestrias de recurso ou dano compatíveis com o restante do personagem.
 
 ### Summoner resistente
 
@@ -129,16 +129,16 @@ As combinações abaixo são pontos de partida, não receitas obrigatórias. O m
 
 Comece identificando o problema que mais limita a caçada:
 
-- se os inimigos demoram a cair, combine a mastery de dano do seu estilo com acerto ou uma synergy adequada ao encontro;
+- se os inimigos demoram a cair, combine a Maestria de dano do seu estilo com acerto ou uma synergy adequada ao encontro;
 - se vida ou mana acabam cedo, priorize o leech correspondente;
 - se o personagem recebe picos de dano, escolha resistência física, mágica ou a efeitos conforme a ameaça;
 - se a build já é estável, use os últimos espaços para especialização, área, controle ou suporte;
 - em grupo, evite avaliar apenas dano pessoal: controle, sobrevivência e continuidade também aumentam o resultado da equipe.
 
-Teste uma mudança por vez e use o registro de combate opcional do Compendium para comparar o desempenho das masteries descobertas. Lembre-se de sair do combate antes de redistribuir os pontos.
+Teste uma mudança por vez e use o registro de combate opcional do Compendium para comparar o desempenho das Maestrias descobertas. Lembre-se de sair do combate antes de redistribuir os pontos.
 
 ## Limites
 
-PvM Mastery funciona somente em encontros PvM elegíveis. Não concede efeitos contra jogadores, pets controlados, summons adversários, participantes de Arena ou durante agressão PvP recente.
+Maestria PvM funciona somente em encontros PvM elegíveis. Não concede efeitos contra jogadores, pets controlados, summons adversários, participantes de Arena ou durante agressão PvP recente.
 
 Consulte [Recompensas PvM](../itens/recompensas-pvm.md) para XP, Loot Packs, joias e amuletos.
