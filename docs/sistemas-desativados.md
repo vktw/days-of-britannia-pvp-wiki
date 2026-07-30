@@ -8,7 +8,7 @@ Para preservar o equilíbrio clássico, os seguintes sistemas modernos ficam ind
 - Weapon abilities e special moves.
 - Necromancy, Chivalry, Bushido, Ninjitsu, Spellweaving e Mysticism.
 - Throwing e Imbuing.
-- Skill Masteries modernas do UO. O [PvM Mastery próprio do DoB](sistemas/pvm-mastery.md) permanece ativo.
+- Maestrias de Skill modernas do UO. A [Maestria PvM própria do DoB](sistemas/pvm-mastery.md) permanece ativa.
 - Slayer e Super Slayer.
 - Talismans, set bonuses e Extended Weapon Attributes.
 - Bônus especiais de artifacts.

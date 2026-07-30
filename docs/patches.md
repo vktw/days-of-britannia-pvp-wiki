@@ -2,7 +2,7 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
-## 0.10.2 · Novos caminhos de Mestria
+## 0.10.2 · Novos caminhos de Maestria
 
 - Entram Resonant Cascade para Bardos e Summoned Vitality para invocadores.
 - Dragon Breath passa a aumentar o Threat e as recompensas proporcionais da criatura.
@@ -19,12 +19,12 @@ Esta página resume mudanças percebidas pelos jogadores. Números atuais e inst
 - Em Felucca, a proteção de guards de Britain e Moonglow fica restrita aos núcleos urbanos clássicos.
 - O painel `.patchnotes` passa a permitir alternância entre português e inglês.
 
-## 0.10.0 · Mestria PvM
+## 0.10.0 · Maestria PvM
 
-- O Hunter's Compendium entra em operação com progressão por personagem, Scrolls of Knowledge e builds de até cinco masteries.
-- Criaturas elegíveis passam a conceder experiência de PvM Mastery, gold e oportunidades de Loot Pack proporcionais ao encontro.
+- O Hunter's Compendium entra em operação com progressão por personagem, Scrolls of Knowledge e builds de até cinco Maestrias.
+- Criaturas elegíveis passam a conceder experiência de Maestria PvM, gold e oportunidades de Loot Pack proporcionais ao encontro.
 - No PvM, skills equivalentes resultam em 50% de chance base de acerto e até 50% de bloqueio com Parrying.
-- Newcomers elegíveis recebem 25% adicionais de experiência de PvM Mastery e gold de criaturas.
+- Newcomers elegíveis recebem 25% adicionais de experiência de Maestria PvM e gold de criaturas.
 - Loot Packs podem entregar equipamentos clássicos, joias de atributos, amuletos de skill e utilidades.
 
 ## 0.9.12 · Equilíbrio PvP

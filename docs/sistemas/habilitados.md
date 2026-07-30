@@ -14,7 +14,7 @@
 - Runebooks, Recall e Gate Travel dentro da faceta pública Felucca; Trammel permanece restrita às arenas oficiais.
 - Arenas, rankings, temporadas e PvP Trainer.
 - Threat Rating textual para criaturas PvM, com Paragon exibido como variante separada.
-- PvM Mastery com Hunter's Compendium, Scrolls of Knowledge e builds de até cinco conhecimentos ativos.
+- Maestria PvM com Hunter's Compendium, Scrolls of Knowledge e builds de até cinco conhecimentos ativos.
 - Recompensas PvM proporcionais ao encontro, incluindo Loot Packs, joias e amuletos de skill.
 - Auto-account e até duas conexões simultâneas por IP externo.
 

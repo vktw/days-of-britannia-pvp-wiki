@@ -3,7 +3,7 @@
 !!! success "Status: Live 0.10.2"
     Criaturas elegíveis recompensam o grupo conforme a escala do encontro.
 
-Ao derrotar uma criatura elegível, participantes próximos com direito ao loot podem receber experiência de PvM Mastery. Gold, chance de Loot Pack e outras recompensas acompanham a resistência do encontro; a classe de Threat ajuda a comparar o risco, mas não garante um item específico.
+Ao derrotar uma criatura elegível, participantes próximos com direito ao loot podem receber experiência de Maestria PvM. Gold, chance de Loot Pack e outras recompensas acompanham a resistência do encontro; a classe de Threat ajuda a comparar o risco, mas não garante um item específico.
 
 ## Loot Packs
 
@@ -30,6 +30,6 @@ Uma ação relacionada à skill equipada consome um uso. O último uso ainda ben
 
 ## Newcomer
 
-Personagens com o benefício Young elegível recebem 25% adicionais de experiência de PvM Mastery e gold de criaturas. As regras normais de participação, proximidade e direito ao loot continuam valendo.
+Personagens com o benefício Young elegível recebem 25% adicionais de experiência de Maestria PvM e gold de criaturas. As regras normais de participação, proximidade e direito ao loot continuam valendo.
 
-Veja também [PvM Mastery](../sistemas/pvm-mastery.md) e [Threat Rating](../mundo/threat-rating.md).
+Veja também [Maestria PvM](../sistemas/pvm-mastery.md) e [Threat Rating](../mundo/threat-rating.md).

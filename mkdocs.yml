@@ -69,7 +69,7 @@ plugins:
             Arena e treinamento: Arena and training
             Sistemas: Systems
             Sistemas habilitados: Enabled systems
-            PvM Mastery: PvM Mastery
+            Maestria PvM: PvM Mastery
             Sistemas desativados: Disabled systems
             Comandos: Commands
             Atualizações: Updates
@@ -117,7 +117,7 @@ nav:
   - Sistemas:
       - Visão geral: sistemas/index.md
       - Sistemas habilitados: sistemas/habilitados.md
-      - PvM Mastery: sistemas/pvm-mastery.md
+      - Maestria PvM: sistemas/pvm-mastery.md
       - Sistemas desativados: sistemas-desativados.md
   - Comandos: comandos.md
   - Atualizações:

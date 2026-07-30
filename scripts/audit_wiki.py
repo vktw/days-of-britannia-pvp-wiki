@@ -38,7 +38,7 @@ REQUIRED_HEADINGS = {
     "sistemas-desativados.md": ["# Sistemas desativados", "## Pets e summons"],
     "mundo/threat-rating.md": ["# Threat Rating", "## Exemplos da escala"],
     "mundo/threat-inventory.md": ["# Como consultar Threat"],
-    "sistemas/pvm-mastery.md": ["# PvM Mastery", "## Progressão e pontos", "## Scrolls of Knowledge"],
+    "sistemas/pvm-mastery.md": ["# Maestria PvM", "## Progressão e pontos", "## Scrolls of Knowledge"],
     "itens/recompensas-pvm.md": ["# Recompensas PvM", "## Loot Packs", "## Joias mágicas", "## Amuletos de skill"],
 }
 
@@ -53,8 +53,8 @@ REQUIRED_LIVE_CLAIMS = {
     "itens/armas.md": ["não determinam a compatibilidade da arma com poison"],
     "mundo/threat-rating.md": ["Neira | Legendary", "Harrower | Mythic"],
     "mundo/threat-inventory.md": ["classificação visível no jogo"],
-    "sistemas/pvm-mastery.md": ["Status: Live 0.10.2", "até cinco masteries ativas"],
-    "primeiros-passos/newcomer.md": ["25% adicionais de experiência de PvM Mastery"],
+    "sistemas/pvm-mastery.md": ["Status: Live 0.10.2", "até cinco Maestrias ativas"],
+    "primeiros-passos/newcomer.md": ["25% adicionais de experiência de Maestria PvM"],
     "combate/magery.md": ["uma carga", "alcance de 12 tiles", "| Harm | 1,75 s |"],
 }
 
