@@ -47,6 +47,18 @@ The seven families are **Undead**, **Humanoid**, **Reptilian**, **Abyssal**, **E
 - **Synergy:** rewards a condition, sequence, or combination;
 - **Area:** interacts with nearby eligible creatures.
 
+Use these examples to recognize each family. They do not guarantee a scroll: they only show familiar creatures that belong to the group.
+
+| Family | Creature examples |
+|---|---|
+| **Undead** | Zombie, Skeleton, and Lich |
+| **Humanoid** | Orc, Ogre, and Troll |
+| **Reptilian** | Lizardman, Drake, and Dragon |
+| **Abyssal** | Imp, Daemon, and Balron |
+| **Elemental** | Earth Elemental, Fire Elemental, and Water Elemental |
+| **Arachnid** | Giant Spider, Scorpion, and Terathan |
+| **Fey** | Pixie, Wisp, and Centaur |
+
 The scroll uses the normal corpse loot lifetime. A mastery does not need to be active for its scroll to drop. After discovering a mastery, use the Compendium to track its level and read the description shown in game.
 
 ## Live 0.10.2 catalog
@@ -119,6 +131,8 @@ The combinations below are starting points, not mandatory recipes. The best setu
 
 - **Core:** Resonant Cascade to extend the practical reach of targeted Barding skills.
 - **Flexible slots:** resistances to remain safe while controlling the encounter, plus resource or damage masteries compatible with the rest of the character.
+
+Resonant Cascade may begin after a successful **targeted Peacemaking**, **Discordance**, or **Provocation** action and spread that control to other nearby eligible PvM creatures. Area Peacemaking, failed attempts, and ineligible targets do not start the echo. The original action still uses its instrument and skill check normally.
 
 ### Durable Summoner
 

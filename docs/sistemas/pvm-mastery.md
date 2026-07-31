@@ -47,6 +47,18 @@ As sete famílias são **Undead**, **Humanoid**, **Reptilian**, **Abyssal**, **E
 - **Synergy:** recompensa uma condição, sequência ou combinação;
 - **Area:** interage com criaturas elegíveis próximas.
 
+Use estes exemplos para reconhecer cada família. Eles não garantem um scroll: apenas mostram criaturas conhecidas que pertencem ao grupo.
+
+| Família | Exemplos de criaturas |
+|---|---|
+| **Undead** | Zombie, Skeleton e Lich |
+| **Humanoid** | Orc, Ogre e Troll |
+| **Reptilian** | Lizardman, Drake e Dragon |
+| **Abyssal** | Imp, Daemon e Balron |
+| **Elemental** | Earth Elemental, Fire Elemental e Water Elemental |
+| **Arachnid** | Giant Spider, Scorpion e Terathan |
+| **Fey** | Pixie, Wisp e Centaur |
+
 O scroll usa o tempo normal de permanência do loot no corpo. Não é necessário ter uma Maestria ativa para encontrá-lo. Ao descobrir uma Maestria, consulte o Compendium para acompanhar seu nível e a descrição exibida no jogo.
 
 ## Catálogo do Live 0.10.2
@@ -119,6 +131,8 @@ As combinações abaixo são pontos de partida, não receitas obrigatórias. O m
 
 - **Base:** Resonant Cascade para ampliar o alcance prático das habilidades direcionadas de Barding.
 - **Espaços flexíveis:** resistências para permanecer seguro enquanto controla o encontro e Maestrias de recurso ou dano compatíveis com o restante do personagem.
+
+Resonant Cascade pode começar depois de uma **Peacemaking direcionada**, **Discordance** ou **Provocation** bem-sucedida e propagar o controle para outras criaturas PvM elegíveis próximas. Peacemaking em área, tentativas que falham e alvos que não são elegíveis não iniciam a propagação. A ação original continua usando normalmente o instrumento e o teste da skill.
 
 ### Summoner resistente
 

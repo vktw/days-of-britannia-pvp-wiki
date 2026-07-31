@@ -29,6 +29,22 @@ Special moves remain disabled and do not determine a weapon's poison compatibili
 
 Short two-handed weapons based on Fencing or Swords can also receive poison. Macing weapons, Archery, tools, and incompatible long weapons remain unable to do so.
 
+## Competitive catalog
+
+The **46 competitive families** below are available to players and may appear in the Loot Pack weapon roll. The table groups weapons that perform the same role; differences in speed and impact remain visible in each item's in-game properties.
+
+| Role | Skill | Hands | Range | Poison | Shield | Available weapons |
+|---|---|:---:|:---:|:---:|:---:|---|
+| Short, two-handed, poisonable | Fencing or Swords | 2 | 1 | Yes | No | Short Spear, War Cleaver, Crescent Blade, Axe, Double Axe, Executioner's Axe, Battle Axe, Two Handed Axe, and Large Battle Axe |
+| Short, two-handed, no poison | Mace Fighting | 2 | 1 | No | No | Tetsubo, Wild Staff, and War Hammer |
+| Long, two-handed, poisonable | Fencing or Swords | 2 | 2 | Yes | No | Double Bladed Staff, Pitchfork, Spear, Bladed Staff, Pike, Scythe, Bardiche, and Halberd |
+| Long, two-handed, no poison | Mace Fighting | 2 | 2 | No | No | Quarter Staff, Black Staff, Gnarled Staff, and Skull Gnarled Staff |
+| One-handed, poisonable | Fencing or Swords | 1 | 1 | Yes | Yes | Kryss, War Fork, Cutlass, Katana, Bone Harvester, Scimitar, Broadsword, Longsword, and Viking Sword |
+| One-handed, no poison | Mace Fighting | 1 | 1 | No | Yes | Club, Mace, War Axe, Hammer Pick, Maul, and War Mace |
+| Archery | Archery | 2 | 10 | No | No | Repeating Crossbow, Magical Shortbow, Elven Composite Longbow, Bow, Composite Bow, Crossbow, and Heavy Crossbow |
+
+**Hatchet** remains available as a utility tool outside the competitive catalog. Kama, Sai, Tekagi, Ornate Axe and its family, Tessen, Nunchaku, Elven Spellblade, No-Dachi, Rune Blade and its family, Daisho, Serrated War Cleaver, Diamond Mace, Emerald Mace, Ruby Mace, Silver-Etched Mace, Scepter, Lajatang, Yumi, Radiant Scimitar, Wakizashi, Elven Machete, Paladin Sword, and Lance are not available to players on Live 0.10.2.
+
 ## Official kits
 
 Arena, PvP Camp, and the Starter PvP Iron kit share seven choices: **Bow, War Mace, Kryss, Bardiche, Black Staff, War Hammer, and Axe**. Kryss, Bardiche, and Axe arrive with Deadly Poison; the other four keep their non-poison role.

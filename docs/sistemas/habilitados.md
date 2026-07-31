@@ -8,6 +8,7 @@
 - Healing, Anatomy, Tactics, Evaluating Intelligence e Resisting Spells.
 - Meditation e Focus, sem bloqueio por equipamento.
 - Hiding, Stealth, Detect Hidden e Poisoning.
+- Barding com Musicianship, Peacemaking, Discordance e Provocation, incluindo a interação PvM de Resonant Cascade.
 - Armas e armaduras com tiers clássicos.
 - Poison clássico: Lesser, Regular, Greater e Deadly.
 - Bandages e potions clássicas.
