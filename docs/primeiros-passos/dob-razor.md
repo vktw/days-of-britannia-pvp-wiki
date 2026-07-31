@@ -30,7 +30,3 @@ As declarações podem aparecer antes ou depois da chamada. Cada execução mant
 Scripts que não usam as novas funções devem continuar funcionando como antes. Nos testes publicados do projeto, comandos como `wait` e `target`, além de pausa e cancelamento, preservam seu comportamento normal dentro das funções.
 
 Os erros continuam indicando as linhas originais no editor, facilitando localizar funções ausentes, argumentos incorretos, definições incompletas e chamadas excessivamente profundas.
-
-## Código-fonte
-
-O código-fonte, a licença GPLv3 e os detalhes técnicos estão no [repositório oficial do DoB Razor](https://github.com/vktw/DoB-Razor).

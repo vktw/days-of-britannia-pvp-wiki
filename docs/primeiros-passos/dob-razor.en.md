@@ -30,7 +30,3 @@ Statements can appear before or after the call. Each execution keeps its paramet
 Scripts that don't use the new functions should continue to work as before. In the project's published tests, commands such as `wait` and `target`, in addition to pausing and canceling, preserve their normal behavior within functions.
 
 Errors continue to indicate the original lines in the editor, making it easier to find missing functions, incorrect arguments, incomplete definitions, and excessively deep calls.
-
-## Source code
-
-The source code, GPLv3 license and technical details are in the [official DoB Razor repository](https://github.com/vktw/DoB-Razor).
