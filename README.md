@@ -7,7 +7,9 @@ is the source of truth and deploys every validated commit from `main`.
 
 Agents and maintainers should start with [`AGENTS.md`](AGENTS.md). The detailed
 architecture, change playbooks, verification matrix, and current risk register
-are in [`internal/agent-first-guide.md`](internal/agent-first-guide.md).
+are in [`internal/agent-first-guide.md`](internal/agent-first-guide.md). The
+internal documentation map and maturity plan are indexed in
+[`internal/README.md`](internal/README.md).
 
 ## Local preview
 

@@ -10,6 +10,10 @@ For the detailed repository map, contracts, playbooks, and risk register, read
 [`internal/agent-first-guide.md`](internal/agent-first-guide.md) before making a
 non-trivial change.
 
+The internal documentation index and maturity roadmap are in
+[`internal/README.md`](internal/README.md). Consult them when changing the
+agent-first operating model rather than ordinary player content.
+
 ## Repository boundary
 
 Allowed:
