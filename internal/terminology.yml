@@ -1,0 +1,128 @@
+# Controlled terms for the public PT-BR/English manual.
+# protected=true means the spelling must remain unchanged in both languages.
+terms:
+  - id: pvm-mastery
+    pt_br: "Maestria PvM"
+    en: "PvM Mastery"
+    protected: false
+    notes: "Use the language-specific display name in prose; keep PvM unchanged."
+
+  - id: hunter-compendium
+    pt_br: "Hunter's Compendium"
+    en: "Hunter's Compendium"
+    protected: true
+    notes: "Official in-game item name."
+
+  - id: scrolls-of-knowledge
+    pt_br: "Scrolls of Knowledge"
+    en: "Scrolls of Knowledge"
+    protected: true
+    notes: "Official item name."
+
+  - id: live-status
+    pt_br: "Live"
+    en: "Live"
+    protected: true
+    notes: "Use with a version, such as Live 0.10.2."
+
+  - id: first-hour
+    pt_br: "primeira hora"
+    en: "first hour"
+    protected: false
+    notes: "Player-facing onboarding concept."
+
+  - id: safe-haven
+    pt_br: "Safe Haven"
+    en: "Safe Haven"
+    protected: true
+    notes: "Official world-system name."
+
+  - id: pvp-trainer
+    pt_br: "PvP Trainer"
+    en: "PvP Trainer"
+    protected: true
+    notes: "Public NPC/system name; never document internal decision logic."
+
+  - id: newcomer
+    pt_br: "Newcomer"
+    en: "Newcomer"
+    protected: true
+    notes: "Official character status."
+
+  - id: command-arena
+    pt_br: ".arena"
+    en: ".arena"
+    protected: true
+    notes: "Player command; preserve punctuation and case."
+
+  - id: command-pvpcamp
+    pt_br: ".pvpcamp"
+    en: ".pvpcamp"
+    protected: true
+    notes: "Player command; preserve punctuation and case."
+
+  - id: command-patchnotes
+    pt_br: ".patchnotes"
+    en: ".patchnotes"
+    protected: true
+    notes: "Player command; preserve punctuation and case."
+
+  - id: command-pvptrainer
+    pt_br: ".pvptrainer"
+    en: ".pvptrainer"
+    protected: true
+    notes: "Player command; preserve punctuation and case."
+
+  - id: barding-skills
+    pt_br: "Musicianship, Peacemaking, Discordance e Provocation"
+    en: "Musicianship, Peacemaking, Discordance, and Provocation"
+    protected: false
+    notes: "Keep each skill name official; the conjunction may follow the language."
+
+  - id: arena
+    pt_br: "Arena"
+    en: "Arena"
+    protected: true
+    notes: "Official PvP system name."
+
+  - id: felucca
+    pt_br: "Felucca"
+    en: "Felucca"
+    protected: true
+    notes: "Official facet name."
+
+  - id: britain
+    pt_br: "Britain"
+    en: "Britain"
+    protected: true
+    notes: "Official city name."
+
+  - id: ocllo
+    pt_br: "Ocllo"
+    en: "Ocllo"
+    protected: true
+    notes: "Official island/city name."
+
+  - id: starter-pvp-iron-kit
+    pt_br: "Starter PvP Iron kit"
+    en: "Starter PvP Iron kit"
+    protected: true
+    notes: "Official kit name."
+
+  - id: greater-heal-potion
+    pt_br: "Greater Heal Potion"
+    en: "Greater Heal Potion"
+    protected: true
+    notes: "Official item name."
+
+  - id: total-mana-potion
+    pt_br: "Total Mana Potion"
+    en: "Total Mana Potion"
+    protected: true
+    notes: "Official item name."
+
+  - id: deadly-poison
+    pt_br: "Deadly Poison"
+    en: "Deadly Poison"
+    protected: true
+    notes: "Official poison name; use the same capitalization."

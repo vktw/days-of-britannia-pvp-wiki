@@ -81,6 +81,7 @@ The principal gaps are:
 
 **Priority:** highest
 **Effort:** medium
+**Status:** local commit ready for publication
 
 ### Deliverables
 

@@ -19,6 +19,9 @@ production logs, private server implementation, or unapproved gameplay claims.
 | [`../AGENTS.md`](../AGENTS.md) | Mandatory scope, safety, workflow, and definition of done | Normative |
 | [`agent-first-guide.md`](agent-first-guide.md) | Repository map, contracts, playbooks, risks, and verification | Normative operational guide |
 | [`agent-first-roadmap.md`](agent-first-roadmap.md) | Phased evolution toward a first-class wiki operation | Planning |
+| [`editorial-style-guide.md`](editorial-style-guide.md) | Player-facing voice, page types, patterns, and editorial checklist | Normative editorial guide |
+| [`localization-guide.md`](localization-guide.md) | PT-BR/English parity, translation workflow, and exceptions | Normative localization guide |
+| [`terminology.yml`](terminology.yml) | Controlled bilingual terms and protected names | Normative terminology |
 | [`wiki-pvp-baseline-2026-07-24.md`](wiki-pvp-baseline-2026-07-24.md) | Historical migration and compatibility record | Historical |
 
 When documents disagree, executable configuration and approved live gameplay
@@ -27,9 +30,11 @@ instead of silently choosing an interpretation.
 
 ## Target documentation architecture
 
-The target is a small set of documents with distinct responsibilities. Files
-are created only when the corresponding roadmap phase is implemented; this tree
-is not a request to add empty placeholders.
+The target is a small set of documents with distinct responsibilities. The
+editorial, localization, and terminology documents below are now implemented as
+part of Phase 1. The `facts/`, `quality/`, and additional audit scripts remain
+future roadmap work; they are shown to make the intended destination explicit,
+not as empty placeholders.
 
 ```text
 AGENTS.md                         mandatory agent contract

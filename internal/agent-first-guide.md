@@ -154,6 +154,22 @@ The principal responsive boundaries are:
 
 ## Task playbooks
 
+### Editorial and localization standards
+
+Before changing public prose, read [`editorial-style-guide.md`](editorial-style-guide.md)
+and choose the page's primary intent: tutorial/onboarding, how-to, reference,
+explanation, or landing page. For PT-BR/English work, also read
+[`localization-guide.md`](localization-guide.md) and consult
+[`terminology.yml`](terminology.yml). The Portuguese page is the editorial
+source, but English must preserve the same rules, numbers, commands, status, and
+exceptions.
+
+For a new or substantially revised public page, record the page type and run the
+editorial checklist before treating the change as complete. Use the six pilot
+surfaces recorded in the editorial guide as the reference pattern. Do not add a
+new page to public navigation while its approved language counterpart is
+missing, unless the exception is explicit in the change record.
+
 ### Correct or add a gameplay rule
 
 1. Obtain an approved public source for the rule.
@@ -295,6 +311,8 @@ These are constraints to account for, not authorization to expand a task:
 
 - [ ] Target files and related references were read before editing.
 - [ ] Public claims came from an approved source.
+- [ ] The page intent and editorial pattern were reviewed.
+- [ ] PT-BR/English parity and protected terminology were reviewed when applicable.
 - [ ] Private implementation and secrets stayed out of the repository.
 - [ ] Duplicated facts, commands, versions, and status labels agree.
 - [ ] Baseline paths and required headings remain valid.
