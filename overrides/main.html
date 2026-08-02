@@ -4,5 +4,16 @@
   {% if not page.canonical_url and config.site_url %}
     <link rel="canonical" href="{{ config.site_url.rstrip('/') }}{{ page.url }}">
   {% endif %}
+  {% set page_path = page.url or '/' %}
+  {% if i18n_page_locale == 'en' %}
+    {% set pt_url = page_path | replace('/en/', '/') %}
+    {% set en_url = page_path %}
+  {% else %}
+    {% set pt_url = page_path %}
+    {% set en_url = '/en' ~ page_path %}
+  {% endif %}
+  <link rel="alternate" hreflang="pt-BR" href="{{ config.site_url.rstrip('/') }}{{ pt_url }}">
+  <link rel="alternate" hreflang="en" href="{{ config.site_url.rstrip('/') }}{{ en_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ config.site_url.rstrip('/') }}{{ pt_url }}">
   {{ super() }}
 {% endblock %}

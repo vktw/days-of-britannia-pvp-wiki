@@ -17,6 +17,7 @@ class PageParser(HTMLParser):
         self.in_title = False
         self.site_marker = False
         self.hreflangs: set[str] = set()
+        self.alternate_hreflangs: set[str] = set()
         self.canonicals = 0
         self.ids: set[str] = set()
         self.duplicates: set[str] = set()
@@ -31,6 +32,8 @@ class PageParser(HTMLParser):
             self.site_marker = True
         if tag == "a" and values.get("hreflang"):
             self.hreflangs.add(values["hreflang"] or "")
+        if tag == "link" and values.get("rel") == "alternate" and values.get("hreflang"):
+            self.alternate_hreflangs.add(values["hreflang"] or "")
         if tag == "link" and values.get("rel") == "canonical":
             self.canonicals += 1
         anchor = values.get("id")
@@ -70,6 +73,8 @@ def main() -> int:
             errors.append(f"missing atlas marker: {relative}")
         if parser.hreflangs != {"pt-BR", "en"}:
             errors.append(f"incomplete language links: {relative}")
+        if parser.alternate_hreflangs != {"pt-BR", "en", "x-default"}:
+            errors.append(f"incomplete hreflang metadata: {relative}")
         if parser.canonicals != 1:
             errors.append(f"canonical link count is {parser.canonicals}: {relative}")
         for anchor in sorted(parser.duplicates):
