@@ -38,6 +38,9 @@ jobs:
       - name: Build strict site
         run: mkdocs build --strict --clean
 
+      - name: Audit rendered site
+        run: python scripts/audit_rendered_site.py
+
       - name: Package release
         run: tar -C site -czf dob-atlas-${{ github.sha }}.tar.gz .
 

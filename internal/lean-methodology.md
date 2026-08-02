@@ -74,6 +74,19 @@ ser preenchido para cada frase da wiki. Para comportamento live, use
 `source_status: approved` e um identificador seguro da versão; para trabalho
 local, use `status: planned` ou mantenha a informação fora da wiki até publicar.
 
+## Fase 3 — gates automatizados de qualidade
+
+A Fase 3 adiciona controles executáveis somente onde o retorno é alto. O gate de
+localização verifica pares PT-BR/EN, headings, comandos, números, links e termos
+protegidos. O gate de contrato do site verifica navegação e assets locais. Após o
+build, o gate renderizado verifica `lang`, título, marcador Atlas, links de idioma
+e anchors duplicados.
+
+Esses gates rodam no CI antes do empacotamento. Eles detectam deriva estrutural e
+quebras de publicação; não substituem a fonte live nem provam que uma regra de
+gameplay está correta. A auditoria de metadata SEO mais ampla permanece uma
+etapa posterior, quando houver necessidade comprovada.
+
 ## Recomendações, não bloqueios
 
 Estas práticas melhoram a qualidade, mas não devem bloquear uma alteração
@@ -96,8 +109,7 @@ Os itens abaixo pertencem ao roadmap, mas não devem criar trabalho antecipado:
 
 - scorecard de qualidade;
 - analytics e pesquisas sem resultado;
-- auditoria completa de localização;
-- auditoria de SEO, HTML e assets;
+- auditoria de SEO além dos metadados estruturais já verificados;
 - testes automatizados de acessibilidade;
 - revisão formal de todas as páginas por tipo;
 - registry exaustivo de fatos de baixo risco.
