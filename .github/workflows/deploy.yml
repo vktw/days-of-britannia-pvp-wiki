@@ -29,6 +29,9 @@ jobs:
       - name: Audit documentation
         run: python scripts/audit_wiki.py
 
+      - name: Audit bilingual parity
+        run: python scripts/audit_localization.py
+
       - name: Build strict site
         run: mkdocs build --strict --clean
 

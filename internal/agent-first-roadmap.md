@@ -115,7 +115,16 @@ The principal gaps are:
 
 **Priority:** highest
 **Effort:** medium
-**Status:** local audit against production `v0.12.0` completed; public metadata and patch summaries updated locally; content gaps remain for player-facing feature pages
+**Status:** complete (2026-08-02)
+
+### Completion evidence
+
+- Production authority was verified from the protected `v0.12.0` release record.
+- The registry contains 13 high-risk claims with approved live provenance and no pending or stale entries.
+- PT-BR and English metadata, patch notes, commands, and player-facing Live `0.12.0` pages were aligned.
+- The Daily Dungeon, Invisibility/Detect Hidden, and Britannia rarities gaps were documented in both languages.
+- `python scripts\\audit_wiki.py`, `python scripts\\report_fact_freshness.py`, and `python -m mkdocs build --strict --clean` passed before publication.
+- Production deployment and HTTP verification completed successfully for commit `09e14b0`.
 
 ### Deliverables
 
@@ -143,6 +152,13 @@ The principal gaps are:
 
 **Priority:** high
 **Effort:** medium to large
+**Status:** next phase — in progress locally
+
+The first work item is the deterministic bilingual parity checker. It starts
+with the checks that deliver the most player value: paired-page presence,
+headings, commands, versions, protected terms, and important numbers. Broader
+HTML, asset, navigation, and metadata checks follow after the baseline checker
+is trusted.
 
 ### Deliverables
 
