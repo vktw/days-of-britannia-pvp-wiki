@@ -170,6 +170,26 @@ surfaces recorded in the editorial guide as the reference pattern. Do not add a
 new page to public navigation while its approved language counterpart is
 missing, unless the exception is explicit in the change record.
 
+### Fact provenance and freshness
+
+For high-risk gameplay claims, read [`facts/README.md`](facts/README.md) and
+record the claim in [`facts/registry.yml`](facts/registry.yml). A public page is
+not evidence of its own correctness: use `source_status: pending_approval` and
+leave `approved_source` and `verification_date` null when the authorized source
+has not been supplied. Never invent a source or copy private material into the
+repository.
+
+Run the report before reviewing a version change:
+
+```powershell
+python scripts\report_fact_freshness.py
+```
+
+The report is intentionally non-blocking for pending approvals while the
+registry is being populated. Invalid registry structure is a failure. Once the
+owner has approved the source workflow, the report can become a CI gate in a
+later phase.
+
 ### Correct or add a gameplay rule
 
 1. Obtain an approved public source for the rule.

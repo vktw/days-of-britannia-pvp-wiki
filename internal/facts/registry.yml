@@ -1,0 +1,133 @@
+# High-risk gameplay fact inventory.
+# Entries marked pending_approval are intentionally not proof of correctness.
+schema_version: 1
+registry_version: "0.10.2"
+entries:
+  - id: live-version
+    claim: "The public manual identifies the current live ruleset as 0.10.2."
+    status: live
+    source_status: pending_approval
+    live_version: "0.10.2"
+    verification_date: null
+    approved_source: null
+    public_reference: "docs/patches.md"
+    canonical_pt: "docs/patches.md"
+    english_counterpart: "docs/patches.en.md"
+    owner: server-owner
+    review_after: null
+  - id: player-command-arena
+    claim: "The .arena command opens the Arena interface."
+    status: live
+    source_status: pending_approval
+    live_version: "0.10.2"
+    verification_date: null
+    approved_source: null
+    public_reference: "docs/comandos.md"
+    canonical_pt: "docs/comandos.md"
+    english_counterpart: "docs/comandos.en.md"
+    owner: gameplay-maintainer
+    review_after: null
+
+  - id: player-command-pvpcamp
+    claim: "The .pvpcamp command provides the documented PvP preparation kit."
+    status: live
+    source_status: pending_approval
+    live_version: "0.10.2"
+    verification_date: null
+    approved_source: null
+    public_reference: "docs/comandos.md"
+    canonical_pt: "docs/comandos.md"
+    english_counterpart: "docs/comandos.en.md"
+    owner: gameplay-maintainer
+    review_after: null
+
+  - id: player-command-patchnotes
+    claim: "The .patchnotes command opens the latest in-game patch notes."
+    status: live
+    source_status: pending_approval
+    live_version: "0.10.2"
+    verification_date: null
+    approved_source: null
+    public_reference: "docs/comandos.md"
+    canonical_pt: "docs/comandos.md"
+    english_counterpart: "docs/comandos.en.md"
+    owner: documentation-maintainer
+    review_after: null
+
+  - id: arena-facets
+    claim: "Moonglow and Yew Cemetery are the documented available Arenas."
+    status: live
+    source_status: pending_approval
+    live_version: "0.10.2"
+    verification_date: null
+    approved_source: null
+    public_reference: "docs/arena.md"
+    canonical_pt: "docs/arena.md"
+    english_counterpart: "docs/arena.en.md"
+    owner: pvp-maintainer
+    review_after: null
+
+  - id: arena-timing
+    claim: "Arena challenges, preparation, matches, and post-match return use the documented time limits."
+    status: live
+    source_status: pending_approval
+    live_version: "0.10.2"
+    verification_date: null
+    approved_source: null
+    public_reference: "docs/arena.md"
+    canonical_pt: "docs/arena.md"
+    english_counterpart: "docs/arena.en.md"
+    owner: pvp-maintainer
+    review_after: null
+
+  - id: pvm-mastery-progression
+    claim: "PvM Mastery uses XP, gold, discoveries, points, and up to five active Masteries as documented."
+    status: live
+    source_status: pending_approval
+    live_version: "0.10.2"
+    verification_date: null
+    approved_source: null
+    public_reference: "docs/sistemas/pvm-mastery.md"
+    canonical_pt: "docs/sistemas/pvm-mastery.md"
+    english_counterpart: "docs/sistemas/pvm-mastery.en.md"
+    owner: pvm-maintainer
+    review_after: null
+
+  - id: pvm-mastery-families
+    claim: "The public PvM Mastery page documents seven Slayer families and their examples."
+    status: live
+    source_status: pending_approval
+    live_version: "0.10.2"
+    verification_date: null
+    approved_source: null
+    public_reference: "docs/sistemas/pvm-mastery.md"
+    canonical_pt: "docs/sistemas/pvm-mastery.md"
+    english_counterpart: "docs/sistemas/pvm-mastery.en.md"
+    owner: pvm-maintainer
+    review_after: null
+
+  - id: weapon-catalog
+    claim: "The public weapons page documents the competitive catalog and unavailable families for Live 0.10.2."
+    status: live
+    source_status: pending_approval
+    live_version: "0.10.2"
+    verification_date: null
+    approved_source: null
+    public_reference: "docs/itens/armas.md"
+    canonical_pt: "docs/itens/armas.md"
+    english_counterpart: "docs/itens/armas.en.md"
+    owner: items-maintainer
+    review_after: null
+
+  - id: ocllo-safe-haven
+    claim: "Ocllo is documented as the server Safe Haven with the listed protections."
+    status: live
+    source_status: pending_approval
+    live_version: "0.10.2"
+    verification_date: null
+    approved_source: null
+    public_reference: "docs/mundo/ocllo.md"
+    canonical_pt: "docs/mundo/ocllo.md"
+    english_counterpart: "docs/mundo/ocllo.en.md"
+    owner: world-maintainer
+    review_after: null

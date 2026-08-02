@@ -22,6 +22,8 @@ production logs, private server implementation, or unapproved gameplay claims.
 | [`editorial-style-guide.md`](editorial-style-guide.md) | Player-facing voice, page types, patterns, and editorial checklist | Normative editorial guide |
 | [`localization-guide.md`](localization-guide.md) | PT-BR/English parity, translation workflow, and exceptions | Normative localization guide |
 | [`terminology.yml`](terminology.yml) | Controlled bilingual terms and protected names | Normative terminology |
+| [`facts/README.md`](facts/README.md) | Fact lifecycle, provenance states, and freshness policy | Normative evidence guide |
+| [`facts/registry.yml`](facts/registry.yml) | High-risk public-claim inventory | Evidence inventory; pending entries are not approvals |
 | [`wiki-pvp-baseline-2026-07-24.md`](wiki-pvp-baseline-2026-07-24.md) | Historical migration and compatibility record | Historical |
 
 When documents disagree, executable configuration and approved live gameplay
@@ -31,10 +33,10 @@ instead of silently choosing an interpretation.
 ## Target documentation architecture
 
 The target is a small set of documents with distinct responsibilities. The
-editorial, localization, and terminology documents below are now implemented as
-part of Phase 1. The `facts/`, `quality/`, and additional audit scripts remain
-future roadmap work; they are shown to make the intended destination explicit,
-not as empty placeholders.
+editorial, localization, terminology, and initial fact-provenance documents
+below are now implemented. The `quality/` directory and localization/quality
+audits remain future roadmap work; they are shown to make the intended
+destination explicit, not as empty placeholders.
 
 ```text
 AGENTS.md                         mandatory agent contract
@@ -46,6 +48,7 @@ internal/
 |-- localization-guide.md        PT-BR/EN workflow and parity rules
 |-- terminology.yml              controlled bilingual terminology
 |-- facts/
+|   |-- README.md                fact lifecycle and provenance policy
 |   `-- registry.yml             high-risk fact provenance and live version
 |-- quality/
 |   |-- scorecard.md             quality targets and review cadence
@@ -54,6 +57,7 @@ internal/
     `-- wiki-pvp-baseline-*.md   immutable migration records
 scripts/
 |-- audit_wiki.py                compatibility and structural checks
+|-- report_fact_freshness.py     provenance and review-date report
 |-- audit_localization.py        PT-BR/EN parity checks
 `-- audit_quality.py             metadata, assets, HTML, and policy checks
 ```
