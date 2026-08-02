@@ -45,6 +45,7 @@ AGENTS.md                         mandatory agent contract
 internal/
 |-- README.md                    index and authority map
 |-- agent-first-guide.md         repository operations and playbooks
+|-- lean-methodology.md          Lean 1.1 routing rules and control tiers
 |-- agent-first-roadmap.md       maturity plan and acceptance criteria
 |-- editorial-style-guide.md     player-facing voice, patterns, and page types
 |-- localization-guide.md        PT-BR/EN workflow and parity rules

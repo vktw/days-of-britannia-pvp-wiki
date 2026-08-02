@@ -5,7 +5,7 @@ registry_version: "0.10.2"
 entries:
   - id: live-version
     claim: "The public manual identifies the current live ruleset as 0.10.2."
-    status: live
+    status: unverified
     source_status: pending_approval
     live_version: "0.10.2"
     verification_date: null
@@ -17,7 +17,7 @@ entries:
     review_after: null
   - id: player-command-arena
     claim: "The .arena command opens the Arena interface."
-    status: live
+    status: unverified
     source_status: pending_approval
     live_version: "0.10.2"
     verification_date: null
@@ -30,7 +30,7 @@ entries:
 
   - id: player-command-pvpcamp
     claim: "The .pvpcamp command provides the documented PvP preparation kit."
-    status: live
+    status: unverified
     source_status: pending_approval
     live_version: "0.10.2"
     verification_date: null
@@ -43,7 +43,7 @@ entries:
 
   - id: player-command-patchnotes
     claim: "The .patchnotes command opens the latest in-game patch notes."
-    status: live
+    status: unverified
     source_status: pending_approval
     live_version: "0.10.2"
     verification_date: null
@@ -56,7 +56,7 @@ entries:
 
   - id: arena-facets
     claim: "Moonglow and Yew Cemetery are the documented available Arenas."
-    status: live
+    status: unverified
     source_status: pending_approval
     live_version: "0.10.2"
     verification_date: null
@@ -69,7 +69,7 @@ entries:
 
   - id: arena-timing
     claim: "Arena challenges, preparation, matches, and post-match return use the documented time limits."
-    status: live
+    status: unverified
     source_status: pending_approval
     live_version: "0.10.2"
     verification_date: null
@@ -82,7 +82,7 @@ entries:
 
   - id: pvm-mastery-progression
     claim: "PvM Mastery uses XP, gold, discoveries, points, and up to five active Masteries as documented."
-    status: live
+    status: unverified
     source_status: pending_approval
     live_version: "0.10.2"
     verification_date: null
@@ -95,7 +95,7 @@ entries:
 
   - id: pvm-mastery-families
     claim: "The public PvM Mastery page documents seven Slayer families and their examples."
-    status: live
+    status: unverified
     source_status: pending_approval
     live_version: "0.10.2"
     verification_date: null
@@ -108,7 +108,7 @@ entries:
 
   - id: weapon-catalog
     claim: "The public weapons page documents the competitive catalog and unavailable families for Live 0.10.2."
-    status: live
+    status: unverified
     source_status: pending_approval
     live_version: "0.10.2"
     verification_date: null
@@ -121,7 +121,7 @@ entries:
 
   - id: ocllo-safe-haven
     claim: "Ocllo is documented as the server Safe Haven with the listed protections."
-    status: live
+    status: unverified
     source_status: pending_approval
     live_version: "0.10.2"
     verification_date: null

@@ -10,6 +10,9 @@ maintainable by agents without exposing private server implementation.
 
 This roadmap governs the documentation operation, not gameplay delivery. It
 does not authorize publication or turn an unverified claim into a live fact.
+Roadmap items are planning guidance, not mandatory workflow gates, until a
+phase is marked complete and the applicable rule is promoted into
+`lean-methodology.md`.
 
 ## Starting point
 

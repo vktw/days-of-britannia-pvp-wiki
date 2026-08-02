@@ -28,7 +28,9 @@ adicione os controles condicionais correspondentes.
 1. **Inspecionar o estado:** `git status --short --branch` e escopo da mudança.
 2. **Proteger a fronteira:** conteúdo público fica em `docs/`; operação interna
    fica em `internal/`; nenhum segredo ou implementação privada entra no repo.
-3. **Usar fonte aprovada:** não inventar regras, números, comandos ou status.
+3. **Usar fonte aprovada para gameplay público:** não inventar regras, números,
+   comandos ou status. Para documentação interna, use os contratos e arquivos
+   executáveis do repositório; não crie uma falsa exigência de fonte editorial.
 4. **Alterar o mínimo coerente:** procurar duplicações e manter URLs estáveis.
 5. **Rodar os gates essenciais:**
 

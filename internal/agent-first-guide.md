@@ -173,10 +173,10 @@ source, but English must preserve the same rules, numbers, commands, status, and
 exceptions.
 
 For a new or substantially revised public page, record the page type and run the
-editorial checklist before treating the change as complete. Use the six pilot
-surfaces recorded in the editorial guide as the reference pattern. Do not add a
-new page to public navigation while its approved language counterpart is
-missing, unless the exception is explicit in the change record.
+editorial checklist. Use the six pilot surfaces recorded in the editorial guide
+as reference patterns when the page type matches. Do not add a new page to
+public navigation while its approved language counterpart is missing, unless the
+exception is explicit in the change record.
 
 ### Fact provenance and freshness (high-risk claims only)
 

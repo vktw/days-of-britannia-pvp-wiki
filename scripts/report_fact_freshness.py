@@ -25,6 +25,8 @@ def main() -> int:
     pending = []
     stale = []
     invalid = []
+    valid_statuses = {"live", "planned", "deprecated", "unverified"}
+    valid_source_statuses = {"approved", "pending_approval", "rejected"}
     required = {
         "id",
         "claim",
@@ -43,8 +45,18 @@ def main() -> int:
         missing = sorted(required - entry.keys())
         if missing:
             invalid.append(f"{entry.get('id', '<missing-id>')}: missing {', '.join(missing)}")
+        if entry.get("status") not in valid_statuses:
+            invalid.append(f"{entry.get('id', '<missing-id>')}: invalid status")
+        if entry.get("source_status") not in valid_source_statuses:
+            invalid.append(f"{entry.get('id', '<missing-id>')}: invalid source_status")
+        if entry.get("source_status") != "approved" and entry.get("status") == "live":
+            invalid.append(
+                f"{entry.get('id', '<missing-id>')}: live status requires approved source"
+            )
         if entry.get("source_status") == "pending_approval":
             pending.append(entry.get("id", "<missing-id>"))
+        if entry.get("source_status") == "rejected":
+            invalid.append(f"{entry.get('id', '<missing-id>')}: source rejected")
         review_after = entry.get("review_after")
         if review_after:
             try:

@@ -21,6 +21,9 @@ Use these values consistently:
 | `source_status` | `approved`, `pending_approval`, `rejected` | State of the source review |
 | `owner` | role or approved maintainer | Who confirms or updates the fact |
 
+Invariant: an entry with `source_status` other than `approved` cannot have
+`status: live`. Use `status: unverified` until the source is confirmed.
+
 Transitions:
 
 ```text
