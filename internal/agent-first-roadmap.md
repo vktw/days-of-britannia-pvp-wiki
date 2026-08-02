@@ -1,5 +1,7 @@
 # Agent-first maturity roadmap
 
+**Current operating method:** Método Atlas Lean — Lean 1.1
+
 ## Objective
 
 Evolve the current safe docs-as-code foundation into a first-class wiki
@@ -45,6 +47,9 @@ The principal gaps are:
    occasional translation afterthought.
 6. **Small reversible increments.** Each phase must deliver value independently
    and keep published URLs stable.
+7. **Pareto governance.** Keep a small mandatory core; make controls conditional
+   on risk and defer process that has no demonstrated player or operational
+   benefit.
 
 ## Maturity model
 

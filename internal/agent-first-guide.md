@@ -154,6 +154,14 @@ The principal responsive boundaries are:
 
 ## Task playbooks
 
+### Operating method: Método Atlas Lean — Lean 1.1
+
+Use [`lean-methodology.md`](lean-methodology.md) as the routing layer before
+choosing a playbook. The core gates apply to every change; editorial,
+localization, fact, browser, and deployment checks apply only when the change
+type requires them. This keeps a typo fix from inheriting the process for a
+gameplay or theme change.
+
 ### Editorial and localization standards
 
 Before changing public prose, read [`editorial-style-guide.md`](editorial-style-guide.md)
@@ -170,9 +178,9 @@ surfaces recorded in the editorial guide as the reference pattern. Do not add a
 new page to public navigation while its approved language counterpart is
 missing, unless the exception is explicit in the change record.
 
-### Fact provenance and freshness
+### Fact provenance and freshness (high-risk claims only)
 
-For high-risk gameplay claims, read [`facts/README.md`](facts/README.md) and
+Only for high-risk gameplay claims, read [`facts/README.md`](facts/README.md) and
 record the claim in [`facts/registry.yml`](facts/registry.yml). A public page is
 not evidence of its own correctness: use `source_status: pending_approval` and
 leave `approved_source` and `verification_date` null when the authorized source
@@ -186,9 +194,10 @@ python scripts\report_fact_freshness.py
 ```
 
 The report is intentionally non-blocking for pending approvals while the
-registry is being populated. Invalid registry structure is a failure. Once the
-owner has approved the source workflow, the report can become a CI gate in a
-later phase.
+registry is being populated. Invalid registry structure is a failure. Do not
+run or update it for ordinary prose, internal maintenance, or claims outside
+the high-risk classes. Once the owner has approved the source workflow, the
+report can become a CI gate in a later phase.
 
 ### Correct or add a gameplay rule
 

@@ -7,9 +7,10 @@ production logs, private server implementation, or unapproved gameplay claims.
 ## Start here
 
 1. Read [`../AGENTS.md`](../AGENTS.md) for mandatory repository rules.
-2. Read [`agent-first-guide.md`](agent-first-guide.md) before a non-trivial
-   change.
-3. Consult [`agent-first-roadmap.md`](agent-first-roadmap.md) when improving the
+2. Read [`lean-methodology.md`](lean-methodology.md) to route the change.
+3. Read [`agent-first-guide.md`](agent-first-guide.md) when a playbook is
+   needed.
+4. Consult [`agent-first-roadmap.md`](agent-first-roadmap.md) when improving the
    documentation operation itself.
 
 ## Current documents
@@ -18,6 +19,7 @@ production logs, private server implementation, or unapproved gameplay claims.
 |---|---|---|
 | [`../AGENTS.md`](../AGENTS.md) | Mandatory scope, safety, workflow, and definition of done | Normative |
 | [`agent-first-guide.md`](agent-first-guide.md) | Repository map, contracts, playbooks, risks, and verification | Normative operational guide |
+| [`lean-methodology.md`](lean-methodology.md) | Lean 1.1 routing rules and control tiers | Normative operating method |
 | [`agent-first-roadmap.md`](agent-first-roadmap.md) | Phased evolution toward a first-class wiki operation | Planning |
 | [`editorial-style-guide.md`](editorial-style-guide.md) | Player-facing voice, page types, patterns, and editorial checklist | Normative editorial guide |
 | [`localization-guide.md`](localization-guide.md) | PT-BR/English parity, translation workflow, and exceptions | Normative localization guide |

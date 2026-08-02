@@ -14,6 +14,10 @@ The internal documentation index and maturity roadmap are in
 [`internal/README.md`](internal/README.md). Consult them when changing the
 agent-first operating model rather than ordinary player content.
 
+The current operating method is **Método Atlas Lean — Lean 1.1**, documented in
+[`internal/lean-methodology.md`](internal/lean-methodology.md). It separates
+mandatory core controls from checks that apply only to specific change types.
+
 ## Repository boundary
 
 Allowed:
@@ -51,7 +55,7 @@ Do not invent values to complete a page.
 If prose and executable configuration disagree, verify intent before changing
 either. Do not silently document an assumption as fact.
 
-## Change workflow
+## Change workflow — Lean 1.1 core
 
 1. Inspect `git status --short --branch` and preserve unrelated user changes.
 2. Read every target file plus the relevant entries in `mkdocs.yml`,
@@ -71,9 +75,10 @@ either. Do not silently document an assumption as fact.
    python -m mkdocs build --strict --clean
    ```
 
-6. For layout or interaction changes, also run `python -m mkdocs serve` and
-   inspect desktop and mobile behavior in a browser. Exercise search,
-   navigation panels, Escape-to-close, keyboard focus, links, and overflow.
+6. Apply conditional checks from `internal/lean-methodology.md`: browser QA is
+   required for layout, interaction, template, CSS, or JavaScript changes;
+   editorial, localization, and fact checks apply only when those surfaces are
+   affected.
 7. Review `git diff --check` and `git diff` before handing off.
 
 Do not push, deploy, or modify GitHub secrets unless the user explicitly asks.
