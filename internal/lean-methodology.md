@@ -88,6 +88,14 @@ quebras de publicação; não substituem a fonte live nem provam que uma regra d
 gameplay está correta. A auditoria de metadata SEO mais ampla permanece uma
 etapa posterior, quando houver necessidade comprovada.
 
+### Política de bloqueio
+
+Os gates de links, paridade PT-BR/EN, navegação/assets, registry e build são
+bloqueadores: uma falha impede o pacote e o deploy. A auditoria renderizada de
+metadata, canonical, hreflang e anchors é advisory por enquanto: aparece no CI,
+mas não interrompe uma publicação. Ela só vira bloqueadora após evidência de
+falsos positivos baixos e benefício operacional claro.
+
 ## Recomendações, não bloqueios
 
 Estas práticas melhoram a qualidade, mas não devem bloquear uma alteração

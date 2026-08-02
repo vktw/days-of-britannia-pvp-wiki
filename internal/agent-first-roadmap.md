@@ -164,7 +164,8 @@ is trusted.
 are now implemented and run in CI. Rendered HTML now also receives and checks a
 single canonical URL plus PT-BR, English, and `x-default` hreflang metadata per
 page. Registry references and descriptions for the key entry pages are now
-validated as well; broader SEO review remains deliberately later.
+validated as well. Core checks block publication; rendered SEO metadata remains
+advisory until its false-positive rate is known.
 
 ### Deliverables
 
