@@ -23,3 +23,6 @@ O pagamento pode usar gold da mochila e, depois, do banco da conta. Uma cotaçã
 - O resultado não revela localização, cemitério, idade ou quantidade de Phoenixes.
 
 O objetivo é oferecer uma pista, não substituir a exploração do mundo. Consulte o Town Crier e decida se vale a pena pagar pelo próximo sussurro.
+---
+description: Descubra a Phoenix rara, Fire Feathers e os Whispers of Britannia negociados com Town Criers.
+---

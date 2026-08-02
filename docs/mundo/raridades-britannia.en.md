@@ -23,3 +23,6 @@ Payment can use gold from your backpack and then your account bank. A stale quot
 - The result does not reveal location, cemetery, age, or number of Phoenixes.
 
 The goal is to provide a lead, not to replace exploring the world. Check the Town Crier and decide whether the next whisper is worth the price.
+---
+description: Discover the rare Phoenix, Fire Feathers, and Whispers of Britannia offered by Town Criers.
+---

@@ -26,3 +26,6 @@ If this is your first contact with the game, start with [Ultima Online Brasil: s
 - [Maps and travel](../mundo/mapas-viagem.md)
 - [Player commands](../comandos.md)
 - [Systems enabled and disabled](../sistemas/index.md)
+---
+description: Start playing Days of Britannia with the official connection flow, first character, Newcomer protection, and first hour.
+---

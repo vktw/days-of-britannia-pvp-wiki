@@ -20,3 +20,6 @@ Common player access to Lost Lands and its dungeons is closed under the Live rul
 ## Next step
 
 Open `.dailydungeon` before heading out for PvM, then combine the rotation with your [PvM Mastery](pvm-mastery.md) build and [PvM rewards](../itens/recompensas-pvm.md).
+---
+description: Learn how the Daily Dungeon boosts PvM Mastery experience and Loot Packs during the daily rotation.
+---

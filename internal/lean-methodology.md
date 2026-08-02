@@ -78,9 +78,10 @@ local, use `status: planned` ou mantenha a informação fora da wiki até public
 
 A Fase 3 adiciona controles executáveis somente onde o retorno é alto. O gate de
 localização verifica pares PT-BR/EN, headings, comandos, números, links e termos
-protegidos. O gate de contrato do site verifica navegação e assets locais. Após o
-build, o gate renderizado verifica `lang`, título, marcador Atlas, links de idioma
-e anchors duplicados.
+protegidos. O gate de contrato do site verifica navegação e assets locais. O gate
+do registry confirma que fatos apontam para páginas canônicas existentes. Após o
+build, o gate renderizado verifica `lang`, título, marcador Atlas, links de idioma,
+metadata canônica e anchors duplicados.
 
 Esses gates rodam no CI antes do empacotamento. Eles detectam deriva estrutural e
 quebras de publicação; não substituem a fonte live nem provam que uma regra de

@@ -156,3 +156,6 @@ Test one change at a time and use the Compendium's optional combat record to com
 PvM Mastery works only in eligible PvM encounters. It grants no effects against players, controlled pets, opposing summons, Arena participants, or during recent PvP aggression.
 
 See [PvM rewards](../itens/recompensas-pvm.md) for XP, Loot Packs, jewelry, and amulets.
+---
+description: Learn PvM Mastery progression, Slayer families, and build options on the Live server.
+---

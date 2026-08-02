@@ -35,6 +35,9 @@ jobs:
       - name: Audit site contract
         run: python scripts/audit_site_contract.py
 
+      - name: Audit fact registry
+        run: python scripts/audit_fact_registry.py
+
       - name: Build strict site
         run: mkdocs build --strict --clean
 

@@ -163,7 +163,8 @@ is trusted.
 **Progress:** bilingual parity, navigation membership, and local asset checks
 are now implemented and run in CI. Rendered HTML now also receives and checks a
 single canonical URL plus PT-BR, English, and `x-default` hreflang metadata per
-page; broader SEO review remains deliberately later.
+page. Registry references and descriptions for the key entry pages are now
+validated as well; broader SEO review remains deliberately later.
 
 ### Deliverables
 

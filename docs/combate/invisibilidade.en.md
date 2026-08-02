@@ -29,3 +29,6 @@ Choose the search and wait **2 seconds** for it to resolve. There is no addition
 | Detect Hidden | Search resolves in 2 s |
 
 These rules apply to players, creatures, and the PvP Trainer when the corresponding action is used.
+---
+description: Learn how Invisibility, attacks against hidden targets, and Detect Hidden search timing work.
+---

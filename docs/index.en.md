@@ -89,3 +89,6 @@ DOWNLOAD DOB LAUNCHER <span aria-hidden="true">↓</span>
 <p>Bards and summoners gain new masteries, alongside updates to Threat, Loot Packs, jewelry, and Magic Arrow.</p>
 <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>
+---
+description: Official Days of Britannia manual for getting started, understanding combat, and consulting Live systems.
+---
