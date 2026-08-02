@@ -1,6 +1,6 @@
 # Armas clássicas
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     Escolha armas pelo papel no combate, não por uma planilha isolada de dano.
 
 ## Qualidades
@@ -43,7 +43,7 @@ As **46 famílias competitivas** abaixo estão disponíveis para jogadores e pod
 | Uma mão, sem poison | Mace Fighting | 1 | 1 | Não | Sim | Club, Mace, War Axe, Hammer Pick, Maul e War Mace |
 | Archery | Archery | 2 | 10 | Não | Não | Repeating Crossbow, Magical Shortbow, Elven Composite Longbow, Bow, Composite Bow, Crossbow e Heavy Crossbow |
 
-**Hatchet** permanece disponível como ferramenta utilitária, fora do catálogo competitivo. Kama, Sai, Tekagi, Ornate Axe e sua família, Tessen, Nunchaku, Elven Spellblade, No-Dachi, Rune Blade e sua família, Daisho, Serrated War Cleaver, Diamond Mace, Emerald Mace, Ruby Mace, Silver-Etched Mace, Scepter, Lajatang, Yumi, Radiant Scimitar, Wakizashi, Elven Machete, Paladin Sword e Lance não estão disponíveis para jogadores no Live 0.10.2.
+**Hatchet** permanece disponível como ferramenta utilitária, fora do catálogo competitivo. Kama, Sai, Tekagi, Ornate Axe e sua família, Tessen, Nunchaku, Elven Spellblade, No-Dachi, Rune Blade e sua família, Daisho, Serrated War Cleaver, Diamond Mace, Emerald Mace, Ruby Mace, Silver-Etched Mace, Scepter, Lajatang, Yumi, Radiant Scimitar, Wakizashi, Elven Machete, Paladin Sword e Lance não estão disponíveis para jogadores no Live 0.12.0.
 
 ## Kits oficiais
 

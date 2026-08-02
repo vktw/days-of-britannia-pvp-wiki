@@ -2,6 +2,39 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.12.0 · Sussurros de Britannia
+
+- Uma Phoenix rara pode surgir a cada hora em um cemitério de Britannia.
+- Town Criers agora negociam sussurros sobre acontecimentos raros por meio de um diálogo próprio.
+- Phoenixes raras fornecem Fire Feathers ao serem esfoladas, com bônus baseado em Forensic Evaluation.
+
+## 0.11.5 · Invisibilidade no impacto
+
+- Magias direcionadas falham quando o alvo está invisível no momento do impacto.
+- Um atacante invisível só é revelado quando seu ataque ou magia atinge validamente outro jogador.
+- Detect Hidden resolve a busca após dois segundos, sem cooldown adicional.
+
+## 0.11.4 · Decisão de Paralyze mais precisa
+
+- O combo de Paralyze Field e Walls do PvP Trainer é reservado para adversários armados quando a paralisia confirma.
+- Contra adversários de mãos vazias, o Trainer pode se recuperar, finalizar com magia ou manter a pressão melee.
+
+## 0.11.3 · Contenção mais precisa
+
+- O PvP Trainer executa seu combo de Paralyze e Walls com mais consistência contra adversários armados.
+- Wall of Stone bloqueia corretamente passagens diagonais durante a contenção.
+- Ao terminar uma luta, a Arena remove objetos temporários produzidos pelo combate.
+
+## 0.11.1 · Stats e recursos em sintonia
+
+- STR, DEX e INT efetivas determinam respectivamente os limites máximos de Hits, Stamina e Mana; Hits permanecem limitados a 120.
+
+## 0.11.0 · Daily Dungeon
+
+- Uma Daily Dungeon recebe 25% de bônus de experiência de Maestria PvM até a próxima rotação.
+- A frequência de Loot Packs personalizados dobra para criaturas elegíveis na Daily Dungeon.
+- `.dailydungeon` mostra a dungeon selecionada e o tempo restante.
+
 ## 0.10.2 · Novos caminhos de Maestria
 
 - Entram Resonant Cascade para Bardos e Summoned Vitality para invocadores.

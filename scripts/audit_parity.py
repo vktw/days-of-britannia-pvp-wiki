@@ -3,7 +3,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
-LIVE_VERSION = "Live 0.10.2"
+LIVE_VERSION = "Live 0.12.0"
 
 NUMBER_RE = re.compile(r"(?<![\w])\d+(?:[.,]\d+)?%?")
 COMMAND_RE = re.compile(r"`(\.[a-z][a-z0-9]*)`", re.I)
@@ -53,8 +53,8 @@ def audit():
     config = (ROOT / "mkdocs.yml").read_text(encoding="utf-8-sig")
     if f'dob_version: "{LIVE_VERSION}"' not in config:
         errors.append(f"mkdocs live version is not {LIVE_VERSION}")
-    if "0.10.2" not in (DOCS / "index.md").read_text(encoding="utf-8-sig"):
-        errors.append("home release card is not 0.10.2")
+    if "0.12.0" not in (DOCS / "index.md").read_text(encoding="utf-8-sig"):
+        errors.append("home release card is not 0.12.0")
     english_home = (DOCS / "index.en.md").read_text(encoding="utf-8-sig")
     if 'src="../assets/hero-mark.png' not in english_home:
         errors.append("English home hero mark does not resolve to the shared assets directory")

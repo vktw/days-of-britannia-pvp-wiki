@@ -1,6 +1,6 @@
 # Magery
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     Delays, alcance e efeitos necessários para jogar e planejar combates.
 
 ## Fluxo de cast

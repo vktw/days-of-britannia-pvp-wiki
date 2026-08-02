@@ -1,6 +1,6 @@
 # Classic armor
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     Each piece protects only the body region where it is equipped.
 
 ## Qualities

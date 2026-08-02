@@ -1,6 +1,6 @@
 # Threat Rating
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     The color and name displayed over a creature help estimate the danger of the encounter.
 
 **Threat Rating** is a quick endurance reference. Use it to decide whether to fight alone, prepare consumables, or form a group.

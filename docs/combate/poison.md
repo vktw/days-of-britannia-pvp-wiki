@@ -1,6 +1,6 @@
 # Poison
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     Poison pressiona a cura e força o adversário a reagir.
 
 Aplicar novamente o mesmo nível reinicia sua duração. Armas compatíveis consomem uma carga ao aplicar poison em um golpe bem-sucedido; a propriedade da arma mostra o nível e as cargas restantes.

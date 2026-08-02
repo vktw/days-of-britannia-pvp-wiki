@@ -33,7 +33,7 @@ REQUIRED_HEADINGS = {
     "combate/cura-recursos.md": ["# Cura e recursos", "## Faixas de cura", "## Mana"],
     "combate/exemplos-dano.md": ["# Exemplos de dano", "## Faixas de dano bruto"],
     "combate/poison.md": ["# Poison"],
-    "patches.md": ["# Patch notes", "## 0.10.2", "## 0.10.1", "## 0.10.0", "## 0.9.12", "## 0.9.8", "## 0.9.6", "## 0.9.2", "## 0.7.0", "## 0.1.0"],
+    "patches.md": ["# Patch notes", "## 0.12.0", "## 0.11.5", "## 0.11.4", "## 0.11.3", "## 0.11.1", "## 0.11.0", "## 0.10.2", "## 0.10.1", "## 0.10.0", "## 0.9.12", "## 0.9.8", "## 0.9.6", "## 0.9.2", "## 0.7.0", "## 0.1.0"],
     "proximo-patch.md": ["# Próximo Patch Planejado"],
     "sistemas-desativados.md": ["# Sistemas desativados", "## Pets e summons"],
     "mundo/threat-rating.md": ["# Threat Rating", "## Exemplos da escala"],
@@ -53,7 +53,7 @@ REQUIRED_LIVE_CLAIMS = {
     "itens/armas.md": ["não determinam a compatibilidade da arma com poison"],
     "mundo/threat-rating.md": ["Neira | Legendary", "Harrower | Mythic"],
     "mundo/threat-inventory.md": ["classificação visível no jogo"],
-    "sistemas/pvm-mastery.md": ["Status: Live 0.10.2", "até cinco Maestrias ativas"],
+    "sistemas/pvm-mastery.md": ["Status: Live 0.12.0", "até cinco Maestrias ativas"],
     "primeiros-passos/newcomer.md": ["25% adicionais de experiência de Maestria PvM"],
     "combate/magery.md": ["uma carga", "alcance de 12 tiles", "| Harm | 1,75 s |"],
 }

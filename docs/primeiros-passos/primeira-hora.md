@@ -1,6 +1,6 @@
 # Sua primeira hora em Britannia
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     Um roteiro curto para organizar o personagem e escolher o primeiro objetivo.
 
 Você começa na **Wayfarer's Inn**, em Britain, no mapa Felucca. Não é necessário fazer tudo de uma vez: primeiro organize seus recursos, conheça as áreas seguras e escolha se quer explorar PvM, preparar PvP ou desenvolver outras skills.

@@ -1,6 +1,6 @@
 # Personagem
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     Stats, skills, caps e raça correspondem ao servidor oficial.
 
 ## Base inicial

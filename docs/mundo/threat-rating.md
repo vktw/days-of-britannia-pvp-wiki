@@ -1,6 +1,6 @@
 # Threat Rating
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     A cor e o nome exibidos sobre a criatura ajudam a estimar o perigo do encontro.
 
 O **Threat Rating** é uma referência rápida de resistência. Use-o para decidir se vale lutar sozinho, preparar consumíveis ou formar um grupo.

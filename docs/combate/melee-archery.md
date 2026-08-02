@@ -1,6 +1,6 @@
 # Melee e Archery
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     Regras práticas para escolher armas, distância e ritmo de ataque.
 
 ## Chance de acerto

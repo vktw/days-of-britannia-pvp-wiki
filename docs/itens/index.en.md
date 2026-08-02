@@ -1,6 +1,6 @@
 # Items
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
 This section describes active properties and utilities in the current ruleset.
 
 ## Categories

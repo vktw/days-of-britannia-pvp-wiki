@@ -1,6 +1,6 @@
 # Armor and Parrying
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     Armor protects the region that is hit; a shield can replace that step entirely.
 
 ## Body regions

@@ -115,7 +115,7 @@ The principal gaps are:
 
 **Priority:** highest
 **Effort:** medium
-**Status:** local implementation aligned to live-source policy; ready for review
+**Status:** local audit against production `v0.12.0` completed; public metadata and patch summaries updated locally; content gaps remain for player-facing feature pages
 
 ### Deliverables
 

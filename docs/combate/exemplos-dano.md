@@ -1,6 +1,6 @@
 # Exemplos de dano
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     Exemplos práticos para entender decisões de equipamento, sem reproduzir a fórmula interna do servidor.
 
 ## Faixas de dano bruto

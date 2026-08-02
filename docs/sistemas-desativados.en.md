@@ -1,6 +1,6 @@
 # Systems disabled
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     The blocks below are part of the official ruleset.
 
 To preserve classic balance, the following modern systems are unavailable or grant no advantage in Sphere PvP:

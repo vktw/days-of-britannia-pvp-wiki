@@ -1,6 +1,6 @@
 # Como consultar Threat
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     A classificação visível no jogo é a fonte prática para avaliar cada criatura.
 
 Use a classificação mostrada no próprio jogo para avaliar a criatura que está diante de você. Essa informação acompanha o mundo ativo e preserva a descoberta durante a aventura.

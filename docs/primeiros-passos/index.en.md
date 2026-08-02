@@ -1,6 +1,6 @@
 # Getting started
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     The information on this page corresponds to the official server.
 
 This section walks you through installing the official launcher and starting to explore Britannia.

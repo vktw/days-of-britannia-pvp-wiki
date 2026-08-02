@@ -1,6 +1,6 @@
 # PvM Mastery
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     The Hunter's Compendium provides dedicated progression for characters who fight creatures.
 
 The **Hunter's Compendium** records hunting knowledge, points, and the character's active build. Existing characters receive the book on their first login while the system is active; new characters receive it at creation. Keep it in the main backpack and double-click it to open.
@@ -61,7 +61,7 @@ Use these examples to recognize each family. They do not guarantee a scroll: the
 
 The scroll uses the normal corpse loot lifetime. A mastery does not need to be active for its scroll to drop. After discovering a mastery, use the Compendium to track its level and read the description shown in game.
 
-## Live 0.10.2 catalog
+## Live 0.12.0 catalog
 
 ### Offense and resources
 

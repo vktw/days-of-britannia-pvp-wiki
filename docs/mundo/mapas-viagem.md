@@ -1,6 +1,6 @@
 # Mapas e viagem
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     Regras verificadas para jogadores no servidor oficial.
 
 ## Felucca

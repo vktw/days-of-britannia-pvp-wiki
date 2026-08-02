@@ -1,6 +1,6 @@
 # Checking Threat
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     The classification visible in game is the practical source for evaluating each creature.
 
 Use the classification shown in game to evaluate the creature in front of you. This information follows the active world and preserves discovery during the adventure.

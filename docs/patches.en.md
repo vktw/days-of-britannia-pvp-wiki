@@ -2,6 +2,39 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.12.0 · Whispers of Britannia
+
+- A rare Phoenix can appear every hour in a Britannia cemetery.
+- Town Criers now negotiate whispers about rare events through a dedicated conversation.
+- Rare Phoenixes provide Fire Feathers when carved, with a bonus based on Forensic Evaluation.
+
+## 0.11.5 · Invisibility on impact
+
+- Targeted spells fail when the target is invisible at impact.
+- An invisible attacker is revealed only when its attack or spell validly hits another player.
+- Detect Hidden resolves the search after two seconds, with no additional cooldown.
+
+## 0.11.4 · More precise Paralyze decisions
+
+- The PvP Trainer's Paralyze Field and Walls combo is reserved for opponents who are armed when paralysis confirms.
+- Against unarmed paralyzed opponents, the Trainer may recover, finish with a spell, or keep melee pressure.
+
+## 0.11.3 · More precise containment
+
+- The PvP Trainer executes its Paralyze and Walls combo more consistently against armed opponents.
+- Wall of Stone correctly blocks diagonal passages during containment.
+- When a fight ends, the Arena removes temporary objects created by combat.
+
+## 0.11.1 · Stats and resources in sync
+
+- Effective STR, DEX, and INT now determine maximum Hits, Stamina, and Mana respectively; Hits remain capped at 120.
+
+## 0.11.0 · Daily Dungeon
+
+- One Daily Dungeon receives a 25% PvM Mastery experience bonus until the next rotation.
+- Customized Loot Packs appear twice as often for eligible creatures in the Daily Dungeon.
+- `.dailydungeon` shows the selected dungeon and remaining time.
+
 ## 0.10.2 · New mastery paths
 
 - Resonant Cascade arrives for Bards and Summoned Vitality for summoners.

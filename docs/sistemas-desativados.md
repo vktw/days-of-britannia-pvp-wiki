@@ -1,6 +1,6 @@
 # Sistemas desativados
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     Os bloqueios abaixo fazem parte do ruleset oficial.
 
 Para preservar o equilíbrio clássico, os seguintes sistemas modernos ficam indisponíveis ou não concedem vantagem no PvP Sphere:

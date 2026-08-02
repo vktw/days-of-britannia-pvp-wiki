@@ -1,6 +1,6 @@
 # Enabled systems
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     Summary list of core mechanics available to players.
 
 - Physical combat with Swords, Macing, Fencing, Archery and Wrestling.

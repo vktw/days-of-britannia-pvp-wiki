@@ -1,6 +1,6 @@
 # Maestria PvM
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     O Hunter's Compendium oferece progressão própria para personagens que enfrentam criaturas.
 
 O **Hunter's Compendium** registra conhecimentos de caça, pontos e a build ativa do personagem. Personagens existentes recebem o livro no primeiro login com o sistema ativo; novos personagens o recebem na criação. Mantenha-o na mochila principal e use dois cliques para abrir.
@@ -61,7 +61,7 @@ Use estes exemplos para reconhecer cada família. Eles não garantem um scroll: 
 
 O scroll usa o tempo normal de permanência do loot no corpo. Não é necessário ter uma Maestria ativa para encontrá-lo. Ao descobrir uma Maestria, consulte o Compendium para acompanhar seu nível e a descrição exibida no jogo.
 
-## Catálogo do Live 0.10.2
+## Catálogo do Live 0.12.0
 
 ### Ataque e recursos
 

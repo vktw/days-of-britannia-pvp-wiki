@@ -1,6 +1,6 @@
 # Systems
 
-!!! success "Status: Live 0.10.2"
+!!! success "Status: Live 0.12.0"
     The availability below corresponds to the official ruleset.
 
 Days of Britannia preserves systems compatible with the shard's objective and neutralizes modern mechanics that would alter classic combat.
