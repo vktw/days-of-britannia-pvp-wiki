@@ -160,6 +160,10 @@ headings, commands, versions, protected terms, and important numbers. Broader
 HTML, asset, navigation, and metadata checks follow after the baseline checker
 is trusted.
 
+**Progress:** bilingual parity, navigation membership, and local asset checks
+are now implemented and run in CI. HTML metadata and duplicate-anchor checks
+remain the next bounded increment.
+
 ### Deliverables
 
 - add `scripts/audit_localization.py` to compare PT-BR/English page pairs;
