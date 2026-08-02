@@ -46,7 +46,7 @@ REQUIRED_LIVE_CLAIMS = {
     "patches.md": ["Correções de equipamento e kit PvP", "Magic Earrings (+5 INT)", "Dois cliques em um Spellbook"],
     "personagem.md": ["primeiro personagem elegível por IP"],
     "primeiros-passos/personagem-inicial.md": ["primeiro personagem elegível por IP"],
-    "combate/melee-archery.md": ["Speed 3.75", "No PvM, é **50%**", "permanece parado por 250 ms"],
+    "combate/melee-archery.md": ["Speed 3.75", "No PvM, é **50%**", "permanece parado por **500 ms**"],
     "combate/exemplos-dano.md": ["Proteção muda o resultado final", "região sem armor"],
     "mundo/index.md": ["Felucca é a única faceta pública"],
     "mundo/mapas-viagem.md": ["Trammel não é uma faceta pública"],

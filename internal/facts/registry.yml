@@ -124,3 +124,39 @@ entries:
     english_counterpart: "docs/mundo/ocllo.en.md"
     owner: world-maintainer
     review_after: null
+  - id: daily-dungeon
+    claim: "The Live Daily Dungeon provides the documented PvM Mastery and Loot Pack bonuses and is queried with .dailydungeon."
+    status: live
+    source_status: approved
+    live_version: "0.12.0"
+    verification_date: "2026-08-02"
+    approved_source: "live-server/v0.12.0"
+    public_reference: "docs/sistemas/daily-dungeon.md"
+    canonical_pt: "docs/sistemas/daily-dungeon.md"
+    english_counterpart: "docs/sistemas/daily-dungeon.en.md"
+    owner: pvm-maintainer
+    review_after: null
+  - id: invisibility-impact
+    claim: "Live 0.12.0 applies the documented impact and Detect Hidden timing rules for invisibility."
+    status: live
+    source_status: approved
+    live_version: "0.12.0"
+    verification_date: "2026-08-02"
+    approved_source: "live-server/v0.12.0"
+    public_reference: "docs/combate/invisibilidade.md"
+    canonical_pt: "docs/combate/invisibilidade.md"
+    english_counterpart: "docs/combate/invisibilidade.en.md"
+    owner: pvp-maintainer
+    review_after: null
+  - id: britannia-rarities
+    claim: "Live 0.12.0 exposes the documented rare Phoenix and Whispers of Britannia player interactions."
+    status: live
+    source_status: approved
+    live_version: "0.12.0"
+    verification_date: "2026-08-02"
+    approved_source: "live-server/v0.12.0"
+    public_reference: "docs/mundo/raridades-britannia.md"
+    canonical_pt: "docs/mundo/raridades-britannia.md"
+    english_counterpart: "docs/mundo/raridades-britannia.en.md"
+    owner: world-maintainer
+    review_after: null

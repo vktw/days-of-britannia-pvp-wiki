@@ -5,7 +5,7 @@
 
 ## Hit chance
 
-With attack and defense at 100.0, PvP hit chance is **80%**. In PvM, it is **50%**. Differences between offensive skill and the target's defense change that chance.
+With attack and defense at 100.0, the initial PvP hit chance is **90%**. In PvM, it is **50%**. Differences between offensive skill and the target's defense change that chance.
 
 Defense uses the skill appropriate to the equipped weapon. An unarmed character relies on Wrestling.
 
@@ -15,7 +15,7 @@ The weapon's displayed `Speed` is its delay at 100 DEX. More DEX speeds attacks 
 
 The classic Bow has Speed 3.75 and fires every 3.75 seconds at 100 DEX.
 
-In Archery, walking does not discard a prepared shot. The arrow is released when the target is in range and the archer remains still for 250 ms.
+In Archery, walking does not discard a prepared shot. The arrow is released when the target is in range and the archer remains still for **500 ms**.
 
 ## Damage and range
 

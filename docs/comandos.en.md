@@ -28,3 +28,7 @@ Open the latest version notes within the game. The panel can switch between Port
 ## `.pvptrainer`
 
 Guides the player to use `.arena`. The PvP Trainer is available exclusively through the Moonglow Arena; the command does not create an NPC directly.
+
+## `.dailydungeon`
+
+Shows the selected Daily Dungeon and the time remaining until the next rotation. Use it before heading out to take advantage of the PvM Mastery experience and Loot Pack bonuses.

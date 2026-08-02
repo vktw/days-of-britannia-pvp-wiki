@@ -16,7 +16,7 @@ Days of Britannia's combat separates physical damage, magical damage and poison.
 
 ## Principles
 
-- Attack and defense skills equal to 100.0 produce an 80% PvP hit chance.
+- Attack and defense skills equal to 100.0 produce a 90% initial PvP hit chance.
 - Shield Parrying reaches 45% in PvP and 50% in PvM with 100.0 Parrying.
 - Physical Resistance of the piece represents its percentage of absorption when the region is reached.
 - Body regions without effective armor receive 25% additional physical damage in PvP.

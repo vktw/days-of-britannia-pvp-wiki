@@ -58,6 +58,7 @@ plugins:
             Cidades e guards: Cities and guards
             Ocllo Safe Haven: Ocllo Safe Haven
             Como consultar Threat: Checking Threat
+            Raridades e Whispers of Britannia: Britannia Rarities and Whispers
             Combate: Combat
             Melee e Archery: Melee and Archery
             Armor e Parrying: Armor and Parrying
@@ -72,6 +73,8 @@ plugins:
             Sistemas: Systems
             Sistemas habilitados: Enabled systems
             Maestria PvM: PvM Mastery
+            Daily Dungeon: Daily Dungeon
+            Invisibilidade e Detect Hidden: Invisibility and Detect Hidden
             Sistemas desativados: Disabled systems
             Comandos: Commands
             Atualizações: Updates
@@ -103,6 +106,7 @@ nav:
       - Ocllo Safe Haven: mundo/ocllo.md
       - Threat Rating: mundo/threat-rating.md
       - Como consultar Threat: mundo/threat-inventory.md
+      - Raridades e Whispers of Britannia: mundo/raridades-britannia.md
   - Combate:
       - Visão geral: combate/index.md
       - Melee e Archery: combate/melee-archery.md
@@ -111,6 +115,7 @@ nav:
       - Magery: combate/magery.md
       - Cura e recursos: combate/cura-recursos.md
       - Poison: combate/poison.md
+      - Invisibilidade e Detect Hidden: combate/invisibilidade.md
   - Itens:
       - Visão geral: itens/index.md
       - Armas clássicas: itens/armas.md
@@ -122,6 +127,7 @@ nav:
       - Visão geral: sistemas/index.md
       - Sistemas habilitados: sistemas/habilitados.md
       - Maestria PvM: sistemas/pvm-mastery.md
+      - Daily Dungeon: sistemas/daily-dungeon.md
       - Sistemas desativados: sistemas-desativados.md
   - Comandos: comandos.md
   - Atualizações:

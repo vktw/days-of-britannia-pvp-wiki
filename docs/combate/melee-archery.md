@@ -5,7 +5,7 @@
 
 ## Chance de acerto
 
-Com ataque e defesa em 100.0, a chance de acerto em PvP é **80%**. No PvM, é **50%**. Diferenças entre a skill ofensiva e a defesa do alvo alteram essa chance.
+Com ataque e defesa em 100.0, a chance inicial de acerto em PvP é **90%**. No PvM, é **50%**. Diferenças entre a skill ofensiva e a defesa do alvo alteram essa chance.
 
 A defesa considera a skill adequada ao equipamento usado. Sem arma, o personagem depende de Wrestling.
 
@@ -15,7 +15,7 @@ O `Speed` mostrado pela arma representa seu delay com 100 DEX. Mais DEX acelera 
 
 O Bow clássico tem Speed 3.75 e dispara a cada 3,75 segundos com 100 DEX.
 
-Em Archery, caminhar não perde o disparo preparado. A flecha é liberada quando o alvo está em alcance e o arqueiro permanece parado por 250 ms.
+Em Archery, caminhar não perde o disparo preparado. A flecha é liberada quando o alvo está em alcance e o arqueiro permanece parado por **500 ms**.
 
 ## Dano e alcance
 

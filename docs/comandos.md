@@ -28,3 +28,7 @@ Abre as notas da versão mais recente dentro do jogo. O painel permite alternar 
 ## `.pvptrainer`
 
 Orienta o jogador a usar `.arena`. O PvP Trainer está disponível exclusivamente pela Arena Moonglow; o comando não cria um NPC diretamente.
+
+## `.dailydungeon`
+
+Mostra qual Daily Dungeon está selecionada e quanto tempo falta para a próxima rotação. Use o comando antes de sair para aproveitar os bônus de experiência de Maestria PvM e Loot Packs.

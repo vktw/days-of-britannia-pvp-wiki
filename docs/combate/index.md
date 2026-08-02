@@ -16,7 +16,7 @@ O combate de Days of Britannia separa dano físico, dano mágico e poison. Siste
 
 ## Princípios
 
-- Skills de ataque e defesa iguais em 100.0 produzem 80% de chance de acerto em PvP.
+- Skills de ataque e defesa iguais em 100.0 produzem 90% de chance inicial de acerto em PvP.
 - Shield Parrying chega a 45% no PvP e 50% no PvM com 100.0 Parrying.
 - Physical Resist da peça representa seu percentual de absorção quando a região é atingida.
 - Regiões corporais sem armor efetiva recebem 25% de dano físico adicional em PvP.
