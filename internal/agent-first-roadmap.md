@@ -161,8 +161,8 @@ HTML, asset, navigation, and metadata checks follow after the baseline checker
 is trusted.
 
 **Progress:** bilingual parity, navigation membership, and local asset checks
-are now implemented and run in CI. HTML metadata and duplicate-anchor checks
-remain the next bounded increment.
+are now implemented and run in CI. Rendered HTML now also receives and checks a
+single canonical URL per page; broader SEO review remains deliberately later.
 
 ### Deliverables
 

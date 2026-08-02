@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {% if not page.canonical_url and config.site_url %}
+    <link rel="canonical" href="{{ config.site_url.rstrip('/') }}{{ page.url }}">
+  {% endif %}
+  {{ super() }}
+{% endblock %}
