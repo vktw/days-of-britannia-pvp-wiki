@@ -53,6 +53,10 @@ def main() -> int:
             invalid.append(
                 f"{entry.get('id', '<missing-id>')}: live status requires approved source"
             )
+        if entry.get("source_status") == "approved" and not entry.get("approved_source"):
+            invalid.append(f"{entry.get('id', '<missing-id>')}: approved source is missing")
+        if entry.get("status") == "live" and not entry.get("live_version"):
+            invalid.append(f"{entry.get('id', '<missing-id>')}: live version is missing")
         if entry.get("source_status") == "pending_approval":
             pending.append(entry.get("id", "<missing-id>"))
         if entry.get("source_status") == "rejected":

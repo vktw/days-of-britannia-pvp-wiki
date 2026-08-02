@@ -10,6 +10,17 @@ publicação.
 **Regra de precedência:** `AGENTS.md`, configuração executável e fontes
 aprovadas continuam acima deste documento.
 
+## Fonte de verdade de gameplay
+
+O servidor live é a autoridade final. Se um comportamento está no live, ele é
+aprovado e pode ser documentado como verdade da versão vigente. Alterações no
+servidor local são rascunho: não entram na wiki nem no registry como `live` até
+serem publicadas no servidor.
+
+Os scripts live podem ser a referência técnica, mas nunca devem ser copiados
+para `docs/` ou `internal/`. Registre apenas um identificador seguro da versão,
+release ou módulo, sem expor implementação privada.
+
 ## Princípio
 
 Use rigor onde um erro é caro e velocidade onde o risco é baixo. Nenhum agente
@@ -28,9 +39,9 @@ adicione os controles condicionais correspondentes.
 1. **Inspecionar o estado:** `git status --short --branch` e escopo da mudança.
 2. **Proteger a fronteira:** conteúdo público fica em `docs/`; operação interna
    fica em `internal/`; nenhum segredo ou implementação privada entra no repo.
-3. **Usar fonte aprovada para gameplay público:** não inventar regras, números,
-   comandos ou status. Para documentação interna, use os contratos e arquivos
-   executáveis do repositório; não crie uma falsa exigência de fonte editorial.
+3. **Usar o live para gameplay público:** documentar apenas comportamento
+   presente no servidor live; não promover comportamento local, regra imaginada,
+   número ou comando ainda não publicado.
 4. **Alterar o mínimo coerente:** procurar duplicações e manter URLs estáveis.
 5. **Rodar os gates essenciais:**
 
@@ -59,9 +70,9 @@ autorização explícita.
 | Deploy/workflow | leitura completa do workflow e verificação live | nenhuma automação foi tocada |
 
 O registry de fatos é obrigatório apenas para fatos de alto risco. Ele não deve
-ser preenchido para cada frase da wiki. Enquanto uma fonte autorizada não for
-fornecida, marque a entrada como `pending_approval`; não transforme a própria
-wiki em evidência.
+ser preenchido para cada frase da wiki. Para comportamento live, use
+`source_status: approved` e um identificador seguro da versão; para trabalho
+local, use `status: planned` ou mantenha a informação fora da wiki até publicar.
 
 ## Recomendações, não bloqueios
 

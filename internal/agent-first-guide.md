@@ -181,11 +181,11 @@ exception is explicit in the change record.
 ### Fact provenance and freshness (high-risk claims only)
 
 Only for high-risk gameplay claims, read [`facts/README.md`](facts/README.md) and
-record the claim in [`facts/registry.yml`](facts/registry.yml). A public page is
-not evidence of its own correctness: use `source_status: pending_approval` and
-leave `approved_source` and `verification_date` null when the authorized source
-has not been supplied. Never invent a source or copy private material into the
-repository.
+record the claim in [`facts/registry.yml`](facts/registry.yml). Production live
+behavior is the approved source; record a safe live-version or release
+identifier, never a private script path. Local-only behavior must remain
+`planned` or outside the public manual. Never copy private implementation into
+the repository.
 
 Run the report before reviewing a version change:
 

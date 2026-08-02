@@ -115,7 +115,7 @@ The principal gaps are:
 
 **Priority:** highest
 **Effort:** medium
-**Status:** local implementation in progress; source approval pending
+**Status:** local implementation aligned to live-source policy; ready for review
 
 ### Deliverables
 
@@ -134,7 +134,7 @@ The principal gaps are:
 
 ### Acceptance criteria
 
-- every high-risk public claim sampled from the wiki has traceable approval;
+- every high-risk public claim sampled from the wiki points to a live version;
 - planned behavior cannot pass as live behavior;
 - a version update produces a deterministic list of facts and pages to review;
 - private source material is referenced safely and never copied into the repo.

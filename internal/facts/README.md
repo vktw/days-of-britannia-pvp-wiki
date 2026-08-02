@@ -1,15 +1,16 @@
 # Fact provenance and freshness
 
 This directory tracks high-risk public gameplay claims without copying private
-server implementation or production evidence into the repository.
+server implementation or production evidence into the repository. The live
+server is the authority: a behavior present in production is approved, while a
+local-only change is not a public fact.
 
 ## Registry
 
-[`registry.yml`](registry.yml) is an inventory of claims that deserve explicit
-source and review metadata. It is intentionally conservative: entries can be
-listed before their source is approved, but they must be marked
-`source_status: pending_approval` and `verification_date: null`. A pending
-entry is not evidence that the claim is correct.
+[`registry.yml`](registry.yml) is an inventory of high-risk claims with safe
+source metadata. Live entries use `source_status: approved` and identify the
+live version or release without exposing script paths or implementation. Local
+drafts use `status: planned` and must not be presented as live behavior.
 
 ## Fact lifecycle
 
@@ -18,25 +19,24 @@ Use these values consistently:
 | Field | Allowed values | Meaning |
 |---|---|---|
 | `status` | `live`, `planned`, `deprecated`, `unverified` | Editorial state of the claim |
-| `source_status` | `approved`, `pending_approval`, `rejected` | State of the source review |
+| `source_status` | `approved`, `pending_approval`, `rejected` | Source state; live behavior is approved |
 | `owner` | role or approved maintainer | Who confirms or updates the fact |
 
-Invariant: an entry with `source_status` other than `approved` cannot have
-`status: live`. Use `status: unverified` until the source is confirmed.
+Invariant: an entry with `status: live` must have `source_status: approved` and
+must refer to a live version. Local-only work cannot be `status: live`.
 
 Transitions:
 
 ```text
-planned → live       only after the behavior ships and is approved
+planned → live       only after the behavior reaches production
 live → deprecated     when replaced, with the replacement linked
-any → unverified      when the source is missing or contradicted
-pending_approval → approved only after an authorized source is confirmed
+any → unverified      when the live behavior is contradicted or removed
+pending_approval → approved only after the source is confirmed in production
 ```
 
-The public page may describe a claim as live only when `status: live`, the
-corresponding source is approved, and the version/review fields are current.
-Until then, keep the uncertainty internal and do not introduce a new public
-claim.
+The public page may describe a claim as live only when the behavior exists in
+production and the registry points to its live version. Until then, keep the
+local uncertainty internal and do not introduce a new public claim.
 
 ## Required fields
 
@@ -66,4 +66,4 @@ Review an entry when:
 - a translation exposes a number, command, condition, or status mismatch.
 
 The freshness report is a reminder and inventory aid. It does not establish
-gameplay truth and does not replace owner approval.
+gameplay truth; production state does that.

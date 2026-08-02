@@ -51,9 +51,13 @@ Do not invent values to complete a page.
   paths, required headings, and local Markdown links.
 - `.github/workflows/deploy.yml` is the production release contract.
 - GitHub `main` is the production source branch.
+- The live server is the final authority for gameplay: behavior present in
+  production is approved; local scripts and local behavior are drafts until
+  they reach live.
 
-If prose and executable configuration disagree, verify intent before changing
-either. Do not silently document an assumption as fact.
+For gameplay, the live server wins. For repository behavior, executable
+configuration wins. Do not silently document a local or speculative assumption
+as fact.
 
 ## Change workflow — Lean 1.1 core
 
