@@ -1,3 +1,7 @@
+---
+description: Entenda a Maestria PvM, sua progressão, famílias de Slayer e possibilidades de build no Live.
+---
+
 # Maestria PvM
 
 !!! success "Status: Live 0.12.0"
@@ -156,6 +160,3 @@ Teste uma mudança por vez e use o registro de combate opcional do Compendium pa
 Maestria PvM funciona somente em encontros PvM elegíveis. Não concede efeitos contra jogadores, pets controlados, summons adversários, participantes de Arena ou durante agressão PvP recente.
 
 Consulte [Recompensas PvM](../itens/recompensas-pvm.md) para XP, Loot Packs, joias e amuletos.
----
-description: Entenda a Maestria PvM, sua progressão, famílias de Slayer e possibilidades de build no Live.
----

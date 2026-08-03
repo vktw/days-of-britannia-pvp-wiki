@@ -1,3 +1,7 @@
+---
+description: "Comece no Days of Britannia: conexão oficial, primeiro personagem, proteção Newcomer e sua primeira hora."
+---
+
 # Primeiros passos
 
 !!! success "Status: Live 0.12.0"
@@ -26,6 +30,3 @@ Se este é seu primeiro contato com o jogo, comece por [Ultima Online Brasil: sh
 - [Mapas e viagem](../mundo/mapas-viagem.md)
 - [Comandos de jogador](../comandos.md)
 - [Sistemas habilitados e desativados](../sistemas/index.md)
----
-description: Comece no Days of Britannia: conexão oficial, primeiro personagem, proteção Newcomer e sua primeira hora.
----

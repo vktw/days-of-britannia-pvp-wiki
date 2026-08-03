@@ -1,5 +1,6 @@
 ---
 template: home.html
+description: Manual oficial do Days of Britannia para começar, entender o combate e consultar os sistemas Live.
 hide:
   - toc
 ---
@@ -89,6 +90,3 @@ hide:
   <p>Bardos e invocadores ganham novas Maestrias, com ajustes em Threat, Loot Packs, joias e Magic Arrow.</p>
   <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>
----
-description: Manual oficial do Days of Britannia para começar, entender o combate e consultar os sistemas Live.
----

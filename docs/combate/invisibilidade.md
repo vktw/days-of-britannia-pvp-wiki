@@ -1,3 +1,7 @@
+---
+description: Entenda Invisibility, o impacto de ataques contra alvos ocultos e o tempo de busca do Detect Hidden.
+---
+
 # Invisibilidade e Detect Hidden
 
 !!! success "Status: Live 0.12.0"
@@ -29,6 +33,3 @@ Escolha a busca e aguarde **2 segundos** para que ela seja resolvida. Não há c
 | Detect Hidden | Busca resolve em 2 s |
 
 As regras valem para jogadores, criaturas e PvP Trainer quando a ação correspondente for usada.
----
-description: Entenda Invisibility, o impacto de ataques contra alvos ocultos e o tempo de busca do Detect Hidden.
----
