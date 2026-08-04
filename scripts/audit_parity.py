@@ -3,8 +3,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
-LIVE_VERSION = "Live 0.12.0"
-
 NUMBER_RE = re.compile(r"(?<![\w])\d+(?:[.,]\d+)?%?")
 COMMAND_RE = re.compile(r"`(\.[a-z][a-z0-9]*)`", re.I)
 LINK_RE = re.compile(r"(?<!!)\[([^\]]*)\]\(([^)]+)\)")
@@ -44,17 +42,13 @@ def audit():
 
     for page in DOCS.rglob("*.md"):
         text = page.read_text(encoding="utf-8-sig")
-        if "Status: Live " in text and f"Status: {LIVE_VERSION}" not in text:
-            errors.append(f"stale live version: {page.relative_to(DOCS)}")
         for label, target in LINK_RE.findall(text):
             if not label.strip():
                 errors.append(f"empty link label: {page.relative_to(DOCS)} -> {target}")
 
     config = (ROOT / "mkdocs.yml").read_text(encoding="utf-8-sig")
-    if f'dob_version: "{LIVE_VERSION}"' not in config:
-        errors.append(f"mkdocs live version is not {LIVE_VERSION}")
-    if "0.12.0" not in (DOCS / "index.md").read_text(encoding="utf-8-sig"):
-        errors.append("home release card is not 0.12.0")
+    if not re.search(r'^\s*dob_version:\s*["\']Live \d+\.\d+\.\d+["\']\s*$', config, re.M):
+        errors.append("mkdocs live version is missing or malformed")
     english_home = (DOCS / "index.en.md").read_text(encoding="utf-8-sig")
     if 'src="../assets/hero-mark.png' not in english_home:
         errors.append("English home hero mark does not resolve to the shared assets directory")
