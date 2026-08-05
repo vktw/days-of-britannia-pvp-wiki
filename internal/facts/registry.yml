@@ -1,16 +1,18 @@
 # High-risk gameplay fact inventory.
 # Live entries are approved by production presence; source refs are metadata only.
+# The 0.20.0 pass below confirms release identity and official patch-note deltas.
+# Other entries retain their last deep-verification release until that audit is run.
 schema_version: 1
-registry_version: "0.12.0"
+registry_version: "0.20.0"
 source_policy: "live-server-is-final"
 entries:
   - id: live-version
-    claim: "The public manual identifies the current live ruleset as 0.12.0."
+    claim: "The public manual identifies the current live ruleset as 0.20.0."
     status: live
     source_status: approved
-    live_version: "0.12.0"
-    verification_date: "2026-08-02"
-    approved_source: "live-server/v0.12.0"
+    live_version: "0.20.0"
+    verification_date: "2026-08-05"
+    approved_source: "live-server/v0.20.0"
     public_reference: "docs/patches.md"
     canonical_pt: "docs/patches.md"
     english_counterpart: "docs/patches.en.md"
@@ -101,7 +103,7 @@ entries:
     owner: pvm-maintainer
     review_after: null
   - id: weapon-catalog
-    claim: "The public weapons page documents the competitive catalog and unavailable families for Live 0.12.0."
+    claim: "The public weapons page documents the classic competitive catalog and unavailable families."
     status: live
     source_status: approved
     live_version: "0.12.0"
@@ -137,7 +139,7 @@ entries:
     owner: pvm-maintainer
     review_after: null
   - id: invisibility-impact
-    claim: "Live 0.12.0 applies the documented impact and Detect Hidden timing rules for invisibility."
+    claim: "The public invisibility page documents the impact and Detect Hidden timing rules."
     status: live
     source_status: approved
     live_version: "0.12.0"
@@ -149,7 +151,7 @@ entries:
     owner: pvp-maintainer
     review_after: null
   - id: britannia-rarities
-    claim: "Live 0.12.0 exposes the documented rare Phoenix and Whispers of Britannia player interactions."
+    claim: "The public Britannia page documents the rare Phoenix and Whispers of Britannia player interactions."
     status: live
     source_status: approved
     live_version: "0.12.0"

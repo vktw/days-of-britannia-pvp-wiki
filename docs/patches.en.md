@@ -2,6 +2,87 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.20.0 · Cleaner character creation
+
+- Character creation no longer gives legacy profession or skill weapons, tools, reagents, bandages, or books.
+- New characters now start near the Britain bank.
+- The DoB kit, Spellbook, Runebook, starting horse, starting gold, and basic cosmetics remain available.
+
+## 0.19.0 · Thematic weapons
+
+- Ordinary weapons remain Iron; Bloodrock and Blackrock lines are separated into DoB Weapons.
+- Crimson Rite, Blood Vow, Vein Sever, Ritual Conduit, Sanguine Toll, and Crimson Verdict form the Bloodrock line.
+- Dusk Reaver, Nightfang, Gloom Sever, Umbral Conduit, Dark Toll, and Midnight Verdict form the Blackrock line.
+- The new weapons use 30 ingots and require 75–110 Blacksmithy; cannons are no longer made through Blacksmithy.
+
+## 0.18.4 · Blackthorn invasion disabled
+
+- The Blackthorn invasion no longer creates controllers, waves, invaders, beacons, or invasion rewards.
+- Blackthorn Dungeon, quests, and independent content remain separate from this change.
+
+## 0.18.3 · Proportional magical threat
+
+- Threat from magically intelligent creatures now scales with 25% of health.
+- Archers receive a proportional 10% adjustment, and wild special abilities contribute within defined bounds.
+
+## 0.18.1 · Stable notices
+
+- The maintenance notice remains available after restarts and automatic saves.
+
+## 0.18.0 · Help and safe return
+
+- `.help` provides short command descriptions and direct access to available actions.
+- `.store` opens the Ultima Store directly.
+- Stuck returns a character to Ocllo after two minutes when health, stamina, and mana are full and the character is out of combat, subject to confirmation and system conditions.
+- The legacy Veteran Rewards program is disabled; previously received items remain usable.
+
+## 0.17.2 · Felucca map update
+
+- Nujelm and other Felucca locations receive new DoB landscape and decoration.
+
+## 0.17.0 · First steps in Masteries
+
+- The first learned PvM Mastery is automatically added to the build at level 1 when the combat log is enabled.
+- Compendium controls and guidance become clearer.
+
+## 0.16.0 · Special tools
+
+- Light, Hardened, and Tempered tools now use Bronze, Shadow, and Silver.
+- Artisan Gold improves Exceptional items; Reliable Bloodrock increases crafting safety; Refined Blackrock combines materials.
+- Skill amulets can be effective up to 105, while starting skills remain capped at 100.
+- `.skillcheck` shows the check value, chances, and result.
+
+## 0.15.0 · Mastery of vital resources
+
+- Mana Shield and Vigor Shield pay part of incoming PvM damage with mana and stamina.
+- Arcane Exertion and Blood Magic pay part of spell mana costs with stamina and health.
+- Hit Stamina Leech restores stamina from effective direct weapon damage against PvM creatures.
+- The five masteries scale from 5% to 9.5% and do not affect PvP or the Arena.
+- Deadly Poison uses the same damage formula in PvM and PvP while keeping different application rules in each context.
+
+## 0.14.1 · Clearer ore piles
+
+- Ore piles now use different appearances for 1, 2, 3, and 4 or more units.
+- Item Identification preserves part of the result after a failed smelt attempt, including amulet bonuses.
+- Guard boundaries, simultaneous connections, and vendor sale limits receive clearer rules.
+
+## 0.14.0 · Area gathering
+
+- Compatible tools can start sequential gathering across a 5x5 area.
+- Pickaxes and hatchets can be equipped and targeted with a double-click.
+- Exhausted spots are skipped, with four-second mining and lumber cycles.
+
+## 0.13.1 · Consistent movement and casting
+
+- Movement while not overweight no longer consumes stamina; overweight applies 20% fatigue, with a minimum of 1, while shove cost remains.
+- Magery validates reagents before the target and consumes them at cast start.
+
+## 0.13.0 · New metals of Britannia
+
+- The metal catalog now includes Iron, Bronze, Shadow, Silver, Gold, Bloodrock, Blackrock, Mythril, and Brittanium.
+- Metal defines additional physical protection for armor and shields; quality defines durability, not protection.
+- The modern Enhance system no longer defines materials; magical PvM equipment remains Iron.
+
 ## 0.12.0 · Whispers of Britannia
 
 - A rare Phoenix can appear every hour in a Britannia cemetery.
@@ -34,6 +115,13 @@ This page summarizes changes players can notice. Current numbers and full instru
 - One Daily Dungeon receives a 25% PvM Mastery experience bonus until the next rotation.
 - Customized Loot Packs appear twice as often for eligible creatures in the Daily Dungeon.
 - `.dailydungeon` shows the selected dungeon and remaining time.
+
+## 0.10.3 · More consistent attacks
+
+- With equal Melee or Archery skills, the initial PvP hit chance becomes 90%.
+- Archery requires a continuous 0.5-second stop before releasing a prepared shot.
+- `.pvp` configures the colored potion cooldown bar and poison application messages.
+- Total Mana Potions are not consumed when mana is already full.
 
 ## 0.10.2 · New mastery paths
 

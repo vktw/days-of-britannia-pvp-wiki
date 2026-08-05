@@ -1,11 +1,11 @@
 # Mapas e viagem
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     Regras verificadas para jogadores no servidor oficial.
 
 ## Felucca
 
-Novos personagens começam em Britain, Felucca. O mapa utiliza as regras de notoriedade e combate do shard.
+Novos personagens começam próximos ao banco de Britain, em Felucca. O mapa utiliza as regras de notoriedade e combate do shard.
 
 ## Trammel
 

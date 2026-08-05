@@ -4,7 +4,7 @@ description: Entenda a Maestria PvM, sua progressão, famílias de Slayer e poss
 
 # Maestria PvM
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     O Hunter's Compendium oferece progressão própria para personagens que enfrentam criaturas.
 
 O **Hunter's Compendium** registra conhecimentos de caça, pontos e a build ativa do personagem. Personagens existentes recebem o livro no primeiro login com o sistema ativo; novos personagens o recebem na criação. Mantenha-o na mochila principal e use dois cliques para abrir.
@@ -65,7 +65,21 @@ Use estes exemplos para reconhecer cada família. Eles não garantem um scroll: 
 
 O scroll usa o tempo normal de permanência do loot no corpo. Não é necessário ter uma Maestria ativa para encontrá-lo. Ao descobrir uma Maestria, consulte o Compendium para acompanhar seu nível e a descrição exibida no jogo.
 
-## Catálogo do Live 0.12.0
+## Maestrias de recursos do Live 0.15.0
+
+O Live adicionou cinco Maestrias que convertem parte de recursos defensivos ou ofensivos em sustentação para o PvM:
+
+| Maestria | Efeito resumido |
+|---|---|
+| **Mana Shield** | Paga parte do dano PvM recebido com mana. |
+| **Vigor Shield** | Paga parte do dano PvM recebido com stamina. |
+| **Arcane Exertion** | Paga parte do custo de mana de magias elegíveis com stamina. |
+| **Blood Magic** | Paga parte do custo de mana de magias elegíveis com vida. |
+| **Hit Stamina Leech** | Recupera stamina a partir de dano direto efetivo de armas contra criaturas PvM elegíveis. |
+
+Essas cinco Maestrias escalam de 5% a 9,5% e preservam as exclusões de PvP e Arena. A primeira Maestria aprendida pode entrar automaticamente na build no nível 1 quando o log de combate está habilitado; o Compendium mostra orientações e controles mais claros.
+
+## Catálogo do Live 0.20.0
 
 ### Ataque e recursos
 

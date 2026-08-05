@@ -12,6 +12,10 @@ source metadata. Live entries use `source_status: approved` and identify the
 live version or release without exposing script paths or implementation. Local
 drafts use `status: planned` and must not be presented as live behavior.
 
+After a shallow patch-note pass, a detailed entry may retain its last
+deep-verification release until the behavior audit is run; that lag is not a
+full confirmation of every numerical rule in the current release.
+
 ## Fact lifecycle
 
 Use these values consistently:

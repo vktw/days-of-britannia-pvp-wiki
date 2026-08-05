@@ -4,7 +4,7 @@ description: Veja como a Daily Dungeon aumenta a experiência de Maestria PvM e 
 
 # Daily Dungeon
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     A Daily Dungeon diferente recebe bônus até a próxima rotação.
 
 A Daily Dungeon é a melhor referência do dia para quem quer combinar PvM e progressão de Maestria. A seleção muda em uma rotação diária; use `.dailydungeon` para ver a dungeon atual e o tempo restante.

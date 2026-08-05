@@ -1,6 +1,6 @@
 # Comandos de jogador
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     Os comandos abaixo estão disponíveis aos jogadores no servidor oficial.
 
 ## `.arena`
@@ -24,6 +24,22 @@ Ao final, o comando abre uma confirmação opcional de viagem para Cove em Feluc
 ## `.patchnotes`
 
 Abre as notas da versão mais recente dentro do jogo. O painel permite alternar entre português e inglês enquanto permanece aberto.
+
+## `.pvp`
+
+Abre as preferências de PvP para a barra colorida de cooldown de poções, que esvazia a cada segundo, e para as mensagens de aplicação de poison.
+
+## `.skillcheck`
+
+Mostra o valor, as chances e o resultado do teste de skill.
+
+## `.help`
+
+Abre a ajuda do DoB com descrições curtas dos comandos e acesso direto às ações disponíveis.
+
+## `.store`
+
+Abre diretamente a Ultima Store.
 
 ## `.pvptrainer`
 

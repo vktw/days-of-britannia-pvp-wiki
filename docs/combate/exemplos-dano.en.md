@@ -1,6 +1,6 @@
 # Damage examples
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     Practical examples for equipment decisions without reproducing the server's internal formula.
 
 ## Raw damage ranges

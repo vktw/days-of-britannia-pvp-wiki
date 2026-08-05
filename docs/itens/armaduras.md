@@ -1,7 +1,13 @@
 # Armaduras clássicas
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     Cada peça protege somente a região corporal em que está equipada.
+
+## Metais do Live 0.13.0
+
+O catálogo de craft inclui **Iron, Bronze, Shadow, Silver, Gold, Bloodrock, Blackrock, Mythril e Brittanium**. O metal define de 0 a 8 pontos adicionais de proteção física para armaduras e shields; a qualidade Low, Normal ou Exceptional mantém a mesma proteção e altera somente a durabilidade.
+
+O sistema moderno de Enhance não define mais o material. Equipamentos mágicos de PvM permanecem em Iron.
 
 ## Qualidades
 

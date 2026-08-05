@@ -1,11 +1,11 @@
 # Your first character
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     The base below is applied to every new character, regardless of the client's chosen profession.
 
 ## Starting location
 
-Every player starts at **Wayfarer's Inn**, in Britain, on the Felucca map.
+Every player starts near the **Britain bank**, on the Felucca map.
 
 ## Stats
 
@@ -26,6 +26,8 @@ The permanent limit is 100 per stat and 300 total. Buffs and items can raise eac
 The shard does not have a global skill cap. Each individual skill remains capped at 100.0.
 
 ## Equipment and resources
+
+Legacy profession or skill items such as weapons, tools, reagents, bandages, and profession books are no longer given at creation. The DoB kit and the starting resources below remain available.
 
 The character starts with:
 

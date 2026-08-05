@@ -4,7 +4,7 @@ description: Learn PvM Mastery progression, Slayer families, and build options o
 
 # PvM Mastery
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     The Hunter's Compendium provides dedicated progression for characters who fight creatures.
 
 The **Hunter's Compendium** records hunting knowledge, points, and the character's active build. Existing characters receive the book on their first login while the system is active; new characters receive it at creation. Keep it in the main backpack and double-click it to open.
@@ -65,7 +65,21 @@ Use these examples to recognize each family. They do not guarantee a scroll: the
 
 The scroll uses the normal corpse loot lifetime. A mastery does not need to be active for its scroll to drop. After discovering a mastery, use the Compendium to track its level and read the description shown in game.
 
-## Live 0.12.0 catalog
+## Live 0.15.0 resource Masteries
+
+Live added five Masteries that convert part of defensive or offensive resources into PvM sustain:
+
+| Mastery | Summary |
+|---|---|
+| **Mana Shield** | Pays part of incoming PvM damage with mana. |
+| **Vigor Shield** | Pays part of incoming PvM damage with stamina. |
+| **Arcane Exertion** | Pays part of eligible spell mana costs with stamina. |
+| **Blood Magic** | Pays part of eligible spell mana costs with health. |
+| **Hit Stamina Leech** | Restores stamina from effective direct weapon damage against eligible PvM creatures. |
+
+These five Masteries scale from 5% to 9.5% and preserve the PvP and Arena exclusions. The first learned Mastery can be added to the build automatically at level 1 when the combat log is enabled; the Compendium provides clearer guidance and controls.
+
+## Live 0.20.0 catalog
 
 ### Offense and resources
 

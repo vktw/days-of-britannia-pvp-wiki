@@ -1,6 +1,6 @@
 # Enabled systems
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     Summary list of core mechanics available to players.
 
 - Physical combat with Swords, Macing, Fencing, Archery and Wrestling.
@@ -10,13 +10,19 @@
 - Hiding, Stealth, Detect Hidden and Poisoning.
 - Barding with Musicianship, Peacemaking, Discordance and Provocation, including the Resonant Cascade PvM interaction.
 - Weapons and armor with classic tiers.
+- Crafting metals from Iron through Brittanium, with physical protection defined by the metal.
+- Bloodrock and Blackrock DoB Weapons thematic lines.
+- Special crafting tools and 5x5 area gathering.
 - Classic Poison: Lesser, Regular, Greater and Deadly.
 - Classic bandages and potions.
 - Runebooks, Recall and Gate Travel within the Felucca public facet; Trammel remains restricted to official arenas.
 - Arenas, rankings, seasons and PvP Trainer.
 - Textual Threat Rating for PvM creatures, with Paragon displayed as a separate variant.
 - PvM Mastery with the Hunter's Compendium, Scrolls of Knowledge, and builds of up to five active masteries.
+- PvM resource Masteries: Mana Shield, Vigor Shield, Arcane Exertion, Blood Magic, and Hit Stamina Leech.
 - Encounter-scaled PvM rewards, including Loot Packs, jewelry, and skill amulets.
+- `.help`, `.pvp`, and `.skillcheck` for help, PvP preferences, and skill checks.
+- Stuck return to Ocllo under the system's conditions.
 - Auto-account and up to two simultaneous connections via external IP.
 
 See specific pages for limits and exceptions. Presence on this list does not mean that the mechanics maintain TrueUO's default behavior.

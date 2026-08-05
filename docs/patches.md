@@ -2,6 +2,87 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.20.0 · Criação de personagens mais limpa
+
+- A criação de personagens deixa de entregar armas, ferramentas, reagentes, bandages e livros legados de profissão ou skill.
+- Novos personagens surgem próximos ao banco de Britain.
+- O kit DoB, Spellbook, Runebook, cavalo, gold inicial e cosméticos básicos continuam disponíveis.
+
+## 0.19.0 · Armas temáticas
+
+- Armas comuns continuam usando Iron; as linhas de Bloodrock e Blackrock passam a ficar separadas em DoB Weapons.
+- Crimson Rite, Blood Vow, Vein Sever, Ritual Conduit, Sanguine Toll e Crimson Verdict formam a linha Bloodrock.
+- Dusk Reaver, Nightfang, Gloom Sever, Umbral Conduit, Dark Toll e Midnight Verdict formam a linha Blackrock.
+- As novas armas usam 30 ingots e exigem Blacksmithy entre 75 e 110; cannons deixam de ser produzidos em Blacksmithy.
+
+## 0.18.4 · Invasão de Blackthorn desativada
+
+- A invasão de Blackthorn deixa de criar controllers, waves, invaders, beacons e recompensas da invasão.
+- Blackthorn Dungeon, quests e conteúdos independentes permanecem separados dessa desativação.
+
+## 0.18.3 · Ameaça mágica proporcional
+
+- A ameaça de criaturas com inteligência mágica passa a escalar com 25% da vida.
+- Arqueiros recebem um ajuste proporcional de 10%, e habilidades especiais de criaturas selvagens contribuem com limites definidos.
+
+## 0.18.1 · Estabilidade dos avisos
+
+- O aviso de manutenção permanece disponível após reinícios e salvamentos automáticos.
+
+## 0.18.0 · Ajuda e retorno seguro
+
+- `.help` oferece descrições curtas dos comandos e acesso direto às ações disponíveis.
+- `.store` abre diretamente a Ultima Store.
+- O retorno Stuck leva o personagem a Ocllo após dois minutos quando ele está com vida, stamina e mana completas e fora de combate, mediante confirmação e condições do sistema.
+- O programa legado de Veteran Rewards é desativado; itens já recebidos continuam utilizáveis.
+
+## 0.17.2 · Atualização do mapa de Felucca
+
+- Nujelm e outros locais de Felucca recebem paisagem e decoração novas do DoB.
+
+## 0.17.0 · Primeiros passos nas Maestrias
+
+- A primeira Maestria PvM aprendida entra automaticamente na build no nível 1 quando o log de combate está habilitado.
+- O Compendium recebe controles e orientações mais claros.
+
+## 0.16.0 · Ferramentas especiais
+
+- Ferramentas Light, Hardened e Tempered passam a usar Bronze, Shadow e Silver.
+- Artisan Gold melhora itens Exceptional; Reliable Bloodrock aumenta a segurança do craft; Refined Blackrock combina materiais.
+- Amuletos de skill podem ser efetivos até 105, enquanto skills iniciais permanecem limitadas a 100.
+- `.skillcheck` exibe valor, chances e resultado do teste.
+
+## 0.15.0 · Domínio dos recursos vitais
+
+- Mana Shield e Vigor Shield pagam parte do dano PvM recebido com mana e stamina.
+- Arcane Exertion e Blood Magic pagam parte do custo de mana de magias com stamina e vida.
+- Hit Stamina Leech recupera stamina a partir de dano direto efetivo de armas contra criaturas PvM.
+- As cinco Maestrias escalam de 5% a 9,5% e não alteram PvP nem Arena.
+- Deadly Poison usa a mesma fórmula de dano no PvM e no PvP, mantendo regras de aplicação diferentes em cada contexto.
+
+## 0.14.1 · Montes de ore mais claros
+
+- Montes de ore passam a usar aparências diferentes para 1, 2, 3 e 4 ou mais unidades.
+- Item Identification preserva parte do resultado após uma tentativa de smelt malsucedida, incluindo bônus de amuletos.
+- Guardas, conexões simultâneas e limites de venda a vendors recebem regras mais claras.
+
+## 0.14.0 · Coleta em área
+
+- Ferramentas compatíveis podem iniciar coleta sequencial em uma área 5x5.
+- Pickaxe e hatchet podem ser equipadas e direcionadas com dois cliques.
+- Pontos esgotados são ignorados, com ciclos de quatro segundos para mineração e corte.
+
+## 0.13.1 · Movimento e conjuração consistentes
+
+- Movimento sem sobrepeso deixa de consumir stamina; sobrepeso aplica fadiga de 20%, com mínimo de 1, e o custo de shove permanece.
+- Magery valida reagentes antes do alvo e os consome no início do cast.
+
+## 0.13.0 · Novos metais de Britannia
+
+- O catálogo de metais passa a incluir Iron, Bronze, Shadow, Silver, Gold, Bloodrock, Blackrock, Mythril e Brittanium.
+- O metal define a proteção física adicional de armaduras e shields; qualidade define durabilidade, não proteção.
+- O sistema moderno de Enhance deixa de definir materiais; equipamentos mágicos de PvM continuam em Iron.
+
 ## 0.12.0 · Sussurros de Britannia
 
 - Uma Phoenix rara pode surgir a cada hora em um cemitério de Britannia.
@@ -34,6 +115,13 @@ Esta página resume mudanças percebidas pelos jogadores. Números atuais e inst
 - Uma Daily Dungeon recebe 25% de bônus de experiência de Maestria PvM até a próxima rotação.
 - A frequência de Loot Packs personalizados dobra para criaturas elegíveis na Daily Dungeon.
 - `.dailydungeon` mostra a dungeon selecionada e o tempo restante.
+
+## 0.10.3 · Ataques mais consistentes
+
+- Com skills de Melee ou Archery equivalentes, a chance inicial de acerto no PvP passa a ser 90%.
+- Archery exige uma parada contínua de 0,5 segundo antes de liberar o disparo preparado.
+- `.pvp` permite configurar a barra colorida de cooldown de poções e as mensagens de aplicação de poison.
+- Total Mana Potions não são consumidas quando a mana já está cheia.
 
 ## 0.10.2 · Novos caminhos de Maestria
 

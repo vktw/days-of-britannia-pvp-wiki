@@ -4,7 +4,7 @@ description: Descubra a Phoenix rara, Fire Feathers e os Whispers of Britannia n
 
 # Raridades e Whispers of Britannia
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     Phoenix rara e Town Crier oferecem dois novos caminhos de descoberta em Britannia.
 
 ## Phoenix rara

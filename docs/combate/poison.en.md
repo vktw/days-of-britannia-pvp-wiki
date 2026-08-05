@@ -1,6 +1,6 @@
 # Poison
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     Poison pressures healing and forces the opponent to react.
 
 Applying the same level again restarts its duration. Compatible weapons consume one charge when poison is applied on a successful hit; the weapon property shows its level and remaining charges.

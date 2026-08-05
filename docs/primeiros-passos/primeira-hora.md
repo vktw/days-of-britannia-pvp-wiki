@@ -1,9 +1,9 @@
 # Sua primeira hora em Britannia
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     Um roteiro curto para organizar o personagem e escolher o primeiro objetivo.
 
-Você começa na **Wayfarer's Inn**, em Britain, no mapa Felucca. Não é necessário fazer tudo de uma vez: primeiro organize seus recursos, conheça as áreas seguras e escolha se quer explorar PvM, preparar PvP ou desenvolver outras skills.
+Você começa próximo ao **banco de Britain**, no mapa Felucca. Não é necessário fazer tudo de uma vez: primeiro organize seus recursos, conheça as áreas seguras e escolha se quer explorar PvM, preparar PvP ou desenvolver outras skills.
 
 ## 1. Conheça sua mochila
 
@@ -53,5 +53,8 @@ Personagens Newcomer seguem o retorno automático próprio. Leia [Newcomer e pro
 - `.patchnotes`: mostra a versão e as mudanças atuais.
 - `.pvpcamp`: entrega um kit de preparação e pode oferecer viagem para Cove.
 - `.arena`: abre desafios contra jogadores ou treinamento com o PvP Trainer.
+- `.pvp`: abre as preferências de avisos e cooldown de poções.
+- `.skillcheck`: mostra o valor, as chances e o resultado de um teste.
+- `.help`: mostra a ajuda dos comandos disponíveis.
 
 Depois dessa primeira organização, escolha um objetivo pequeno: descobrir uma Maestria, testar duas armas, conhecer Ocllo ou completar uma luta de treino.

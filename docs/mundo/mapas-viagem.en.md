@@ -1,11 +1,11 @@
 # Maps and travel
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
 Verified rules for players on the official server.
 
 ## Felucca
 
-New characters start in Britain, Felucca. The map uses the shard's notoriety and combat rules.
+New characters start near the Britain bank in Felucca. The map uses the shard's notoriety and combat rules.
 
 ## Trammel
 

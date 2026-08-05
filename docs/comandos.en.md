@@ -1,6 +1,6 @@
 # Player commands
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     The commands below are available to players on the official server.
 
 ## `.arena`
@@ -24,6 +24,22 @@ At the end, the command opens an optional travel confirmation to Cove on Felucca
 ## `.patchnotes`
 
 Open the latest version notes within the game. The panel can switch between Portuguese and English while it remains open.
+
+## `.pvp`
+
+Open PvP preferences for the colored potion cooldown bar, which empties each second, and poison application messages.
+
+## `.skillcheck`
+
+Shows the skill check's value, chances, and result.
+
+## `.help`
+
+Opens DoB help with short command descriptions and direct access to available actions.
+
+## `.store`
+
+Opens the Ultima Store directly.
 
 ## `.pvptrainer`
 
