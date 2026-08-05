@@ -85,8 +85,8 @@ hide:
 <section class="dob-atlas-update" aria-labelledby="dob-release-title">
   <div>
     <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
-    <h2 id="dob-release-title">0.12.0 · Sussurros de Britannia</h2>
+    <h2 id="dob-release-title">0.20.0 · Criação de personagens mais limpa</h2>
   </div>
-  <p>Bardos e invocadores ganham novas Maestrias, com ajustes em Threat, Loot Packs, joias e Magic Arrow.</p>
+  <p>Novos personagens deixam de receber itens legados de profissão e skills e passam a surgir próximos ao banco de Britain, mantendo os recursos iniciais controlados.</p>
   <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

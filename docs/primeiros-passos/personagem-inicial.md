@@ -1,11 +1,11 @@
 # Seu primeiro personagem
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     A base abaixo é aplicada a todo novo personagem, independentemente da profissão escolhida no cliente.
 
 ## Local inicial
 
-Todo jogador começa na **Wayfarer's Inn**, em Britain, no mapa Felucca.
+Todo jogador começa próximo ao **banco de Britain**, no mapa Felucca.
 
 ## Stats
 
@@ -26,6 +26,8 @@ O limite permanente é 100 por stat e 300 no total. Buffs e itens podem elevar c
 O shard não possui skill cap global. Cada skill individual permanece limitada a 100.0.
 
 ## Equipamento e recursos
+
+Itens legados de profissão ou skill, como armas, ferramentas, reagentes, bandages e livros de profissão, não são mais entregues na criação. O kit DoB e os recursos iniciais listados abaixo permanecem disponíveis.
 
 O personagem começa com:
 

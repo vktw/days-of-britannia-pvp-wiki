@@ -1,6 +1,6 @@
 # Classic weapons
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     Choose weapons by their combat role, not by an isolated damage spreadsheet.
 
 ## Qualities
@@ -31,7 +31,7 @@ Short two-handed weapons based on Fencing or Swords can also receive poison. Mac
 
 ## Competitive catalog
 
-The **46 competitive families** below are available to players and may appear in the Loot Pack weapon roll. The table groups weapons that perform the same role; differences in speed and impact remain visible in each item's in-game properties.
+The classic catalog below is available to players and may appear in the Loot Pack weapon roll. The table groups weapons that perform the same role; differences in speed and impact remain visible in each item's in-game properties.
 
 | Role | Skill | Hands | Range | Poison | Shield | Available weapons |
 |---|---|:---:|:---:|:---:|:---:|---|
@@ -43,7 +43,16 @@ The **46 competitive families** below are available to players and may appear in
 | One-handed, no poison | Mace Fighting | 1 | 1 | No | Yes | Club, Mace, War Axe, Hammer Pick, Maul, and War Mace |
 | Archery | Archery | 2 | 10 | No | No | Repeating Crossbow, Magical Shortbow, Elven Composite Longbow, Bow, Composite Bow, Crossbow, and Heavy Crossbow |
 
-**Hatchet** remains available as a utility tool outside the competitive catalog. Kama, Sai, Tekagi, Ornate Axe and its family, Tessen, Nunchaku, Elven Spellblade, No-Dachi, Rune Blade and its family, Daisho, Serrated War Cleaver, Diamond Mace, Emerald Mace, Ruby Mace, Silver-Etched Mace, Scepter, Lajatang, Yumi, Radiant Scimitar, Wakizashi, Elven Machete, Paladin Sword, and Lance are not available to players on Live 0.12.0.
+**Hatchet** remains available as a utility tool outside the competitive catalog. Kama, Sai, Tekagi, Ornate Axe and its family, Tessen, Nunchaku, Elven Spellblade, No-Dachi, Rune Blade and its family, Daisho, Serrated War Cleaver, Diamond Mace, Emerald Mace, Ruby Mace, Silver-Etched Mace, Scepter, Lajatang, Yumi, Radiant Scimitar, Wakizashi, Elven Machete, Paladin Sword, and Lance are not available to players in the classic catalog below.
+
+## Live 0.19.0 thematic lines
+
+Ordinary weapons remain Iron. **DoB Weapons** separate Bloodrock and Blackrock weapons, and cannons are no longer made through Blacksmithy.
+
+- **Bloodrock:** Crimson Rite, Blood Vow, Vein Sever, Ritual Conduit, Sanguine Toll, and Crimson Verdict.
+- **Blackrock:** Dusk Reaver, Nightfang, Gloom Sever, Umbral Conduit, Dark Toll, and Midnight Verdict.
+
+The thematic weapons use 30 ingots and require 75–110 Blacksmithy.
 
 ## Official kits
 

@@ -1,6 +1,6 @@
 # Healing and resources
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     Values and restrictions that affect decisions during combat.
 
 ## Healing ranges
@@ -28,6 +28,8 @@ Drinkable potions share a global **15-second** cooldown and do not require empty
 - Total Mana restores 40 mana.
 - Total Refresh restores stamina.
 - Invisibility immediately makes the character invisible.
+
+A Total Mana Potion is not consumed when mana is already full.
 
 Explosion Potions use a target cursor and countdown. They can affect an area, so positioning and timing matter more than memorizing a damage calculation.
 

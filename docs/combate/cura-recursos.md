@@ -1,6 +1,6 @@
 # Cura e recursos
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     Valores e restrições que afetam decisões durante o combate.
 
 ## Faixas de cura
@@ -28,6 +28,8 @@ Potions bebíveis compartilham cooldown global de **15 segundos** e não exigem 
 - Total Mana recupera 40 mana.
 - Total Refresh recupera stamina.
 - Invisibility torna o personagem invisível imediatamente.
+
+Total Mana Potion não é consumida quando a mana já está cheia.
 
 Explosion Potions usam cursor e contagem regressiva. Podem atingir uma área, então posição e tempo importam mais que tentar decorar o cálculo de dano.
 

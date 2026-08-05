@@ -1,6 +1,6 @@
 # Combat
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
 The pages in this section describe the active ruleset on the official server.
 
 Days of Britannia's combat separates physical damage, magical damage and poison. Modern elemental damage systems and AOS attributes do not determine the outcome of PvP Sphere.

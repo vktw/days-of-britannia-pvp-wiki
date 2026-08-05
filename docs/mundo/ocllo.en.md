@@ -1,6 +1,6 @@
 # Ocllo Safe Haven
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     Ocllo is the official Safe Haven in Felucca.
 
 Ocllo is the safe place to start, organize yourself, and recover after death. Across the island, player conflict, stealing, and harmful actions by pets or summons are blocked.

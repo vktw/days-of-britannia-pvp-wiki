@@ -1,6 +1,6 @@
 # PvM rewards
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     Eligible creatures reward the group according to the scale of the encounter.
 
 After defeating an eligible creature, nearby participants with looting rights may receive PvM Mastery experience. Gold, Loot Pack opportunities, and other rewards follow the encounter's resilience; the Threat class helps compare risk but does not guarantee a specific item.

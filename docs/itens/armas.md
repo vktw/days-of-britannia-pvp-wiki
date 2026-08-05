@@ -1,6 +1,6 @@
 # Armas clássicas
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     Escolha armas pelo papel no combate, não por uma planilha isolada de dano.
 
 ## Qualidades
@@ -31,7 +31,7 @@ Armas curtas de duas mãos baseadas em Fencing ou Swords também podem receber p
 
 ## Catálogo competitivo
 
-As **46 famílias competitivas** abaixo estão disponíveis para jogadores e podem participar do sorteio de armas dos Loot Packs. A tabela agrupa armas que cumprem a mesma função; diferenças de velocidade e impacto continuam visíveis nas propriedades de cada item dentro do jogo.
+O catálogo clássico abaixo está disponível para jogadores e pode participar do sorteio de armas dos Loot Packs. A tabela agrupa armas que cumprem a mesma função; diferenças de velocidade e impacto continuam visíveis nas propriedades de cada item dentro do jogo.
 
 | Função | Skill | Mãos | Alcance | Poison | Shield | Armas disponíveis |
 |---|---|:---:|:---:|:---:|:---:|---|
@@ -43,7 +43,16 @@ As **46 famílias competitivas** abaixo estão disponíveis para jogadores e pod
 | Uma mão, sem poison | Mace Fighting | 1 | 1 | Não | Sim | Club, Mace, War Axe, Hammer Pick, Maul e War Mace |
 | Archery | Archery | 2 | 10 | Não | Não | Repeating Crossbow, Magical Shortbow, Elven Composite Longbow, Bow, Composite Bow, Crossbow e Heavy Crossbow |
 
-**Hatchet** permanece disponível como ferramenta utilitária, fora do catálogo competitivo. Kama, Sai, Tekagi, Ornate Axe e sua família, Tessen, Nunchaku, Elven Spellblade, No-Dachi, Rune Blade e sua família, Daisho, Serrated War Cleaver, Diamond Mace, Emerald Mace, Ruby Mace, Silver-Etched Mace, Scepter, Lajatang, Yumi, Radiant Scimitar, Wakizashi, Elven Machete, Paladin Sword e Lance não estão disponíveis para jogadores no Live 0.12.0.
+**Hatchet** permanece disponível como ferramenta utilitária, fora do catálogo competitivo. Kama, Sai, Tekagi, Ornate Axe e sua família, Tessen, Nunchaku, Elven Spellblade, No-Dachi, Rune Blade e sua família, Daisho, Serrated War Cleaver, Diamond Mace, Emerald Mace, Ruby Mace, Silver-Etched Mace, Scepter, Lajatang, Yumi, Radiant Scimitar, Wakizashi, Elven Machete, Paladin Sword e Lance não estão disponíveis para jogadores no catálogo clássico abaixo.
+
+## Linhas temáticas do Live 0.19.0
+
+Armas comuns permanecem em Iron. As linhas de **DoB Weapons** separam armas de Bloodrock e Blackrock, e cannons deixam de ser produzidos em Blacksmithy.
+
+- **Bloodrock:** Crimson Rite, Blood Vow, Vein Sever, Ritual Conduit, Sanguine Toll e Crimson Verdict.
+- **Blackrock:** Dusk Reaver, Nightfang, Gloom Sever, Umbral Conduit, Dark Toll e Midnight Verdict.
+
+As armas temáticas usam 30 ingots e exigem Blacksmithy entre 75 e 110.
 
 ## Kits oficiais
 

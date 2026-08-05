@@ -4,7 +4,7 @@ description: "Comece no Days of Britannia: conexão oficial, primeiro personagem
 
 # Primeiros passos
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     As informações desta página correspondem ao servidor oficial.
 
 Esta seção acompanha o caminho entre instalar o launcher oficial e começar a explorar Britannia.

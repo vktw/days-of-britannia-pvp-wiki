@@ -85,8 +85,8 @@ DOWNLOAD DOB LAUNCHER <span aria-hidden="true">↓</span>
 <section class="dob-atlas-update" aria-labelledby="dob-release-title">
 <div>
 <p class="dob-atlas-kicker">LATEST UPDATE</p>
-<h2 id="dob-release-title">0.12.0 · Whispers of Britannia</h2>
+<h2 id="dob-release-title">0.20.0 · Cleaner character creation</h2>
 </div>
-<p>Bards and summoners gain new masteries, alongside updates to Threat, Loot Packs, jewelry, and Magic Arrow.</p>
+<p>New characters no longer receive legacy profession and skill items and now start near the Britain bank, with the controlled starting resources retained.</p>
 <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

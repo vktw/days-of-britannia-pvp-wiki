@@ -1,7 +1,13 @@
 # Classic armor
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     Each piece protects only the body region where it is equipped.
+
+## Live 0.13.0 metals
+
+The crafting catalog includes **Iron, Bronze, Shadow, Silver, Gold, Bloodrock, Blackrock, Mythril, and Brittanium**. The metal defines 0 to 8 additional points of physical protection for armor and shields; Low, Normal, and Exceptional quality keep the same protection and change durability only.
+
+The modern Enhance system no longer defines the material. Magical PvM equipment remains Iron.
 
 ## Qualities
 

@@ -4,7 +4,7 @@ description: Learn how Invisibility, attacks against hidden targets, and Detect 
 
 # Invisibility and Detect Hidden
 
-!!! success "Status: Live 0.12.0"
+!!! success "Status: Live 0.20.0"
     Invisibility is evaluated at the real impact of attacks and spells.
 
 This page explains what to expect when you use Invisibility, attack an invisible target, or search for hidden characters with Detect Hidden.
