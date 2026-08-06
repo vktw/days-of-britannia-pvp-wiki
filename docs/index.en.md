@@ -7,7 +7,6 @@ hide:
 
 <section class="dob-atlas-hero dob-atlas-hero--main-art dob-atlas-codex" aria-labelledby="dob-home-title">
 <div class="dob-atlas-hero__copy">
-<p class="dob-atlas-kicker">THE CODEX OF BRITANNIA</p>
 <h1 id="dob-home-title">Relive the days of Britannia.</h1>
 <p>Classic Ultima Online is back in Days of Britannia: a world of freedom, risk, and loot, expanded by a challenging, custom PvM system.</p>
 <div class="dob-atlas-codex-actions" aria-label="Main actions">

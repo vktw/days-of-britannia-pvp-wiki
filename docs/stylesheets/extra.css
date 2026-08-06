@@ -1903,3 +1903,8 @@ body:has(.dob-home) .md-main {
   border-right: 0;
   border-bottom: 0;
 }
+
+/* Keep an expanded navigation panel above every main-content surface. */
+body.dob-atlas-nav-open .md-main__inner > .md-sidebar--primary {
+  z-index: 3;
+}
