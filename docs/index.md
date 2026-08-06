@@ -5,48 +5,37 @@ hide:
   - toc
 ---
 
-<section class="dob-atlas-hero" aria-labelledby="dob-home-title">
+<section class="dob-atlas-hero dob-atlas-hero--main-art dob-atlas-codex" aria-labelledby="dob-home-title">
   <div class="dob-atlas-hero__copy">
     <p class="dob-atlas-kicker">O CÓDICE DE BRITANNIA</p>
-    <h1 id="dob-home-title">Conhecimento para viver, lutar e conquistar.</h1>
-    <p>O manual oficial do shard, organizado do primeiro login às decisões mais profundas do PvP.</p>
-  </div>
-  <div class="dob-atlas-mark" aria-hidden="true">
-    <img src="assets/hero-mark.png?v=20260724.1" alt="">
+    <h1 id="dob-home-title">Reviva os dias de Britannia.</h1>
+    <p>O Ultima Online clássico está de volta em Days of Britannia: um mundo de liberdade, risco e loot, expandido por um sistema de PvM personalizado e desafiador.</p>
+    <div class="dob-atlas-codex-actions" aria-label="Ações principais">
+      <a class="dob-atlas-codex-action dob-atlas-codex-action--primary" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
+        BAIXAR DOB LAUNCHER <span aria-hidden="true">↓</span>
+      </a>
+      <a class="dob-atlas-codex-action dob-atlas-codex-action--secondary" href="patches/">
+        LER PATCH 0.20.0 <span aria-hidden="true">→</span>
+      </a>
+    </div>
+    <div class="dob-atlas-mark" aria-hidden="true" hidden>
+      <img src="assets/hero-mark.png?v=20260724.1" alt="">
+    </div>
   </div>
 </section>
 
-<aside class="dob-atlas-launcher" aria-labelledby="dob-launcher-title">
-  <div>
-    <p class="dob-atlas-kicker">ENTRE EM BRITANNIA</p>
-    <h2 id="dob-launcher-title">Jogue pelo launcher oficial</h2>
-    <p>O DoB Launcher prepara o cliente e mantém os arquivos necessários atualizados.</p>
-  </div>
-  <a href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
-    BAIXAR DOB LAUNCHER <span aria-hidden="true">↓</span>
-  </a>
-</aside>
-
-<nav class="dob-atlas-journeys" aria-label="Jornadas da wiki">
+<nav class="dob-atlas-codex-paths" aria-label="Caminhos principais da wiki">
   <a href="primeiros-passos/">
-    <span>01</span>
-    <strong>Começar</strong>
-    <small>Cliente e personagem</small>
-  </a>
-  <a href="personagem/">
-    <span>02</span>
-    <strong>Preparar</strong>
-    <small>Stats, skills e itens</small>
+    <span class="dob-atlas-codex-path__code" aria-hidden="true">I</span>
+    <span><strong>Começar sua jornada</strong><small>Instalação, conta e primeira hora</small></span>
   </a>
   <a href="combate/">
-    <span>03</span>
-    <strong>Dominar</strong>
-    <small>Combate e arena</small>
+    <span class="dob-atlas-codex-path__code" aria-hidden="true">II</span>
+    <span><strong>Dominar o combate</strong><small>Builds, dano, cura e arena</small></span>
   </a>
   <a href="mundo/">
-    <span>04</span>
-    <strong>Explorar</strong>
-    <small>Mundo e sistemas</small>
+    <span class="dob-atlas-codex-path__code" aria-hidden="true">III</span>
+    <span><strong>Explorar Britannia</strong><small>Cidades, mapas, itens e sistemas</small></span>
   </a>
 </nav>
 
@@ -77,6 +66,11 @@ hide:
     <a href="arena/">
       <span class="dob-atlas-index__code">PVP</span>
       <span><strong>Arena</strong><small>Regras, kits e temporadas</small></span>
+      <i aria-hidden="true">→</i>
+    </a>
+    <a href="personagem/">
+      <span class="dob-atlas-index__code">CHR</span>
+      <span><strong>Personagem</strong><small>Stats, skills e itens</small></span>
       <i aria-hidden="true">→</i>
     </a>
   </div>
