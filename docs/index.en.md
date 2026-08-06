@@ -5,48 +5,37 @@ hide:
 - knock
 ---
 
-<section class="dob-atlas-hero" aria-labelledby="dob-home-title">
+<section class="dob-atlas-hero dob-atlas-hero--main-art dob-atlas-codex" aria-labelledby="dob-home-title">
 <div class="dob-atlas-hero__copy">
 <p class="dob-atlas-kicker">THE CODEX OF BRITANNIA</p>
-<h1 id="dob-home-title">Knowledge to live, fight and conquer.</h1>
-<p>The official shard handbook, organized from first login to deeper PvP decisions.</p>
+<h1 id="dob-home-title">Relive the days of Britannia.</h1>
+<p>Classic Ultima Online is back in Days of Britannia: a world of freedom, risk, and loot, expanded by a challenging, custom PvM system.</p>
+<div class="dob-atlas-codex-actions" aria-label="Main actions">
+<a class="dob-atlas-codex-action dob-atlas-codex-action--primary" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
+DOWNLOAD DOB LAUNCHER <span aria-hidden="true">↓</span>
+</a>
+<a class="dob-atlas-codex-action dob-atlas-codex-action--secondary" href="patches/">
+READ PATCH 0.20.0 <span aria-hidden="true">→</span>
+</a>
 </div>
-<div class="dob-atlas-mark" aria-hidden="true">
+<div class="dob-atlas-mark" aria-hidden="true" hidden>
 <img src="../assets/hero-mark.png?v=20260724.1" alt="">
+</div>
 </div>
 </section>
 
-<aside class="dob-atlas-launcher" aria-labelledby="dob-launcher-title">
-<div>
-<p class="dob-atlas-kicker">ENTER BRITANNIA</p>
-<h2 id="dob-launcher-title">Play via the official launcher</h2>
-<p>DoB Launcher prepares the client and keeps necessary files up to date.</p>
-</div>
-<a href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
-DOWNLOAD DOB LAUNCHER <span aria-hidden="true">↓</span>
-</a>
-</aside>
-
-<nav class="dob-atlas-journeys" aria-label="Wiki journeys">
+<nav class="dob-atlas-codex-paths" aria-label="Main wiki paths">
 <a href="primeiros-passos/">
-<span>01</span>
-<strong>Get started</strong>
-<small>Client and character</small>
-</a>
-<a href="personagem/">
-<span>02</span>
-<strong>Prepare</strong>
-<small>Stats, skills and items</small>
+<span class="dob-atlas-codex-path__code" aria-hidden="true">I</span>
+<span><strong>Begin your journey</strong><small>Install, create and play your first hour</small></span>
 </a>
 <a href="combate/">
-<span>03</span>
-<strong>Dominate</strong>
-<small>Combat and arena</small>
+<span class="dob-atlas-codex-path__code" aria-hidden="true">II</span>
+<span><strong>Master combat</strong><small>Builds, damage, healing and arena</small></span>
 </a>
 <a href="mundo/">
-<span>04</span>
-<strong>Explore</strong>
-<small>World and systems</small>
+<span class="dob-atlas-codex-path__code" aria-hidden="true">III</span>
+<span><strong>Explore Britannia</strong><small>Cities, maps, items and systems</small></span>
 </a>
 </nav>
 
@@ -77,6 +66,11 @@ DOWNLOAD DOB LAUNCHER <span aria-hidden="true">↓</span>
 <a href="arena/">
 <span class="dob-atlas-index__code">PVP</span>
 <span><strong>Arena</strong><small>Rules, kits and seasons</small></span>
+<i aria-hidden="true">→</i>
+</a>
+<a href="personagem/">
+<span class="dob-atlas-index__code">CHR</span>
+<span><strong>Character</strong><small>Stats, skills and items</small></span>
 <i aria-hidden="true">→</i>
 </a>
 </div>

@@ -250,6 +250,149 @@ body {
   border: 1px solid var(--dob-border);
 }
 
+/* Home direction: Codex of war */
+
+.dob-atlas-codex {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+}
+
+.dob-atlas-codex .dob-atlas-hero__copy {
+  max-width: 56rem;
+}
+
+.dob-atlas-codex-actions {
+  display: flex;
+  margin-top: 1.2rem;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.md-typeset .dob-atlas-codex-action {
+  display: inline-flex;
+  min-height: 2.5rem;
+  padding: 0.7rem 1rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 140ms ease, border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease;
+}
+
+.md-typeset .dob-atlas-codex-action--primary {
+  color: var(--dob-bg);
+  background: var(--dob-gold);
+  border: 1px solid var(--dob-gold);
+  box-shadow: 0 0.3rem 1rem rgb(0 0 0 / 24%);
+}
+
+.md-typeset .dob-atlas-codex-action--primary:visited,
+.md-typeset .dob-atlas-codex-action--primary:hover,
+.md-typeset .dob-atlas-codex-action--primary:focus-visible {
+  color: var(--dob-bg);
+}
+
+.md-typeset .dob-atlas-codex-action--primary:hover,
+.md-typeset .dob-atlas-codex-action--primary:focus-visible {
+  background: var(--dob-gold-hover);
+  border-color: var(--dob-gold-hover);
+  box-shadow: 0 0.4rem 1.2rem rgb(0 0 0 / 32%);
+  transform: translateY(-1px);
+}
+
+.md-typeset .dob-atlas-codex-action--secondary {
+  color: var(--dob-text-strong);
+  background: rgb(3 9 12 / 58%);
+  border: 1px solid var(--dob-gold-muted);
+}
+
+.md-typeset .dob-atlas-codex-action--secondary:hover,
+.md-typeset .dob-atlas-codex-action--secondary:focus-visible {
+  color: var(--dob-gold-hover);
+  background: rgb(11 32 40 / 82%);
+  border-color: var(--dob-gold-hover);
+}
+
+.dob-atlas-codex-paths {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: -0.7rem;
+  border-top: 1px solid var(--dob-gold-muted);
+  background: rgb(3 9 12 / 78%);
+}
+
+.md-typeset .dob-atlas-codex-paths > a {
+  display: grid;
+  min-width: 0;
+  min-height: 4.9rem;
+  padding: 0.85rem 1rem;
+  align-items: center;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  gap: 0.65rem;
+  color: var(--dob-text);
+  text-decoration: none;
+  transition: color 140ms ease, background-color 140ms ease;
+}
+
+.md-typeset .dob-atlas-codex-paths > a + a {
+  border-left: 1px solid var(--dob-border);
+}
+
+.md-typeset .dob-atlas-codex-paths > a:hover,
+.md-typeset .dob-atlas-codex-paths > a:focus-visible {
+  color: var(--dob-gold-hover);
+  background: rgb(11 32 40 / 88%);
+}
+
+.dob-atlas-codex-path__code {
+  color: var(--dob-gold);
+  font-family: Georgia, Cambria, serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.dob-atlas-codex-paths strong,
+.dob-atlas-codex-paths small {
+  display: block;
+}
+
+.dob-atlas-codex-paths strong {
+  color: inherit;
+  font-size: 0.76rem;
+}
+
+.dob-atlas-codex-paths small {
+  margin-top: 0.25rem;
+  color: var(--dob-text-muted);
+  font-size: 0.58rem;
+}
+
+@media screen and (max-width: 44.984375em) {
+  .dob-atlas-codex-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .md-typeset .dob-atlas-codex-action {
+    width: 100%;
+  }
+
+  .dob-atlas-codex-paths {
+    grid-template-columns: 1fr;
+    margin-top: -1.2rem;
+  }
+
+  .md-typeset .dob-atlas-codex-paths > a + a {
+    border-top: 1px solid var(--dob-border);
+    border-left: 0;
+  }
+}
+
 .dob-language-switcher a {
   padding: 0.24rem 0.4rem;
   color: var(--dob-text-muted);
@@ -764,6 +907,71 @@ body {
   padding-top: 0.8rem;
 }
 
+body:has(.dob-home) {
+  position: relative;
+  isolation: isolate;
+}
+
+body:has(.dob-home)::before {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: min(960px, 105vh);
+  background-image:
+    linear-gradient(180deg, rgb(4 12 15 / 18%) 0%, rgb(4 12 15 / 22%) 40%, rgb(4 12 15 / 64%) 78%, rgb(7 22 28 / 94%) 100%),
+    linear-gradient(90deg, rgb(4 12 15 / 26%) 0%, rgb(4 12 15 / 8%) 42%, rgb(4 12 15 / 18%) 100%),
+    url("../assets/hero-main-dark-test-b.webp?v=20260806.1");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  content: "";
+  pointer-events: none;
+}
+
+body:has(.dob-home) .md-header {
+  background: rgb(3 9 12 / 82%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+body:has(.dob-home) .md-main {
+  background: transparent;
+}
+
+body:has(.dob-home) .md-main {
+  position: relative;
+  z-index: 1;
+}
+
+.md-main__inner:has(.dob-home) > .md-sidebar--primary,
+.md-main__inner:has(.dob-home) > .md-sidebar--secondary,
+.md-main__inner:has(.dob-home) > .dob-home {
+  z-index: 1;
+}
+
+.md-main__inner:has(.dob-home) > .dob-home {
+  position: relative;
+}
+
+.md-main__inner:has(.dob-home) .dob-atlas-rail {
+  position: relative;
+  background: linear-gradient(90deg, rgb(7 22 28 / 86%) 0%, rgb(7 22 28 / 55%) 72%, rgb(7 22 28 / 20%) 100%);
+  border-right: 0;
+}
+
+.md-main__inner:has(.dob-home) .dob-atlas-rail::after {
+  position: absolute;
+  top: 0;
+  right: -2.75rem;
+  bottom: 0;
+  width: 2.75rem;
+  background: linear-gradient(90deg, rgb(7 22 28 / 20%), rgb(7 22 28 / 0%));
+  content: "";
+  pointer-events: none;
+}
+
 .dob-atlas-hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 10rem;
@@ -771,6 +979,32 @@ body {
   align-items: center;
   padding: 2.4rem 0 2.2rem;
   border-bottom: 1px solid var(--dob-border);
+}
+
+.dob-atlas-hero--main-art {
+  box-sizing: border-box;
+  position: relative;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+  align-items: start;
+  width: auto;
+  min-height: 0;
+  margin-right: calc(-1 * clamp(1.25rem, 3vw, 2.75rem));
+  margin-left: calc(-1 * (1.2rem + clamp(1.25rem, 3vw, 2.75rem)));
+  overflow: visible;
+  aspect-ratio: 3.05 / 1;
+  padding: 1.55rem clamp(1.25rem, 3vw, 2.75rem) 2.2rem calc(1.2rem + clamp(1.25rem, 3vw, 2.75rem));
+  background: transparent;
+  border-bottom: 0;
+}
+
+.dob-atlas-hero--main-art > * {
+  position: relative;
+  z-index: 1;
+}
+
+.dob-atlas-hero--main-art .dob-atlas-mark {
+  display: none;
 }
 
 .dob-atlas-kicker {
@@ -914,6 +1148,135 @@ body {
   font-size: 0.58rem;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.dob-atlas-hero-links {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  border-bottom: 0;
+}
+
+.md-typeset .dob-atlas-hero-links > a {
+  position: relative;
+  display: flex;
+  min-height: 14rem;
+  padding: 0;
+  overflow: hidden;
+  color: var(--dob-text);
+  background: var(--dob-surface);
+  border: 1px solid var(--dob-border);
+  isolation: isolate;
+  text-decoration: none;
+  transition: border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease;
+}
+
+.md-typeset .dob-atlas-hero-links > a + a {
+  border-left: 1px solid var(--dob-border);
+}
+
+.md-typeset .dob-atlas-hero-links > a:hover,
+.md-typeset .dob-atlas-hero-links > a:focus-visible {
+  color: var(--dob-text);
+  background: var(--dob-surface);
+  border-color: var(--dob-gold-hover);
+  box-shadow: 0 0.6rem 1.5rem rgb(0 0 0 / 28%);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.md-typeset .dob-atlas-hero-links > a:focus-visible {
+  outline: 2px solid var(--dob-gold);
+  outline-offset: 3px;
+}
+
+.dob-atlas-hero-link > img {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 280ms ease;
+}
+
+.dob-atlas-hero-link--start > img {
+  object-position: 68% center;
+}
+
+.dob-atlas-hero-link--arena > img {
+  object-position: 62% center;
+}
+
+.dob-atlas-hero-link--world > img {
+  object-position: 58% center;
+}
+
+.dob-atlas-hero-link__shade {
+  position: absolute;
+  z-index: 1;
+  grid-row: auto;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgb(5 13 16 / 8%) 12%, rgb(5 13 16 / 90%) 100%),
+    linear-gradient(90deg, rgb(5 13 16 / 54%) 0%, transparent 78%);
+}
+
+.dob-atlas-hero-link__body {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  min-height: 14rem;
+  width: 100%;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  grid-row: auto;
+  padding: 1.15rem;
+  color: var(--dob-text);
+}
+
+.dob-atlas-hero-links strong {
+  display: block;
+  overflow: visible;
+  color: inherit;
+  font-family: var(--md-text-font-family);
+  font-size: 1.08rem;
+  line-height: 1.1;
+  text-overflow: clip;
+  white-space: normal;
+}
+
+.dob-atlas-hero-links small {
+  display: block;
+  overflow: visible;
+  margin-top: 0.35rem;
+  color: rgb(232 236 222 / 78%);
+  font-size: 0.67rem;
+  line-height: 1.35;
+  text-overflow: clip;
+  white-space: normal;
+}
+
+.dob-atlas-hero-link__cta {
+  display: inline-flex;
+  margin-top: 0.9rem;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--dob-gold);
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.dob-atlas-hero-link__cta span {
+  font-size: 0.9rem;
+  line-height: 0.7;
+}
+
+.md-typeset .dob-atlas-hero-links > a:hover img,
+.md-typeset .dob-atlas-hero-links > a:focus-visible img {
+  transform: scale(1.045);
 }
 
 .dob-atlas-content {
@@ -1355,6 +1718,13 @@ body {
     gap: 1.5rem;
   }
 
+  .dob-atlas-hero--main-art {
+    width: calc(100% + 2rem);
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding: 2.4rem 1rem 2.2rem;
+  }
+
   .dob-atlas-mark {
     width: 7rem;
   }
@@ -1370,6 +1740,11 @@ body {
 
   .dob-atlas-feature {
     padding-right: 1.4rem;
+  }
+
+  .dob-atlas-hero-link__body {
+    min-height: 12rem;
+    padding: 0.9rem;
   }
 
   .dob-atlas-update {
@@ -1424,6 +1799,19 @@ body {
     padding: 1.4rem 0 1.6rem;
   }
 
+  .dob-atlas-hero--main-art {
+    width: auto;
+    min-height: 20rem;
+    margin-right: 0;
+    margin-left: 0;
+    aspect-ratio: auto;
+  }
+
+  body:has(.dob-home)::before {
+    height: 620px;
+    background-position: 18% top;
+  }
+
   .dob-atlas-mark {
     display: none;
   }
@@ -1441,6 +1829,10 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .dob-atlas-hero-links {
+    grid-template-columns: 1fr;
+  }
+
   .dob-atlas-launcher {
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -1456,6 +1848,12 @@ body {
   }
 
   .md-typeset .dob-atlas-journeys > a:nth-child(n + 3) {
+    border-top: 1px solid var(--dob-border);
+  }
+
+  .md-typeset .dob-atlas-hero-links > a + a,
+  .md-typeset .dob-atlas-hero-links > a:nth-child(3) {
+    border-left: 1px solid var(--dob-border);
     border-top: 1px solid var(--dob-border);
   }
 
@@ -1490,4 +1888,18 @@ body {
     align-items: flex-start;
     flex-direction: column;
   }
+}
+
+/* Home hero panel */
+.dob-atlas-codex .dob-atlas-hero__copy {
+  box-sizing: border-box;
+  width: fit-content;
+  max-width: 100%;
+  padding: 1.15rem 1.1rem 1.35rem;
+  justify-self: start;
+  background: linear-gradient(90deg, rgb(3 9 12 / 78%) 0%, rgb(3 9 12 / 62%) 45%, rgb(3 9 12 / 28%) 78%, rgb(3 9 12 / 0%) 100%);
+  border: 1px solid var(--dob-border);
+  border-top-color: transparent;
+  border-right: 0;
+  border-bottom: 0;
 }
