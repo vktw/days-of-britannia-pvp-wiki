@@ -1908,3 +1908,8 @@ body:has(.dob-home) .md-main {
 body.dob-atlas-nav-open .md-main__inner > .md-sidebar--primary {
   z-index: 3;
 }
+
+/* Keep the home drawer above hero content at mobile widths as well. */
+.md-main__inner:has(.dob-home) > .md-sidebar--primary {
+  z-index: 5;
+}

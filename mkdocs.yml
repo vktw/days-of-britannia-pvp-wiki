@@ -19,7 +19,7 @@ theme:
 extra:
   dob_version: "Alpha 0.20.0"
 extra_css:
-  - stylesheets/extra.css?v=20260806.2
+  - stylesheets/extra.css?v=20260806.3
 extra_javascript:
   - scripts/dob.js?v=20260726.2
 plugins:
