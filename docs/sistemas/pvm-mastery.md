@@ -4,7 +4,7 @@ description: Entenda a Maestria PvM, sua progressão, famílias de Slayer e poss
 
 # Maestria PvM
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     O Hunter's Compendium oferece progressão própria para personagens que enfrentam criaturas.
 
 O **Hunter's Compendium** registra conhecimentos de caça, pontos e a build ativa do personagem. Personagens existentes recebem o livro no primeiro login com o sistema ativo; novos personagens o recebem na criação. Mantenha-o na mochila principal e use dois cliques para abrir.
@@ -79,7 +79,7 @@ O Live adicionou cinco Maestrias que convertem parte de recursos defensivos ou o
 
 Essas cinco Maestrias escalam de 5% a 9,5% e preservam as exclusões de PvP e Arena. A primeira Maestria aprendida pode entrar automaticamente na build no nível 1 quando o log de combate está habilitado; o Compendium mostra orientações e controles mais claros.
 
-## Catálogo do Live 0.20.0
+## Catálogo do Live 0.21.0
 
 ### Ataque e recursos
 

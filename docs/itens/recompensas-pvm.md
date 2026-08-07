@@ -1,6 +1,6 @@
 # Recompensas PvM
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     Criaturas elegíveis recompensam o grupo conforme a escala do encontro.
 
 Ao derrotar uma criatura elegível, participantes próximos com direito ao loot podem receber experiência de Maestria PvM. Gold, chance de Loot Pack e outras recompensas acompanham a resistência do encontro; a classe de Threat ajuda a comparar o risco, mas não garante um item específico.

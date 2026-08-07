@@ -1,6 +1,6 @@
 # Your first hour in Britannia
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     A short route for organizing your character and choosing a first goal.
 
 You begin near the **Britain bank** on the Felucca map. You do not need to do everything at once: first organize your resources, learn where the safe areas are, and choose whether you want to explore PvM, prepare for PvP, or develop other skills.

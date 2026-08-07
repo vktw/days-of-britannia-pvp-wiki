@@ -1,6 +1,6 @@
 # Magery
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     Delays, range, and effects needed to play and plan combat.
 
 ## Cast flow

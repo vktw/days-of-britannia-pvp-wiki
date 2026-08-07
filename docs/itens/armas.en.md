@@ -1,6 +1,6 @@
 # Classic weapons
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     Choose weapons by their combat role, not by an isolated damage spreadsheet.
 
 ## Qualities

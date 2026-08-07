@@ -1,6 +1,6 @@
 # Sistemas habilitados
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     Lista resumida das mecânicas centrais disponíveis aos jogadores.
 
 - Combate físico com Swords, Macing, Fencing, Archery e Wrestling.
@@ -23,6 +23,6 @@
 - Recompensas PvM proporcionais ao encontro, incluindo Loot Packs, joias e amuletos de skill.
 - `.help`, `.pvp` e `.skillcheck` para ajuda, preferências de PvP e testes de skill.
 - Retorno Stuck para Ocllo sob as condições do sistema.
-- Auto-account e até duas conexões simultâneas por IP externo.
+- Auto-account com até 10 contas por IP e até duas conexões externas simultâneas pelo mesmo endereço.
 
 Consulte as páginas específicas para limites e exceções. A presença nesta lista não significa que a mecânica mantenha o comportamento padrão do TrueUO.

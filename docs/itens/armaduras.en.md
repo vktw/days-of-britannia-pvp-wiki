@@ -1,6 +1,6 @@
 # Classic armor
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     Each piece protects only the body region where it is equipped.
 
 ## Live 0.13.0 metals

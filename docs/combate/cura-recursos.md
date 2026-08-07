@@ -1,6 +1,6 @@
 # Cura e recursos
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     Valores e restrições que afetam decisões durante o combate.
 
 ## Faixas de cura

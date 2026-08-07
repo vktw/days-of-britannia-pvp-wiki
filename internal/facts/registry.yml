@@ -1,21 +1,57 @@
 # High-risk gameplay fact inventory.
 # Live entries are approved by production presence; source refs are metadata only.
-# The 0.20.0 pass below confirms release identity and official patch-note deltas.
+# The 0.21.0 pass below confirms release identity and official patch-note deltas.
 # Other entries retain their last deep-verification release until that audit is run.
 schema_version: 1
-registry_version: "0.20.0"
+registry_version: "0.21.0"
 source_policy: "live-server-is-final"
 entries:
   - id: live-version
-    claim: "The public manual identifies the current live ruleset as 0.20.0."
+    claim: "The public manual identifies the current live ruleset as 0.21.0."
     status: live
     source_status: approved
-    live_version: "0.20.0"
-    verification_date: "2026-08-05"
-    approved_source: "live-server/v0.20.0"
+    live_version: "0.21.0"
+    verification_date: "2026-08-06"
+    approved_source: "live-server/v0.21.0"
     public_reference: "docs/patches.md"
     canonical_pt: "docs/patches.md"
     english_counterpart: "docs/patches.en.md"
+    owner: server-owner
+    review_after: null
+  - id: patch-0-21-0-creature-rules
+    claim: "Live 0.21.0 applies the documented magical-creature, equipment-visual, stamina, and creature-presentation changes."
+    status: live
+    source_status: approved
+    live_version: "0.21.0"
+    verification_date: "2026-08-06"
+    approved_source: "live-server/v0.21.0"
+    public_reference: "docs/patches.md"
+    canonical_pt: "docs/patches.md"
+    english_counterpart: "docs/patches.en.md"
+    owner: gameplay-maintainer
+    review_after: null
+  - id: account-and-connection-limits
+    claim: "Automatic account creation allows up to 10 accounts per IP, and the server allows up to two simultaneous external connections per address."
+    status: live
+    source_status: approved
+    live_version: "0.21.0"
+    verification_date: "2026-08-06"
+    approved_source: "live-server/v0.21.0"
+    public_reference: "docs/primeiros-passos/conexao.md"
+    canonical_pt: "docs/primeiros-passos/conexao.md"
+    english_counterpart: "docs/primeiros-passos/conexao.en.md"
+    owner: server-owner
+    review_after: null
+  - id: disabled-modern-systems
+    claim: "Clean Up Britannia, Ultima Store, and Vice vs Virtue are unavailable in the live Sphere 51a ruleset."
+    status: live
+    source_status: approved
+    live_version: "0.21.0"
+    verification_date: "2026-08-06"
+    approved_source: "live-server/v0.21.0"
+    public_reference: "docs/sistemas-desativados.md"
+    canonical_pt: "docs/sistemas-desativados.md"
+    english_counterpart: "docs/sistemas-desativados.en.md"
     owner: server-owner
     review_after: null
   - id: player-command-arena

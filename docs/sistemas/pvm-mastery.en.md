@@ -4,7 +4,7 @@ description: Learn PvM Mastery progression, Slayer families, and build options o
 
 # PvM Mastery
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     The Hunter's Compendium provides dedicated progression for characters who fight creatures.
 
 The **Hunter's Compendium** records hunting knowledge, points, and the character's active build. Existing characters receive the book on their first login while the system is active; new characters receive it at creation. Keep it in the main backpack and double-click it to open.
@@ -79,7 +79,7 @@ Live added five Masteries that convert part of defensive or offensive resources 
 
 These five Masteries scale from 5% to 9.5% and preserve the PvP and Arena exclusions. The first learned Mastery can be added to the build automatically at level 1 when the combat log is enabled; the Compendium provides clearer guidance and controls.
 
-## Live 0.20.0 catalog
+## Live 0.21.0 catalog
 
 ### Offense and resources
 

@@ -1,6 +1,6 @@
 # Como conectar
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     O launcher oficial configura e inicia o cliente correto para o servidor.
 
 ## Launcher oficial
@@ -16,6 +16,6 @@ utilize sempre o link oficial.
 
 ## Conta
 
-Digite um usuário e uma senha ainda não utilizados. A conta é criada automaticamente. A criação de contas não possui limite por IP, mas o servidor permite no máximo duas conexões externas simultâneas pelo mesmo endereço.
+Digite um usuário e uma senha ainda não utilizados. A conta é criada automaticamente, com limite de até 10 contas por IP. O servidor permite no máximo duas conexões externas simultâneas pelo mesmo endereço.
 
 Nunca compartilhe sua senha. A equipe não precisa dela para suporte.

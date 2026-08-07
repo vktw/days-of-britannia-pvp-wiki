@@ -1,6 +1,6 @@
 # Player commands
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     The commands below are available to players on the official server.
 
 ## `.arena`
@@ -39,7 +39,7 @@ Opens DoB help with short command descriptions and direct access to available ac
 
 ## `.store`
 
-Opens the Ultima Store directly.
+The Ultima Store is disabled for the Sphere 51a ruleset. Purchases, deliveries, and store use of Sovereigns are unavailable.
 
 ## `.pvptrainer`
 

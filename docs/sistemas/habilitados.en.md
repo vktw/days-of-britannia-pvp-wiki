@@ -1,6 +1,6 @@
 # Enabled systems
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     Summary list of core mechanics available to players.
 
 - Physical combat with Swords, Macing, Fencing, Archery and Wrestling.
@@ -23,6 +23,6 @@
 - Encounter-scaled PvM rewards, including Loot Packs, jewelry, and skill amulets.
 - `.help`, `.pvp`, and `.skillcheck` for help, PvP preferences, and skill checks.
 - Stuck return to Ocllo under the system's conditions.
-- Auto-account and up to two simultaneous connections via external IP.
+- Auto-account with up to 10 accounts per IP and up to two simultaneous external connections via the same address.
 
 See specific pages for limits and exceptions. Presence on this list does not mean that the mechanics maintain TrueUO's default behavior.

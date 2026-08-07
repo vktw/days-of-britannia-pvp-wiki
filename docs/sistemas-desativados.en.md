@@ -1,6 +1,6 @@
 # Systems disabled
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     The blocks below are part of the official ruleset.
 
 To preserve classic balance, the following modern systems are unavailable or grant no advantage in Sphere PvP:
@@ -16,6 +16,9 @@ To preserve classic balance, the following modern systems are unavailable or gra
 - Item Insurance and pet bonding.
 - LRC, LMC, Faster Casting and Faster Cast Recovery in Magery.
 - Fire, Cold, Poison and Energy AOS resistances in PvP damage.
+- Clean Up Britannia: new points, appraisals, and system rewards are unavailable.
+- Ultima Store: new purchases, deliveries, and store use of Sovereigns are unavailable.
+- Vice vs Virtue: new enrollment, battles, silver, and rewards are unavailable.
 
 Alchemy remains relevant to the success of the craft, but does not change the potency of the finished potion. Inscription does not modify magic damage, Reactive Armor, Protection, or Magic Reflection.
 

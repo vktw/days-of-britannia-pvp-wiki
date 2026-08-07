@@ -1,6 +1,6 @@
 # Armaduras clássicas
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     Cada peça protege somente a região corporal em que está equipada.
 
 ## Metais do Live 0.13.0

@@ -2,6 +2,19 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.21.0 · Magical AI and proportional Threat
+
+- Spellbinders now receive the same Threat weight as other magical creatures.
+- Necro creatures now use Magery and retain caster flee behavior when Necromancy is disabled.
+- Brittanium now uses its updated visual color on new or resource-mutated equipment.
+- Ordinary creature damage no longer drains stamina; explicit drains and Vigor Shield remain unchanged.
+- Hostile wild creatures now show fizzle smoke and sound when their spell loses range, sight, or a valid target before completion.
+- Hostile wild creatures now appear in red without changing combat or crime rules.
+- Clean Up Britannia is disabled for the Sphere 51a ruleset; new points, appraisals, and system rewards are unavailable.
+- Ultima Store is disabled for the Sphere 51a ruleset; new purchases, deliveries, and store use of Sovereigns are unavailable.
+- Vice vs Virtue is disabled for the Sphere 51a ruleset; new enrollment, battles, silver, and rewards are unavailable.
+- Automatic account creation now allows up to 10 accounts per IP.
+
 ## 0.20.0 · Cleaner character creation
 
 - Character creation no longer gives legacy profession or skill weapons, tools, reagents, bandages, or books.

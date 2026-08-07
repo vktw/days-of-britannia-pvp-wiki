@@ -2,6 +2,19 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.21.0 · IA mágica e Threat proporcional
+
+- Spellbinders recebem o mesmo peso de Threat das demais criaturas mágicas.
+- Criaturas Necro usam Magery e mantêm comportamento de conjurador ao fugir quando Necromancia está desativada.
+- Brittanium usa sua nova cor visual em equipamentos novos ou alterados por recurso.
+- Dano comum de criaturas não retira stamina; drenos explícitos e Vigor Shield continuam funcionando.
+- Criaturas selvagens hostis mostram fumaça e som de fizzle quando a magia perde alcance, visão ou um alvo válido antes de ser concluída.
+- Criaturas selvagens hostis aparecem em vermelho, sem alterar as regras de combate ou criminalidade.
+- Clean Up Britannia está desativado para o ruleset Sphere 51a; novos pontos, avaliações e recompensas do sistema não estão disponíveis.
+- Ultima Store está desativada para o ruleset Sphere 51a; novas compras, entregas e uso da moeda Sovereigns pela loja não estão disponíveis.
+- Vice vs Virtue está desativado para o ruleset Sphere 51a; novas adesões, batalhas, silver e recompensas não estão disponíveis.
+- A criação automática de contas permite até 10 contas por IP.
+
 ## 0.20.0 · Criação de personagens mais limpa
 
 - A criação de personagens deixa de entregar armas, ferramentas, reagentes, bandages e livros legados de profissão ou skill.

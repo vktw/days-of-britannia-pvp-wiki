@@ -1,6 +1,6 @@
 # How to connect
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     The official launcher configures and launches the correct client for the server.
 
 ## Official launcher
@@ -16,6 +16,6 @@ always use the official link.
 
 ## Account
 
-Enter an unused username and password. The account is created automatically. Account creation has no limit per IP, but the server allows a maximum of two simultaneous external connections via the same address.
+Enter an unused username and password. The account is created automatically, with a limit of up to 10 accounts per IP. The server allows a maximum of two simultaneous external connections via the same address.
 
 Never share your password. The team doesn't need it for support.

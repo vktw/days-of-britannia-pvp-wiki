@@ -1,6 +1,6 @@
 # Armas clássicas
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     Escolha armas pelo papel no combate, não por uma planilha isolada de dano.
 
 ## Qualidades

@@ -1,6 +1,6 @@
 # Your first character
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     The base below is applied to every new character, regardless of the client's chosen profession.
 
 ## Starting location

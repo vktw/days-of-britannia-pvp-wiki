@@ -1,6 +1,6 @@
 # Armor e Parrying
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     Armor protege a região atingida; shield pode substituir completamente essa etapa.
 
 ## Regiões corporais

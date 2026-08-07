@@ -4,7 +4,7 @@ description: Discover the rare Phoenix, Fire Feathers, and Whispers of Britannia
 
 # Britannia Rarities and Whispers of Britannia
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     A rare Phoenix and Town Criers offer two new ways to discover events in Britannia.
 
 ## Rare Phoenix

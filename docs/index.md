@@ -14,7 +14,7 @@ hide:
         BAIXAR DOB LAUNCHER <span aria-hidden="true">↓</span>
       </a>
       <a class="dob-atlas-codex-action dob-atlas-codex-action--secondary" href="patches/">
-        LER PATCH 0.20.0 <span aria-hidden="true">→</span>
+        LER PATCH 0.21.0 <span aria-hidden="true">→</span>
       </a>
     </div>
     <div class="dob-atlas-mark" aria-hidden="true" hidden>
@@ -78,8 +78,8 @@ hide:
 <section class="dob-atlas-update" aria-labelledby="dob-release-title">
   <div>
     <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
-    <h2 id="dob-release-title">0.20.0 · Criação de personagens mais limpa</h2>
+    <h2 id="dob-release-title">0.21.0 · IA mágica e Threat proporcional</h2>
   </div>
-  <p>Novos personagens deixam de receber itens legados de profissão e skills e passam a surgir próximos ao banco de Britain, mantendo os recursos iniciais controlados.</p>
+  <p>Criaturas mágicas recebem um tratamento mais consistente no combate e nas recompensas PvM.</p>
   <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

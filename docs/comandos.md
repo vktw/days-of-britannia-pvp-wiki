@@ -1,6 +1,6 @@
 # Comandos de jogador
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     Os comandos abaixo estão disponíveis aos jogadores no servidor oficial.
 
 ## `.arena`
@@ -39,7 +39,7 @@ Abre a ajuda do DoB com descrições curtas dos comandos e acesso direto às aç
 
 ## `.store`
 
-Abre diretamente a Ultima Store.
+A Ultima Store está desativada no ruleset Sphere 51a. Não há compras, entregas ou uso de Sovereigns pela loja.
 
 ## `.pvptrainer`
 

@@ -1,6 +1,6 @@
 # Healing and resources
 
-!!! success "Status: Live 0.20.0"
+!!! success "Status: Live 0.21.0"
     Values and restrictions that affect decisions during combat.
 
 ## Healing ranges
