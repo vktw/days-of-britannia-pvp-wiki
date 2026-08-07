@@ -1,8 +1,5 @@
 # Armor and Parrying
 
-!!! success "Status: Live 0.21.0"
-    Armor protects the region that is hit; a shield can replace that step entirely.
-
 ## Body regions
 
 Each physical hit selects Chest, Legs, Arms, Head, Hands, or Neck. Only armor equipped on that region reduces damage. Ordinary clothing, jewelry, and weapons do not count as regional protection.
@@ -30,3 +27,6 @@ When a block occurs:
 - Body plate prevents Archery use; Plate Gorgets and shields remain allowed.
 
 See [Damage examples](exemplos-dano.md).
+
+!!! success "Status: Live 0.21.0"
+    Armor protects the region that is hit; a shield can replace that step entirely.

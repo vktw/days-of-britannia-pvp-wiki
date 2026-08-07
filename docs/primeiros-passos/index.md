@@ -4,9 +4,6 @@ description: "Comece no Days of Britannia: conexão oficial, primeiro personagem
 
 # Primeiros passos
 
-!!! success "Status: Live 0.21.0"
-    As informações desta página correspondem ao servidor oficial.
-
 Esta seção acompanha o caminho entre instalar o launcher oficial e começar a explorar Britannia.
 
 Se este é seu primeiro contato com o jogo, comece por [Ultima Online Brasil: shards, servidores e comunidade](ultima-online-brasil.md) para entender UO, freeshards e a comunidade brasileira.
@@ -30,3 +27,6 @@ Se este é seu primeiro contato com o jogo, comece por [Ultima Online Brasil: sh
 - [Mapas e viagem](../mundo/mapas-viagem.md)
 - [Comandos de jogador](../comandos.md)
 - [Sistemas habilitados e desativados](../sistemas/index.md)
+
+!!! success "Status: Live 0.21.0"
+    As informações desta página correspondem ao servidor oficial.

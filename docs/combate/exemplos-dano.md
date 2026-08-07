@@ -1,8 +1,5 @@
 # Exemplos de dano
 
-!!! success "Status: Live 0.21.0"
-    Exemplos práticos para entender decisões de equipamento, sem reproduzir a fórmula interna do servidor.
-
 ## Faixas de dano bruto
 
 O dano varia conforme arma, qualidade, STR, Tactics e Anatomy. A skill da arma determina principalmente a chance de acertar; armor, Parrying e Protection entram depois do acerto.
@@ -40,3 +37,6 @@ Para o mesmo golpe que acertou:
 | Bloqueio com shield | Shield substitui a região corporal |
 
 **Proteção muda o resultado final**, mas cobertura completa também importa. Consulte [Armor e Parrying](armor-parrying.md) para montar seu equipamento.
+
+!!! success "Status: Live 0.21.0"
+    Exemplos práticos para entender decisões de equipamento, sem reproduzir a fórmula interna do servidor.

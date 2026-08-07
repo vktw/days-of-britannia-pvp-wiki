@@ -1,8 +1,5 @@
 # Sistemas habilitados
 
-!!! success "Status: Live 0.21.0"
-    Lista resumida das mecânicas centrais disponíveis aos jogadores.
-
 - Combate físico com Swords, Macing, Fencing, Archery e Wrestling.
 - Magery no fluxo Sphere 51 do shard.
 - Healing, Anatomy, Tactics, Evaluating Intelligence e Resisting Spells.
@@ -26,3 +23,6 @@
 - Auto-account com até 10 contas por IP e até duas conexões externas simultâneas pelo mesmo endereço.
 
 Consulte as páginas específicas para limites e exceções. A presença nesta lista não significa que a mecânica mantenha o comportamento padrão do TrueUO.
+
+!!! success "Status: Live 0.21.0"
+    Lista resumida das mecânicas centrais disponíveis aos jogadores.

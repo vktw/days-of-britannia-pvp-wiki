@@ -1,8 +1,5 @@
 # Magery
 
-!!! success "Status: Live 0.21.0"
-    Delays, range, and effects needed to play and plan combat.
-
 ## Cast flow
 
 Magery follows **choose target → wait for cast → apply effect**.
@@ -67,3 +64,6 @@ Paralyze Field can reapply Paralyze after a brief window. Wall of Stone lasts 60
 Targeted spells normally have range 12. Felucca is the only public facet; Trammel remains restricted to official arenas. Recall, Mark, and Gate Travel cannot leave the public facet.
 
 Resurrection may return movable corpse items when the ghost is nearby and accepts resurrection.
+
+!!! success "Status: Live 0.21.0"
+    Delays, range, and effects needed to play and plan combat.

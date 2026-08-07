@@ -1,8 +1,5 @@
 # Healing and resources
 
-!!! success "Status: Live 0.21.0"
-    Values and restrictions that affect decisions during combat.
-
 ## Healing ranges
 
 With the relevant skills at 100.0:
@@ -43,3 +40,6 @@ With 100.0 Focus, 100.0 Meditation, 100 INT, and no item Mana Regen:
 - active Meditation: approximately **1.51 mana per second**.
 
 Active Meditation is faster, but does not fully double recovery. Plan a safe window before relying on it during combat.
+
+!!! success "Status: Live 0.21.0"
+    Values and restrictions that affect decisions during combat.

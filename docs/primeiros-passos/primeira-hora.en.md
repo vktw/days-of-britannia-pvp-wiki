@@ -1,8 +1,5 @@
 # Your first hour in Britannia
 
-!!! success "Status: Live 0.21.0"
-    A short route for organizing your character and choosing a first goal.
-
 You begin near the **Britain bank** on the Felucca map. You do not need to do everything at once: first organize your resources, learn where the safe areas are, and choose whether you want to explore PvM, prepare for PvP, or develop other skills.
 
 ## 1. Get to know your backpack
@@ -58,3 +55,6 @@ Newcomer characters follow their own automatic return. Read [Newcomer and protec
 - `.help`: shows help for the available commands.
 
 After this first setup, choose one small objective: discover a Mastery, test two weapons, visit Ocllo, or complete a training fight.
+
+!!! success "Status: Live 0.21.0"
+    A short route for organizing your character and choosing a first goal.

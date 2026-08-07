@@ -1,8 +1,5 @@
 # PvM rewards
 
-!!! success "Status: Live 0.21.0"
-    Eligible creatures reward the group according to the scale of the encounter.
-
 After defeating an eligible creature, nearby participants with looting rights may receive PvM Mastery experience. Gold, Loot Pack opportunities, and other rewards follow the encounter's resilience; the Threat class helps compare risk but does not guarantee a specific item.
 
 ## Loot Packs
@@ -33,3 +30,6 @@ An action related to the equipped skill consumes one use. The final use still be
 Characters with the eligible Young benefit receive 25% additional PvM Mastery experience and creature gold. Normal participation, range, and looting-right rules still apply.
 
 See also [PvM Mastery](../sistemas/pvm-mastery.md) and [Threat Rating](../mundo/threat-rating.md).
+
+!!! success "Status: Live 0.21.0"
+    Eligible creatures reward the group according to the scale of the encounter.

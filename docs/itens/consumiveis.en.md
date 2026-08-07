@@ -1,6 +1,5 @@
 # Consumables and utilities
 
-!!! success "Status: Live 0.21.0"
 Kit quantities and detailed effects correspond to the official server.
 
 ## Potions
@@ -18,3 +17,5 @@ Bandages remove poison immediately without healing health in the same use. Witho
 New characters receive a complete Spellbook, an empty Runebook and a shrunken horse. Spellbooks and Runebooks are preserved when the rest of the inventory is saved for an arena fight.
 
 See [Healing and resources](../combate/cura-recursos.md) for all values and delays.
+
+!!! success "Status: Live 0.21.0"

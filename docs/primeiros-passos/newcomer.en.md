@@ -1,8 +1,5 @@
 # Newcomer and protection
 
-!!! success "Status: Live 0.21.0"
-    The Newcomer benefit is active for the account's first eligible character.
-
 Newcomer helps you get started safely. It lasts **168 hours** (seven days) and marks the character as `(Young)`.
 
 ## During the benefit
@@ -15,3 +12,6 @@ Newcomer helps you get started safely. It lasts **168 hours** (seven days) and m
 The benefit applies only to the first eligible character on an account and does not transfer to other characters.
 
 See [Death and recovery](morte-recuperacao.md) for the flow used by other characters.
+
+!!! success "Status: Live 0.21.0"
+    The Newcomer benefit is active for the account's first eligible character.

@@ -1,8 +1,5 @@
 # Classic armor
 
-!!! success "Status: Live 0.21.0"
-    Each piece protects only the body region where it is equipped.
-
 ## Live 0.13.0 metals
 
 The crafting catalog includes **Iron, Bronze, Shadow, Silver, Gold, Bloodrock, Blackrock, Mythril, and Brittanium**. The metal defines 0 to 8 additional points of physical protection for armor and shields; Low, Normal, and Exceptional quality keep the same protection and change durability only.
@@ -33,3 +30,6 @@ The piece's displayed `Physical Resist` shows its practical protection. Durabili
 - Body plate prevents Archery; Plate Gorgets and shields are allowed.
 
 See [Armor and Parrying](../combate/armor-parrying.md).
+
+!!! success "Status: Live 0.21.0"
+    Each piece protects only the body region where it is equipped.

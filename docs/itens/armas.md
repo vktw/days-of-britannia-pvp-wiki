@@ -1,8 +1,5 @@
 # Armas clássicas
 
-!!! success "Status: Live 0.21.0"
-    Escolha armas pelo papel no combate, não por uma planilha isolada de dano.
-
 ## Qualidades
 
 As qualidades ofensivas seguem esta ordem:
@@ -61,3 +58,6 @@ Arena, PvP Camp e o Starter PvP Iron kit compartilham sete opções: **Bow, War 
 Nem toda arma existente no cliente circula para jogadores. O catálogo do shard prioriza opções compatíveis com humanos e com o ruleset clássico.
 
 Veja [Melee e Archery](../combate/melee-archery.md) e [Poison](../combate/poison.md).
+
+!!! success "Status: Live 0.21.0"
+    Escolha armas pelo papel no combate, não por uma planilha isolada de dano.

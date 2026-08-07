@@ -1,8 +1,5 @@
 # Arena
 
-!!! success "Status: Live 0.21.0"
-    These are the rules available on the official server.
-
 Use `.arena` to open the system. You can challenge another player or, in the compatible arena, train against the **PvP Trainer**.
 
 ## Arenas available
@@ -54,3 +51,6 @@ During preparation, the authorized buffs are Night Sight, Reactive Armor, Agilit
 ## PvP Trainer
 
 The PvP Trainer is an NPC created for training and follows the general combat rules applicable to players. He has been improved to exert melee pressure, recover more judiciously, and choose his shots better. Its tactical functioning and internal decisions are not part of public documentation.
+
+!!! success "Status: Live 0.21.0"
+    These are the rules available on the official server.

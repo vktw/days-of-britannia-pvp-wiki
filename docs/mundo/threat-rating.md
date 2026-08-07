@@ -1,8 +1,5 @@
 # Threat Rating
 
-!!! success "Status: Live 0.21.0"
-    A cor e o nome exibidos sobre a criatura ajudam a estimar o perigo do encontro.
-
 O **Threat Rating** é uma referência rápida de resistência. Use-o para decidir se vale lutar sozinho, preparar consumíveis ou formar um grupo.
 
 ## Classes
@@ -44,3 +41,6 @@ Algumas criaturas conhecidas ajudam a interpretar a escala:
 [Ver como consultar a classificação](threat-inventory.md){ .md-button }
 
 [Entender as recompensas PvM](../itens/recompensas-pvm.md){ .md-button }
+
+!!! success "Status: Live 0.21.0"
+    A cor e o nome exibidos sobre a criatura ajudam a estimar o perigo do encontro.

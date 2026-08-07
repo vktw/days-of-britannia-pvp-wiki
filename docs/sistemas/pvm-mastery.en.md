@@ -4,9 +4,6 @@ description: Learn PvM Mastery progression, Slayer families, and build options o
 
 # PvM Mastery
 
-!!! success "Status: Live 0.21.0"
-    The Hunter's Compendium provides dedicated progression for characters who fight creatures.
-
 The **Hunter's Compendium** records hunting knowledge, points, and the character's active build. Existing characters receive the book on their first login while the system is active; new characters receive it at creation. Keep it in the main backpack and double-click it to open.
 
 ## How the system works
@@ -174,3 +171,6 @@ Test one change at a time and use the Compendium's optional combat record to com
 PvM Mastery works only in eligible PvM encounters. It grants no effects against players, controlled pets, opposing summons, Arena participants, or during recent PvP aggression.
 
 See [PvM rewards](../itens/recompensas-pvm.md) for XP, Loot Packs, jewelry, and amulets.
+
+!!! success "Status: Live 0.21.0"
+    The Hunter's Compendium provides dedicated progression for characters who fight creatures.

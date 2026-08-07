@@ -1,8 +1,5 @@
 # Checking Threat
 
-!!! success "Status: Live 0.21.0"
-    The classification visible in game is the practical source for evaluating each creature.
-
 Use the classification shown in game to evaluate the creature in front of you. This information follows the active world and preserves discovery during the adventure.
 
 ## How to check
@@ -13,3 +10,6 @@ Use the classification shown in game to evaluate the creature in front of you. T
 4. Consider abilities, enemy count, and terrain before starting the fight.
 
 This reading combines the wiki reference with the actual encounter situation.
+
+!!! success "Status: Live 0.21.0"
+    The classification visible in game is the practical source for evaluating each creature.

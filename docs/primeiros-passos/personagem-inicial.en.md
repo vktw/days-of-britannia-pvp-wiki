@@ -1,8 +1,5 @@
 # Your first character
 
-!!! success "Status: Live 0.21.0"
-    The base below is applied to every new character, regardless of the client's chosen profession.
-
 ## Starting location
 
 Every player starts near the **Britain bank**, on the Felucca map.
@@ -38,3 +35,6 @@ The character starts with:
 - A permanent **Starter PvP Iron kit** with Regular armor, weapons, a Black Staff, supplies, potions, and jewelry from the shared Arena and PvP Camp catalog. It does not include another horse and cannot be sold to vendors.
 
 See [CHARACTER](../personagem.md) for buffs, caps, and race, and [Items](../itens/index.md) for classic gear.
+
+!!! success "Status: Live 0.21.0"
+    The base below is applied to every new character, regardless of the client's chosen profession.

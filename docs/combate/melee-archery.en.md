@@ -1,8 +1,5 @@
 # Melee and Archery
 
-!!! success "Status: Live 0.21.0"
-    Practical rules for choosing weapons, distance, and attack pace.
-
 ## Hit chance
 
 With attack and defense at 100.0, the initial PvP hit chance is **90%**. In PvM, it is **50%**. Differences between offensive skill and the target's defense change that chance.
@@ -38,3 +35,6 @@ In PvP, hitting a region without effective armor grants **25% additional damage*
 Archery weapons cannot be used with body plate. Plate Gorgets and shields are exceptions.
 
 See [Classic weapons](../itens/armas.md) and [Damage examples](exemplos-dano.md).
+
+!!! success "Status: Live 0.21.0"
+    Practical rules for choosing weapons, distance, and attack pace.

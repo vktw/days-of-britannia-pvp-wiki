@@ -1,8 +1,5 @@
 # Poison
 
-!!! success "Status: Live 0.21.0"
-    Poison pressures healing and forces the opponent to react.
-
 Applying the same level again restarts its duration. Compatible weapons consume one charge when poison is applied on a successful hit; the weapon property shows its level and remaining charges.
 
 ## Levels
@@ -19,3 +16,6 @@ Deadly Poison in PvP deals at least **6** and at most **30** per tick, varying w
 In PvP, the Poison spell does not lose potency with distance, and 100.0 Magery applies Deadly Poison. A bandage can remove poison immediately, but that application does not restore health.
 
 Darkglow, Parasitic, and Lethal remain outside the ruleset.
+
+!!! success "Status: Live 0.21.0"
+    Poison pressures healing and forces the opponent to react.

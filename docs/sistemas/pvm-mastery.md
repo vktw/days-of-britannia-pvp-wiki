@@ -4,9 +4,6 @@ description: Entenda a Maestria PvM, sua progressão, famílias de Slayer e poss
 
 # Maestria PvM
 
-!!! success "Status: Live 0.21.0"
-    O Hunter's Compendium oferece progressão própria para personagens que enfrentam criaturas.
-
 O **Hunter's Compendium** registra conhecimentos de caça, pontos e a build ativa do personagem. Personagens existentes recebem o livro no primeiro login com o sistema ativo; novos personagens o recebem na criação. Mantenha-o na mochila principal e use dois cliques para abrir.
 
 ## Como o sistema funciona
@@ -174,3 +171,6 @@ Teste uma mudança por vez e use o registro de combate opcional do Compendium pa
 Maestria PvM funciona somente em encontros PvM elegíveis. Não concede efeitos contra jogadores, pets controlados, summons adversários, participantes de Arena ou durante agressão PvP recente.
 
 Consulte [Recompensas PvM](../itens/recompensas-pvm.md) para XP, Loot Packs, joias e amuletos.
+
+!!! success "Status: Live 0.21.0"
+    O Hunter's Compendium oferece progressão própria para personagens que enfrentam criaturas.

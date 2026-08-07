@@ -1,8 +1,5 @@
 # Arena
 
-!!! success "Status: Live 0.21.0"
-    Estas são as regras disponíveis no servidor oficial.
-
 Use `.arena` para abrir o sistema. É possível desafiar outro jogador ou, na arena compatível, treinar contra o **PvP Trainer**.
 
 ## Arenas disponíveis
@@ -54,3 +51,6 @@ Durante a preparação, os buffs autorizados são Night Sight, Reactive Armor, A
 ## PvP Trainer
 
 O PvP Trainer é um NPC criado para treinamento e segue as regras gerais de combate aplicáveis aos jogadores. Ele foi aprimorado para exercer pressão de melee, recuperar-se com mais critério e escolher melhor suas finalizações. Seu funcionamento tático e suas decisões internas não fazem parte da documentação pública.
+
+!!! success "Status: Live 0.21.0"
+    Estas são as regras disponíveis no servidor oficial.

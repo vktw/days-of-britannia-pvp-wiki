@@ -1,8 +1,5 @@
 # Classic weapons
 
-!!! success "Status: Live 0.21.0"
-    Choose weapons by their combat role, not by an isolated damage spreadsheet.
-
 ## Qualities
 
 Offensive qualities follow this order:
@@ -61,3 +58,6 @@ Arena, PvP Camp, and the Starter PvP Iron kit share seven choices: **Bow, War Ma
 Not every weapon present in the client circulates among players. The shard catalog prioritizes options compatible with humans and the classic ruleset.
 
 See [Melee and Archery](../combate/melee-archery.md) and [Poison](../combate/poison.md).
+
+!!! success "Status: Live 0.21.0"
+    Choose weapons by their combat role, not by an isolated damage spreadsheet.

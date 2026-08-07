@@ -4,9 +4,6 @@ description: Descubra a Phoenix rara, Fire Feathers e os Whispers of Britannia n
 
 # Raridades e Whispers of Britannia
 
-!!! success "Status: Live 0.21.0"
-    Phoenix rara e Town Crier oferecem dois novos caminhos de descoberta em Britannia.
-
 ## Phoenix rara
 
 Uma Phoenix rara pode surgir a cada hora em um dos cemitérios de Britannia. Ela é uma criatura especial e não pode ser domada.
@@ -27,3 +24,6 @@ O pagamento pode usar gold da mochila e, depois, do banco da conta. Uma cotaçã
 - O resultado não revela localização, cemitério, idade ou quantidade de Phoenixes.
 
 O objetivo é oferecer uma pista, não substituir a exploração do mundo. Consulte o Town Crier e decida se vale a pena pagar pelo próximo sussurro.
+
+!!! success "Status: Live 0.21.0"
+    Phoenix rara e Town Crier oferecem dois novos caminhos de descoberta em Britannia.

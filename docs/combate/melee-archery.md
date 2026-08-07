@@ -1,8 +1,5 @@
 # Melee e Archery
 
-!!! success "Status: Live 0.21.0"
-    Regras práticas para escolher armas, distância e ritmo de ataque.
-
 ## Chance de acerto
 
 Com ataque e defesa em 100.0, a chance inicial de acerto em PvP é **90%**. No PvM, é **50%**. Diferenças entre a skill ofensiva e a defesa do alvo alteram essa chance.
@@ -38,3 +35,6 @@ Em PvP, atingir uma região sem armor efetiva concede **25% de dano adicional**.
 Armas de Archery não podem ser usadas com plate corporal. Plate Gorget e shields são exceções.
 
 Veja [Armas clássicas](../itens/armas.md) e [Exemplos de dano](exemplos-dano.md).
+
+!!! success "Status: Live 0.21.0"
+    Regras práticas para escolher armas, distância e ritmo de ataque.

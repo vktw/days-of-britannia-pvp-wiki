@@ -1,8 +1,5 @@
 # How to connect
 
-!!! success "Status: Live 0.21.0"
-    The official launcher configures and launches the correct client for the server.
-
 ## Official launcher
 
 [Download DoB Launcher](https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe){ .md-button .md-button--primary }
@@ -19,3 +16,6 @@ always use the official link.
 Enter an unused username and password. The account is created automatically, with a limit of up to 10 accounts per IP. The server allows a maximum of two simultaneous external connections via the same address.
 
 Never share your password. The team doesn't need it for support.
+
+!!! success "Status: Live 0.21.0"
+    The official launcher configures and launches the correct client for the server.

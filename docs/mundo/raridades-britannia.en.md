@@ -4,9 +4,6 @@ description: Discover the rare Phoenix, Fire Feathers, and Whispers of Britannia
 
 # Britannia Rarities and Whispers of Britannia
 
-!!! success "Status: Live 0.21.0"
-    A rare Phoenix and Town Criers offer two new ways to discover events in Britannia.
-
 ## Rare Phoenix
 
 A rare Phoenix can appear every hour in one of Britannia's cemeteries. It is a special creature and cannot be tamed.
@@ -27,3 +24,6 @@ Payment can use gold from your backpack and then your account bank. A stale quot
 - The result does not reveal location, cemetery, age, or number of Phoenixes.
 
 The goal is to provide a lead, not to replace exploring the world. Check the Town Crier and decide whether the next whisper is worth the price.
+
+!!! success "Status: Live 0.21.0"
+    A rare Phoenix and Town Criers offer two new ways to discover events in Britannia.

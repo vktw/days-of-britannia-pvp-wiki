@@ -4,9 +4,6 @@ description: Start playing Days of Britannia with the official connection flow, 
 
 # Getting started
 
-!!! success "Status: Live 0.21.0"
-    The information on this page corresponds to the official server.
-
 This section walks you through installing the official launcher and starting to explore Britannia.
 
 If this is your first contact with the game, start with [Ultima Online Brasil: shards, servers, and community](ultima-online-brasil.md) to understand UO, freeshards, and the Brazilian community.
@@ -30,3 +27,6 @@ If this is your first contact with the game, start with [Ultima Online Brasil: s
 - [Maps and travel](../mundo/mapas-viagem.md)
 - [Player commands](../comandos.md)
 - [Systems enabled and disabled](../sistemas/index.md)
+
+!!! success "Status: Live 0.21.0"
+    The information on this page corresponds to the official server.

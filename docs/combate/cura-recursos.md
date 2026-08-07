@@ -1,8 +1,5 @@
 # Cura e recursos
 
-!!! success "Status: Live 0.21.0"
-    Valores e restrições que afetam decisões durante o combate.
-
 ## Faixas de cura
 
 Com as skills relevantes em 100.0:
@@ -43,3 +40,6 @@ Com Focus 100.0, Meditation 100.0, INT 100 e sem Mana Regen de itens:
 - Meditation ativa: aproximadamente **1,51 mana por segundo**.
 
 Meditation ativa é mais rápida, mas não duplica integralmente a recuperação. Planeje janelas seguras antes de depender dela no combate.
+
+!!! success "Status: Live 0.21.0"
+    Valores e restrições que afetam decisões durante o combate.

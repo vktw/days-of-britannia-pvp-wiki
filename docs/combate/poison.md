@@ -1,8 +1,5 @@
 # Poison
 
-!!! success "Status: Live 0.21.0"
-    Poison pressiona a cura e força o adversário a reagir.
-
 Aplicar novamente o mesmo nível reinicia sua duração. Armas compatíveis consomem uma carga ao aplicar poison em um golpe bem-sucedido; a propriedade da arma mostra o nível e as cargas restantes.
 
 ## Níveis
@@ -19,3 +16,6 @@ Deadly Poison em PvP causa pelo menos **6** e no máximo **30** por tick, varian
 Em PvP, a magia Poison não perde potência pela distância e 100.0 Magery aplica Deadly Poison. Bandage pode remover poison imediatamente, mas essa aplicação não recupera vida.
 
 Darkglow, Parasitic e Lethal permanecem fora do ruleset.
+
+!!! success "Status: Live 0.21.0"
+    Poison pressiona a cura e força o adversário a reagir.

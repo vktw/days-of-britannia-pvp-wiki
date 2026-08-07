@@ -1,8 +1,5 @@
 # Player commands
 
-!!! success "Status: Live 0.21.0"
-    The commands below are available to players on the official server.
-
 ## `.arena`
 
 Open the arena gump to choose combat against another player or against the PvP Trainer, select the available arena and track ranking and season.
@@ -48,3 +45,6 @@ Guides the player to use `.arena`. The PvP Trainer is available exclusively thro
 ## `.dailydungeon`
 
 Shows the selected Daily Dungeon and the time remaining until the next rotation. Use it before heading out to take advantage of the PvM Mastery experience and Loot Pack bonuses.
+
+!!! success "Status: Live 0.21.0"
+    The commands below are available to players on the official server.

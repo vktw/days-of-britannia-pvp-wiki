@@ -1,8 +1,5 @@
 # Magery
 
-!!! success "Status: Live 0.21.0"
-    Delays, alcance e efeitos necessários para jogar e planejar combates.
-
 ## Fluxo de cast
 
 Magery segue o fluxo **escolher alvo → aguardar o cast → aplicar o efeito**.
@@ -67,3 +64,6 @@ Paralyze Field pode reaplicar Paralyze depois de uma breve janela. Wall of Stone
 Magias direcionadas usam normalmente alcance 12. Felucca é a única faceta pública; Trammel permanece restrita às arenas oficiais. Recall, Mark e Gate Travel não permitem sair da faceta pública.
 
 Resurrection pode devolver os itens móveis do corpse quando o ghost está próximo e aceita a ressurreição.
+
+!!! success "Status: Live 0.21.0"
+    Delays, alcance e efeitos necessários para jogar e planejar combates.

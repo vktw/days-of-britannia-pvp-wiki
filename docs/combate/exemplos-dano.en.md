@@ -1,8 +1,5 @@
 # Damage examples
 
-!!! success "Status: Live 0.21.0"
-    Practical examples for equipment decisions without reproducing the server's internal formula.
-
 ## Raw damage ranges
 
 Damage varies with weapon, quality, STR, Tactics, and Anatomy. Weapon skill mainly determines hit chance; armor, Parrying, and Protection apply after the hit lands.
@@ -40,3 +37,6 @@ For the same hit that lands:
 | Shield block | Shield replaces the body region |
 
 **Protection changes the final result**, but full coverage also matters. See [Armor and Parrying](armor-parrying.md) when assembling your equipment.
+
+!!! success "Status: Live 0.21.0"
+    Practical examples for equipment decisions without reproducing the server's internal formula.

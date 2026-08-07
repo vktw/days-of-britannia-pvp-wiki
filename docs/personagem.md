@@ -1,8 +1,5 @@
 # Personagem
 
-!!! success "Status: Live 0.21.0"
-    Stats, skills, caps e raça correspondem ao servidor oficial.
-
 ## Base inicial
 
 Todo novo personagem humano começa com **100 STR, 100 DEX e 100 INT**, Spellbook completo, Runebook, um cavalo shrinkado e um **Starter PvP Iron kit** permanente. O kit usa o catálogo compartilhado da Arena e do PvP Camp, sem duplicar o cavalo, e não pode ser vendido a vendors. Os **10.000 gold** iniciais são concedidos somente ao primeiro personagem elegível por IP.
@@ -40,3 +37,6 @@ Human é a única raça permanente disponível para jogadores. Transformações 
 ## Hiding
 
 Ao usar Hiding, o personagem permanece visível durante 3 segundos de preparação. Movimento, dano, ataque, magia, fala, potion, bandagem, ação reveladora, morte, logout ou troca de mapa interrompem a tentativa. Ao final, as condições de combate são verificadas novamente antes do teste da skill.
+
+!!! success "Status: Live 0.21.0"
+    Stats, skills, caps e raça correspondem ao servidor oficial.

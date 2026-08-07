@@ -4,9 +4,6 @@ description: Entenda Invisibility, o impacto de ataques contra alvos ocultos e o
 
 # Invisibilidade e Detect Hidden
 
-!!! success "Status: Live 0.21.0"
-    Invisibilidade é avaliada no impacto real de ataques e magias.
-
 Esta página explica o que você pode esperar ao usar Invisibility, atacar alguém invisível ou procurar personagens com Detect Hidden.
 
 ## Quando uma magia ou ataque encontra um alvo invisível
@@ -33,3 +30,6 @@ Escolha a busca e aguarde **2 segundos** para que ela seja resolvida. Não há c
 | Detect Hidden | Busca resolve em 2 s |
 
 As regras valem para jogadores, criaturas e PvP Trainer quando a ação correspondente for usada.
+
+!!! success "Status: Live 0.21.0"
+    Invisibilidade é avaliada no impacto real de ataques e magias.

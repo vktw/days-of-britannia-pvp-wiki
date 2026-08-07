@@ -1,8 +1,5 @@
 # Comandos de jogador
 
-!!! success "Status: Live 0.21.0"
-    Os comandos abaixo estão disponíveis aos jogadores no servidor oficial.
-
 ## `.arena`
 
 Abre o gump da arena para escolher combate contra outro jogador ou contra o PvP Trainer, selecionar a arena disponível e acompanhar ranking e temporada.
@@ -48,3 +45,6 @@ Orienta o jogador a usar `.arena`. O PvP Trainer está disponível exclusivament
 ## `.dailydungeon`
 
 Mostra qual Daily Dungeon está selecionada e quanto tempo falta para a próxima rotação. Use o comando antes de sair para aproveitar os bônus de experiência de Maestria PvM e Loot Packs.
+
+!!! success "Status: Live 0.21.0"
+    Os comandos abaixo estão disponíveis aos jogadores no servidor oficial.

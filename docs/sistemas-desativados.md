@@ -1,8 +1,5 @@
 # Sistemas desativados
 
-!!! success "Status: Live 0.21.0"
-    Os bloqueios abaixo fazem parte do ruleset oficial.
-
 Para preservar o equilíbrio clássico, os seguintes sistemas modernos ficam indisponíveis ou não concedem vantagem no PvP Sphere:
 
 - Weapon abilities e special moves.
@@ -25,3 +22,6 @@ Alchemy continua relevante para o sucesso do craft, mas não altera a potência 
 ## Pets e summons
 
 Pets controlados e summons pertencentes a jogadores não podem atacar ou causar dano a outros jogadores. Essa restrição não impede seu uso normal em PvM e é independente do pet bonding, que permanece desativado.
+
+!!! success "Status: Live 0.21.0"
+    Os bloqueios abaixo fazem parte do ruleset oficial.

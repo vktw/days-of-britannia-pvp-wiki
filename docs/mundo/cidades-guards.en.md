@@ -1,6 +1,5 @@
 # Cities and guards
 
-!!! success "Status: Live 0.21.0"
 This page only records confirmed exceptions. The absence of a city on the list does not mean that it is unprotected.
 
 ## Cove
@@ -20,3 +19,5 @@ The configuration of the Moonglow city and moongate region in Trammel removes gu
 The Yew Cemetery Arena occupies a controlled area in Trammel and only accepts duels between players.
 
 See [Arena and Training](../arena.md) for rules for entry, external interference, and returning characters.
+
+!!! success "Status: Live 0.21.0"

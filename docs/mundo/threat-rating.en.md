@@ -1,8 +1,5 @@
 # Threat Rating
 
-!!! success "Status: Live 0.21.0"
-    The color and name displayed over a creature help estimate the danger of the encounter.
-
 **Threat Rating** is a quick endurance reference. Use it to decide whether to fight alone, prepare consumables, or form a group.
 
 ## Classes
@@ -44,3 +41,6 @@ Some well-known creatures help players interpret the scale:
 [Learn how to check the classification](threat-inventory.md){ .md-button }
 
 [Understand PvM rewards](../itens/recompensas-pvm.md){ .md-button }
+
+!!! success "Status: Live 0.21.0"
+    The color and name displayed over a creature help estimate the danger of the encounter.

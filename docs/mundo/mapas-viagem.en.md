@@ -1,6 +1,5 @@
 # Maps and travel
 
-!!! success "Status: Live 0.21.0"
 Verified rules for players on the official server.
 
 ## Felucca
@@ -20,3 +19,5 @@ Recall and Gate Travel take four real seconds after selecting a valid destinatio
 Teleport remains available within the current facet, outside the specific restrictions of an occupied arena, and does not bypass facet policy.
 
 Administrators can override these limitations for maintenance.
+
+!!! success "Status: Live 0.21.0"

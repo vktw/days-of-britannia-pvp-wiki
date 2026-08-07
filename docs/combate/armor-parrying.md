@@ -1,8 +1,5 @@
 # Armor e Parrying
 
-!!! success "Status: Live 0.21.0"
-    Armor protege a região atingida; shield pode substituir completamente essa etapa.
-
 ## Regiões corporais
 
 Cada golpe físico escolhe uma região: Chest, Legs, Arms, Head, Hands ou Neck. Somente a armor equipada naquela região reduz o dano. Roupas comuns, joias e armas não contam como proteção regional.
@@ -30,3 +27,6 @@ Quando o bloqueio acontece:
 - Plate corporal impede o uso de Archery; Plate Gorget e shields continuam permitidos.
 
 Veja [Exemplos de dano](exemplos-dano.md).
+
+!!! success "Status: Live 0.21.0"
+    Armor protege a região atingida; shield pode substituir completamente essa etapa.

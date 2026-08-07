@@ -4,9 +4,6 @@ description: Veja como a Daily Dungeon aumenta a experiência de Maestria PvM e 
 
 # Daily Dungeon
 
-!!! success "Status: Live 0.21.0"
-    A Daily Dungeon diferente recebe bônus até a próxima rotação.
-
 A Daily Dungeon é a melhor referência do dia para quem quer combinar PvM e progressão de Maestria. A seleção muda em uma rotação diária; use `.dailydungeon` para ver a dungeon atual e o tempo restante.
 
 ## O que muda na dungeon do dia
@@ -24,3 +21,6 @@ O acesso comum de jogadores às Lost Lands e às suas dungeons está fechado no 
 ## Próximo passo
 
 Abra `.dailydungeon` antes de sair para o PvM e combine a rotação com sua build em [Maestria PvM](pvm-mastery.md) e com as [Recompensas PvM](../itens/recompensas-pvm.md).
+
+!!! success "Status: Live 0.21.0"
+    A Daily Dungeon diferente recebe bônus até a próxima rotação.

@@ -4,9 +4,6 @@ description: Learn how Invisibility, attacks against hidden targets, and Detect 
 
 # Invisibility and Detect Hidden
 
-!!! success "Status: Live 0.21.0"
-    Invisibility is evaluated at the real impact of attacks and spells.
-
 This page explains what to expect when you use Invisibility, attack an invisible target, or search for hidden characters with Detect Hidden.
 
 ## When a spell or attack meets an invisible target
@@ -33,3 +30,6 @@ Choose the search and wait **2 seconds** for it to resolve. There is no addition
 | Detect Hidden | Search resolves in 2 s |
 
 These rules apply to players, creatures, and the PvP Trainer when the corresponding action is used.
+
+!!! success "Status: Live 0.21.0"
+    Invisibility is evaluated at the real impact of attacks and spells.

@@ -1,8 +1,5 @@
 # Combate
 
-!!! success "Status: Live 0.21.0"
-    As páginas desta seção descrevem o ruleset ativo no servidor oficial.
-
 O combate de Days of Britannia separa dano físico, dano mágico e poison. Sistemas modernos de dano elemental e atributos AOS não determinam o resultado do PvP Sphere.
 
 ## Referência
@@ -21,3 +18,6 @@ O combate de Days of Britannia separa dano físico, dano mágico e poison. Siste
 - Physical Resist da peça representa seu percentual de absorção quando a região é atingida.
 - Regiões corporais sem armor efetiva recebem 25% de dano físico adicional em PvP.
 - Magery utiliza alvo imediato, seguido pelo cast delay e pela liberação do efeito.
+
+!!! success "Status: Live 0.21.0"
+    As páginas desta seção descrevem o ruleset ativo no servidor oficial.

@@ -1,8 +1,5 @@
 # Armaduras clássicas
 
-!!! success "Status: Live 0.21.0"
-    Cada peça protege somente a região corporal em que está equipada.
-
 ## Metais do Live 0.13.0
 
 O catálogo de craft inclui **Iron, Bronze, Shadow, Silver, Gold, Bloodrock, Blackrock, Mythril e Brittanium**. O metal define de 0 a 8 pontos adicionais de proteção física para armaduras e shields; a qualidade Low, Normal ou Exceptional mantém a mesma proteção e altera somente a durabilidade.
@@ -33,3 +30,6 @@ O `Physical Resist` exibido na peça mostra sua proteção prática. Durabilidad
 - Plate corporal impede Archery; Plate Gorget e shields são permitidos.
 
 Veja [Armor e Parrying](../combate/armor-parrying.md).
+
+!!! success "Status: Live 0.21.0"
+    Cada peça protege somente a região corporal em que está equipada.

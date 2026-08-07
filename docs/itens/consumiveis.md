@@ -1,8 +1,5 @@
 # Consumíveis e utilidades
 
-!!! success "Status: Live 0.21.0"
-    Quantidades de kits e efeitos detalhados correspondem ao servidor oficial.
-
 ## Potions
 
 Potions bebíveis compartilham um cooldown global de 15 segundos. Greater Heal recupera 40 hits e Total Mana recupera 40 mana. Total Refresh e Invisibility possuem efeito imediato.
@@ -18,3 +15,6 @@ Bandages removem poison imediatamente sem curar vida no mesmo uso. Sem poison, a
 Novos personagens recebem Spellbook completo, Runebook vazio e cavalo shrinkado. Spellbooks e Runebooks são preservados quando o restante do inventário é guardado para uma luta de arena.
 
 Veja [Cura e recursos](../combate/cura-recursos.md) para todas as faixas e delays.
+
+!!! success "Status: Live 0.21.0"
+    Quantidades de kits e efeitos detalhados correspondem ao servidor oficial.

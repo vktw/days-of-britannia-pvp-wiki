@@ -1,8 +1,5 @@
 # Como conectar
 
-!!! success "Status: Live 0.21.0"
-    O launcher oficial configura e inicia o cliente correto para o servidor.
-
 ## Launcher oficial
 
 [Baixe o DoB Launcher](https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe){ .md-button .md-button--primary }
@@ -19,3 +16,6 @@ utilize sempre o link oficial.
 Digite um usuário e uma senha ainda não utilizados. A conta é criada automaticamente, com limite de até 10 contas por IP. O servidor permite no máximo duas conexões externas simultâneas pelo mesmo endereço.
 
 Nunca compartilhe sua senha. A equipe não precisa dela para suporte.
+
+!!! success "Status: Live 0.21.0"
+    O launcher oficial configura e inicia o cliente correto para o servidor.

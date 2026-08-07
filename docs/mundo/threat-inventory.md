@@ -1,8 +1,5 @@
 # Como consultar Threat
 
-!!! success "Status: Live 0.21.0"
-    A classificação visível no jogo é a fonte prática para avaliar cada criatura.
-
 Use a classificação mostrada no próprio jogo para avaliar a criatura que está diante de você. Essa informação acompanha o mundo ativo e preserva a descoberta durante a aventura.
 
 ## Como consultar
@@ -13,3 +10,6 @@ Use a classificação mostrada no próprio jogo para avaliar a criatura que est�
 4. Considere também habilidades, quantidade de inimigos e terreno antes de iniciar a luta.
 
 Essa leitura combina a referência da wiki com a situação real do encontro.
+
+!!! success "Status: Live 0.21.0"
+    A classificação visível no jogo é a fonte prática para avaliar cada criatura.

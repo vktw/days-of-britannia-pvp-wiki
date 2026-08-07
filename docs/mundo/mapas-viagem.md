@@ -1,8 +1,5 @@
 # Mapas e viagem
 
-!!! success "Status: Live 0.21.0"
-    Regras verificadas para jogadores no servidor oficial.
-
 ## Felucca
 
 Novos personagens começam próximos ao banco de Britain, em Felucca. O mapa utiliza as regras de notoriedade e combate do shard.
@@ -20,3 +17,6 @@ Recall e Gate Travel levam quatro segundos reais depois da escolha de um destino
 Teleport permanece disponível dentro da faceta atual, fora das restrições específicas de uma arena ocupada, e não contorna a política de facetas.
 
 Administradores podem ignorar essas limitações para manutenção.
+
+!!! success "Status: Live 0.21.0"
+    Regras verificadas para jogadores no servidor oficial.

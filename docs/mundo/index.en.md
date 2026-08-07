@@ -1,6 +1,5 @@
 # World
 
-!!! success "Status: Live 0.21.0"
 This section documents the general map and region rules of the official server.
 
 Felucca is the only public facet of Britannia. Trammel remains reserved for the controlled areas of official arenas.
@@ -15,3 +14,5 @@ Felucca is the only public facet of Britannia. Trammel remains reserved for the 
 ## Persistent world
 
 Britannia continues to evolve between updates. Vendors, creatures, objects, and decorations may change as the world receives new content or maintenance.
+
+!!! success "Status: Live 0.21.0"

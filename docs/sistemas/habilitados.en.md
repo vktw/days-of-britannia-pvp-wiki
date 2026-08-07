@@ -1,8 +1,5 @@
 # Enabled systems
 
-!!! success "Status: Live 0.21.0"
-    Summary list of core mechanics available to players.
-
 - Physical combat with Swords, Macing, Fencing, Archery and Wrestling.
 - Magery in the Sphere 51 stream of the shard.
 - Healing, Anatomy, Tactics, Evaluating Intelligence and Resisting Spells.
@@ -26,3 +23,6 @@
 - Auto-account with up to 10 accounts per IP and up to two simultaneous external connections via the same address.
 
 See specific pages for limits and exceptions. Presence on this list does not mean that the mechanics maintain TrueUO's default behavior.
+
+!!! success "Status: Live 0.21.0"
+    Summary list of core mechanics available to players.

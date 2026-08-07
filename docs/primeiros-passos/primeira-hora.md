@@ -1,8 +1,5 @@
 # Sua primeira hora em Britannia
 
-!!! success "Status: Live 0.21.0"
-    Um roteiro curto para organizar o personagem e escolher o primeiro objetivo.
-
 Você começa próximo ao **banco de Britain**, no mapa Felucca. Não é necessário fazer tudo de uma vez: primeiro organize seus recursos, conheça as áreas seguras e escolha se quer explorar PvM, preparar PvP ou desenvolver outras skills.
 
 ## 1. Conheça sua mochila
@@ -58,3 +55,6 @@ Personagens Newcomer seguem o retorno automático próprio. Leia [Newcomer e pro
 - `.help`: mostra a ajuda dos comandos disponíveis.
 
 Depois dessa primeira organização, escolha um objetivo pequeno: descobrir uma Maestria, testar duas armas, conhecer Ocllo ou completar uma luta de treino.
+
+!!! success "Status: Live 0.21.0"
+    Um roteiro curto para organizar o personagem e escolher o primeiro objetivo.
