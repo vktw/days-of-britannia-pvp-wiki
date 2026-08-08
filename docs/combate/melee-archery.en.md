@@ -36,5 +36,5 @@ Archery weapons cannot be used with body plate. Plate Gorgets and shields are ex
 
 See [Classic weapons](../itens/armas.md) and [Damage examples](exemplos-dano.md).
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Practical rules for choosing weapons, distance, and attack pace.

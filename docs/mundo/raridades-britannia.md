@@ -8,6 +8,8 @@ description: Descubra a Phoenix rara, Fire Feathers e os Whispers of Britannia n
 
 Uma Phoenix rara pode surgir a cada hora em um dos cemitérios de Britannia. Ela é uma criatura especial e não pode ser domada.
 
+O nascimento evita áreas ativamente protegidas por guards. Consulte [Cidades e guards](cidades-guards.md) para as exceções confirmadas de Felucca.
+
 Ao fazer carving em seu corpo ainda não usado, você pode receber **Fire Feathers**. O bônus depende de Forensic Evaluation; quanto maior a skill efetiva, maior a chance de receber um bônus sobre o rendimento normal.
 
 ## Sussurros de Britannia
@@ -25,5 +27,5 @@ O pagamento pode usar gold da mochila e, depois, do banco da conta. Uma cotaçã
 
 O objetivo é oferecer uma pista, não substituir a exploração do mundo. Consulte o Town Crier e decida se vale a pena pagar pelo próximo sussurro.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Phoenix rara e Town Crier oferecem dois novos caminhos de descoberta em Britannia.

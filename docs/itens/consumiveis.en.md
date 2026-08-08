@@ -12,10 +12,12 @@ Poison Potions are not ingested when applied to weapons and do not trigger the c
 
 Bandages remove poison immediately without healing health in the same use. Without poison, healing takes 3.5 seconds and reaches 30-40 hits with Healing and Anatomy at 100.0.
 
+When a clean bandage is used successfully, it becomes a **Bloody Bandage** with the same weight. If you are overloaded, the result drops to the ground instead of increasing carried weight. One water unit at a water source washes the entire stack and sends the clean bandages to the backpack.
+
 ## Books and mounts
 
 New characters receive a complete Spellbook, an empty Runebook and a shrunken horse. Spellbooks and Runebooks are preserved when the rest of the inventory is saved for an arena fight.
 
 See [Healing and resources](../combate/cura-recursos.md) for all values and delays.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"

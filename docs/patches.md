@@ -2,6 +2,47 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.23.0 · Arena NuJelm e Safe Haven de Nujelm
+
+- A Arena NuJel'm agora oferece duelos entre jogadores em Felucca pelo comando `.arena`, com as mesmas regras da Arena Yew.
+- O Safe Haven oficial passa de Ocllo para Nujelm; retornos de morte, Stuck e recuperação usam o ponto central de Nujelm (`3767,1296,0`).
+- Ocllo e os cemitérios canônicos de Felucca deixam de receber proteção de guards nas regiões definidas.
+- Gates de evento com destinos de Felucca podem ser administrados pela equipe e exigem personagem vivo, recuperado e fora de combate.
+- Itens novos ou alterados dos tiers Invulnerability e Vanquishing usam hue `2483`; itens salvos não são migrados.
+
+## 0.22.1 · Movimento montado, magias defensivas e bandagens
+
+- A corrida montada agora suporta uma rajada maior de movimento antes de aplicar a proteção contra excesso de velocidade.
+- A perda de stamina por excesso de peso foi reduzida pela metade, mantendo as regras de corrida, montado e perda mínima.
+- O gold das recompensas PvM centralizadas usa fator 1,9 em vez de 2,3; XP, Loot Packs e bônus de Newcomer permanecem com as mesmas regras.
+- Protection e Reactive Armor usam os efeitos visuais e sons de conjuração históricos do Sphere 0.51a; Reactive Armor mantém apenas o efeito vermelho histórico no atacante durante o reflexo.
+- Bandagens limpas usadas com sucesso viram Bloody Bandages com o mesmo peso. Quando o jogador está sobrecarregado, elas caem no chão em vez de aumentar o peso carregado.
+- Bloody Bandages podem ser lavadas em uma fonte de água: uma unidade limpa o stack inteiro e envia o stack limpo para a mochila.
+- Jogadores não recebem mais uma robe automática ao serem ressuscitados; itens e robes já existentes permanecem preservados.
+- Apóstrofos e aspas nos gumps aparecem corretamente, sem entidades HTML visíveis.
+- Os itens bônus do Lumberjacking, como Bark Fragment, Fungi e Switch, foram temporariamente desativados; logs e boards continuam disponíveis.
+- Area Miner, Area Fisher e Area Lumberjack concedem 200 XP de Maestria PvM cada; Rare Phoenix Hunter concede 350 XP.
+- Avisos de manutenção aparecem em português e inglês antes do próximo save automático; após o save, os jogadores são desconectados para aplicar o patch.
+- A entrega do kit de treinamento PvP fica vinculada ao jogador selecionado.
+
+## 0.22.0 · Conquistas de Days of Britannia
+
+- O primeiro login apresenta o sistema de Achievements e o comando `.achievements`.
+- A trilha inicial guia o jogador por Undead, Trolls e Lizardmen e recompensa XP de Maestria, gold e Scrolls of Knowledge.
+- O catálogo completo inclui conquistas para Mining, Fishing, Lumberjacking em 5x5 e Rare Phoenix.
+- O painel de Achievements usa cards mais altos, mostra a orientação completa e separa visualmente cada conquista.
+- A base de Physical Resist de armaduras e shields usa o multiplicador 1.50.
+- Detect Hidden é uma busca de área fixa de 12 tiles que revela players escondidos, inclusive em PvP, após dois segundos, sem afetar mobs ou itens.
+- Harm tem tempo de conjuração de 1 segundo; no PvP, causa de 5 a 7 de dano por conjuração, enquanto o dano PvM permanece igual.
+- A barra de cooldown de potions vem desligada por padrão e pode ser ativada no painel `.pvp`.
+- Todas as magias podem ser conjuradas em cidades; restrições específicas de arena, viagem, geometria e alvos continuam valendo.
+- Fire Field também causa dano no próprio caster; o primeiro tick ocorre em 0,5 segundo e os seguintes a cada 1,6 segundo.
+
+## 0.21.1 · Nascimento seguro da Rare Phoenix
+
+- A Rare Phoenix agora evita áreas protegidas por guards.
+- Nujel'm continuou elegível para o evento durante a compatibilidade daquela versão; a regra de guards foi posteriormente consolidada no patch 0.23.0.
+
 ## 0.21.0 · IA mágica e Threat proporcional
 
 - Spellbinders recebem o mesmo peso de Threat das demais criaturas mágicas.

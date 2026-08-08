@@ -17,9 +17,9 @@ theme:
   palette:
     scheme: dob
 extra:
-  dob_version: "Alpha 0.21.0"
+  dob_version: "Alpha 0.23.0"
 extra_css:
-  - stylesheets/extra.css?v=20260806.5
+  - stylesheets/extra.css?v=20260808.1
 extra_javascript:
   - scripts/dob.js?v=20260726.2
 plugins:
@@ -56,7 +56,8 @@ plugins:
             Visão geral: Overview
             Mapas e viagem: Maps and travel
             Cidades e guards: Cities and guards
-            Ocllo Safe Haven: Ocllo Safe Haven
+            Nujelm Safe Haven: Nujelm Safe Haven
+            Ocllo em Felucca: Ocllo in Felucca
             Como consultar Threat: Checking Threat
             Raridades e Whispers of Britannia: Britannia Rarities and Whispers
             Combate: Combat
@@ -72,6 +73,7 @@ plugins:
             Arena e treinamento: Arena and training
             Sistemas: Systems
             Sistemas habilitados: Enabled systems
+            Achievements: Achievements
             Maestria PvM: PvM Mastery
             Daily Dungeon: Daily Dungeon
             Invisibilidade e Detect Hidden: Invisibility and Detect Hidden
@@ -103,7 +105,8 @@ nav:
       - Visão geral: mundo/index.md
       - Mapas e viagem: mundo/mapas-viagem.md
       - Cidades e guards: mundo/cidades-guards.md
-      - Ocllo Safe Haven: mundo/ocllo.md
+      - Nujelm Safe Haven: mundo/nujelm.md
+      - Ocllo em Felucca: mundo/ocllo.md
       - Threat Rating: mundo/threat-rating.md
       - Como consultar Threat: mundo/threat-inventory.md
       - Raridades e Whispers of Britannia: mundo/raridades-britannia.md
@@ -126,6 +129,7 @@ nav:
   - Sistemas:
       - Visão geral: sistemas/index.md
       - Sistemas habilitados: sistemas/habilitados.md
+      - Achievements: sistemas/achievements.md
       - Maestria PvM: sistemas/pvm-mastery.md
       - Daily Dungeon: sistemas/daily-dungeon.md
       - Sistemas desativados: sistemas-desativados.md

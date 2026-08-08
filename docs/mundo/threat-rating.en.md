@@ -42,5 +42,5 @@ Some well-known creatures help players interpret the scale:
 
 [Understand PvM rewards](../itens/recompensas-pvm.md){ .md-button }
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     The color and name displayed over a creature help estimate the danger of the encounter.

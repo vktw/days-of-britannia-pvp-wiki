@@ -28,5 +28,5 @@ If this is your first contact with the game, start with [Ultima Online Brasil: s
 - [Player commands](../comandos.md)
 - [Systems enabled and disabled](../sistemas/index.md)
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     The information on this page corresponds to the official server.

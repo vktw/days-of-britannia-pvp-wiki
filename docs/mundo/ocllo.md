@@ -1,18 +1,18 @@
-# Ocllo Safe Haven
+# Ocllo em Felucca
 
-Ocllo é o ponto seguro para começar, organizar-se e recuperar-se após a morte. Em toda a ilha, conflito entre jogadores, stealing e ações nocivas de pets ou summons ficam bloqueados.
+Ocllo é uma cidade de Felucca sem guards. Desde o Live 0.23.0, a ilha não possui mais as restrições especiais de PvP, dano ou stealing que pertenciam ao Safe Haven.
 
-## Serviços e viagem
+## Serviços e segurança
 
 - Os serviços normais da cidade continuam disponíveis.
-- Ocllo participa da rede pública de moongates de Felucca.
-- A cidade possui Animal Trainer para treinamento de criaturas.
+- Ocllo pode ser desprotegida mesmo quando você está próximo de uma cidade; confira a região antes de assumir que haverá guards.
+- O Safe Haven oficial não fica mais em Ocllo. Para retornos seguros, consulte [Nujelm Safe Haven](nujelm.md).
 
-## Treino e segurança
+## Skills e retorno
 
-Personagens normais não recebem ganhos de skill ou stats por ações feitas dentro do Safe Haven. Newcomers são a exceção: durante o benefício, podem ganhar skills ali com o bônus próprio.
+Ocllo não aplica a antiga regra de bloquear conflito, stealing, dano ou ações nocivas de pets e summons. As regras normais de skills, combate e criminalidade da região continuam valendo.
 
-Consulte [Newcomer e proteção](../primeiros-passos/newcomer.md) e [Morte e recuperação](../primeiros-passos/morte-recuperacao.md) para os fluxos iniciais.
+Consulte [Cidades e guards](cidades-guards.md) para as exceções confirmadas e [Morte e recuperação](../primeiros-passos/morte-recuperacao.md) para os fluxos de retorno.
 
-!!! success "Status: Live 0.21.0"
-    Ocllo é o Safe Haven oficial em Felucca.
+!!! success "Status: Live 0.23.0"
+    Ocllo é uma cidade de Felucca sem a proteção especial do antigo Safe Haven.

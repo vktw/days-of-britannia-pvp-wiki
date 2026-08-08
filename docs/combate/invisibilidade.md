@@ -18,7 +18,7 @@ Você permanece oculto durante a preparação. A revelação acontece quando sua
 
 ## Usar Detect Hidden
 
-Escolha a busca e aguarde **2 segundos** para que ela seja resolvida. Não há cooldown adicional depois da busca. Quando alguém for revelado, o jogo informa claramente o personagem afetado.
+Detect Hidden inicia uma busca sem cursor em uma área fixa de **12 tiles**. Aguarde **2 segundos** para que ela seja resolvida; não há cooldown adicional depois da busca. A busca revela outros jogadores escondidos, inclusive em PvP, mas não afeta mobs, criaturas, pets, NPCs ou itens ocultos.
 
 ## Resumo rápido
 
@@ -27,9 +27,9 @@ Escolha a busca e aguarde **2 segundos** para que ela seja resolvida. Não há c
 | Magia direcionada contra alvo invisível no impacto | Falha |
 | Poison periódico em vítima invisível | Não revela |
 | Ataque válido de personagem invisível | Revela o atacante |
-| Detect Hidden | Busca resolve em 2 s |
+| Detect Hidden | Área de 12 tiles; revela players após 2 s |
 
-As regras valem para jogadores, criaturas e PvP Trainer quando a ação correspondente for usada.
+As regras de invisibilidade valem para jogadores, criaturas e PvP Trainer quando a ação correspondente for usada. A busca ativa de Detect Hidden revela somente outros jogadores vivos e escondidos.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Invisibilidade é avaliada no impacto real de ataques e magias.

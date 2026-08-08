@@ -4,6 +4,10 @@
 
 Cove em Felucca não possui proteção de guards e pode ser usada como área aberta de PvP. O transporte opcional de `.pvpcamp` leva o personagem para Cove, Felucca.
 
+## Ocllo em Felucca
+
+Ocllo é uma cidade de Felucca sem guards e sem a antiga restrição especial de PvP, dano ou stealing do Safe Haven. A ausência de guards vale para a região da cidade; não presuma proteção por estar perto de outro núcleo urbano.
+
 ## Britain e Moonglow em Felucca
 
 Somente os núcleos urbanos clássicos de Britain e Moonglow permanecem protegidos. As fazendas a oeste de Britain, ilhas periféricas de Moonglow e as áreas separadas dos moongates são desprotegidas. Observe a indicação de região e não presuma proteção apenas por estar perto da cidade.
@@ -12,11 +16,15 @@ Somente os núcleos urbanos clássicos de Britain e Moonglow permanecem protegid
 
 A configuração da região da cidade e do moongate de Moonglow em Trammel remove a proteção de guards para a operação controlada da Arena Moonglow.
 
+## Cemitérios canônicos de Felucca
+
+Os perímetros definidos dos cemitérios de Britain, Cove, Jhelom, Moonglow, Nujelm, Vesper e Yew não recebem proteção de guards. Esta regra é separada da Arena Yew Cemetery, que fica em Trammel.
+
 ## Yew Cemetery
 
 A Arena Yew Cemetery ocupa uma área controlada em Trammel e aceita apenas duelos entre jogadores.
 
 Consulte [Arena e treinamento](../arena.md) para regras de entrada, interferência externa e devolução dos personagens.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Esta página registra somente exceções confirmadas. A ausência de uma cidade na lista não significa que ela seja desprotegida.

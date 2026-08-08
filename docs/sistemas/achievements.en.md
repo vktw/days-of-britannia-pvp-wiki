@@ -1,0 +1,39 @@
+# Achievements
+
+Achievements record a character's first PvM goals and special activities. Use `.achievements` to open the catalogue, track progress, and review rewards.
+
+## First access
+
+On the first login, the game introduces the system and offers the introduction in Portuguese or English. The introduction appears once per profile; `.achievements` remains available afterward.
+
+## Introductory path
+
+The first three achievements are sequential. Kills made before a stage is unlocked do not advance the locked stage.
+
+| Achievement | Goal | Reward |
+|---|---|---|
+| **First Hunt** | 10 Undead creatures | 100 PvM Mastery XP, 1,000 gold, and one Undead Basic Scroll of Knowledge |
+| **Troll Hunter** | 10 Humanoid creatures | 200 PvM Mastery XP, 1,000 gold, and one Humanoid Basic Scroll of Knowledge |
+| **Scaled Hunter** | 10 Reptilian creatures | 300 PvM Mastery XP, 1,000 gold, and one Reptilian Basic Scroll of Knowledge |
+
+The hints point to Britain Cemetery, Despise Trolls, and Despise Lizardmen, but they do not lock the achievement to those locations. After the third stage, the full catalogue unlocks.
+
+## Activity catalogue
+
+The full catalogue includes:
+
+- **Area Miner:** records the start of a 5x5 Mining session.
+- **Area Fisher:** records the start of a 5x5 Fishing session.
+- **Area Lumberjack:** records the start of a 5x5 Lumberjacking session.
+- **Rare Phoenix Hunter:** records a successful Rare Phoenix carving.
+
+Area Miner, Area Fisher, and Area Lumberjack grant 200 PvM Mastery XP each. Rare Phoenix Hunter grants 350 XP. These achievements do not change gathering time, resource consumption, or normal carving rewards.
+
+## Limits
+
+Achievements do not add points, rankings, titles, or cosmetic rewards. The current catalogue has no PvP achievements.
+
+See also [PvM Mastery](pvm-mastery.md) for XP, Slayer families, and builds.
+
+!!! success "Status: Live 0.23.0"
+    The Achievements system is available on the official server.

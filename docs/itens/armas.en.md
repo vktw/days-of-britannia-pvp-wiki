@@ -15,6 +15,8 @@ Offensive qualities follow this order:
 
 Special moves remain disabled and do not determine a weapon's poison compatibility.
 
+New or tier-mutated Vanquishing weapons use hue `2483`; saved weapons are not migrated.
+
 ## Practical roles
 
 - **One-handed:** allows a shield and combines pressure with defense.
@@ -59,5 +61,5 @@ Not every weapon present in the client circulates among players. The shard catal
 
 See [Melee and Archery](../combate/melee-archery.md) and [Poison](../combate/poison.md).
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Choose weapons by their combat role, not by an isolated damage spreadsheet.

@@ -15,6 +15,8 @@ Poison does not prevent Heal, Greater Heal, or Greater Heal Potion.
 
 A bandage removes poison immediately without restoring health in that application. Without poison, healing completes after **3.5 seconds**. Using a bandage frees the hands automatically; if the character is paralyzed, they must already be empty.
 
+A clean bandage used successfully becomes a Bloody Bandage. A water source uses one unit to wash the entire stack; if the backpack cannot hold the result, it drops to the ground.
+
 Starting a spell accepted by the server cancels any bandage still in progress. The bandage is not refunded and does not complete its healing later. Immediate poison treatment is unaffected.
 
 ## Potions
@@ -41,5 +43,5 @@ With 100.0 Focus, 100.0 Meditation, 100 INT, and no item Mana Regen:
 
 Active Meditation is faster, but does not fully double recovery. Plan a safe window before relying on it during combat.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Values and restrictions that affect decisions during combat.

@@ -2,6 +2,47 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.23.0 · Arena NuJelm and Nujelm Safe Haven
+
+- Arena NuJel'm now offers player duels in Felucca through `.arena`, with the same rules as Yew Arena.
+- The official Safe Haven moves from Ocllo to Nujelm; death, Stuck, and recovery returns use Nujelm's central point (`3767,1296,0`).
+- Ocllo and the canonical Felucca cemeteries no longer receive guard protection in the defined regions.
+- Event gates with Felucca destinations can be managed by the staff and require a living, recovered character out of combat.
+- New or tier-mutated Invulnerability and Vanquishing equipment uses hue `2483`; saved items are not migrated.
+
+## 0.22.1 · Mounted movement, defensive spells, and bandages
+
+- Mounted running now supports a larger movement burst before excess-speed protection applies.
+- Overweight stamina loss is reduced by half while running, mounted movement, and minimum-loss rules remain unchanged.
+- Centralized PvM reward gold uses a 1.9 factor instead of 2.3; XP, Loot Packs, and Newcomer bonus rules remain unchanged.
+- Protection and Reactive Armor use the historical Sphere 0.51a visual effects and cast sounds; Reactive Armor keeps only the historical red effect on the attacker during the reflection.
+- Successfully used clean bandages become Bloody Bandages with the same weight. When overloaded, they drop to the ground instead of increasing carried weight.
+- Bloody Bandages can be washed at a water source: one water unit cleans the whole stack and sends the clean stack to the backpack.
+- Players no longer receive an automatic robe on resurrection; existing items and robes remain preserved.
+- Apostrophes and quotation marks in gumps now render correctly without visible HTML entities.
+- Lumberjacking bonus items such as Bark Fragment, Fungi, and Switch are temporarily disabled; logs and boards remain available.
+- Area Miner, Area Fisher, and Area Lumberjack grant 200 PvM Mastery XP each; Rare Phoenix Hunter grants 350 XP.
+- Maintenance notices appear in Portuguese and English before the next automatic save; players are disconnected after the save to apply the patch.
+- PvP training-kit delivery is bound to the selected player.
+
+## 0.22.0 · Days of Britannia Achievements
+
+- The first login introduces the Achievements system and the `.achievements` command.
+- The introductory path guides players through Undead, Trolls, and Lizardmen and rewards Mastery XP, gold, and Scrolls of Knowledge.
+- The full catalogue includes Mining, Fishing, 5x5 Lumberjacking, and Rare Phoenix achievements.
+- The Achievements panel uses taller cards, complete guidance, and visual separation between achievements.
+- The base Physical Resist of armor and shields uses the 1.50 multiplier.
+- Detect Hidden is a fixed 12-tile area search that reveals hidden players, including in PvP, after two seconds without affecting mobs or items.
+- Harm has a 1-second cast time; in PvP it deals 5–7 damage per cast while PvM damage remains unchanged.
+- The potion cooldown bar is off by default and can be enabled from the `.pvp` panel.
+- All spells can be cast in towns; specific arena, travel, geometry, and target restrictions remain.
+- Fire Field also damages its caster; the first tick occurs after 0.5 seconds and later ticks every 1.6 seconds.
+
+## 0.21.1 · Safe Rare Phoenix spawning
+
+- Rare Phoenix now avoids areas protected by guards.
+- Nujelm remained eligible for the event during that version's compatibility window; the guard rule was later consolidated by patch 0.23.0.
+
 ## 0.21.0 · Magical AI and proportional Threat
 
 - Spellbinders now receive the same Threat weight as other magical creatures.

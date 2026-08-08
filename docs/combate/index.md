@@ -19,5 +19,5 @@ O combate de Days of Britannia separa dano físico, dano mágico e poison. Siste
 - Regiões corporais sem armor efetiva recebem 25% de dano físico adicional em PvP.
 - Magery utiliza alvo imediato, seguido pelo cast delay e pela liberação do efeito.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     As páginas desta seção descrevem o ruleset ativo no servidor oficial.

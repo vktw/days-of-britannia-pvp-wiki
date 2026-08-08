@@ -14,7 +14,7 @@ hide:
         BAIXAR DOB LAUNCHER <span aria-hidden="true">↓</span>
       </a>
       <a class="dob-atlas-codex-action dob-atlas-codex-action--secondary" href="patches/">
-        LER PATCH 0.21.0 <span aria-hidden="true">→</span>
+        LER PATCH 0.23.0 <span aria-hidden="true">→</span>
       </a>
     </div>
     <div class="dob-atlas-mark" aria-hidden="true" hidden>
@@ -78,8 +78,8 @@ hide:
 <section class="dob-atlas-update" aria-labelledby="dob-release-title">
   <div>
     <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
-    <h2 id="dob-release-title">0.21.0 · IA mágica e Threat proporcional</h2>
+    <h2 id="dob-release-title">0.23.0 · Arena NuJelm e Safe Haven de Nujelm</h2>
   </div>
-  <p>Criaturas mágicas recebem um tratamento mais consistente no combate e nas recompensas PvM.</p>
+  <p>A Arena NuJel'm chega a Felucca e os retornos seguros do shard passam a usar Nujelm.</p>
   <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

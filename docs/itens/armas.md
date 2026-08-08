@@ -15,6 +15,8 @@ As qualidades ofensivas seguem esta ordem:
 
 Special moves permanecem desativados e não determinam a compatibilidade da arma com poison.
 
+Armas novas ou alteradas do tier Vanquishing usam hue `2483`; armas salvas não são migradas.
+
 ## Papéis práticos
 
 - **Uma mão:** permite shield e combina pressão com defesa.
@@ -59,5 +61,5 @@ Nem toda arma existente no cliente circula para jogadores. O catálogo do shard 
 
 Veja [Melee e Archery](../combate/melee-archery.md) e [Poison](../combate/poison.md).
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Escolha armas pelo papel no combate, não por uma planilha isolada de dano.

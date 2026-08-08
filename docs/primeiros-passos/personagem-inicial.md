@@ -36,5 +36,5 @@ O personagem começa com:
 
 Consulte [Personagem](../personagem.md) para buffs, caps e raça, e [Itens](../itens/index.md) para equipamentos clássicos.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     A base abaixo é aplicada a todo novo personagem, independentemente da profissão escolhida no cliente.

@@ -13,13 +13,13 @@ Abra a Paperdoll e a mochila principal. O personagem novo recebe Spellbook compl
 
 Consulte [Seu primeiro personagem](personagem-inicial.md) para a lista completa do que é entregue.
 
-## 2. Entenda Britain e Ocllo
+## 2. Entenda Britain e Nujelm
 
-Britain é o local inicial, mas **Ocllo** é o Safe Haven do servidor. A ilha bloqueia conflito entre jogadores, stealing e ações nocivas de pets ou summons.
+Britain é o local inicial, mas **Nujelm** é o Safe Haven do servidor. A região definida bloqueia conflito entre jogadores, stealing e ações nocivas de pets ou summons.
 
-Use a rede pública de moongates de Felucca para viajar até Ocllo. Personagens Newcomer podem ganhar skills na ilha durante o benefício; personagens sem o benefício não recebem ganhos de skill ou stats por ações feitas dentro do Safe Haven.
+Use a rede pública de moongates de Felucca para viajar até Nujelm. Personagens Newcomer podem ganhar skills dentro do Safe Haven durante o benefício; personagens sem o benefício não recebem ganhos de skill ou stats por ações feitas ali.
 
-[Conheça Ocllo Safe Haven](../mundo/ocllo.md) antes de sair para uma caçada.
+[Conheça Nujelm Safe Haven](../mundo/nujelm.md) antes de sair para uma caçada. Ocllo continua sendo uma cidade de Felucca sem guards, mas não é mais o ponto seguro do shard.
 
 ## 3. Escolha um primeiro estilo
 
@@ -54,7 +54,7 @@ Personagens Newcomer seguem o retorno automático próprio. Leia [Newcomer e pro
 - `.skillcheck`: mostra o valor, as chances e o resultado de um teste.
 - `.help`: mostra a ajuda dos comandos disponíveis.
 
-Depois dessa primeira organização, escolha um objetivo pequeno: descobrir uma Maestria, testar duas armas, conhecer Ocllo ou completar uma luta de treino.
+Depois dessa primeira organização, escolha um objetivo pequeno: descobrir uma Maestria, testar duas armas, conhecer Nujelm ou Ocllo, ou completar uma luta de treino.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Um roteiro curto para organizar o personagem e escolher o primeiro objetivo.

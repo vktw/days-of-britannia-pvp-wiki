@@ -5,6 +5,7 @@
 - Healing, Anatomy, Tactics, Evaluating Intelligence and Resisting Spells.
 - Meditation and Focus, without equipment blocking.
 - Hiding, Stealth, Detect Hidden and Poisoning.
+- Achievements with first-login introduction, activity catalogue, and the `.achievements` command.
 - Barding with Musicianship, Peacemaking, Discordance and Provocation, including the Resonant Cascade PvM interaction.
 - Weapons and armor with classic tiers.
 - Crafting metals from Iron through Brittanium, with physical protection defined by the metal.
@@ -19,10 +20,10 @@
 - PvM resource Masteries: Mana Shield, Vigor Shield, Arcane Exertion, Blood Magic, and Hit Stamina Leech.
 - Encounter-scaled PvM rewards, including Loot Packs, jewelry, and skill amulets.
 - `.help`, `.pvp`, and `.skillcheck` for help, PvP preferences, and skill checks.
-- Stuck return to Ocllo under the system's conditions.
+- Stuck return to Nujelm under the system's conditions.
 - Auto-account with up to 10 accounts per IP and up to two simultaneous external connections via the same address.
 
 See specific pages for limits and exceptions. Presence on this list does not mean that the mechanics maintain TrueUO's default behavior.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Summary list of core mechanics available to players.

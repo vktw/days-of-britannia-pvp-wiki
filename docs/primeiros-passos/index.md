@@ -28,5 +28,5 @@ Se este é seu primeiro contato com o jogo, comece por [Ultima Online Brasil: sh
 - [Comandos de jogador](../comandos.md)
 - [Sistemas habilitados e desativados](../sistemas/index.md)
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     As informações desta página correspondem ao servidor oficial.

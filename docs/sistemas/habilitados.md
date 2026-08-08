@@ -5,6 +5,7 @@
 - Healing, Anatomy, Tactics, Evaluating Intelligence e Resisting Spells.
 - Meditation e Focus, sem bloqueio por equipamento.
 - Hiding, Stealth, Detect Hidden e Poisoning.
+- Achievements com introdução inicial, catálogo de atividades e comando `.achievements`.
 - Barding com Musicianship, Peacemaking, Discordance e Provocation, incluindo a interação PvM de Resonant Cascade.
 - Armas e armaduras com tiers clássicos.
 - Metais de craft de Iron a Brittanium, com proteção física definida pelo metal.
@@ -19,10 +20,10 @@
 - Maestrias de recursos PvM: Mana Shield, Vigor Shield, Arcane Exertion, Blood Magic e Hit Stamina Leech.
 - Recompensas PvM proporcionais ao encontro, incluindo Loot Packs, joias e amuletos de skill.
 - `.help`, `.pvp` e `.skillcheck` para ajuda, preferências de PvP e testes de skill.
-- Retorno Stuck para Ocllo sob as condições do sistema.
+- Retorno Stuck para Nujelm sob as condições do sistema.
 - Auto-account com até 10 contas por IP e até duas conexões externas simultâneas pelo mesmo endereço.
 
 Consulte as páginas específicas para limites e exceções. A presença nesta lista não significa que a mecânica mantenha o comportamento padrão do TrueUO.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Lista resumida das mecânicas centrais disponíveis aos jogadores.

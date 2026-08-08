@@ -18,7 +18,7 @@ You remain hidden during preparation. You are revealed when your spell, melee at
 
 ## Using Detect Hidden
 
-Choose the search and wait **2 seconds** for it to resolve. There is no additional cooldown after the search. When someone is revealed, the game clearly identifies the affected character.
+Detect Hidden starts a targetless search in a fixed **12-tile** area. Wait **2 seconds** for it to resolve; there is no additional cooldown afterward. The search reveals other hidden players, including in PvP, but does not affect mobs, creatures, pets, NPCs, or hidden items.
 
 ## Quick reference
 
@@ -27,9 +27,9 @@ Choose the search and wait **2 seconds** for it to resolve. There is no addition
 | Targeted spell against an invisible target at impact | Fails |
 | Periodic poison on an invisible victim | Does not reveal |
 | Valid attack by an invisible character | Reveals the attacker |
-| Detect Hidden | Search resolves in 2 s |
+| Detect Hidden | 12-tile area; reveals players after 2 s |
 
-These rules apply to players, creatures, and the PvP Trainer when the corresponding action is used.
+The invisibility rules apply to players, creatures, and the PvP Trainer when the corresponding action is used. The active Detect Hidden search reveals only other living hidden players.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Invisibility is evaluated at the real impact of attacks and spells.

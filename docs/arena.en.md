@@ -8,6 +8,9 @@ Use `.arena` to open the system. You can challenge another player or, in the com
 |---|:---:|:---:|
 | Moonglow | Yes | Yes |
 | Yew Cemetery | Yes | No |
+| Arena NuJel'm | Yes | No |
+
+Arena NuJel'm is in Felucca and uses the same player-duel contract as Yew Arena. The PvP Trainer remains available exclusively in Moonglow Arena.
 
 Each arena accepts only one pending public fight or challenge at a time and displays its status before entry.
 
@@ -52,5 +55,5 @@ During preparation, the authorized buffs are Night Sight, Reactive Armor, Agilit
 
 The PvP Trainer is an NPC created for training and follows the general combat rules applicable to players. He has been improved to exert melee pressure, recover more judiciously, and choose his shots better. Its tactical functioning and internal decisions are not part of public documentation.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     These are the rules available on the official server.

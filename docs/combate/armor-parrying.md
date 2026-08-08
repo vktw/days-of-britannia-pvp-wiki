@@ -6,6 +6,8 @@ Cada golpe físico escolhe uma região: Chest, Legs, Arms, Head, Hands ou Neck. 
 
 O `Physical Resist` exibido na peça indica quanto ela absorve quando aquela região é atingida. Qualidades melhores — Defense, Guarding, Hardening, Fortification e Invulnerability — oferecem proteção crescente.
 
+A base de `Physical Resist` para armaduras e shields usa o multiplicador **1,50**. Os bônus clássicos de metal e qualidade continuam sendo aplicados separadamente.
+
 Em PvP, uma região sem armor efetiva recebe **25% de dano adicional**. Reactive Armor não conta como peça equipada. Protection reduz parte do dano restante, inclusive em regiões descobertas.
 
 ## Escudos
@@ -28,5 +30,5 @@ Quando o bloqueio acontece:
 
 Veja [Exemplos de dano](exemplos-dano.md).
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Armor protege a região atingida; shield pode substituir completamente essa etapa.

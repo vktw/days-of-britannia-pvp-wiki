@@ -8,6 +8,8 @@ Felucca is the only public facet of Britannia. Trammel remains reserved for the 
 
 - [Maps and travel](mapas-viagem.md): Felucca, Trammel, Recall, Mark, Gate Travel, and Teleport.
 - [Cities and guards](cidades-guards.md): regions with known protection exceptions.
+- [Nujelm Safe Haven](nujelm.md): protection and safe returns in Felucca.
+- [Ocllo in Felucca](ocllo.md): an unguarded city without the former Safe Haven restrictions.
 - [Threat Rating](threat-rating.md): how to interpret the class and color displayed on creatures.
 - [Threat lookup](threat-inventory.md): how to evaluate a creature inside the game.
 
@@ -15,4 +17,4 @@ Felucca is the only public facet of Britannia. Trammel remains reserved for the 
 
 Britannia continues to evolve between updates. Vendors, creatures, objects, and decorations may change as the world receives new content or maintenance.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
