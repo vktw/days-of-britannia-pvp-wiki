@@ -38,5 +38,5 @@ Human é a única raça permanente disponível para jogadores. Transformações 
 
 Ao usar Hiding, o personagem permanece visível durante 3 segundos de preparação. Movimento, dano, ataque, magia, fala, potion, bandagem, ação reveladora, morte, logout ou troca de mapa interrompem a tentativa. Ao final, as condições de combate são verificadas novamente antes do teste da skill.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Stats, skills, caps e raça correspondem ao servidor oficial.

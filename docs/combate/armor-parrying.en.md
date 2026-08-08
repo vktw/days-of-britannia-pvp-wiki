@@ -6,6 +6,8 @@ Each physical hit selects Chest, Legs, Arms, Head, Hands, or Neck. Only armor eq
 
 The piece's displayed `Physical Resist` indicates how much it absorbs when that region is hit. Better qualities — Defense, Guarding, Hardening, Fortification, and Invulnerability — provide increasing protection.
 
+The `Physical Resist` baseline for armor and shields uses the **1.50** multiplier. Classic metal and quality bonuses remain separate additions.
+
 In PvP, a region without effective armor receives **25% additional damage**. Reactive Armor does not count as an equipped piece. Protection reduces part of the remaining damage, including on uncovered regions.
 
 ## Shields
@@ -28,5 +30,5 @@ When a block occurs:
 
 See [Damage examples](exemplos-dano.md).
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Armor protects the region that is hit; a shield can replace that step entirely.

@@ -17,5 +17,5 @@ Enter an unused username and password. The account is created automatically, wit
 
 Never share your password. The team doesn't need it for support.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     The official launcher configures and launches the correct client for the server.

@@ -14,7 +14,7 @@ BASELINE_PATHS = {
     "assets/logo.png", "stylesheets/extra.css", "combate/armor-parrying.md",
     "combate/cura-recursos.md", "combate/exemplos-dano.md", "combate/magery.md",
     "combate/melee-archery.md", "combate/poison.md", "sistemas/pvm-mastery.md",
-    "itens/recompensas-pvm.md",
+    "itens/recompensas-pvm.md", "sistemas/achievements.md", "mundo/nujelm.md",
 }
 
 REQUIRED_HEADINGS = {
@@ -24,6 +24,7 @@ REQUIRED_HEADINGS = {
     ],
     "comandos.md": [
         "# Comandos de jogador", "## `.arena`", "## `.pvpcamp`",
+        "## `.achievements`",
         "## `.patchnotes`", "## `.pvp`", "## `.skillcheck`", "## `.help`",
         "## `.store`", "## `.pvptrainer`",
     ],
@@ -34,12 +35,14 @@ REQUIRED_HEADINGS = {
     "combate/cura-recursos.md": ["# Cura e recursos", "## Faixas de cura", "## Mana"],
     "combate/exemplos-dano.md": ["# Exemplos de dano", "## Faixas de dano bruto"],
     "combate/poison.md": ["# Poison"],
-    "patches.md": ["# Patch notes", "## 0.21.0", "## 0.20.0", "## 0.19.0", "## 0.18.4", "## 0.18.3", "## 0.18.1", "## 0.18.0", "## 0.17.2", "## 0.17.0", "## 0.16.0", "## 0.15.0", "## 0.14.1", "## 0.14.0", "## 0.13.1", "## 0.13.0", "## 0.12.0", "## 0.11.5", "## 0.11.4", "## 0.11.3", "## 0.11.1", "## 0.11.0", "## 0.10.3", "## 0.10.2", "## 0.10.1", "## 0.10.0", "## 0.9.12", "## 0.9.8", "## 0.9.6", "## 0.9.2", "## 0.7.0", "## 0.1.0"],
+    "patches.md": ["# Patch notes", "## 0.23.0", "## 0.22.1", "## 0.22.0", "## 0.21.1", "## 0.21.0", "## 0.20.0", "## 0.19.0", "## 0.18.4", "## 0.18.3", "## 0.18.1", "## 0.18.0", "## 0.17.2", "## 0.17.0", "## 0.16.0", "## 0.15.0", "## 0.14.1", "## 0.14.0", "## 0.13.1", "## 0.13.0", "## 0.12.0", "## 0.11.5", "## 0.11.4", "## 0.11.3", "## 0.11.1", "## 0.11.0", "## 0.10.3", "## 0.10.2", "## 0.10.1", "## 0.10.0", "## 0.9.12", "## 0.9.8", "## 0.9.6", "## 0.9.2", "## 0.7.0", "## 0.1.0"],
     "proximo-patch.md": ["# Próximo Patch Planejado"],
     "sistemas-desativados.md": ["# Sistemas desativados", "## Pets e summons"],
     "mundo/threat-rating.md": ["# Threat Rating", "## Exemplos da escala"],
     "mundo/threat-inventory.md": ["# Como consultar Threat"],
     "sistemas/pvm-mastery.md": ["# Maestria PvM", "## Progressão e pontos", "## Scrolls of Knowledge"],
+    "sistemas/achievements.md": ["# Achievements", "## Primeiro acesso", "## Trilha inicial", "## Catálogo de atividades", "## Limites"],
+    "mundo/nujelm.md": ["# Nujelm Safe Haven", "## Proteção do Safe Haven", "## Retornos e Arena"],
     "itens/recompensas-pvm.md": ["# Recompensas PvM", "## Loot Packs", "## Joias mágicas", "## Amuletos de skill"],
 }
 
@@ -54,9 +57,13 @@ REQUIRED_LIVE_CLAIMS = {
     "itens/armas.md": ["não determinam a compatibilidade da arma com poison"],
     "mundo/threat-rating.md": ["Neira | Legendary", "Harrower | Mythic"],
     "mundo/threat-inventory.md": ["classificação visível no jogo"],
-    "sistemas/pvm-mastery.md": ["Status: Live 0.21.0", "até cinco Maestrias ativas"],
-    "primeiros-passos/newcomer.md": ["25% adicionais de experiência de Maestria PvM"],
-    "combate/magery.md": ["uma carga", "alcance de 12 tiles", "| Harm | 1,75 s |"],
+    "sistemas/pvm-mastery.md": ["Status: Live 0.23.0", "até cinco Maestrias ativas"],
+    "sistemas/achievements.md": ["`.achievements`", "100 XP de Maestria PvM", "Status: Live 0.23.0"],
+    "mundo/nujelm.md": ["Safe Haven oficial", "3767,1296,0", "Status: Live 0.23.0"],
+    "primeiros-passos/newcomer.md": ["25% adicionais de experiência de Maestria PvM", "retorna automaticamente a Nujelm"],
+    "combate/magery.md": ["uma carga", "alcance de 12 tiles", "| Harm | 1,0 s |", "5 a 7 de dano"],
+    "combate/invisibilidade.md": ["12 tiles", "jogadores escondidos", "mobs, criaturas, pets, NPCs ou itens ocultos"],
+    "comandos.md": ["## `.achievements`"],
 }
 
 FORBIDDEN_LIVE_CLAIMS = {

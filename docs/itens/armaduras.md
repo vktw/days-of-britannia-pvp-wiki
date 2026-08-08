@@ -21,6 +21,8 @@ As qualidades defensivas seguem esta ordem:
 
 O `Physical Resist` exibido na peça mostra sua proteção prática. Durabilidade e qualidade importam; resistências elementais modernas não entram separadamente no PvP Sphere.
 
+A base de `Physical Resist` de armaduras e shields usa o multiplicador **1,50**. Equipamentos novos ou alterados dos tiers Invulnerability usam hue `2483`; itens salvos não são migrados.
+
 ## Cobertura
 
 - Chest, Legs, Arms, Head, Hands e Neck são regiões independentes.
@@ -31,5 +33,5 @@ O `Physical Resist` exibido na peça mostra sua proteção prática. Durabilidad
 
 Veja [Armor e Parrying](../combate/armor-parrying.md).
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Cada peça protege somente a região corporal em que está equipada.

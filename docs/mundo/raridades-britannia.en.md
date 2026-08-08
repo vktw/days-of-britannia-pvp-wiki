@@ -8,6 +8,8 @@ description: Discover the rare Phoenix, Fire Feathers, and Whispers of Britannia
 
 A rare Phoenix can appear every hour in one of Britannia's cemeteries. It is a special creature and cannot be tamed.
 
+The spawn avoids areas actively protected by guards. See [Cities and guards](cidades-guards.md) for confirmed Felucca exceptions.
+
 Carving its untouched corpse can award **Fire Feathers**. The bonus depends on Forensic Evaluation; a higher effective skill increases the chance of receiving a bonus over the normal yield.
 
 ## Whispers of Britannia
@@ -25,5 +27,5 @@ Payment can use gold from your backpack and then your account bank. A stale quot
 
 The goal is to provide a lead, not to replace exploring the world. Check the Town Crier and decide whether the next whisper is worth the price.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     A rare Phoenix and Town Criers offer two new ways to discover events in Britannia.

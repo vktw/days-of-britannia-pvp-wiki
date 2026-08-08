@@ -2,6 +2,8 @@
 
 Ao derrotar uma criatura elegível, participantes próximos com direito ao loot podem receber experiência de Maestria PvM. Gold, chance de Loot Pack e outras recompensas acompanham a resistência do encontro; a classe de Threat ajuda a comparar o risco, mas não garante um item específico.
 
+O gold PvM centralizado usa atualmente fator **1,9** em vez de 2,3. A alteração não muda as regras de XP, Loot Packs ou bônus de Newcomer.
+
 ## Loot Packs
 
 Um Loot Pack personalizado entrega um item de uma destas categorias:
@@ -31,5 +33,5 @@ Personagens com o benefício Young elegível recebem 25% adicionais de experiên
 
 Veja também [Maestria PvM](../sistemas/pvm-mastery.md) e [Threat Rating](../mundo/threat-rating.md).
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Criaturas elegíveis recompensam o grupo conforme a escala do encontro.

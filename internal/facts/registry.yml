@@ -1,18 +1,18 @@
 # High-risk gameplay fact inventory.
 # Live entries are approved by production presence; source refs are metadata only.
-# The 0.21.0 pass below confirms release identity and official patch-note deltas.
+# The 0.23.0 pass below confirms the current release identity and the affected official patch-note deltas.
 # Other entries retain their last deep-verification release until that audit is run.
 schema_version: 1
-registry_version: "0.21.0"
+registry_version: "0.23.0"
 source_policy: "live-server-is-final"
 entries:
   - id: live-version
-    claim: "The public manual identifies the current live ruleset as 0.21.0."
+    claim: "The public manual identifies the current live ruleset as 0.23.0."
     status: live
     source_status: approved
-    live_version: "0.21.0"
-    verification_date: "2026-08-06"
-    approved_source: "live-server/v0.21.0"
+    live_version: "0.23.0"
+    verification_date: "2026-08-08"
+    approved_source: "live-server/v0.23.0"
     public_reference: "docs/patches.md"
     canonical_pt: "docs/patches.md"
     english_counterpart: "docs/patches.en.md"
@@ -91,12 +91,12 @@ entries:
     owner: documentation-maintainer
     review_after: null
   - id: arena-facets
-    claim: "Moonglow and Yew Cemetery are the documented available Arenas."
+    claim: "Moonglow, Yew Cemetery, and Arena NuJel'm are the documented available Arenas; the PvP Trainer remains exclusive to Moonglow."
     status: live
     source_status: approved
-    live_version: "0.12.0"
-    verification_date: "2026-08-02"
-    approved_source: "live-server/v0.12.0"
+    live_version: "0.23.0"
+    verification_date: "2026-08-08"
+    approved_source: "live-server/v0.23.0"
     public_reference: "docs/arena.md"
     canonical_pt: "docs/arena.md"
     english_counterpart: "docs/arena.en.md"
@@ -118,9 +118,9 @@ entries:
     claim: "PvM Mastery uses XP, gold, discoveries, points, and up to five active Masteries as documented."
     status: live
     source_status: approved
-    live_version: "0.12.0"
-    verification_date: "2026-08-02"
-    approved_source: "live-server/v0.12.0"
+    live_version: "0.23.0"
+    verification_date: "2026-08-08"
+    approved_source: "live-server/v0.23.0"
     public_reference: "docs/sistemas/pvm-mastery.md"
     canonical_pt: "docs/sistemas/pvm-mastery.md"
     english_counterpart: "docs/sistemas/pvm-mastery.en.md"
@@ -142,25 +142,73 @@ entries:
     claim: "The public weapons page documents the classic competitive catalog and unavailable families."
     status: live
     source_status: approved
-    live_version: "0.12.0"
-    verification_date: "2026-08-02"
-    approved_source: "live-server/v0.12.0"
+    live_version: "0.23.0"
+    verification_date: "2026-08-08"
+    approved_source: "live-server/v0.23.0"
     public_reference: "docs/itens/armas.md"
     canonical_pt: "docs/itens/armas.md"
     english_counterpart: "docs/itens/armas.en.md"
     owner: items-maintainer
     review_after: null
   - id: ocllo-safe-haven
-    claim: "Ocllo is documented as the server Safe Haven with the listed protections."
-    status: live
+    claim: "Ocllo's former Safe Haven status is retired; the public manual now documents it as an unguarded Felucca city."
+    status: deprecated
     source_status: approved
-    live_version: "0.12.0"
-    verification_date: "2026-08-02"
-    approved_source: "live-server/v0.12.0"
+    live_version: "0.23.0"
+    verification_date: "2026-08-08"
+    approved_source: "live-server/v0.23.0"
     public_reference: "docs/mundo/ocllo.md"
     canonical_pt: "docs/mundo/ocllo.md"
     english_counterpart: "docs/mundo/ocllo.en.md"
     owner: world-maintainer
+    review_after: null
+  - id: nujelm-safe-haven
+    claim: "Nujelm is the official Felucca Safe Haven and the destination for death, Stuck, and recovery returns."
+    status: live
+    source_status: approved
+    live_version: "0.23.0"
+    verification_date: "2026-08-08"
+    approved_source: "live-server/v0.23.0"
+    public_reference: "docs/mundo/nujelm.md"
+    canonical_pt: "docs/mundo/nujelm.md"
+    english_counterpart: "docs/mundo/nujelm.en.md"
+    owner: world-maintainer
+    review_after: null
+  - id: achievements
+    claim: "The public Achievements page documents the sequential PvM introduction, activity catalogue, rewards, and .achievements command."
+    status: live
+    source_status: approved
+    live_version: "0.23.0"
+    verification_date: "2026-08-08"
+    approved_source: "live-server/v0.23.0"
+    public_reference: "docs/sistemas/achievements.md"
+    canonical_pt: "docs/sistemas/achievements.md"
+    english_counterpart: "docs/sistemas/achievements.en.md"
+    owner: pvm-maintainer
+    review_after: null
+  - id: combat-0220-rules
+    claim: "Live 0.23.0 applies the documented 0.22.0 combat changes: 1.50 Physical Resist baseline, player-only 12-tile Detect Hidden, one-second Harm with 5-7 PvP damage, town-legal spell casting, and Fire Field self-damage with 1.6-second repeat pulses."
+    status: live
+    source_status: approved
+    live_version: "0.23.0"
+    verification_date: "2026-08-08"
+    approved_source: "live-server/v0.23.0"
+    public_reference: "docs/combate/magery.md"
+    canonical_pt: "docs/combate/magery.md"
+    english_counterpart: "docs/combate/magery.en.md"
+    owner: pvp-maintainer
+    review_after: null
+  - id: bloody-bandages
+    claim: "Successful clean bandages can become Bloody Bandages, which can be washed as a stack at a water source and drop to the ground when capacity is unavailable."
+    status: live
+    source_status: approved
+    live_version: "0.23.0"
+    verification_date: "2026-08-08"
+    approved_source: "live-server/v0.23.0"
+    public_reference: "docs/itens/consumiveis.md"
+    canonical_pt: "docs/itens/consumiveis.md"
+    english_counterpart: "docs/itens/consumiveis.en.md"
+    owner: gameplay-maintainer
     review_after: null
   - id: daily-dungeon
     claim: "The Live Daily Dungeon provides the documented PvM Mastery and Loot Pack bonuses and is queried with .dailydungeon."
@@ -178,9 +226,9 @@ entries:
     claim: "The public invisibility page documents the impact and Detect Hidden timing rules."
     status: live
     source_status: approved
-    live_version: "0.12.0"
-    verification_date: "2026-08-02"
-    approved_source: "live-server/v0.12.0"
+    live_version: "0.23.0"
+    verification_date: "2026-08-08"
+    approved_source: "live-server/v0.23.0"
     public_reference: "docs/combate/invisibilidade.md"
     canonical_pt: "docs/combate/invisibilidade.md"
     english_counterpart: "docs/combate/invisibilidade.en.md"

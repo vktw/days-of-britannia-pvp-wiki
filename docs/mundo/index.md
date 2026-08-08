@@ -6,6 +6,8 @@ Felucca é a única faceta pública de Britannia. Trammel permanece reservada à
 
 - [Mapas e viagem](mapas-viagem.md): Felucca, Trammel, Recall, Mark, Gate Travel e Teleport.
 - [Cidades e guards](cidades-guards.md): regiões com exceções conhecidas de proteção.
+- [Nujelm Safe Haven](nujelm.md): proteção e retornos seguros em Felucca.
+- [Ocllo em Felucca](ocllo.md): cidade sem guards e sem as antigas restrições do Safe Haven.
 - [Threat Rating](threat-rating.md): como interpretar a classe e a cor exibidas nas criaturas.
 - [Consulta de Threat](threat-inventory.md): como avaliar uma criatura dentro do jogo.
 
@@ -13,5 +15,5 @@ Felucca é a única faceta pública de Britannia. Trammel permanece reservada à
 
 Britannia continua evoluindo entre atualizações. Vendors, criaturas, objetos e decorações podem mudar conforme o mundo recebe conteúdo novo ou manutenção.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Esta seção documenta as regras gerais de mapas e regiões do servidor oficial.

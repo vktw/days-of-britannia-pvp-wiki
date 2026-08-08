@@ -21,4 +21,4 @@ Days of Britannia's combat separates physical damage, magical damage and poison.
 - Body regions without effective armor receive 25% additional physical damage in PvP.
 - Magery uses immediate target, followed by the cast delay and the release of the effect.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"

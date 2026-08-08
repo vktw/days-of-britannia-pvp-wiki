@@ -13,13 +13,13 @@ Open your Paperdoll and main backpack. A new character receives a complete Spell
 
 See [Your first character](personagem-inicial.md) for the complete list of starting items.
 
-## 2. Understand Britain and Ocllo
+## 2. Understand Britain and Nujelm
 
-Britain is the starting location, but **Ocllo** is the server's Safe Haven. The island blocks conflict between players, stealing, and harmful actions by pets or summons.
+Britain is the starting location, but **Nujelm** is the server's Safe Haven. The defined region blocks player conflict, stealing, and harmful actions by pets or summons.
 
-Use Felucca's public moongate network to travel to Ocllo. Newcomer characters can gain skills on the island during the benefit; characters without the benefit gain no skills or stats from actions performed inside the Safe Haven.
+Use Felucca's public moongate network to travel to Nujelm. Newcomer characters can gain skills inside Safe Haven during the benefit; characters without the benefit gain no skills or stats from actions performed there.
 
-[Learn about Ocllo Safe Haven](../mundo/ocllo.md) before leaving for a hunt.
+[Learn about Nujelm Safe Haven](../mundo/nujelm.md) before leaving for a hunt. Ocllo remains an unguarded Felucca city, but it is no longer the shard's safe point.
 
 ## 3. Choose a first playstyle
 
@@ -54,7 +54,7 @@ Newcomer characters follow their own automatic return. Read [Newcomer and protec
 - `.skillcheck`: shows a check's value, chances, and result.
 - `.help`: shows help for the available commands.
 
-After this first setup, choose one small objective: discover a Mastery, test two weapons, visit Ocllo, or complete a training fight.
+After this first setup, choose one small objective: discover a Mastery, test two weapons, visit Nujelm or Ocllo, or complete a training fight.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     A short route for organizing your character and choosing a first goal.

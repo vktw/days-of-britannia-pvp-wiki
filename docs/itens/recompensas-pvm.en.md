@@ -2,6 +2,8 @@
 
 After defeating an eligible creature, nearby participants with looting rights may receive PvM Mastery experience. Gold, Loot Pack opportunities, and other rewards follow the encounter's resilience; the Threat class helps compare risk but does not guarantee a specific item.
 
+Centralized PvM gold now uses a **1.9** factor instead of 2.3. This change does not alter XP, Loot Pack, or Newcomer bonus rules.
+
 ## Loot Packs
 
 A custom Loot Pack delivers one item from one of these categories:
@@ -31,5 +33,5 @@ Characters with the eligible Young benefit receive 25% additional PvM Mastery ex
 
 See also [PvM Mastery](../sistemas/pvm-mastery.md) and [Threat Rating](../mundo/threat-rating.md).
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Eligible creatures reward the group according to the scale of the encounter.

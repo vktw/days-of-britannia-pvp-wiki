@@ -36,5 +36,5 @@ Armas de Archery não podem ser usadas com plate corporal. Plate Gorget e shield
 
 Veja [Armas clássicas](../itens/armas.md) e [Exemplos de dano](exemplos-dano.md).
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Regras práticas para escolher armas, distância e ritmo de ataque.

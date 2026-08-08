@@ -1723,6 +1723,8 @@ body:has(.dob-home) .md-main {
     margin-right: -1rem;
     margin-left: -1rem;
     padding: 2.4rem 1rem 2.2rem;
+    min-height: 0;
+    aspect-ratio: auto;
   }
 
   .dob-atlas-mark {

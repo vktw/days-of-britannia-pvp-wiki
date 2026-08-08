@@ -38,5 +38,5 @@ Human is the only permanent race available to players. Temporary spell transform
 
 When using Hiding, the character remains visible for 3 seconds of preparation. Movement, damage, attack, magic, speech, potion, bandage, revealing action, death, logout or map change interrupt the attempt. At the end, combat conditions are checked again before testing the skill.
 
-!!! success "Status: Live 0.21.0"
+!!! success "Status: Live 0.23.0"
     Stats, skills, caps and race correspond to the official server.
