@@ -25,6 +25,18 @@ terms:
     protected: true
     notes: "Use with a version, such as Live 0.10.2."
 
+  - id: dob-tools
+    pt_br: "DoB Tools"
+    en: "DoB Tools"
+    protected: true
+    notes: "Official Tinkering submenu name."
+
+  - id: dob-weapons
+    pt_br: "DoB Weapons"
+    en: "DoB Weapons"
+    protected: true
+    notes: "Official Bowcraft and Blacksmithy submenu name."
+
   - id: first-hour
     pt_br: "primeira hora"
     en: "first hour"

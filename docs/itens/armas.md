@@ -46,12 +46,28 @@ O catálogo clássico abaixo está disponível para jogadores e pode participar 
 
 ## Linhas temáticas do Live 0.19.0
 
-Armas comuns permanecem em Iron. As linhas de **DoB Weapons** separam armas de Bloodrock e Blackrock, e cannons deixam de ser produzidos em Blacksmithy.
+Armas comuns permanecem em **Iron**. Na Blacksmithy, o submenu **DoB Weapons** separa as linhas de Bloodrock e Blackrock; cannons deixam de ser produzidos nesse menu.
 
 - **Bloodrock:** Crimson Rite, Blood Vow, Vein Sever, Ritual Conduit, Sanguine Toll e Crimson Verdict.
 - **Blackrock:** Dusk Reaver, Nightfang, Gloom Sever, Umbral Conduit, Dark Toll e Midnight Verdict.
 
-As armas temáticas usam 30 ingots e exigem Blacksmithy entre 75 e 110.
+| Linha | Recurso | Custo | Blacksmithy | Bônus de dano |
+|---|---|---:|---:|---:|
+| **Bloodrock** | Bloodrock Ingots | 30 ingots | 75.0–110.0 | +3 nas duas extremidades da faixa de dano |
+| **Blackrock** | Blackrock Ingots | 30 ingots | 75.0–110.0 | +4 nas duas extremidades da faixa de dano |
+
+A chance de sucesso é 0% até 75.0, 50% em 92.5 e 100% em 110.0 ou mais, usando a Blacksmithy efetiva. Uma arma comum não troca para metal especial: as receitas comuns continuam exigindo Iron.
+
+## Bowcraft no Live 0.23.5
+
+Bowcraft passa a oferecer duas armas na categoria **DoB Weapons**. As receitas usam recursos diretos e os bônus abaixo são próprios de cada arma:
+
+| Arma | Recursos | Curva de Bowcraft | Efeito próprio |
+|---|---|---|---|
+| **Fire Bow** | 30 Fire Feathers e 30 Ash Logs | 75% em 100.0 | +6 de dano temático e impacto visual/sonoro de Fireball, sem projétil em movimento |
+| **Elven Bow** | 30 Heartwood Logs | 0% em 65.0 e 100% em 100.0 | Speed 3.00, dano base 7–12 e +10 de Tactics e +10 de Archery enquanto equipado |
+
+As Fire Feathers da Rare Phoenix funcionam na receita do Fire Bow. Armas produzidas pela Bowcraft deixam de receber bônus de combate derivados da madeira escolhida; o recurso continua identificando o item, enquanto os efeitos próprios de Fire Bow e Elven Bow permanecem.
 
 ## Kits oficiais
 
@@ -61,5 +77,5 @@ Nem toda arma existente no cliente circula para jogadores. O catálogo do shard 
 
 Veja [Melee e Archery](../combate/melee-archery.md) e [Poison](../combate/poison.md).
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     Escolha armas pelo papel no combate, não por uma planilha isolada de dano.

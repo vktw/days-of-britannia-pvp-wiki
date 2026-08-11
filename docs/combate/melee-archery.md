@@ -25,6 +25,13 @@ Em Archery, caminhar não perde o disparo preparado. A flecha é liberada quando
 
 Em PvP, atingir uma região sem armor efetiva concede **25% de dano adicional**. Protection é aplicada depois. Consulte [Armor e Parrying](armor-parrying.md).
 
+## Arcos da Bowcraft no Live 0.23.5
+
+- **Fire Bow:** recebe +6 de dano temático e mostra apenas o impacto de Fireball no alvo.
+- **Elven Bow:** usa Speed 3.00, dano base 7–12 e concede +10 de Tactics e +10 de Archery enquanto equipado; ao desequipar, as skills retornam ao valor normal.
+
+Veja os recursos e as curvas de craft em [Armas clássicas](../itens/armas.md).
+
 ## Escolha prática
 
 - Uma mão permite usar shield e favorece defesa.
@@ -36,5 +43,5 @@ Armas de Archery não podem ser usadas com plate corporal. Plate Gorget e shield
 
 Veja [Armas clássicas](../itens/armas.md) e [Exemplos de dano](exemplos-dano.md).
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     Regras práticas para escolher armas, distância e ritmo de ataque.

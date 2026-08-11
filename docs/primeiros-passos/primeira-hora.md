@@ -1,6 +1,6 @@
 # Sua primeira hora em Britannia
 
-Você começa próximo ao **banco de Britain**, no mapa Felucca. Não é necessário fazer tudo de uma vez: primeiro organize seus recursos, conheça as áreas seguras e escolha se quer explorar PvM, preparar PvP ou desenvolver outras skills.
+Você começa próximo ao **banco de Britain**, no mapa Felucca. Não é necessário fazer tudo de uma vez: primeiro organize seus recursos, siga a trilha inicial de Achievements e depois escolha se quer explorar PvM, preparar PvP ou desenvolver outras skills.
 
 ## 1. Conheça sua mochila
 
@@ -15,13 +15,23 @@ Consulte [Seu primeiro personagem](personagem-inicial.md) para a lista completa 
 
 ## 2. Entenda Britain e Nujelm
 
-Britain é o local inicial, mas **Nujelm** é o Safe Haven do servidor. A região definida bloqueia conflito entre jogadores, stealing e ações nocivas de pets ou summons.
+Britain é o local inicial, mas **Nujelm** é o Safe Haven do servidor. A região definida bloqueia conflito entre jogadores, stealing, ações nocivas de pets ou summons, viagens mágicas, Fields e dano recebido.
 
-Use a rede pública de moongates de Felucca para viajar até Nujelm. Personagens Newcomer podem ganhar skills dentro do Safe Haven durante o benefício; personagens sem o benefício não recebem ganhos de skill ou stats por ações feitas ali.
+Use a rede pública de moongates de Felucca para viajar até Nujelm. No Live 0.23.5, nenhum personagem recebe ganho de skill dentro do Safe Haven, inclusive Newcomers.
 
 [Conheça Nujelm Safe Haven](../mundo/nujelm.md) antes de sair para uma caçada. Ocllo continua sendo uma cidade de Felucca sem guards, mas não é mais o ponto seguro do shard.
 
-## 3. Escolha um primeiro estilo
+## 3. Siga as Achievements iniciais
+
+Antes de investir em uma build, abra `.achievements` e siga a trilha recomendada pelo jogo. As três primeiras etapas são sequenciais:
+
+- **First Hunt:** derrote 10 criaturas Undead.
+- **Troll Hunter:** depois da primeira etapa, derrote 10 criaturas Humanoid.
+- **Scaled Hunter:** depois da segunda, derrote 10 criaturas Reptilian.
+
+As dicas apontam para Britain Cemetery, Despise Trolls e Despise Lizardmen, mas outros locais elegíveis também contam. Cada etapa entrega XP de Maestria PvM, gold e um Scroll of Knowledge. Veja [Achievements](../sistemas/achievements.md) para as recompensas e o catálogo completo.
+
+## 4. Escolha um primeiro estilo
 
 - **Melee:** escolha Swords, Fencing ou Mace Fighting e compare armas de uma ou duas mãos.
 - **Archer:** leve Bow e arrows; permaneça parado por um breve momento para liberar o disparo.
@@ -32,7 +42,7 @@ Use a rede pública de moongates de Felucca para viajar até Nujelm. Personagens
 
 Veja o [catálogo de armas](../itens/armas.md), as [regras de combate](../combate/index.md) e a [Maestria PvM](../sistemas/pvm-mastery.md) antes de investir no estilo escolhido.
 
-## 4. Faça a primeira caçada
+## 5. Faça a primeira caçada
 
 Fora do Safe Haven, procure uma criatura compatível com seu equipamento e observe seu **Threat Rating**. Trivial e Common são referências melhores para começar do que enfrentar criaturas de classes altas sem preparação.
 
@@ -40,13 +50,13 @@ Ao participar de uma morte PvM elegível com direito ao loot e próximo do encon
 
 Se descobrir uma Maestria, abra o Hunter's Compendium para entender seu efeito, distribuir pontos disponíveis e decidir se ela entra na build ativa.
 
-## 5. Prepare-se para morrer e retornar
+## 6. Prepare-se para morrer e retornar
 
 Mortes fora da Arena usam o sistema de [Morte e recuperação](morte-recuperacao.md). O personagem pode voltar imediatamente sem recuperar o que ficou no corpo, esperar pela recuperação dos pertences ou aguardar ajuda.
 
 Personagens Newcomer seguem o retorno automático próprio. Leia [Newcomer e proteção](newcomer.md) antes de sair de uma área segura.
 
-## 6. Comandos úteis
+## 7. Comandos úteis
 
 - `.patchnotes`: mostra a versão e as mudanças atuais.
 - `.arena`: abre desafios contra jogadores ou treinamento com o PvP Trainer.
@@ -54,7 +64,7 @@ Personagens Newcomer seguem o retorno automático próprio. Leia [Newcomer e pro
 - `.skillcheck`: mostra o valor, as chances e o resultado de um teste.
 - `.help`: mostra a ajuda dos comandos disponíveis.
 
-Depois dessa primeira organização, escolha um objetivo pequeno: descobrir uma Maestria, testar duas armas, conhecer Nujelm ou Ocllo, ou completar uma luta de treino.
+Depois de avançar na trilha inicial, escolha um objetivo pequeno: descobrir uma Maestria, testar duas armas, conhecer Nujelm ou Ocllo, ou completar uma luta de treino.
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     Um roteiro curto para organizar o personagem e escolher o primeiro objetivo.

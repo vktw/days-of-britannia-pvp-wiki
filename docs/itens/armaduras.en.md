@@ -6,6 +6,21 @@ The crafting catalog includes **Iron, Bronze, Shadow, Silver, Gold, Bloodrock, B
 
 The modern Enhance system no longer defines the material. Magical PvM equipment remains Iron.
 
+## Metals and Chain pieces
+
+Blacksmithy lets you choose **Iron, Bronze, Shadow, Silver, Gold, Bloodrock, Blackrock, Mythril, or Brittanium**. The selected metal keeps the recipe cost and adds 0 to 8 points of `Physical Resist` according to its tier. Low, Normal, and Exceptional quality change durability but not final physical protection.
+
+The main **Chain** pieces use these costs and native Blacksmithy ranges:
+
+| Piece | Cost | Blacksmithy |
+|---|---:|---:|
+| **Chain Coif** | 10 ingots | 14.5–64.5 |
+| **Chain Legs** | 18 ingots | 36.7–86.7 |
+| **Chain Chest** | 20 ingots | 39.1–89.1 |
+| **Chain Hatsuburi** | 20 ingots | 30.0–80.0 |
+
+These remain classic armor pieces; they are not part of Blacksmithy's thematic **DoB Weapons** lines.
+
 ## Qualities
 
 Defensive qualities follow this order:
@@ -33,5 +48,5 @@ The `Physical Resist` baseline for armor and shields uses the **1.60** multiplie
 
 See [Armor and Parrying](../combate/armor-parrying.md).
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     Each piece protects only the body region where it is equipped.

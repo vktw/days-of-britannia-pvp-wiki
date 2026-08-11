@@ -39,5 +39,5 @@ Detect Hidden starts a targetless search in a fixed **12-tile** area. Wait **2 s
 
 The invisibility rules apply to players, creatures, and the PvP Trainer when the corresponding action is used. The active Detect Hidden search reveals only other living hidden players.
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     Invisibility is evaluated at the real impact of attacks and spells.

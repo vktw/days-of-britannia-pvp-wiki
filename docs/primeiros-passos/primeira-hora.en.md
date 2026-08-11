@@ -1,6 +1,6 @@
 # Your first hour in Britannia
 
-You begin near the **Britain bank** on the Felucca map. You do not need to do everything at once: first organize your resources, learn where the safe areas are, and choose whether you want to explore PvM, prepare for PvP, or develop other skills.
+You begin near the **Britain bank** on the Felucca map. You do not need to do everything at once: first organize your resources, follow the introductory Achievements path, and then choose whether you want to explore PvM, prepare for PvP, or develop other skills.
 
 ## 1. Get to know your backpack
 
@@ -15,13 +15,23 @@ See [Your first character](personagem-inicial.md) for the complete list of start
 
 ## 2. Understand Britain and Nujelm
 
-Britain is the starting location, but **Nujelm** is the server's Safe Haven. The defined region blocks player conflict, stealing, and harmful actions by pets or summons.
+Britain is the starting location, but **Nujelm** is the server's Safe Haven. The defined region blocks player conflict, stealing, harmful actions by pets or summons, magical travel, Fields, and received damage.
 
-Use Felucca's public moongate network to travel to Nujelm. Newcomer characters can gain skills inside Safe Haven during the benefit; characters without the benefit gain no skills or stats from actions performed there.
+Use Felucca's public moongate network to travel to Nujelm. In Live 0.23.5, no character gains skills inside Safe Haven, including Newcomers.
 
 [Learn about Nujelm Safe Haven](../mundo/nujelm.md) before leaving for a hunt. Ocllo remains an unguarded Felucca city, but it is no longer the shard's safe point.
 
-## 3. Choose a first playstyle
+## 3. Follow the introductory Achievements
+
+Before investing in a build, open `.achievements` and follow the path introduced by the game. The first three stages are sequential:
+
+- **First Hunt:** defeat 10 Undead creatures.
+- **Troll Hunter:** after the first stage, defeat 10 Humanoid creatures.
+- **Scaled Hunter:** after the second stage, defeat 10 Reptilian creatures.
+
+The hints point to Britain Cemetery, Despise Trolls, and Despise Lizardmen, but other eligible locations also count. Each stage grants PvM Mastery XP, gold, and a Scroll of Knowledge. See [Achievements](../sistemas/achievements.md) for rewards and the complete catalogue.
+
+## 4. Choose a first playstyle
 
 - **Melee:** choose Swords, Fencing, or Mace Fighting and compare one- and two-handed weapons.
 - **Archer:** carry a Bow and arrows; remain still briefly to release the shot.
@@ -32,7 +42,7 @@ Use Felucca's public moongate network to travel to Nujelm. Newcomer characters c
 
 See the [weapon catalog](../itens/armas.md), [combat rules](../combate/index.md), and [PvM Mastery](../sistemas/pvm-mastery.md) before investing in your chosen style.
 
-## 4. Take your first hunt
+## 5. Take your first hunt
 
 Outside the Safe Haven, look for a creature suited to your equipment and observe its **Threat Rating**. Trivial and Common are better starting references than facing high-class creatures without preparation.
 
@@ -40,13 +50,13 @@ When you participate in an eligible PvM kill with looting rights and remain near
 
 If you discover a Mastery, open the Hunter's Compendium to understand its effect, distribute available points, and decide whether it belongs in the active build.
 
-## 5. Prepare to die and return
+## 6. Prepare to die and return
 
 Deaths outside the Arena use the [Death and recovery](morte-recuperacao.md) system. The character may return immediately without recovering what remained on the corpse, wait for belongings to be recovered, or wait for help.
 
 Newcomer characters follow their own automatic return. Read [Newcomer and protection](newcomer.md) before leaving a safe area.
 
-## 6. Useful commands
+## 7. Useful commands
 
 - `.patchnotes`: shows the current version and changes.
 - `.arena`: opens challenges against players or training with the PvP Trainer.
@@ -54,7 +64,7 @@ Newcomer characters follow their own automatic return. Read [Newcomer and protec
 - `.skillcheck`: shows a check's value, chances, and result.
 - `.help`: shows help for the available commands.
 
-After this first setup, choose one small objective: discover a Mastery, test two weapons, visit Nujelm or Ocllo, or complete a training fight.
+After advancing through the introductory path, choose one small objective: discover a Mastery, test two weapons, visit Nujelm or Ocllo, or complete a training fight.
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     A short route for organizing your character and choosing a first goal.

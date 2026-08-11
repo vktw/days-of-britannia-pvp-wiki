@@ -32,5 +32,5 @@ The Ultima Store is disabled for the Sphere 51a ruleset. Purchases, deliveries, 
 
 Shows the selected Daily Dungeon and the time remaining until the next rotation. Use it before heading out to take advantage of the PvM Mastery experience and Loot Pack bonuses.
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     The commands below are available to players on the official server.

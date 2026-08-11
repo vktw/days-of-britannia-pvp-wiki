@@ -30,5 +30,5 @@ Quando o bloqueio acontece:
 
 Veja [Exemplos de dano](exemplos-dano.md).
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     Armor protege a região atingida; shield pode substituir completamente essa etapa.

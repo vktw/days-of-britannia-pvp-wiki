@@ -14,7 +14,7 @@ hide:
         BAIXAR DOB LAUNCHER <span aria-hidden="true">↓</span>
       </a>
       <a class="dob-atlas-codex-action dob-atlas-codex-action--secondary" href="patches/">
-        LER PATCH 0.23.3 <span aria-hidden="true">→</span>
+        LER PATCH 0.23.5 <span aria-hidden="true">→</span>
       </a>
     </div>
     <div class="dob-atlas-mark" aria-hidden="true" hidden>
@@ -78,8 +78,8 @@ hide:
 <section class="dob-atlas-update" aria-labelledby="dob-release-title">
   <div>
     <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
-    <h2 id="dob-release-title">0.23.3 · Hiding, Stealth, coleta e PvM</h2>
+    <h2 id="dob-release-title">0.23.5 · Bowcraft, joias e PvM</h2>
   </div>
-  <p>Hiding e Stealth compartilham a ocultação, a coleta 5x5 recebe ajustes e o PvM ganha novas regras de dano e revelação.</p>
+  <p>Bowcraft, joias de Maestria, Ruptura Arcana, Safe Haven de Nujelm e eventos raros chegam ao Live nesta atualização.</p>
   <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

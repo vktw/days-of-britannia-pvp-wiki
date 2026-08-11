@@ -17,5 +17,5 @@ Em PvP, a magia Poison não perde potência pela distância e 100.0 Magery aplic
 
 Darkglow, Parasitic e Lethal permanecem fora do ruleset.
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     Poison pressiona a cura e força o adversário a reagir.

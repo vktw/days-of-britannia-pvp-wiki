@@ -18,5 +18,5 @@ Teleport permanece disponível dentro da faceta atual, fora das restrições esp
 
 Administradores podem ignorar essas limitações para manutenção.
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     Regras verificadas para jogadores no servidor oficial.

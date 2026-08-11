@@ -23,5 +23,5 @@ Alchemy remains relevant to the success of the craft, but does not change the po
 
 Controlled pets and player-owned summons cannot attack or damage other players. This restriction does not prevent their normal use in PvM and is independent of pet bonding, which remains disabled.
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     The blocks below are part of the official ruleset.

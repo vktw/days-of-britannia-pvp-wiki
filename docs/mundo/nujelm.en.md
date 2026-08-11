@@ -7,8 +7,11 @@ recovery returns.
 ## Safe Haven protection
 
 - Player conflict, stealing, and harmful actions by pets or summons are blocked inside the Safe Haven region.
-- Normal characters do not receive skill or stat gains from actions performed inside Safe Haven.
-- Newcomers are the exception: during the benefit, they can gain skills there with their own bonus.
+- Players and controlled creatures do not receive skill gains from actions performed inside Safe Haven, including Newcomers.
+- Fields, Recall, Mark, Gate Travel, and Teleport are blocked inside the Safe Haven region.
+- Players and controlled creatures do not receive damage inside the Safe Haven region.
+
+In Live 0.23.5, these three rules apply inside Safe Haven. The Newcomer experience and gold bonus for eligible encounters still exists outside this restriction; it does not enable skill gain inside Safe Haven.
 
 Safe Haven does not turn the entire city into a risk-free area outside the defined region. Check the region indication before starting an activity.
 
@@ -18,5 +21,5 @@ Deaths outside the Arena, the Stuck option, and recovery flows use Nujelm as the
 
 [Arena NuJel'm](../arena.md) is in Felucca and uses the same player-duel rules as Yew Arena. The Arena region takes precedence where the two regions overlap.
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     Nujelm is the official Safe Haven and central safe-return point in Felucca.

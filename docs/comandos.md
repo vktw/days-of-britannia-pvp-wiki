@@ -32,5 +32,5 @@ A Ultima Store está desativada no ruleset Sphere 51a. Não há compras, entrega
 
 Mostra qual Daily Dungeon está selecionada e quanto tempo falta para a próxima rotação. Use o comando antes de sair para aproveitar os bônus de experiência de Maestria PvM e Loot Packs.
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     Os comandos abaixo estão disponíveis aos jogadores no servidor oficial.

@@ -23,7 +23,11 @@
 - Stuck return to Nujelm under the system's conditions.
 - Auto-account with up to 10 accounts per IP and up to two simultaneous external connections via the same address.
 
+## Live 0.23.5 additions
+
+- **Arcane Disruption:** a new PvM Mastery that may make an eligible wild creature fizzle during a cast when positive direct player damage lands.
+
 See specific pages for limits and exceptions. Presence on this list does not mean that the mechanics maintain TrueUO's default behavior.
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     Summary list of core mechanics available to players.

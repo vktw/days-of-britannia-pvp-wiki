@@ -14,7 +14,7 @@ hide:
 DOWNLOAD DOB LAUNCHER <span aria-hidden="true">↓</span>
 </a>
 <a class="dob-atlas-codex-action dob-atlas-codex-action--secondary" href="patches/">
-READ PATCH 0.23.3 <span aria-hidden="true">→</span>
+READ PATCH 0.23.5 <span aria-hidden="true">→</span>
 </a>
 </div>
 <div class="dob-atlas-mark" aria-hidden="true" hidden>
@@ -78,8 +78,8 @@ READ PATCH 0.23.3 <span aria-hidden="true">→</span>
 <section class="dob-atlas-update" aria-labelledby="dob-release-title">
 <div>
 <p class="dob-atlas-kicker">LATEST UPDATE</p>
-<h2 id="dob-release-title">0.23.3 · Hiding, Stealth, gathering, and PvM</h2>
+<h2 id="dob-release-title">0.23.5 · Bowcraft, jewelry, and PvM</h2>
 </div>
-<p>Hiding and Stealth share concealment, 5x5 gathering receives refinements, and PvM gains new damage and reveal rules.</p>
+<p>Bowcraft, Mastery jewelry, Arcane Disruption, Nujelm Safe Haven, and rare events arrive in Live in this update.</p>
 <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

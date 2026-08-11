@@ -2,9 +2,28 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.23.5 · Bowcraft, joias, Maestria PvM e mundo
+
+- Fire Feathers obtidas ao esculpir uma Rare Phoenix passam a poder ser usadas para fabricar o Fire Bow.
+- Fire Bow e Elven Bow entram na categoria **DoB Weapons** da Bowcraft, com materiais, efeitos e bônus próprios.
+- A curva de sucesso do Fire Bow atinge 75% em Bowcraft 100.0.
+- O Fire Bow mostra somente a animação e o som do impacto do Fireball no alvo, sem projétil de fogo em movimento.
+- Armas fabricadas na Bowcraft deixam de receber bônus de combate derivados do tipo de madeira; a identidade do recurso e os bônus próprios do Fire Bow e Elven Bow permanecem.
+- A nova Maestria PvM **Ruptura Arcana** pode fazer uma criatura selvagem falhar ao conjurar quando dano direto positivo do jogador acerta durante a conjuração.
+- Tinkering passa a oferecer Magic Earrings, Magic Ring e Magic Bracelet com os bônus das joias da Arena; novas joias de Loot Pack podem receber bônus de Maestria PvM.
+- Joias de Loot Pack recebem bônus de Maestria entre +1,00% e +5,00%, em incrementos de 0,25%; ao equipá-las, a Maestria correspondente fica ativa temporariamente e aparece no Compendium.
+- Rare Events podem gerar Desert Ostard, Forest Ostard e Frenzied Ostard em pontos fixos, e Town Criers podem compartilhar esses rumores por Whispers of Britannia.
+- O gump de Whispers of Britannia fica mais largo e oferece mais espaço para os rumores.
+- As Patch Notes em português passam a usar a acentuação correta.
+- O Nujelm Safe Haven bloqueia Fields, Recall, Mark, Gate Travel e Teleport, além de ganho de skill e dano recebido, fora das regras próprias da Arena NuJelm; a restrição de skill também vale para Newcomers.
+- A área `A Turnip Field in Britain 2`, em Felucca, deixa de ser guardada; o campo equivalente de Trammel permanece inalterado.
+- Felucca recebe o visual sazonal Spring, sem mudança de geometria, recursos ou colisão do mapa.
+- Elven Bow equipado aplica uma única vez +10 de Tactics e +10 de Archery, inclusive acima do cap comum; ao desequipar, ambas retornam ao valor normal.
+
 ## 0.23.3 · Hiding/Stealth, coleta e PvM
 
 - Hiding e Stealth passam a compartilhar a ocultação: caminhar consome um limite combinado de até 25 passos, esgotar o limite revela o personagem e correr revela imediatamente.
+- Entrar em Hidden por Hiding ou Stealth inicializa corretamente o limite do primeiro movimento escondido.
 - Stealth deixa de ser bloqueado ou penalizado pela armadura ao iniciar ou renovar o movimento escondido.
 - A coleta em área 5x5 é finalizada corretamente para Mining, Lumberjacking e Fishing, reconhece Fishing Poles equipadas ou na mochila e repete o banco atual após falha de skillcheck enquanto houver estoque.
 - Fishing Poles exibem os usos restantes, começam com 50 usos, quebram ao chegar a zero e podem ser equipadas e usadas com dois cliques.

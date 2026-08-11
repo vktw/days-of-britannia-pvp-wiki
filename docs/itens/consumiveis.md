@@ -1,4 +1,4 @@
-# Consumíveis e utilidades
+# Consumíveis, ferramentas e utilidades
 
 ## Potions
 
@@ -22,11 +22,26 @@ consome uso.
 Provisioners vendem Hatchet, Pickaxe, Shovel e Fishing Pole básicos. Tinkers
 vendem Hatchet, Pickaxe e Shovel, enquanto Carpenters vendem Fishing Pole.
 
+## DoB Tools no Live 0.23.5
+
+A Tinkering organiza as ferramentas especiais no submenu **DoB Tools**. Cada família usa um metal público, tem sua própria exigência de Tinkering e aparece somente para as ferramentas compatíveis.
+
+| Família | Recurso | Tinkering mínimo | Custo | Efeito principal |
+|---|---|---:|---:|---|
+| **Light** | Bronze Ingots | 65.0 | 100 ingots | Ferramenta mais leve |
+| **Hardened** | Shadow Ingots | 67.0 | 100 ingots | Duplica os usos da ferramenta |
+| **Tempered** | Silver Ingots | 60.0 | 100 ingots | Ferramenta mais leve e com o dobro de usos |
+| **Artisan** | Gold Ingots | 70.0 | 50 ingots | +10% de chance de Exceptional em crafts aplicáveis |
+| **Reliable** | Bloodrock Ingots | 80.0 | 50 ingots | +10% de chance de sucesso; em coleta, afeta somente a rolagem final |
+| **Refined** | Blackrock Ingots | 90.0 | 50 ingots | Combina +10% de sucesso e +10% de Exceptional |
+
+Os bônus de chance vêm da ferramenta ativa e não do item que está sendo produzido. O bônus de Exceptional não se aplica à coleta; Pickaxe, Shovel e Hatchet Reliable alteram somente o sucesso final de Mining ou Lumberjacking. Nem todo tipo de ferramenta aparece em todas as seis famílias.
+
 ## Livros e montarias
 
 Novos personagens recebem Spellbook completo, Runebook vazio e cavalo shrinkado. Spellbooks e Runebooks são preservados quando o restante do inventário é guardado para uma luta de arena.
 
 Veja [Cura e recursos](../combate/cura-recursos.md) para todas as faixas e delays.
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     Quantidades de kits e efeitos detalhados correspondem ao servidor oficial.

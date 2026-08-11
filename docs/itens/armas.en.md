@@ -46,12 +46,28 @@ The classic catalog below is available to players and may appear in the Loot Pac
 
 ## Live 0.19.0 thematic lines
 
-Ordinary weapons remain Iron. **DoB Weapons** separate Bloodrock and Blackrock weapons, and cannons are no longer made through Blacksmithy.
+Ordinary weapons remain **Iron**. In Blacksmithy, the **DoB Weapons** submenu separates the Bloodrock and Blackrock lines; cannons are no longer made there.
 
 - **Bloodrock:** Crimson Rite, Blood Vow, Vein Sever, Ritual Conduit, Sanguine Toll, and Crimson Verdict.
 - **Blackrock:** Dusk Reaver, Nightfang, Gloom Sever, Umbral Conduit, Dark Toll, and Midnight Verdict.
 
-The thematic weapons use 30 ingots and require 75–110 Blacksmithy.
+| Line | Resource | Cost | Blacksmithy | Damage bonus |
+|---|---|---:|---:|---:|
+| **Bloodrock** | Bloodrock Ingots | 30 ingots | 75.0–110.0 | +3 at both ends of the damage range |
+| **Blackrock** | Blackrock Ingots | 30 ingots | 75.0–110.0 | +4 at both ends of the damage range |
+
+Success is 0% through 75.0, 50% at 92.5, and 100% at 110.0 or higher, using effective Blacksmithy. An ordinary weapon does not switch to a special metal: ordinary recipes still require Iron.
+
+## Bowcraft in Live 0.23.5
+
+Bowcraft now offers two weapons in the **DoB Weapons** category. The recipes use direct resources, and the bonuses below belong to each weapon:
+
+| Weapon | Resources | Bowcraft curve | Intrinsic effect |
+|---|---|---|---|
+| **Fire Bow** | 30 Fire Feathers and 30 Ash Logs | 75% at 100.0 | +6 thematic damage and Fireball impact animation/sound, without a moving projectile |
+| **Elven Bow** | 30 Heartwood Logs | 0% at 65.0 and 100% at 100.0 | Speed 3.00, 7–12 base damage, and +10 Tactics and +10 Archery while equipped |
+
+Fire Feathers from a Rare Phoenix work in the Fire Bow recipe. Weapons made through Bowcraft no longer receive combat bonuses derived from the selected wood; the resource still identifies the item, while Fire Bow and Elven Bow keep their intrinsic effects.
 
 ## Official kits
 
@@ -61,5 +77,5 @@ Not every weapon present in the client circulates among players. The shard catal
 
 See [Melee and Archery](../combate/melee-archery.md) and [Poison](../combate/poison.md).
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     Choose weapons by their combat role, not by an isolated damage spreadsheet.

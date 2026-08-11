@@ -1,18 +1,18 @@
 # High-risk gameplay fact inventory.
 # Live entries are approved by production presence; source refs are metadata only.
-# The 0.23.3 pass below confirms the current release identity and the affected official patch-note deltas.
+# The 0.23.5 pass below confirms the current release identity and the affected official patch-note deltas.
 # Other entries retain their last deep-verification release until that audit is run.
 schema_version: 1
-registry_version: "0.23.3"
+registry_version: "0.23.5"
 source_policy: "live-server-is-final"
 entries:
   - id: live-version
-    claim: "The public manual identifies the current live ruleset as 0.23.3."
+    claim: "The public manual identifies the current live ruleset as 0.23.5."
     status: live
     source_status: approved
-    live_version: "0.23.3"
-    verification_date: "2026-08-10"
-    approved_source: "live-server/v0.23.3"
+    live_version: "0.23.5"
+    verification_date: "2026-08-11"
+    approved_source: "live-server/v0.23.5"
     public_reference: "docs/patches.md"
     canonical_pt: "docs/patches.md"
     english_counterpart: "docs/patches.en.md"
@@ -313,6 +313,102 @@ entries:
     live_version: "0.23.3"
     verification_date: "2026-08-10"
     approved_source: "live-server/v0.23.3"
+    public_reference: "docs/itens/armaduras.md"
+    canonical_pt: "docs/itens/armaduras.md"
+    english_counterpart: "docs/itens/armaduras.en.md"
+    owner: items-maintainer
+    review_after: null
+  - id: patch-0-23-5-local-preview
+    claim: "The public manual documents the player-facing 0.23.5 patch scope now active in production."
+    status: live
+    source_status: approved
+    live_version: "0.23.5"
+    verification_date: "2026-08-11"
+    approved_source: "live-server/v0.23.5"
+    public_reference: "docs/patches.md"
+    canonical_pt: "docs/patches.md"
+    english_counterpart: "docs/patches.en.md"
+    owner: server-owner
+    review_after: null
+  - id: bowcraft-0235-local-preview
+    claim: "Live 0.23.5 documents Fire Bow and Elven Bow, their Bowcraft materials and success information, Elven Bow's equipped skill bonuses, Fire Feather compatibility, Fire Bow impact presentation, and the Bowcraft material-bonus policy."
+    status: live
+    source_status: approved
+    live_version: "0.23.5"
+    verification_date: "2026-08-11"
+    approved_source: "live-server/v0.23.5"
+    public_reference: "docs/itens/armas.md"
+    canonical_pt: "docs/itens/armas.md"
+    english_counterpart: "docs/itens/armas.en.md"
+    owner: items-maintainer
+    review_after: null
+  - id: pvm-jewelry-0235-local-preview
+    claim: "Live 0.23.5 documents Arcane Disruption and the three DoB Magic Jewelry pieces, fixed Arena stat bonuses, and temporary PvM Mastery bonuses on new Loot Pack jewelry."
+    status: live
+    source_status: approved
+    live_version: "0.23.5"
+    verification_date: "2026-08-11"
+    approved_source: "live-server/v0.23.5"
+    public_reference: "docs/sistemas/pvm-mastery.md"
+    canonical_pt: "docs/sistemas/pvm-mastery.md"
+    english_counterpart: "docs/sistemas/pvm-mastery.en.md"
+    owner: pvm-maintainer
+    review_after: null
+  - id: nujelm-safe-haven-0235-local-preview
+    claim: "Live 0.23.5 documents Nujelm Safe Haven field and travel blocks, no skill gain or received damage for players and controlled creatures including Newcomers, and Arena NuJelm precedence."
+    status: live
+    source_status: approved
+    live_version: "0.23.5"
+    verification_date: "2026-08-11"
+    approved_source: "live-server/v0.23.5"
+    public_reference: "docs/mundo/nujelm.md"
+    canonical_pt: "docs/mundo/nujelm.md"
+    english_counterpart: "docs/mundo/nujelm.en.md"
+    owner: world-maintainer
+    review_after: null
+  - id: rare-world-0235-local-preview
+    claim: "Live 0.23.5 documents Desert Ostard, Forest Ostard, Frenzied Ostard, Rare Rideable Llama discovery through Whispers of Britannia, expanded rumor presentation, the Felucca Spring visual, and the unguarded Felucca Britain turnip field while preserving the Trammel equivalent."
+    status: live
+    source_status: approved
+    live_version: "0.23.5"
+    verification_date: "2026-08-11"
+    approved_source: "live-server/v0.23.5"
+    public_reference: "docs/mundo/raridades-britannia.md"
+    canonical_pt: "docs/mundo/raridades-britannia.md"
+    english_counterpart: "docs/mundo/raridades-britannia.en.md"
+    owner: world-maintainer
+    review_after: null
+  - id: dob-tools-0160-live
+    claim: "Live 0.23.5 exposes the six DoB Tools families with their public ingot resources, Tinkering minimums, weight/use behavior, and applicable success or Exceptional bonuses."
+    status: live
+    source_status: approved
+    live_version: "0.23.5"
+    verification_date: "2026-08-11"
+    approved_source: "live-server/v0.23.5"
+    public_reference: "docs/itens/consumiveis.md"
+    canonical_pt: "docs/itens/consumiveis.md"
+    english_counterpart: "docs/itens/consumiveis.en.md"
+    owner: items-maintainer
+    review_after: null
+  - id: dob-blacksmith-weapons-0190-live
+    claim: "Live 0.23.5 documents Blacksmithy's DoB Weapons Bloodrock and Blackrock lines, their six weapon names, 30-ingot recipes, effective Blacksmithy curve, and intrinsic damage bonuses while keeping ordinary weapons in Iron."
+    status: live
+    source_status: approved
+    live_version: "0.23.5"
+    verification_date: "2026-08-11"
+    approved_source: "live-server/v0.23.5"
+    public_reference: "docs/itens/armas.md"
+    canonical_pt: "docs/itens/armas.md"
+    english_counterpart: "docs/itens/armas.en.md"
+    owner: items-maintainer
+    review_after: null
+  - id: chain-armor-metals-0130-live
+    claim: "Live 0.23.5 documents the public armor metals, their Physical Resist tier behavior, and the ingot costs and native Blacksmithy ranges for the main Chain pieces."
+    status: live
+    source_status: approved
+    live_version: "0.23.5"
+    verification_date: "2026-08-11"
+    approved_source: "live-server/v0.23.5"
     public_reference: "docs/itens/armaduras.md"
     canonical_pt: "docs/itens/armaduras.md"
     english_counterpart: "docs/itens/armaduras.en.md"

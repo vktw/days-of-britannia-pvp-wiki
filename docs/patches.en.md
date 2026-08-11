@@ -2,9 +2,28 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.23.5 · Bowcraft, jewelry, PvM Mastery, and world
+
+- Fire Feathers carved from a Rare Phoenix can now be used to craft the Fire Bow.
+- Fire Bow and Elven Bow enter Bowcraft's **DoB Weapons** category with dedicated materials, effects, and bonuses.
+- Fire Bow's success curve reaches 75% at 100.0 Bowcraft.
+- Fire Bow shows only Fireball's impact animation and sound on the target, without a moving fire projectile.
+- Weapons crafted through Bowcraft no longer receive combat bonuses derived from the selected wood material; resource identity and the intrinsic Fire Bow and Elven Bow bonuses remain unchanged.
+- The new PvM **Arcane Disruption** Mastery can make an eligible wild creature fizzle when positive direct player damage lands during its cast.
+- Tinkering now offers Magic Earrings, Magic Ring, and Magic Bracelet with the Arena jewelry bonuses; new Loot Pack jewelry can receive a PvM Mastery bonus.
+- Loot Pack jewelry rolls a +1.00% to +5.00% Mastery bonus in 0.25% increments; equipping it temporarily activates the matching Mastery and shows the bonus in the Compendium.
+- Rare Events can produce Desert Ostard, Forest Ostard, and Frenzied Ostard at fixed locations, and Town Criers can share those rumors through Whispers of Britannia.
+- Whispers of Britannia now uses a wider gump with more room for rumor text.
+- Portuguese Patch Notes now use correct accents.
+- Nujelm Safe Haven blocks Fields, Recall, Mark, Gate Travel, and Teleport, as well as skill gain and received damage, outside Arena NuJelm's own rules; the skill restriction also applies to Newcomers.
+- Felucca's `A Turnip Field in Britain 2` is now unguarded; the equivalent Trammel field remains unchanged.
+- Felucca receives the seasonal Spring appearance without changing map geometry, resources, or collision.
+- An equipped Elven Bow applies +10 Tactics and +10 Archery exactly once, including above the ordinary cap; both return to normal when it is unequipped.
+
 ## 0.23.3 · Hiding/Stealth, gathering, and PvM
 
 - Hiding and Stealth now share concealment: walking consumes a combined limit of up to 25 steps, exhausting the limit reveals the character, and running reveals immediately.
+- Entering Hidden through Hiding or Stealth now correctly initializes the limit for the first hidden movement.
 - Stealth is no longer blocked or penalized by armor when starting or renewing hidden movement.
 - 5x5 area gathering now finalizes correctly for Mining, Lumberjacking, and Fishing, recognizes equipped or backpack Fishing Poles, and retries the current bank after a skillcheck failure while stock remains.
 - Fishing Poles show remaining uses, start with 50 uses, break at zero, and can be equipped and used with one double-click.

@@ -76,7 +76,7 @@ Live added five Masteries that convert part of defensive or offensive resources 
 
 These five Masteries scale from 5% to 9.5% and preserve the PvP and Arena exclusions. The first learned Mastery can be added to the build automatically at level 1 when the combat log is enabled; the Compendium provides clearer guidance and controls.
 
-## Live 0.23.3 catalog
+## Live 0.23.5 catalog
 
 ### Offense and resources
 
@@ -112,6 +112,12 @@ These five Masteries scale from 5% to 9.5% and preserve the PvP and Arena exclus
 | **Versatile Hunter** | Fey | Synergy | Strengthens the first direct attack against creature types not faced recently. It favors varied hunting routes. |
 | **Resonant Cascade** | Arachnid | Area | May spread targeted Peacemaking, Discordance, or Provocation to other nearby eligible creatures. |
 | **Summoned Vitality** | Reptilian | Basic | Increases the maximum and current health of player-created summons while active. |
+
+## Arcane Disruption in Live 0.23.5
+
+**Arcane Disruption** is a new PvM Mastery. While active, positive direct damage dealt by the player may make an eligible wild creature fizzle while casting. The effect belongs to eligible PvM encounters; do not treat it as a general PvP or Arena rule.
+
+See [PvM rewards](../itens/recompensas-pvm.md) for the temporary bonus that may come from Loot Pack jewelry.
 
 ## Example builds
 
@@ -174,5 +180,5 @@ See [PvM rewards](../itens/recompensas-pvm.md) for XP, Loot Packs, jewelry, and 
 
 See also [Achievements](achievements.md) for the introductory path and activity achievements.
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     The Hunter's Compendium provides dedicated progression for characters who fight creatures.

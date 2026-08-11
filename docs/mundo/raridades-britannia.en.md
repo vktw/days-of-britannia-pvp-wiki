@@ -1,5 +1,5 @@
 ---
-description: Discover the rare Phoenix, Fire Feathers, and Whispers of Britannia offered by Town Criers.
+description: Discover the rare Phoenix, Rare Rideable Llama, Fire Feathers, and Whispers of Britannia offered by Town Criers.
 ---
 
 # Britannia Rarities and Whispers of Britannia
@@ -27,5 +27,17 @@ Payment can use gold from your backpack and then your account bank. A stale quot
 
 The goal is to provide a lead, not to replace exploring the world. Check the Town Crier and decide whether the next whisper is worth the price.
 
-!!! success "Status: Live 0.23.3"
-    A rare Phoenix and Town Criers offer two new ways to discover events in Britannia.
+## Rare Events in Live 0.23.5
+
+Alongside the rare Phoenix, Live 0.23.5 includes **Desert Ostard**, **Forest Ostard**, and **Frenzied Ostard** at fixed world locations. Town Criers can share rumors about these events through Whispers of Britannia; finding them remains part of exploration, without publishing coordinates.
+
+The same event cycle includes the **Rare Rideable Llama**, a rare and tamable mount. Town Criers can share leads about it through Whispers of Britannia; the wiki does not publish coordinates or schedules, so the rumor remains a guide for exploration.
+
+The Whispers gump is wider and provides more room to read the rumors.
+
+## Seasonal visual in Live 0.23.5
+
+Felucca receives the seasonal **Spring** appearance. This is a visual change and does not alter map geometry, resources, or collision.
+
+!!! success "Status: Live 0.23.5"
+    Rare creatures and Town Criers offer discovery paths across Britannia.

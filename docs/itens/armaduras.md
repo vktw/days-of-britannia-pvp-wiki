@@ -6,6 +6,21 @@ O catálogo de craft inclui **Iron, Bronze, Shadow, Silver, Gold, Bloodrock, Bla
 
 O sistema moderno de Enhance não define mais o material. Equipamentos mágicos de PvM permanecem em Iron.
 
+## Metais e peças Chain
+
+Blacksmithy permite escolher entre **Iron, Bronze, Shadow, Silver, Gold, Bloodrock, Blackrock, Mythril e Brittanium**. O metal escolhido mantém o custo da receita e acrescenta de 0 a 8 pontos de `Physical Resist` conforme o tier. A qualidade Low, Normal ou Exceptional muda a durabilidade, mas não a proteção física final.
+
+As principais peças de **Chain** usam estes custos e faixas nativas de Blacksmithy:
+
+| Peça | Custo | Blacksmithy |
+|---|---:|---:|
+| **Chain Coif** | 10 ingots | 14.5–64.5 |
+| **Chain Legs** | 18 ingots | 36.7–86.7 |
+| **Chain Chest** | 20 ingots | 39.1–89.1 |
+| **Chain Hatsuburi** | 20 ingots | 30.0–80.0 |
+
+Essas peças continuam sendo armaduras clássicas; não fazem parte das linhas temáticas **DoB Weapons** da Blacksmithy.
+
 ## Qualidades
 
 As qualidades defensivas seguem esta ordem:
@@ -33,5 +48,5 @@ A base de `Physical Resist` de armaduras e shields usa o multiplicador **1,60**.
 
 Veja [Armor e Parrying](../combate/armor-parrying.md).
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     Cada peça protege somente a região corporal em que está equipada.

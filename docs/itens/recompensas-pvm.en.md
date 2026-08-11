@@ -21,6 +21,16 @@ Magical earrings, bracelets, and rings can increase STR, DEX, or INT while equip
 
 Physical hits can wear down one equipped stat jewel. These jewels can be repaired through normal **Tinkering**, subject to the usual weakening from repeated repairs.
 
+## Arena jewelry and Mastery bonuses in Live 0.23.5
+
+In Tinkering's **DoB Jewelry** category, Live 0.23.5 includes only three pieces with the fixed Arena jewelry bonuses:
+
+- **Magic Earrings:** +5 INT.
+- **Magic Ring:** +5 STR.
+- **Magic Bracelet:** +5 DEX.
+
+New magical jewelry from Loot Packs can receive a PvM Mastery bonus from **+1.00% to +5.00%**, in **0.25%** increments. Equipping the piece temporarily activates the matching Mastery, and the Compendium displays the bonus. Removing the jewelry removes only that temporary activation; it does not replace the normal five build slots.
+
 ## Skill amulets
 
 Amulets can temporarily raise an available skill, including above 100 effective value, without changing its permanent base. Each amulet displays its remaining uses.
@@ -33,5 +43,5 @@ Characters with the eligible Young benefit receive 25% additional PvM Mastery ex
 
 See also [PvM Mastery](../sistemas/pvm-mastery.md) and [Threat Rating](../mundo/threat-rating.md).
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     Eligible creatures reward the group according to the scale of the encounter.

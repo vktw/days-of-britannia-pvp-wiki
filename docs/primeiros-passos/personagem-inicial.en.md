@@ -36,5 +36,5 @@ The character starts with:
 
 See [CHARACTER](../personagem.md) for buffs, caps, and race, and [Items](../itens/index.md) for classic gear.
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     The base below is applied to every new character, regardless of the client's chosen profession.

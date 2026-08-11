@@ -25,6 +25,13 @@ In Archery, walking does not discard a prepared shot. The arrow is released when
 
 In PvP, hitting a region without effective armor grants **25% additional damage**. Protection is applied afterward. See [Armor and Parrying](armor-parrying.md).
 
+## Bowcraft bows in Live 0.23.5
+
+- **Fire Bow:** receives +6 thematic damage and shows only the Fireball impact on the target.
+- **Elven Bow:** uses Speed 3.00, 7–12 base damage, and grants +10 Tactics and +10 Archery while equipped; both skills return to normal when it is unequipped.
+
+See [Classic weapons](../itens/armas.md) for resources and crafting curves.
+
 ## Practical choice
 
 - One-handed weapons allow a shield and favor defense.
@@ -36,5 +43,5 @@ Archery weapons cannot be used with body plate. Plate Gorgets and shields are ex
 
 See [Classic weapons](../itens/armas.md) and [Damage examples](exemplos-dano.md).
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     Practical rules for choosing weapons, distance, and attack pace.

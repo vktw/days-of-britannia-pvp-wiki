@@ -43,5 +43,5 @@ Com Focus 100.0, Meditation 100.0, INT 100 e sem Mana Regen de itens:
 
 Meditation ativa é mais rápida, mas não duplica integralmente a recuperação. Planeje janelas seguras antes de depender dela no combate.
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     Valores e restrições que afetam decisões durante o combate.

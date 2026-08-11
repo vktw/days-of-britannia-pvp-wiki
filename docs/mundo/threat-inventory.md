@@ -11,5 +11,5 @@ Use a classificação mostrada no próprio jogo para avaliar a criatura que est�
 
 Essa leitura combina a referência da wiki com a situação real do encontro.
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     A classificação visível no jogo é a fonte prática para avaliar cada criatura.

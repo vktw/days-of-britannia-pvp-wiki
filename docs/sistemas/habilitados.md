@@ -23,7 +23,11 @@
 - Retorno Stuck para Nujelm sob as condições do sistema.
 - Auto-account com até 10 contas por IP e até duas conexões externas simultâneas pelo mesmo endereço.
 
+## Novidades do Live 0.23.5
+
+- **Ruptura Arcana:** nova Maestria PvM que pode fazer uma criatura selvagem falhar durante uma conjuração quando dano direto positivo do jogador acerta.
+
 Consulte as páginas específicas para limites e exceções. A presença nesta lista não significa que a mecânica mantenha o comportamento padrão do TrueUO.
 
-!!! success "Status: Live 0.23.3"
+!!! success "Status: Live 0.23.5"
     Lista resumida das mecânicas centrais disponíveis aos jogadores.
