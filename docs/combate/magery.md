@@ -70,5 +70,5 @@ Magias direcionadas usam normalmente alcance 12. Felucca é a única faceta púb
 
 Resurrection pode devolver os itens móveis do corpse quando o ghost está próximo e aceita a ressurreição.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     Delays, alcance e efeitos necessários para jogar e planejar combates.

@@ -1,6 +1,7 @@
 # Arena
 
-Use `.arena` para abrir o sistema. É possível desafiar outro jogador ou, na arena compatível, treinar contra o **PvP Trainer**.
+Use `.arena` para abrir o sistema. É possível desafiar outro jogador ou, na
+arena compatível, treinar contra o **PvP Trainer**.
 
 ## Arenas disponíveis
 
@@ -10,37 +11,51 @@ Use `.arena` para abrir o sistema. É possível desafiar outro jogador ou, na ar
 | Yew Cemetery | Sim | Não |
 | Arena NuJel'm | Sim | Não |
 
-Arena NuJel'm fica em Felucca e usa o mesmo contrato de duelo entre jogadores da Arena Yew. O PvP Trainer continua disponível exclusivamente na Arena Moonglow.
+Arena NuJel'm fica em Felucca. Ela aceita somente duelos entre jogadores no modo
+**Personal Loot**. O PvP Trainer continua disponível exclusivamente na Arena
+Moonglow.
 
-Cada arena aceita apenas uma luta ou desafio público pendente por vez e apresenta seu estado antes da entrada.
+## Modos de duelo
 
-## Fluxo da luta
+Duelos entre jogadores nas arenas compatíveis oferecem dois modos:
 
-1. O desafiante escolhe modalidade, arena e os tiers de armor e weapons.
-2. Desafios públicos ficam disponíveis por um minuto para aceitação; personagens da mesma conta não podem se enfrentar.
-3. Quando um candidato aceita, sua vaga fica reservada por 15 segundos enquanto o desafiante confirma ou recusa o oponente.
-4. Itens pessoais, exceto Spellbook e Runebook, são protegidos temporariamente.
-5. Cada participante recebe o mesmo kit oficial com os tiers escolhidos pelo desafiante.
-6. Há 60 segundos de preparação sem movimento, ataque ou uso de potions. Equipar e organizar o kit, Meditation e os buffs autorizados no próprio participante são permitidos.
-7. A luta dura no máximo 10 minutos.
-8. Após o resultado, há 15 segundos antes do retorno.
-9. Participantes são ressuscitados, devolvidos à origem e recebem novamente seus itens e montarias pessoais.
+- **System Loot:** cada participante recebe o kit Iron fixo da Arena e a
+  configuração original é restaurada ao final. Não há seleção pública de tiers
+  de armor ou weapons.
+- **Personal Loot:** o corpo, a mochila e a montaria seguem o fluxo normal de
+  morte. Somente o vencedor pode saquear o corpo derrotado durante 60 segundos;
+  o perdedor fica retido por 15 segundos e o conteúdo restante é perdido ao fim
+  da janela.
 
-Antes da devolução, a arena encerra casts e ações pendentes e remove os principais estados temporários de combate, incluindo Paralyze, Frozen, poison, invisibilidade, buffs, curses e efeitos defensivos. A limpeza não se limita a essa lista e também ocorre em empate, desconexão e recuperação de uma sessão interrompida.
+NuJelm oferece somente Personal Loot. O modo escolhido também determina o
+ranking: System Loot e Personal Loot têm tabelas separadas.
 
-O kit fornece 15 Greater Heal Potions, 15 Total Mana Potions, 10 Total Refresh, 10 Invisibility e 3 Deadly Poison Potions. A montaria pessoal é guardada junto dos pertences e não pode ser usada na arena; somente o cavalo shrinkado fornecido pelo kit da luta é permitido.
+## Taxas e fluxo da luta
 
-As opções de arma são Bow, War Mace, Kryss, Bardiche, Black Staff, War Hammer e Axe. Kryss, Bardiche e Axe recebem Deadly Poison; as demais preservam seu papel normal.
+1. Abra `.arena`, escolha um duelo contra jogador ou um treino contra o PvP
+   Trainer e, para duelos entre jogadores, escolha o modo de loot disponível.
+2. A Arena verifica antecipadamente o gold necessário antes de preparar a
+   sessão. A cobrança ocorre no início da luta: 5.000 gold por participante em
+   duelos entre jogadores e 1.000 gold no treino contra o Trainer.
+3. Desafios públicos ficam disponíveis por um minuto para aceitação;
+   personagens da mesma conta não podem se enfrentar.
+4. Quando um candidato aceita, sua vaga fica reservada por 15 segundos enquanto
+   o desafiante confirma ou recusa o oponente.
+5. Há 60 segundos de preparação sem movimento, ataque ou uso de potions. A
+   luta dura no máximo 10 minutos.
+6. Após o resultado, há 15 segundos antes do retorno. A Arena encerra casts e
+   ações pendentes e limpa os estados temporários de combate.
 
-Armor pode ser Regular, Defense, Guarding, Hardening, Fortification ou Invulnerability. Weapons podem ser Regular, Ruin, Might, Force, Power ou Vanquishing. O anúncio público e a confirmação mostram o equipamento definido para a luta.
-
-Durante a preparação, os buffs autorizados são Night Sight, Reactive Armor, Agility, Cunning, Protection, Strength, Bless, Incognito, Magic Reflection e Polymorph. Eles só podem ser aplicados no próprio participante. Heal, Greater Heal, efeitos benéficos em terceiros, ataques e potions permanecem bloqueados.
+No modo System Loot, a Arena restaura a configuração original e os pertences do
+participante. No modo Personal Loot, a devolução segue as regras do corpo e da
+montaria descritas acima.
 
 ## Desconexão
 
 - Durante a preparação, a desconexão cancela a luta sem resultado.
 - Durante o combate, o jogador desconectado perde por desistência.
-- A arena restaura itens e montaria. Se a sessão for interrompida, a recuperação também é verificada no próximo login.
+- A recuperação da sessão e dos pertences é verificada quando necessário no
+  próximo login.
 
 ## Ranking
 
@@ -49,11 +64,16 @@ Durante a preparação, os buffs autorizados são Night Sight, Reactive Armor, A
 - A primeira luta pontuável contra determinado IP conta na temporada.
 - Lutas entre o mesmo IP não pontuam.
 - A temporada dura 15 dias.
-- No treino contra PvP Trainer, o ranking considera o menor tempo de vitória e permite novas tentativas.
+- System Loot e Personal Loot usam rankings separados.
+- O ranking do PvP Trainer considera o menor tempo de vitória e permanece em sua
+  própria tabela.
 
 ## PvP Trainer
 
-O PvP Trainer é um NPC criado para treinamento e segue as regras gerais de combate aplicáveis aos jogadores. Ele foi aprimorado para exercer pressão de melee, recuperar-se com mais critério e escolher melhor suas finalizações. Seu funcionamento tático e suas decisões internas não fazem parte da documentação pública.
+O PvP Trainer é uma opção de treinamento disponível pela Arena Moonglow. A
+entrada custa 1.000 gold e fornece o kit Iron fixo; seleção de tiers não faz
+parte desse fluxo. Esta página documenta somente as regras observáveis de
+entrada, cobrança e resultado, não decisões táticas internas do NPC.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     Estas são as regras disponíveis no servidor oficial.

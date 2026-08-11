@@ -55,11 +55,11 @@ As armas temáticas usam 30 ingots e exigem Blacksmithy entre 75 e 110.
 
 ## Kits oficiais
 
-Arena, PvP Camp e o Starter PvP Iron kit compartilham sete opções: **Bow, War Mace, Kryss, Bardiche, Black Staff, War Hammer e Axe**. Kryss, Bardiche e Axe chegam com Deadly Poison; as outras quatro mantêm seu papel sem poison.
+Arena e o Starter PvP Iron kit compartilham sete opções: **Bow, War Mace, Kryss, Bardiche, Black Staff, War Hammer e Axe**. Kryss, Bardiche e Axe chegam com Deadly Poison; as outras quatro mantêm seu papel sem poison.
 
 Nem toda arma existente no cliente circula para jogadores. O catálogo do shard prioriza opções compatíveis com humanos e com o ruleset clássico.
 
 Veja [Melee e Archery](../combate/melee-archery.md) e [Poison](../combate/poison.md).
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     Escolha armas pelo papel no combate, não por uma planilha isolada de dano.

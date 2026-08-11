@@ -27,7 +27,8 @@ Use Felucca's public moongate network to travel to Nujelm. Newcomer characters c
 - **Archer:** carry a Bow and arrows; remain still briefly to release the shot.
 - **Mage:** organize reagents, the Spellbook, and mana before leaving.
 - **Bard:** Musicianship supports Peacemaking, Discordance, and Provocation; these skills are not part of the initial 100.0 set.
-- **PvP:** use `.pvpcamp` to prepare a kit or `.arena` for a controlled fight.
+- **PvP:** use the Starter PvP Iron kit to begin or `.arena` for a controlled
+  fight.
 
 See the [weapon catalog](../itens/armas.md), [combat rules](../combate/index.md), and [PvM Mastery](../sistemas/pvm-mastery.md) before investing in your chosen style.
 
@@ -48,7 +49,6 @@ Newcomer characters follow their own automatic return. Read [Newcomer and protec
 ## 6. Useful commands
 
 - `.patchnotes`: shows the current version and changes.
-- `.pvpcamp`: delivers a preparation kit and may offer travel to Cove.
 - `.arena`: opens challenges against players or training with the PvP Trainer.
 - `.pvp`: opens potion notice and cooldown preferences.
 - `.skillcheck`: shows a check's value, chances, and result.
@@ -56,5 +56,5 @@ Newcomer characters follow their own automatic return. Read [Newcomer and protec
 
 After this first setup, choose one small objective: discover a Mastery, test two weapons, visit Nujelm or Ocllo, or complete a training fight.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     A short route for organizing your character and choosing a first goal.

@@ -26,14 +26,17 @@ The full catalogue includes:
 - **Area Fisher:** records the start of a 5x5 Fishing session.
 - **Area Lumberjack:** records the start of a 5x5 Lumberjacking session.
 - **Rare Phoenix Hunter:** records a successful Rare Phoenix carving.
+- **First Trainer Fight:** records the completion of a PvP Trainer match and grants 200 PvM Mastery XP once.
 
 Area Miner, Area Fisher, and Area Lumberjack grant 200 PvM Mastery XP each. Rare Phoenix Hunter grants 350 XP. These achievements do not change gathering time, resource consumption, or normal carving rewards.
 
 ## Limits
 
-Achievements do not add points, rankings, titles, or cosmetic rewards. The current catalogue has no PvP achievements.
+Achievements do not add points, rankings, titles, or cosmetic rewards. First
+Trainer Fight records only the completion of training and does not change the
+PvP Trainer ranking or Arena rules.
 
 See also [PvM Mastery](pvm-mastery.md) for XP, Slayer families, and builds.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     The Achievements system is available on the official server.

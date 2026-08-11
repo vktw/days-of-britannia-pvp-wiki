@@ -33,5 +33,5 @@ Characters with the eligible Young benefit receive 25% additional PvM Mastery ex
 
 See also [PvM Mastery](../sistemas/pvm-mastery.md) and [Threat Rating](../mundo/threat-rating.md).
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     Eligible creatures reward the group according to the scale of the encounter.

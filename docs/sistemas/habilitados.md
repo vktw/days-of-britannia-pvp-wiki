@@ -25,5 +25,5 @@
 
 Consulte as páginas específicas para limites e exceções. A presença nesta lista não significa que a mecânica mantenha o comportamento padrão do TrueUO.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     Lista resumida das mecânicas centrais disponíveis aos jogadores.

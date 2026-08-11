@@ -21,7 +21,7 @@ Defensive qualities follow this order:
 
 The piece's displayed `Physical Resist` shows its practical protection. Durability and quality matter; modern elemental resistances do not apply separately in Sphere PvP.
 
-The `Physical Resist` baseline for armor and shields uses the **1.50** multiplier. New or tier-mutated Invulnerability equipment uses hue `2483`; saved items are not migrated.
+The `Physical Resist` baseline for armor and shields uses the **1.60** multiplier. New or tier-mutated Invulnerability equipment uses hue `2483`; saved items are not migrated.
 
 ## Coverage
 
@@ -33,5 +33,5 @@ The `Physical Resist` baseline for armor and shields uses the **1.50** multiplie
 
 See [Armor and Parrying](../combate/armor-parrying.md).
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     Each piece protects only the body region where it is equipped.

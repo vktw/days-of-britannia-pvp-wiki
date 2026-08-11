@@ -14,7 +14,7 @@ hide:
 DOWNLOAD DOB LAUNCHER <span aria-hidden="true">↓</span>
 </a>
 <a class="dob-atlas-codex-action dob-atlas-codex-action--secondary" href="patches/">
-READ PATCH 0.23.0 <span aria-hidden="true">→</span>
+READ PATCH 0.23.3 <span aria-hidden="true">→</span>
 </a>
 </div>
 <div class="dob-atlas-mark" aria-hidden="true" hidden>
@@ -41,9 +41,9 @@ READ PATCH 0.23.0 <span aria-hidden="true">→</span>
 <section class="dob-atlas-content" aria-label="Featured content">
 <article class="dob-atlas-feature">
 <p class="dob-atlas-kicker">FEATURED</p>
-<h2>Sphere 51 combat, explained without mystery</h2>
-<p>Raw damage, regional absorption, Parrying and real examples gathered in a single reading.</p>
-<a href="combate/">READ CHAPTER <span aria-hidden="true">→</span></a>
+<h2>PvM Mastery: build your hunt</h2>
+<p>Hunter's Compendium, XP, Slayer families, and builds that turn every encounter into progress.</p>
+<a href="sistemas/pvm-mastery/">READ SYSTEM <span aria-hidden="true">→</span></a>
 </article>
 
 <div class="dob-atlas-index">
@@ -78,8 +78,8 @@ READ PATCH 0.23.0 <span aria-hidden="true">→</span>
 <section class="dob-atlas-update" aria-labelledby="dob-release-title">
 <div>
 <p class="dob-atlas-kicker">LATEST UPDATE</p>
-<h2 id="dob-release-title">0.23.0 · Arena NuJelm and Nujelm Safe Haven</h2>
+<h2 id="dob-release-title">0.23.3 · Hiding, Stealth, gathering, and PvM</h2>
 </div>
-<p>Arena NuJel'm arrives in Felucca and the shard's safe returns now use Nujelm.</p>
+<p>Hiding and Stealth share concealment, 5x5 gathering receives refinements, and PvM gains new damage and reveal rules.</p>
 <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

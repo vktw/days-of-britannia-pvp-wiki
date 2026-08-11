@@ -27,5 +27,5 @@ O pagamento pode usar gold da mochila e, depois, do banco da conta. Uma cotaçã
 
 O objetivo é oferecer uma pista, não substituir a exploração do mundo. Consulte o Town Crier e decida se vale a pena pagar pelo próximo sussurro.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     Phoenix rara e Town Crier oferecem dois novos caminhos de descoberta em Britannia.

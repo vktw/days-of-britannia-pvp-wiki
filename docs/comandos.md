@@ -2,25 +2,11 @@
 
 ## `.arena`
 
-Abre o gump da arena para escolher combate contra outro jogador ou contra o PvP Trainer, selecionar entre Moonglow, Yew Cemetery e Arena NuJel'm e acompanhar ranking e temporada.
+Abre o gump da arena para escolher combate contra outro jogador ou contra o PvP Trainer, selecionar o modo de loot quando aplicável e acompanhar ranking e temporada. NuJelm aceita somente Personal Loot.
 
 ## `.achievements`
 
 Abre o catálogo de Achievements, acompanha o progresso e mostra as recompensas já liberadas. O primeiro login apresenta o sistema automaticamente e oferece a mesma entrada para quem quiser consultá-lo depois.
-
-## `.pvpcamp`
-
-Abre a seleção dos tiers clássicos de armor e weapons e entrega um kit completo de preparação para PvP, organizado em bolsas. O conjunto inclui:
-
-- Plate, shield, chain, ringmail e gorget no tier de armor escolhido.
-- Reagentes, bandages, bow, arrows e armas melee.
-- Bow e armas melee no tier de weapon escolhido. Kryss, Bardiche e Axe recebem Deadly Poison; as demais preservam seu papel normal.
-- 15 Greater Heal, 15 Total Mana, 10 Total Refresh, 10 Invisibility e 3 Deadly Poison Potions.
-- Um cavalo shrinkado.
-
-Kryss, Bardiche e Axe possuem **80 cargas de Deadly Poison**.
-
-Ao final, o comando abre uma confirmação opcional de viagem para Cove em Felucca.
 
 ## `.patchnotes`
 
@@ -42,13 +28,9 @@ Abre a ajuda do DoB com descrições curtas dos comandos e acesso direto às aç
 
 A Ultima Store está desativada no ruleset Sphere 51a. Não há compras, entregas ou uso de Sovereigns pela loja.
 
-## `.pvptrainer`
-
-Orienta o jogador a usar `.arena`. O PvP Trainer está disponível exclusivamente pela Arena Moonglow; o comando não cria um NPC diretamente.
-
 ## `.dailydungeon`
 
 Mostra qual Daily Dungeon está selecionada e quanto tempo falta para a próxima rotação. Use o comando antes de sair para aproveitar os bônus de experiência de Maestria PvM e Loot Packs.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     Os comandos abaixo estão disponíveis aos jogadores no servidor oficial.

@@ -12,11 +12,21 @@ Bandages removem poison imediatamente sem curar vida no mesmo uso. Sem poison, a
 
 Quando uma bandage limpa é usada com sucesso, ela vira uma **Bloody Bandage** com o mesmo peso. Se você estiver sobrecarregado, o resultado cai no chão em vez de aumentar o peso carregado. Uma unidade de água em uma fonte lava o stack inteiro e envia as bandages limpas para a mochila.
 
+## Fishing Pole
+
+Fishing Pole é uma ferramenta básica de Fishing. Uma pole comum começa com 50
+usos, exibe os usos restantes e quebra quando chega a zero. Um duplo clique em
+uma pole na mochila pode equipá-la e iniciar seu uso; uma falha de skillcheck não
+consome uso.
+
+Provisioners vendem Hatchet, Pickaxe, Shovel e Fishing Pole básicos. Tinkers
+vendem Hatchet, Pickaxe e Shovel, enquanto Carpenters vendem Fishing Pole.
+
 ## Livros e montarias
 
 Novos personagens recebem Spellbook completo, Runebook vazio e cavalo shrinkado. Spellbooks e Runebooks são preservados quando o restante do inventário é guardado para uma luta de arena.
 
 Veja [Cura e recursos](../combate/cura-recursos.md) para todas as faixas e delays.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     Quantidades de kits e efeitos detalhados correspondem ao servidor oficial.

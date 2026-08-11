@@ -2,25 +2,11 @@
 
 ## `.arena`
 
-Open the arena gump to choose combat against another player or against the PvP Trainer, select Moonglow, Yew Cemetery, or Arena NuJel'm, and track ranking and season.
+Open the arena gump to choose combat against another player or against the PvP Trainer, select the loot mode when applicable, and track ranking and season. NuJelm allows Personal Loot only.
 
 ## `.achievements`
 
 Open the Achievements catalogue, track progress, and review unlocked rewards. The first login introduces the system automatically, and the same command remains available afterward.
-
-## `.pvpcamp`
-
-Opens the selection of classic armor and weapons tiers and delivers a complete PvP preparation kit, organized in bags. The set includes:
-
-- Plate, shield, chain, ringmail and gorget in the chosen armor tier.
-- Reagents, bandages, bow, arrows and melee weapons.
-- Bow and melee weapons in the chosen weapon tier. Kryss, Bardiche, and Axe receive Deadly Poison; the others keep their normal role.
-- 15 Greater Heal, 15 Total Mana, 10 Total Refresh, 10 Invisibility and 3 Deadly Poison Potions.
-- A shrunken horse.
-
-Kryss, Bardiche, and Axe have **80 Deadly Poison charges**.
-
-At the end, the command opens an optional travel confirmation to Cove on Felucca.
 
 ## `.patchnotes`
 
@@ -42,13 +28,9 @@ Opens DoB help with short command descriptions and direct access to available ac
 
 The Ultima Store is disabled for the Sphere 51a ruleset. Purchases, deliveries, and store use of Sovereigns are unavailable.
 
-## `.pvptrainer`
-
-Guides the player to use `.arena`. The PvP Trainer is available exclusively through the Moonglow Arena; the command does not create an NPC directly.
-
 ## `.dailydungeon`
 
 Shows the selected Daily Dungeon and the time remaining until the next rotation. Use it before heading out to take advantage of the PvM Mastery experience and Loot Pack bonuses.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     The commands below are available to players on the official server.

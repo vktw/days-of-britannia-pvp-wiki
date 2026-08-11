@@ -17,5 +17,5 @@ Digite um usuário e uma senha ainda não utilizados. A conta é criada automati
 
 Nunca compartilhe sua senha. A equipe não precisa dela para suporte.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     O launcher oficial configura e inicia o cliente correto para o servidor.

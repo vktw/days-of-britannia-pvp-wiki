@@ -27,6 +27,7 @@ production logs, private server implementation, or unapproved gameplay claims.
 | [`facts/README.md`](facts/README.md) | Fact lifecycle, provenance states, and freshness policy | Normative evidence guide |
 | [`facts/registry.yml`](facts/registry.yml) | High-risk public-claim inventory | Evidence inventory; pending entries are not approvals |
 | [`wiki-pvp-baseline-2026-07-24.md`](wiki-pvp-baseline-2026-07-24.md) | Historical migration and compatibility record | Historical |
+| [`handoffs/patchnotes-production-2026-08-10.md`](handoffs/patchnotes-production-2026-08-10.md) | Handoff para corrigir patchnotes e referências após o live `v0.23.3` | Operacional; fonte de trabalho do agente executor |
 
 When documents disagree, executable configuration and approved live gameplay
 sources take precedence over descriptive prose. Agents must surface the conflict
@@ -53,6 +54,8 @@ internal/
 |-- facts/
 |   |-- README.md                fact lifecycle and provenance policy
 |   `-- registry.yml             high-risk fact provenance and live version
+|-- handoffs/
+|   `-- patchnotes-production-2026-08-10.md  production crosscheck handoff
 |-- quality/
 |   |-- scorecard.md             quality targets and review cadence
 |   `-- known-gaps.md            accepted risks and remediation status

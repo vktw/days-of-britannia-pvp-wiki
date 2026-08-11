@@ -1,8 +1,9 @@
 # Arena
 
-Use `.arena` to open the system. You can challenge another player or, in the compatible arena, train against the **PvP Trainer**.
+Use `.arena` to open the system. You can challenge another player or, in the
+compatible arena, train against the **PvP Trainer**.
 
-## Arenas available
+## Available arenas
 
 | Arena | Player vs player | PvP Trainer |
 |---|:---:|:---:|
@@ -10,37 +11,47 @@ Use `.arena` to open the system. You can challenge another player or, in the com
 | Yew Cemetery | Yes | No |
 | Arena NuJel'm | Yes | No |
 
-Arena NuJel'm is in Felucca and uses the same player-duel contract as Yew Arena. The PvP Trainer remains available exclusively in Moonglow Arena.
+Arena NuJel'm is in Felucca. It accepts player duels only in **Personal Loot**
+mode. The PvP Trainer remains available exclusively in Moonglow Arena.
 
-Each arena accepts only one pending public fight or challenge at a time and displays its status before entry.
+## Duel modes
 
-## Fight flow
+Player duels in the compatible arenas offer two modes:
 
-1. The challenger chooses the modality, arena and armor and weapons tiers.
-2. Public challenges are available for acceptance for one minute; Characters on the same account cannot face each other.
-3. When a candidate accepts, their spot is reserved for 15 seconds while the challenger confirms or rejects the opponent.
-4. Personal items, except Spellbook and Runebook, are temporarily protected.
-5. Each participant receives the same official kit with the tiers chosen by the challenger.
-6. There is 60 seconds of preparation without movement, attack or use of potions. Equipping and organizing the kit, Meditation and authorized buffs on the participant themselves are allowed.
-7. The fight lasts a maximum of 10 minutes.
-8. After the result, there are 15 seconds before the return.
-9. Participants are resurrected, returned to their origin and given their personal items and mounts again.
+- **System Loot:** each participant receives the Arena's fixed Iron kit and the
+  original setup is restored afterward. There is no public armor or weapon tier
+  selection.
+- **Personal Loot:** the body, backpack, and mount follow the normal death flow.
+  Only the winner may loot the defeated body for 60 seconds; the loser is held
+  for 15 seconds and the remaining contents are lost when the window ends.
 
-Before return, the arena closes pending casts and actions and removes the main temporary combat states, including Paralyze, Frozen, poison, invisibility, buffs, curses and defensive effects. Cleanup is not limited to this list and also occurs on tie-in, disconnection, and recovery from an interrupted session.
+NuJelm offers Personal Loot only. The selected mode also determines the ranking:
+System Loot and Personal Loot use separate tables.
 
-The kit provides 15 Greater Heal Potions, 15 Total Mana Potions, 10 Total Refresh, 10 Invisibility and 3 Deadly Poison Potions. The personal mount is kept with the belongings and cannot be used in the arena; only the shrunken horse provided by the fight kit is allowed.
+## Fees and fight flow
 
-Weapon choices are Bow, War Mace, Kryss, Bardiche, Black Staff, War Hammer, and Axe. Kryss, Bardiche, and Axe receive Deadly Poison; the others keep their normal role.
+1. Open `.arena`, choose a player duel or PvP Trainer training and, for player
+   duels, choose the available loot mode.
+2. The Arena checks the required gold before preparing the session. The charge
+   happens at fight start: 5,000 gold per participant in player duels and 1,000
+   gold for Trainer training.
+3. Public challenges remain available for acceptance for one minute; characters
+   on the same account cannot face each other.
+4. When a candidate accepts, their spot is reserved for 15 seconds while the
+   challenger confirms or rejects the opponent.
+5. There are 60 seconds of preparation without movement, attacks, or potions.
+   The fight lasts a maximum of 10 minutes.
+6. After the result, there are 15 seconds before the return. The Arena closes
+   pending casts and actions and clears temporary combat states.
 
-Armor can be Regular, Defense, Guarding, Hardening, Fortification or Invulnerability. Weapons can be Regular, Ruin, Might, Force, Power or Vanquishing. The public announcement and confirmation show the equipment set for the fight.
-
-During preparation, the authorized buffs are Night Sight, Reactive Armor, Agility, Cunning, Protection, Strength, Bless, Incognito, Magic Reflection and Polymorph. They can only be applied to the participant himself. Heal, Greater Heal, beneficial effects on third parties, attacks and potions remain blocked.
+In System Loot mode, the Arena restores the original setup and the participant's
+belongings. In Personal Loot mode, return follows the body and mount rules above.
 
 ## Disconnection
 
-- During preparation, disconnection cancels the fight without result.
+- During preparation, disconnection cancels the fight without a result.
 - During combat, the disconnected player loses by forfeiting.
-- The arena restores items and mounts. If the session is interrupted, recovery is also checked at the next login.
+- Session and belongings recovery is checked at the next login when needed.
 
 ## Ranking
 
@@ -49,11 +60,15 @@ During preparation, the authorized buffs are Night Sight, Reactive Armor, Agilit
 - The first scoring fight against a given IP counts in the season.
 - Fights between the same IP do not score points.
 - The season lasts 15 days.
-- When training against PvP Trainer, the ranking considers the shortest victory time and allows new attempts.
+- System Loot and Personal Loot use separate rankings.
+- PvP Trainer ranking uses the shortest victory time and remains in its own table.
 
 ## PvP Trainer
 
-The PvP Trainer is an NPC created for training and follows the general combat rules applicable to players. He has been improved to exert melee pressure, recover more judiciously, and choose his shots better. Its tactical functioning and internal decisions are not part of public documentation.
+The PvP Trainer is a training option available through Moonglow Arena. Entry
+costs 1,000 gold and provides the fixed Iron kit; tier selection is not part of
+this flow. This page documents only observable entry, fee, and result rules, not
+the NPC's internal tactical decisions.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     These are the rules available on the official server.

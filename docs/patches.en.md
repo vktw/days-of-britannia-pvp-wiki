@@ -2,6 +2,37 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.23.3 · Hiding/Stealth, gathering, and PvM
+
+- Hiding and Stealth now share concealment: walking consumes a combined limit of up to 25 steps, exhausting the limit reveals the character, and running reveals immediately.
+- Stealth is no longer blocked or penalized by armor when starting or renewing hidden movement.
+- 5x5 area gathering now finalizes correctly for Mining, Lumberjacking, and Fishing, recognizes equipped or backpack Fishing Poles, and retries the current bank after a skillcheck failure while stock remains.
+- Fishing Poles show remaining uses, start with 50 uses, break at zero, and can be equipped and used with one double-click.
+- The First Trainer Fight achievement completes after a finished PvP Trainer match and grants 200 PvM Mastery XP once.
+- Tinkers now sell Hatchet, Pickaxe, and Shovel; Carpenters now sell Fishing Pole as a basic tool.
+- Ordinary spellcasting creatures show Words of Power and remain still while casting; the PvP Trainer remains mobile.
+- Direct magical damage from eligible wild creatures against players in PvM is reduced by 25%, without changing PvP, poison, pets, summons, or player-owned attacks.
+- Positive direct damage dealt by a player to an eligible wild creature in PvM ends Hiding, Stealth, and active invisibility; misses, zero damage, poison ticks, and PvP do not trigger this rule.
+
+## 0.23.2 · Arena, economy, resistance, and tools
+
+- Arena checks the required gold before preparing a fight, avoiding sessions that cannot start.
+- The base Physical Resist multiplier for armor and shields is now `1.60`.
+- New Honesty lost items are no longer generated on the ground; existing items remain preserved.
+- The native Platinum system is disabled; legacy balances are preserved but cannot be created, spent, or transferred.
+- Player stamina recovery now uses a 1-point-per-second baseline while preserving additional bonuses.
+- Mastery descriptions now appear below the level controls, with the compact Compendium layout aligned.
+- The Minoc Mine on Felucca and Trammel is now guarded within the defined bounds.
+- Provisioners now sell Hatchet, Pickaxe, Shovel, and Fishing Pole as basic gathering tools.
+
+## 0.23.1 · Arena loot modes and Alpha notice
+
+- The first login shows a bilingual Alpha notice about frequent patches, possible issues, a one-week duration, account reset, and the official Beta Test on 14/08/2026; this is a historical communication from that version.
+- The PvP Trainer charges 1,000 gold at fight start and uses a fixed Iron kit; tier selection is not part of this flow.
+- Player duels choose System Loot or Personal Loot, charging 5,000 gold per participant at fight start; System Loot uses a fixed Iron kit and restores the original setup.
+- With Personal Loot, only the winner may loot the corpse for 60 seconds; the loser is held for 15 seconds and remaining contents are lost.
+- NuJelm allows Personal Loot only; player rankings are separated by mode and Trainer times remain in their own table.
+
 ## 0.23.0 · Arena NuJelm and Nujelm Safe Haven
 
 - Arena NuJel'm now offers player duels in Felucca through `.arena`, with the same rules as Yew Arena.
@@ -23,7 +54,6 @@ This page summarizes changes players can notice. Current numbers and full instru
 - Lumberjacking bonus items such as Bark Fragment, Fungi, and Switch are temporarily disabled; logs and boards remain available.
 - Area Miner, Area Fisher, and Area Lumberjack grant 200 PvM Mastery XP each; Rare Phoenix Hunter grants 350 XP.
 - Maintenance notices appear in Portuguese and English before the next automatic save; players are disconnected after the save to apply the patch.
-- PvP training-kit delivery is bound to the selected player.
 
 ## 0.22.0 · Days of Britannia Achievements
 
@@ -41,7 +71,7 @@ This page summarizes changes players can notice. Current numbers and full instru
 ## 0.21.1 · Safe Rare Phoenix spawning
 
 - Rare Phoenix now avoids areas protected by guards.
-- Nujelm remained eligible for the event during that version's compatibility window; the guard rule was later consolidated by patch 0.23.0.
+- Nujelm remained eligible for the event in that version; the current guard rule is the later consolidation from patch 0.23.0.
 
 ## 0.21.0 · Magical AI and proportional Threat
 
@@ -71,7 +101,7 @@ This page summarizes changes players can notice. Current numbers and full instru
 
 ## 0.18.4 · Blackthorn invasion disabled
 
-- The Blackthorn invasion no longer creates controllers, waves, invaders, beacons, or invasion rewards.
+- The Blackthorn invasion and its rewards are disabled.
 - Blackthorn Dungeon, quests, and independent content remain separate from this change.
 
 ## 0.18.3 · Proportional magical threat
@@ -151,12 +181,11 @@ This page summarizes changes players can notice. Current numbers and full instru
 
 ## 0.11.4 · More precise Paralyze decisions
 
-- The PvP Trainer's Paralyze Field and Walls combo is reserved for opponents who are armed when paralysis confirms.
-- Against unarmed paralyzed opponents, the Trainer may recover, finish with a spell, or keep melee pressure.
+- PvP Trainer training receives containment and finishing adjustments without exposing internal tactical decisions.
 
 ## 0.11.3 · More precise containment
 
-- The PvP Trainer executes its Paralyze and Walls combo more consistently against armed opponents.
+- The PvP Trainer improves control consistency during training without exposing its internal logic.
 - Wall of Stone correctly blocks diagonal passages during containment.
 - When a fight ends, the Arena removes temporary objects created by combat.
 
@@ -252,7 +281,6 @@ This page summarizes changes players can notice. Current numbers and full instru
 
 ## 0.9.1 · Equipment and PvP kit fixes
 
-- The `.pvpcamp` kit receives Magic Earrings (+5 INT) and the matching STR and DEX jewelry.
 - Double-clicking an accessible Spellbook in the backpack opens it without moving weapons or shields.
 
 ## 0.9.0 · World foundation
@@ -268,7 +296,7 @@ This page summarizes changes players can notice. Current numbers and full instru
 ## 0.7.0 · Equipment and strategy
 
 - Regional armor, Parrying, Protection, and equipment qualities gain clearer roles.
-- Arena and PvP Camp receive tier selection and expanded kits.
+- Arena receives tier selection and expanded kits.
 
 ## 0.6.0 · Combat updates
 
@@ -296,7 +324,7 @@ This page summarizes changes players can notice. Current numbers and full instru
 
 ## 0.2.0 · Classic combat
 
-- Consolidation of stats, skills, Magery, weapons, armor, and PvP Camp.
+- Consolidation of stats, skills, Magery, weapons, armor, and PvP combat.
 
 ## 0.1.0 · Foundation
 

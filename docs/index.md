@@ -14,7 +14,7 @@ hide:
         BAIXAR DOB LAUNCHER <span aria-hidden="true">↓</span>
       </a>
       <a class="dob-atlas-codex-action dob-atlas-codex-action--secondary" href="patches/">
-        LER PATCH 0.23.0 <span aria-hidden="true">→</span>
+        LER PATCH 0.23.3 <span aria-hidden="true">→</span>
       </a>
     </div>
     <div class="dob-atlas-mark" aria-hidden="true" hidden>
@@ -41,9 +41,9 @@ hide:
 <section class="dob-atlas-content" aria-label="Conteúdo em destaque">
   <article class="dob-atlas-feature">
     <p class="dob-atlas-kicker">EM DESTAQUE</p>
-    <h2>O combate Sphere 51, explicado sem mistério</h2>
-    <p>Dano bruto, absorção regional, Parrying e exemplos reais reunidos em uma única leitura.</p>
-    <a href="combate/">LER CAPÍTULO <span aria-hidden="true">→</span></a>
+    <h2>Maestria PvM: construa sua caçada</h2>
+    <p>Hunter's Compendium, XP, famílias Slayer e builds para transformar cada encontro em progresso.</p>
+    <a href="sistemas/pvm-mastery/">LER SISTEMA <span aria-hidden="true">→</span></a>
   </article>
 
   <div class="dob-atlas-index">
@@ -78,8 +78,8 @@ hide:
 <section class="dob-atlas-update" aria-labelledby="dob-release-title">
   <div>
     <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
-    <h2 id="dob-release-title">0.23.0 · Arena NuJelm e Safe Haven de Nujelm</h2>
+    <h2 id="dob-release-title">0.23.3 · Hiding, Stealth, coleta e PvM</h2>
   </div>
-  <p>A Arena NuJel'm chega a Felucca e os retornos seguros do shard passam a usar Nujelm.</p>
+  <p>Hiding e Stealth compartilham a ocultação, a coleta 5x5 recebe ajustes e o PvM ganha novas regras de dano e revelação.</p>
   <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>
