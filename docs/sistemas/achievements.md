@@ -26,14 +26,17 @@ O catálogo completo inclui:
 - **Area Fisher:** registra o início de uma sessão de Fishing em área 5x5.
 - **Area Lumberjack:** registra o início de uma sessão de Lumberjacking em área 5x5.
 - **Rare Phoenix Hunter:** registra o carving bem-sucedido de uma Rare Phoenix.
+- **First Trainer Fight:** registra a conclusão de uma luta contra o PvP Trainer e concede 200 XP de Maestria PvM uma única vez.
 
 Area Miner, Area Fisher e Area Lumberjack concedem 200 XP de Maestria PvM cada. Rare Phoenix Hunter concede 350 XP. Essas conquistas não alteram o tempo da coleta, o consumo de recursos ou as recompensas normais do carving.
 
 ## Limites
 
-Achievements não adicionam pontos, rankings, títulos ou recompensas cosméticas. O catálogo atual não possui conquistas de PvP.
+Achievements não adicionam pontos, rankings, títulos ou recompensas cosméticas.
+First Trainer Fight registra somente a conclusão do treinamento e não altera o
+ranking do PvP Trainer nem as regras da Arena.
 
 Veja também [Maestria PvM](pvm-mastery.md) para XP, famílias Slayer e builds.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     O sistema de Achievements está disponível no servidor oficial.

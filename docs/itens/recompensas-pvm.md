@@ -33,5 +33,5 @@ Personagens com o benefício Young elegível recebem 25% adicionais de experiên
 
 Veja também [Maestria PvM](../sistemas/pvm-mastery.md) e [Threat Rating](../mundo/threat-rating.md).
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     Criaturas elegíveis recompensam o grupo conforme a escala do encontro.

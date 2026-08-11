@@ -2,6 +2,37 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.23.3 · Hiding/Stealth, coleta e PvM
+
+- Hiding e Stealth passam a compartilhar a ocultação: caminhar consome um limite combinado de até 25 passos, esgotar o limite revela o personagem e correr revela imediatamente.
+- Stealth deixa de ser bloqueado ou penalizado pela armadura ao iniciar ou renovar o movimento escondido.
+- A coleta em área 5x5 é finalizada corretamente para Mining, Lumberjacking e Fishing, reconhece Fishing Poles equipadas ou na mochila e repete o banco atual após falha de skillcheck enquanto houver estoque.
+- Fishing Poles exibem os usos restantes, começam com 50 usos, quebram ao chegar a zero e podem ser equipadas e usadas com dois cliques.
+- A conquista First Trainer Fight é concluída ao terminar uma luta contra o PvP Trainer e concede 200 XP de Maestria PvM uma única vez.
+- Tinkers passam a vender Hatchet, Pickaxe e Shovel; Carpenters passam a vender Fishing Pole como ferramenta básica.
+- Criaturas comuns que conjuram exibem Words of Power e ficam paradas durante a conjuração; o PvP Trainer mantém sua mobilidade.
+- O dano mágico direto de criaturas selvagens elegíveis contra jogadores no PvM é reduzido em 25%, sem alterar PvP, poison, pets, summons ou ataques de jogadores.
+- Dano direto positivo causado pelo jogador a uma criatura selvagem elegível no PvM encerra Hiding, Stealth e invisibilidade ativa; misses, dano zero, ticks de poison e PvP não ativam essa regra.
+
+## 0.23.2 · Arena, economia, resistências e ferramentas
+
+- A Arena verifica antecipadamente o gold necessário antes de preparar uma luta, evitando sessões que não podem começar.
+- O multiplicador base de Physical Resist de armaduras e shields passa a ser `1.60`.
+- Novos itens perdidos pela Honesty deixam de ser gerados no chão; itens existentes permanecem preservados.
+- O sistema nativo de Platinum fica desativado; saldos legados são preservados, mas não podem ser criados, gastos ou transferidos.
+- A recuperação base de stamina dos jogadores passa a ser de 1 ponto por segundo, preservando bônus adicionais.
+- As descrições das Maestrias ficam abaixo dos controles de nível, com o layout compacto do Compendium alinhado.
+- A Mina de Minoc na Felucca e em Trammel passa a ser protegida por guards dentro dos limites definidos.
+- Provisioners passam a vender Hatchet, Pickaxe, Shovel e Fishing Pole como ferramentas básicas de coleta.
+
+## 0.23.1 · Modos de loot da Arena e aviso de Alpha
+
+- O primeiro login exibe um aviso bilíngue de Alpha sobre patches frequentes, possíveis problemas, duração de uma semana, reset de contas e Beta Test oficial em 14/08/2026; esta é uma comunicação histórica daquela versão.
+- O PvP Trainer cobra 1.000 gold no início da luta e usa kit Iron fixo; a seleção de tiers não faz parte desse fluxo.
+- Duelos entre jogadores escolhem System Loot ou Personal Loot, com cobrança de 5.000 gold por participante no início da luta; System Loot usa kit Iron fixo e restaura a configuração original.
+- No Personal Loot, somente o vencedor pode saquear o corpo por 60 segundos; o perdedor fica retido por 15 segundos e o conteúdo restante é perdido.
+- NuJelm aceita somente Personal Loot; os rankings de jogadores são separados por modo e os tempos do Trainer ficam em sua própria tabela.
+
 ## 0.23.0 · Arena NuJelm e Safe Haven de Nujelm
 
 - A Arena NuJel'm agora oferece duelos entre jogadores em Felucca pelo comando `.arena`, com as mesmas regras da Arena Yew.
@@ -23,7 +54,6 @@ Esta página resume mudanças percebidas pelos jogadores. Números atuais e inst
 - Os itens bônus do Lumberjacking, como Bark Fragment, Fungi e Switch, foram temporariamente desativados; logs e boards continuam disponíveis.
 - Area Miner, Area Fisher e Area Lumberjack concedem 200 XP de Maestria PvM cada; Rare Phoenix Hunter concede 350 XP.
 - Avisos de manutenção aparecem em português e inglês antes do próximo save automático; após o save, os jogadores são desconectados para aplicar o patch.
-- A entrega do kit de treinamento PvP fica vinculada ao jogador selecionado.
 
 ## 0.22.0 · Conquistas de Days of Britannia
 
@@ -41,7 +71,7 @@ Esta página resume mudanças percebidas pelos jogadores. Números atuais e inst
 ## 0.21.1 · Nascimento seguro da Rare Phoenix
 
 - A Rare Phoenix agora evita áreas protegidas por guards.
-- Nujel'm continuou elegível para o evento durante a compatibilidade daquela versão; a regra de guards foi posteriormente consolidada no patch 0.23.0.
+- Nujel'm continuou elegível para o evento naquela versão; a regra atual de guards é a consolidação posterior do patch 0.23.0.
 
 ## 0.21.0 · IA mágica e Threat proporcional
 
@@ -71,7 +101,7 @@ Esta página resume mudanças percebidas pelos jogadores. Números atuais e inst
 
 ## 0.18.4 · Invasão de Blackthorn desativada
 
-- A invasão de Blackthorn deixa de criar controllers, waves, invaders, beacons e recompensas da invasão.
+- A invasão de Blackthorn e suas recompensas são desativadas.
 - Blackthorn Dungeon, quests e conteúdos independentes permanecem separados dessa desativação.
 
 ## 0.18.3 · Ameaça mágica proporcional
@@ -151,12 +181,11 @@ Esta página resume mudanças percebidas pelos jogadores. Números atuais e inst
 
 ## 0.11.4 · Decisão de Paralyze mais precisa
 
-- O combo de Paralyze Field e Walls do PvP Trainer é reservado para adversários armados quando a paralisia confirma.
-- Contra adversários de mãos vazias, o Trainer pode se recuperar, finalizar com magia ou manter a pressão melee.
+- O treinamento do PvP Trainer recebe ajustes de contenção e finalização, sem expor decisões táticas internas.
 
 ## 0.11.3 · Contenção mais precisa
 
-- O PvP Trainer executa seu combo de Paralyze e Walls com mais consistência contra adversários armados.
+- O PvP Trainer melhora a consistência do controle durante o treinamento, sem expor sua lógica interna.
 - Wall of Stone bloqueia corretamente passagens diagonais durante a contenção.
 - Ao terminar uma luta, a Arena remove objetos temporários produzidos pelo combate.
 
@@ -252,7 +281,6 @@ Esta página resume mudanças percebidas pelos jogadores. Números atuais e inst
 
 ## 0.9.1 · Correções de equipamento e kit PvP
 
-- O kit `.pvpcamp` recebe Magic Earrings (+5 INT) e as joias correspondentes de STR e DEX.
 - Dois cliques em um Spellbook acessível na mochila abrem o livro sem mover armas ou shields.
 
 ## 0.9.0 · Fundação do Mundo
@@ -268,7 +296,7 @@ Esta página resume mudanças percebidas pelos jogadores. Números atuais e inst
 ## 0.7.0 · Equipamentos e estratégia
 
 - Armor regional, Parrying, Protection e qualidades de equipamento passam a ter papéis mais claros.
-- Arena e PvP Camp recebem seleção de tiers e kits ampliados.
+- A Arena recebe seleção de tiers e kits ampliados.
 
 ## 0.6.0 · Ajustes de combate
 
@@ -296,7 +324,7 @@ Esta página resume mudanças percebidas pelos jogadores. Números atuais e inst
 
 ## 0.2.0 · Combate clássico
 
-- Consolidação de stats, skills, Magery, armas, armaduras e PvP Camp.
+- Consolidação de stats, skills, Magery, armas, armaduras e combate PvP.
 
 ## 0.1.0 · Fundação
 

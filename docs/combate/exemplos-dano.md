@@ -38,5 +38,5 @@ Para o mesmo golpe que acertou:
 
 **Proteção muda o resultado final**, mas cobertura completa também importa. Consulte [Armor e Parrying](armor-parrying.md) para montar seu equipamento.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     Exemplos práticos para entender decisões de equipamento, sem reproduzir a fórmula interna do servidor.

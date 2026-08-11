@@ -1,6 +1,8 @@
 # Nujelm Safe Haven
 
-Nujelm é o Safe Haven oficial de Felucca no Live 0.23.0. Use o ponto central **3767,1296,0** para retornos de morte, Stuck e recuperação.
+Nujelm tornou-se o Safe Haven oficial de Felucca no Live 0.23.0 e continua sendo
+o destino atual. Use o ponto central **3767,1296,0** para retornos de morte,
+Stuck e recuperação.
 
 ## Proteção do Safe Haven
 
@@ -16,5 +18,5 @@ Mortes fora da Arena, a opção Stuck e os fluxos de recuperação usam Nujelm c
 
 A [Arena NuJel'm](../arena.md) fica em Felucca e usa as mesmas regras de duelo entre jogadores da Arena Yew. A área da Arena prevalece sobre o Safe Haven quando as duas regiões se encontram.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     Nujelm é o Safe Haven oficial e o ponto central de retorno seguro em Felucca.

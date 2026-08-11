@@ -55,11 +55,11 @@ The thematic weapons use 30 ingots and require 75–110 Blacksmithy.
 
 ## Official kits
 
-Arena, PvP Camp, and the Starter PvP Iron kit share seven choices: **Bow, War Mace, Kryss, Bardiche, Black Staff, War Hammer, and Axe**. Kryss, Bardiche, and Axe arrive with Deadly Poison; the other four keep their non-poison role.
+Arena and the Starter PvP Iron kit share seven choices: **Bow, War Mace, Kryss, Bardiche, Black Staff, War Hammer, and Axe**. Kryss, Bardiche, and Axe arrive with Deadly Poison; the other four keep their non-poison role.
 
 Not every weapon present in the client circulates among players. The shard catalog prioritizes options compatible with humans and the classic ruleset.
 
 See [Melee and Archery](../combate/melee-archery.md) and [Poison](../combate/poison.md).
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     Choose weapons by their combat role, not by an isolated damage spreadsheet.

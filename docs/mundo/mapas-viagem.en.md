@@ -20,4 +20,4 @@ Teleport remains available within the current facet, outside the specific restri
 
 Administrators can override these limitations for maintenance.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"

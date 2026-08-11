@@ -17,5 +17,5 @@ In PvP, the Poison spell does not lose potency with distance, and 100.0 Magery a
 
 Darkglow, Parasitic, and Lethal remain outside the ruleset.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     Poison pressures healing and forces the opponent to react.

@@ -13,5 +13,5 @@ The benefit applies only to the first eligible character on an account and does 
 
 See [Death and recovery](morte-recuperacao.md) for the flow used by other characters.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     The Newcomer benefit is active for the account's first eligible character.

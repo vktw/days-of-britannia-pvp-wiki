@@ -43,5 +43,5 @@ With 100.0 Focus, 100.0 Meditation, 100 INT, and no item Mana Regen:
 
 Active Meditation is faster, but does not fully double recovery. Plan a safe window before relying on it during combat.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     Values and restrictions that affect decisions during combat.

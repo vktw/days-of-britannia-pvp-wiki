@@ -14,10 +14,20 @@ Bandages remove poison immediately without healing health in the same use. Witho
 
 When a clean bandage is used successfully, it becomes a **Bloody Bandage** with the same weight. If you are overloaded, the result drops to the ground instead of increasing carried weight. One water unit at a water source washes the entire stack and sends the clean bandages to the backpack.
 
+## Fishing Pole
+
+Fishing Pole is a basic Fishing tool. A standard pole starts with 50 uses,
+shows the remaining uses, and breaks at zero. Double-clicking a pole in the
+backpack can equip it and start its use; a failed skillcheck does not consume a
+use.
+
+Provisioners sell basic Hatchet, Pickaxe, Shovel, and Fishing Pole tools. Tinkers
+sell Hatchet, Pickaxe, and Shovel, while Carpenters sell Fishing Pole.
+
 ## Books and mounts
 
 New characters receive a complete Spellbook, an empty Runebook and a shrunken horse. Spellbooks and Runebooks are preserved when the rest of the inventory is saved for an arena fight.
 
 See [Healing and resources](../combate/cura-recursos.md) for all values and delays.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"

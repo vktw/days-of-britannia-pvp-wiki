@@ -42,5 +42,5 @@ Algumas criaturas conhecidas ajudam a interpretar a escala:
 
 [Entender as recompensas PvM](../itens/recompensas-pvm.md){ .md-button }
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     A cor e o nome exibidos sobre a criatura ajudam a estimar o perigo do encontro.

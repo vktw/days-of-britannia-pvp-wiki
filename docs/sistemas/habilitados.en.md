@@ -25,5 +25,5 @@
 
 See specific pages for limits and exceptions. Presence on this list does not mean that the mechanics maintain TrueUO's default behavior.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     Summary list of core mechanics available to players.

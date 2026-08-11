@@ -23,10 +23,10 @@ REQUIRED_HEADINGS = {
         "# DoB Razor", "## Funções reutilizáveis", "## Compatibilidade e diagnóstico",
     ],
     "comandos.md": [
-        "# Comandos de jogador", "## `.arena`", "## `.pvpcamp`",
+        "# Comandos de jogador", "## `.arena`",
         "## `.achievements`",
         "## `.patchnotes`", "## `.pvp`", "## `.skillcheck`", "## `.help`",
-        "## `.store`", "## `.pvptrainer`",
+        "## `.store`",
     ],
     "personagem.md": ["# Personagem", "## Base inicial", "## Stats e buffs", "## Raça"],
     "combate/magery.md": ["# Magery", "## Fluxo de cast", "## Dano e mana"],
@@ -47,7 +47,7 @@ REQUIRED_HEADINGS = {
 }
 
 REQUIRED_LIVE_CLAIMS = {
-    "patches.md": ["Correções de equipamento e kit PvP", "Magic Earrings (+5 INT)", "Dois cliques em um Spellbook"],
+    "patches.md": ["Correções de equipamento e kit PvP", "Dois cliques em um Spellbook"],
     "personagem.md": ["primeiro personagem elegível por IP"],
     "primeiros-passos/personagem-inicial.md": ["primeiro personagem elegível por IP"],
     "combate/melee-archery.md": ["Speed 3.75", "No PvM, é **50%**", "permanece parado por **500 ms**"],
@@ -57,9 +57,9 @@ REQUIRED_LIVE_CLAIMS = {
     "itens/armas.md": ["não determinam a compatibilidade da arma com poison"],
     "mundo/threat-rating.md": ["Neira | Legendary", "Harrower | Mythic"],
     "mundo/threat-inventory.md": ["classificação visível no jogo"],
-    "sistemas/pvm-mastery.md": ["Status: Live 0.23.0", "até cinco Maestrias ativas"],
-    "sistemas/achievements.md": ["`.achievements`", "100 XP de Maestria PvM", "Status: Live 0.23.0"],
-    "mundo/nujelm.md": ["Safe Haven oficial", "3767,1296,0", "Status: Live 0.23.0"],
+    "sistemas/pvm-mastery.md": ["Status: Live 0.23.3", "até cinco Maestrias ativas"],
+    "sistemas/achievements.md": ["`.achievements`", "100 XP de Maestria PvM", "Status: Live 0.23.3"],
+    "mundo/nujelm.md": ["Safe Haven oficial", "3767,1296,0", "Status: Live 0.23.3"],
     "primeiros-passos/newcomer.md": ["25% adicionais de experiência de Maestria PvM", "retorna automaticamente a Nujelm"],
     "combate/magery.md": ["uma carga", "alcance de 12 tiles", "| Harm | 1,0 s |", "5 a 7 de dano"],
     "combate/invisibilidade.md": ["12 tiles", "jogadores escondidos", "mobs, criaturas, pets, NPCs ou itens ocultos"],

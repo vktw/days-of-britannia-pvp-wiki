@@ -27,7 +27,8 @@ Use a rede pública de moongates de Felucca para viajar até Nujelm. Personagens
 - **Archer:** leve Bow e arrows; permaneça parado por um breve momento para liberar o disparo.
 - **Mage:** organize reagentes, Spellbook e mana antes de sair.
 - **Bard:** Musicianship acompanha Peacemaking, Discordance e Provocation; essas skills não fazem parte do conjunto inicial em 100.0.
-- **PvP:** use `.pvpcamp` para preparar um kit ou `.arena` para uma luta controlada.
+- **PvP:** use o Starter PvP Iron kit para começar ou `.arena` para uma luta
+  controlada.
 
 Veja o [catálogo de armas](../itens/armas.md), as [regras de combate](../combate/index.md) e a [Maestria PvM](../sistemas/pvm-mastery.md) antes de investir no estilo escolhido.
 
@@ -48,7 +49,6 @@ Personagens Newcomer seguem o retorno automático próprio. Leia [Newcomer e pro
 ## 6. Comandos úteis
 
 - `.patchnotes`: mostra a versão e as mudanças atuais.
-- `.pvpcamp`: entrega um kit de preparação e pode oferecer viagem para Cove.
 - `.arena`: abre desafios contra jogadores ou treinamento com o PvP Trainer.
 - `.pvp`: abre as preferências de avisos e cooldown de poções.
 - `.skillcheck`: mostra o valor, as chances e o resultado de um teste.
@@ -56,5 +56,5 @@ Personagens Newcomer seguem o retorno automático próprio. Leia [Newcomer e pro
 
 Depois dessa primeira organização, escolha um objetivo pequeno: descobrir uma Maestria, testar duas armas, conhecer Nujelm ou Ocllo, ou completar uma luta de treino.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     Um roteiro curto para organizar o personagem e escolher o primeiro objetivo.

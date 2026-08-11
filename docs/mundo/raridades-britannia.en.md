@@ -27,5 +27,5 @@ Payment can use gold from your backpack and then your account bank. A stale quot
 
 The goal is to provide a lead, not to replace exploring the world. Check the Town Crier and decide whether the next whisper is worth the price.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     A rare Phoenix and Town Criers offer two new ways to discover events in Britannia.

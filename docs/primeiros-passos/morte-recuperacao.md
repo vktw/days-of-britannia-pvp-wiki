@@ -10,5 +10,5 @@ Para Newcomers, existe o retorno automático descrito em [Newcomer e proteção]
 
 Enquanto a escolha de recuperação ou a contagem de Newcomer estiver ativa, o ghost pode caminhar. Um ghost a até dois tiles de um healer pode dar dois cliques nele para pedir a oferta normal de ressurreição; alcance, linha de visão e demais condições do healer continuam valendo.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     Este fluxo vale para mortes fora da Arena.

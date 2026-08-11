@@ -13,5 +13,5 @@ O benefício vale somente para o primeiro personagem elegível por conta e não 
 
 Consulte [Morte e recuperação](morte-recuperacao.md) para o fluxo aplicado aos demais personagens.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     O benefício Newcomer está ativo para o primeiro personagem elegível da conta.

@@ -15,7 +15,8 @@ Se este é seu primeiro contato com o jogo, comece por [Ultima Online Brasil: sh
 3. Consulte o que o personagem recebe em [Seu primeiro personagem](personagem-inicial.md).
 4. Siga o roteiro de [Sua primeira hora em Britannia](primeira-hora.md).
 5. Use `.patchnotes` para ler a versão atual dentro do jogo.
-6. Use `.pvpcamp` quando quiser montar um kit de treino.
+6. Use o Starter PvP Iron kit para conhecer o combate e `.arena` para uma luta
+   controlada.
 7. Use `.arena` para desafios oficiais ou treinamento contra o PvP Trainer.
 
 ## Referências úteis
@@ -28,5 +29,5 @@ Se este é seu primeiro contato com o jogo, comece por [Ultima Online Brasil: sh
 - [Comandos de jogador](../comandos.md)
 - [Sistemas habilitados e desativados](../sistemas/index.md)
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     As informações desta página correspondem ao servidor oficial.

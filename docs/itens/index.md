@@ -9,5 +9,5 @@
 
 Itens modernos podem continuar existindo por compatibilidade com saves ou conteúdo do TrueUO, mas atributos modernos desativados não alteram o PvP Sphere.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
     Esta seção descreve propriedades e utilidades ativas no ruleset atual.

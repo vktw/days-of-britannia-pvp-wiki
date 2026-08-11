@@ -2,7 +2,7 @@
 
 ## Base inicial
 
-Todo novo personagem humano começa com **100 STR, 100 DEX e 100 INT**, Spellbook completo, Runebook, um cavalo shrinkado e um **Starter PvP Iron kit** permanente. O kit usa o catálogo compartilhado da Arena e do PvP Camp, sem duplicar o cavalo, e não pode ser vendido a vendors. Os **10.000 gold** iniciais são concedidos somente ao primeiro personagem elegível por IP.
+Todo novo personagem humano começa com **100 STR, 100 DEX e 100 INT**, Spellbook completo, Runebook, um cavalo shrinkado e um **Starter PvP Iron kit** permanente. O kit usa o catálogo oficial de equipamentos de PvP, sem duplicar o cavalo, e não pode ser vendido a vendors. Os **10.000 gold** iniciais são concedidos somente ao primeiro personagem elegível por IP.
 
 As seguintes skills começam em **100.0**:
 
@@ -34,9 +34,18 @@ STR influencia vida e dano físico. DEX influencia stamina e velocidade das arma
 
 Human é a única raça permanente disponível para jogadores. Transformações temporárias de magia continuam sendo efeitos separados.
 
-## Hiding
+## Hiding e Stealth
 
-Ao usar Hiding, o personagem permanece visível durante 3 segundos de preparação. Movimento, dano, ataque, magia, fala, potion, bandagem, ação reveladora, morte, logout ou troca de mapa interrompem a tentativa. Ao final, as condições de combate são verificadas novamente antes do teste da skill.
+Ao usar Hiding ou Stealth, o personagem permanece visível durante 3 segundos de
+preparação. Movimento, dano, ataque, magia, fala, potion, bandagem, ação
+reveladora, morte, logout ou troca de mapa interrompem a tentativa. Ao final, as
+condições de combate são verificadas novamente antes do teste da skill.
 
-!!! success "Status: Live 0.23.0"
+As duas skills podem iniciar ou renovar a ocultação e compartilham o movimento
+escondido. O limite é calculado por `floor((Hiding + Stealth) / 8)`, com mínimo
+de 1 e máximo de 25 passos. Caminhar consome esse limite; esgotá-lo revela o
+personagem e correr revela imediatamente. Usar armadura não bloqueia nem reduz a
+eficácia de Stealth.
+
+!!! success "Status: Live 0.23.3"
     Stats, skills, caps e raça correspondem ao servidor oficial.

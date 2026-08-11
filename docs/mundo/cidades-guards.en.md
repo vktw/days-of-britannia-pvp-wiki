@@ -4,7 +4,7 @@ This page only records confirmed exceptions. The absence of a city on the list d
 
 ## Cove
 
-Cove in Felucca has no guard protection and can be used as an open PvP area. `.pvpcamp`'s optional transport takes the character to Cove, Felucca.
+Cove in Felucca has no guard protection and can be used as an open PvP area.
 
 ## Ocllo in Felucca
 
@@ -26,6 +26,12 @@ The defined perimeters of the Britain, Cove, Jhelom, Moonglow, Nujelm, Vesper, a
 
 The Yew Cemetery Arena occupies a controlled area in Trammel and only accepts duels between players.
 
+## Minoc Mine
+
+Minoc Mine is guarded on Felucca and Trammel within the public rectangle defined
+by **X=2554..2581** and **Y=474..501**. Outside this rectangle, check the region
+indicator before assuming protection.
+
 See [Arena and Training](../arena.md) for rules for entry, external interference, and returning characters.
 
-!!! success "Status: Live 0.23.0"
+!!! success "Status: Live 0.23.3"
