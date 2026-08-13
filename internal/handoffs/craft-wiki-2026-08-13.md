@@ -1,21 +1,21 @@
 ---
-audit_type: craft-catalog-preview
+audit_type: craft-catalog-reorganization-preview
 status: local_preview
 created: 2026-08-13
 target_version: "0.26.3"
 production_source: "live-server/v0.26.3"
-branch: "codex/craft-wiki"
+branch: "codex/alteracoes-main"
 publication_authorized: false
 ---
 
-# Handoff: seção local de Craft
+# Handoff: reorganização local de Craft
 
 ## Objetivo
 
-Adicionar uma seção pública bilíngue de Craft na branch `codex/craft-wiki`,
-com catálogo player-facing, material, custo, skill mínima e um controle visual
-de skill. Esta alteração é somente uma prévia local; não autoriza commit, push,
-merge ou deploy.
+Transformar a antiga entrada **Itens** em uma seção pública bilíngue de Craft,
+com uma página para cada categoria do catálogo oficial, materiais, skill mínima
+e controle visual de chance por skill-base. Esta alteração é somente uma prévia
+local; não autoriza commit, push, merge ou deploy.
 
 ## Fontes oficiais consultadas
 
@@ -41,42 +41,91 @@ foram colocados em `docs/`.
 
 | Superfície | Resultado | Fonte de skill |
 |---|---|---|
-| `docs/itens/craft.md` e `.en.md` | Nova referência de receitas especiais, DoB Tools, qualidade e links relacionados | Catálogo oficial e patches aprovados |
-| `docs/scripts/dob.js` | Seletor de família + slider de skill que mostra pontos oficiais sem interpolação | Pontos publicados nos patches/catálogo |
-| `docs/stylesheets/extra.css` | Card do controle e ajustes para desktop, tablet e narrow | Padrão visual Atlas |
-| `mkdocs.yml` e `docs/itens/index*` | Navegação e entrada da nova seção, sem alterar URLs existentes | Contrato de navegação |
+| `docs/craft/` | Hub e páginas de Alchemy, Blacksmithy, Bowcraft, Carpentry, Cartography, Cooking, Glassblowing, Inscription, Masonry, Tailoring e Tinkering | Catálogo oficial do servidor |
+| `docs/craft/*.md/.en.md` | Simulador progressivo em cada skill: menu, categorias, índice pesquisável, materiais, skill-base, chance e Exceptional | Catálogo oficial de cada skill |
+| `docs/scripts/dob.js` | Navegação compartilhada, interpolação da fórmula-base, curvas especiais publicadas e aviso explícito para curvas não publicadas | Fórmula de `CraftItem` e políticas DoB aprovadas |
+| `mkdocs.yml` e `docs/itens/*` | Entrada **Itens** convertida em **Craft**; endereços antigos preservados como compatibilidade | Contrato de navegação |
+| `docs/sistemas/index*` | Recompensas PvM adicionadas a Sistemas | Organização player-facing |
 
-O controle cobre Artisan, Reliable, Refined, Elven Bow, Fire Bow, Bloodrock e
-Blackrock. Em pontos intermediários, ele mostra os limites publicados; não
-calcula uma chance aproximada. O bloco de Exceptional continua separado da
-chance de sucesso.
+Cada página mostra a skill-base que o servidor usa para a rolagem. O controle
+calcula a chance-base entre o mínimo e o máximo quando a fonte publica a fórmula
+linear; curvas especiais usam os pontos oficiais. Quando a fonte atual não
+publica a curva completa, a bancada informa isso sem inventar uma interpolação.
+O bloco de Exceptional continua separado da chance de sucesso.
+
+## Fluxo implementado nas skills de Craft
+
+O padrão de Bowcraft foi replicado nas outras dez páginas de skill para
+representar a abertura de menus no jogo, sem expor implementação privada. Cada
+página pública fica reduzida ao próprio simulador:
+
+- a primeira tela mostra somente o menu principal da skill;
+- ao abrir uma categoria ou **Buscar receita**, o simulador mostra o índice
+  daquela tela;
+- ao escolher uma receita, o índice dá lugar à bancada com material, skill-base,
+  chance e Exceptional;
+- os botões de retorno simulam a navegação de volta para o índice ou para o
+  menu principal.
+
+O índice de cada página recebeu todas as linhas do catálogo/tabela já
+documentadas naquela skill, não apenas os exemplos que existiam no controle
+anterior. Bowcraft mantém o seletor de madeira; as demais páginas exibem os
+materiais fixos da receita na bancada.
+
+O catálogo usado pelo fluxo de Bowcraft continua sendo:
+
+- o índice reúne 29 entradas do catálogo oficial, incluindo materiais, munição,
+  arcos, bestas e DoB Weapons;
+- a busca considera nome, grupo e materiais;
+- Board, Oak Board, Ash Board, Yew Board, Heartwood Board, Bloodwood Board e
+  Frostwood Board exibem suas skills mínimas de seleção: 0.0, 65.0, 75.0,
+  85.0, 95.0, 95.0 e 95.0;
+- a madeira selecionada altera somente o recurso e a elegibilidade do material;
+  o simulador não inventa bônus de chance ou de combate;
+- Fire Bow mantém apenas o recorte público em 100.0, enquanto ingredientes
+  fixos ficam visíveis e desativam o seletor de madeira;
+- itens com `ForceNonExceptional` aparecem como sem Exceptional, separados da
+  chance de produção.
+
+O painel continua sendo uma prévia player-facing: não inclui bônus de talismã,
+bancada, ferramenta ou outros modificadores que não estejam representados na
+consulta pública.
 
 ## Divergências mantidas para aprovação
 
-1. A fonte oficial consultada para as linhas Bloodrock/Blackrock registra uma
-   curva cujo ponto final diverge da página pública atual de armas, que mantém
-   a decisão editorial de 105.0. A nova página mostra somente 0% em 75.0 e 50%
-   em 92.5 e marca o ponto final como em revisão. Não deve ser adicionado um
-   endpoint até o responsável escolher qual estado será canônico.
-2. A fonte oficial do Fire Bow contém um endpoint que foi deliberadamente
-   retirado da wiki por decisão do responsável. A nova página mostra 75% em
-   100.0, sem republicar o endpoint, e o controle não extrapola a curva.
+1. Bloodrock e Blackrock mantêm a decisão pública já aprovada: 0% em 75.0,
+   50% em 92.5 e 100% em 105.0 ou mais. A menção a 110.0 não deve voltar para
+   a referência pública dessas linhas.
+2. A fonte do Fire Bow contém um endpoint que foi deliberadamente retirado da
+   wiki por decisão do responsável. A página mostra 75% em 100.0, sem publicar
+   a curva em 120.0, e o controle não extrapola esse ponto.
 
 Essas omissões são intencionais: o resultado público não transforma uma fonte
 contraditória ou um endpoint editorialmente removido em uma nova afirmação.
 
+## Limite aplicado nesta revisão local
+
+Por solicitação do responsável, todas as tabelas e simuladores de Craft foram
+limitados a 105.0 de skill. O limite foi aplicado aos controles, às faixas
+exibidas e aos pontos de curva; pontos acima de 105.0 foram retirados da
+prévia, e as curvas afetadas não extrapolam esse corte. Esse é um recorte de
+visualização para aprovação local, não uma confirmação de que toda receita do
+servidor tenha 105.0 como skill máxima. A revisão receita por receita continua
+necessária antes de publicar.
+
 ## Próximo agente
 
-- Revisar visualmente `/itens/craft/` em desktop, tablet e narrow.
-- Confirmar se o escopo deve crescer para um catálogo completo das receitas
-  nativas ou permanecer concentrado nas receitas especiais do DoB.
-- Resolver as duas divergências acima com o responsável pelo servidor antes de
-  transformar os pontos finais em fatos públicos.
-- Depois da aprovação, atualizar os registros de fatos canônicos para apontar
-  a seção Craft e remover duplicações somente com revisão dos links.
+- Revisar visualmente `/craft/` e as dez skills em desktop, tablet e narrow.
+- Abrir categorias, retornar entre telas, pesquisar e selecionar uma receita em
+  pelo menos Alchemy, Blacksmithy, Bowcraft e Tinkering; confirmar que curvas
+  não publicadas permanecem sem interpolação.
+- Confirmar se o agrupamento das categorias coincide com a ordem desejada nos
+  gumps do servidor antes de qualquer publicação.
+- Depois da aprovação, revisar os links de compatibilidade de `docs/itens/` e
+  atualizar os registros de fatos canônicos caso novas receitas sejam adicionadas.
 
 ## Estado
 
-- Branch: `codex/craft-wiki`.
+- Branch: `codex/alteracoes-main`.
 - Prévia: local.
 - Commit, push, merge e deploy: não realizados.

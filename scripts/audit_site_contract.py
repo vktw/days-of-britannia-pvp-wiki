@@ -27,6 +27,19 @@ INTENTIONALLY_UNLISTED = frozenset(
         "primeiros-passos/conexao.md",
         "primeiros-passos/personagem-inicial.md",
         "primeiros-passos/primeira-hora.md",
+        "sistemas-desativados.md",
+        "combate/armor-parrying.md",
+        "combate/cura-recursos.md",
+        "combate/exemplos-dano.md",
+        "combate/invisibilidade.md",
+        "combate/magery.md",
+        "combate/melee-archery.md",
+        "combate/poison.md",
+        "itens/index.md",
+        "itens/craft.md",
+        "itens/armas.md",
+        "itens/armaduras.md",
+        "itens/consumiveis.md",
     }
 )
 

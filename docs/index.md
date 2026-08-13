@@ -60,24 +60,25 @@ hide:
   </article>
 
   <div class="dob-atlas-index">
-    <a href="combate/magery/">
-      <span class="dob-atlas-index__code">MAG</span>
-      <span><strong>Magery</strong><small>Delays, dano e mana</small></span>
+    <p class="dob-atlas-kicker">ÚLTIMOS ARTIGOS ATUALIZADOS</p>
+    <a href="craft/">
+      <span class="dob-atlas-index__code">13 AGO</span>
+      <span><strong>Craft</strong><small>Materiais, skills mínimas e chance de sucesso</small></span>
       <i aria-hidden="true">→</i>
     </a>
-    <a href="combate/cura-recursos/">
-      <span class="dob-atlas-index__code">HP</span>
-      <span><strong>Cura e recursos</strong><small>Bandagens, poções e meditação</small></span>
+    <a href="mundo/threat-rating/">
+      <span class="dob-atlas-index__code">13 AGO</span>
+      <span><strong>Threat Rating</strong><small>Leia a ameaça antes de escolher o combate</small></span>
       <i aria-hidden="true">→</i>
     </a>
-    <a href="itens/">
-      <span class="dob-atlas-index__code">EQP</span>
-      <span><strong>Equipamentos</strong><small>Armas e armaduras clássicas</small></span>
+    <a href="sistemas/spawns-raros/">
+      <span class="dob-atlas-index__code">13 AGO</span>
+      <span><strong>Spawns raros</strong><small>Phoenix, montarias e eventos raros</small></span>
       <i aria-hidden="true">→</i>
     </a>
-    <a href="arena/">
-      <span class="dob-atlas-index__code">PVP</span>
-      <span><strong>Arena</strong><small>Regras, kits e temporadas</small></span>
+    <a href="sistemas/whispers-britannia/">
+      <span class="dob-atlas-index__code">13 AGO</span>
+      <span><strong>Whispers of Britannia</strong><small>Rumores sobre eventos e oportunidades</small></span>
       <i aria-hidden="true">→</i>
     </a>
   </div>

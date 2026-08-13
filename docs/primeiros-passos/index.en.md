@@ -176,7 +176,7 @@ training fight.
 - [Stats, skills, buffs and race](../personagem.md)
 - [Maps and travel](../mundo/mapas-viagem.md)
 - [Player commands](../comandos.md)
-- [Systems enabled and disabled](../sistemas/index.md)
+- [Systems and ruleset limits](../sistemas/index.md)
 - [Ultima Online Brasil: shards, servers, and community](ultima-online-brasil.md)
 
 !!! success "Status: Live 0.26.3"

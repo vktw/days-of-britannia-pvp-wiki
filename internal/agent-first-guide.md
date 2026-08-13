@@ -50,10 +50,11 @@ does not publish a page in the menu.
 | `primeiros-passos/` | Official launcher, account, and first-character onboarding |
 | `personagem.md` | Character baseline, stats, skills, buffs, and race |
 | `mundo/` | Stable compatibility paths for facets, locations, guards, maps, and travel; selected exploration systems are listed under `sistemas/` |
-| `combate/` | Canonical combat rules, formulas, ranges, and worked examples |
-| `itens/` | Player-visible weapon, armor, consumable, and utility behavior |
+| `combate/` | Single canonical PvP overview; former detail URLs remain unlisted compatibility pages |
+| `craft/` | Canonical per-category Craft pages with official materials, skill ranges, and chance controls |
+| `itens/` | Stable compatibility/reference paths for weapons, armor, consumables, and PvM rewards; Craft is now canonical under `craft/` |
 | `arena.md` | Arena lifecycle, ranking, kits, disconnect behavior, and Trainer boundary |
-| `sistemas/` and `sistemas-desativados.md` | Enabled, exploration, and intentionally unavailable systems |
+| `sistemas/` | Enabled, exploration, and ruleset-limit references; the former disabled-systems URL is a compatibility stub |
 | `comandos.md` | Exact player command reference |
 | `patches.md` | Shipped, versioned changes |
 | `proximo-patch.md` | Planned behavior that is not yet live |

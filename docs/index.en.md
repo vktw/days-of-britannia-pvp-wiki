@@ -60,24 +60,25 @@ PLAY NOW <span aria-hidden="true">↓</span>
 </article>
 
 <div class="dob-atlas-index">
-<a href="combate/magery/">
-<span class="dob-atlas-index__code">MAG</span>
-<span><strong>Magery</strong><small>Delays, damage and mana</small></span>
+<p class="dob-atlas-kicker">LATEST UPDATED ARTICLES</p>
+<a href="craft/">
+<span class="dob-atlas-index__code">AUG 13</span>
+<span><strong>Craft</strong><small>Materials, minimum skills and success chance</small></span>
 <i aria-hidden="true">→</i>
 </a>
-<a href="combate/cura-recursos/">
-<span class="dob-atlas-index__code">HP</span>
-<span><strong>Healing and resources</strong><small>Bandages, potions and meditation</small></span>
+<a href="mundo/threat-rating/">
+<span class="dob-atlas-index__code">AUG 13</span>
+<span><strong>Threat Rating</strong><small>Read the threat before choosing a fight</small></span>
 <i aria-hidden="true">→</i>
 </a>
-<a href="itens/">
-<span class="dob-atlas-index__code">EQP</span>
-<span><strong>Equipment</strong><small>Classic weapons and armor</small></span>
+<a href="sistemas/spawns-raros/">
+<span class="dob-atlas-index__code">AUG 13</span>
+<span><strong>Rare spawns</strong><small>Phoenix, mounts and rare events</small></span>
 <i aria-hidden="true">→</i>
 </a>
-<a href="arena/">
-<span class="dob-atlas-index__code">PVP</span>
-<span><strong>Arena</strong><small>Rules, kits and seasons</small></span>
+<a href="sistemas/whispers-britannia/">
+<span class="dob-atlas-index__code">AUG 13</span>
+<span><strong>Whispers of Britannia</strong><small>Rumors about events and opportunities</small></span>
 <i aria-hidden="true">→</i>
 </a>
 </div>
