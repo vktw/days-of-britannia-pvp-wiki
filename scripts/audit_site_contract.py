@@ -12,6 +12,24 @@ DOCS = ROOT / "docs"
 CONFIG = ROOT / "mkdocs.yml"
 IMAGE_RE = re.compile(r"!\[[^\]]*\]\(([^)]+)\)|<img[^>]+src=[\"']([^\"']+)[\"']", re.I)
 
+# These pages remain published as compatibility stubs so existing bookmarks
+# keep working after the navigation reorganization. They are intentionally
+# absent from the player-facing menu.
+INTENTIONALLY_UNLISTED = frozenset(
+    {
+        "mundo/cidades-guards.md",
+        "mundo/index.md",
+        "mundo/mapas-viagem.md",
+        "mundo/ocllo.md",
+        "mundo/raridades-britannia.md",
+        "mundo/threat-inventory.md",
+        "personagem.md",
+        "primeiros-passos/conexao.md",
+        "primeiros-passos/personagem-inicial.md",
+        "primeiros-passos/primeira-hora.md",
+    }
+)
+
 
 def nav_files(node: object) -> set[str]:
     found: set[str] = set()
@@ -36,8 +54,11 @@ def main() -> int:
         for page in DOCS.rglob("*.md")
         if not page.name.endswith(".en.md")
     }
-    for page in sorted(public_pages - navigated):
+    unlisted = public_pages - navigated
+    for page in sorted(unlisted - INTENTIONALLY_UNLISTED):
         errors.append(f"page missing from navigation: {page}")
+    for page in sorted(INTENTIONALLY_UNLISTED - public_pages):
+        errors.append(f"compatibility page missing from docs: {page}")
     for target in sorted(navigated - public_pages):
         errors.append(f"navigation target missing: {target}")
 
@@ -57,7 +78,12 @@ def main() -> int:
     if errors:
         print("\n".join(errors))
         return 1
-    print(f"site contract audit passed: {len(public_pages)} navigated PT-BR pages")
+    navigated_public_pages = public_pages - INTENTIONALLY_UNLISTED
+    print(
+        "site contract audit passed: "
+        f"{len(navigated_public_pages)} navigated PT-BR pages; "
+        f"{len(INTENTIONALLY_UNLISTED)} compatibility pages intentionally unlisted"
+    )
     return 0
 
 
