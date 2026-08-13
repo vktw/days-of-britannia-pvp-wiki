@@ -240,6 +240,445 @@
   }
 }
 
+/* Centralized craft-menu simulator prototype */
+.dob-craft-simulator {
+  margin: 1.35rem 0 1.65rem;
+  padding: 1rem;
+  border: 1px solid var(--dob-border);
+  background: linear-gradient(135deg, rgb(16 42 51 / 96%), rgb(11 32 40 / 96%));
+}
+
+.dob-craft-simulator [hidden] {
+  display: none !important;
+}
+
+.dob-craft-simulator__heading {
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--dob-border);
+}
+
+.dob-craft-simulator__heading h3,
+.dob-craft-simulator__heading p {
+  margin-top: 0.25rem;
+}
+
+.dob-craft-simulator__heading h3 {
+  margin-bottom: 0;
+  color: var(--dob-text-strong);
+}
+
+.dob-craft-simulator__heading p,
+.dob-craft-simulator__selected p,
+.dob-craft-simulator__help,
+.dob-craft-simulator__note {
+  color: var(--dob-text-muted);
+  font-size: 0.78rem;
+}
+
+.dob-craft-simulator__heading p {
+  margin-bottom: 0;
+}
+
+.dob-craft-simulator__menu-screen {
+  margin-top: 1rem;
+}
+
+.dob-craft-simulator__screen-label {
+  display: block;
+  color: var(--dob-gold-hover);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.dob-craft-simulator__menu-screen h4,
+.dob-craft-simulator__screen-top h4 {
+  margin: 0.3rem 0 0.75rem;
+  color: var(--dob-text-strong);
+  font-size: 1.05rem;
+}
+
+.dob-craft-simulator__menu {
+  display: grid;
+  border-left: 1px solid var(--dob-border);
+}
+
+.dob-craft-simulator__menu button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  padding: 0.8rem 0.75rem 0.8rem 1rem;
+  border: 0;
+  border-bottom: 1px solid var(--dob-border);
+  background: transparent;
+  color: var(--dob-text-strong);
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+}
+
+.dob-craft-simulator__menu button:first-child {
+  border-top: 1px solid var(--dob-border);
+}
+
+.dob-craft-simulator__menu button:hover,
+.dob-craft-simulator__menu button:focus-visible {
+  background: rgb(174 133 45 / 12%);
+}
+
+.dob-craft-simulator__menu button:focus-visible,
+.dob-craft-simulator__back:focus-visible {
+  outline: 1px solid var(--dob-gold);
+  outline-offset: -1px;
+}
+
+.dob-craft-simulator__menu button > span {
+  display: grid;
+  gap: 0.18rem;
+}
+
+.dob-craft-simulator__menu button strong {
+  font-size: 0.88rem;
+}
+
+.dob-craft-simulator__menu button small {
+  color: var(--dob-text-muted);
+  font-size: 0.72rem;
+}
+
+.dob-craft-simulator__menu button b {
+  flex: 0 0 auto;
+  color: var(--dob-gold-hover);
+  font-size: 0.74rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.dob-craft-simulator__eyebrow,
+.dob-craft-simulator__label,
+.dob-craft-simulator__search,
+.dob-craft-simulator__fields label,
+.dob-craft-simulator__ingredients span,
+.dob-craft-simulator__result span {
+  color: var(--dob-text-muted);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.dob-craft-simulator__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.dob-craft-simulator__layout.has-workbench {
+  grid-template-columns: minmax(15rem, 0.82fr) minmax(0, 1.6fr);
+}
+
+.dob-craft-simulator__screen-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.dob-craft-simulator__screen-top h4 {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.dob-craft-simulator__back {
+  flex: 0 0 auto;
+  padding: 0.35rem 0;
+  border: 0;
+  background: transparent;
+  color: var(--dob-gold-hover);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.72rem;
+  text-align: left;
+}
+
+.dob-craft-simulator__back:hover {
+  color: var(--dob-text-strong);
+}
+
+.dob-craft-simulator__index,
+.dob-craft-simulator__workbench {
+  min-width: 0;
+}
+
+.dob-craft-simulator__search,
+.dob-craft-simulator__fields label,
+.dob-craft-simulator__material-field {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.dob-craft-simulator__material-field > strong {
+  overflow-wrap: anywhere;
+  color: var(--dob-text-strong);
+  font-size: 0.86rem;
+}
+
+.dob-craft-simulator__search input,
+.dob-craft-simulator__fields select {
+  width: 100%;
+  min-height: 2.4rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--dob-border);
+  border-radius: 0;
+  outline: none;
+  background: var(--dob-card);
+  color: var(--dob-text);
+  font: inherit;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.dob-craft-simulator__search input:focus,
+.dob-craft-simulator__fields select:focus,
+.dob-craft-simulator__list button:focus-visible {
+  border-color: var(--dob-gold);
+  box-shadow: 0 0 0 1px var(--dob-gold);
+}
+
+.dob-craft-simulator__count {
+  margin: 0.75rem 0 0.45rem;
+  color: var(--dob-gold-hover);
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.dob-craft-simulator__list {
+  max-height: 31rem;
+  overflow-y: auto;
+  border: 1px solid var(--dob-border);
+  background: rgb(7 22 28 / 48%);
+}
+
+.dob-craft-simulator__list button {
+  display: grid;
+  width: 100%;
+  gap: 0.18rem;
+  padding: 0.62rem 0.7rem;
+  border: 0;
+  border-bottom: 1px solid rgb(64 122 135 / 45%);
+  background: transparent;
+  color: var(--dob-text-strong);
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+}
+
+.dob-craft-simulator__list button:last-child {
+  border-bottom: 0;
+}
+
+.dob-craft-simulator__list button:hover,
+.dob-craft-simulator__list button.is-selected {
+  background: rgb(174 133 45 / 15%);
+}
+
+.dob-craft-simulator__list button.is-selected {
+  box-shadow: inset 3px 0 0 var(--dob-gold);
+}
+
+.dob-craft-simulator__list [data-craft-sim-index-name] {
+  overflow-wrap: anywhere;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.dob-craft-simulator__list [data-craft-sim-index-meta] {
+  color: var(--dob-text-muted);
+  font-size: 0.7rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.dob-craft-simulator__empty {
+  margin: 0.75rem 0 0;
+  color: var(--dob-text-muted);
+  font-size: 0.78rem;
+}
+
+.dob-craft-simulator__selected {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem;
+  border: 1px solid var(--dob-border);
+  background: rgb(7 22 28 / 48%);
+}
+
+.dob-craft-simulator__selected h4 {
+  margin: 0.25rem 0 0;
+  color: var(--dob-text-strong);
+  font-size: 1.12rem;
+}
+
+.dob-craft-simulator__selected p {
+  margin: 0.2rem 0 0;
+}
+
+.dob-craft-simulator__selected > strong {
+  flex: 0 0 auto;
+  color: var(--dob-gold-hover);
+  font-size: 0.76rem;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.dob-craft-simulator__fields {
+  display: grid;
+  grid-template-columns: minmax(13rem, 0.95fr) minmax(16rem, 1.2fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.dob-craft-simulator__fields select:disabled {
+  opacity: 0.72;
+  cursor: not-allowed;
+}
+
+.dob-craft-simulator__fields small {
+  color: var(--dob-text-muted);
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.45;
+  text-transform: none;
+}
+
+.dob-craft-simulator__range-line {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.dob-craft-simulator__range-line input[type="range"] {
+  width: 100%;
+  min-height: 1.55rem;
+  accent-color: var(--dob-gold);
+}
+
+.dob-craft-simulator__range-line output {
+  min-width: 4.25rem;
+  padding: 0.4rem 0.55rem;
+  border: 1px solid var(--dob-border);
+  color: var(--dob-gold-hover);
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+.dob-craft-simulator__ingredients {
+  display: grid;
+  gap: 0.25rem;
+  margin-top: 1rem;
+  padding: 0.7rem;
+  border: 1px solid var(--dob-border);
+  background: rgb(7 22 28 / 48%);
+}
+
+.dob-craft-simulator__ingredients strong {
+  overflow-wrap: anywhere;
+  color: var(--dob-text-strong);
+  font-size: 0.86rem;
+}
+
+.dob-craft-simulator__result {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.55rem;
+  margin-top: 0.7rem;
+}
+
+.dob-craft-simulator__result > div {
+  display: grid;
+  align-content: start;
+  gap: 0.25rem;
+  min-width: 0;
+  padding: 0.65rem;
+  border: 1px solid var(--dob-border);
+  background: rgb(7 22 28 / 48%);
+}
+
+.dob-craft-simulator__result strong {
+  overflow-wrap: anywhere;
+  color: var(--dob-text-strong);
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.dob-craft-simulator__help,
+.dob-craft-simulator__note {
+  margin: 0.8rem 0 0;
+  line-height: 1.5;
+}
+
+.dob-craft-simulator__note {
+  color: var(--dob-gold-hover);
+}
+
+@media screen and (max-width: 59.984375em) {
+  .dob-craft-simulator__layout,
+  .dob-craft-simulator__layout.has-workbench,
+  .dob-craft-simulator__fields {
+    grid-template-columns: 1fr;
+  }
+
+  .dob-craft-simulator__list {
+    max-height: 22rem;
+  }
+
+  .dob-craft-simulator__result {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 44.984375em) {
+  .dob-craft-simulator {
+    padding: 0.8rem;
+  }
+
+  .dob-craft-simulator__selected {
+    display: grid;
+  }
+
+  .dob-craft-simulator__selected > strong {
+    text-align: left;
+  }
+
+  .dob-craft-simulator__menu button,
+  .dob-craft-simulator__screen-top {
+    align-items: flex-start;
+  }
+
+  .dob-craft-simulator__menu button {
+    display: grid;
+  }
+
+  .dob-craft-simulator__screen-top {
+    display: grid;
+  }
+
+  .dob-craft-simulator__screen-top h4 {
+    text-align: left;
+  }
+
+  .dob-craft-simulator__result {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 800px) {
   .dob-inventory-controls {
     grid-template-columns: 1fr;

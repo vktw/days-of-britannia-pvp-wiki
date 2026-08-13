@@ -179,7 +179,7 @@ treino.
 - [Stats, skills, buffs e raça](../personagem.md)
 - [Mapas e viagem](../mundo/mapas-viagem.md)
 - [Comandos de jogador](../comandos.md)
-- [Sistemas habilitados e desativados](../sistemas/index.md)
+- [Sistemas e limites do ruleset](../sistemas/index.md)
 - [Ultima Online Brasil: shards, servidores e comunidade](ultima-online-brasil.md)
 
 !!! success "Status: Live 0.26.3"

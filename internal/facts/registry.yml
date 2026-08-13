@@ -49,9 +49,9 @@ entries:
     live_version: "0.21.0"
     verification_date: "2026-08-06"
     approved_source: "live-server/v0.21.0"
-    public_reference: "docs/sistemas-desativados.md"
-    canonical_pt: "docs/sistemas-desativados.md"
-    english_counterpart: "docs/sistemas-desativados.en.md"
+    public_reference: "docs/sistemas/index.md"
+    canonical_pt: "docs/sistemas/index.md"
+    english_counterpart: "docs/sistemas/index.en.md"
     owner: server-owner
     review_after: null
   - id: player-command-arena
@@ -186,16 +186,16 @@ entries:
     english_counterpart: "docs/sistemas/achievements.en.md"
     owner: pvm-maintainer
     review_after: null
-  - id: combat-0220-rules
-    claim: "Live 0.23.3 applies the documented combat changes: 1.60 Physical Resist baseline, player-only 12-tile Detect Hidden, one-second Harm with 5-7 PvP damage, town-legal spell casting, and Fire Field self-damage with 1.6-second repeat pulses."
+  - id: pvp-overview-0263-live
+    claim: "The public PvP overview describes the live pressure-and-response model, the same combat rules in open PvP and during active Arena fights, automatic bandage treatment for poison, and the fixed base cast delays and mana costs of the listed Magery spells."
     status: live
     source_status: approved
-    live_version: "0.23.3"
-    verification_date: "2026-08-10"
-    approved_source: "live-server/v0.23.3"
-    public_reference: "docs/combate/magery.md"
-    canonical_pt: "docs/combate/magery.md"
-    english_counterpart: "docs/combate/magery.en.md"
+    live_version: "0.26.3"
+    verification_date: "2026-08-13"
+    approved_source: "live-server/v0.26.3"
+    public_reference: "docs/combate/index.md"
+    canonical_pt: "docs/combate/index.md"
+    english_counterpart: "docs/combate/index.en.md"
     owner: pvp-maintainer
     review_after: null
   - id: bloody-bandages
@@ -221,18 +221,6 @@ entries:
     canonical_pt: "docs/sistemas/daily-dungeon.md"
     english_counterpart: "docs/sistemas/daily-dungeon.en.md"
     owner: pvm-maintainer
-    review_after: null
-  - id: invisibility-impact
-    claim: "The public invisibility page documents impact, Detect Hidden timing, and PvM concealment-break rules."
-    status: live
-    source_status: approved
-    live_version: "0.23.3"
-    verification_date: "2026-08-10"
-    approved_source: "live-server/v0.23.3"
-    public_reference: "docs/combate/invisibilidade.md"
-    canonical_pt: "docs/combate/invisibilidade.md"
-    english_counterpart: "docs/combate/invisibilidade.en.md"
-    owner: pvp-maintainer
     review_after: null
   - id: britannia-rarities
     claim: "The public rare-spawns page documents the rare Phoenix, Fire Feathers, and player-facing rare-event discovery."
@@ -457,9 +445,9 @@ entries:
     live_version: "0.26.3"
     verification_date: "2026-08-13"
     approved_source: "live-server/v0.26.3"
-    public_reference: "docs/combate/melee-archery.md"
-    canonical_pt: "docs/combate/melee-archery.md"
-    english_counterpart: "docs/combate/melee-archery.en.md"
+    public_reference: "docs/itens/armas.md"
+    canonical_pt: "docs/itens/armas.md"
+    english_counterpart: "docs/itens/armas.en.md"
     owner: combat-maintainer
     review_after: null
   - id: young-pvm-xp-0261-live
@@ -553,20 +541,20 @@ entries:
     live_version: "0.26.3"
     verification_date: "2026-08-13"
     approved_source: "live-server/v0.26.3"
-    public_reference: "docs/combate/cura-recursos.md"
-    canonical_pt: "docs/combate/cura-recursos.md"
-    english_counterpart: "docs/combate/cura-recursos.en.md"
+    public_reference: "docs/combate/index.md"
+    canonical_pt: "docs/combate/index.md"
+    english_counterpart: "docs/combate/index.en.md"
     owner: combat-maintainer
     review_after: null
   - id: craft-reference-0263-live
-    claim: "Live 0.26.3's public Craft reference lists the official materials, costs, minimum skills, DoB Tools creation reference points, and separated success or Exceptional rules for the documented special recipes; unresolved endpoints remain withheld from the local preview."
+    claim: "Live 0.26.3's public Craft section lists the official materials, costs, minimum skills, DoB Tools creation reference points, and separated success or Exceptional rules for the documented recipes; the approved Bloodrock/Blackrock endpoint is 105.0 and the Fire Bow endpoint beyond the public 100.0 point remains withheld."
     status: live
     source_status: approved
     live_version: "0.26.3"
     verification_date: "2026-08-13"
     approved_source: "live-server/v0.26.3"
-    public_reference: "docs/itens/craft.md"
-    canonical_pt: "docs/itens/craft.md"
-    english_counterpart: "docs/itens/craft.en.md"
+    public_reference: "docs/craft/index.md"
+    canonical_pt: "docs/craft/index.md"
+    english_counterpart: "docs/craft/index.en.md"
     owner: items-maintainer
     review_after: null

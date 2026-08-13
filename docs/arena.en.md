@@ -14,6 +14,11 @@ compatible arena, train against the **PvP Trainer**.
 Arena NuJel'm is in Felucca. It accepts player duels only in **Personal Loot**
 mode. The PvP Trainer remains available exclusively in Moonglow Arena.
 
+During a fight, the Arena uses the same rules as open PvP for hit chance,
+damage, poison, healing, bandages, cast delay, and mana. Arena-specific
+restrictions belong to preparation, the area, session timing, and loot; see the
+[PvP guide](combate/index.md) to understand how those rules combine in combat.
+
 ## Duel modes
 
 Player duels in the compatible arenas offer two modes:

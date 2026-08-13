@@ -3,9 +3,10 @@
 Days of Britannia preserves systems compatible with the shard's objective and neutralizes modern mechanics that would alter classic combat.
 
 - [Enabled systems](habilitados.md)
+- [Arena and training](../arena.md)
 - [Achievements](achievements.md)
 - [PvM Mastery](pvm-mastery.md)
-- [Systems disabled](../sistemas-desativados.md)
+- [PvM rewards](../itens/recompensas-pvm.md): Loot Packs, jewelry, and PvM-linked amulets.
 
 ## Exploration systems
 
@@ -15,6 +16,26 @@ Days of Britannia preserves systems compatible with the shard's objective and ne
 - [Whispers of Britannia](whispers-britannia.md): public rumors and Town Crier leads.
 
 These pages explain only what is available to players and how it affects the experience.
+
+## Ruleset limits
+
+The classic ruleset does not include **Weapon Abilities**, **Special Moves**,
+Necromancy, Chivalry, Bushido, Ninjitsu, Spellweaving, Mysticism, Throwing,
+Imbuing, Slayer, Super Slayer, or modern UO Skill Masteries. DoB's own [PvM
+Mastery](pvm-mastery.md) is the shard's exception.
+
+Talismans, set bonuses, Extended Weapon Attributes, special artifact bonuses,
+Virtues, Battle Lust, magical foods, Item Insurance, pet bonding, and LRC, LMC,
+Faster Casting, and Faster Cast Recovery also grant no PvP advantage. AOS Fire,
+Cold, Poison, and Energy resistances do not enter PvP damage.
+
+Clean Up Britannia, Ultima Store, and Vice vs Virtue are unavailable. Alchemy
+remains relevant to craft success but does not change finished potion potency;
+Inscription does not modify magic damage, Reactive Armor, Protection, or Magic
+Reflection.
+
+Controlled pets and player-owned summons cannot attack or damage other players,
+but remain usable normally in PvM.
 
 !!! success "Status: Live 0.26.3"
     The availability below corresponds to the official ruleset.
