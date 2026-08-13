@@ -17,7 +17,7 @@ Consulte [Seu primeiro personagem](personagem-inicial.md) para a lista completa 
 
 Britain é o local inicial, mas **Nujelm** é o Safe Haven do servidor. A região definida bloqueia conflito entre jogadores, stealing, ações nocivas de pets ou summons, viagens mágicas, Fields e dano recebido.
 
-Use a rede pública de moongates de Felucca para viajar até Nujelm. No Live 0.23.5, nenhum personagem recebe ganho de skill dentro do Safe Haven, inclusive Newcomers.
+Use a rede pública de moongates de Felucca para viajar até Nujelm. No Live 0.26.3, nenhum personagem recebe ganho de skill dentro do Safe Haven, inclusive Newcomers.
 
 [Conheça Nujelm Safe Haven](../mundo/nujelm.md) antes de sair para uma caçada. Ocllo continua sendo uma cidade de Felucca sem guards, mas não é mais o ponto seguro do shard.
 
@@ -66,5 +66,5 @@ Personagens Newcomer seguem o retorno automático próprio. Leia [Newcomer e pro
 
 Depois de avançar na trilha inicial, escolha um objetivo pequeno: descobrir uma Maestria, testar duas armas, conhecer Nujelm ou Ocllo, ou completar uma luta de treino.
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Um roteiro curto para organizar o personagem e escolher o primeiro objetivo.

@@ -70,5 +70,5 @@ Targeted spells normally have range 12. Felucca is the only public facet; Tramme
 
 Resurrection may return movable corpse items when the ghost is nearby and accepts resurrection.
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Delays, range, and effects needed to play and plan combat.

@@ -76,7 +76,7 @@ O Live adicionou cinco Maestrias que convertem parte de recursos defensivos ou o
 
 Essas cinco Maestrias escalam de 5% a 9,5% e preservam as exclusões de PvP e Arena. A primeira Maestria aprendida pode entrar automaticamente na build no nível 1 quando o log de combate está habilitado; o Compendium mostra orientações e controles mais claros.
 
-## Catálogo do Live 0.23.5
+## Catálogo do Live 0.26.3
 
 ### Ataque e recursos
 
@@ -112,8 +112,9 @@ Essas cinco Maestrias escalam de 5% a 9,5% e preservam as exclusões de PvP e Ar
 | **Versatile Hunter** | Fey | Synergy | Fortalece o primeiro ataque direto contra tipos de criatura que não foram enfrentados recentemente. Favorece rotas variadas. |
 | **Resonant Cascade** | Arachnid | Area | Pode propagar Peacemaking direcionada, Discordance ou Provocation para outras criaturas elegíveis próximas. |
 | **Summoned Vitality** | Reptilian | Basic | Aumenta a vida máxima e atual de summons criados pelo próprio jogador enquanto estiver ativa. |
+| **Summoner's Bond** | Arachnid | Basic | Redireciona parte do dano PvM elegível de summons criados pelo jogador para o invocador, preservando um piso seguro de 10 Hits. |
 
-## Ruptura Arcana no Live 0.23.5
+## Ruptura Arcana
 
 **Ruptura Arcana** é uma nova Maestria PvM. Com ela ativa, dano direto positivo causado pelo jogador pode fazer uma criatura selvagem falhar enquanto conjura. O efeito pertence aos encontros PvM elegíveis; não o trate como regra geral de PvP ou da Arena.
 
@@ -157,7 +158,7 @@ Resonant Cascade pode começar depois de uma **Peacemaking direcionada**, **Disc
 
 ### Summoner resistente
 
-- **Base:** Summoned Vitality para melhorar a sobrevivência dos summons próprios.
+- **Base:** Summoned Vitality para melhorar a sobrevivência dos summons próprios; Summoner's Bond para transferir parte do dano elegível ao invocador.
 - **Espaços flexíveis:** Spell Damage Increase para os ataques mágicos diretos do personagem, recuperação de mana e resistências adequadas à caçada.
 
 ## Como escolher seus cinco espaços
@@ -180,5 +181,5 @@ Consulte [Recompensas PvM](../itens/recompensas-pvm.md) para XP, Loot Packs, joi
 
 Consulte também [Achievements](achievements.md) para a trilha inicial e as conquistas de atividades.
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     O Hunter's Compendium oferece progressão própria para personagens que enfrentam criaturas.

@@ -138,3 +138,27 @@ terms:
     en: "Deadly Poison"
     protected: true
     notes: "Official poison name; use the same capitalization."
+
+  - id: summoners-bond
+    pt_br: "Summoner's Bond"
+    en: "Summoner's Bond"
+    protected: true
+    notes: "Official PvM Mastery name."
+
+  - id: eyes-of-newt
+    pt_br: "Eyes of Newt"
+    en: "Eyes of Newt"
+    protected: true
+    notes: "Official resource and item name."
+
+  - id: dragon-blood-clothing-dye
+    pt_br: "Dragon Blood Clothing Dye"
+    en: "Dragon Blood Clothing Dye"
+    protected: true
+    notes: "Official service/item name."
+
+  - id: command-options
+    pt_br: ".options"
+    en: ".options"
+    protected: true
+    notes: "Player command; preserve punctuation and case."

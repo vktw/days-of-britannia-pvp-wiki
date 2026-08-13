@@ -15,15 +15,23 @@ A custom Loot Pack delivers one item from one of these categories:
 
 More resilient creatures offer more Loot Pack opportunities. Selection remains random, and not every death produces a pack or Scroll of Knowledge.
 
+## Eyes of Newt
+
+NPCs with **Magery above 50.0** may carry 1 to `Magery/10` Eyes of Newt in death
+loot and may also provide the resource when carved. For that carving, Forensics
+uses the normal skill check and adds `ceil((Forensics - 60) / 2)`% with no cap;
+the result is reported by a system message. The special contract delivers only
+Eyes of Newt instead of the normal carving resource set.
+
 ## Magical jewelry
 
 Magical earrings, bracelets, and rings can increase STR, DEX, or INT while equipped. Jewelry uses the classic appearance of its item type and has durability.
 
 Physical hits can wear down one equipped stat jewel. These jewels can be repaired through normal **Tinkering**, subject to the usual weakening from repeated repairs.
 
-## Arena jewelry and Mastery bonuses in Live 0.23.5
+## Arena jewelry and Mastery bonuses in Live 0.26.3
 
-In Tinkering's **DoB Jewelry** category, Live 0.23.5 includes only three pieces with the fixed Arena jewelry bonuses:
+In Tinkering's **DoB Jewelry** category, Live 0.26.3 includes only three pieces with the fixed Arena jewelry bonuses:
 
 - **Magic Earrings:** +5 INT.
 - **Magic Ring:** +5 STR.
@@ -39,9 +47,11 @@ An action related to the equipped skill consumes one use. The final use still be
 
 ## Newcomer
 
-Characters with the eligible Young benefit receive 25% additional PvM Mastery experience and creature gold. Normal participation, range, and looting-right rules still apply.
+Characters with the eligible Young benefit receive **100% additional PvM Mastery
+experience** and **25% additional creature gold**. Normal participation, range,
+and looting-right rules still apply.
 
 See also [PvM Mastery](../sistemas/pvm-mastery.md) and [Threat Rating](../mundo/threat-rating.md).
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Eligible creatures reward the group according to the scale of the encounter.

@@ -53,12 +53,12 @@ Armas comuns permanecem em **Iron**. Na Blacksmithy, o submenu **DoB Weapons** s
 
 | Linha | Recurso | Custo | Blacksmithy | Bônus de dano |
 |---|---|---:|---:|---:|
-| **Bloodrock** | Bloodrock Ingots | 30 ingots | 75.0–110.0 | +3 nas duas extremidades da faixa de dano |
-| **Blackrock** | Blackrock Ingots | 30 ingots | 75.0–110.0 | +4 nas duas extremidades da faixa de dano |
+| **Bloodrock** | Bloodrock Ingots | 30 ingots | 75.0–105.0 | +3 nas duas extremidades da faixa de dano |
+| **Blackrock** | Blackrock Ingots | 30 ingots | 75.0–105.0 | +4 nas duas extremidades da faixa de dano |
 
-A chance de sucesso é 0% até 75.0, 50% em 92.5 e 100% em 110.0 ou mais, usando a Blacksmithy efetiva. Uma arma comum não troca para metal especial: as receitas comuns continuam exigindo Iron.
+A chance de sucesso é 0% até 75.0, 50% em 92.5 e 100% em 105.0 ou mais, usando a Blacksmithy efetiva. Uma arma comum não troca para metal especial: as receitas comuns continuam exigindo Iron.
 
-## Bowcraft no Live 0.23.5
+## Bowcraft no Live 0.26.3
 
 Bowcraft passa a oferecer duas armas na categoria **DoB Weapons**. As receitas usam recursos diretos e os bônus abaixo são próprios de cada arma:
 
@@ -69,6 +69,11 @@ Bowcraft passa a oferecer duas armas na categoria **DoB Weapons**. As receitas u
 
 As Fire Feathers da Rare Phoenix funcionam na receita do Fire Bow. Armas produzidas pela Bowcraft deixam de receber bônus de combate derivados da madeira escolhida; o recurso continua identificando o item, enquanto os efeitos próprios de Fire Bow e Elven Bow permanecem.
 
+No PvM do Live 0.26.3, o Elven Bow é a exceção explícita à normalização da
+skill: seu +10 de Archery pode produzir **82,5%** de chance-base em 110.0, e seu
++10 de Tactics continua influenciando o dano acima de 100. Essa exceção não
+altera a fórmula de PvP nem cria um cap geral de skill.
+
 ## Kits oficiais
 
 Arena e o Starter PvP Iron kit compartilham sete opções: **Bow, War Mace, Kryss, Bardiche, Black Staff, War Hammer e Axe**. Kryss, Bardiche e Axe chegam com Deadly Poison; as outras quatro mantêm seu papel sem poison.
@@ -77,5 +82,5 @@ Nem toda arma existente no cliente circula para jogadores. O catálogo do shard 
 
 Veja [Melee e Archery](../combate/melee-archery.md) e [Poison](../combate/poison.md).
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Escolha armas pelo papel no combate, não por uma planilha isolada de dano.

@@ -38,5 +38,5 @@ For the same hit that lands:
 
 **Protection changes the final result**, but full coverage also matters. See [Armor and Parrying](armor-parrying.md) when assembling your equipment.
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Practical examples for equipment decisions without reproducing the server's internal formula.

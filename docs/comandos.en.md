@@ -10,7 +10,16 @@ Open the Achievements catalogue, track progress, and review unlocked rewards. Th
 
 ## `.patchnotes`
 
-Open the latest version notes within the game. The panel can switch between Portuguese and English while it remains open.
+Open the latest version notes within the game. The panel follows the character's
+language preference and can switch between Portuguese and English while it
+remains open.
+
+## `.options`
+
+Open character preferences, including **Português** or **English** for bilingual
+menus. When a translation does not exist, the system uses the available
+language. The preference also applies to Help, Patch Notes, Achievements, and
+the Hunter's Compendium.
 
 ## `.pvp`
 
@@ -32,5 +41,5 @@ The Ultima Store is disabled for the Sphere 51a ruleset. Purchases, deliveries, 
 
 Shows the selected Daily Dungeon and the time remaining until the next rotation. Use it before heading out to take advantage of the PvM Mastery experience and Loot Pack bonuses.
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     The commands below are available to players on the official server.

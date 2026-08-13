@@ -2,6 +2,42 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.26.3 · PvM hit chance by attack skill
+
+- In PvM, Melee and Archery attacks use one linear base curve based on effective attack skill, reaching 75% at 100.0; the relative PvM Mastery bonus is applied separately.
+- The same attack skill keeps the same base chance against creatures with different defenses; the PvP formula remains unchanged.
+- The Elven Bow is the explicit exception: its +10 Archery may remain effective above 100, reaching 82.5% base PvM chance at 110.0; its +10 Tactics also affects damage above 100.
+
+## 0.26.2 · Unicode and Patch Notes history
+
+- Fix: the Portuguese Hunter's Compendium, Patch Notes, and Player Options now display accented characters correctly.
+- The in-game Patch Notes panel starts at version 0.21.0; earlier history remains preserved internally.
+
+## 0.26.1 · Young Mastery bonus
+
+- Eligible Young characters receive 100% additional PvM Mastery XP. Gold, skill gain, and all other Young benefits remain unchanged.
+
+## 0.26.0 · Language preference
+
+- The new `.options` command lets each character choose Português or English.
+- Bilingual menus use the preferred language when a translation exists and fall back to the available language otherwise; Help, Patch Notes, Achievements, and the Hunter's Compendium share the preference.
+
+## 0.25.0 · Eyes of Newt, Total Mana, and Summoner's Bond
+
+- Fix: special carvings now deliver only their authorized resource; Eyes of Newt and Rare Phoenix no longer release the normal resource set.
+- NPCs with Magery above 50.0 may carry Eyes of Newt in death loot and provide them when carved; Forensics adds `ceil((Forensics - 60) / 2)`% with no cap.
+- Total Mana Potion now uses 5 Eyes of Newt, one Bottle, and 65.0–105.0 Alchemy; alchemists outside guarded regions sell Eyes of Newt for 100gp.
+- Summoner's Bond redirects part of eligible PvM damage from player-created summons to their summoner while preserving a safe 10-Hit floor.
+- A specific Moonglow area in Felucca (`X=4399..4458`, `Y=1176..1187`) has no guards; Serpent's Hold has no guards in Felucca or Trammel.
+
+## 0.24.0 · Dragon Blood, bandages, and Safe Haven
+
+- Moonglow and Serpent's Hold now offer a Dragon Blood Clothing Dye service with materials and a dynamic gold price; the dye uses 150 matching ingots, 1 Dragon Blood, and has one charge.
+- The Britain farming strip in Felucca between `X=1130..1261` and `Y=1542..1732` has no guards; Trammel is unchanged.
+- Bandages capture treatment at use: initial poison is immediate, while healing and bleed keep their choice during the delay.
+- Classic Jewelry now uses native ten-recipe pages with Next/Prev navigation and correct creation and Details mapping.
+- Nujelm Safe Haven now blocks every spellcasting start outside Arena NuJelm's own overlap.
+
 ## 0.23.5 · Bowcraft, jewelry, PvM Mastery, and world
 
 - Fire Feathers carved from a Rare Phoenix can now be used to craft the Fire Bow.

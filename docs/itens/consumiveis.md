@@ -6,9 +6,28 @@ Potions bebíveis compartilham um cooldown global de 15 segundos. Greater Heal r
 
 Poison Potions não são ingeridas quando aplicadas em armas e não acionam o cooldown das potions bebíveis; elas utilizam o fluxo da skill Poisoning.
 
+## Eyes of Newt e Total Mana
+
+Alquimistas fora de regiões guardadas vendem **Eyes of Newt** por 100gp; o
+estoque começa em 20 unidades e segue a reposição normal de reagentes. A
+**Total Mana Potion** usa 5 Eyes of Newt e uma Bottle e pode ser criada com
+Alchemy de **65.0 a 105.0**. No menu, a receita aparece como `total mana`; o
+efeito da potion permanece o mesmo e ela não é consumida quando a mana já está
+cheia.
+
+## Dragon Blood Clothing Dye
+
+Moonglow e Serpent's Hold oferecem um serviço de dye cosmético com Dragon Blood.
+Cada dye consome 150 ingots compatíveis, 1 Dragon Blood e uma cobrança dinâmica
+em gold com piso de 50.000; o dye possui uma carga.
+
 ## Bandages
 
 Bandages removem poison imediatamente sem curar vida no mesmo uso. Sem poison, a cura leva 3,5 segundos e alcança 30-40 hits com Healing e Anatomy em 100.0.
+
+O tratamento é capturado no momento do uso: poison presente no início é tratado
+imediatamente; sem poison no início, a cura de vida mantém sua escolha durante o
+delay mesmo que poison apareça depois.
 
 Quando uma bandage limpa é usada com sucesso, ela vira uma **Bloody Bandage** com o mesmo peso. Se você estiver sobrecarregado, o resultado cai no chão em vez de aumentar o peso carregado. Uma unidade de água em uma fonte lava o stack inteiro e envia as bandages limpas para a mochila.
 
@@ -22,7 +41,7 @@ consome uso.
 Provisioners vendem Hatchet, Pickaxe, Shovel e Fishing Pole básicos. Tinkers
 vendem Hatchet, Pickaxe e Shovel, enquanto Carpenters vendem Fishing Pole.
 
-## DoB Tools no Live 0.23.5
+## DoB Tools no Live 0.26.3
 
 A Tinkering organiza as ferramentas especiais no submenu **DoB Tools**. Cada família usa um metal público, tem sua própria exigência de Tinkering e aparece somente para as ferramentas compatíveis.
 
@@ -43,5 +62,5 @@ Novos personagens recebem Spellbook completo, Runebook vazio e cavalo shrinkado.
 
 Veja [Cura e recursos](../combate/cura-recursos.md) para todas as faixas e delays.
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Quantidades de kits e efeitos detalhados correspondem ao servidor oficial.

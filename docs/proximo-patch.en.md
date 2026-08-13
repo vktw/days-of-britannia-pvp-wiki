@@ -4,5 +4,5 @@ This page will be updated when content is approved for publication. Released sys
 
 For now, see [Achievements](sistemas/achievements.md), [PvM Mastery](sistemas/pvm-mastery.md), and [PvM rewards](itens/recompensas-pvm.md) for the current additions.
 
-!!! info "Current version: Live 0.23.5"
+!!! info "Current version: Live 0.26.3"
     No next patch has been publicly announced yet.

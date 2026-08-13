@@ -2,9 +2,18 @@
 
 ## Hit chance
 
-With attack and defense at 100.0, the initial PvP hit chance is **90%**. In PvM, it is **50%**. Differences between offensive skill and the target's defense change that chance.
+With attack and defense at 100.0, the initial PvP hit chance is **90%**. In
+Live 0.26.3 PvM, standard weapons use the base curve
+`max(2%, 75% * clamp(skill, 0, 100) / 100)`: effective attack skill reaches
+**75% at 100.0**, with a 2% operational floor.
 
-Defense uses the skill appropriate to the equipped weapon. An unarmed character relies on Wrestling.
+In the PvM branch, base chance uses the weapon's effective attack skill and is
+not reduced by the creature's defense. The same skill keeps the same base chance
+against targets with different defenses. The relative PvM Mastery bonus is
+applied after this step; the PvP formula remains based on the defense matchup.
+
+Defense uses the skill appropriate to the equipped weapon in the PvP path. An
+unarmed character relies on Wrestling.
 
 ## Speed
 
@@ -25,10 +34,10 @@ In Archery, walking does not discard a prepared shot. The arrow is released when
 
 In PvP, hitting a region without effective armor grants **25% additional damage**. Protection is applied afterward. See [Armor and Parrying](armor-parrying.md).
 
-## Bowcraft bows in Live 0.23.5
+## Bowcraft bows in Live 0.26.3
 
 - **Fire Bow:** receives +6 thematic damage and shows only the Fireball impact on the target.
-- **Elven Bow:** uses Speed 3.00, 7–12 base damage, and grants +10 Tactics and +10 Archery while equipped; both skills return to normal when it is unequipped.
+- **Elven Bow:** uses Speed 3.00, 7–12 base damage, and grants +10 Tactics and +10 Archery while equipped; both skills return to normal when it is unequipped. In PvM, its +10 Archery may remain effective above 100, reaching **82.5%** base chance at 110.0; its +10 Tactics also affects damage above 100.
 
 See [Classic weapons](../itens/armas.md) for resources and crafting curves.
 
@@ -43,5 +52,5 @@ Archery weapons cannot be used with body plate. Plate Gorgets and shields are ex
 
 See [Classic weapons](../itens/armas.md) and [Damage examples](exemplos-dano.md).
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Practical rules for choosing weapons, distance, and attack pace.

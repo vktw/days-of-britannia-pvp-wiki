@@ -9,9 +9,12 @@ Stuck e recuperação.
 - Conflito entre jogadores, stealing e ações nocivas de pets ou summons ficam bloqueados dentro da região do Safe Haven.
 - Personagens e criaturas controladas não recebem ganhos de skill por ações feitas dentro do Safe Haven, inclusive Newcomers.
 - Fields, Recall, Mark, Gate Travel e Teleport ficam bloqueados dentro da região do Safe Haven.
+- Qualquer início de spellcasting fica bloqueado dentro do Safe Haven fora da sobreposição governada pela Arena NuJelm.
 - Personagens e criaturas controladas não recebem dano dentro da região do Safe Haven.
 
-No Live 0.23.5, essas três regras valem dentro do Safe Haven. O bônus de experiência e gold de Newcomer continua existindo em encontros elegíveis fora dessa restrição; ele não libera ganho de skill dentro do Safe Haven.
+No Live 0.26.3, essas regras valem dentro do Safe Haven. O bônus de experiência
+e gold de Newcomer continua existindo em encontros elegíveis fora dessa
+restrição; ele não libera ganho de skill dentro do Safe Haven.
 
 O Safe Haven não transforma toda a cidade em uma área sem risco fora da região definida. Observe a indicação de região antes de iniciar uma atividade.
 
@@ -21,5 +24,5 @@ Mortes fora da Arena, a opção Stuck e os fluxos de recuperação usam Nujelm c
 
 A [Arena NuJel'm](../arena.md) fica em Felucca e usa as mesmas regras de duelo entre jogadores da Arena Yew. A área da Arena prevalece sobre o Safe Haven quando as duas regiões se encontram.
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Nujelm é o Safe Haven oficial e o ponto central de retorno seguro em Felucca.

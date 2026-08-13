@@ -47,5 +47,5 @@ maximum of 25 steps. Walking consumes the limit; exhausting it reveals the
 character, and running reveals immediately. Armor does not block or reduce
 Stealth effectiveness.
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Stats, skills, caps and race correspond to the official server.

@@ -11,5 +11,5 @@ Use the classification shown in game to evaluate the creature in front of you. T
 
 This reading combines the wiki reference with the actual encounter situation.
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     The classification visible in game is the practical source for evaluating each creature.

@@ -2,6 +2,42 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.26.3 · Chance de acerto PvM por skill
+
+- No PvM, ataques de Melee e Archery usam uma curva-base linear baseada na skill de ataque efetiva, chegando a 75% em 100.0; o bônus relativo de PvM Mastery é aplicado separadamente.
+- A mesma skill ofensiva mantém a mesma chance-base contra criaturas com defesas diferentes; a fórmula de PvP permanece inalterada.
+- O Elven Bow é a exceção explícita: seu +10 de Archery pode ser usado acima de 100, chegando a 82,5% de chance-base PvM em 110.0; seu +10 de Tactics também influencia o dano acima de 100.
+
+## 0.26.2 · Unicode e histórico das Patch Notes
+
+- Correção: Hunter's Compendium, Patch Notes e Player Options em português passam a exibir os caracteres acentuados corretamente.
+- O painel de Patch Notes dentro do jogo começa na versão 0.21.0; o histórico anterior permanece preservado internamente.
+
+## 0.26.1 · Bônus Young de Maestria
+
+- Personagens Young elegíveis recebem 100% adicionais de XP de Maestria PvM. Gold, ganho de skill e os demais benefícios de Young permanecem inalterados.
+
+## 0.26.0 · Preferência de idioma
+
+- O novo comando `.options` permite escolher Português ou English por personagem.
+- Menus bilíngues usam o idioma preferido quando a tradução existe e recorrem ao idioma disponível quando ela não existe; Help, Patch Notes, Achievements e Hunter's Compendium compartilham a preferência.
+
+## 0.25.0 · Eyes of Newt, Total Mana e Summoner's Bond
+
+- Correção: carvings especiais entregam somente o recurso autorizado; Eyes of Newt e Rare Phoenix não liberam o conjunto de recursos normais.
+- NPCs com Magery acima de 50.0 podem carregar Eyes of Newt no loot e fornecê-los ao carving; Forensics acrescenta `ceil((Forensics - 60) / 2)`% sem teto.
+- Total Mana Potion passa a usar 5 Eyes of Newt, uma Bottle e Alchemy de 65.0–105.0; alquimistas fora de regiões guardadas vendem Eyes of Newt por 100gp.
+- Summoner's Bond transfere parte do dano PvM elegível de summons criados pelo jogador para o invocador, preservando um piso seguro de 10 Hits.
+- Uma área específica de Moonglow em Felucca (`X=4399..4458`, `Y=1176..1187`) fica sem guards; Serpent's Hold fica sem guards em Felucca e Trammel.
+
+## 0.24.0 · Dragon Blood, bandagens e Safe Haven
+
+- Moonglow e Serpent's Hold passam a oferecer um serviço de Dragon Blood Clothing Dye com materiais e gold dinâmico; o dye usa 150 ingots compatíveis, 1 Dragon Blood e tem uma carga.
+- A faixa agrícola de Britain em Felucca entre `X=1130..1261` e `Y=1542..1732` fica sem guards; Trammel permanece inalterada.
+- Bandagens capturam o tratamento no momento do uso: poison inicial é imediato, enquanto cura e bleed mantêm sua escolha durante o delay.
+- Classic Jewelry passa a usar páginas nativas de dez receitas com Next/Prev e mapeamento correto para criação e Details.
+- Nujelm Safe Haven passa a bloquear todo início de spellcasting fora da sobreposição própria da Arena NuJelm.
+
 ## 0.23.5 · Bowcraft, joias, Maestria PvM e mundo
 
 - Fire Feathers obtidas ao esculpir uma Rare Phoenix passam a poder ser usadas para fabricar o Fire Bow.

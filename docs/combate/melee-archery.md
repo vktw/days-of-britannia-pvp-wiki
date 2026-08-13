@@ -2,9 +2,18 @@
 
 ## Chance de acerto
 
-Com ataque e defesa em 100.0, a chance inicial de acerto em PvP é **90%**. No PvM, é **50%**. Diferenças entre a skill ofensiva e a defesa do alvo alteram essa chance.
+Com ataque e defesa em 100.0, a chance inicial de acerto em PvP é **90%**. No
+PvM do Live 0.26.3, armas padrão usam a curva-base
+`max(2%, 75% * clamp(skill, 0, 100) / 100)`: a skill de ataque efetiva chega a
+**75% em 100.0**, com piso operacional de 2%.
 
-A defesa considera a skill adequada ao equipamento usado. Sem arma, o personagem depende de Wrestling.
+No ramo PvM, a chance-base usa a skill ofensiva efetiva da arma e não é reduzida
+pela defesa da criatura. A mesma skill mantém a mesma chance-base contra alvos
+com defesas diferentes. O bônus relativo de PvM Mastery é aplicado depois dessa
+etapa; a fórmula de PvP continua baseada no confronto com a defesa.
+
+A defesa considera a skill adequada ao equipamento usado no caminho PvP. Sem
+arma, o personagem depende de Wrestling.
 
 ## Velocidade
 
@@ -25,10 +34,10 @@ Em Archery, caminhar não perde o disparo preparado. A flecha é liberada quando
 
 Em PvP, atingir uma região sem armor efetiva concede **25% de dano adicional**. Protection é aplicada depois. Consulte [Armor e Parrying](armor-parrying.md).
 
-## Arcos da Bowcraft no Live 0.23.5
+## Arcos da Bowcraft no Live 0.26.3
 
 - **Fire Bow:** recebe +6 de dano temático e mostra apenas o impacto de Fireball no alvo.
-- **Elven Bow:** usa Speed 3.00, dano base 7–12 e concede +10 de Tactics e +10 de Archery enquanto equipado; ao desequipar, as skills retornam ao valor normal.
+- **Elven Bow:** usa Speed 3.00, dano base 7–12 e concede +10 de Tactics e +10 de Archery enquanto equipado; ao desequipar, as skills retornam ao valor normal. No PvM, o +10 de Archery pode ser usado acima de 100, chegando a **82,5%** de chance-base em 110.0; o +10 de Tactics também influencia o dano acima de 100.
 
 Veja os recursos e as curvas de craft em [Armas clássicas](../itens/armas.md).
 
@@ -43,5 +52,5 @@ Armas de Archery não podem ser usadas com plate corporal. Plate Gorget e shield
 
 Veja [Armas clássicas](../itens/armas.md) e [Exemplos de dano](exemplos-dano.md).
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Regras práticas para escolher armas, distância e ritmo de ataque.

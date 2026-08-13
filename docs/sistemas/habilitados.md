@@ -20,14 +20,17 @@
 - Maestrias de recursos PvM: Mana Shield, Vigor Shield, Arcane Exertion, Blood Magic e Hit Stamina Leech.
 - Recompensas PvM proporcionais ao encontro, incluindo Loot Packs, joias e amuletos de skill.
 - `.help`, `.pvp` e `.skillcheck` para ajuda, preferências de PvP e testes de skill.
+- Preferência de idioma por personagem para menus bilíngues, ajustada por `.options`.
 - Retorno Stuck para Nujelm sob as condições do sistema.
 - Auto-account com até 10 contas por IP e até duas conexões externas simultâneas pelo mesmo endereço.
 
-## Novidades do Live 0.23.5
+## Novidades do Live 0.26.3
 
 - **Ruptura Arcana:** nova Maestria PvM que pode fazer uma criatura selvagem falhar durante uma conjuração quando dano direto positivo do jogador acerta.
+- **Elo do Invocador:** Summoner's Bond transfere parte do dano PvM elegível de summons criados pelo jogador para o invocador, preservando um piso seguro de 10 Hits.
+- **Preferência de idioma:** `.options` controla o idioma por personagem nos menus bilíngues disponíveis.
 
 Consulte as páginas específicas para limites e exceções. A presença nesta lista não significa que a mecânica mantenha o comportamento padrão do TrueUO.
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Lista resumida das mecânicas centrais disponíveis aos jogadores.

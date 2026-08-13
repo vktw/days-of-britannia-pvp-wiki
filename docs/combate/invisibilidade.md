@@ -39,5 +39,5 @@ Detect Hidden inicia uma busca sem cursor em uma área fixa de **12 tiles**. Agu
 
 As regras de invisibilidade valem para jogadores, criaturas e PvP Trainer quando a ação correspondente for usada. A busca ativa de Detect Hidden revela somente outros jogadores vivos e escondidos.
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Invisibilidade é avaliada no impacto real de ataques e magias.

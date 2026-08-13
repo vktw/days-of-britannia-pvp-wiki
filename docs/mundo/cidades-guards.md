@@ -12,13 +12,27 @@ Ocllo é uma cidade de Felucca sem guards e sem a antiga restrição especial de
 
 Somente os núcleos urbanos clássicos de Britain e Moonglow permanecem protegidos. As fazendas a oeste de Britain, ilhas periféricas de Moonglow e as áreas separadas dos moongates são desprotegidas. Observe a indicação de região e não presuma proteção apenas por estar perto da cidade.
 
-## A Turnip Field in Britain 2
+## Faixa agrícola de Britain em Felucca
 
-No Live 0.23.5, o campo `A Turnip Field in Britain 2` em Felucca não recebe proteção de guards. O campo equivalente em Trammel permanece inalterado, assim como o spawn de turnips.
+No Live 0.26.3, a faixa agrícola de Britain em Felucca entre **X=1130..1261**
+e **Y=1542..1732** não recebe proteção de guards. O campo
+`A Turnip Field in Britain 2` está dentro dessa correção; o campo equivalente em
+Trammel permanece inalterado, assim como o spawn de turnips.
 
 ## Moonglow em Trammel
 
 A configuração da região da cidade e do moongate de Moonglow em Trammel remove a proteção de guards para a operação controlada da Arena Moonglow.
+
+## Área específica de Moonglow em Felucca
+
+A área de Moonglow em Felucca entre **X=4399..4458** e **Y=1176..1187** não
+recebe proteção de guards. Essa é uma exceção regional: ela não remove a
+proteção da cidade inteira nem altera a regra equivalente de Trammel.
+
+## Serpent's Hold
+
+Serpent's Hold não recebe proteção de guards em Felucca nem em Trammel. Seus
+limites e conteúdo permanecem inalterados.
 
 ## Cemitérios canônicos de Felucca
 
@@ -36,5 +50,5 @@ retângulo, consulte a indicação de região antes de presumir proteção.
 
 Consulte [Arena e treinamento](../arena.md) para regras de entrada, interferência externa e devolução dos personagens.
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Esta página registra somente exceções confirmadas. A ausência de uma cidade na lista não significa que ela seja desprotegida.

@@ -14,7 +14,7 @@ hide:
 DOWNLOAD DOB LAUNCHER <span aria-hidden="true">↓</span>
 </a>
 <a class="dob-atlas-codex-action dob-atlas-codex-action--secondary" href="patches/">
-READ PATCH 0.23.5 <span aria-hidden="true">→</span>
+READ PATCH 0.26.3 <span aria-hidden="true">→</span>
 </a>
 </div>
 <div class="dob-atlas-mark" aria-hidden="true" hidden>
@@ -78,8 +78,8 @@ READ PATCH 0.23.5 <span aria-hidden="true">→</span>
 <section class="dob-atlas-update" aria-labelledby="dob-release-title">
 <div>
 <p class="dob-atlas-kicker">LATEST UPDATE</p>
-<h2 id="dob-release-title">0.23.5 · Bowcraft, jewelry, and PvM</h2>
+<h2 id="dob-release-title">0.26.3 · PvM combat, Young, and preferences</h2>
 </div>
-<p>Bowcraft, Mastery jewelry, Arcane Disruption, Nujelm Safe Haven, and rare events arrive in Live in this update.</p>
+<p>PvM hit chance now follows attack skill, the Young bonus reaches +100% XP, and the wiki tracks the new item, world, and preference rules.</p>
 <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

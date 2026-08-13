@@ -15,6 +15,10 @@ Poison não impede Heal, Greater Heal ou Greater Heal Potion.
 
 Bandage remove poison imediatamente, sem recuperar vida nessa aplicação. Sem poison, a cura termina após **3,5 segundos**. Usar bandage libera as mãos automaticamente; se o personagem estiver paralisado, elas já precisam estar vazias.
 
+O tratamento é capturado no momento do uso: poison presente no início é tratado
+imediatamente; sem poison no início, a cura de vida ou bleed mantém sua escolha
+durante o delay mesmo que poison apareça depois.
+
 Uma bandage limpa usada com sucesso vira Bloody Bandage. Uma fonte de água usa uma unidade para lavar o stack inteiro; se a mochila não comportar o resultado, ele cai no chão.
 
 Iniciar uma magia aceita pelo servidor cancela a bandage que ainda estiver em andamento. A bandage não é devolvida e não completa a cura depois. O tratamento imediato de poison não é afetado.
@@ -43,5 +47,5 @@ Com Focus 100.0, Meditation 100.0, INT 100 e sem Mana Regen de itens:
 
 Meditation ativa é mais rápida, mas não duplica integralmente a recuperação. Planeje janelas seguras antes de depender dela no combate.
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Valores e restrições que afetam decisões durante o combate.

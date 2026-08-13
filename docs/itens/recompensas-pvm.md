@@ -15,15 +15,24 @@ Um Loot Pack personalizado entrega um item de uma destas categorias:
 
 Criaturas mais resistentes oferecem mais oportunidades de Loot Pack. A seleção continua aleatória, e nem toda morte produz um pack ou Scroll of Knowledge.
 
+## Eyes of Newt
+
+NPCs com **Magery acima de 50,0** podem carregar de 1 até `Magery/10` Eyes of
+Newt no loot da morte e também podem fornecer o recurso ao serem esculpidos.
+Nesse carving, Forensics faz o teste normal e acrescenta
+`ceil((Forensics - 60) / 2)`% sem teto; o resultado é informado por uma mensagem
+do sistema. O contrato especial entrega somente Eyes of Newt, sem liberar o
+conjunto de recursos normais de carving.
+
 ## Joias mágicas
 
 Earrings, bracelets e rings mágicos podem aumentar STR, DEX ou INT enquanto estiverem equipados. As joias usam a aparência clássica de seu tipo e possuem durabilidade.
 
 Golpes físicos podem desgastar uma das joias de atributos equipadas. Elas podem ser reparadas pelo fluxo normal de **Tinkering**, sujeito ao desgaste próprio de reparos repetidos.
 
-## Joias da Arena e bônus de Maestria no Live 0.23.5
+## Joias da Arena e bônus de Maestria no Live 0.26.3
 
-Na categoria **DoB Jewelry** de Tinkering, o Live 0.23.5 inclui somente três peças com os bônus fixos das joias da Arena:
+Na categoria **DoB Jewelry** de Tinkering, o Live 0.26.3 inclui somente três peças com os bônus fixos das joias da Arena:
 
 - **Magic Earrings:** +5 INT.
 - **Magic Ring:** +5 STR.
@@ -39,9 +48,11 @@ Uma ação relacionada à skill equipada consome um uso. O último uso ainda ben
 
 ## Newcomer
 
-Personagens com o benefício Young elegível recebem 25% adicionais de experiência de Maestria PvM e gold de criaturas. As regras normais de participação, proximidade e direito ao loot continuam valendo.
+Personagens com o benefício Young elegível recebem **100% adicionais de
+experiência de Maestria PvM** e **25% adicionais de gold de criaturas**. As regras
+normais de participação, proximidade e direito ao loot continuam valendo.
 
 Veja também [Maestria PvM](../sistemas/pvm-mastery.md) e [Threat Rating](../mundo/threat-rating.md).
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Criaturas elegíveis recompensam o grupo conforme a escala do encontro.

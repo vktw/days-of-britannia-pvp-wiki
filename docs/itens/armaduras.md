@@ -48,5 +48,5 @@ A base de `Physical Resist` de armaduras e shields usa o multiplicador **1,60**.
 
 Veja [Armor e Parrying](../combate/armor-parrying.md).
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Cada peça protege somente a região corporal em que está equipada.

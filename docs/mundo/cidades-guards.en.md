@@ -14,13 +14,27 @@ Ocllo is an unguarded Felucca city without the former Safe Haven restriction on 
 
 Only the classic urban cores of Britain and Moonglow remain protected. The farms west of Britain, Moonglow's peripheral islands, and the separate moongate areas are unguarded. Watch the region indication and do not assume protection merely because you are near the city.
 
-## A Turnip Field in Britain 2
+## Britain farming strip in Felucca
 
-In Live 0.23.5, `A Turnip Field in Britain 2` in Felucca has no guard protection. The equivalent Trammel field remains unchanged, as does the turnip spawn.
+In Live 0.26.3, the Britain farming strip in Felucca between **X=1130..1261**
+and **Y=1542..1732** has no guard protection. `A Turnip Field in Britain 2`
+falls within this correction; the equivalent Trammel field remains unchanged, as
+does the turnip spawn.
 
 ## Moonglow in Trammel
 
 The configuration of the Moonglow city and moongate region in Trammel removes guard protection for the controlled operation of the Moonglow Arena.
+
+## Specific Moonglow area in Felucca
+
+The Moonglow area in Felucca between **X=4399..4458** and **Y=1176..1187** has
+no guard protection. This is a regional exception: it does not remove protection
+from the whole city or change the equivalent Trammel rule.
+
+## Serpent's Hold
+
+Serpent's Hold has no guard protection in Felucca or Trammel. Its existing bounds
+and content remain unchanged.
 
 ## Canonical Felucca cemeteries
 
@@ -38,4 +52,4 @@ indicator before assuming protection.
 
 See [Arena and Training](../arena.md) for rules for entry, external interference, and returning characters.
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"

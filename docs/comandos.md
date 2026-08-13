@@ -10,7 +10,16 @@ Abre o catálogo de Achievements, acompanha o progresso e mostra as recompensas 
 
 ## `.patchnotes`
 
-Abre as notas da versão mais recente dentro do jogo. O painel permite alternar entre português e inglês enquanto permanece aberto.
+Abre as notas da versão mais recente dentro do jogo. O painel segue a
+preferência de idioma do personagem e permite alternar entre português e inglês
+enquanto permanece aberto.
+
+## `.options`
+
+Abre as preferências do personagem, incluindo o idioma **Português** ou
+**English** para menus bilíngues. Quando uma tradução não existe, o sistema usa o
+idioma disponível. A preferência também se aplica a Help, Patch Notes,
+Achievements e Hunter's Compendium.
 
 ## `.pvp`
 
@@ -32,5 +41,5 @@ A Ultima Store está desativada no ruleset Sphere 51a. Não há compras, entrega
 
 Mostra qual Daily Dungeon está selecionada e quanto tempo falta para a próxima rotação. Use o comando antes de sair para aproveitar os bônus de experiência de Maestria PvM e Loot Packs.
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Os comandos abaixo estão disponíveis aos jogadores no servidor oficial.

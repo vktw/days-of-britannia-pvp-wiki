@@ -29,6 +29,7 @@ production logs, private server implementation, or unapproved gameplay claims.
 | [`wiki-pvp-baseline-2026-07-24.md`](wiki-pvp-baseline-2026-07-24.md) | Historical migration and compatibility record | Historical |
 | [`handoffs/patchnotes-production-2026-08-10.md`](handoffs/patchnotes-production-2026-08-10.md) | Handoff para corrigir patchnotes e referências após o live `v0.23.3` | Operacional; fonte de trabalho do agente executor |
 | [`handoffs/patchnotes-production-2026-08-10-v0235.md`](handoffs/patchnotes-production-2026-08-10-v0235.md) | Cruzamento do estado atual da wiki com o patch oficial `v0.23.5`, com confirmação de produção registrada | Operacional; pronto para consumo do agente executor |
+| [`handoffs/patchnotes-reconciliation-2026-08-13-v0263.md`](handoffs/patchnotes-reconciliation-2026-08-13-v0263.md) | Reconciliação local da wiki com a cadeia oficial até `v0.26.3` e plano de atualização sem publicação | Prévia local; aguardando revisão |
 
 When documents disagree, executable configuration and approved live gameplay
 sources take precedence over descriptive prose. Agents must surface the conflict
@@ -57,7 +58,8 @@ internal/
 |   `-- registry.yml             high-risk fact provenance and live version
 |-- handoffs/
 |   |-- patchnotes-production-2026-08-10.md       production crosscheck handoff
-|   `-- patchnotes-production-2026-08-10-v0235.md current production crosscheck
+|   |-- patchnotes-production-2026-08-10-v0235.md current production crosscheck
+|   `-- patchnotes-reconciliation-2026-08-13-v0263.md local 0.26.3 preview
 |-- quality/
 |   |-- scorecard.md             quality targets and review cadence
 |   `-- known-gaps.md            accepted risks and remediation status

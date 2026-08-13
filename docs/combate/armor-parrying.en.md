@@ -30,5 +30,5 @@ When a block occurs:
 
 See [Damage examples](exemplos-dano.md).
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Armor protects the region that is hit; a shield can replace that step entirely.

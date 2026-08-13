@@ -23,5 +23,5 @@ Alchemy continua relevante para o sucesso do craft, mas não altera a potência 
 
 Pets controlados e summons pertencentes a jogadores não podem atacar ou causar dano a outros jogadores. Essa restrição não impede seu uso normal em PvM e é independente do pet bonding, que permanece desativado.
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Os bloqueios abaixo fazem parte do ruleset oficial.

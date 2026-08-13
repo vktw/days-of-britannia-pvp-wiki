@@ -53,12 +53,12 @@ Ordinary weapons remain **Iron**. In Blacksmithy, the **DoB Weapons** submenu se
 
 | Line | Resource | Cost | Blacksmithy | Damage bonus |
 |---|---|---:|---:|---:|
-| **Bloodrock** | Bloodrock Ingots | 30 ingots | 75.0–110.0 | +3 at both ends of the damage range |
-| **Blackrock** | Blackrock Ingots | 30 ingots | 75.0–110.0 | +4 at both ends of the damage range |
+| **Bloodrock** | Bloodrock Ingots | 30 ingots | 75.0–105.0 | +3 at both ends of the damage range |
+| **Blackrock** | Blackrock Ingots | 30 ingots | 75.0–105.0 | +4 at both ends of the damage range |
 
-Success is 0% through 75.0, 50% at 92.5, and 100% at 110.0 or higher, using effective Blacksmithy. An ordinary weapon does not switch to a special metal: ordinary recipes still require Iron.
+Success is 0% through 75.0, 50% at 92.5, and 100% at 105.0 or higher, using effective Blacksmithy. An ordinary weapon does not switch to a special metal: ordinary recipes still require Iron.
 
-## Bowcraft in Live 0.23.5
+## Bowcraft in Live 0.26.3
 
 Bowcraft now offers two weapons in the **DoB Weapons** category. The recipes use direct resources, and the bonuses below belong to each weapon:
 
@@ -69,6 +69,11 @@ Bowcraft now offers two weapons in the **DoB Weapons** category. The recipes use
 
 Fire Feathers from a Rare Phoenix work in the Fire Bow recipe. Weapons made through Bowcraft no longer receive combat bonuses derived from the selected wood; the resource still identifies the item, while Fire Bow and Elven Bow keep their intrinsic effects.
 
+In Live 0.26.3 PvM, the Elven Bow is the explicit exception to skill
+normalization: its +10 Archery can produce **82.5%** base chance at 110.0, and
+its +10 Tactics continues to affect damage above 100. This exception does not
+change the PvP formula or create a general skill cap.
+
 ## Official kits
 
 Arena and the Starter PvP Iron kit share seven choices: **Bow, War Mace, Kryss, Bardiche, Black Staff, War Hammer, and Axe**. Kryss, Bardiche, and Axe arrive with Deadly Poison; the other four keep their non-poison role.
@@ -77,5 +82,5 @@ Not every weapon present in the client circulates among players. The shard catal
 
 See [Melee and Archery](../combate/melee-archery.md) and [Poison](../combate/poison.md).
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Choose weapons by their combat role, not by an isolated damage spreadsheet.

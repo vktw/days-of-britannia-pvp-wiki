@@ -8,9 +8,27 @@ Drinkable potions share a 15 second global cooldown. Greater Heal recovers 40 hi
 
 Poison Potions are not ingested when applied to weapons and do not trigger the cooldown of drinkable potions; they use the flow of the Poisoning skill.
 
+## Eyes of Newt and Total Mana
+
+Alchemists outside guarded regions sell **Eyes of Newt** for 100gp; stock starts
+at 20 units and follows the normal reagent restock. **Total Mana Potion** uses 5
+Eyes of Newt and one Bottle and can be crafted with **65.0–105.0** Alchemy. The
+menu displays the recipe as `total mana`; the potion's effect is unchanged and
+it is not consumed when mana is already full.
+
+## Dragon Blood Clothing Dye
+
+Moonglow and Serpent's Hold offer a cosmetic Dragon Blood dye service. Each dye
+uses 150 matching ingots, 1 Dragon Blood, and a dynamic gold charge with a
+50,000-gold floor; the dye has one charge.
+
 ## Bandages
 
 Bandages remove poison immediately without healing health in the same use. Without poison, healing takes 3.5 seconds and reaches 30-40 hits with Healing and Anatomy at 100.0.
+
+Treatment is captured when the bandage is used: poison present at the start is
+treated immediately; without poison at the start, life healing keeps its choice
+during the delay even if poison appears afterward.
 
 When a clean bandage is used successfully, it becomes a **Bloody Bandage** with the same weight. If you are overloaded, the result drops to the ground instead of increasing carried weight. One water unit at a water source washes the entire stack and sends the clean bandages to the backpack.
 
@@ -24,7 +42,7 @@ use.
 Provisioners sell basic Hatchet, Pickaxe, Shovel, and Fishing Pole tools. Tinkers
 sell Hatchet, Pickaxe, and Shovel, while Carpenters sell Fishing Pole.
 
-## DoB Tools in Live 0.23.5
+## DoB Tools in Live 0.26.3
 
 Tinkering organizes special tools under the **DoB Tools** submenu. Each family uses a public metal, has its own Tinkering requirement, and appears only for compatible tools.
 
@@ -45,4 +63,4 @@ New characters receive a complete Spellbook, an empty Runebook and a shrunken ho
 
 See [Healing and resources](../combate/cura-recursos.md) for all values and delays.
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"

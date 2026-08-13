@@ -1,18 +1,18 @@
 # High-risk gameplay fact inventory.
 # Live entries are approved by production presence; source refs are metadata only.
-# The 0.23.5 pass below confirms the current release identity and the affected official patch-note deltas.
+# The 0.26.3 pass below confirms the current release identity and the affected official patch-note deltas.
 # Other entries retain their last deep-verification release until that audit is run.
 schema_version: 1
-registry_version: "0.23.5"
+registry_version: "0.26.3"
 source_policy: "live-server-is-final"
 entries:
   - id: live-version
-    claim: "The public manual identifies the current live ruleset as 0.23.5."
+    claim: "The public manual identifies the current live ruleset as 0.26.3."
     status: live
     source_status: approved
-    live_version: "0.23.5"
-    verification_date: "2026-08-11"
-    approved_source: "live-server/v0.23.5"
+    live_version: "0.26.3"
+    verification_date: "2026-08-13"
+    approved_source: "live-server/v0.26.3"
     public_reference: "docs/patches.md"
     canonical_pt: "docs/patches.md"
     english_counterpart: "docs/patches.en.md"
@@ -413,4 +413,124 @@ entries:
     canonical_pt: "docs/itens/armaduras.md"
     english_counterpart: "docs/itens/armaduras.en.md"
     owner: items-maintainer
+    review_after: null
+  - id: patch-0-26-3-live
+    claim: "The public manual identifies the current production release as 0.26.3 and summarizes the player-facing patch-note deltas from 0.24.0 through 0.26.3."
+    status: live
+    source_status: approved
+    live_version: "0.26.3"
+    verification_date: "2026-08-13"
+    approved_source: "live-server/v0.26.3"
+    public_reference: "docs/patches.md"
+    canonical_pt: "docs/patches.md"
+    english_counterpart: "docs/patches.en.md"
+    owner: server-owner
+    review_after: null
+  - id: pvm-hit-chance-0263-live
+    claim: "In PvM, standard player weapons use the documented linear base hit chance from 2% to 75% by effective attack skill, while Elven Bow may use its explicit +10 Archery overcap to reach 82.5% at effective 110; PvP remains unchanged."
+    status: live
+    source_status: approved
+    live_version: "0.26.3"
+    verification_date: "2026-08-13"
+    approved_source: "live-server/v0.26.3"
+    public_reference: "docs/combate/melee-archery.md"
+    canonical_pt: "docs/combate/melee-archery.md"
+    english_counterpart: "docs/combate/melee-archery.en.md"
+    owner: combat-maintainer
+    review_after: null
+  - id: young-pvm-xp-0261-live
+    claim: "Eligible Young characters receive 100% additional PvM Mastery experience in production; their gold, skill gain, and other Young benefits are unchanged."
+    status: live
+    source_status: approved
+    live_version: "0.26.3"
+    verification_date: "2026-08-13"
+    approved_source: "live-server/v0.26.3"
+    public_reference: "docs/primeiros-passos/newcomer.md"
+    canonical_pt: "docs/primeiros-passos/newcomer.md"
+    english_counterpart: "docs/primeiros-passos/newcomer.en.md"
+    owner: pvm-maintainer
+    review_after: null
+  - id: summoners-bond-0250-live
+    claim: "Summoner's Bond redirects eligible PvM damage from player-created summons to the summoner while preserving a safe minimum of 10 Hits."
+    status: live
+    source_status: approved
+    live_version: "0.26.3"
+    verification_date: "2026-08-13"
+    approved_source: "live-server/v0.26.3"
+    public_reference: "docs/sistemas/pvm-mastery.md"
+    canonical_pt: "docs/sistemas/pvm-mastery.md"
+    english_counterpart: "docs/sistemas/pvm-mastery.en.md"
+    owner: pvm-maintainer
+    review_after: null
+  - id: safe-haven-spellcasting-0240-live
+    claim: "Nujelm Safe Haven blocks every spellcasting start outside the overlapping Arena NuJelm rules."
+    status: live
+    source_status: approved
+    live_version: "0.26.3"
+    verification_date: "2026-08-13"
+    approved_source: "live-server/v0.26.3"
+    public_reference: "docs/mundo/nujelm.md"
+    canonical_pt: "docs/mundo/nujelm.md"
+    english_counterpart: "docs/mundo/nujelm.en.md"
+    owner: world-maintainer
+    review_after: null
+  - id: eyes-newt-total-mana-0250-live
+    claim: "Eyes of Newt are available from eligible NPC loot and carving with the documented Forensics addition, and Total Mana Potion uses five Eyes of Newt, one Bottle, and Alchemy 65.0–105.0."
+    status: live
+    source_status: approved
+    live_version: "0.26.3"
+    verification_date: "2026-08-13"
+    approved_source: "live-server/v0.26.3"
+    public_reference: "docs/itens/consumiveis.md"
+    canonical_pt: "docs/itens/consumiveis.md"
+    english_counterpart: "docs/itens/consumiveis.en.md"
+    owner: items-maintainer
+    review_after: null
+  - id: dragon-blood-dye-0240-live
+    claim: "Moonglow and Serpent's Hold offer the Dragon Blood Clothing Dye service using 150 compatible ingots and one Dragon Blood for a single charge with a dynamic gold floor."
+    status: live
+    source_status: approved
+    live_version: "0.26.3"
+    verification_date: "2026-08-13"
+    approved_source: "live-server/v0.26.3"
+    public_reference: "docs/itens/consumiveis.md"
+    canonical_pt: "docs/itens/consumiveis.md"
+    english_counterpart: "docs/itens/consumiveis.en.md"
+    owner: items-maintainer
+    review_after: null
+  - id: guard-boundaries-0240-0250-live
+    claim: "Production has the documented unguarded Felucca rectangles for Britain and Moonglow, and Serpent's Hold is unguarded in both Felucca and Trammel while other city boundaries remain unchanged."
+    status: live
+    source_status: approved
+    live_version: "0.26.3"
+    verification_date: "2026-08-13"
+    approved_source: "live-server/v0.26.3"
+    public_reference: "docs/mundo/cidades-guards.md"
+    canonical_pt: "docs/mundo/cidades-guards.md"
+    english_counterpart: "docs/mundo/cidades-guards.en.md"
+    owner: world-maintainer
+    review_after: null
+  - id: language-preference-0260-live
+    claim: "The .options command stores a per-character Português or English preference and shared bilingual menus use it with fallback when a translation is unavailable."
+    status: live
+    source_status: approved
+    live_version: "0.26.3"
+    verification_date: "2026-08-13"
+    approved_source: "live-server/v0.26.3"
+    public_reference: "docs/comandos.md"
+    canonical_pt: "docs/comandos.md"
+    english_counterpart: "docs/comandos.en.md"
+    owner: commands-maintainer
+    review_after: null
+  - id: bandage-treatment-0240-live
+    claim: "Bandage treatment captures its poison, life-healing, or bleed choice at use time; poison present at the start is immediate, while a later poison does not replace an already selected life or bleed treatment."
+    status: live
+    source_status: approved
+    live_version: "0.26.3"
+    verification_date: "2026-08-13"
+    approved_source: "live-server/v0.26.3"
+    public_reference: "docs/combate/cura-recursos.md"
+    canonical_pt: "docs/combate/cura-recursos.md"
+    english_counterpart: "docs/combate/cura-recursos.en.md"
+    owner: combat-maintainer
     review_after: null

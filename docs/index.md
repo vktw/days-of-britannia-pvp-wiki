@@ -14,7 +14,7 @@ hide:
         BAIXAR DOB LAUNCHER <span aria-hidden="true">↓</span>
       </a>
       <a class="dob-atlas-codex-action dob-atlas-codex-action--secondary" href="patches/">
-        LER PATCH 0.23.5 <span aria-hidden="true">→</span>
+        LER PATCH 0.26.3 <span aria-hidden="true">→</span>
       </a>
     </div>
     <div class="dob-atlas-mark" aria-hidden="true" hidden>
@@ -78,8 +78,8 @@ hide:
 <section class="dob-atlas-update" aria-labelledby="dob-release-title">
   <div>
     <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
-    <h2 id="dob-release-title">0.23.5 · Bowcraft, joias e PvM</h2>
+    <h2 id="dob-release-title">0.26.3 · Combate PvM, Young e preferências</h2>
   </div>
-  <p>Bowcraft, joias de Maestria, Ruptura Arcana, Safe Haven de Nujelm e eventos raros chegam ao Live nesta atualização.</p>
+  <p>A chance de acerto PvM passa a seguir a skill de ataque, o bônus Young chega a +100% de XP e a wiki acompanha as novas regras de itens, mundo e preferências.</p>
   <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

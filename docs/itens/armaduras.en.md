@@ -48,5 +48,5 @@ The `Physical Resist` baseline for armor and shields uses the **1.60** multiplie
 
 See [Armor and Parrying](../combate/armor-parrying.md).
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     Each piece protects only the body region where it is equipped.

@@ -9,5 +9,5 @@ Days of Britannia preserves systems compatible with the shard's objective and ne
 
 These pages explain only what is available to players and how it affects the experience.
 
-!!! success "Status: Live 0.23.5"
+!!! success "Status: Live 0.26.3"
     The availability below corresponds to the official ruleset.
