@@ -38,7 +38,21 @@ Algumas criaturas conhecidas ajudam a interpretar a escala:
 - Criaturas com perfil mágico ou Dragon Breath podem receber Threat adicional; os dois fatores podem se acumular.
 - Pets, summons, vendors e o PvP Trainer não recebem Threat Rating PvM.
 
-[Ver como consultar a classificação](threat-inventory.md){ .md-button }
+## Como consultar no jogo
+
+Use a classificação mostrada no próprio jogo para avaliar a criatura que está
+diante de você. Essa informação acompanha o mundo ativo e preserva a descoberta
+durante a aventura.
+
+1. Aproxime-se da criatura com segurança.
+2. Observe o nome e a cor do Threat Rating exibido no jogo.
+3. Compare a classe com a escala de Threat acima.
+4. Considere também habilidades, quantidade de inimigos e terreno antes de
+   iniciar a luta.
+
+Essa leitura combina a referência da wiki com a situação real do encontro.
+
+[Ir direto ao passo a passo](#como-consultar-no-jogo){ .md-button }
 
 [Entender as recompensas PvM](../itens/recompensas-pvm.md){ .md-button }
 

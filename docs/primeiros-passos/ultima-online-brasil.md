@@ -34,7 +34,7 @@ Não existe uma cronologia pública completa que permita apontar com segurança 
 
 Days of Britannia faz parte dessa tradição de mundos mantidos por comunidade. É um **Shard brasileiro de Ultima Online** com proposta própria, conteúdo PvM, combate PvP e documentação para novos jogadores. Não é um Server oficial da Electronic Arts nem representa o serviço oficial de Ultima Online.
 
-Para jogar, use sempre o [launcher oficial de Days of Britannia](conexao.md). Depois, siga o guia de [primeiros passos](index.md), conheça seu [primeiro personagem](personagem-inicial.md) e consulte as regras atuais desta wiki. Experiências trazidas de outro Servidor podem ajudar na adaptação, mas não substituem as informações específicas deste mundo.
+Para jogar, use sempre o [launcher oficial de Days of Britannia](index.md). Depois, siga o guia de [primeiros passos](index.md), consulte a seção sobre seu primeiro personagem e leia as regras atuais desta wiki. Experiências trazidas de outro Servidor podem ajudar na adaptação, mas não substituem as informações específicas deste mundo.
 
 ## Ultima Online Server International e jogadores internacionais
 

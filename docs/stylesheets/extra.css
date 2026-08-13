@@ -109,6 +109,137 @@
 .dob-threat-world-threat { color: #73aee8; }
 .dob-threat-apocalyptic { color: #b691e8; }
 
+/* Craft reference and official-point skill control */
+.dob-craft-control {
+  margin: 1.35rem 0 1.65rem;
+  padding: 1rem;
+  border: 1px solid var(--dob-border);
+  background: linear-gradient(135deg, rgb(16 42 51 / 96%), rgb(11 32 40 / 96%));
+}
+
+.dob-craft-control h3 {
+  margin-top: 0;
+  color: var(--dob-text-strong);
+}
+
+.dob-craft-control__fields {
+  display: grid;
+  grid-template-columns: minmax(16rem, 0.9fr) minmax(20rem, 1.4fr);
+  gap: 1rem;
+}
+
+.dob-craft-control__fields label {
+  display: grid;
+  gap: 0.45rem;
+  color: var(--dob-text-muted);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.dob-craft-control__fields select {
+  width: 100%;
+  min-height: 2.45rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--dob-border);
+  border-radius: 0;
+  outline: none;
+  background: var(--dob-card);
+  color: var(--dob-text);
+  font: inherit;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.dob-craft-control__fields select:focus {
+  border-color: var(--dob-gold);
+  box-shadow: 0 0 0 1px var(--dob-gold);
+}
+
+.dob-craft-control__range-line {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.dob-craft-control__range-line input[type="range"] {
+  width: 100%;
+  min-height: 1.55rem;
+  accent-color: var(--dob-gold);
+}
+
+.dob-craft-control__range-line output {
+  min-width: 4.25rem;
+  padding: 0.4rem 0.55rem;
+  border: 1px solid var(--dob-border);
+  color: var(--dob-gold-hover);
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+.dob-craft-control__result {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+
+.dob-craft-control__result > div {
+  display: grid;
+  gap: 0.25rem;
+  min-width: 0;
+  padding: 0.7rem;
+  border: 1px solid var(--dob-border);
+  background: rgb(7 22 28 / 48%);
+}
+
+.dob-craft-control__result span {
+  color: var(--dob-text-muted);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.dob-craft-control__result strong {
+  overflow-wrap: anywhere;
+  color: var(--dob-text-strong);
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.dob-craft-control__help,
+.dob-craft-control__note {
+  margin: 0.8rem 0 0;
+  color: var(--dob-text-muted);
+  font-size: 0.78rem;
+}
+
+.dob-craft-control__note {
+  color: var(--dob-gold-hover);
+}
+
+@media screen and (max-width: 59.984375em) {
+  .dob-craft-control__fields {
+    grid-template-columns: 1fr;
+  }
+
+  .dob-craft-control__result {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 44.984375em) {
+  .dob-craft-control {
+    padding: 0.8rem;
+  }
+
+  .dob-craft-control__result {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 800px) {
   .dob-inventory-controls {
     grid-template-columns: 1fr;
@@ -321,21 +452,24 @@ body {
   z-index: 2;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
   margin-top: -0.7rem;
   border-top: 1px solid var(--dob-gold-muted);
-  background: rgb(3 9 12 / 78%);
+  background: transparent;
 }
 
 .md-typeset .dob-atlas-codex-paths > a {
-  display: grid;
+  position: relative;
+  display: flex;
   min-width: 0;
-  min-height: 4.9rem;
-  padding: 0.85rem 1rem;
-  align-items: center;
-  grid-template-columns: 2rem minmax(0, 1fr);
-  gap: 0.65rem;
+  min-height: 13rem;
+  padding: 0;
+  align-items: flex-end;
+  overflow: hidden;
   color: var(--dob-text);
   text-decoration: none;
+  background: rgb(3 9 12 / 92%);
+  border: 1px solid var(--dob-border);
   transition: color 140ms ease, background-color 140ms ease;
 }
 
@@ -343,10 +477,55 @@ body {
   border-left: 1px solid var(--dob-border);
 }
 
+.dob-atlas-codex-path__art,
+.dob-atlas-codex-path__art::after {
+  position: absolute;
+  inset: 0;
+}
+
+.dob-atlas-codex-path__art {
+  z-index: 0;
+  display: block;
+}
+
+.dob-atlas-codex-path__art::after {
+  display: block;
+  content: "";
+  background: linear-gradient(180deg, rgb(3 9 12 / 0%) 0%, rgb(3 9 12 / 8%) 48%, rgb(3 9 12 / 68%) 100%);
+}
+
+.dob-atlas-codex-path__art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.88;
+  transform: scale(1.01);
+  transition: opacity 180ms ease, transform 220ms ease;
+}
+
+.dob-atlas-codex-path__body {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  width: 100%;
+  padding: 1.13rem 1rem 0.85rem;
+  align-items: end;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  gap: 0.65rem;
+  background: linear-gradient(90deg, rgb(3 9 12 / 70%) 0%, rgb(3 9 12 / 24%) 42%, rgb(3 9 12 / 0%) 68%);
+}
+
 .md-typeset .dob-atlas-codex-paths > a:hover,
 .md-typeset .dob-atlas-codex-paths > a:focus-visible {
   color: var(--dob-gold-hover);
   background: rgb(11 32 40 / 88%);
+}
+
+.md-typeset .dob-atlas-codex-paths > a:hover .dob-atlas-codex-path__art img,
+.md-typeset .dob-atlas-codex-paths > a:focus-visible .dob-atlas-codex-path__art img {
+  opacity: 1;
+  transform: scale(1.06);
 }
 
 .dob-atlas-codex-path__code {
@@ -384,12 +563,16 @@ body {
 
   .dob-atlas-codex-paths {
     grid-template-columns: 1fr;
+    gap: 0.75rem;
     margin-top: -1.2rem;
   }
 
   .md-typeset .dob-atlas-codex-paths > a + a {
-    border-top: 1px solid var(--dob-border);
     border-left: 0;
+  }
+
+  .md-typeset .dob-atlas-codex-paths > a {
+    min-height: 11rem;
   }
 }
 
@@ -543,9 +726,11 @@ body {
   position: absolute;
   z-index: 4;
   top: 0;
-  bottom: 0;
+  bottom: auto;
   left: var(--dob-rail-width);
   width: var(--dob-panel-width);
+  height: max-content;
+  min-height: 100%;
   min-width: 0;
   background: var(--dob-surface);
   border-right: 1px solid var(--dob-border);
@@ -913,12 +1098,9 @@ body:has(.dob-home) {
 }
 
 body:has(.dob-home)::before {
-  position: absolute;
+  position: fixed;
   z-index: 0;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: min(960px, 105vh);
+  inset: 0;
   background-image:
     linear-gradient(180deg, rgb(4 12 15 / 18%) 0%, rgb(4 12 15 / 22%) 40%, rgb(4 12 15 / 64%) 78%, rgb(7 22 28 / 94%) 100%),
     linear-gradient(90deg, rgb(4 12 15 / 26%) 0%, rgb(4 12 15 / 8%) 42%, rgb(4 12 15 / 18%) 100%),
@@ -1297,6 +1479,7 @@ body:has(.dob-home) .md-main {
   padding: 0;
   color: var(--dob-text-strong);
   border: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-size: 1.48rem;
   line-height: 1.25;
 }
@@ -1304,6 +1487,14 @@ body:has(.dob-home) .md-main {
 .dob-atlas-feature > p:not(.dob-atlas-kicker) {
   max-width: 52ch;
   color: var(--dob-text-muted);
+}
+
+.dob-atlas-feature__date {
+  margin: -0.25rem 0 0.85rem;
+  color: var(--dob-gold-muted) !important;
+  font-size: 0.62rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .md-typeset .dob-atlas-feature > a,
@@ -1926,13 +2117,18 @@ body.dob-atlas-nav-open .md-main__inner > .md-sidebar--primary {
 /* Layout E - Veu de Britannia: background global, sutil e apenas desktop. */
 @media screen and (min-width: 76.25em) {
   body {
-    background:
+    background-color: var(--dob-bg);
+    background-image:
       linear-gradient(180deg, rgb(3 9 12 / 80%) 0%, rgb(3 9 12 / 84%) 48%, rgb(3 9 12 / 91%) 100%),
       linear-gradient(90deg, rgb(3 9 12 / 20%) 0%, rgb(3 9 12 / 8%) 48%, rgb(3 9 12 / 18%) 100%),
-      url("../assets/hero-main-dark-test-b.webp?v=20260806.1") center top / cover fixed no-repeat;
+      url("../assets/hero-main-dark-test-b.webp?v=20260806.1");
+    background-position: center top, center top, center top;
+    background-size: 100% 100%, 100% 100%, cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-attachment: fixed, fixed, fixed;
   }
 
-  /* A arte passa a pertencer ao site inteiro, nao a uma pagina isolada. */
+  /* O background global ja fornece a arte e o overlay; nao duplica na home. */
   body:has(.dob-home)::before {
     display: none;
   }

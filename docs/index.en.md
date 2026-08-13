@@ -11,10 +11,7 @@ hide:
 <p>Classic Ultima Online is back in Days of Britannia: a world of freedom, risk, and loot, expanded by a challenging, custom PvM system.</p>
 <div class="dob-atlas-codex-actions" aria-label="Main actions">
 <a class="dob-atlas-codex-action dob-atlas-codex-action--primary" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
-DOWNLOAD DOB LAUNCHER <span aria-hidden="true">↓</span>
-</a>
-<a class="dob-atlas-codex-action dob-atlas-codex-action--secondary" href="patches/">
-READ PATCH 0.26.3 <span aria-hidden="true">→</span>
+PLAY NOW <span aria-hidden="true">↓</span>
 </a>
 </div>
 <div class="dob-atlas-mark" aria-hidden="true" hidden>
@@ -24,26 +21,42 @@ READ PATCH 0.26.3 <span aria-hidden="true">→</span>
 </section>
 
 <nav class="dob-atlas-codex-paths" aria-label="Main wiki paths">
-<a href="primeiros-passos/">
+<a href="sistemas/pvm-mastery/">
+<span class="dob-atlas-codex-path__art">
+<img src="../assets/card-pvm-mastery.webp?v=20260813.1" alt="Hunter faces an ancient dragon in a ruined temple">
+</span>
+<span class="dob-atlas-codex-path__body">
 <span class="dob-atlas-codex-path__code" aria-hidden="true">I</span>
-<span><strong>Begin your journey</strong><small>Install, create and play your first hour</small></span>
+<span><strong>PvM Mastery</strong><small>Hunt, progress and build your own path</small></span>
+</span>
 </a>
-<a href="combate/">
+<a href="arena/">
+<span class="dob-atlas-codex-path__art">
+<img src="../assets/card-arena-pvp.webp?v=20260813.1" alt="Two champions face each other in a stone arena">
+</span>
+<span class="dob-atlas-codex-path__body">
 <span class="dob-atlas-codex-path__code" aria-hidden="true">II</span>
-<span><strong>Master combat</strong><small>Builds, damage, healing and arena</small></span>
+<span><strong>Arena and PvP</strong><small>Duel, compete and master player combat</small></span>
+</span>
 </a>
-<a href="mundo/">
+<a href="sistemas/">
+<span class="dob-atlas-codex-path__art">
+<img src="../assets/card-britannia-exploration.webp?v=20260813.1" alt="Traveler overlooks Britannia, its ports, cities and mountains">
+</span>
+<span class="dob-atlas-codex-path__body">
 <span class="dob-atlas-codex-path__code" aria-hidden="true">III</span>
-<span><strong>Explore Britannia</strong><small>Cities, maps, items and systems</small></span>
+<span><strong>Living Britannia</strong><small>Explore threats, rare events and hidden places</small></span>
+</span>
 </a>
 </nav>
 
-<section class="dob-atlas-content" aria-label="Featured content">
+<section class="dob-atlas-content" aria-label="Main content">
 <article class="dob-atlas-feature">
-<p class="dob-atlas-kicker">FEATURED</p>
-<h2>PvM Mastery: build your hunt</h2>
-<p>Hunter's Compendium, XP, Slayer families, and builds that turn every encounter into progress.</p>
-<a href="sistemas/pvm-mastery/">READ SYSTEM <span aria-hidden="true">→</span></a>
+<p class="dob-atlas-kicker">LATEST UPDATE</p>
+<h2>0.26.3 · PvM hit chance by attack skill</h2>
+<p class="dob-atlas-feature__date"><time datetime="2026-08-12">August 12, 2026</time></p>
+<p>Melee and Archery now hit more predictably in PvM based on attack skill. The Elven Bow keeps its exception; PvP is unchanged.</p>
+<a href="patches/">READ PATCH NOTES <span aria-hidden="true">→</span></a>
 </article>
 
 <div class="dob-atlas-index">
@@ -67,19 +80,5 @@ READ PATCH 0.26.3 <span aria-hidden="true">→</span>
 <span><strong>Arena</strong><small>Rules, kits and seasons</small></span>
 <i aria-hidden="true">→</i>
 </a>
-<a href="personagem/">
-<span class="dob-atlas-index__code">CHR</span>
-<span><strong>Character</strong><small>Stats, skills and items</small></span>
-<i aria-hidden="true">→</i>
-</a>
 </div>
-</section>
-
-<section class="dob-atlas-update" aria-labelledby="dob-release-title">
-<div>
-<p class="dob-atlas-kicker">LATEST UPDATE</p>
-<h2 id="dob-release-title">0.26.3 · PvM combat, Young, and preferences</h2>
-</div>
-<p>PvM hit chance now follows attack skill, the Young bonus reaches +100% XP, and the wiki tracks the new item, world, and preference rules.</p>
-<a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

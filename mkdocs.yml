@@ -19,9 +19,9 @@ theme:
 extra:
   dob_version: "Alpha 0.26.3"
 extra_css:
-  - stylesheets/extra.css?v=20260808.1
+  - stylesheets/extra.css?v=20260813.10
 extra_javascript:
-  - scripts/dob.js?v=20260726.2
+  - scripts/dob.js?v=20260813.1
 plugins:
   - search:
       lang:
@@ -45,21 +45,11 @@ plugins:
             Primeiros passos: Getting started
             Comece aqui: Start here
             Ultima Online Brasil: Ultima Online Brasil
-            Sua primeira hora: Your first hour
-            Como conectar: How to connect
-            Seu primeiro personagem: Your first character
             Newcomer e proteção: Newcomer and protection
             Morte e recuperação: Death and recovery
-            Personagem: Character
-            "Stats, skills e raça": Stats, skills and race
-            Mundo: World
-            Visão geral: Overview
-            Mapas e viagem: Maps and travel
-            Cidades e guards: Cities and guards
             Nujelm Safe Haven: Nujelm Safe Haven
-            Ocllo em Felucca: Ocllo in Felucca
-            Como consultar Threat: Checking Threat
-            Raridades e Whispers of Britannia: Britannia Rarities and Whispers
+            Spawns raros: Rare spawns
+            Whispers of Britannia: Whispers of Britannia
             Combate: Combat
             Melee e Archery: Melee and Archery
             Armor e Parrying: Armor and Parrying
@@ -92,24 +82,14 @@ nav:
   - Inicio: index.md
   - Primeiros passos:
       - Comece aqui: primeiros-passos/index.md
-      - Ultima Online Brasil: primeiros-passos/ultima-online-brasil.md
-      - Sua primeira hora: primeiros-passos/primeira-hora.md
-      - Como conectar: primeiros-passos/conexao.md
-      - Seu primeiro personagem: primeiros-passos/personagem-inicial.md
       - Newcomer e proteção: primeiros-passos/newcomer.md
       - Morte e recuperação: primeiros-passos/morte-recuperacao.md
       - DoB Razor: primeiros-passos/dob-razor.md
-  - Personagem:
-      - Stats, skills e raça: personagem.md
-  - Mundo:
-      - Visão geral: mundo/index.md
-      - Mapas e viagem: mundo/mapas-viagem.md
-      - Cidades e guards: mundo/cidades-guards.md
-      - Nujelm Safe Haven: mundo/nujelm.md
-      - Ocllo em Felucca: mundo/ocllo.md
-      - Threat Rating: mundo/threat-rating.md
-      - Como consultar Threat: mundo/threat-inventory.md
-      - Raridades e Whispers of Britannia: mundo/raridades-britannia.md
+      - Ultima Online Brasil: primeiros-passos/ultima-online-brasil.md
+  # As páginas antigas de conexão, primeira hora e personagem permanecem fora
+  # do menu para preservar URLs publicados; seu conteúdo canônico está em Comece aqui.
+  # personagem.md também permanece fora do menu; links de Primeiros passos apontam
+  # para a referência detalhada quando stats, buffs, raça ou Stealth forem necessários.
   - Combate:
       - Visão geral: combate/index.md
       - Melee e Archery: combate/melee-archery.md
@@ -121,6 +101,7 @@ nav:
       - Invisibilidade e Detect Hidden: combate/invisibilidade.md
   - Itens:
       - Visão geral: itens/index.md
+      - Craft: itens/craft.md
       - Armas clássicas: itens/armas.md
       - Armaduras clássicas: itens/armaduras.md
       - Consumíveis, ferramentas e utilidades: itens/consumiveis.md
@@ -132,7 +113,13 @@ nav:
       - Achievements: sistemas/achievements.md
       - Maestria PvM: sistemas/pvm-mastery.md
       - Daily Dungeon: sistemas/daily-dungeon.md
+      - Nujelm Safe Haven: mundo/nujelm.md
+      - Threat Rating: mundo/threat-rating.md
+      - Spawns raros: sistemas/spawns-raros.md
+      - Whispers of Britannia: sistemas/whispers-britannia.md
       - Sistemas desativados: sistemas-desativados.md
+  # Os URLs mundo/ permanecem estáveis para links publicados; o antigo hub
+  # Mundo, as páginas gerais e threat-inventory ficam fora do menu por compatibilidade.
   - Comandos: comandos.md
   - Atualizações:
       - Patch notes: patches.md

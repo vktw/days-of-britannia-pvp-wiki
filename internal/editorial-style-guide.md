@@ -49,7 +49,7 @@ mas deve ter uma intenção principal.
 
 | Tipo | Necessidade do jogador | Forma recomendada | Página-piloto |
 |---|---|---|---|
-| Tutorial/onboarding | Aprender fazendo | passos numerados, contexto mínimo e próximo objetivo | `docs/primeiros-passos/primeira-hora.md` |
+| Tutorial/onboarding | Aprender fazendo | passos numerados, contexto mínimo e próximo objetivo | `docs/primeiros-passos/index.md` |
 | How-to | Realizar uma tarefa | pré-requisitos, passos, resultado e solução de problemas | `docs/arena.md` |
 | Referência | Consultar rapidamente | tabelas, listas, comandos e regras agrupadas | `docs/comandos.md`, `docs/itens/armas.md` |
 | Explicação | Entender um sistema | conceito, motivo, consequências e exemplos | `docs/sistemas/pvm-mastery.md` |
@@ -121,7 +121,7 @@ edições.
 | Superfície | Tipo principal | Resultado editorial |
 |---|---|---|
 | `docs/index.md` | Landing page | Encaminha por jornadas; regras permanecem nos capítulos |
-| `docs/primeiros-passos/primeira-hora.md` | Tutorial/onboarding | Sequência numerada e próximo objetivo explícito |
+| `docs/primeiros-passos/index.md` | Tutorial/onboarding | Conexão, personagem, sequência numerada e próximo objetivo explícito |
 | `docs/comandos.md` | Referência | Um comando por seção, com sintaxe preservada |
 | `docs/sistemas/pvm-mastery.md` | Explicação | Conceito, progressão, catálogo e builds separados |
 | `docs/itens/armas.md` | Referência | Critérios, papéis, catálogo e kits separados |

@@ -1,5 +1,10 @@
 # World
 
+This page remains accessible to preserve its published URL. The main navigation
+now groups Nujelm, Threat Rating, rare spawns, and Whispers of Britannia under
+[Systems](../sistemas/index.md); maps, cities, and Ocllo remain available from
+their direct links.
+
 This section documents the general map and region rules of the official server.
 
 Felucca is the only public facet of Britannia. Trammel remains reserved for the controlled areas of official arenas.
@@ -11,7 +16,6 @@ Felucca is the only public facet of Britannia. Trammel remains reserved for the 
 - [Nujelm Safe Haven](nujelm.md): protection and safe returns in Felucca.
 - [Ocllo in Felucca](ocllo.md): an unguarded city without the former Safe Haven restrictions.
 - [Threat Rating](threat-rating.md): how to interpret the class and color displayed on creatures.
-- [Threat lookup](threat-inventory.md): how to evaluate a creature inside the game.
 
 ## Persistent world
 

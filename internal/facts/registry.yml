@@ -37,9 +37,9 @@ entries:
     live_version: "0.21.0"
     verification_date: "2026-08-06"
     approved_source: "live-server/v0.21.0"
-    public_reference: "docs/primeiros-passos/conexao.md"
-    canonical_pt: "docs/primeiros-passos/conexao.md"
-    english_counterpart: "docs/primeiros-passos/conexao.en.md"
+    public_reference: "docs/primeiros-passos/index.md"
+    canonical_pt: "docs/primeiros-passos/index.md"
+    english_counterpart: "docs/primeiros-passos/index.en.md"
     owner: server-owner
     review_after: null
   - id: disabled-modern-systems
@@ -235,15 +235,27 @@ entries:
     owner: pvp-maintainer
     review_after: null
   - id: britannia-rarities
-    claim: "The public Britannia page documents the rare Phoenix and Whispers of Britannia player interactions."
+    claim: "The public rare-spawns page documents the rare Phoenix, Fire Feathers, and player-facing rare-event discovery."
     status: live
     source_status: approved
     live_version: "0.12.0"
     verification_date: "2026-08-02"
     approved_source: "live-server/v0.12.0"
-    public_reference: "docs/mundo/raridades-britannia.md"
-    canonical_pt: "docs/mundo/raridades-britannia.md"
-    english_counterpart: "docs/mundo/raridades-britannia.en.md"
+    public_reference: "docs/sistemas/spawns-raros.md"
+    canonical_pt: "docs/sistemas/spawns-raros.md"
+    english_counterpart: "docs/sistemas/spawns-raros.en.md"
+    owner: world-maintainer
+    review_after: null
+  - id: britannia-whispers
+    claim: "The public Whispers of Britannia page documents Town Crier purchases, rumor timing, and player-facing discovery limits."
+    status: live
+    source_status: approved
+    live_version: "0.12.0"
+    verification_date: "2026-08-02"
+    approved_source: "live-server/v0.12.0"
+    public_reference: "docs/sistemas/whispers-britannia.md"
+    canonical_pt: "docs/sistemas/whispers-britannia.md"
+    english_counterpart: "docs/sistemas/whispers-britannia.en.md"
     owner: world-maintainer
     review_after: null
   - id: arena-loot-modes-0231
@@ -367,15 +379,27 @@ entries:
     owner: world-maintainer
     review_after: null
   - id: rare-world-0235-local-preview
-    claim: "Live 0.23.5 documents Desert Ostard, Forest Ostard, Frenzied Ostard, Rare Rideable Llama discovery through Whispers of Britannia, expanded rumor presentation, the Felucca Spring visual, and the unguarded Felucca Britain turnip field while preserving the Trammel equivalent."
+    claim: "Live 0.23.5 documents Desert Ostard, Forest Ostard, Frenzied Ostard, Rare Rideable Llama, the Felucca Spring visual, and the public rare-event discovery path."
     status: live
     source_status: approved
     live_version: "0.23.5"
     verification_date: "2026-08-11"
     approved_source: "live-server/v0.23.5"
-    public_reference: "docs/mundo/raridades-britannia.md"
-    canonical_pt: "docs/mundo/raridades-britannia.md"
-    english_counterpart: "docs/mundo/raridades-britannia.en.md"
+    public_reference: "docs/sistemas/spawns-raros.md"
+    canonical_pt: "docs/sistemas/spawns-raros.md"
+    english_counterpart: "docs/sistemas/spawns-raros.en.md"
+    owner: world-maintainer
+    review_after: null
+  - id: whispers-world-0235-local-preview
+    claim: "Live 0.23.5 documents the expanded Whispers presentation and public Town Crier rumors for rare events and the Rare Rideable Llama."
+    status: live
+    source_status: approved
+    live_version: "0.23.5"
+    verification_date: "2026-08-11"
+    approved_source: "live-server/v0.23.5"
+    public_reference: "docs/sistemas/whispers-britannia.md"
+    canonical_pt: "docs/sistemas/whispers-britannia.md"
+    english_counterpart: "docs/sistemas/whispers-britannia.en.md"
     owner: world-maintainer
     review_after: null
   - id: dob-tools-0160-live
@@ -533,4 +557,16 @@ entries:
     canonical_pt: "docs/combate/cura-recursos.md"
     english_counterpart: "docs/combate/cura-recursos.en.md"
     owner: combat-maintainer
+    review_after: null
+  - id: craft-reference-0263-live
+    claim: "Live 0.26.3's public Craft reference lists the official materials, costs, minimum skills, DoB Tools creation reference points, and separated success or Exceptional rules for the documented special recipes; unresolved endpoints remain withheld from the local preview."
+    status: live
+    source_status: approved
+    live_version: "0.26.3"
+    verification_date: "2026-08-13"
+    approved_source: "live-server/v0.26.3"
+    public_reference: "docs/itens/craft.md"
+    canonical_pt: "docs/itens/craft.md"
+    english_counterpart: "docs/itens/craft.en.md"
+    owner: items-maintainer
     review_after: null

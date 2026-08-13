@@ -49,11 +49,11 @@ does not publish a page in the menu.
 |---|---|
 | `primeiros-passos/` | Official launcher, account, and first-character onboarding |
 | `personagem.md` | Character baseline, stats, skills, buffs, and race |
-| `mundo/` | Facets, locations, guards, maps, and travel |
+| `mundo/` | Stable compatibility paths for facets, locations, guards, maps, and travel; selected exploration systems are listed under `sistemas/` |
 | `combate/` | Canonical combat rules, formulas, ranges, and worked examples |
 | `itens/` | Player-visible weapon, armor, consumable, and utility behavior |
 | `arena.md` | Arena lifecycle, ranking, kits, disconnect behavior, and Trainer boundary |
-| `sistemas/` and `sistemas-desativados.md` | Enabled and intentionally unavailable systems |
+| `sistemas/` and `sistemas-desativados.md` | Enabled, exploration, and intentionally unavailable systems |
 | `comandos.md` | Exact player command reference |
 | `patches.md` | Shipped, versioned changes |
 | `proximo-patch.md` | Planned behavior that is not yet live |
@@ -79,7 +79,8 @@ search all of `docs/`, `mkdocs.yml`, and `internal/`.
 The public connection flow is launcher-only. Do not publish or restore direct
 connection details or manual client configuration. The canonical download URL is
 `https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe`; keep the home
-page CTA and `primeiros-passos/conexao.md` aligned with it.
+page CTA and the connection section in `primeiros-passos/index.md` aligned with
+it. `primeiros-passos/conexao.md` remains only as a compatibility URL.
 
 ## Executable contracts
 

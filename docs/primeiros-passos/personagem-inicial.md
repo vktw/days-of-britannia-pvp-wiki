@@ -1,40 +1,8 @@
 # Seu primeiro personagem
 
-## Local inicial
+O conteúdo desta página foi consolidado em [Comece aqui](index.md), que reúne
+o local inicial, os stats, as skills e os recursos entregues na criação.
 
-Todo jogador começa próximo ao **banco de Britain**, no mapa Felucca.
+A orientação consolidada mantém os 10.000 gold somente para o primeiro personagem elegível por IP.
 
-## Stats
-
-- 100 STR
-- 100 DEX
-- 100 INT
-
-O limite permanente é 100 por stat e 300 no total. Buffs e itens podem elevar cada stat efetivo até 120.
-
-## Skills de combate em 100.0
-
-- Swords, Macing, Fencing, Archery e Wrestling
-- Tactics, Anatomy e Parrying
-- Magery, Evaluating Intelligence e Resisting Spells
-- Healing, Meditation e Focus
-- Hiding, Stealth, Detect Hidden e Poisoning
-
-O shard não possui skill cap global. Cada skill individual permanece limitada a 100.0.
-
-## Equipamento e recursos
-
-Itens legados de profissão ou skill, como armas, ferramentas, reagentes, bandages e livros de profissão, não são mais entregues na criação. O kit DoB e os recursos iniciais listados abaixo permanecem disponíveis.
-
-O personagem começa com:
-
-- Spellbook completo.
-- Runebook vazio.
-- Cavalo shrinkado.
-- 10.000 gold, somente para o primeiro personagem elegível por IP.
-- Um **Starter PvP Iron kit** permanente, com armor Regular, armas, Black Staff, suprimentos, potions e joias do catálogo oficial de equipamentos de PvP. O kit não inclui outro cavalo e não pode ser vendido a vendors.
-
-Consulte [Personagem](../personagem.md) para buffs, caps e raça, e [Itens](../itens/index.md) para equipamentos clássicos.
-
-!!! success "Status: Live 0.26.3"
-    A base abaixo é aplicada a todo novo personagem, independentemente da profissão escolhida no cliente.
+Consulte [Comece aqui](index.md) para a orientação atual.

@@ -2,6 +2,7 @@
 
 ## Categorias
 
+- [Craft](craft.md)
 - [Armas clássicas](armas.md)
 - [Armaduras clássicas](armaduras.md)
 - [Consumíveis, ferramentas e utilidades](consumiveis.md)

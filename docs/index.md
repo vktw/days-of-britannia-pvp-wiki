@@ -11,10 +11,7 @@ hide:
     <p>O Ultima Online clássico está de volta em Days of Britannia: um mundo de liberdade, risco e loot, expandido por um sistema de PvM personalizado e desafiador.</p>
     <div class="dob-atlas-codex-actions" aria-label="Ações principais">
       <a class="dob-atlas-codex-action dob-atlas-codex-action--primary" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
-        BAIXAR DOB LAUNCHER <span aria-hidden="true">↓</span>
-      </a>
-      <a class="dob-atlas-codex-action dob-atlas-codex-action--secondary" href="patches/">
-        LER PATCH 0.26.3 <span aria-hidden="true">→</span>
+        JOGAR AGORA <span aria-hidden="true">↓</span>
       </a>
     </div>
     <div class="dob-atlas-mark" aria-hidden="true" hidden>
@@ -24,26 +21,42 @@ hide:
 </section>
 
 <nav class="dob-atlas-codex-paths" aria-label="Caminhos principais da wiki">
-  <a href="primeiros-passos/">
-    <span class="dob-atlas-codex-path__code" aria-hidden="true">I</span>
-    <span><strong>Começar sua jornada</strong><small>Instalação, conta e primeira hora</small></span>
+  <a href="sistemas/pvm-mastery/">
+    <span class="dob-atlas-codex-path__art">
+      <img src="assets/card-pvm-mastery.webp?v=20260813.1" alt="Caçador enfrenta um dragão ancestral em um templo em ruínas">
+    </span>
+    <span class="dob-atlas-codex-path__body">
+      <span class="dob-atlas-codex-path__code" aria-hidden="true">I</span>
+      <span><strong>Maestria PvM</strong><small>Caçar, evoluir e montar sua própria build</small></span>
+    </span>
   </a>
-  <a href="combate/">
-    <span class="dob-atlas-codex-path__code" aria-hidden="true">II</span>
-    <span><strong>Dominar o combate</strong><small>Builds, dano, cura e arena</small></span>
+  <a href="arena/">
+    <span class="dob-atlas-codex-path__art">
+      <img src="assets/card-arena-pvp.webp?v=20260813.1" alt="Dois campeões se enfrentam em uma arena de pedra">
+    </span>
+    <span class="dob-atlas-codex-path__body">
+      <span class="dob-atlas-codex-path__code" aria-hidden="true">II</span>
+      <span><strong>Arena e PvP</strong><small>Duelos, competição e combate entre jogadores</small></span>
+    </span>
   </a>
-  <a href="mundo/">
-    <span class="dob-atlas-codex-path__code" aria-hidden="true">III</span>
-    <span><strong>Explorar Britannia</strong><small>Cidades, mapas, itens e sistemas</small></span>
+  <a href="sistemas/">
+    <span class="dob-atlas-codex-path__art">
+      <img src="assets/card-britannia-exploration.webp?v=20260813.1" alt="Viajante observa Britannia, seus portos, cidades e montanhas">
+    </span>
+    <span class="dob-atlas-codex-path__body">
+      <span class="dob-atlas-codex-path__code" aria-hidden="true">III</span>
+      <span><strong>Britannia viva</strong><small>Exploração, ameaças e eventos raros</small></span>
+    </span>
   </a>
 </nav>
 
-<section class="dob-atlas-content" aria-label="Conteúdo em destaque">
+<section class="dob-atlas-content" aria-label="Conteúdo principal">
   <article class="dob-atlas-feature">
-    <p class="dob-atlas-kicker">EM DESTAQUE</p>
-    <h2>Maestria PvM: construa sua caçada</h2>
-    <p>Hunter's Compendium, XP, famílias Slayer e builds para transformar cada encontro em progresso.</p>
-    <a href="sistemas/pvm-mastery/">LER SISTEMA <span aria-hidden="true">→</span></a>
+    <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
+    <h2>0.26.3 · Chance de acerto PvM por skill</h2>
+    <p class="dob-atlas-feature__date"><time datetime="2026-08-12">12 de agosto de 2026</time></p>
+    <p>Melee e Archery agora acertam de forma mais previsível no PvM conforme a skill de ataque. O Elven Bow mantém sua exceção; o PvP não muda.</p>
+    <a href="patches/">LER PATCH NOTES <span aria-hidden="true">→</span></a>
   </article>
 
   <div class="dob-atlas-index">
@@ -67,19 +80,5 @@ hide:
       <span><strong>Arena</strong><small>Regras, kits e temporadas</small></span>
       <i aria-hidden="true">→</i>
     </a>
-    <a href="personagem/">
-      <span class="dob-atlas-index__code">CHR</span>
-      <span><strong>Personagem</strong><small>Stats, skills e itens</small></span>
-      <i aria-hidden="true">→</i>
-    </a>
   </div>
-</section>
-
-<section class="dob-atlas-update" aria-labelledby="dob-release-title">
-  <div>
-    <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
-    <h2 id="dob-release-title">0.26.3 · Combate PvM, Young e preferências</h2>
-  </div>
-  <p>A chance de acerto PvM passa a seguir a skill de ataque, o bônus Young chega a +100% de XP e a wiki acompanha as novas regras de itens, mundo e preferências.</p>
-  <a href="patches/">PATCH NOTES <span aria-hidden="true">→</span></a>
 </section>

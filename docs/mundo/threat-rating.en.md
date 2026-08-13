@@ -38,7 +38,20 @@ Some well-known creatures help players interpret the scale:
 - Creatures with a magical profile or Dragon Breath may receive additional Threat; both factors can stack.
 - Pets, summons, vendors, and the PvP Trainer do not receive PvM Threat Rating.
 
-[Learn how to check the classification](threat-inventory.md){ .md-button }
+## How to check in game
+
+Use the classification shown in game to evaluate the creature in front of you.
+This information follows the active world and preserves discovery during the
+adventure.
+
+1. Approach the creature safely.
+2. Observe the Threat Rating name and color displayed in game.
+3. Compare the class with the Threat scale above.
+4. Consider abilities, enemy count, and terrain before starting the fight.
+
+This reading combines the wiki reference with the actual encounter situation.
+
+[Go to the step-by-step guide](#how-to-check-in-game){ .md-button }
 
 [Understand PvM rewards](../itens/recompensas-pvm.md){ .md-button }
 

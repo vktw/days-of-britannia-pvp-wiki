@@ -34,7 +34,7 @@ There is no complete public chronology that reliably identifies a single “firs
 
 Days of Britannia is part of this tradition of community-maintained worlds. It is a **Brazilian Ultima Online Shard** with its own direction, PvM content, PvP combat, and documentation for new players. It is not an official Electronic Arts Server and does not represent the official Ultima Online service.
 
-To play, always use the [official Days of Britannia launcher](conexao.md). Then follow the [getting started guide](index.md), meet your [first character](personagem-inicial.md), and consult this wiki for the current rules. Experience from another Servidor may help you adapt, but it does not replace information specific to this world.
+To play, always use the [official Days of Britannia launcher](index.md). Then follow the [getting started guide](index.md), read about your first character, and consult this wiki for the current rules. Experience from another Servidor may help you adapt, but it does not replace information specific to this world.
 
 ## Ultima Online Server International and international players
 

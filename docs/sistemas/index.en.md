@@ -7,6 +7,13 @@ Days of Britannia preserves systems compatible with the shard's objective and ne
 - [PvM Mastery](pvm-mastery.md)
 - [Systems disabled](../sistemas-desativados.md)
 
+## Exploration systems
+
+- [Nujelm Safe Haven](../mundo/nujelm.md): protection and safe returns in Felucca.
+- [Threat Rating](../mundo/threat-rating.md): scale, interpretation, and in-game lookup.
+- [Rare spawns](spawns-raros.md): Phoenix, Rare Events, mounts, and seasonal appearance.
+- [Whispers of Britannia](whispers-britannia.md): public rumors and Town Crier leads.
+
 These pages explain only what is available to players and how it affects the experience.
 
 !!! success "Status: Live 0.26.3"

@@ -4,6 +4,7 @@ This section describes active properties and utilities in the current ruleset.
 
 ## Categories
 
+- [Craft](craft.md)
 - [Classic Weapons](armas.md)
 - [Classic Armor](armaduras.md)
 - [Consumables, tools, and utilities](consumiveis.md)

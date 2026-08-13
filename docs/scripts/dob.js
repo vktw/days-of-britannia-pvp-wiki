@@ -44,6 +44,112 @@ function personalizeDobSearch() {
   }
 }
 
+function formatDobCraftSkill(value) {
+  return Number(value).toFixed(1);
+}
+
+function formatDobCraftChance(value) {
+  return `${Number(value).toFixed(Number(value) % 1 === 0 ? 0 : 2)}%`;
+}
+
+function parseDobCraftPoints(value) {
+  return String(value || "")
+    .split("|")
+    .map((point) => {
+      const [skill, chance] = point.split(":").map(Number);
+      return { skill, chance };
+    })
+    .filter((point) => Number.isFinite(point.skill) && Number.isFinite(point.chance))
+    .sort((left, right) => left.skill - right.skill);
+}
+
+function bindDobCraftControls() {
+  document.querySelectorAll("[data-dob-craft-control]:not([data-dob-craft-bound])").forEach((control) => {
+    control.dataset.dobCraftBound = "true";
+
+    const recipe = control.querySelector("[data-craft-recipe]");
+    const skill = control.querySelector('input[data-craft-skill]');
+    const skillValue = control.querySelector("[data-craft-skill-value]");
+    const skillName = control.querySelector("[data-craft-skill-name]");
+    const minimum = control.querySelector("[data-craft-result] [data-craft-min]");
+    const chance = control.querySelector("[data-craft-result] [data-craft-chance]");
+    const exceptional = control.querySelector("[data-craft-result] [data-craft-exceptional]");
+    const note = control.querySelector("[data-craft-note]");
+
+    if (!recipe || !skill || !skillValue || !skillName || !minimum || !chance || !exceptional || !note) {
+      return;
+    }
+
+    const isEnglish = document.documentElement.lang.toLowerCase().startsWith("en");
+    const copy = isEnglish
+      ? {
+          belowMinimum: "Below the minimum skill: this recipe is not eligible.",
+          exact: "Official point at",
+          between: "The selected skill is between the official points",
+          aboveCap: "At and above the last official point, the chance remains at the published cap.",
+          review: "The next curve point is not displayed in this preview; no interpolation was created.",
+          noPoint: "No separate percentage is published for this Exceptional roll.",
+        }
+      : {
+          belowMinimum: "Abaixo da skill mínima: a receita não está elegível.",
+          exact: "Ponto oficial em",
+          between: "A skill escolhida está entre os pontos oficiais",
+          aboveCap: "No último ponto oficial e acima dele, a chance permanece no teto publicado.",
+          review: "O próximo ponto da curva não é exibido nesta prévia; nenhuma interpolação foi criada.",
+          noPoint: "Não há percentual separado publicado para esta rolagem de Exceptional.",
+        };
+
+    function pointLabel(point) {
+      return `${formatDobCraftSkill(point.skill)} (${formatDobCraftChance(point.chance)})`;
+    }
+
+    function updateCraftControl() {
+      const selected = recipe.options[recipe.selectedIndex];
+      const selectedSkill = Number(skill.value);
+      const minimumSkill = Number(selected.dataset.craftMin);
+      const points = parseDobCraftPoints(selected.dataset.craftPoints);
+      const exact = points.find((point) => Math.abs(point.skill - selectedSkill) < 0.051);
+      const lower = points.filter((point) => point.skill < selectedSkill - 0.051).pop();
+      const upper = points.find((point) => point.skill > selectedSkill + 0.051);
+
+      skillValue.textContent = formatDobCraftSkill(selectedSkill);
+      skillName.textContent = selected.dataset.craftSkill || "—";
+      minimum.textContent = formatDobCraftSkill(minimumSkill);
+      exceptional.textContent = selected.dataset.craftExceptional || copy.noPoint;
+      chance.textContent = "—";
+
+      if (selectedSkill < minimumSkill) {
+        note.textContent = copy.belowMinimum;
+        return;
+      }
+
+      if (exact) {
+        chance.textContent = formatDobCraftChance(exact.chance);
+        note.textContent = `${copy.exact} ${formatDobCraftSkill(exact.skill)}.`;
+        return;
+      }
+
+      if (lower && upper) {
+        note.textContent = `${copy.between}: ${pointLabel(lower)} → ${pointLabel(upper)}.`;
+        return;
+      }
+
+      if (lower && selected.dataset.craftTail === "cap") {
+        const last = points[points.length - 1];
+        chance.textContent = formatDobCraftChance(last.chance);
+        note.textContent = copy.aboveCap;
+        return;
+      }
+
+      note.textContent = copy.review;
+    }
+
+    recipe.addEventListener("change", updateCraftControl);
+    skill.addEventListener("input", updateCraftControl);
+    updateCraftControl();
+  });
+}
+
 function bindDobNavigation() {
   document.body.classList.remove("dob-atlas-nav-open");
 
@@ -153,6 +259,7 @@ function bindDobUi() {
   bindDobSearchShortcut();
   personalizeDobSearch();
   bindDobNavigation();
+  bindDobCraftControls();
 }
 
 if (typeof document$ !== "undefined") {
