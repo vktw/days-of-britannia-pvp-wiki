@@ -22,5 +22,5 @@ O acesso comum de jogadores às Lost Lands e às suas dungeons está fechado no 
 
 Abra `.dailydungeon` antes de sair para o PvM e combine a rotação com sua build em [Maestria PvM](pvm-mastery.md) e com as [Recompensas PvM](../itens/recompensas-pvm.md).
 
-!!! success "Status: Live 0.26.3"
+!!! success "Status: Beta 0.31.1"
     A Daily Dungeon diferente recebe bônus até a próxima rotação.

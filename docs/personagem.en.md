@@ -4,14 +4,15 @@
 
 Every new human character starts with **100 STR, 100 DEX and 100 INT**, a complete Spellbook, a Runebook, a shrunken horse, and a permanent **Starter PvP Iron kit**. The kit uses the official PvP equipment catalog, does not duplicate the horse, and cannot be sold to vendors. The initial **10,000 gold** is only awarded to the first eligible character per IP.
 
-The following skills start at **100.0**:
+New characters start with the following skills at **100.0**:
 
 | Combat | Support |
 |---|---|
-| Swordsmanship, Mace Fighting, Fencing | Anatomy, Tactics, Parrying |
-| Archery, Wrestling | Healing, Resisting Spells |
-| Magery | Evaluating Intelligence, Meditation, Focus |
-| Hiding, Stealth | Detect Hidden, Poisoning |
+| Swords, Tactics, Archery, Healing | Magery, Meditation |
+| Focus | Resisting Spells |
+
+Profession-specific skills are assigned separately. Existing characters keep
+their saved values; the compatible migration never lowers an existing skill.
 
 There is no effective global skill cap. Each player skill is individually capped at **100.0**.
 
@@ -47,5 +48,5 @@ maximum of 25 steps. Walking consumes the limit; exhausting it reveals the
 character, and running reveals immediately. Armor does not block or reduce
 Stealth effectiveness.
 
-!!! success "Status: Live 0.26.3"
+!!! success "Status: Beta 0.31.1"
     Stats, skills, caps and race correspond to the official server.

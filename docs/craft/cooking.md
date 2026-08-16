@@ -4,7 +4,7 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Menu da skill</span>
     <h3 id="dob-craft-cooking-title">Cooking</h3>
-    <p>Live 0.26.3 · Cooking usa Cooking como skill-base. Receitas comuns seguem a curva normal; algumas receitas especiais têm chance inicial diferente ou exigem heat/oven.</p>
+    <p>Beta 0.31.1 · Cooking usa Cooking como skill-base. Receitas comuns seguem a curva normal; algumas receitas especiais têm chance inicial diferente ou exigem heat/oven.</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Menu principal</span>

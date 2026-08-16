@@ -4,7 +4,7 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Menu da skill</span>
     <h3 id="dob-craft-tailoring-title">Tailoring</h3>
-    <p>Live 0.26.3 · Tailoring usa Tailoring como skill-base para roupas, couro, quivers e belts. Algumas receitas especiais forçam um resultado sem Exceptional ou começam com uma chance de sucesso diferente da base do sistema.</p>
+    <p>Beta 0.31.1 · Tailoring usa Tailoring como skill-base para roupas, couro, quivers e belts. Algumas receitas especiais forçam um resultado sem Exceptional ou começam com uma chance de sucesso diferente da base do sistema.</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Menu principal</span>

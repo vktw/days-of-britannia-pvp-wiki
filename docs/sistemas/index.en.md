@@ -37,5 +37,5 @@ Reflection.
 Controlled pets and player-owned summons cannot attack or damage other players,
 but remain usable normally in PvM.
 
-!!! success "Status: Live 0.26.3"
+!!! success "Status: Beta 0.31.1"
     The availability below corresponds to the official ruleset.

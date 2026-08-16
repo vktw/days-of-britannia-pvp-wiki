@@ -14,5 +14,5 @@ Ocllo não aplica a antiga regra de bloquear conflito, stealing, dano ou ações
 
 Consulte [Cidades e guards](cidades-guards.md) para as exceções confirmadas e [Morte e recuperação](../primeiros-passos/morte-recuperacao.md) para os fluxos de retorno.
 
-!!! success "Status: Live 0.26.3"
+!!! success "Status: Beta 0.31.1"
     Ocllo é uma cidade de Felucca sem a proteção especial do antigo Safe Haven.

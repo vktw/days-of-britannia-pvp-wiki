@@ -56,7 +56,7 @@ def main() -> int:
         for term in protected_terms:
             if term in pt and term not in en:
                 errors.append(f"protected term missing ({term}): {english.relative_to(DOCS)}")
-        if ("Status: Live " in pt) != ("Status: Live " in en):
+        if bool(re.search(r"Status: (?:Live|Alpha|Beta) ", pt)) != bool(re.search(r"Status: (?:Live|Alpha|Beta) ", en)):
             errors.append(f"live status missing from one language: {english.relative_to(DOCS)}")
 
     if errors:

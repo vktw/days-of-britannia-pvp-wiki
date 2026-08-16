@@ -16,7 +16,7 @@ Only the classic urban cores of Britain and Moonglow remain protected. The farms
 
 ## Britain farming strip in Felucca
 
-In Live 0.26.3, the Britain farming strip in Felucca between **X=1130..1261**
+In Beta 0.31.1, the Britain farming strip in Felucca between **X=1130..1261**
 and **Y=1542..1732** has no guard protection. `A Turnip Field in Britain 2`
 falls within this correction; the equivalent Trammel field remains unchanged, as
 does the turnip spawn.
@@ -52,4 +52,4 @@ indicator before assuming protection.
 
 See [Arena and Training](../arena.md) for rules for entry, external interference, and returning characters.
 
-!!! success "Status: Live 0.26.3"
+!!! success "Status: Beta 0.31.1"

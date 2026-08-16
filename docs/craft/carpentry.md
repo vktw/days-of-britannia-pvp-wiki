@@ -4,7 +4,7 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Menu da skill</span>
     <h3 id="dob-craft-carpentry-title">Carpentry</h3>
-    <p>Live 0.26.3 · Carpentry usa Carpentry como skill-base e cobre peças de madeira, armas, móveis e receitas especiais. Masonry é um menu separado, mas o servidor usa Carpentry como skill-base para ele; a relação está explicada em Masonry .</p>
+    <p>Beta 0.31.1 · Carpentry usa Carpentry como skill-base e cobre peças de madeira, armas, móveis e receitas especiais. Masonry é um menu separado, mas o servidor usa Carpentry como skill-base para ele; a relação está explicada em Masonry .</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Menu principal</span>

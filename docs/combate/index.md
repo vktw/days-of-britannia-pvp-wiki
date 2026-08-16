@@ -99,19 +99,22 @@ Exemplos práticos, sem transformar a luta em uma sequência fixa:
 
 ## Defesa que compra tempo
 
-- **Parrying:** com 100.0 Parrying, o shield chega a 45% de bloqueio no PvP.
+- **Parrying:** em golpes diretos no PvP, a chance escala com a Parrying base e
+  chega a **20% em 100.0**. Um Parry bem-sucedido pode zerar o golpe direto.
 - **Protection:** dura 90 segundos e reduz parte do dano restante depois das
   outras etapas de absorção.
 - **Reactive Armor:** dura 90 segundos e devolve parte do dano melee ao
   atacante.
 - **Magic Reflection:** possui uma carga contra a próxima magia ou field
   nocivo elegível.
-- **Posicionamento e armor:** cobertura, região atingida e movimento também
-  fazem parte da leitura da defesa.
+- **Armor Rating:** armaduras e shields exibem um valor calculado pelo custo de
+  ingots, material e tier de proteção. Golpes diretos contra jogadores usam a
+  absorção global do Armor Rating equipado; não há uma rolagem pública por
+  região corporal.
 
 Defesa não é apenas esperar a vida subir: ela compra o tempo necessário para
 reposicionar, recuperar mana ou preparar a próxima resposta.
 
-!!! success "Status: Live 0.26.3"
+!!! success "Status: Beta 0.31.1"
     Esta página resume o ruleset ativo no servidor oficial. Os valores de
     gameplay foram conferidos na fonte oficial do servidor.

@@ -4,7 +4,7 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Skill menu</span>
     <h3 id="dob-craft-alchemy-title">Alchemy</h3>
-    <p>Live 0.26.3 · Alchemy is the base skill for potions. The chance shown below is the base success roll; a finished potion's effect is not strengthened by Alchemy.</p>
+    <p>Beta 0.31.1 · Alchemy is the base skill for potions. The chance shown below is the base success roll; a finished potion's effect is not strengthened by Alchemy.</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Main menu</span>

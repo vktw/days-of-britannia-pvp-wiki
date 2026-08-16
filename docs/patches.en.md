@@ -2,6 +2,84 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.31.1 · Initial skill baseline
+
+- New characters start with Sword, Tactics, Archery, Healing, Magery,
+  Meditation, Focus, and Resisting Spells at 100.0.
+- Existing characters keep their skills; the compatible migration never lowers
+  saved values.
+
+## 0.31.0 · Transition to Beta
+
+- The shard is beginning Beta with frequent patches and possible unexpected
+  issues during calibration.
+- After Beta, there will be no global reset; the goal is to preserve players'
+  items, gold, XP, and skills.
+- The first-login notice now presents Beta information in Portuguese and
+  English.
+
+## 0.30.1 · Existing equipment review
+
+- The review of existing magical equipment was completed according to the
+  server's current sources.
+- Preserved items and the DoB, PvM Mastery, and Arena exceptions remain
+  available.
+
+## 0.30.0 · Available equipment sources
+
+- Ordinary magical equipment enters the economy through the official PvM Loot
+  Pack.
+- Fire Bow, Elven Bow, DoB Tools, PvM Mastery jewelry and amulets, DoB jewelry,
+  and operational Arena equipment remain available through their own sources.
+
+## 0.26.9 · Gameplay adjustments
+
+- The 49 trainable skills from 30.0 through 100.0 use one predictable
+  calibration; native GGS remains disabled and Stealth follows Hiding's
+  cadence.
+- Active meditation continues during compatible movement and is interrupted
+  when entering war mode.
+- Bulk Orders are disabled for new operations while legacy data is preserved.
+- Temporary STR, DEX, or INT debuffs no longer remove armor that is already
+  equipped.
+- The six canonical iron-fence graphics block spell line of sight when they
+  are between the caster and the target.
+
+## 0.26.8 · Patch Notes stability
+
+- The Patch Notes catalog keeps one English translation for every public note
+  and validates that correspondence before shard startup.
+
+## 0.26.7 · Client interactions
+
+- Automatic door opening through Razor and ClassicUO works again without
+  allowing spells through doors.
+- Dirty bandages can be washed at valid static water troughs.
+- Wall of Stone respects the line-of-sight blockers.
+- Phoenix Feathers stack correctly across legacy and current items.
+
+## 0.26.6 · Sphere-style line of sight
+
+- Approved windows, fences, and solid tree parts now participate in attack and
+  spell line of sight according to the reviewed Sphere rule.
+- Objects outside the reviewed list remain unchanged.
+
+## 0.26.5 · Armor Rating and direct defense
+
+- Armor and shields now display `Armor Rating: N`, calculated from ingot cost,
+  material, and protection tier.
+- Direct hits against players use global Armor Rating absorption; a shield
+  Parry can reduce the hit to zero with classic feedback.
+- Public tier names remain at the classic levels, while Bloodrock, Blackrock,
+  Fire Bow, and Elven Bow thematic lines remain available.
+
+## 0.26.4 · Weapon animations by type
+
+- Equipped weapons use the animation that matches their type and one-handed or
+  two-handed use, including while mounted.
+- The visual correction does not change weapon damage, speed, range, or other
+  properties.
+
 ## 0.26.3 · PvM hit chance by attack skill
 
 - In PvM, Melee and Archery attacks use one linear base curve based on effective attack skill, reaching 75% at 100.0; the relative PvM Mastery bonus is applied separately.

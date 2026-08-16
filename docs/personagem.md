@@ -4,14 +4,16 @@
 
 Todo novo personagem humano começa com **100 STR, 100 DEX e 100 INT**, Spellbook completo, Runebook, um cavalo shrinkado e um **Starter PvP Iron kit** permanente. O kit usa o catálogo oficial de equipamentos de PvP, sem duplicar o cavalo, e não pode ser vendido a vendors. Os **10.000 gold** iniciais são concedidos somente ao primeiro personagem elegível por IP.
 
-As seguintes skills começam em **100.0**:
+Novos personagens começam com as seguintes skills em **100.0**:
 
 | Combate | Suporte |
 |---|---|
-| Swordsmanship, Mace Fighting, Fencing | Anatomy, Tactics, Parrying |
-| Archery, Wrestling | Healing, Resisting Spells |
-| Magery | Evaluating Intelligence, Meditation, Focus |
-| Hiding, Stealth | Detect Hidden, Poisoning |
+| Swords, Tactics, Archery, Healing | Magery, Meditation |
+| Focus | Resisting Spells |
+
+Skills específicas da profissão são atribuídas separadamente. Personagens
+existentes preservam seus valores; a migração compatível nunca reduz uma skill
+já salva.
 
 Não existe skill cap global efetivo. Cada skill de jogador é limitada individualmente a **100.0**.
 
@@ -47,5 +49,5 @@ de 1 e máximo de 25 passos. Caminhar consome esse limite; esgotá-lo revela o
 personagem e correr revela imediatamente. Usar armadura não bloqueia nem reduz a
 eficácia de Stealth.
 
-!!! success "Status: Live 0.26.3"
+!!! success "Status: Beta 0.31.1"
     Stats, skills, caps e raça correspondem ao servidor oficial.

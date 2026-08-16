@@ -53,9 +53,9 @@ PLAY NOW <span aria-hidden="true">↓</span>
 <section class="dob-atlas-content" aria-label="Main content">
 <article class="dob-atlas-feature">
 <p class="dob-atlas-kicker">LATEST UPDATE</p>
-<h2>0.26.3 · PvM hit chance by attack skill</h2>
-<p class="dob-atlas-feature__date"><time datetime="2026-08-12">August 12, 2026</time></p>
-<p>Melee and Archery now hit more predictably in PvM based on attack skill. The Elven Bow keeps its exception; PvP is unchanged.</p>
+<h2>0.31.1 · Initial skill baseline</h2>
+<p class="dob-atlas-feature__date"><time datetime="2026-08-14">August 14, 2026</time></p>
+<p>New characters now start with eight core skills at 100.0. Existing characters keep their values and are never downgraded.</p>
 <a href="patches/">READ PATCH NOTES <span aria-hidden="true">→</span></a>
 </article>
 

@@ -20,9 +20,9 @@ Carving its untouched corpse can award **Fire Feathers**. The bonus depends on
 Forensic Evaluation; a higher effective skill increases the chance of receiving
 a bonus over the normal yield.
 
-## Rare Events in Live 0.26.3
+## Rare Events in Beta 0.31.1
 
-Alongside the rare Phoenix, Live 0.26.3 includes **Desert Ostard**, **Forest
+Alongside the rare Phoenix, Beta 0.31.1 includes **Desert Ostard**, **Forest
 Ostard**, and **Frenzied Ostard** at fixed world locations. Finding them remains
 part of exploration, without publishing coordinates.
 
@@ -30,10 +30,10 @@ The same event cycle includes the **Rare Rideable Llama**, a rare and tamable
 mount. For the leads shared by Town Criers, see [Whispers of
 Britannia](whispers-britannia.md).
 
-## Seasonal visual in Live 0.26.3
+## Seasonal visual in Beta 0.31.1
 
 Felucca receives the seasonal **Spring** appearance. This is a visual change and
 does not alter map geometry, resources, or collision.
 
-!!! success "Status: Live 0.26.3"
+!!! success "Status: Beta 0.31.1"
     Rare creatures and seasonal events offer discovery paths across Britannia.

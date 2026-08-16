@@ -2,6 +2,83 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.31.1 · Baseline inicial de skills
+
+- Novos personagens começam com Sword, Tactics, Archery, Healing, Magery,
+  Meditation, Focus e Resisting Spells em 100.0.
+- Personagens existentes preservam suas skills; a migração compatível não reduz
+  valores já salvos.
+
+## 0.31.0 · Transição para o Beta
+
+- O shard inicia o Beta com patches frequentes e possibilidade de problemas
+  inesperados durante a calibração.
+- Depois do Beta, não haverá reset global; o objetivo é preservar itens, gold,
+  XP e skills dos jogadores.
+- O aviso de primeiro login passa a apresentar as informações do Beta em
+  português e inglês.
+
+## 0.30.1 · Revisão de equipamentos existentes
+
+- A revisão dos equipamentos mágicos existentes foi concluída conforme as
+  fontes atuais do servidor.
+- Itens preservados e as exceções DoB, PvM Mastery e Arena continuam
+  disponíveis.
+
+## 0.30.0 · Fontes de equipamentos disponíveis
+
+- Equipamentos mágicos comuns entram na economia pelo Loot Pack PvM oficial.
+- Fire Bow, Elven Bow, DoB Tools, joias e amuletos de Maestria PvM, joias DoB e
+  equipamentos operacionais de Arena continuam disponíveis por suas fontes
+  próprias.
+
+## 0.26.9 · Ajustes de gameplay
+
+- As 49 skills treináveis entre 30.0 e 100.0 usam uma calibração única e
+  previsível; GGS nativo continua desativado e Stealth segue a cadência de
+  Hiding.
+- A meditação ativa continua durante movimentos compatíveis e é interrompida
+  ao entrar em modo de guerra.
+- Bulk Orders ficam desativados para novas operações, preservando dados antigos.
+- Debuffs temporários de STR, DEX ou INT não removem armaduras já vestidas.
+- As seis artes canônicas de iron fence bloqueiam a linha de visão de magia
+  quando estão entre o conjurador e o alvo.
+
+## 0.26.8 · Estabilidade das Patch Notes
+
+- O catálogo de Patch Notes mantém uma tradução em inglês para cada nota
+  pública e valida essa correspondência antes do início do shard.
+
+## 0.26.7 · Interações do cliente
+
+- A abertura automática de portas pelo Razor e ClassicUO volta a funcionar sem
+  liberar magia através das portas.
+- Bandagens sujas podem ser lavadas em troughs estáticos de água válidos.
+- Wall of Stone respeita os bloqueadores de linha de visão.
+- Penas de Phoenix empilham corretamente entre itens legados e atuais.
+
+## 0.26.6 · Linha de visão no estilo Sphere
+
+- Janelas, cercas e partes sólidas de árvores aprovadas passam a participar da
+  linha de visão de ataques e magias conforme a regra revisada do Sphere.
+- Objetos fora da lista revisada permanecem inalterados.
+
+## 0.26.5 · Armor Rating e defesa direta
+
+- Armaduras e shields passam a exibir `Armor Rating: N`, calculado pelo custo de
+  ingots, material e tier de proteção.
+- Ataques diretos contra jogadores usam a absorção global do Armor Rating; um
+  Parry com shield pode zerar o golpe e exibe o feedback clássico.
+- Os nomes públicos dos tiers permanecem nos níveis clássicos, e as linhas
+  temáticas Bloodrock, Blackrock, Fire Bow e Elven Bow continuam disponíveis.
+
+## 0.26.4 · Animações de armas por tipo
+
+- Armas equipadas usam a animação correspondente ao tipo e ao uso de uma ou
+  duas mãos, inclusive durante a montaria.
+- A correção visual não altera dano, velocidade, alcance ou outras propriedades
+  da arma.
+
 ## 0.26.3 · Chance de acerto PvM por skill
 
 - No PvM, ataques de Melee e Archery usam uma curva-base linear baseada na skill de ataque efetiva, chegando a 75% em 100.0; o bônus relativo de PvM Mastery é aplicado separadamente.

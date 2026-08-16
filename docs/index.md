@@ -53,9 +53,9 @@ hide:
 <section class="dob-atlas-content" aria-label="Conteúdo principal">
   <article class="dob-atlas-feature">
     <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
-    <h2>0.26.3 · Chance de acerto PvM por skill</h2>
-    <p class="dob-atlas-feature__date"><time datetime="2026-08-12">12 de agosto de 2026</time></p>
-    <p>Melee e Archery agora acertam de forma mais previsível no PvM conforme a skill de ataque. O Elven Bow mantém sua exceção; o PvP não muda.</p>
+    <h2>0.31.1 · Baseline inicial de skills</h2>
+    <p class="dob-atlas-feature__date"><time datetime="2026-08-14">14 de agosto de 2026</time></p>
+    <p>Novos personagens começam com oito skills centrais em 100.0. Personagens existentes preservam seus valores e não sofrem downgrade.</p>
     <a href="patches/">LER PATCH NOTES <span aria-hidden="true">→</span></a>
   </article>
 

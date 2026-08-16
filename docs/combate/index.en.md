@@ -102,19 +102,23 @@ Practical examples, without turning the fight into a fixed sequence:
 
 ## Defense that buys time
 
-- **Parrying:** with 100.0 Parrying, a shield reaches 45% block in PvP.
+- **Parrying:** on direct PvP hits, the chance scales with base Parrying and
+  reaches **20% at 100.0**. A successful Parry can reduce the direct hit to
+  zero.
 - **Protection:** lasts 90 seconds and reduces part of the remaining damage
   after the other absorption steps.
 - **Reactive Armor:** lasts 90 seconds and returns part of melee damage to the
   attacker.
 - **Magic Reflection:** has one charge against the next eligible harmful spell
   or field.
-- **Positioning and armor:** coverage, the hit region, and movement also belong
-  to the defensive read.
+- **Armor Rating:** armor and shields display a value calculated from ingot
+  cost, material, and protection tier. Direct hits against players use the
+  global Armor Rating absorption of equipped items; there is no public
+  body-region roll.
 
 Defense is not only waiting for hits to rise: it buys the time needed to
 reposition, recover mana, or prepare the next response.
 
-!!! success "Status: Live 0.26.3"
+!!! success "Status: Beta 0.31.1"
     This page summarizes the active ruleset on the official server. Gameplay
     values were checked against the official server source.

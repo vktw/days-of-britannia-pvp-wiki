@@ -44,13 +44,21 @@ Every player starts near the **Britain bank**, on the Felucca map.
 The permanent limit is 100 per stat and 300 total. Buffs and items can raise
 each effective stat up to 120.
 
-### Combat skills at 100.0
+### Starting skills at 100.0
 
-- Swords, Macing, Fencing, Archery and Wrestling
-- Tactics, Anatomy and Parrying
-- Magery, Evaluating Intelligence and Resisting Spells
-- Healing, Meditation and Focus
-- Hiding, Stealth, Detect Hidden and Poisoning
+New characters start with these eight core skills at **100.0**:
+
+- Swords
+- Tactics
+- Archery
+- Healing
+- Magery
+- Meditation
+- Focus
+- Resisting Spells
+
+Profession-specific skills are still assigned separately. Existing characters
+keep their saved values; this change never lowers existing skills.
 
 The shard does not have a global skill cap. Each individual skill remains capped
 at 100.0.
@@ -99,7 +107,7 @@ Britain is the starting location, but **Nujelm** is the server's Safe Haven. The
 defined region blocks player conflict, stealing, harmful actions by pets or
 summons, magical travel, Fields, and received damage.
 
-Use Felucca's public moongate network to travel to Nujelm. In Live 0.26.3, no
+Use Felucca's public moongate network to travel to Nujelm. In Beta 0.31.1, no
 character gains skills inside Safe Haven, including Newcomers.
 
 [Learn about Nujelm Safe Haven](../mundo/nujelm.md) before leaving for a hunt.
@@ -179,5 +187,5 @@ training fight.
 - [Systems and ruleset limits](../sistemas/index.md)
 - [Ultima Online Brasil: shards, servers, and community](ultima-online-brasil.md)
 
-!!! success "Status: Live 0.26.3"
+!!! success "Status: Beta 0.31.1"
     The information on this page corresponds to the official server.

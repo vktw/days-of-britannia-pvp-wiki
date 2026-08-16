@@ -38,5 +38,5 @@ ranking do PvP Trainer nem as regras da Arena.
 
 Veja também [Maestria PvM](pvm-mastery.md) para XP, famílias Slayer e builds.
 
-!!! success "Status: Live 0.26.3"
+!!! success "Status: Beta 0.31.1"
     O sistema de Achievements está disponível no servidor oficial.

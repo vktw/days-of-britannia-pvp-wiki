@@ -4,11 +4,11 @@
 
 The crafting catalog includes **Iron, Bronze, Shadow, Silver, Gold, Bloodrock, Blackrock, Mythril, and Brittanium**. The metal defines 0 to 8 additional points of physical protection for armor and shields; Low, Normal, and Exceptional quality keep the same protection and change durability only.
 
-The modern Enhance system no longer defines the material. Magical PvM equipment remains Iron.
+Magical PvM equipment remains Iron.
 
 ## Metals and Chain pieces
 
-Blacksmithy lets you choose **Iron, Bronze, Shadow, Silver, Gold, Bloodrock, Blackrock, Mythril, or Brittanium**. The selected metal keeps the recipe cost and adds 0 to 8 points of `Physical Resist` according to its tier. Low, Normal, and Exceptional quality change durability but not final physical protection.
+Blacksmithy lets you choose **Iron, Bronze, Shadow, Silver, Gold, Bloodrock, Blackrock, Mythril, or Brittanium**. The selected metal keeps the recipe cost and contributes its material bonus to `Armor Rating` according to its tier. Low, Normal, and Exceptional quality change durability but not the protection calculated from the material.
 
 The main **Chain** pieces use these costs and native Blacksmithy ranges:
 
@@ -20,6 +20,16 @@ The main **Chain** pieces use these costs and native Blacksmithy ranges:
 | **Chain Hatsuburi** | 20 ingots | 30.0–80.0 |
 
 These remain classic armor pieces; they are not part of Blacksmithy's thematic **DoB Weapons** lines.
+
+## Armor Rating in Beta 0.31.1
+
+Armor and shields display **Armor Rating: N**. For recipe-backed pieces, the
+value considers ingot cost, material bonus, and protection tier. On direct hits
+against players, the server aggregates Armor Rating from equipped pieces and
+applies global absorption; the value is not a body-region percentage.
+
+Quality changes durability, while material and tier define the protection used
+by the Armor Rating calculation.
 
 ## Qualities
 
@@ -34,19 +44,22 @@ Defensive qualities follow this order:
 | Fortification | Very high |
 | Invulnerability | Maximum |
 
-The piece's displayed `Physical Resist` shows its practical protection. Durability and quality matter; modern elemental resistances do not apply separately in Sphere PvP.
+The displayed `Armor Rating` shows the piece's practical protection. Modern
+elemental resistances do not apply separately in Sphere PvP.
 
-The `Physical Resist` baseline for armor and shields uses the **1.60** multiplier. New or tier-mutated Invulnerability equipment uses hue `2483`; saved items are not migrated.
+New or tier-mutated Invulnerability equipment uses hue `2483`; saved items are
+not migrated.
 
-## Coverage
+## Coverage and slots
 
-- Chest, Legs, Arms, Head, Hands, and Neck are independent regions.
-- An uncovered region receives additional PvP damage.
+- Chest, Legs, Arms, Head, Hands, and Neck are independent equipment slots.
+- The occupied piece still defines visual coverage; there is no public
+  body-region roll or automatic extra damage for an uncovered region.
 - Ordinary clothing and jewelry do not replace armor.
 - Shields work through Parrying and occupy the second hand.
 - Body plate prevents Archery; Plate Gorgets and shields are allowed.
 
 See [Armor and Parrying](../combate/armor-parrying.md).
 
-!!! success "Status: Live 0.26.3"
-    Each piece protects only the body region where it is equipped.
+!!! success "Status: Beta 0.31.1"
+    Direct-hit resolution uses global Armor Rating from equipped pieces.

@@ -4,7 +4,7 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Skill menu</span>
     <h3 id="dob-craft-blacksmithy-title">Blacksmithy</h3>
-    <p>Live 0.26.3 · Blacksmithy uses Blacksmith as its skill and separates regular crafting from the DoB Weapons lines and special metals. The percentages below are the chance to produce the item; Arms Lore and Exceptional are separate when applicable.</p>
+    <p>Beta 0.31.1 · Blacksmithy uses Blacksmith as its skill and separates regular crafting from the DoB Weapons lines and special metals. The percentages below are the chance to produce the item; Arms Lore and Exceptional are separate when applicable.</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Main menu</span>

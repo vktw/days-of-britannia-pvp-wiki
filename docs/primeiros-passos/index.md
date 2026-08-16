@@ -44,13 +44,22 @@ Todo jogador começa próximo ao **banco de Britain**, no mapa Felucca.
 O limite permanente é 100 por stat e 300 no total. Buffs e itens podem elevar
 cada stat efetivo até 120.
 
-### Skills de combate em 100.0
+### Skills iniciais em 100.0
 
-- Swords, Macing, Fencing, Archery e Wrestling
-- Tactics, Anatomy e Parrying
-- Magery, Evaluating Intelligence e Resisting Spells
-- Healing, Meditation e Focus
-- Hiding, Stealth, Detect Hidden e Poisoning
+Novos personagens começam com estas oito skills centrais em **100.0**:
+
+- Swords
+- Tactics
+- Archery
+- Healing
+- Magery
+- Meditation
+- Focus
+- Resisting Spells
+
+As skills específicas da profissão continuam sendo atribuídas separadamente.
+Personagens existentes preservam seus valores; esta mudança não reduz skills já
+salvas.
 
 O shard não possui skill cap global. Cada skill individual permanece limitada a
 100.0.
@@ -100,8 +109,8 @@ Britain é o local inicial, mas **Nujelm** é o Safe Haven do servidor. A regiã
 definida bloqueia conflito entre jogadores, stealing, ações nocivas de pets ou
 summons, viagens mágicas, Fields e dano recebido.
 
-Use a rede pública de moongates de Felucca para viajar até Nujelm. No Live
-0.26.3, nenhum personagem recebe ganho de skill dentro do Safe Haven, inclusive
+Use a rede pública de moongates de Felucca para viajar até Nujelm. No Beta
+0.31.1, nenhum personagem recebe ganho de skill dentro do Safe Haven, inclusive
 Newcomers.
 
 [Conheça Nujelm Safe Haven](../mundo/nujelm.md) antes de sair para uma caçada.
@@ -182,5 +191,5 @@ treino.
 - [Sistemas e limites do ruleset](../sistemas/index.md)
 - [Ultima Online Brasil: shards, servidores e comunidade](ultima-online-brasil.md)
 
-!!! success "Status: Live 0.26.3"
+!!! success "Status: Beta 0.31.1"
     As informações desta página correspondem ao servidor oficial.

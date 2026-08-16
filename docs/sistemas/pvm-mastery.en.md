@@ -76,7 +76,7 @@ Live added five Masteries that convert part of defensive or offensive resources 
 
 These five Masteries scale from 5% to 9.5% and preserve the PvP and Arena exclusions. The first learned Mastery can be added to the build automatically at level 1 when the combat log is enabled; the Compendium provides clearer guidance and controls.
 
-## Live 0.26.3 catalog
+## Beta 0.31.1 catalog
 
 ### Offense and resources
 
@@ -181,5 +181,5 @@ See [PvM rewards](../itens/recompensas-pvm.md) for XP, Loot Packs, jewelry, and 
 
 See also [Achievements](achievements.md) for the introductory path and activity achievements.
 
-!!! success "Status: Live 0.26.3"
+!!! success "Status: Beta 0.31.1"
     The Hunter's Compendium provides dedicated progression for characters who fight creatures.

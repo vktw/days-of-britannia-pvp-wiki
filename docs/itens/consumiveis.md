@@ -41,7 +41,7 @@ consome uso.
 Provisioners vendem Hatchet, Pickaxe, Shovel e Fishing Pole básicos. Tinkers
 vendem Hatchet, Pickaxe e Shovel, enquanto Carpenters vendem Fishing Pole.
 
-## DoB Tools no Live 0.26.3
+## DoB Tools no Beta 0.31.1
 
 A Tinkering organiza as ferramentas especiais no submenu **DoB Tools**. Cada família usa um metal público, tem sua própria exigência de Tinkering e aparece somente para as ferramentas compatíveis.
 
@@ -62,5 +62,5 @@ Novos personagens recebem Spellbook completo, Runebook vazio e cavalo shrinkado.
 
 Veja [Cura e recursos](../combate/cura-recursos.md) para todas as faixas e delays.
 
-!!! success "Status: Live 0.26.3"
+!!! success "Status: Beta 0.31.1"
     Quantidades de kits e efeitos detalhados correspondem ao servidor oficial.

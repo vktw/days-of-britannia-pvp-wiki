@@ -1,18 +1,18 @@
 # High-risk gameplay fact inventory.
 # Live entries are approved by production presence; source refs are metadata only.
-# The 0.26.3 pass below confirms the current release identity and the affected official patch-note deltas.
+# The 0.31.1 pass below confirms the current release identity, starting-skill baseline, and the affected official patch-note deltas.
 # Other entries retain their last deep-verification release until that audit is run.
 schema_version: 1
-registry_version: "0.26.3"
+registry_version: "0.31.1"
 source_policy: "live-server-is-final"
 entries:
   - id: live-version
-    claim: "The public manual identifies the current live ruleset as 0.26.3."
+    claim: "The public manual identifies the current production ruleset as Beta 0.31.1."
     status: live
     source_status: approved
-    live_version: "0.26.3"
-    verification_date: "2026-08-13"
-    approved_source: "live-server/v0.26.3"
+    live_version: "0.31.1"
+    verification_date: "2026-08-15"
+    approved_source: "live-server/v0.31.1"
     public_reference: "docs/patches.md"
     canonical_pt: "docs/patches.md"
     english_counterpart: "docs/patches.en.md"
@@ -186,13 +186,13 @@ entries:
     english_counterpart: "docs/sistemas/achievements.en.md"
     owner: pvm-maintainer
     review_after: null
-  - id: pvp-overview-0263-live
+  - id: pvp-overview-0311-live
     claim: "The public PvP overview describes the live pressure-and-response model, the same combat rules in open PvP and during active Arena fights, automatic bandage treatment for poison, and the fixed base cast delays and mana costs of the listed Magery spells."
     status: live
     source_status: approved
-    live_version: "0.26.3"
-    verification_date: "2026-08-13"
-    approved_source: "live-server/v0.26.3"
+    live_version: "0.31.1"
+    verification_date: "2026-08-15"
+    approved_source: "live-server/v0.31.1"
     public_reference: "docs/combate/index.md"
     canonical_pt: "docs/combate/index.md"
     english_counterpart: "docs/combate/index.en.md"
@@ -329,6 +329,30 @@ entries:
     canonical_pt: "docs/patches.md"
     english_counterpart: "docs/patches.en.md"
     owner: server-owner
+    review_after: null
+  - id: starting-skills-0311-live
+    claim: "New characters in production start with Swords, Tactics, Archery, Healing, Magery, Meditation, Focus, and Resisting Spells at 100.0; existing characters keep their current skill values through the additive migration."
+    status: live
+    source_status: approved
+    live_version: "0.31.1"
+    verification_date: "2026-08-15"
+    approved_source: "live-server/v0.31.1"
+    public_reference: "docs/primeiros-passos/index.md"
+    canonical_pt: "docs/primeiros-passos/index.md"
+    english_counterpart: "docs/primeiros-passos/index.en.md"
+    owner: server-owner
+    review_after: null
+  - id: armor-rating-parry-0311-live
+    claim: "Production's current direct-defense contract aggregates crafted Armor Rating globally, caps direct PvP Parry at 20% at base 100.0, allows a successful Parry to reduce the direct hit to zero, and does not use the retired regional body-location roll for the direct Player or Trainer contract."
+    status: live
+    source_status: approved
+    live_version: "0.31.1"
+    verification_date: "2026-08-15"
+    approved_source: "live-server/v0.31.1"
+    public_reference: "docs/combate/index.md"
+    canonical_pt: "docs/combate/index.md"
+    english_counterpart: "docs/combate/index.en.md"
+    owner: combat-maintainer
     review_after: null
   - id: bowcraft-0235-local-preview
     claim: "Live 0.23.5 documents Fire Bow and Elven Bow, their Bowcraft materials and success information, Elven Bow's equipped skill bonuses, Fire Feather compatibility, Fire Bow impact presentation, and the Bowcraft material-bonus policy."

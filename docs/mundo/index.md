@@ -19,5 +19,5 @@ Felucca é a única faceta pública de Britannia. Trammel permanece reservada à
 
 Britannia continua evoluindo entre atualizações. Vendors, criaturas, objetos e decorações podem mudar conforme o mundo recebe conteúdo novo ou manutenção.
 
-!!! success "Status: Live 0.26.3"
+!!! success "Status: Beta 0.31.1"
     Esta seção documenta as regras gerais de mapas e regiões do servidor oficial.

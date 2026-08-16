@@ -4,7 +4,7 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Skill menu</span>
     <h3 id="dob-craft-glassblowing-title">Glassblowing</h3>
-    <p>Live 0.26.3 · Glassblowing is a separate menu, but its official base skill is Alchemy . To craft, a player needs Alchemy 100.0, Glassblowing training, the correct tool, and a nearby forge.</p>
+    <p>Beta 0.31.1 · Glassblowing is a separate menu, but its official base skill is Alchemy . To craft, a player needs Alchemy 100.0, Glassblowing training, the correct tool, and a nearby forge.</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Main menu</span>
