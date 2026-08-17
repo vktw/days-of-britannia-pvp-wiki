@@ -57,10 +57,10 @@ Esta página resume mudanças percebidas pelos jogadores. Números atuais e inst
 - Wall of Stone respeita os bloqueadores de linha de visão.
 - Penas de Phoenix empilham corretamente entre itens legados e atuais.
 
-## 0.26.6 · Linha de visão no estilo Sphere
+## 0.26.6 · Linha de visão revisada
 
 - Janelas, cercas e partes sólidas de árvores aprovadas passam a participar da
-  linha de visão de ataques e magias conforme a regra revisada do Sphere.
+  linha de visão de ataques e magias conforme a regra revisada do servidor.
 - Objetos fora da lista revisada permanecem inalterados.
 
 ## 0.26.5 · Armor Rating e defesa direta
@@ -178,7 +178,7 @@ Esta página resume mudanças percebidas pelos jogadores. Números atuais e inst
 - A corrida montada agora suporta uma rajada maior de movimento antes de aplicar a proteção contra excesso de velocidade.
 - A perda de stamina por excesso de peso foi reduzida pela metade, mantendo as regras de corrida, montado e perda mínima.
 - O gold das recompensas PvM centralizadas usa fator 1,9 em vez de 2,3; XP, Loot Packs e bônus de Newcomer permanecem com as mesmas regras.
-- Protection e Reactive Armor usam os efeitos visuais e sons de conjuração históricos do Sphere 0.51a; Reactive Armor mantém apenas o efeito vermelho histórico no atacante durante o reflexo.
+- Protection e Reactive Armor usam os efeitos visuais e sons de conjuração históricos do servidor; Reactive Armor mantém apenas o efeito vermelho histórico no atacante durante o reflexo.
 - Bandagens limpas usadas com sucesso viram Bloody Bandages com o mesmo peso. Quando o jogador está sobrecarregado, elas caem no chão em vez de aumentar o peso carregado.
 - Bloody Bandages podem ser lavadas em uma fonte de água: uma unidade limpa o stack inteiro e envia o stack limpo para a mochila.
 - Jogadores não recebem mais uma robe automática ao serem ressuscitados; itens e robes já existentes permanecem preservados.
@@ -213,9 +213,9 @@ Esta página resume mudanças percebidas pelos jogadores. Números atuais e inst
 - Dano comum de criaturas não retira stamina; drenos explícitos e Vigor Shield continuam funcionando.
 - Criaturas selvagens hostis mostram fumaça e som de fizzle quando a magia perde alcance, visão ou um alvo válido antes de ser concluída.
 - Criaturas selvagens hostis aparecem em vermelho, sem alterar as regras de combate ou criminalidade.
-- Clean Up Britannia está desativado para o ruleset Sphere 51a; novos pontos, avaliações e recompensas do sistema não estão disponíveis.
-- Ultima Store está desativada para o ruleset Sphere 51a; novas compras, entregas e uso da moeda Sovereigns pela loja não estão disponíveis.
-- Vice vs Virtue está desativado para o ruleset Sphere 51a; novas adesões, batalhas, silver e recompensas não estão disponíveis.
+- Clean Up Britannia está desativado; novos pontos, avaliações e recompensas do sistema não estão disponíveis.
+- Ultima Store está desativada; novas compras, entregas e uso da moeda Sovereigns pela loja não estão disponíveis.
+- Vice vs Virtue está desativado; novas adesões, batalhas, silver e recompensas não estão disponíveis.
 - A criação automática de contas permite até 10 contas por IP.
 
 ## 0.20.0 · Criação de personagens mais limpa

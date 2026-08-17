@@ -1,5 +1,5 @@
 ---
-description: Entenda a Maestria PvM, sua progressão, famílias de Slayer e possibilidades de build no Live.
+description: Entenda a Maestria PvM customizada, sua progressão, famílias de Slayer e possibilidades de build no Live.
 ---
 
 # Maestria PvM

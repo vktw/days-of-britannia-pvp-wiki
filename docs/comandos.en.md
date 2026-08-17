@@ -35,7 +35,7 @@ Opens DoB help with short command descriptions and direct access to available ac
 
 ## `.store`
 
-The Ultima Store is disabled for the Sphere 51a ruleset. Purchases, deliveries, and store use of Sovereigns are unavailable.
+The Ultima Store is disabled. Purchases, deliveries, and store use of Sovereigns are unavailable.
 
 ## `.dailydungeon`
 

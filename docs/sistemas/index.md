@@ -1,6 +1,7 @@
 # Sistemas
 
-Days of Britannia preserva sistemas compatíveis com o objetivo do shard e neutraliza mecânicas modernas que alterariam o combate clássico.
+Days of Britannia roda em um emulador moderno de Ultima Online. A base clássica
+recebe regras de PvP e PvM customizadas para o objetivo do shard.
 
 - [Sistemas habilitados](habilitados.md)
 - [Arena e treinamento](../arena.md)

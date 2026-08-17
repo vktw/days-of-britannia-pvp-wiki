@@ -1,7 +1,7 @@
 # Sistemas habilitados
 
 - Combate físico com Swords, Macing, Fencing, Archery e Wrestling.
-- Magery no fluxo Sphere 51 do shard.
+- Magery integrada ao fluxo de PvP e PvM customizados do emulador moderno do shard.
 - Healing, Anatomy, Tactics, Evaluating Intelligence e Resisting Spells.
 - Meditation e Focus, sem bloqueio por equipamento.
 - Hiding, Stealth, Detect Hidden e Poisoning.

@@ -35,7 +35,7 @@ Abre a ajuda do DoB com descrições curtas dos comandos e acesso direto às aç
 
 ## `.store`
 
-A Ultima Store está desativada no ruleset Sphere 51a. Não há compras, entregas ou uso de Sovereigns pela loja.
+A Ultima Store está desativada. Não há compras, entregas ou uso de Sovereigns pela loja.
 
 ## `.dailydungeon`
 

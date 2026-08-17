@@ -1,6 +1,6 @@
 # PvM rewards
 
-After defeating an eligible creature, nearby participants with looting rights may receive PvM Mastery experience. Gold, Loot Pack opportunities, and other rewards follow the encounter's resilience; the Threat class helps compare risk but does not guarantee a specific item.
+In the shard's custom PvM, defeating an eligible creature may grant nearby participants with looting rights PvM Mastery experience. Gold, Loot Pack opportunities, and other rewards follow the encounter's resilience; the Threat class helps compare risk but does not guarantee a specific item.
 
 Centralized PvM gold now uses a **1.9** factor instead of 2.3. This change does not alter XP, Loot Pack, or Newcomer bonus rules.
 

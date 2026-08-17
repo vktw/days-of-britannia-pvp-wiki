@@ -1,5 +1,5 @@
 ---
-description: Learn PvM Mastery progression, Slayer families, and build options on the Live server.
+description: Learn the custom PvM Mastery progression, Slayer families, and build options on the Live server.
 ---
 
 # PvM Mastery

@@ -1,7 +1,7 @@
 # Enabled systems
 
 - Physical combat with Swords, Macing, Fencing, Archery and Wrestling.
-- Magery in the Sphere 51 stream of the shard.
+- Magery integrated into the shard's modern emulator and its custom PvP and PvM flows.
 - Healing, Anatomy, Tactics, Evaluating Intelligence and Resisting Spells.
 - Meditation and Focus, without equipment blocking.
 - Hiding, Stealth, Detect Hidden and Poisoning.

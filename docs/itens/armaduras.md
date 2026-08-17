@@ -46,7 +46,7 @@ As qualidades defensivas seguem esta ordem:
 | Invulnerability | Máxima |
 
 O `Armor Rating` exibido na peça mostra sua proteção prática. Resistências
-elementais modernas não entram separadamente no PvP Sphere.
+elementais modernas não entram separadamente no PvP do shard.
 
 Equipamentos novos ou alterados dos tiers Invulnerability usam hue `2483`;
 itens salvos não são migrados.

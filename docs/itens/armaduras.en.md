@@ -45,7 +45,7 @@ Defensive qualities follow this order:
 | Invulnerability | Maximum |
 
 The displayed `Armor Rating` shows the piece's practical protection. Modern
-elemental resistances do not apply separately in Sphere PvP.
+elemental resistances do not apply separately in the shard's PvP.
 
 New or tier-mutated Invulnerability equipment uses hue `2483`; saved items are
 not migrated.

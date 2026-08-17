@@ -1,7 +1,8 @@
 # PvP
 
-Days of Britannia PvP is built around pressure and response, not a fixed
-rotation. Players combine physical damage, magic, and poison to force a
+Days of Britannia's custom PvP runs on a modern emulator and is built around
+pressure and response, not a fixed rotation. Players combine physical damage,
+magic, and poison to force a
 defensive answer; they then manage hits, mana, bandages, and positioning until a
 finishing window appears.
 

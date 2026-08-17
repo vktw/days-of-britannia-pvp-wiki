@@ -1,7 +1,8 @@
 # PvP
 
-O PvP de Days of Britannia é baseado em pressão e resposta, não em uma
-rotação fixa. O jogador combina dano físico, magia e poison para obrigar uma
+O PvP customizado de Days of Britannia roda em um emulador moderno e é baseado
+em pressão e resposta, não em uma rotação fixa. O jogador combina dano físico,
+magia e poison para obrigar uma
 resposta defensiva; depois administra vida, mana, bandages e posicionamento até
 criar uma janela de finalização.
 

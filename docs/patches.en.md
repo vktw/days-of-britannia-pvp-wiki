@@ -58,10 +58,10 @@ This page summarizes changes players can notice. Current numbers and full instru
 - Wall of Stone respects the line-of-sight blockers.
 - Phoenix Feathers stack correctly across legacy and current items.
 
-## 0.26.6 · Sphere-style line of sight
+## 0.26.6 · Revised line of sight
 
 - Approved windows, fences, and solid tree parts now participate in attack and
-  spell line of sight according to the reviewed Sphere rule.
+  spell line of sight according to the server's reviewed rule.
 - Objects outside the reviewed list remain unchanged.
 
 ## 0.26.5 · Armor Rating and direct defense
@@ -179,7 +179,7 @@ This page summarizes changes players can notice. Current numbers and full instru
 - Mounted running now supports a larger movement burst before excess-speed protection applies.
 - Overweight stamina loss is reduced by half while running, mounted movement, and minimum-loss rules remain unchanged.
 - Centralized PvM reward gold uses a 1.9 factor instead of 2.3; XP, Loot Packs, and Newcomer bonus rules remain unchanged.
-- Protection and Reactive Armor use the historical Sphere 0.51a visual effects and cast sounds; Reactive Armor keeps only the historical red effect on the attacker during the reflection.
+- Protection and Reactive Armor use the server's historical visual effects and cast sounds; Reactive Armor keeps only the historical red effect on the attacker during the reflection.
 - Successfully used clean bandages become Bloody Bandages with the same weight. When overloaded, they drop to the ground instead of increasing carried weight.
 - Bloody Bandages can be washed at a water source: one water unit cleans the whole stack and sends the clean stack to the backpack.
 - Players no longer receive an automatic robe on resurrection; existing items and robes remain preserved.
@@ -214,9 +214,9 @@ This page summarizes changes players can notice. Current numbers and full instru
 - Ordinary creature damage no longer drains stamina; explicit drains and Vigor Shield remain unchanged.
 - Hostile wild creatures now show fizzle smoke and sound when their spell loses range, sight, or a valid target before completion.
 - Hostile wild creatures now appear in red without changing combat or crime rules.
-- Clean Up Britannia is disabled for the Sphere 51a ruleset; new points, appraisals, and system rewards are unavailable.
-- Ultima Store is disabled for the Sphere 51a ruleset; new purchases, deliveries, and store use of Sovereigns are unavailable.
-- Vice vs Virtue is disabled for the Sphere 51a ruleset; new enrollment, battles, silver, and rewards are unavailable.
+- Clean Up Britannia is disabled; new points, appraisals, and system rewards are unavailable.
+- Ultima Store is disabled; new purchases, deliveries, and store use of Sovereigns are unavailable.
+- Vice vs Virtue is disabled; new enrollment, battles, silver, and rewards are unavailable.
 - Automatic account creation now allows up to 10 accounts per IP.
 
 ## 0.20.0 · Cleaner character creation

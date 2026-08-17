@@ -1,6 +1,6 @@
 # Recompensas PvM
 
-Ao derrotar uma criatura elegível, participantes próximos com direito ao loot podem receber experiência de Maestria PvM. Gold, chance de Loot Pack e outras recompensas acompanham a resistência do encontro; a classe de Threat ajuda a comparar o risco, mas não garante um item específico.
+No PvM customizado do shard, derrotar uma criatura elegível pode conceder experiência de Maestria PvM a participantes próximos com direito ao loot. Gold, chance de Loot Pack e outras recompensas acompanham a resistência do encontro; a classe de Threat ajuda a comparar o risco, mas não garante um item específico.
 
 O gold PvM centralizado usa atualmente fator **1,9** em vez de 2,3. A alteração não muda as regras de XP, Loot Packs ou bônus de Newcomer.
 

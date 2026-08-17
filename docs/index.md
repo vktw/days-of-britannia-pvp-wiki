@@ -8,7 +8,7 @@ hide:
 <section class="dob-atlas-hero dob-atlas-hero--main-art dob-atlas-codex" aria-labelledby="dob-home-title">
   <div class="dob-atlas-hero__copy">
     <h1 id="dob-home-title">Reviva os dias de Britannia.</h1>
-    <p>O Ultima Online clássico está de volta em Days of Britannia: um mundo de liberdade, risco e loot, expandido por um sistema de PvM personalizado e desafiador.</p>
+    <p>O Ultima Online clássico está de volta em Days of Britannia, rodando em um emulador moderno com PvP customizado e um sistema de PvM personalizado e desafiador.</p>
     <div class="dob-atlas-codex-actions" aria-label="Ações principais">
       <a class="dob-atlas-codex-action dob-atlas-codex-action--primary" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
         JOGAR AGORA <span aria-hidden="true">↓</span>
