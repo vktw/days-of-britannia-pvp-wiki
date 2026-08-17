@@ -1,22 +1,58 @@
 # High-risk gameplay fact inventory.
 # Live entries are approved by production presence; source refs are metadata only.
-# The 0.31.1 pass below confirms the current release identity, starting-skill baseline, and the affected official patch-note deltas.
+# The 0.32.0 pass below confirms the current release identity and the affected official patch-note deltas.
 # Other entries retain their last deep-verification release until that audit is run.
 schema_version: 1
-registry_version: "0.31.1"
+registry_version: "0.32.0"
 source_policy: "live-server-is-final"
 entries:
   - id: live-version
-    claim: "The public manual identifies the current production ruleset as Beta 0.31.1."
+    claim: "The public manual identifies the current production ruleset as Beta 0.32.0."
     status: live
     source_status: approved
-    live_version: "0.31.1"
-    verification_date: "2026-08-15"
-    approved_source: "live-server/v0.31.1"
+    live_version: "0.32.0"
+    verification_date: "2026-08-17"
+    approved_source: "live-server/v0.32.0"
     public_reference: "docs/patches.md"
     canonical_pt: "docs/patches.md"
     english_counterpart: "docs/patches.en.md"
     owner: server-owner
+    review_after: null
+  - id: patchnotes-0312-live
+    claim: "The public patch notes preserve the player-facing 0.31.2 production changes for reagent stock, introductory Achievements, skill activation timing, Young skill gain, moongate guard boundaries, and Daily Dungeon PvM Mastery XP."
+    status: live
+    source_status: approved
+    live_version: "0.32.0"
+    verification_date: "2026-08-17"
+    approved_source: "live-server/v0.31.2"
+    public_reference: "docs/patches.md"
+    canonical_pt: "docs/patches.md"
+    english_counterpart: "docs/patches.en.md"
+    owner: server-owner
+    review_after: null
+  - id: patchnotes-0320-live
+    claim: "The public patch notes preserve the player-facing 0.32.0 production changes for physical absorption, PvM Mastery jewelry activation, Hunter contracts, Ettin Hunter's reward, Dragon Blood dye cost, and equip/unequip macros."
+    status: live
+    source_status: approved
+    live_version: "0.32.0"
+    verification_date: "2026-08-17"
+    approved_source: "live-server/v0.32.0"
+    public_reference: "docs/patches.md"
+    canonical_pt: "docs/patches.md"
+    english_counterpart: "docs/patches.en.md"
+    owner: server-owner
+    review_after: null
+  - id: hunter-contracts-0320-live
+    claim: "Production provides two Felucca Hunters near the Britain and Cove banks, randomized PvM hunting contracts, eligible PvM Mastery XP progress, and a wooden crate containing one PvM Loot Pack roll."
+    status: live
+    source_status: approved
+    live_version: "0.32.0"
+    verification_date: "2026-08-17"
+    approved_source: "live-server/v0.32.0"
+    public_reference: "docs/sistemas/caca-pvm.md"
+    canonical_pt: "docs/sistemas/caca-pvm.md"
+    english_counterpart: "docs/sistemas/caca-pvm.en.md"
+    owner: pvm-maintainer
     review_after: null
   - id: patch-0-21-0-creature-rules
     claim: "Live 0.21.0 applies the documented magical-creature, equipment-visual, stamina, and creature-presentation changes."
@@ -175,12 +211,12 @@ entries:
     owner: world-maintainer
     review_after: null
   - id: achievements
-    claim: "The public Achievements page documents the sequential PvM introduction, activity catalogue including First Trainer Fight, rewards, and .achievements command."
+    claim: "The public Achievements page documents the eight-step sequential PvM introduction, its rewards, the activity catalogue including First Trainer Fight, and the .achievements command."
     status: live
     source_status: approved
-    live_version: "0.23.3"
-    verification_date: "2026-08-10"
-    approved_source: "live-server/v0.23.3"
+    live_version: "0.32.0"
+    verification_date: "2026-08-17"
+    approved_source: "live-server/v0.32.0"
     public_reference: "docs/sistemas/achievements.md"
     canonical_pt: "docs/sistemas/achievements.md"
     english_counterpart: "docs/sistemas/achievements.en.md"
@@ -211,12 +247,12 @@ entries:
     owner: gameplay-maintainer
     review_after: null
   - id: daily-dungeon
-    claim: "The Live Daily Dungeon provides the documented PvM Mastery and Loot Pack bonuses and is queried with .dailydungeon."
+    claim: "The Live Daily Dungeon provides a 50% PvM Mastery XP bonus and doubled eligible Loot Pack frequency during its rotation, and is queried with .dailydungeon."
     status: live
     source_status: approved
-    live_version: "0.12.0"
-    verification_date: "2026-08-02"
-    approved_source: "live-server/v0.12.0"
+    live_version: "0.31.2"
+    verification_date: "2026-08-17"
+    approved_source: "live-server/v0.31.2"
     public_reference: "docs/sistemas/daily-dungeon.md"
     canonical_pt: "docs/sistemas/daily-dungeon.md"
     english_counterpart: "docs/sistemas/daily-dungeon.en.md"
@@ -475,12 +511,12 @@ entries:
     owner: combat-maintainer
     review_after: null
   - id: young-pvm-xp-0261-live
-    claim: "Eligible Young characters receive 100% additional PvM Mastery experience in production; their gold, skill gain, and other Young benefits are unchanged."
+    claim: "Eligible Young characters receive 100% additional PvM Mastery experience and a 50% custom skill-gain chance bonus in production; the additional creature-gold bonus remains 25%."
     status: live
     source_status: approved
-    live_version: "0.26.3"
-    verification_date: "2026-08-13"
-    approved_source: "live-server/v0.26.3"
+    live_version: "0.31.2"
+    verification_date: "2026-08-17"
+    approved_source: "live-server/v0.31.2"
     public_reference: "docs/primeiros-passos/newcomer.md"
     canonical_pt: "docs/primeiros-passos/newcomer.md"
     english_counterpart: "docs/primeiros-passos/newcomer.en.md"
@@ -523,12 +559,12 @@ entries:
     owner: items-maintainer
     review_after: null
   - id: dragon-blood-dye-0240-live
-    claim: "Moonglow and Serpent's Hold offer the Dragon Blood Clothing Dye service using 150 compatible ingots and one Dragon Blood for a single charge with a dynamic gold floor."
+    claim: "Moonglow and Serpent's Hold offer the Dragon Blood Clothing Dye service using 150 compatible ingots and five Dragon Bloods for a single charge with a dynamic gold floor."
     status: live
     source_status: approved
-    live_version: "0.26.3"
-    verification_date: "2026-08-13"
-    approved_source: "live-server/v0.26.3"
+    live_version: "0.32.0"
+    verification_date: "2026-08-17"
+    approved_source: "live-server/v0.32.0"
     public_reference: "docs/itens/consumiveis.md"
     canonical_pt: "docs/itens/consumiveis.md"
     english_counterpart: "docs/itens/consumiveis.en.md"

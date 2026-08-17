@@ -53,9 +53,9 @@ PLAY NOW <span aria-hidden="true">↓</span>
 <section class="dob-atlas-content" aria-label="Main content">
 <article class="dob-atlas-feature">
 <p class="dob-atlas-kicker">LATEST UPDATE</p>
-<h2>0.31.1 · Initial skill baseline</h2>
-<p class="dob-atlas-feature__date"><time datetime="2026-08-14">August 14, 2026</time></p>
-<p>New characters now start with eight core skills at 100.0. Existing characters keep their values and are never downgraded.</p>
+<h2>0.32.0 · Hunter contracts and rebalancing</h2>
+<p class="dob-atlas-feature__date"><time datetime="2026-08-16">August 16, 2026</time></p>
+<p>The server received PvM hunting contracts, a new physical absorption rebalance, and adjustments to Mastery, dyes, and equipment macros.</p>
 <a href="patches/">READ PATCH NOTES <span aria-hidden="true">→</span></a>
 </article>
 

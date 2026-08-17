@@ -76,7 +76,7 @@ Live added five Masteries that convert part of defensive or offensive resources 
 
 These five Masteries scale from 5% to 9.5% and preserve the PvP and Arena exclusions. The first learned Mastery can be added to the build automatically at level 1 when the combat log is enabled; the Compendium provides clearer guidance and controls.
 
-## Beta 0.31.1 catalog
+## Beta 0.32.0 catalog
 
 ### Offense and resources
 
@@ -171,7 +171,7 @@ Start by identifying the problem that limits the hunt most:
 - if the build is already stable, use the remaining slots for specialization, area, control, or support;
 - in a group, do not judge only personal damage: control, survival, and consistency also improve the team's results.
 
-Test one change at a time and use the Compendium's optional combat record to compare discovered masteries. Remember to leave combat before redistributing points.
+Test one change at a time and use the Compendium's optional combat record to compare discovered masteries. The record can also be enabled when the Mastery comes from equipped DoB jewelry, even when the jewelry is the only activation source. Remember to leave combat before redistributing points.
 
 ## Limits
 
@@ -181,5 +181,5 @@ See [PvM rewards](../itens/recompensas-pvm.md) for XP, Loot Packs, jewelry, and 
 
 See also [Achievements](achievements.md) for the introductory path and activity achievements.
 
-!!! success "Status: Beta 0.31.1"
+!!! success "Status: Beta 0.32.0"
     The Hunter's Compendium provides dedicated progression for characters who fight creatures.

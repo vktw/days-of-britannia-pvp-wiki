@@ -49,5 +49,5 @@ de 1 e máximo de 25 passos. Caminhar consome esse limite; esgotá-lo revela o
 personagem e correr revela imediatamente. Usar armadura não bloqueia nem reduz a
 eficácia de Stealth.
 
-!!! success "Status: Beta 0.31.1"
+!!! success "Status: Beta 0.32.0"
     Stats, skills, caps e raça correspondem ao servidor oficial.

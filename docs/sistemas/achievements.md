@@ -8,15 +8,24 @@ No primeiro login, o jogo apresenta o sistema e oferece a introdução em portug
 
 ## Trilha inicial
 
-As três primeiras conquistas são sequenciais. Os abates feitos antes de uma etapa ser liberada não avançam a etapa bloqueada.
+As oito primeiras conquistas são sequenciais. Os abates feitos antes de uma etapa
+ser liberada não avançam a etapa bloqueada.
 
 | Conquista | Objetivo | Recompensa |
 |---|---|---|
 | **First Hunt** | 10 criaturas Undead | 100 XP de Maestria PvM, 1.000 gold e um Scroll of Knowledge Basic de Undead |
 | **Troll Hunter** | 10 criaturas Humanoid | 200 XP de Maestria PvM, 1.000 gold e um Scroll of Knowledge Basic de Humanoid |
 | **Scaled Hunter** | 10 criaturas Reptilian | 300 XP de Maestria PvM, 1.000 gold e um Scroll of Knowledge Basic de Reptilian |
+| **Scorpion Hunter** | 10 Scorpions elegíveis | 400 XP de Maestria PvM, 1.000 gold e um Scroll of Knowledge Basic de Arachnid |
+| **Earth Elemental Hunter** | 10 Earth Elementals elegíveis | 500 XP de Maestria PvM, 1.000 gold e um Scroll of Knowledge Basic de Elemental |
+| **Harpy Hunter** | 10 Harpies elegíveis | 600 XP de Maestria PvM, 1.000 gold e um DoB Magic Ring |
+| **Orc Hunter** | 10 Orcs elegíveis | 700 XP de Maestria PvM, 1.000 gold e um DoB Magic Bracelet |
+| **Ettin Hunter** | 10 Ettins elegíveis | 800 XP de Maestria PvM, 1.000 gold e um DoB Magic Earring |
 
-As dicas apontam para Britain Cemetery, Despise Trolls e Despise Lizardmen, mas não bloqueiam outros locais elegíveis. Depois da terceira etapa, o catálogo completo é liberado.
+As dicas apontam para Britain Cemetery, Despise Trolls, Despise Lizardmen,
+Deserto da Compaixão, Shame, Covetous, Orc Cave e Despise, mas não bloqueiam
+outros locais elegíveis. Depois da oitava etapa, o catálogo completo é liberado.
+Perfis antigos que já desbloquearam o catálogo preservam o acesso.
 
 ## Catálogo de atividades
 
@@ -38,5 +47,5 @@ ranking do PvP Trainer nem as regras da Arena.
 
 Veja também [Maestria PvM](pvm-mastery.md) para XP, famílias Slayer e builds.
 
-!!! success "Status: Beta 0.31.1"
+!!! success "Status: Beta 0.32.0"
     O sistema de Achievements está disponível no servidor oficial.

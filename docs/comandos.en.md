@@ -41,5 +41,5 @@ The Ultima Store is disabled. Purchases, deliveries, and store use of Sovereigns
 
 Shows the selected Daily Dungeon and the time remaining until the next rotation. Use it before heading out to take advantage of the PvM Mastery experience and Loot Pack bonuses.
 
-!!! success "Status: Beta 0.31.1"
+!!! success "Status: Beta 0.32.0"
     The commands below are available to players on the official server.

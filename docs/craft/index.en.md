@@ -1,6 +1,6 @@
 # Craft
 
-**Beta 0.31.1** organizes crafting into eleven categories. This section gathers
+**Beta 0.32.0** organizes crafting into eleven categories. This section gathers
 the recipes most useful to players, required materials, skill ranges, and a
 control for checking base success chance.
 

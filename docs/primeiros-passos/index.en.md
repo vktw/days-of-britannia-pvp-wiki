@@ -107,7 +107,7 @@ Britain is the starting location, but **Nujelm** is the server's Safe Haven. The
 defined region blocks player conflict, stealing, harmful actions by pets or
 summons, magical travel, Fields, and received damage.
 
-Use Felucca's public moongate network to travel to Nujelm. In Beta 0.31.1, no
+Use Felucca's public moongate network to travel to Nujelm. In Beta 0.32.0, no
 character gains skills inside Safe Haven, including Newcomers.
 
 [Learn about Nujelm Safe Haven](../mundo/nujelm.md) before leaving for a hunt.
@@ -117,16 +117,22 @@ point.
 ### 3. Follow the introductory Achievements
 
 Before investing in a build, open `.achievements` and follow the path introduced
-by the game. The first three stages are sequential:
+by the game. The eight introductory stages are sequential:
 
 - **First Hunt:** defeat 10 Undead creatures.
 - **Troll Hunter:** after the first stage, defeat 10 Humanoid creatures.
 - **Scaled Hunter:** after the second stage, defeat 10 Reptilian creatures.
+- **Scorpion Hunter:** after the third stage, defeat 10 eligible Scorpions.
+- **Earth Elemental Hunter:** after the fourth stage, defeat 10 eligible Earth
+  Elementals.
+- **Harpy Hunter:** after the fifth stage, defeat 10 eligible Harpies.
+- **Orc Hunter:** after the sixth stage, defeat 10 eligible Orcs.
+- **Ettin Hunter:** after the seventh stage, defeat 10 eligible Ettins.
 
-The hints point to Britain Cemetery, Despise Trolls, and Despise Lizardmen, but
-other eligible locations also count. Each stage grants PvM Mastery XP, gold, and
-a Scroll of Knowledge. See [Achievements](../sistemas/achievements.md) for
-rewards and the complete catalogue.
+The hints point to Britain Cemetery, Despise Trolls, Despise Lizardmen, Desert of
+Compassion, Shame, Covetous, Orc Cave, and Despise, but other eligible locations
+also count. Each stage grants PvM Mastery XP and gold; see
+[Achievements](../sistemas/achievements.md) for the specific rewards.
 
 ### 4. Choose a first playstyle
 
@@ -187,5 +193,5 @@ training fight.
 - [Systems and ruleset limits](../sistemas/index.md)
 - [Ultima Online Brasil: shards, servers, and community](ultima-online-brasil.md)
 
-!!! success "Status: Beta 0.31.1"
+!!! success "Status: Beta 0.32.0"
     The information on this page corresponds to the official server.

@@ -12,7 +12,7 @@ recovery returns.
 - Any spellcasting start is blocked inside Safe Haven outside the overlap governed by Arena NuJelm.
 - Players and controlled creatures do not receive damage inside the Safe Haven region.
 
-In Beta 0.31.1, these rules apply inside Safe Haven. The Newcomer experience and
+In Beta 0.32.0, these rules apply inside Safe Haven. The Newcomer experience and
 gold bonus for eligible encounters still exists outside this restriction; it does
 not enable skill gain inside Safe Haven.
 
@@ -24,5 +24,5 @@ Deaths outside the Arena, the Stuck option, and recovery flows use Nujelm as the
 
 [Arena NuJel'm](../arena.md) is in Felucca and uses the same player-duel rules as Yew Arena. The Arena region takes precedence where the two regions overlap.
 
-!!! success "Status: Beta 0.31.1"
+!!! success "Status: Beta 0.32.0"
     Nujelm is the official Safe Haven and central safe-return point in Felucca.

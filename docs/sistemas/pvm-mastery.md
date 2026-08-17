@@ -76,7 +76,7 @@ O Live adicionou cinco Maestrias que convertem parte de recursos defensivos ou o
 
 Essas cinco Maestrias escalam de 5% a 9,5% e preservam as exclusões de PvP e Arena. A primeira Maestria aprendida pode entrar automaticamente na build no nível 1 quando o log de combate está habilitado; o Compendium mostra orientações e controles mais claros.
 
-## Catálogo do Beta 0.31.1
+## Catálogo do Beta 0.32.0
 
 ### Ataque e recursos
 
@@ -171,7 +171,7 @@ Comece identificando o problema que mais limita a caçada:
 - se a build já é estável, use os últimos espaços para especialização, área, controle ou suporte;
 - em grupo, evite avaliar apenas dano pessoal: controle, sobrevivência e continuidade também aumentam o resultado da equipe.
 
-Teste uma mudança por vez e use o registro de combate opcional do Compendium para comparar o desempenho das Maestrias descobertas. Lembre-se de sair do combate antes de redistribuir os pontos.
+Teste uma mudança por vez e use o registro de combate opcional do Compendium para comparar o desempenho das Maestrias descobertas. O registro também pode ser ativado quando a Maestria vem de uma joia DoB equipada, mesmo que a joia seja a única fonte de ativação. Lembre-se de sair do combate antes de redistribuir os pontos.
 
 ## Limites
 
@@ -181,5 +181,5 @@ Consulte [Recompensas PvM](../itens/recompensas-pvm.md) para XP, Loot Packs, joi
 
 Consulte também [Achievements](achievements.md) para a trilha inicial e as conquistas de atividades.
 
-!!! success "Status: Beta 0.31.1"
+!!! success "Status: Beta 0.32.0"
     O Hunter's Compendium oferece progressão própria para personagens que enfrentam criaturas.

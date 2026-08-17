@@ -2,6 +2,44 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.32.0 · Contratos de caça e rebalanceamentos
+
+- O sistema de absorção de dano físico recebe um novo rebalanceamento para
+  tornar mais clara a diferença entre os níveis de armadura e manter o dano das
+  armas dentro de uma faixa mais consistente.
+- O registro de combate das Maestrias PvM também pode ser ativado para Maestrias
+  ativas por joias DoB equipadas, inclusive quando a joia é a única fonte de
+  ativação.
+- Dois Caçadores próximos aos bancos de Britain e Cove oferecem contratos de
+  caça PvM com objetivos sorteados e recompensa em caixa de madeira.
+- A conquista **Ettin Hunter** passa a entregar um **DoB Magic Earring** como
+  recompensa.
+- O serviço dos Alquimistas de Dragon Blood passa a exigir 5 Dragon Bloods, em
+  vez de 1, para produzir cada tintura.
+- Macros de equipar e desequipar deixam de perder ações por uma janela específica
+  de 100 ms.
+
+## 0.31.2 · Progressão inicial e bônus de PvM
+
+- Vendedores de reagentes passam a oferecer 160 unidades de cada reagente
+  clássico no estoque inicial.
+- A oferta de reagentes do Glassblower deixa de ser duplicada e passa a usar
+  uma fonte de compra centralizada.
+- Jogadores paralisados com arma ou escudo equipado não iniciam Teleport, Recall
+  ou Gate Travel; casts permitidos continuam sujeitos a fizzle por dano.
+- A sequência introdutória de Achievements agora guia o jogador por oito etapas
+  de caça PvM, com recompensas crescentes e catálogo completo liberado após
+  Ettin Hunter.
+- As skills selecionadas de avaliação, identificação e Tracking agora respeitam
+  quatro segundos entre ativações; Detect Hidden continua concluindo a busca em
+  dois segundos.
+- O bônus de chance de ganho de skills do Young personalizado passa de 25% para
+  50%; os bônus independentes de XP de Maestria e Gold permanecem inalterados.
+- As pequenas áreas ao redor dos moongates deixam de contar com guardas; as
+  demais regras de viagem e de Safe Haven permanecem inalteradas.
+- A Daily Dungeon passa a conceder 50% de XP extra de Maestria PvM; o bônus de
+  Young e a taxa dobrada do Loot Pack permanecem acumuláveis e inalterados.
+
 ## 0.31.1 · Baseline inicial de skills
 
 - Novos personagens começam com Sword, Tactics, Archery, Healing, Magery,

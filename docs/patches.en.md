@@ -2,6 +2,41 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.32.0 · Hunter contracts and rebalancing
+
+- The physical damage absorption system receives a new rebalance to make the
+  difference between armor tiers clearer and keep weapon damage within a more
+  consistent range.
+- The PvM Mastery combat log can also be enabled for Masteries activated through
+  equipped DoB jewelry, including jewelry-only activation.
+- Two Hunters near the Britain and Cove banks now offer randomized PvM hunting
+  contracts with a wooden-crate reward.
+- The **Ettin Hunter** achievement now grants one **DoB Magic Earring** as its
+  reward.
+- The Dragon Blood Alchemist service now requires 5 Dragon Bloods instead of 1
+  for each dye.
+- Equip and unequip macros no longer lose actions to a specific 100ms window.
+
+## 0.31.2 · Introductory progression and PvM bonuses
+
+- Reagent vendors now offer 160 units of each classic reagent in their initial
+  stock.
+- The Glassblower no longer duplicates the reagent offer; purchases use one
+  centralized source.
+- Players paralyzed with a weapon or shield equipped cannot start Teleport,
+  Recall, or Gate Travel; permitted casts remain interruptible by damage.
+- The introductory Achievement path now guides players through eight PvM hunting
+  steps with increasing rewards, unlocking the full catalogue after Ettin Hunter.
+- The selected evaluation, identification, and Tracking skills now enforce four
+  seconds between activations; Detect Hidden still completes its search after
+  two seconds.
+- The custom Young skill-gain chance bonus increases from 25% to 50%; the
+  independent PvM Mastery XP and Gold bonuses remain unchanged.
+- The small areas around the moongates no longer have guards; other travel and
+  Safe Haven rules remain unchanged.
+- The Daily Dungeon now grants 50% extra PvM Mastery XP; the Young bonus and
+  doubled Loot Pack rate remain stackable and unchanged.
+
 ## 0.31.1 · Initial skill baseline
 
 - New characters start with Sword, Tactics, Archery, Healing, Magery,

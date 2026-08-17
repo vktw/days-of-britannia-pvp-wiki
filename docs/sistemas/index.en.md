@@ -7,6 +7,7 @@ extended with custom PvP and PvM rules for the shard's direction.
 - [Arena and training](../arena.md)
 - [Achievements](achievements.md)
 - [PvM Mastery](pvm-mastery.md)
+- [PvM hunting](caca-pvm.md): contracts with randomized objectives and a wooden-crate reward.
 - [PvM rewards](../itens/recompensas-pvm.md): Loot Packs, jewelry, and PvM-linked amulets.
 
 ## Exploration systems
@@ -38,5 +39,5 @@ Reflection.
 Controlled pets and player-owned summons cannot attack or damage other players,
 but remain usable normally in PvM.
 
-!!! success "Status: Beta 0.31.1"
+!!! success "Status: Beta 0.32.0"
     The availability below corresponds to the official ruleset.

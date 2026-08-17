@@ -21,7 +21,7 @@ The main **Chain** pieces use these costs and native Blacksmithy ranges:
 
 These remain classic armor pieces; they are not part of Blacksmithy's thematic **DoB Weapons** lines.
 
-## Armor Rating in Beta 0.31.1
+## Armor Rating in Beta 0.32.0
 
 Armor and shields display **Armor Rating: N**. For recipe-backed pieces, the
 value considers ingot cost, material bonus, and protection tier. On direct hits
@@ -61,5 +61,5 @@ not migrated.
 
 See [Armor and Parrying](../combate/armor-parrying.md).
 
-!!! success "Status: Beta 0.31.1"
+!!! success "Status: Beta 0.32.0"
     Direct-hit resolution uses global Armor Rating from equipped pieces.

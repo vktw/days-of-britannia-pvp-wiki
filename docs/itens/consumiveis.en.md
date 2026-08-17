@@ -19,7 +19,7 @@ it is not consumed when mana is already full.
 ## Dragon Blood Clothing Dye
 
 Moonglow and Serpent's Hold offer a cosmetic Dragon Blood dye service. Each dye
-uses 150 matching ingots, 1 Dragon Blood, and a dynamic gold charge with a
+uses 150 matching ingots, 5 Dragon Bloods, and a dynamic gold charge with a
 50,000-gold floor; the dye has one charge.
 
 ## Bandages
@@ -42,7 +42,7 @@ use.
 Provisioners sell basic Hatchet, Pickaxe, Shovel, and Fishing Pole tools. Tinkers
 sell Hatchet, Pickaxe, and Shovel, while Carpenters sell Fishing Pole.
 
-## DoB Tools in Beta 0.31.1
+## DoB Tools in Beta 0.32.0
 
 Tinkering organizes special tools under the **DoB Tools** submenu. Each family uses a public metal, has its own Tinkering requirement, and appears only for compatible tools.
 
@@ -63,4 +63,4 @@ New characters receive a complete Spellbook, an empty Runebook and a shrunken ho
 
 See [Healing and resources](../combate/cura-recursos.md) for all values and delays.
 
-!!! success "Status: Beta 0.31.1"
+!!! success "Status: Beta 0.32.0"

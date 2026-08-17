@@ -7,6 +7,7 @@ recebe regras de PvP e PvM customizadas para o objetivo do shard.
 - [Arena e treinamento](../arena.md)
 - [Achievements](achievements.md)
 - [Maestria PvM](pvm-mastery.md)
+- [Caça PvM](caca-pvm.md): contratos com objetivos sorteados e recompensa em caixa de madeira.
 - [Recompensas PvM](../itens/recompensas-pvm.md): Loot Packs, joias e amuletos ligados ao PvM.
 
 ## Sistemas de exploração
@@ -38,5 +39,5 @@ Reflection.
 Pets controlados e summons de jogadores não podem atacar ou causar dano a outros
 jogadores, mas continuam utilizáveis normalmente em PvM.
 
-!!! success "Status: Beta 0.31.1"
+!!! success "Status: Beta 0.32.0"
     A disponibilidade abaixo corresponde ao ruleset oficial.

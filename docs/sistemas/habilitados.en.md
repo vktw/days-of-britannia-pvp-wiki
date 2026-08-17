@@ -24,7 +24,7 @@
 - Stuck return to Nujelm under the system's conditions.
 - Auto-account with up to 10 accounts per IP and up to two simultaneous external connections via the same address.
 
-## Beta 0.31.1 additions
+## Current ruleset highlights
 
 - **Arcane Disruption:** a new PvM Mastery that may make an eligible wild creature fizzle during a cast when positive direct player damage lands.
 - **Summoner's Bond:** redirects part of eligible PvM damage from player-created summons to their summoner while preserving a safe 10-Hit floor.
@@ -32,5 +32,5 @@
 
 See specific pages for limits and exceptions. Presence on this list does not mean that the mechanics maintain TrueUO's default behavior.
 
-!!! success "Status: Beta 0.31.1"
+!!! success "Status: Beta 0.32.0"
     Summary list of core mechanics available to players.

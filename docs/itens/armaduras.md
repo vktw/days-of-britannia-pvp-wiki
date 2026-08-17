@@ -21,7 +21,7 @@ As principais peças de **Chain** usam estes custos e faixas nativas de Blacksmi
 
 Essas peças continuam sendo armaduras clássicas; não fazem parte das linhas temáticas **DoB Weapons** da Blacksmithy.
 
-## Armor Rating no Beta 0.31.1
+## Armor Rating no Beta 0.32.0
 
 Armaduras e shields exibem **Armor Rating: N**. Para peças apoiadas por uma
 receita de craft, o valor considera o custo de ingots, o bônus do material e o
@@ -62,5 +62,5 @@ itens salvos não são migrados.
 
 Veja [Armor e Parrying](../combate/armor-parrying.md).
 
-!!! success "Status: Beta 0.31.1"
+!!! success "Status: Beta 0.32.0"
     O cálculo de golpes diretos usa o Armor Rating global das peças equipadas.

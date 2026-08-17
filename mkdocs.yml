@@ -17,7 +17,7 @@ theme:
   palette:
     scheme: dob
 extra:
-  dob_version: "Beta 0.31.1"
+  dob_version: "Beta 0.32.0"
 extra_css:
   - stylesheets/extra.css?v=20260813.14
 extra_javascript:
@@ -74,6 +74,7 @@ plugins:
             Sistemas habilitados: Enabled systems
             Achievements: Achievements
             Maestria PvM: PvM Mastery
+            Caça PvM: PvM hunting
             Daily Dungeon: Daily Dungeon
             Comandos: Commands
             Atualizações: Updates
@@ -117,6 +118,7 @@ nav:
       - Sistemas habilitados: sistemas/habilitados.md
       - Achievements: sistemas/achievements.md
       - Maestria PvM: sistemas/pvm-mastery.md
+      - Caça PvM: sistemas/caca-pvm.md
       - Daily Dungeon: sistemas/daily-dungeon.md
       - Arena e treinamento: arena.md
       - Recompensas PvM: itens/recompensas-pvm.md

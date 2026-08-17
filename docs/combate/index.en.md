@@ -120,6 +120,6 @@ Practical examples, without turning the fight into a fixed sequence:
 Defense is not only waiting for hits to rise: it buys the time needed to
 reposition, recover mana, or prepare the next response.
 
-!!! success "Status: Beta 0.31.1"
+!!! success "Status: Beta 0.32.0"
     This page summarizes the active ruleset on the official server. Gameplay
     values were checked against the official server source.

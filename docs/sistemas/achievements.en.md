@@ -8,15 +8,24 @@ On the first login, the game introduces the system and offers the introduction i
 
 ## Introductory path
 
-The first three achievements are sequential. Kills made before a stage is unlocked do not advance the locked stage.
+The first eight achievements are sequential. Kills made before a stage is
+unlocked do not advance the locked stage.
 
 | Achievement | Goal | Reward |
 |---|---|---|
 | **First Hunt** | 10 Undead creatures | 100 PvM Mastery XP, 1,000 gold, and one Undead Basic Scroll of Knowledge |
 | **Troll Hunter** | 10 Humanoid creatures | 200 PvM Mastery XP, 1,000 gold, and one Humanoid Basic Scroll of Knowledge |
 | **Scaled Hunter** | 10 Reptilian creatures | 300 PvM Mastery XP, 1,000 gold, and one Reptilian Basic Scroll of Knowledge |
+| **Scorpion Hunter** | 10 eligible Scorpions | 400 PvM Mastery XP, 1,000 gold, and one Arachnid Basic Scroll of Knowledge |
+| **Earth Elemental Hunter** | 10 eligible Earth Elementals | 500 PvM Mastery XP, 1,000 gold, and one Elemental Basic Scroll of Knowledge |
+| **Harpy Hunter** | 10 eligible Harpies | 600 PvM Mastery XP, 1,000 gold, and one DoB Magic Ring |
+| **Orc Hunter** | 10 eligible Orcs | 700 PvM Mastery XP, 1,000 gold, and one DoB Magic Bracelet |
+| **Ettin Hunter** | 10 eligible Ettins | 800 PvM Mastery XP, 1,000 gold, and one DoB Magic Earring |
 
-The hints point to Britain Cemetery, Despise Trolls, and Despise Lizardmen, but they do not lock the achievement to those locations. After the third stage, the full catalogue unlocks.
+The hints point to Britain Cemetery, Despise Trolls, Despise Lizardmen, Desert of
+Compassion, Shame, Covetous, Orc Cave, and Despise, but they do not lock the
+achievement to those locations. After the eighth stage, the full catalogue
+unlocks. Existing profiles that already unlocked the catalogue keep access.
 
 ## Activity catalogue
 
@@ -38,5 +47,5 @@ PvP Trainer ranking or Arena rules.
 
 See also [PvM Mastery](pvm-mastery.md) for XP, Slayer families, and builds.
 
-!!! success "Status: Beta 0.31.1"
+!!! success "Status: Beta 0.32.0"
     The Achievements system is available on the official server.

@@ -110,7 +110,7 @@ definida bloqueia conflito entre jogadores, stealing, ações nocivas de pets ou
 summons, viagens mágicas, Fields e dano recebido.
 
 Use a rede pública de moongates de Felucca para viajar até Nujelm. No Beta
-0.31.1, nenhum personagem recebe ganho de skill dentro do Safe Haven, inclusive
+0.32.0, nenhum personagem recebe ganho de skill dentro do Safe Haven, inclusive
 Newcomers.
 
 [Conheça Nujelm Safe Haven](../mundo/nujelm.md) antes de sair para uma caçada.
@@ -120,16 +120,22 @@ seguro do shard.
 ### 3. Siga as Achievements iniciais
 
 Antes de investir em uma build, abra `.achievements` e siga a trilha recomendada
-pelo jogo. As três primeiras etapas são sequenciais:
+pelo jogo. As oito etapas iniciais são sequenciais:
 
 - **First Hunt:** derrote 10 criaturas Undead.
 - **Troll Hunter:** depois da primeira etapa, derrote 10 criaturas Humanoid.
 - **Scaled Hunter:** depois da segunda, derrote 10 criaturas Reptilian.
+- **Scorpion Hunter:** depois da terceira, derrote 10 Scorpions elegíveis.
+- **Earth Elemental Hunter:** depois da quarta, derrote 10 Earth Elementals
+  elegíveis.
+- **Harpy Hunter:** depois da quinta, derrote 10 Harpies elegíveis.
+- **Orc Hunter:** depois da sexta, derrote 10 Orcs elegíveis.
+- **Ettin Hunter:** depois da sétima, derrote 10 Ettins elegíveis.
 
-As dicas apontam para Britain Cemetery, Despise Trolls e Despise Lizardmen, mas
-outros locais elegíveis também contam. Cada etapa entrega XP de Maestria PvM,
-gold e um Scroll of Knowledge. Veja [Achievements](../sistemas/achievements.md)
-para as recompensas e o catálogo completo.
+As dicas apontam para Britain Cemetery, Despise Trolls, Despise Lizardmen,
+Deserto da Compaixão, Shame, Covetous, Orc Cave e Despise, mas outros locais
+elegíveis também contam. Cada etapa entrega XP de Maestria PvM e gold; as
+recompensas específicas ficam em [Achievements](../sistemas/achievements.md).
 
 ### 4. Escolha um primeiro estilo
 
@@ -191,5 +197,5 @@ treino.
 - [Sistemas e limites do ruleset](../sistemas/index.md)
 - [Ultima Online Brasil: shards, servidores e comunidade](ultima-online-brasil.md)
 
-!!! success "Status: Beta 0.31.1"
+!!! success "Status: Beta 0.32.0"
     As informações desta página correspondem ao servidor oficial.

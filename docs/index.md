@@ -53,9 +53,9 @@ hide:
 <section class="dob-atlas-content" aria-label="Conteúdo principal">
   <article class="dob-atlas-feature">
     <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
-    <h2>0.31.1 · Baseline inicial de skills</h2>
-    <p class="dob-atlas-feature__date"><time datetime="2026-08-14">14 de agosto de 2026</time></p>
-    <p>Novos personagens começam com oito skills centrais em 100.0. Personagens existentes preservam seus valores e não sofrem downgrade.</p>
+    <h2>0.32.0 · Contratos de caça e rebalanceamentos</h2>
+    <p class="dob-atlas-feature__date"><time datetime="2026-08-16">16 de agosto de 2026</time></p>
+    <p>O servidor recebeu contratos de caça PvM, novo rebalanceamento de absorção física e ajustes em Maestria, tinturas e macros de equipamento.</p>
     <a href="patches/">LER PATCH NOTES <span aria-hidden="true">→</span></a>
   </article>
 

@@ -116,6 +116,6 @@ Exemplos práticos, sem transformar a luta em uma sequência fixa:
 Defesa não é apenas esperar a vida subir: ela compra o tempo necessário para
 reposicionar, recuperar mana ou preparar a próxima resposta.
 
-!!! success "Status: Beta 0.31.1"
+!!! success "Status: Beta 0.32.0"
     Esta página resume o ruleset ativo no servidor oficial. Os valores de
     gameplay foram conferidos na fonte oficial do servidor.

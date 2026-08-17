@@ -20,9 +20,9 @@ Ao fazer carving em seu corpo ainda não usado, você pode receber **Fire
 Feathers**. O bônus depende de Forensic Evaluation; quanto maior a skill
 efetiva, maior a chance de receber um bônus sobre o rendimento normal.
 
-## Rare Events no Beta 0.31.1
+## Rare Events
 
-Além da Phoenix rara, o Beta 0.31.1 inclui **Desert Ostard**, **Forest Ostard**
+Além da Phoenix rara, o ciclo atual inclui **Desert Ostard**, **Forest Ostard**
 e **Frenzied Ostard** em pontos fixos do mundo. A busca continua sendo parte da
 exploração, sem depender de coordenadas publicadas.
 
@@ -30,10 +30,10 @@ O mesmo ciclo de eventos inclui a **Rare Rideable Llama**, uma montaria rara e
 domável. Para as pistas compartilhadas por Town Criers, consulte [Whispers of
 Britannia](whispers-britannia.md).
 
-## Visual sazonal no Beta 0.31.1
+## Visual sazonal
 
 Felucca recebe o visual sazonal **Spring**. A mudança é visual e não altera
 geometria, recursos ou colisão do mapa.
 
-!!! success "Status: Beta 0.31.1"
+!!! success "Status: Beta 0.32.0"
     Phoenix rara, criaturas raras e eventos sazonais oferecem caminhos de descoberta em Britannia.

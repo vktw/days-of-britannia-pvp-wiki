@@ -1,6 +1,6 @@
 # Craft
 
-O **Beta 0.31.1** organiza o craft em onze categorias. Esta seção reúne as
+O **Beta 0.32.0** organiza o craft em onze categorias. Esta seção reúne as
 receitas de maior interesse para jogadores, os materiais exigidos, a faixa de
 skill e um controle para consultar a chance-base de sucesso.
 

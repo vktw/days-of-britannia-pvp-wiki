@@ -24,7 +24,7 @@
 - Retorno Stuck para Nujelm sob as condições do sistema.
 - Auto-account com até 10 contas por IP e até duas conexões externas simultâneas pelo mesmo endereço.
 
-## Novidades do Beta 0.31.1
+## Destaques do ruleset atual
 
 - **Ruptura Arcana:** nova Maestria PvM que pode fazer uma criatura selvagem falhar durante uma conjuração quando dano direto positivo do jogador acerta.
 - **Elo do Invocador:** Summoner's Bond transfere parte do dano PvM elegível de summons criados pelo jogador para o invocador, preservando um piso seguro de 10 Hits.
@@ -32,5 +32,5 @@
 
 Consulte as páginas específicas para limites e exceções. A presença nesta lista não significa que a mecânica mantenha o comportamento padrão do TrueUO.
 
-!!! success "Status: Beta 0.31.1"
+!!! success "Status: Beta 0.32.0"
     Lista resumida das mecânicas centrais disponíveis aos jogadores.
