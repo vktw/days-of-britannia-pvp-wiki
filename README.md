@@ -42,8 +42,10 @@ The `production` environment requires these GitHub Actions secrets:
 - `HOSTINGER_SSH_KEY`
 
 The deploy keeps the three most recent releases and backups on Hostinger. It
-preserves `public_html/dob-downloads` and `public_html/.well-known`, and restores
-the previous snapshot if publication fails.
+preserves `public_html/dob-downloads`, `public_html/.well-known`, and the
+separate `public_html/economy` application. The deployment aborts if the
+protected economy directory is missing and restores the previous snapshot if
+publication fails.
 
 ## Manual package
 

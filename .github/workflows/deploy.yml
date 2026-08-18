@@ -105,6 +105,8 @@ jobs:
           mkdir -p "$release_root" "$backup_root"
           tar -xzf "$archive" -C "$release_root"
           test -s "$release_root/index.html"
+          test -d "$public_root/economy"
+          test ! -e "$release_root/economy"
 
           rsync -a \
             --exclude='dob-downloads/' \
@@ -115,6 +117,7 @@ jobs:
             rsync -a --delete \
               --exclude='dob-downloads/' \
               --exclude='.well-known/' \
+              --exclude='economy/' \
               "$backup_root/" "$public_root/"
           }
           trap rollback ERR
@@ -122,6 +125,7 @@ jobs:
           rsync -a --delete \
             --exclude='dob-downloads/' \
             --exclude='.well-known/' \
+            --exclude='economy/' \
             "$release_root/" "$public_root/"
           test -s "$public_root/index.html"
 
