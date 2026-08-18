@@ -61,24 +61,24 @@ hide:
 
   <div class="dob-atlas-index">
     <p class="dob-atlas-kicker">ÚLTIMOS ARTIGOS ATUALIZADOS</p>
-    <a href="craft/">
-      <span class="dob-atlas-index__code">13 AGO</span>
-      <span><strong>Craft</strong><small>Materiais, skills mínimas e chance de sucesso</small></span>
+    <a href="sistemas/caca-pvm/">
+      <span class="dob-atlas-index__code">17 AGO</span>
+      <span><strong>Caça PvM</strong><small>Contratos, objetivos sorteados e recompensas</small></span>
       <i aria-hidden="true">→</i>
     </a>
-    <a href="mundo/threat-rating/">
-      <span class="dob-atlas-index__code">13 AGO</span>
-      <span><strong>Threat Rating</strong><small>Leia a ameaça antes de escolher o combate</small></span>
+    <a href="sistemas/achievements/">
+      <span class="dob-atlas-index__code">17 AGO</span>
+      <span><strong>Achievements</strong><small>Oito etapas iniciais e recompensas PvM</small></span>
       <i aria-hidden="true">→</i>
     </a>
-    <a href="sistemas/spawns-raros/">
-      <span class="dob-atlas-index__code">13 AGO</span>
-      <span><strong>Spawns raros</strong><small>Phoenix, montarias e eventos raros</small></span>
+    <a href="sistemas/daily-dungeon/">
+      <span class="dob-atlas-index__code">17 AGO</span>
+      <span><strong>Daily Dungeon</strong><small>Bônus de Maestria e Loot Pack</small></span>
       <i aria-hidden="true">→</i>
     </a>
-    <a href="sistemas/whispers-britannia/">
-      <span class="dob-atlas-index__code">13 AGO</span>
-      <span><strong>Whispers of Britannia</strong><small>Rumores sobre eventos e oportunidades</small></span>
+    <a href="itens/consumiveis/">
+      <span class="dob-atlas-index__code">17 AGO</span>
+      <span><strong>Consumíveis</strong><small>Dragon Blood e ferramentas DoB</small></span>
       <i aria-hidden="true">→</i>
     </a>
   </div>
