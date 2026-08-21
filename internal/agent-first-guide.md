@@ -134,7 +134,7 @@ up.
 
 The theme is Material for MkDocs with a custom Jinja directory.
 
-- `header.html` renders the Days of Britannia Atlas identity, search, live
+- `header.html` renders the DoB Shard - Days of Britannia identity, search, live
   version, and the stable production-verification marker.
 - `nav.html` implements two navigation systems: a desktop icon rail with panels
   and a mobile accordion drawer.

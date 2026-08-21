@@ -50,8 +50,9 @@ def audit():
     if not re.search(r'^\s*dob_version:\s*["\'](?:Live|Alpha|Beta) \d+\.\d+\.\d+["\']\s*$', config, re.M):
         errors.append("mkdocs version is missing or malformed")
     english_home = (DOCS / "index.en.md").read_text(encoding="utf-8-sig")
-    if 'src="../assets/hero-mark.png' not in english_home:
-        errors.append("English home hero mark does not resolve to the shared assets directory")
+    for asset in ["hero-action-launcher.webp", "hero-action-discord.webp"]:
+        if f'src="../assets/{asset}' not in english_home:
+            errors.append(f"English home asset does not resolve to the shared assets directory: {asset}")
     for exposed in [
         DOCS / "data" / "threat-inventory-v2.json",
         DOCS / "data" / "threat-inventory-v3.json",

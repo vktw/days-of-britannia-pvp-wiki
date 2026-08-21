@@ -5,18 +5,49 @@ hide:
   - toc
 ---
 
-<section class="dob-atlas-hero dob-atlas-hero--main-art dob-atlas-codex" aria-labelledby="dob-home-title">
-  <div class="dob-atlas-hero__copy">
-    <h1 id="dob-home-title">Reviva os dias de Britannia.</h1>
-    <p>O Ultima Online clássico está de volta em Days of Britannia, rodando em um emulador moderno com PvP customizado e um sistema de PvM personalizado e desafiador.</p>
-    <div class="dob-atlas-codex-actions" aria-label="Ações principais">
-      <a class="dob-atlas-codex-action dob-atlas-codex-action--primary" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
-        JOGAR AGORA <span aria-hidden="true">↓</span>
-      </a>
-    </div>
-    <div class="dob-atlas-mark" aria-hidden="true" hidden>
-      <img src="assets/hero-mark.png?v=20260724.1" alt="">
-    </div>
+<h1 class="dob-visually-hidden">Início</h1>
+
+<section class="dob-atlas-hero dob-atlas-hero--main-art dob-atlas-codex" aria-label="Ações principais">
+  <div class="dob-atlas-hero-actions" aria-label="Ações principais">
+    <a class="dob-atlas-hero-card dob-atlas-hero-card--launcher" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
+      <span class="dob-atlas-hero-card__art" aria-hidden="true">
+        <img src="assets/hero-action-launcher.webp?v=20260821.1" alt="">
+      </span>
+      <span class="dob-atlas-hero-card__body">
+        <span class="dob-atlas-hero-card__eyebrow">ENTRE EM BRITANNIA</span>
+        <strong class="dob-atlas-hero-card__title">Baixe o launcher oficial</strong>
+        <small>Instale, atualize e entre no servidor pelo caminho recomendado.</small>
+        <span class="dob-atlas-hero-card__button">
+          <svg class="dob-atlas-hero-card__icon dob-atlas-download-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+            <path d="M24 7v23M15 22l9 9 9-9"></path>
+            <path d="M10 35v6h28v-6"></path>
+          </svg>
+          <span>JOGAR AGORA</span>
+          <span class="dob-atlas-hero-card__arrow" aria-hidden="true">→</span>
+        </span>
+      </span>
+    </a>
+
+    <a class="dob-atlas-hero-card dob-atlas-hero-card--discord" href="https://discord.gg/e2VDbg2NYw" target="_blank" rel="noopener noreferrer">
+      <span class="dob-atlas-hero-card__art" aria-hidden="true">
+        <img src="assets/hero-action-discord.webp?v=20260821.1" alt="">
+      </span>
+      <span class="dob-atlas-hero-card__body">
+        <span class="dob-atlas-hero-card__eyebrow">JUNTE-SE À COMUNIDADE</span>
+        <strong class="dob-atlas-hero-card__title">Entre no nosso Discord</strong>
+        <small>Conheça jogadores, acompanhe novidades e participe da comunidade.</small>
+        <span class="dob-atlas-hero-card__button">
+          <svg class="dob-atlas-hero-card__icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+            <path class="dob-atlas-discord-mark" d="M10 13c8-4 20-4 28 0 4 6 6 14 6 21-4 5-8 8-13 9l-3-5h-8l-3 5c-5-1-9-4-13-9 0-7 2-15 6-21Z"></path>
+            <circle cx="18" cy="27" r="3"></circle>
+            <circle cx="30" cy="27" r="3"></circle>
+            <path d="M17 34c4 3 10 3 14 0"></path>
+          </svg>
+          <span>ENTRAR NO DISCORD</span>
+          <span class="dob-atlas-hero-card__arrow" aria-hidden="true">↗</span>
+        </span>
+      </span>
+    </a>
   </div>
 </section>
 
