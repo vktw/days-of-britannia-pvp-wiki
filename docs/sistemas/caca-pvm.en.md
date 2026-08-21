@@ -28,5 +28,5 @@ See [PvM Mastery](pvm-mastery.md) for progression and [PvM rewards](../itens/rec
 for the Loot Pack. The introductory [Achievements](achievements.md) path
 remains the best starting point for new characters.
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     PvM hunting contracts match the behavior confirmed on the official server.

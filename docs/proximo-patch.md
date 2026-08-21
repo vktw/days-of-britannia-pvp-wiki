@@ -4,7 +4,7 @@ Esta página será atualizada quando houver conteúdo aprovado para divulgação
 
 Enquanto isso, consulte [Achievements](sistemas/achievements.md), [Maestria PvM](sistemas/pvm-mastery.md) e [Recompensas PvM](itens/recompensas-pvm.md) para as novidades atuais.
 
-!!! info "Versão atual: Beta 0.32.0"
+!!! info "Versão atual: Beta 0.34.0"
     Ainda não há um próximo patch anunciado publicamente.
     Notas de desenvolvimento não representam comportamento live até serem
     publicadas e confirmadas em produção.

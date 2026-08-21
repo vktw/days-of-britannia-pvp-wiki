@@ -35,7 +35,9 @@ Some well-known creatures help players interpret the scale:
 - The class represents general endurance, but does not by itself measure damage, magic, poison, self-healing, or enemy intelligence.
 - Terrain, creature count, party composition, and strategy can greatly change the actual difficulty.
 - Threat follows the scale of PvM rewards, but a class does not guarantee a specific amount or item.
-- Creatures with a magical profile or Dragon Breath may receive additional Threat; both factors can stack.
+- Creatures with magical AI contribute **45% of spawn maximum Hits** to Threat,
+  with a 45% combined ceiling for that group. Archer and other combinations
+  retain the 35% combined ceiling.
 - Pets, summons, vendors, and the PvP Trainer do not receive PvM Threat Rating.
 
 ## How to check in game
@@ -55,5 +57,5 @@ This reading combines the wiki reference with the actual encounter situation.
 
 [Understand PvM rewards](../itens/recompensas-pvm.md){ .md-button }
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     The color and name displayed over a creature help estimate the danger of the encounter.

@@ -29,9 +29,9 @@ Magical earrings, bracelets, and rings can increase STR, DEX, or INT while equip
 
 Physical hits can wear down one equipped stat jewel. These jewels can be repaired through normal **Tinkering**, subject to the usual weakening from repeated repairs.
 
-## Arena jewelry and Mastery bonuses in Beta 0.32.0
+## Arena jewelry and Mastery bonuses in Beta 0.34.0
 
-In Tinkering's **DoB Jewelry** category, Beta 0.32.0 includes only three pieces with the fixed Arena jewelry bonuses:
+In Tinkering's **DoB Jewelry** category, Beta 0.34.0 includes only three pieces with the fixed Arena jewelry bonuses:
 
 - **Magic Earrings:** +5 INT.
 - **Magic Ring:** +5 STR.
@@ -53,5 +53,5 @@ and looting-right rules still apply.
 
 See also [PvM Mastery](../sistemas/pvm-mastery.md) and [Threat Rating](../mundo/threat-rating.md).
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     Eligible creatures reward the group according to the scale of the encounter.

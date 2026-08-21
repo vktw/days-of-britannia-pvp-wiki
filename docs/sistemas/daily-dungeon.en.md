@@ -8,7 +8,7 @@ The Daily Dungeon is the day's best reference for combining PvM with Mastery pro
 
 ## What changes in the daily dungeon
 
-- Eligible creatures grant a **50% PvM Mastery experience bonus**.
+- Eligible creatures grant a **100% PvM Mastery experience bonus**.
 - The frequency of customized Loot Packs for eligible creatures is **doubled**.
 - The bonus lasts until the next daily rotation.
 
@@ -22,5 +22,5 @@ Common player access to Lost Lands and its dungeons is closed under the Live rul
 
 Open `.dailydungeon` before heading out for PvM, then combine the rotation with your [PvM Mastery](pvm-mastery.md) build and [PvM rewards](../itens/recompensas-pvm.md).
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     A different Daily Dungeon receives bonuses until the next rotation.

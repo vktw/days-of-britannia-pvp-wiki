@@ -117,9 +117,13 @@ Practical examples, without turning the fight into a fixed sequence:
   global Armor Rating absorption of equipped items; there is no public
   body-region roll.
 
+After normal absorption, final physical damage between PvP participants is
+limited to **40 Hits per exchange**. This ceiling does not limit ordinary PvM
+hits or change magical damage, poison, or other ruleset formulas.
+
 Defense is not only waiting for hits to rise: it buys the time needed to
 reposition, recover mana, or prepare the next response.
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     This page summarizes the active ruleset on the official server. Gameplay
     values were checked against the official server source.

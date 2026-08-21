@@ -81,5 +81,5 @@ entrada custa 1.000 gold e fornece o kit Iron fixo; seleção de tiers não faz
 parte desse fluxo. Esta página documenta somente as regras observáveis de
 entrada, cobrança e resultado, não decisões táticas internas do NPC.
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     Estas são as regras disponíveis no servidor oficial.

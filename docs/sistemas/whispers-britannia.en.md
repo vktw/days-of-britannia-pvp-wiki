@@ -35,5 +35,5 @@ The Whispers gump is wider and provides more room to read the rumors.
 See [Rare spawns](spawns-raros.md) for the creatures and events that can be
 found during exploration.
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     Town Criers offer public leads for discovering rare events across Britannia.

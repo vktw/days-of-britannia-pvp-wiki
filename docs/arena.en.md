@@ -75,5 +75,5 @@ costs 1,000 gold and provides the fixed Iron kit; tier selection is not part of
 this flow. This page documents only observable entry, fee, and result rules, not
 the NPC's internal tactical decisions.
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     These are the rules available on the official server.

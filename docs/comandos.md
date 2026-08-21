@@ -41,5 +41,5 @@ A Ultima Store está desativada. Não há compras, entregas ou uso de Sovereigns
 
 Mostra qual Daily Dungeon está selecionada e quanto tempo falta para a próxima rotação. Use o comando antes de sair para aproveitar os bônus de experiência de Maestria PvM e Loot Packs.
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     Os comandos abaixo estão disponíveis aos jogadores no servidor oficial.

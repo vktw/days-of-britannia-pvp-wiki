@@ -35,7 +35,9 @@ Algumas criaturas conhecidas ajudam a interpretar a escala:
 - A classe representa resistência geral, mas não mede sozinha dano, magia, poison, autocura ou inteligência do inimigo.
 - Terreno, quantidade de criaturas, composição do grupo e estratégia podem mudar muito a dificuldade real.
 - Threat acompanha a escala das recompensas PvM, mas uma classe não garante quantidade ou item específico.
-- Criaturas com perfil mágico ou Dragon Breath podem receber Threat adicional; os dois fatores podem se acumular.
+- Criaturas com IA mágica contribuem com **45% dos Hits máximos do spawn** para
+  Threat, com teto combinado de 45% para esse grupo. Archer e demais
+  combinações preservam o teto combinado de 35%.
 - Pets, summons, vendors e o PvP Trainer não recebem Threat Rating PvM.
 
 ## Como consultar no jogo
@@ -56,5 +58,5 @@ Essa leitura combina a referência da wiki com a situação real do encontro.
 
 [Entender as recompensas PvM](../itens/recompensas-pvm.md){ .md-button }
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     A cor e o nome exibidos sobre a criatura ajudam a estimar o perigo do encontro.

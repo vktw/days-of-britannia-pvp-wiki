@@ -4,7 +4,7 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Skill menu</span>
     <h3 id="dob-craft-tinkering-title">Tinkering</h3>
-    <p>Beta 0.32.0 · Tinkering uses Tinkering as its base skill for tools, parts, and jewelry. DoB Tools families have their own curves for creating the tool; a bonus from an already active tool should not be added again to the recipe craft.</p>
+    <p>Beta 0.34.0 · Tinkering uses Tinkering as its base skill for tools, parts, and jewelry. DoB Tools families have their own curves for creating the tool; a bonus from an already active tool should not be added again to the recipe craft.</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Main menu</span>

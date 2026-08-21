@@ -24,7 +24,7 @@ official link.
 ### Account
 
 Enter an unused username and password. The account is created automatically,
-with a limit of up to 10 accounts per IP. The server allows a maximum of two
+with a limit of up to 5 accounts per IP. The server allows a maximum of two
 simultaneous external connections via the same address.
 
 Never share your password. The team does not need it for support.
@@ -79,6 +79,12 @@ The character starts with:
   Staff, supplies, potions, and jewelry from the official PvP equipment catalog.
   It does not include another horse and cannot be sold to vendors.
 
+The Starter kit, Spellbook, Runebook, horse, and starting gold are bound to the
+receiving character. That character can use and store them in its backpack or
+bank, but they cannot be sold, traded, placed in the world, or transferred
+through a corpse. Starter gold can pay for NPC purchases, does not become account
+gold, and cannot fund Player Vendors.
+
 See [CHARACTER](../personagem.md) for buffs, caps, and race, and [Items](../itens/index.md)
 for classic gear.
 
@@ -107,7 +113,7 @@ Britain is the starting location, but **Nujelm** is the server's Safe Haven. The
 defined region blocks player conflict, stealing, harmful actions by pets or
 summons, magical travel, Fields, and received damage.
 
-Use Felucca's public moongate network to travel to Nujelm. In Beta 0.32.0, no
+Use Felucca's public moongate network to travel to Nujelm. In Beta 0.34.0, no
 character gains skills inside Safe Haven, including Newcomers.
 
 [Learn about Nujelm Safe Haven](../mundo/nujelm.md) before leaving for a hunt.
@@ -193,5 +199,5 @@ training fight.
 - [Systems and ruleset limits](../sistemas/index.md)
 - [Ultima Online Brasil: shards, servers, and community](ultima-online-brasil.md)
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     The information on this page corresponds to the official server.

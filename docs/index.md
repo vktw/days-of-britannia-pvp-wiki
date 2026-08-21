@@ -53,32 +53,32 @@ hide:
 <section class="dob-atlas-content" aria-label="Conteúdo principal">
   <article class="dob-atlas-feature">
     <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
-    <h2>0.32.0 · Contratos de caça e rebalanceamentos</h2>
-    <p class="dob-atlas-feature__date"><time datetime="2026-08-16">16 de agosto de 2026</time></p>
-    <p>O servidor recebeu contratos de caça PvM, novo rebalanceamento de absorção física e ajustes em Maestria, tinturas e macros de equipamento.</p>
+    <h2>0.34.0 · Progressão PvM e novas Maestrias</h2>
+    <p class="dob-atlas-feature__date"><time datetime="2026-08-18">18 de agosto de 2026</time></p>
+    <p>O servidor recebeu novas recompensas de Achievements, quatro Maestrias melee, bônus maior na Daily Dungeon e ajustes no Threat mágico.</p>
     <a href="patches/">LER PATCH NOTES <span aria-hidden="true">→</span></a>
   </article>
 
   <div class="dob-atlas-index">
     <p class="dob-atlas-kicker">ÚLTIMOS ARTIGOS ATUALIZADOS</p>
-    <a href="sistemas/caca-pvm/">
-      <span class="dob-atlas-index__code">17 AGO</span>
-      <span><strong>Caça PvM</strong><small>Contratos, objetivos sorteados e recompensas</small></span>
+    <a href="sistemas/pvm-mastery/">
+      <span class="dob-atlas-index__code">21 AGO</span>
+      <span><strong>Maestria PvM</strong><small>Quatro novas Maestrias melee e progressão</small></span>
       <i aria-hidden="true">→</i>
     </a>
     <a href="sistemas/achievements/">
-      <span class="dob-atlas-index__code">17 AGO</span>
-      <span><strong>Achievements</strong><small>Oito etapas iniciais e recompensas PvM</small></span>
+      <span class="dob-atlas-index__code">21 AGO</span>
+      <span><strong>Achievements</strong><small>Recompensas após o catálogo inicial</small></span>
       <i aria-hidden="true">→</i>
     </a>
     <a href="sistemas/daily-dungeon/">
-      <span class="dob-atlas-index__code">17 AGO</span>
-      <span><strong>Daily Dungeon</strong><small>Bônus de Maestria e Loot Pack</small></span>
+      <span class="dob-atlas-index__code">21 AGO</span>
+      <span><strong>Daily Dungeon</strong><small>100% de XP extra de Maestria PvM</small></span>
       <i aria-hidden="true">→</i>
     </a>
     <a href="itens/consumiveis/">
-      <span class="dob-atlas-index__code">17 AGO</span>
-      <span><strong>Consumíveis</strong><small>Dragon Blood e ferramentas DoB</small></span>
+      <span class="dob-atlas-index__code">21 AGO</span>
+      <span><strong>Consumíveis</strong><small>Dragon Blood e carving de dragões verdadeiros</small></span>
       <i aria-hidden="true">→</i>
     </a>
   </div>

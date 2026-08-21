@@ -4,7 +4,7 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Skill menu</span>
     <h3 id="dob-craft-simulator-title">Bowcraft / Fletching</h3>
-    <p>Beta 0.32.0 · choose a menu to begin.</p>
+    <p>Beta 0.34.0 · choose a menu to begin.</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Main menu</span>

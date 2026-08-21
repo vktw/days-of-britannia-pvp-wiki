@@ -39,6 +39,20 @@ The full catalogue includes:
 
 Area Miner, Area Fisher, and Area Lumberjack grant 200 PvM Mastery XP each. Rare Phoenix Hunter grants 350 XP. These achievements do not change gathering time, resource consumption, or normal carving rewards.
 
+## Achievements after the introductory catalogue
+
+After the full catalogue is unlocked, three additional PvM progression lines
+become available:
+
+| Activity | Requirement | Reward |
+|---|---|---:|
+| Completed hunt | Complete a PvM hunting contract | 500 PvM Mastery XP |
+| First Daily Dungeon kill | Defeat a creature in the active Daily Dungeon | 300 PvM Mastery XP |
+| Slayer Group | Reach 150 eligible kills in each canonical Slayer Group | 1,000 PvM Mastery XP per group |
+
+These rewards are delivered once and do not change the eight-step introductory
+path. Catalogue progress is not retroactive.
+
 ## Limits
 
 Achievements do not add points, rankings, titles, or cosmetic rewards. First
@@ -47,5 +61,5 @@ PvP Trainer ranking or Arena rules.
 
 See also [PvM Mastery](pvm-mastery.md) for XP, Slayer families, and builds.
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     The Achievements system is available on the official server.

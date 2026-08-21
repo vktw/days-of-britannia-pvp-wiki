@@ -24,7 +24,7 @@ utilize sempre o link oficial.
 ### Conta
 
 Digite um usuário e uma senha ainda não utilizados. A conta é criada
-automaticamente, com limite de até 10 contas por IP. O servidor permite no
+automaticamente, com limite de até 5 contas por IP. O servidor permite no
 máximo duas conexões externas simultâneas pelo mesmo endereço.
 
 Nunca compartilhe sua senha. A equipe não precisa dela para suporte.
@@ -80,6 +80,12 @@ O personagem começa com:
   suprimentos, potions e joias do catálogo oficial de equipamentos de PvP. O kit
   não inclui outro cavalo e não pode ser vendido a vendors.
 
+O Starter kit, o Spellbook, o Runebook, o cavalo e o gold inicial ficam
+vinculados ao personagem que os recebe. O próprio personagem pode usar e guardar
+esses itens na mochila ou no banco, mas eles não podem ser vendidos, trocados,
+colocados no mundo ou transferidos por corpse. O starter gold pode pagar compras
+de NPC, não vira gold da conta e não financia Player Vendors.
+
 Consulte [Personagem](../personagem.md) para buffs, caps e raça, e [Itens](../itens/index.md)
 para equipamentos clássicos.
 
@@ -110,7 +116,7 @@ definida bloqueia conflito entre jogadores, stealing, ações nocivas de pets ou
 summons, viagens mágicas, Fields e dano recebido.
 
 Use a rede pública de moongates de Felucca para viajar até Nujelm. No Beta
-0.32.0, nenhum personagem recebe ganho de skill dentro do Safe Haven, inclusive
+0.34.0, nenhum personagem recebe ganho de skill dentro do Safe Haven, inclusive
 Newcomers.
 
 [Conheça Nujelm Safe Haven](../mundo/nujelm.md) antes de sair para uma caçada.
@@ -197,5 +203,5 @@ treino.
 - [Sistemas e limites do ruleset](../sistemas/index.md)
 - [Ultima Online Brasil: shards, servidores e comunidade](ultima-online-brasil.md)
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     As informações desta página correspondem ao servidor oficial.

@@ -4,7 +4,7 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Menu da skill</span>
     <h3 id="dob-craft-glassblowing-title">Glassblowing</h3>
-    <p>Beta 0.32.0 · Glassblowing é um menu próprio, mas sua skill-base oficial é Alchemy . Para craftar, o jogador precisa de Alchemy 100.0, aprendizado de Glassblowing, a ferramenta correta e uma forge próxima.</p>
+    <p>Beta 0.34.0 · Glassblowing é um menu próprio, mas sua skill-base oficial é Alchemy . Para craftar, o jogador precisa de Alchemy 100.0, aprendizado de Glassblowing, a ferramenta correta e uma forge próxima.</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Menu principal</span>

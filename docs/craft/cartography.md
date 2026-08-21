@@ -4,7 +4,7 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Menu da skill</span>
     <h3 id="dob-craft-cartography-title">Cartography</h3>
-    <p>Beta 0.32.0 · Cartography usa Cartography como skill-base. Mapas comuns seguem a curva linear do catálogo; Star Chart é uma exceção com chance forçada.</p>
+    <p>Beta 0.34.0 · Cartography usa Cartography como skill-base. Mapas comuns seguem a curva linear do catálogo; Star Chart é uma exceção com chance forçada.</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Menu principal</span>

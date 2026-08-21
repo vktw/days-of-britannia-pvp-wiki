@@ -2,6 +2,39 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.34.0 · PvM progression and new Masteries
+
+- The Daily Dungeon now grants **100% extra PvM Mastery XP**; the Young bonus
+  and doubled Loot Pack frequency remain stackable.
+- Magical-AI creatures now contribute 45% of spawn maximum Hits to Threat, with
+  a 45% combined ceiling; Archer and other combinations retain the 35% ceiling.
+- The full Achievements catalogue receives 500 XP for one completed PvM hunt,
+  300 XP for the first kill in the active Daily Dungeon, and 1,000 XP for each
+  Slayer Group after 150 eligible kills. The eight-step introductory path is
+  unchanged.
+- Four PvM melee Masteries arrive: Bloodbound Renewal, Mirrorblade Aegis,
+  Arcane Bastion, and Crimson Wrath, with their own effects, level progression,
+  and PvP/Arena exclusions preserved.
+
+## 0.33.0 · Starter, Dragon Blood, and PvP equipment
+
+This baseline was incorporated into the 0.34.0 production release.
+
+- Automatic account creation now allows up to **5 accounts per IP**; the
+  separate two-connection limit remains unchanged.
+- The Starter PvP Iron kit, Spellbook, Runebook, horse, and starting gold are
+  bound to the receiving character and cannot be sold, traded, or transferred
+  through a corpse.
+- Rare Britannia now maintains one active wild mount with new families and
+  color variations, while the fixed Llama and Ostard events keep their own
+  Animal Taming requirements.
+- True dragons can provide Dragon Blood when carved, with a chance for one
+  extra unit from Forensics; each Dragon Blood Clothing Dye now requires **10
+  Dragon Bloods**.
+- Final physical damage between PvP participants has a 40-Hit ceiling after
+  normal absorption; ordinary PvM hits and the other formulas remain outside
+  that limit.
+
 ## 0.32.0 · Hunter contracts and rebalancing
 
 - The physical damage absorption system receives a new rebalance to make the

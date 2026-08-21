@@ -2,6 +2,40 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.34.0 · Progressão PvM e novas Maestrias
+
+- A Daily Dungeon passa a conceder **100% de XP extra de Maestria PvM**; o bônus
+  de Young e a frequência dobrada de Loot Packs permanecem acumuláveis.
+- Criaturas com IA mágica passam a contribuir com 45% dos Hits máximos do spawn
+  para Threat, com teto combinado de 45%; Archer e demais combinações mantêm o
+  teto de 35%.
+- O catálogo completo de Achievements recebe 500 XP por uma caçada PvM
+  concluída, 300 XP pela primeira baixa na Daily Dungeon ativa e 1.000 XP por
+  cada grupo Slayer após 150 kills elegíveis. A trilha inicial de oito etapas
+  permanece inalterada.
+- Entram quatro Maestrias PvM melee: Bloodbound Renewal, Mirrorblade Aegis,
+  Arcane Bastion e Crimson Wrath, com efeitos próprios, progressão por nível e
+  exclusões de PvP e Arena preservadas.
+
+## 0.33.0 · Starter, Dragon Blood e equipamentos PvP
+
+Esta base foi incorporada ao release de produção 0.34.0.
+
+- A criação automática passa a aceitar até **5 contas por IP**; o limite de duas
+  conexões simultâneas permanece separado.
+- O Starter PvP Iron kit, Spellbook, Runebook, cavalo e gold inicial ficam
+  vinculados ao personagem que os recebe e não podem ser vendidos, trocados ou
+  transferidos por corpse.
+- Rare Britannia passa a manter uma montaria selvagem ativa, com novas famílias
+  e variações de cor, enquanto os eventos fixos de Llama e Ostards preservam
+  seus próprios requisitos de Animal Taming.
+- Dragões verdadeiros podem fornecer Dragon Blood no carving, com chance de uma
+  unidade extra por Forensics; cada Dragon Blood Clothing Dye passa a exigir
+  **10 Dragon Bloods**.
+- O dano físico final entre participantes de PvP recebe teto de 40 Hits depois
+  da absorção normal; golpes PvM comuns e as demais fórmulas permanecem fora
+  desse limite.
+
 ## 0.32.0 · Contratos de caça e rebalanceamentos
 
 - O sistema de absorção de dano físico recebe um novo rebalanceamento para

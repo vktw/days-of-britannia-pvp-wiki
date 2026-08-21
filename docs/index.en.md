@@ -53,32 +53,32 @@ PLAY NOW <span aria-hidden="true">↓</span>
 <section class="dob-atlas-content" aria-label="Main content">
 <article class="dob-atlas-feature">
 <p class="dob-atlas-kicker">LATEST UPDATE</p>
-<h2>0.32.0 · Hunter contracts and rebalancing</h2>
-<p class="dob-atlas-feature__date"><time datetime="2026-08-16">August 16, 2026</time></p>
-<p>The server received PvM hunting contracts, a new physical absorption rebalance, and adjustments to Mastery, dyes, and equipment macros.</p>
+<h2>0.34.0 · PvM progression and new Masteries</h2>
+<p class="dob-atlas-feature__date"><time datetime="2026-08-18">August 18, 2026</time></p>
+<p>The server received new Achievement rewards, four melee Masteries, a larger Daily Dungeon bonus, and magical Threat adjustments.</p>
 <a href="patches/">READ PATCH NOTES <span aria-hidden="true">→</span></a>
 </article>
 
 <div class="dob-atlas-index">
 <p class="dob-atlas-kicker">LATEST UPDATED ARTICLES</p>
-<a href="sistemas/caca-pvm/">
-<span class="dob-atlas-index__code">AUG 17</span>
-<span><strong>PvM hunting</strong><small>Contracts, randomized objectives and rewards</small></span>
+<a href="sistemas/pvm-mastery/">
+<span class="dob-atlas-index__code">AUG 21</span>
+<span><strong>PvM Mastery</strong><small>Four new melee Masteries and progression</small></span>
 <i aria-hidden="true">→</i>
 </a>
 <a href="sistemas/achievements/">
-<span class="dob-atlas-index__code">AUG 17</span>
-<span><strong>Achievements</strong><small>Eight introductory stages and PvM rewards</small></span>
+<span class="dob-atlas-index__code">AUG 21</span>
+<span><strong>Achievements</strong><small>Rewards after the initial catalogue</small></span>
 <i aria-hidden="true">→</i>
 </a>
 <a href="sistemas/daily-dungeon/">
-<span class="dob-atlas-index__code">AUG 17</span>
-<span><strong>Daily Dungeon</strong><small>Mastery and Loot Pack bonuses</small></span>
+<span class="dob-atlas-index__code">AUG 21</span>
+<span><strong>Daily Dungeon</strong><small>100% extra PvM Mastery XP</small></span>
 <i aria-hidden="true">→</i>
 </a>
 <a href="itens/consumiveis/">
-<span class="dob-atlas-index__code">AUG 17</span>
-<span><strong>Consumables</strong><small>Dragon Blood and DoB tools</small></span>
+<span class="dob-atlas-index__code">AUG 21</span>
+<span><strong>Consumables</strong><small>Dragon Blood and true-dragon carving</small></span>
 <i aria-hidden="true">→</i>
 </a>
 </div>

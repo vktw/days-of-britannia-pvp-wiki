@@ -8,7 +8,7 @@ A Daily Dungeon é a melhor referência do dia para quem quer combinar PvM e pro
 
 ## O que muda na dungeon do dia
 
-- Criaturas elegíveis concedem **50% de bônus de experiência de Maestria PvM**.
+- Criaturas elegíveis concedem **100% de bônus de experiência de Maestria PvM**.
 - A frequência de Loot Packs personalizados para criaturas elegíveis fica **duplicada**.
 - O bônus permanece até a próxima rotação diária.
 
@@ -22,5 +22,5 @@ O acesso comum de jogadores às Lost Lands e às suas dungeons está fechado no 
 
 Abra `.dailydungeon` antes de sair para o PvM e combine a rotação com sua build em [Maestria PvM](pvm-mastery.md) e com as [Recompensas PvM](../itens/recompensas-pvm.md).
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     A Daily Dungeon diferente recebe bônus até a próxima rotação.

@@ -57,14 +57,14 @@ REQUIRED_LIVE_CLAIMS = {
     "itens/armas.md": ["não determinam a compatibilidade da arma com poison"],
     "mundo/threat-rating.md": ["Neira | Legendary", "Harrower | Mythic"],
     "mundo/threat-inventory.md": ["classificação visível no jogo"],
-    "sistemas/pvm-mastery.md": ["Status: Beta 0.32.0", "até cinco Maestrias ativas", "Summoner's Bond"],
-    "sistemas/achievements.md": ["`.achievements`", "100 XP de Maestria PvM", "Status: Beta 0.32.0"],
-    "mundo/nujelm.md": ["Safe Haven oficial", "3767,1296,0", "Qualquer início de spellcasting", "Status: Beta 0.32.0"],
+    "sistemas/pvm-mastery.md": ["Status: Beta 0.34.0", "até cinco Maestrias ativas", "Summoner's Bond"],
+    "sistemas/achievements.md": ["`.achievements`", "100 XP de Maestria PvM", "Status: Beta 0.34.0"],
+    "mundo/nujelm.md": ["Safe Haven oficial", "3767,1296,0", "Qualquer início de spellcasting", "Status: Beta 0.34.0"],
     "primeiros-passos/newcomer.md": ["100% adicionais de experiência de Maestria PvM", "retorna automaticamente a Nujelm"],
     "comandos.md": ["## `.achievements`", "## `.options`"],
-    "itens/recompensas-pvm.md": ["Eyes of Newt", "100% adicionais de", "Status: Beta 0.32.0"],
-    "itens/consumiveis.md": ["Dragon Blood Clothing Dye", "DoB Tools no Beta 0.32.0", "Status: Beta 0.32.0"],
-    "mundo/cidades-guards.md": ["X=1130..1261", "X=4399..4458", "Serpent's Hold", "Status: Beta 0.32.0"],
+    "itens/recompensas-pvm.md": ["Eyes of Newt", "100% adicionais de", "Status: Beta 0.34.0"],
+    "itens/consumiveis.md": ["Dragon Blood Clothing Dye", "DoB Tools no Beta 0.34.0", "Status: Beta 0.34.0"],
+    "mundo/cidades-guards.md": ["X=1130..1261", "X=4399..4458", "Serpent's Hold", "Status: Beta 0.34.0"],
 }
 
 FORBIDDEN_LIVE_CLAIMS = {

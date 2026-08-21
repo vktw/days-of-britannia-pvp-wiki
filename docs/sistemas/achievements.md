@@ -39,6 +39,20 @@ O catálogo completo inclui:
 
 Area Miner, Area Fisher e Area Lumberjack concedem 200 XP de Maestria PvM cada. Rare Phoenix Hunter concede 350 XP. Essas conquistas não alteram o tempo da coleta, o consumo de recursos ou as recompensas normais do carving.
 
+## Conquistas após o catálogo inicial
+
+Depois que o catálogo completo é liberado, três linhas adicionais de progressão
+PvM ficam disponíveis:
+
+| Atividade | Requisito | Recompensa |
+|---|---|---:|
+| Caçada concluída | Completar um contrato de caça PvM | 500 XP de Maestria PvM |
+| Primeira baixa na Daily Dungeon | Derrotar uma criatura na Daily Dungeon ativa | 300 XP de Maestria PvM |
+| Grupo Slayer | Alcançar 150 kills elegíveis em cada grupo Slayer canônico | 1.000 XP de Maestria PvM por grupo |
+
+Essas recompensas são de uma única entrega e não alteram a trilha inicial de
+oito etapas. O progresso de catálogo não é retroativo.
+
 ## Limites
 
 Achievements não adicionam pontos, rankings, títulos ou recompensas cosméticas.
@@ -47,5 +61,5 @@ ranking do PvP Trainer nem as regras da Arena.
 
 Veja também [Maestria PvM](pvm-mastery.md) para XP, famílias Slayer e builds.
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     O sistema de Achievements está disponível no servidor oficial.

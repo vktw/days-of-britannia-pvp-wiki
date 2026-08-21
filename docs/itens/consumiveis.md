@@ -18,8 +18,17 @@ cheia.
 ## Dragon Blood Clothing Dye
 
 Moonglow e Serpent's Hold oferecem um serviço de dye cosmético com Dragon Blood.
-Cada dye consome 150 ingots compatíveis, 5 Dragon Bloods e uma cobrança dinâmica
+Cada dye consome 150 ingots compatíveis, 10 Dragon Bloods e uma cobrança dinâmica
 em gold com piso de 50.000; o dye possui uma carga.
+
+## Carving de dragões verdadeiros
+
+O carving de **Dragon, Drake, White Wyrm, Frost Dragon, Cold Drake, Frost Drake,
+Crimson Drake, Platinum Drake, Stygian Drake** e **Stygian Dragon** entrega 1
+Dragon Blood como base e pode entregar uma unidade extra por uma rolagem de
+Forensics. Com skill efetiva até 60.0, não há chance de bônus; acima de 60.0 a
+chance cresce linearmente até 90% em 100.0; acima de 100.0, a unidade extra é
+garantida.
 
 ## Bandages
 
@@ -41,7 +50,7 @@ consome uso.
 Provisioners vendem Hatchet, Pickaxe, Shovel e Fishing Pole básicos. Tinkers
 vendem Hatchet, Pickaxe e Shovel, enquanto Carpenters vendem Fishing Pole.
 
-## DoB Tools no Beta 0.32.0
+## DoB Tools no Beta 0.34.0
 
 A Tinkering organiza as ferramentas especiais no submenu **DoB Tools**. Cada família usa um metal público, tem sua própria exigência de Tinkering e aparece somente para as ferramentas compatíveis.
 
@@ -62,5 +71,5 @@ Novos personagens recebem Spellbook completo, Runebook vazio e cavalo shrinkado.
 
 Veja [Cura e recursos](../combate/cura-recursos.md) para todas as faixas e delays.
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     Quantidades de kits e efeitos detalhados correspondem ao servidor oficial.

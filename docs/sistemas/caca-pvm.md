@@ -29,5 +29,5 @@ Consulte [Maestria PvM](pvm-mastery.md) para entender a progressão e
 trilha inicial de [Achievements](achievements.md) continua sendo a melhor
 introdução para personagens novos.
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     Os contratos de caça PvM correspondem ao comportamento confirmado do servidor oficial.

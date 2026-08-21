@@ -2,7 +2,12 @@
 
 ## Initial base
 
-Every new human character starts with **100 STR, 100 DEX and 100 INT**, a complete Spellbook, a Runebook, a shrunken horse, and a permanent **Starter PvP Iron kit**. The kit uses the official PvP equipment catalog, does not duplicate the horse, and cannot be sold to vendors. The initial **10,000 gold** is only awarded to the first eligible character per IP.
+Every new human character starts with **100 STR, 100 DEX and 100 INT**, a complete Spellbook, a Runebook, a shrunken horse, and a permanent **Starter PvP Iron kit**. The kit uses the official PvP equipment catalog, does not duplicate the horse, and cannot be sold to vendors. The kit, books, horse, and initial **10,000 gold** are bound to the receiving character; the gold is only awarded to the first eligible character per IP.
+
+That character can use and store these items in its backpack or bank, but they
+cannot be traded, placed in the world, or transferred through a corpse. Starter
+gold can pay for NPC purchases, does not become account gold, and cannot fund
+Player Vendors.
 
 New characters start with the following skills at **100.0**:
 
@@ -48,5 +53,5 @@ maximum of 25 steps. Walking consumes the limit; exhausting it reveals the
 character, and running reveals immediately. Armor does not block or reduce
 Stealth effectiveness.
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     Stats, skills, caps and race correspond to the official server.

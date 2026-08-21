@@ -1,18 +1,18 @@
 # High-risk gameplay fact inventory.
 # Live entries are approved by production presence; source refs are metadata only.
-# The 0.32.0 pass below confirms the current release identity and the affected official patch-note deltas.
+# The 0.34.0 reconciliation below confirms the current release identity and the approved player-facing deltas.
 # Other entries retain their last deep-verification release until that audit is run.
 schema_version: 1
-registry_version: "0.32.0"
+registry_version: "0.34.0"
 source_policy: "live-server-is-final"
 entries:
   - id: live-version
-    claim: "The public manual identifies the current production ruleset as Beta 0.32.0."
+    claim: "The public manual identifies the current production ruleset as Beta 0.34.0."
     status: live
     source_status: approved
-    live_version: "0.32.0"
-    verification_date: "2026-08-17"
-    approved_source: "live-server/v0.32.0"
+    live_version: "0.34.0"
+    verification_date: "2026-08-21"
+    approved_source: "live-server/v0.34.0"
     public_reference: "docs/patches.md"
     canonical_pt: "docs/patches.md"
     english_counterpart: "docs/patches.en.md"
@@ -22,8 +22,8 @@ entries:
     claim: "The public patch notes preserve the player-facing 0.31.2 production changes for reagent stock, introductory Achievements, skill activation timing, Young skill gain, moongate guard boundaries, and Daily Dungeon PvM Mastery XP."
     status: live
     source_status: approved
-    live_version: "0.32.0"
-    verification_date: "2026-08-17"
+    live_version: "0.34.0"
+    verification_date: "2026-08-21"
     approved_source: "live-server/v0.31.2"
     public_reference: "docs/patches.md"
     canonical_pt: "docs/patches.md"
@@ -34,9 +34,33 @@ entries:
     claim: "The public patch notes preserve the player-facing 0.32.0 production changes for physical absorption, PvM Mastery jewelry activation, Hunter contracts, Ettin Hunter's reward, Dragon Blood dye cost, and equip/unequip macros."
     status: live
     source_status: approved
-    live_version: "0.32.0"
-    verification_date: "2026-08-17"
+    live_version: "0.34.0"
+    verification_date: "2026-08-21"
     approved_source: "live-server/v0.32.0"
+    public_reference: "docs/patches.md"
+    canonical_pt: "docs/patches.md"
+    english_counterpart: "docs/patches.en.md"
+    owner: server-owner
+    review_after: null
+  - id: patchnotes-0330-live
+    claim: "The public patch notes preserve the approved 0.33.0 player-facing changes for the five-account IP cap, character-bound starter grants, Rare Britannia, Dragon Blood carving and dye cost, and the PvP physical-damage ceiling."
+    status: live
+    source_status: approved
+    live_version: "0.34.0"
+    verification_date: "2026-08-21"
+    approved_source: "live-server/v0.33.0"
+    public_reference: "docs/patches.md"
+    canonical_pt: "docs/patches.md"
+    english_counterpart: "docs/patches.en.md"
+    owner: server-owner
+    review_after: null
+  - id: patchnotes-0340-live
+    claim: "The public patch notes preserve the 0.34.0 production changes for the Daily Dungeon bonus, magical Threat contribution, post-catalogue PvM Achievements, and four PvM melee Masteries."
+    status: live
+    source_status: approved
+    live_version: "0.34.0"
+    verification_date: "2026-08-21"
+    approved_source: "live-server/v0.34.0"
     public_reference: "docs/patches.md"
     canonical_pt: "docs/patches.md"
     english_counterpart: "docs/patches.en.md"
@@ -46,9 +70,9 @@ entries:
     claim: "Production provides two Felucca Hunters near the Britain and Cove banks, randomized PvM hunting contracts, eligible PvM Mastery XP progress, and a wooden crate containing one PvM Loot Pack roll."
     status: live
     source_status: approved
-    live_version: "0.32.0"
-    verification_date: "2026-08-17"
-    approved_source: "live-server/v0.32.0"
+    live_version: "0.34.0"
+    verification_date: "2026-08-21"
+    approved_source: "live-server/v0.34.0"
     public_reference: "docs/sistemas/caca-pvm.md"
     canonical_pt: "docs/sistemas/caca-pvm.md"
     english_counterpart: "docs/sistemas/caca-pvm.en.md"
@@ -67,19 +91,19 @@ entries:
     owner: gameplay-maintainer
     review_after: null
   - id: account-and-connection-limits
-    claim: "Automatic account creation allows up to 10 accounts per IP, and the server allows up to two simultaneous external connections per address."
+    claim: "Automatic account creation allows up to 5 accounts per IP, and the server allows up to two simultaneous external connections per address."
     status: live
     source_status: approved
-    live_version: "0.21.0"
-    verification_date: "2026-08-06"
-    approved_source: "live-server/v0.21.0"
+    live_version: "0.34.0"
+    verification_date: "2026-08-21"
+    approved_source: "live-server/v0.34.0"
     public_reference: "docs/primeiros-passos/index.md"
     canonical_pt: "docs/primeiros-passos/index.md"
     english_counterpart: "docs/primeiros-passos/index.en.md"
     owner: server-owner
     review_after: null
   - id: disabled-modern-systems
-    claim: "Clean Up Britannia, Ultima Store, and Vice vs Virtue are unavailable in the live Sphere 51a ruleset."
+    claim: "Clean Up Britannia, Ultima Store, and Vice vs Virtue are unavailable in the live ruleset."
     status: live
     source_status: approved
     live_version: "0.21.0"
@@ -151,12 +175,12 @@ entries:
     owner: pvp-maintainer
     review_after: null
   - id: pvm-mastery-progression
-    claim: "PvM Mastery uses XP, gold, discoveries, points, and up to five active Masteries as documented."
+    claim: "PvM Mastery uses XP, gold, discoveries, points, up to five active Masteries, and the four 0.34.0 melee Masteries as documented."
     status: live
     source_status: approved
-    live_version: "0.23.3"
-    verification_date: "2026-08-10"
-    approved_source: "live-server/v0.23.3"
+    live_version: "0.34.0"
+    verification_date: "2026-08-21"
+    approved_source: "live-server/v0.34.0"
     public_reference: "docs/sistemas/pvm-mastery.md"
     canonical_pt: "docs/sistemas/pvm-mastery.md"
     english_counterpart: "docs/sistemas/pvm-mastery.en.md"
@@ -211,24 +235,24 @@ entries:
     owner: world-maintainer
     review_after: null
   - id: achievements
-    claim: "The public Achievements page documents the eight-step sequential PvM introduction, its rewards, the activity catalogue including First Trainer Fight, and the .achievements command."
+    claim: "The public Achievements page documents the eight-step sequential PvM introduction, the activity catalogue, the .achievements command, and the post-catalogue hunt, Daily Dungeon, and Slayer Group rewards."
     status: live
     source_status: approved
-    live_version: "0.32.0"
-    verification_date: "2026-08-17"
-    approved_source: "live-server/v0.32.0"
+    live_version: "0.34.0"
+    verification_date: "2026-08-21"
+    approved_source: "live-server/v0.34.0"
     public_reference: "docs/sistemas/achievements.md"
     canonical_pt: "docs/sistemas/achievements.md"
     english_counterpart: "docs/sistemas/achievements.en.md"
     owner: pvm-maintainer
     review_after: null
   - id: pvp-overview-0311-live
-    claim: "The public PvP overview describes the live pressure-and-response model, the same combat rules in open PvP and during active Arena fights, automatic bandage treatment for poison, and the fixed base cast delays and mana costs of the listed Magery spells."
+    claim: "The public PvP overview describes the live pressure-and-response model, the same combat rules in open PvP and during active Arena fights, automatic bandage treatment for poison, the fixed base cast delays and mana costs of the listed Magery spells, and the 40-Hit final physical-damage ceiling."
     status: live
     source_status: approved
-    live_version: "0.31.1"
-    verification_date: "2026-08-15"
-    approved_source: "live-server/v0.31.1"
+    live_version: "0.34.0"
+    verification_date: "2026-08-21"
+    approved_source: "live-server/v0.34.0"
     public_reference: "docs/combate/index.md"
     canonical_pt: "docs/combate/index.md"
     english_counterpart: "docs/combate/index.en.md"
@@ -247,24 +271,48 @@ entries:
     owner: gameplay-maintainer
     review_after: null
   - id: daily-dungeon
-    claim: "The Live Daily Dungeon provides a 50% PvM Mastery XP bonus and doubled eligible Loot Pack frequency during its rotation, and is queried with .dailydungeon."
+    claim: "The Live Daily Dungeon provides a 100% PvM Mastery XP bonus and doubled eligible Loot Pack frequency during its rotation, and is queried with .dailydungeon."
     status: live
     source_status: approved
-    live_version: "0.31.2"
-    verification_date: "2026-08-17"
-    approved_source: "live-server/v0.31.2"
+    live_version: "0.34.0"
+    verification_date: "2026-08-21"
+    approved_source: "live-server/v0.34.0"
     public_reference: "docs/sistemas/daily-dungeon.md"
     canonical_pt: "docs/sistemas/daily-dungeon.md"
     english_counterpart: "docs/sistemas/daily-dungeon.en.md"
     owner: pvm-maintainer
     review_after: null
-  - id: britannia-rarities
-    claim: "The public rare-spawns page documents the rare Phoenix, Fire Feathers, and player-facing rare-event discovery."
+  - id: threat-rating-0340-live
+    claim: "The public Threat Rating page documents a 45% magical-AI contribution with a 45% combined ceiling for that group, while Archer and other combinations retain a 35% ceiling."
     status: live
     source_status: approved
-    live_version: "0.12.0"
-    verification_date: "2026-08-02"
-    approved_source: "live-server/v0.12.0"
+    live_version: "0.34.0"
+    verification_date: "2026-08-21"
+    approved_source: "live-server/v0.34.0"
+    public_reference: "docs/mundo/threat-rating.md"
+    canonical_pt: "docs/mundo/threat-rating.md"
+    english_counterpart: "docs/mundo/threat-rating.en.md"
+    owner: pvm-maintainer
+    review_after: null
+  - id: starter-grants-0330-live
+    claim: "Production binds the starter kit, books, horse, and initial gold to the receiving character; the character can use or bank them, but cannot sell, trade, place, or transfer them through a corpse."
+    status: live
+    source_status: approved
+    live_version: "0.34.0"
+    verification_date: "2026-08-21"
+    approved_source: "live-server/v0.34.0"
+    public_reference: "docs/primeiros-passos/index.md"
+    canonical_pt: "docs/primeiros-passos/index.md"
+    english_counterpart: "docs/primeiros-passos/index.en.md"
+    owner: server-owner
+    review_after: null
+  - id: britannia-rarities
+    claim: "The public rare-spawns page documents the rare Phoenix, Rare Britannia, fixed Rideable Llama and Ostard events, Fire Feathers, and player-facing rare-event discovery."
+    status: live
+    source_status: approved
+    live_version: "0.34.0"
+    verification_date: "2026-08-21"
+    approved_source: "live-server/v0.34.0"
     public_reference: "docs/sistemas/spawns-raros.md"
     canonical_pt: "docs/sistemas/spawns-raros.md"
     english_counterpart: "docs/sistemas/spawns-raros.en.md"
@@ -427,12 +475,12 @@ entries:
     owner: world-maintainer
     review_after: null
   - id: rare-world-0235-local-preview
-    claim: "Live 0.23.5 documents Desert Ostard, Forest Ostard, Frenzied Ostard, Rare Rideable Llama, the Felucca Spring visual, and the public rare-event discovery path."
+    claim: "Production documents Rare Britannia, Desert Ostard, Forest Ostard, Frenzied Ostard, Rare Rideable Llama, the Felucca Spring visual, and the public rare-event discovery path."
     status: live
     source_status: approved
-    live_version: "0.23.5"
-    verification_date: "2026-08-11"
-    approved_source: "live-server/v0.23.5"
+    live_version: "0.34.0"
+    verification_date: "2026-08-21"
+    approved_source: "live-server/v0.34.0"
     public_reference: "docs/sistemas/spawns-raros.md"
     canonical_pt: "docs/sistemas/spawns-raros.md"
     english_counterpart: "docs/sistemas/spawns-raros.en.md"
@@ -487,7 +535,7 @@ entries:
     owner: items-maintainer
     review_after: null
   - id: patch-0-26-3-live
-    claim: "The public manual identifies the current production release as 0.26.3 and summarizes the player-facing patch-note deltas from 0.24.0 through 0.26.3."
+    claim: "The public manual preserves the historical player-facing patch-note deltas from 0.24.0 through 0.26.3."
     status: live
     source_status: approved
     live_version: "0.26.3"
@@ -559,12 +607,12 @@ entries:
     owner: items-maintainer
     review_after: null
   - id: dragon-blood-dye-0240-live
-    claim: "Moonglow and Serpent's Hold offer the Dragon Blood Clothing Dye service using 150 compatible ingots and five Dragon Bloods for a single charge with a dynamic gold floor."
+    claim: "Moonglow and Serpent's Hold offer the Dragon Blood Clothing Dye service using 150 compatible ingots and ten Dragon Bloods for a single charge with a dynamic gold floor; eligible true-dragon carving supplies one base Dragon Blood and a possible Forensics extra."
     status: live
     source_status: approved
-    live_version: "0.32.0"
-    verification_date: "2026-08-17"
-    approved_source: "live-server/v0.32.0"
+    live_version: "0.34.0"
+    verification_date: "2026-08-21"
+    approved_source: "live-server/v0.34.0"
     public_reference: "docs/itens/consumiveis.md"
     canonical_pt: "docs/itens/consumiveis.md"
     english_counterpart: "docs/itens/consumiveis.en.md"

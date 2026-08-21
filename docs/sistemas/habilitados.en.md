@@ -22,7 +22,7 @@
 - `.help`, `.pvp`, and `.skillcheck` for help, PvP preferences, and skill checks.
 - Per-character language preference for bilingual menus, configured through `.options`.
 - Stuck return to Nujelm under the system's conditions.
-- Auto-account with up to 10 accounts per IP and up to two simultaneous external connections via the same address.
+- Auto-account with up to 5 accounts per IP and up to two simultaneous external connections via the same address.
 
 ## Current ruleset highlights
 
@@ -32,5 +32,5 @@
 
 See specific pages for limits and exceptions. Presence on this list does not mean that the mechanics maintain TrueUO's default behavior.
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     Summary list of core mechanics available to players.

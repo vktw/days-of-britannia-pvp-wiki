@@ -2,7 +2,12 @@
 
 ## Base inicial
 
-Todo novo personagem humano começa com **100 STR, 100 DEX e 100 INT**, Spellbook completo, Runebook, um cavalo shrinkado e um **Starter PvP Iron kit** permanente. O kit usa o catálogo oficial de equipamentos de PvP, sem duplicar o cavalo, e não pode ser vendido a vendors. Os **10.000 gold** iniciais são concedidos somente ao primeiro personagem elegível por IP.
+Todo novo personagem humano começa com **100 STR, 100 DEX e 100 INT**, Spellbook completo, Runebook, um cavalo shrinkado e um **Starter PvP Iron kit** permanente. O kit usa o catálogo oficial de equipamentos de PvP, sem duplicar o cavalo, e não pode ser vendido a vendors. O kit, os livros, o cavalo e os **10.000 gold** iniciais ficam vinculados ao personagem que os recebe; o gold inicial é concedido somente ao primeiro personagem elegível por IP.
+
+O próprio personagem pode usar e guardar esses itens na mochila ou no banco, mas
+eles não podem ser trocados, colocados no mundo ou transferidos por corpse. O
+starter gold pode pagar compras de NPC, não vira gold da conta e não financia
+Player Vendors.
 
 Novos personagens começam com as seguintes skills em **100.0**:
 
@@ -49,5 +54,5 @@ de 1 e máximo de 25 passos. Caminhar consome esse limite; esgotá-lo revela o
 personagem e correr revela imediatamente. Usar armadura não bloqueia nem reduz a
 eficácia de Stealth.
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     Stats, skills, caps e raça correspondem ao servidor oficial.

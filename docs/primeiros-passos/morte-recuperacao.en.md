@@ -10,5 +10,5 @@ Newcomers use the automatic return described in [Newcomer and protection](newcom
 
 While the recovery choice or Newcomer countdown is active, the ghost can walk. A ghost within two tiles of a healer can double-click it to request the normal resurrection offer; the healer's range, line of sight, and other conditions still apply.
 
-!!! success "Status: Beta 0.32.0"
+!!! success "Status: Beta 0.34.0"
     This flow applies to deaths outside the Arena.
