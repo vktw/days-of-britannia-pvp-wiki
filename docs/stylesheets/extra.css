@@ -1032,10 +1032,21 @@ body {
 }
 
 .dob-atlas-hero-card__arrow {
+  display: block;
+  width: 0.9rem;
+  height: 0.9rem;
   margin-left: 0.2rem;
-  font-size: 0.9rem;
-  line-height: 1;
+  flex: 0 0 auto;
+  overflow: visible;
   transition: transform 180ms ease;
+}
+
+.dob-atlas-hero-card__arrow path {
+  fill: none;
+  stroke: currentcolor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.25;
 }
 
 .md-typeset .dob-atlas-hero-card:hover,

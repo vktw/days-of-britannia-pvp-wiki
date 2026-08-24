@@ -23,7 +23,9 @@ hide:
 <path d="M10 35v6h28v-6"></path>
 </svg>
 <span>PLAY NOW</span>
-<span class="dob-atlas-hero-card__arrow" aria-hidden="true">→</span>
+<svg class="dob-atlas-hero-card__arrow" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+<path d="M3 10h14M12 5l5 5-5 5"></path>
+</svg>
 </span>
 </span>
 </a>
@@ -44,7 +46,9 @@ hide:
 <path d="M17 34c4 3 10 3 14 0"></path>
 </svg>
 <span>JOIN DISCORD</span>
-<span class="dob-atlas-hero-card__arrow" aria-hidden="true">↗</span>
+<svg class="dob-atlas-hero-card__arrow" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+<path d="M5 15 15 5M8 5h7v7"></path>
+</svg>
 </span>
 </span>
 </a>
