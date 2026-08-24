@@ -81,6 +81,10 @@ The delay in the table is the casting time, not necessarily the moment of the
 visual impact. Some spells have an additional wait before damage reaches the
 target.
 
+Opening a second spell target does not interrupt a cast already in progress.
+The fizzle, with normal reagent and mana loss, occurs when a valid target starts
+the second cast.
+
 ## The finishing window
 
 “Finisher” describes a timing decision, not a mandatory rotation:
@@ -124,6 +128,6 @@ hits or change magical damage, poison, or other ruleset formulas.
 Defense is not only waiting for hits to rise: it buys the time needed to
 reposition, recover mana, or prepare the next response.
 
-!!! success "Status: Beta 0.34.0"
+!!! success "Status: Beta 0.37.0"
     This page summarizes the active ruleset on the official server. Gameplay
     values were checked against the official server source.

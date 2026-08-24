@@ -1,21 +1,69 @@
 # High-risk gameplay fact inventory.
 # Live entries are approved by production presence; source refs are metadata only.
-# The 0.34.0 reconciliation below confirms the current release identity and the approved player-facing deltas.
+# The 0.37.0 reconciliation below confirms the current release identity and the approved player-facing deltas.
 # Other entries retain their last deep-verification release until that audit is run.
 schema_version: 1
-registry_version: "0.34.0"
+registry_version: "0.37.0"
 source_policy: "live-server-is-final"
 entries:
   - id: live-version
-    claim: "The public manual identifies the current production ruleset as Beta 0.34.0."
+    claim: "The public manual identifies the current production ruleset as Beta 0.37.0."
     status: live
     source_status: approved
-    live_version: "0.34.0"
-    verification_date: "2026-08-21"
-    approved_source: "live-server/v0.34.0"
+    live_version: "0.37.0"
+    verification_date: "2026-08-24"
+    approved_source: "live-server/v0.37.0"
     public_reference: "docs/patches.md"
     canonical_pt: "docs/patches.md"
     english_counterpart: "docs/patches.en.md"
+    owner: server-owner
+    review_after: null
+  - id: pvm-mastery-levels-0350
+    claim: "PvM Masteries progress through level 20 with diminishing returns after level 10, and a character can hold up to 95 points for five active Masteries."
+    status: live
+    source_status: approved
+    live_version: "0.37.0"
+    verification_date: "2026-08-24"
+    approved_source: "live-server/v0.37.0"
+    public_reference: "docs/sistemas/pvm-mastery.md"
+    canonical_pt: "docs/sistemas/pvm-mastery.md"
+    english_counterpart: "docs/sistemas/pvm-mastery.en.md"
+    owner: server-owner
+    review_after: null
+  - id: tomes-of-expertise-0360
+    claim: "Eligible non-animal PvM creatures have a 7.5% chance to drop a Tome of Expertise that grants permanent skill progress; Craft and Harvesting tomes grant at most 1.0."
+    status: live
+    source_status: approved
+    live_version: "0.37.0"
+    verification_date: "2026-08-24"
+    approved_source: "live-server/v0.37.0"
+    public_reference: "docs/sistemas/tomes-expertise.md"
+    canonical_pt: "docs/sistemas/tomes-expertise.md"
+    english_counterpart: "docs/sistemas/tomes-expertise.en.md"
+    owner: server-owner
+    review_after: null
+  - id: nujelm-player-vendors-0370
+    claim: "Nujelm offers 42 protected public Player Vendor locations with one vendor per account and public IP, reserve funding, a 24-hour grace period, and a seven-day replacement cooldown after expiry."
+    status: live
+    source_status: approved
+    live_version: "0.37.0"
+    verification_date: "2026-08-24"
+    approved_source: "live-server/v0.37.0"
+    public_reference: "docs/sistemas/player-vendors.md"
+    canonical_pt: "docs/sistemas/player-vendors.md"
+    english_counterpart: "docs/sistemas/player-vendors.en.md"
+    owner: server-owner
+    review_after: null
+  - id: royal-banking-charter-0370
+    claim: "Royal Banking Charter I costs 50,000 account Gold and permanently raises the purchasing character's bank capacity from 125 to 250 items."
+    status: live
+    source_status: approved
+    live_version: "0.37.0"
+    verification_date: "2026-08-24"
+    approved_source: "live-server/v0.37.0"
+    public_reference: "docs/sistemas/royal-banking-charter.md"
+    canonical_pt: "docs/sistemas/royal-banking-charter.md"
+    english_counterpart: "docs/sistemas/royal-banking-charter.en.md"
     owner: server-owner
     review_after: null
   - id: patchnotes-0312-live

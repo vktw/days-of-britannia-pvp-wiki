@@ -27,7 +27,9 @@ Abre as preferências de PvP para a barra colorida de cooldown de poções, que 
 
 ## `.skillcheck`
 
-Mostra o valor, as chances e o resultado do teste de skill.
+Separa o sucesso do teste e o ganho de skill, explica tentativas que não treinam
+ou já estão saturadas e mostra o progresso protegido. Em crafts, também separa
+o check interno real do resultado final da receita.
 
 ## `.help`
 
@@ -41,5 +43,5 @@ A Ultima Store está desativada. Não há compras, entregas ou uso de Sovereigns
 
 Mostra qual Daily Dungeon está selecionada e quanto tempo falta para a próxima rotação. Use o comando antes de sair para aproveitar os bônus de experiência de Maestria PvM e Loot Packs.
 
-!!! success "Status: Beta 0.34.0"
+!!! success "Status: Beta 0.37.0"
     Os comandos abaixo estão disponíveis aos jogadores no servidor oficial.

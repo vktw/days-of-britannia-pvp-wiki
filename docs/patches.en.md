@@ -2,6 +2,38 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.37.0 · Player Vendors in Nujelm
+
+- Employment contracts can place Player Vendors at one of 42 reserved wooden benches in Nujelm, limited to one per account and public IP.
+- The vendor remains fixed and protected. Its native daily fee gains a 1,500 Gold surcharge, and the initial three-day reserve is 4,680 Gold when empty.
+- Insufficient funds start a 24-hour grace period. If it expires, stock and Gold return to the bank and the account waits seven days before placing another Nujelm vendor.
+- Mage, Alchemist, and Docks Alchemist keep at least 160 of every classic reagent after restock; Mage also keeps 160 Blank Scrolls.
+- Protected gain starts at 30.0 while a skill is behind its curve, with an eight-active-hour guarantee for fast skills and ten for the others.
+- `.skillcheck` separates success from gain, explains non-training or saturated attempts, and displays protected progress.
+- Controlled pets and creatures already owned by the same tamer do not grant Animal Taming gains. Herding enters a four-second cooldown when the crook is used.
+- Craft menus no longer show recipes and categories removed from Live; existing items and learned recipes remain preserved.
+- While a Hunter Contract is incomplete, target-group creatures grant 50% additional PvM Mastery XP, stacking with Young and Daily Dungeon and applying to the final kill.
+- Royal Banking Charter I costs 50,000 account Gold and permanently raises the character's bank capacity from 125 to 250 items.
+- Hiding and Stealth allow movement during their three-second preparation; you only need to be stationary at the end.
+
+## 0.36.0 · Tomes of Expertise and PvM gains
+
+- Eligible PvM creatures, except animals, have a 7.5% chance to drop a Tome of Expertise, granting permanent progress in one of the 49 skills.
+- High gains are rare; Craft and Harvesting tomes grant at most 1.0.
+- Anatomy, Evaluating Intelligence, Fencing, Wrestling, Parrying, and Mace Fighting gain 0.2 when a normal gain is approved in eligible PvM combat.
+- Any corpse can repeatedly train Forensic Evaluation from 0.0 to 100.0 while it exists.
+- Walking while mounted no longer breaks Stealth; mounted running still reveals.
+- Animals, summons, and currently or previously tamed creatures grant no gold, XP, or generated death loot.
+- The Starter PvP kit is ordinary and lootable, without jewelry or a potion bag. New characters receive 15 normal Heal Potions; books, starter Gold, and the ShrunkenHorse remain bound.
+- Opening a second spell target no longer interrupts the current cast; starting the second cast on a valid target causes the normal fizzle and consumption.
+
+## 0.35.0 · Masteries, bandages, and skill progression
+
+- PvM Masteries progress through level 20, with diminishing returns after level 10 and up to 95 points to keep five Masteries maximized.
+- Successful treatments have a 70% chance to create a Bloody Bandage; failures create none, and adjacent, safely reachable natural water washes the whole stack.
+- Clean and Bloody Bandages from the starter kit are ordinary, stackable, and transferable.
+- The 49 active skills receive smoother training curves and gradual protection; special carving checks may also grant 0.2 Forensics.
+
 ## 0.34.0 · PvM progression and new Masteries
 
 - The Daily Dungeon now grants **100% extra PvM Mastery XP**; the Young bonus

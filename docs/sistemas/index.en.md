@@ -39,5 +39,11 @@ Reflection.
 Controlled pets and player-owned summons cannot attack or damage other players,
 but remain usable normally in PvM.
 
-!!! success "Status: Beta 0.34.0"
+## New Beta 0.37.0 systems
+
+- [Tomes of Expertise](tomes-expertise.md): permanent skill progress found in PvM loot.
+- [Player Vendors](player-vendors.md): Nujelm's protected public market.
+- [Royal Banking Charter](royal-banking-charter.md): permanent character bank expansion.
+
+!!! success "Status: Beta 0.37.0"
     The availability below corresponds to the official ruleset.

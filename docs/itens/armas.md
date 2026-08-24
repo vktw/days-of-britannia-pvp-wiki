@@ -58,7 +58,7 @@ Armas comuns permanecem em **Iron**. Na Blacksmithy, o submenu **DoB Weapons** s
 
 A chance de sucesso é 0% até 75.0, 50% em 92.5 e 100% em 105.0 ou mais, usando a Blacksmithy efetiva. Uma arma comum não troca para metal especial: as receitas comuns continuam exigindo Iron.
 
-## Bowcraft no Beta 0.34.0
+## Bowcraft no Beta 0.37.0
 
 Bowcraft passa a oferecer duas armas na categoria **DoB Weapons**. As receitas usam recursos diretos e os bônus abaixo são próprios de cada arma:
 
@@ -69,7 +69,7 @@ Bowcraft passa a oferecer duas armas na categoria **DoB Weapons**. As receitas u
 
 As Fire Feathers da Rare Phoenix funcionam na receita do Fire Bow. Armas produzidas pela Bowcraft deixam de receber bônus de combate derivados da madeira escolhida; o recurso continua identificando o item, enquanto os efeitos próprios de Fire Bow e Elven Bow permanecem.
 
-No PvM do Beta 0.34.0, o Elven Bow é a exceção explícita à normalização da
+No PvM do Beta 0.37.0, o Elven Bow é a exceção explícita à normalização da
 skill: seu +10 de Archery pode produzir **82,5%** de chance-base em 110.0, e seu
 +10 de Tactics continua influenciando o dano acima de 100. Essa exceção não
 altera a fórmula de PvP nem cria um cap geral de skill.
@@ -82,5 +82,5 @@ Nem toda arma existente no cliente circula para jogadores. O catálogo do shard 
 
 Veja [Melee e Archery](../combate/melee-archery.md) e [Poison](../combate/poison.md).
 
-!!! success "Status: Beta 0.34.0"
+!!! success "Status: Beta 0.37.0"
     Escolha armas pelo papel no combate, não por uma planilha isolada de dano.

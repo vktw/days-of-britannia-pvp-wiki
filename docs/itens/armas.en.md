@@ -58,7 +58,7 @@ Ordinary weapons remain **Iron**. In Blacksmithy, the **DoB Weapons** submenu se
 
 Success is 0% through 75.0, 50% at 92.5, and 100% at 105.0 or higher, using effective Blacksmithy. An ordinary weapon does not switch to a special metal: ordinary recipes still require Iron.
 
-## Bowcraft in Beta 0.34.0
+## Bowcraft in Beta 0.37.0
 
 Bowcraft now offers two weapons in the **DoB Weapons** category. The recipes use direct resources, and the bonuses below belong to each weapon:
 
@@ -69,7 +69,7 @@ Bowcraft now offers two weapons in the **DoB Weapons** category. The recipes use
 
 Fire Feathers from a Rare Phoenix work in the Fire Bow recipe. Weapons made through Bowcraft no longer receive combat bonuses derived from the selected wood; the resource still identifies the item, while Fire Bow and Elven Bow keep their intrinsic effects.
 
-In Beta 0.34.0 PvM, the Elven Bow is the explicit exception to skill
+In Beta 0.37.0 PvM, the Elven Bow is the explicit exception to skill
 normalization: its +10 Archery can produce **82.5%** base chance at 110.0, and
 its +10 Tactics continues to affect damage above 100. This exception does not
 change the PvP formula or create a general skill cap.
@@ -82,5 +82,5 @@ Not every weapon present in the client circulates among players. The shard catal
 
 See [Melee and Archery](../combate/melee-archery.md) and [Poison](../combate/poison.md).
 
-!!! success "Status: Beta 0.34.0"
+!!! success "Status: Beta 0.37.0"
     Choose weapons by their combat role, not by an isolated damage spreadsheet.

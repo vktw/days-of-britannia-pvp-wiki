@@ -76,15 +76,14 @@ O personagem começa com:
 - Runebook vazio.
 - Cavalo shrinkado.
 - 10.000 gold, somente para o primeiro personagem elegível por IP.
-- Um **Starter PvP Iron kit** permanente, com armor Regular, armas, Black Staff,
-  suprimentos, potions e joias do catálogo oficial de equipamentos de PvP. O kit
-  não inclui outro cavalo e não pode ser vendido a vendors.
+- Um **Starter PvP Iron kit** comum e lootável, com armor Regular, armas, Black
+  Staff e suprimentos. O kit não inclui joias nem bag de potions.
+- 15 Heal Potions normais diretamente na mochila.
 
-O Starter kit, o Spellbook, o Runebook, o cavalo e o gold inicial ficam
-vinculados ao personagem que os recebe. O próprio personagem pode usar e guardar
-esses itens na mochila ou no banco, mas eles não podem ser vendidos, trocados,
-colocados no mundo ou transferidos por corpse. O starter gold pode pagar compras
-de NPC, não vira gold da conta e não financia Player Vendors.
+O Starter kit e as 15 Heal Potions são itens comuns e podem ser perdidos no
+loot. Spellbook, Runebook, cavalo e gold inicial continuam vinculados ao
+personagem que os recebe. O starter gold pode pagar compras de NPC, não vira
+gold da conta e não financia Player Vendors.
 
 Consulte [Personagem](../personagem.md) para buffs, caps e raça, e [Itens](../itens/index.md)
 para equipamentos clássicos.
@@ -116,7 +115,7 @@ definida bloqueia conflito entre jogadores, stealing, ações nocivas de pets ou
 summons, viagens mágicas, Fields e dano recebido.
 
 Use a rede pública de moongates de Felucca para viajar até Nujelm. No Beta
-0.34.0, nenhum personagem recebe ganho de skill dentro do Safe Haven, inclusive
+0.37.0, nenhum personagem recebe ganho de skill dentro do Safe Haven, inclusive
 Newcomers.
 
 [Conheça Nujelm Safe Haven](../mundo/nujelm.md) antes de sair para uma caçada.
@@ -187,7 +186,8 @@ proteção](newcomer.md) antes de sair de uma área segura.
 - `.patchnotes`: mostra a versão e as mudanças atuais.
 - `.arena`: abre desafios contra jogadores ou treinamento com o PvP Trainer.
 - `.pvp`: abre as preferências de avisos e cooldown de poções.
-- `.skillcheck`: mostra o valor, as chances e o resultado de um teste.
+- `.skillcheck`: separa sucesso e ganho, explica tentativas sem treino ou
+  saturadas e mostra o progresso protegido.
 - `.help`: mostra a ajuda dos comandos disponíveis.
 
 Depois de avançar na trilha inicial, escolha um objetivo pequeno: descobrir uma
@@ -203,5 +203,5 @@ treino.
 - [Sistemas e limites do ruleset](../sistemas/index.md)
 - [Ultima Online Brasil: shards, servidores e comunidade](ultima-online-brasil.md)
 
-!!! success "Status: Beta 0.34.0"
+!!! success "Status: Beta 0.37.0"
     As informações desta página correspondem ao servidor oficial.

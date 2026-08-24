@@ -2,6 +2,38 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.37.0 · Player Vendors em Nujelm
+
+- Contratos de emprego podem instalar Player Vendors em um dos 42 bancos de madeira reservados de Nujelm, com limite de um por conta e IP público.
+- O vendor permanece fixo e protegido. A diária normal recebe acréscimo de 1.500 Gold e a reserva inicial de três diárias custa 4.680 Gold para um vendor vazio.
+- Saldo insuficiente inicia 24 horas de tolerância. Se o prazo expirar, estoque e Gold retornam ao bank e a conta aguarda sete dias para instalar outro vendor de Nujelm.
+- Mage, Alchemist e Docks Alchemist mantêm ao menos 160 de cada reagente clássico após o restock; Mage também mantém 160 Blank Scrolls.
+- O ganho protegido atua desde 30.0 quando a skill está atrás da curva, com garantia em oito horas ativas no perfil rápido e dez nas demais.
+- `.skillcheck` passa a separar sucesso e ganho, explicar tentativas sem treino ou saturadas e mostrar o progresso protegido.
+- Pets controlados ou já pertencentes ao mesmo domador não concedem ganho de Animal Taming. Herding entra em cooldown de quatro segundos ao usar o crook.
+- Os menus de craft deixam de exibir receitas e categorias removidas no Live; itens já existentes e recipes aprendidos permanecem preservados.
+- Enquanto um contrato de caça estiver incompleto, criaturas do grupo alvo concedem 50% de XP adicional de Maestria PvM, acumulável com Young e Daily Dungeon e válido para a kill final.
+- Royal Banking Charter I custa 50.000 Gold da conta e eleva permanentemente o banco do personagem de 125 para 250 itens.
+- Hiding e Stealth permitem movimento durante os três segundos de preparação; é necessário estar parado apenas no final.
+
+## 0.36.0 · Tomes of Expertise e ganhos PvM
+
+- Criaturas PvM elegíveis, exceto animais, têm 7,5% de chance de deixar um Tome of Expertise, que concede progresso permanente a uma das 49 skills.
+- Ganhos altos são raros; tomes de Craft e Harvesting concedem no máximo 1.0.
+- Anatomy, Evaluating Intelligence, Fencing, Wrestling, Parrying e Mace Fighting ganham 0.2 quando o ganho normal é aprovado em combate PvM elegível.
+- Qualquer cadáver permite treinar Forensic Evaluation repetidamente de 0.0 a 100.0 enquanto existir.
+- Caminhar montado não interrompe Stealth; correr montado continua revelando.
+- Animais, summons e criaturas atuais ou anteriormente domadas não concedem gold, XP ou loot de morte.
+- O Starter PvP kit passa a ser comum e lootável, sem joias nem bag de potions. Novos personagens recebem 15 Heal Potions normais; livros, gold inicial e ShrunkenHorse permanecem vinculados.
+- Abrir o target de uma segunda magia não interrompe o cast atual; iniciar o segundo cast em alvo válido causa o fizzle e o consumo normal.
+
+## 0.35.0 · Maestrias, bandagens e progressão de skills
+
+- Maestrias PvM evoluem até o nível 20, com retornos decrescentes após o nível 10 e até 95 pontos para manter cinco Maestrias maximizadas.
+- Tratamentos bem-sucedidos têm 70% de chance de gerar Bloody Bandage; falhas não geram bandagem suja, e água natural adjacente e segura lava o stack inteiro.
+- Bandagens limpas e sujas do kit inicial são itens comuns, empilháveis e transferíveis.
+- As 49 skills ativas recebem curvas de treino mais uniformes e proteção gradual; carvings especiais também podem conceder 0.2 de Forensics.
+
 ## 0.34.0 · Progressão PvM e novas Maestrias
 
 - A Daily Dungeon passa a conceder **100% de XP extra de Maestria PvM**; o bônus

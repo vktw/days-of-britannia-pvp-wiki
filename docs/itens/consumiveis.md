@@ -38,7 +38,11 @@ O tratamento é capturado no momento do uso: poison presente no início é trata
 imediatamente; sem poison no início, a cura de vida mantém sua escolha durante o
 delay mesmo que poison apareça depois.
 
-Quando uma bandage limpa é usada com sucesso, ela vira uma **Bloody Bandage** com o mesmo peso. Se você estiver sobrecarregado, o resultado cai no chão em vez de aumentar o peso carregado. Uma unidade de água em uma fonte lava o stack inteiro e envia as bandages limpas para a mochila.
+Quando o tratamento termina com sucesso, há **70% de chance** de a bandage limpa
+virar uma **Bloody Bandage** com o mesmo peso; falhas não geram bandagem suja. Se
+você estiver sobrecarregado, o resultado cai no chão. Água natural adjacente,
+alcançável e segura lava o stack inteiro. Bandagens limpas e sujas recebidas no
+kit inicial são itens comuns, empilháveis e transferíveis.
 
 ## Fishing Pole
 
@@ -50,7 +54,7 @@ consome uso.
 Provisioners vendem Hatchet, Pickaxe, Shovel e Fishing Pole básicos. Tinkers
 vendem Hatchet, Pickaxe e Shovel, enquanto Carpenters vendem Fishing Pole.
 
-## DoB Tools no Beta 0.34.0
+## DoB Tools no Beta 0.37.0
 
 A Tinkering organiza as ferramentas especiais no submenu **DoB Tools**. Cada família usa um metal público, tem sua própria exigência de Tinkering e aparece somente para as ferramentas compatíveis.
 
@@ -71,5 +75,5 @@ Novos personagens recebem Spellbook completo, Runebook vazio e cavalo shrinkado.
 
 Veja [Cura e recursos](../combate/cura-recursos.md) para todas as faixas e delays.
 
-!!! success "Status: Beta 0.34.0"
+!!! success "Status: Beta 0.37.0"
     Quantidades de kits e efeitos detalhados correspondem ao servidor oficial.

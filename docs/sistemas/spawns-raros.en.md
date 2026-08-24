@@ -42,5 +42,5 @@ Britannia](whispers-britannia.md).
 Felucca receives the seasonal **Spring** appearance. This is a visual change and
 does not alter map geometry, resources, or collision.
 
-!!! success "Status: Beta 0.34.0"
+!!! success "Status: Beta 0.37.0"
     Rare creatures and seasonal events offer discovery paths across Britannia.

@@ -77,6 +77,10 @@ O delay da tabela é o tempo de conjuração, não necessariamente o instante do
 impacto visual. Algumas magias têm uma espera adicional até o dano chegar ao
 alvo.
 
+Abrir o target de uma segunda magia não interrompe uma conjuração em andamento.
+O fizzle, com perda normal de reagentes e mana, acontece quando um alvo válido
+inicia o segundo cast.
+
 ## A janela de finalização
 
 “Finisher” descreve uma decisão de timing, não uma rotação obrigatória:
@@ -120,6 +124,6 @@ altera dano mágico, poison ou outras fórmulas do ruleset.
 Defesa não é apenas esperar a vida subir: ela compra o tempo necessário para
 reposicionar, recuperar mana ou preparar a próxima resposta.
 
-!!! success "Status: Beta 0.34.0"
+!!! success "Status: Beta 0.37.0"
     Esta página resume o ruleset ativo no servidor oficial. Os valores de
     gameplay foram conferidos na fonte oficial do servidor.

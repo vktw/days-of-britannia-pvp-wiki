@@ -58,5 +58,5 @@ Essa leitura combina a referência da wiki com a situação real do encontro.
 
 [Entender as recompensas PvM](../itens/recompensas-pvm.md){ .md-button }
 
-!!! success "Status: Beta 0.34.0"
+!!! success "Status: Beta 0.37.0"
     A cor e o nome exibidos sobre a criatura ajudam a estimar o perigo do encontro.

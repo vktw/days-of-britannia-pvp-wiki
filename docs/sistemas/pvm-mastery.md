@@ -18,7 +18,9 @@ Uma Maestria descoberta continua disponível para o personagem. Seus níveis tam
 
 ## Progressão e pontos
 
-Cada Maestria possui 10 níveis. O personagem pode acumular até 45 pontos e manter **até cinco Maestrias ativas**, portanto não é possível maximizar cinco delas ao mesmo tempo: a distribuição dos pontos faz parte da build.
+Cada Maestria possui 20 níveis. O personagem pode acumular até 95 pontos e
+manter **até cinco Maestrias ativas**, o suficiente para maximizar cinco delas.
+Depois do nível 10, os ganhos por nível continuam com retornos decrescentes.
 
 | Próximo ponto | Requisito de XP | Custo em gold |
 |---|---:|---:|
@@ -76,7 +78,7 @@ O Live adicionou cinco Maestrias que convertem parte de recursos defensivos ou o
 
 Essas cinco Maestrias escalam de 5% a 9,5% e preservam as exclusões de PvP e Arena. A primeira Maestria aprendida pode entrar automaticamente na build no nível 1 quando o log de combate está habilitado; o Compendium mostra orientações e controles mais claros.
 
-## Catálogo do Beta 0.34.0
+## Catálogo do Beta 0.37.0
 
 ### Ataque e recursos
 
@@ -118,13 +120,14 @@ Essas cinco Maestrias escalam de 5% a 9,5% e preservam as exclusões de PvP e Ar
 
 **Ruptura Arcana** é uma nova Maestria PvM. Com ela ativa, dano direto positivo causado pelo jogador pode fazer uma criatura selvagem falhar enquanto conjura. O efeito pertence aos encontros PvM elegíveis; não o trate como regra geral de PvP ou da Arena.
 
-## Maestrias melee do Beta 0.34.0
+## Maestrias melee do Beta 0.37.0
 
-As quatro Maestrias abaixo avançam **0,25 ponto percentual por nível**, até o
-nível 10. Seus efeitos continuam restritos a encontros PvM elegíveis e não
+Nos primeiros dez níveis, as quatro Maestrias abaixo avançam **0,25 ponto
+percentual por nível**. Do nível 11 ao 20, a progressão continua com retornos
+decrescentes. Seus efeitos permanecem restritos a encontros PvM elegíveis e não
 funcionam contra jogadores ou na Arena.
 
-| Maestria | Família | Faixa | O que oferece |
+| Maestria | Família | Faixa nos níveis 1–10 | O que oferece |
 |---|---|---:|---|
 | **Bloodbound Renewal** | Undead | 7,50%–9,75% | Pode invocar Greater Heal ao acertar um golpe melee primário positivo. O efeito não usa Words of Power, reagentes ou mana. |
 | **Mirrorblade Aegis** | Abyssal | 7,50%–9,75% | Pode conceder uma carga de Magic Reflection ao acertar um golpe melee primário positivo. O efeito não usa Words of Power, reagentes ou mana. |
@@ -196,5 +199,5 @@ Consulte [Recompensas PvM](../itens/recompensas-pvm.md) para XP, Loot Packs, joi
 
 Consulte também [Achievements](achievements.md) para a trilha inicial e as conquistas de atividades.
 
-!!! success "Status: Beta 0.34.0"
+!!! success "Status: Beta 0.37.0"
     O Hunter's Compendium oferece progressão própria para personagens que enfrentam criaturas.

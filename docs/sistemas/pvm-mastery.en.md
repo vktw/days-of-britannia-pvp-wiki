@@ -18,7 +18,9 @@ A discovered mastery remains available to the character. Its levels also remain 
 
 ## Progression and points
 
-Each mastery has 10 levels. A character can hold up to 45 points and keep no more than five masteries active, so five masteries cannot all be maximized at once: point distribution is part of the build.
+Each mastery has 20 levels. A character can hold up to 95 points and keep no
+more than five masteries active, enough to maximize five of them. After level
+10, each new level continues with diminishing returns.
 
 | Next point | XP requirement | Gold cost |
 |---|---:|---:|
@@ -76,7 +78,7 @@ Live added five Masteries that convert part of defensive or offensive resources 
 
 These five Masteries scale from 5% to 9.5% and preserve the PvP and Arena exclusions. The first learned Mastery can be added to the build automatically at level 1 when the combat log is enabled; the Compendium provides clearer guidance and controls.
 
-## Beta 0.34.0 catalog
+## Beta 0.37.0 catalog
 
 ### Offense and resources
 
@@ -118,13 +120,14 @@ These five Masteries scale from 5% to 9.5% and preserve the PvP and Arena exclus
 
 **Arcane Disruption** is a new PvM Mastery. While active, positive direct damage dealt by the player may make an eligible wild creature fizzle while casting. The effect belongs to eligible PvM encounters; do not treat it as a general PvP or Arena rule.
 
-## Beta 0.34.0 melee Masteries
+## Beta 0.37.0 melee Masteries
 
-The four Masteries below advance by **0.25 percentage point per level**, through
-level 10. Their effects remain limited to eligible PvM encounters and do not
-work against players or in the Arena.
+For their first ten levels, the four Masteries below advance by **0.25 percentage
+point per level**. Levels 11 through 20 continue with diminishing returns. Their
+effects remain limited to eligible PvM encounters and do not work against
+players or in the Arena.
 
-| Mastery | Family | Range | What it offers |
+| Mastery | Family | Level 1–10 range | What it offers |
 |---|---|---:|---|
 | **Bloodbound Renewal** | Undead | 7.50%–9.75% | May invoke Greater Heal on a positive primary melee hit. The effect uses no Words of Power, reagents, or mana. |
 | **Mirrorblade Aegis** | Abyssal | 7.50%–9.75% | May grant one Magic Reflection charge on a positive primary melee hit. The effect uses no Words of Power, reagents, or mana. |
@@ -196,5 +199,5 @@ See [PvM rewards](../itens/recompensas-pvm.md) for XP, Loot Packs, jewelry, and 
 
 See also [Achievements](achievements.md) for the introductory path and activity achievements.
 
-!!! success "Status: Beta 0.34.0"
+!!! success "Status: Beta 0.37.0"
     The Hunter's Compendium provides dedicated progression for characters who fight creatures.

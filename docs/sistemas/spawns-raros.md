@@ -42,5 +42,5 @@ Britannia](whispers-britannia.md).
 Felucca recebe o visual sazonal **Spring**. A mudança é visual e não altera
 geometria, recursos ou colisão do mapa.
 
-!!! success "Status: Beta 0.34.0"
+!!! success "Status: Beta 0.37.0"
     Phoenix rara, criaturas raras e eventos sazonais oferecem caminhos de descoberta em Britannia.

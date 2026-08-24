@@ -4,17 +4,17 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Skill menu</span>
     <h3 id="dob-craft-cartography-title">Cartography</h3>
-    <p>Beta 0.34.0 · Cartography uses Cartography as its base skill. Regular maps follow the catalog's linear curve; Star Chart is an exception with a forced chance.</p>
+    <p>Beta 0.37.0 · Cartography uses Cartography as its base skill. Active regular maps follow the catalog's linear curve.</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Main menu</span>
     <h4>Choose a category</h4>
     <div class="dob-craft-simulator__menu">
       <button type="button" data-craft-sim-open-section="mapas-e-cartas" data-craft-sim-section-title="Maps and charts">
-        <span><strong>Maps and charts</strong><small>6 recipes in this menu</small></span><b>6 recipes&nbsp; →</b>
+        <span><strong>Maps and charts</strong><small>4 recipes in this menu</small></span><b>4 recipes&nbsp; →</b>
       </button>
       <button type="button" data-craft-sim-open-section="all" data-craft-sim-section-title="Full index">
-        <span><strong>Search recipes</strong><small>Search the entire Cartography menu</small></span><b>6 recipes&nbsp; →</b>
+        <span><strong>Search recipes</strong><small>Search the entire Cartography menu</small></span><b>4 recipes&nbsp; →</b>
       </button>
     </div>
   </div>
@@ -27,7 +27,7 @@
       <label class="dob-craft-simulator__search" for="dob-craft-cartography-search">Search the index
         <input id="dob-craft-cartography-search" type="search" data-craft-sim-search aria-controls="dob-craft-cartography-index" placeholder="Name, group, or material">
       </label>
-      <p class="dob-craft-simulator__count" data-craft-sim-count aria-live="polite">6 recipes</p>
+      <p class="dob-craft-simulator__count" data-craft-sim-count aria-live="polite">4 recipes</p>
       <div id="dob-craft-cartography-index" class="dob-craft-simulator__list" data-craft-sim-index role="listbox" aria-label="Cartography recipes">
         <button type="button" role="option" data-craft-sim-item data-craft-sim-section="mapas-e-cartas" data-craft-item-id="local-map" data-craft-item-name="Local Map" data-craft-group="Maps and charts" data-craft-skill="Cartography" data-craft-min="10.0" data-craft-max="70.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="1 Blank Map" data-craft-exceptional="Separate quality roll" data-craft-base="0">
           <span data-craft-sim-index-name>Local Map</span>
@@ -44,14 +44,6 @@
         <button type="button" role="option" data-craft-sim-item data-craft-sim-section="mapas-e-cartas" data-craft-item-id="world-map" data-craft-item-name="World Map" data-craft-group="Maps and charts" data-craft-skill="Cartography" data-craft-min="39.5" data-craft-max="99.5" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="1 Blank Map" data-craft-exceptional="Not published in this preview" data-craft-base="0">
           <span data-craft-sim-index-name>World Map</span>
           <span data-craft-sim-index-meta>Maps and charts · 39.5–99.5</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="mapas-e-cartas" data-craft-item-id="eodonian-wall-map" data-craft-item-name="Eodonian Wall Map" data-craft-group="Maps and charts" data-craft-skill="Cartography" data-craft-min="65.0" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="50 Blank Maps + 1 Unabridged Atlas of Eodon" data-craft-exceptional="Separate quality roll" data-craft-base="0">
-          <span data-craft-sim-index-name>Eodonian Wall Map</span>
-          <span data-craft-sim-index-meta>Maps and charts · 65.0–105.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="mapas-e-cartas" data-craft-item-id="star-chart" data-craft-item-name="Star Chart" data-craft-group="Maps and charts" data-craft-skill="Cartography" data-craft-min="0.0" data-craft-max="60.0" data-craft-slider-max="105.0" data-craft-formula="points" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="1 Blank Map" data-craft-exceptional="Fixed chance; no Exceptional curve" data-craft-points="0:75|60:75" data-craft-interpolate="true">
-          <span data-craft-sim-index-name>Star Chart</span>
-          <span data-craft-sim-index-meta>Maps and charts · 0.0–60.0</span>
         </button>
       </div>
       <p class="dob-craft-simulator__empty" data-craft-sim-empty hidden>No recipe matches this search.</p>
@@ -84,7 +76,7 @@
         <div><span>Success chance</span><strong data-craft-sim-chance>—</strong></div>
         <div><span>Exceptional</span><strong data-craft-sim-exceptional>Separate quality roll</strong></div>
       </div>
-      <p id="dob-craft-cartography-help" class="dob-craft-simulator__help">Eodonian Wall Map requires its corresponding recipe. Star Chart should not be read as a linear curve: the catalog records a fixed 75% chance.</p>
+      <p id="dob-craft-cartography-help" class="dob-craft-simulator__help">Recipe-gated crafts and Star Chart no longer appear in the current menu.</p>
       <p id="dob-craft-cartography-note" class="dob-craft-simulator__note" data-craft-sim-note>Choose a recipe to query its published curve.</p>
     </div>
   </div>

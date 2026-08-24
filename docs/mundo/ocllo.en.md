@@ -14,5 +14,5 @@ Ocllo no longer applies the former conflict, stealing, damage, or harmful pet an
 
 See [Cities and guards](cidades-guards.md) for confirmed exceptions and [Death and recovery](../primeiros-passos/morte-recuperacao.md) for return flows.
 
-!!! success "Status: Beta 0.34.0"
+!!! success "Status: Beta 0.37.0"
     Ocllo is an unguarded Felucca city without the former Safe Haven protection.

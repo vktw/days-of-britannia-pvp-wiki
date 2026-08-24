@@ -14,7 +14,7 @@ Somente os núcleos urbanos clássicos de Britain e Moonglow permanecem protegid
 
 ## Faixa agrícola de Britain em Felucca
 
-No Beta 0.34.0, a faixa agrícola de Britain em Felucca entre **X=1130..1261**
+No Beta 0.37.0, a faixa agrícola de Britain em Felucca entre **X=1130..1261**
 e **Y=1542..1732** não recebe proteção de guards. O campo
 `A Turnip Field in Britain 2` está dentro dessa correção; o campo equivalente em
 Trammel permanece inalterado, assim como o spawn de turnips.
@@ -50,5 +50,5 @@ retângulo, consulte a indicação de região antes de presumir proteção.
 
 Consulte [Arena e treinamento](../arena.md) para regras de entrada, interferência externa e devolução dos personagens.
 
-!!! success "Status: Beta 0.34.0"
+!!! success "Status: Beta 0.37.0"
     Esta página registra somente exceções confirmadas. A ausência de uma cidade na lista não significa que ela seja desprotegida.

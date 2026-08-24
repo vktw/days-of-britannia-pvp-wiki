@@ -17,7 +17,7 @@ theme:
   palette:
     scheme: dob
 extra:
-  dob_version: "Beta 0.34.0"
+  dob_version: "Beta 0.37.0"
 extra_css:
   - stylesheets/extra.css?v=20260821.14
 extra_javascript:
@@ -75,6 +75,9 @@ plugins:
             Achievements: Achievements
             Maestria PvM: PvM Mastery
             Caça PvM: PvM hunting
+            Tomes of Expertise: Tomes of Expertise
+            Player Vendors: Player Vendors
+            Royal Banking Charter: Royal Banking Charter
             Daily Dungeon: Daily Dungeon
             Comandos: Commands
             Atualizações: Updates
@@ -119,6 +122,9 @@ nav:
       - Achievements: sistemas/achievements.md
       - Maestria PvM: sistemas/pvm-mastery.md
       - Caça PvM: sistemas/caca-pvm.md
+      - Tomes of Expertise: sistemas/tomes-expertise.md
+      - Player Vendors: sistemas/player-vendors.md
+      - Royal Banking Charter: sistemas/royal-banking-charter.md
       - Daily Dungeon: sistemas/daily-dungeon.md
       - Arena e treinamento: arena.md
       - Recompensas PvM: itens/recompensas-pvm.md

@@ -4,17 +4,17 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Skill menu</span>
     <h3 id="dob-craft-carpentry-title">Carpentry</h3>
-    <p>Beta 0.34.0 · Carpentry uses Carpentry as its base skill and covers wooden pieces, weapons, furniture, and special recipes. Masonry is a separate menu, but the server uses Carpentry as its base skill; the relationship is explained on Masonry .</p>
+    <p>Beta 0.37.0 · Carpentry uses Carpentry as its base skill and covers wooden pieces, weapons, furniture, and special recipes. Masonry is a separate menu, but the server uses Carpentry as its base skill; the relationship is explained on Masonry .</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Main menu</span>
     <h4>Choose a category</h4>
     <div class="dob-craft-simulator__menu">
       <button type="button" data-craft-sim-open-section="receitas-de-referencia" data-craft-sim-section-title="Reference recipes">
-        <span><strong>Reference recipes</strong><small>6 recipes in this menu</small></span><b>6 recipes&nbsp; →</b>
+        <span><strong>Reference recipes</strong><small>1 recipe in this menu</small></span><b>1 recipe&nbsp; →</b>
       </button>
       <button type="button" data-craft-sim-open-section="all" data-craft-sim-section-title="Full index">
-        <span><strong>Search recipes</strong><small>Search the entire Carpentry menu</small></span><b>6 recipes&nbsp; →</b>
+        <span><strong>Search recipes</strong><small>Search the entire Carpentry menu</small></span><b>1 recipe&nbsp; →</b>
       </button>
     </div>
   </div>
@@ -27,31 +27,11 @@
       <label class="dob-craft-simulator__search" for="dob-craft-carpentry-search">Search the index
         <input id="dob-craft-carpentry-search" type="search" data-craft-sim-search aria-controls="dob-craft-carpentry-index" placeholder="Name, group, or material">
       </label>
-      <p class="dob-craft-simulator__count" data-craft-sim-count aria-live="polite">6 recipes</p>
+      <p class="dob-craft-simulator__count" data-craft-sim-count aria-live="polite">1 recipe</p>
       <div id="dob-craft-carpentry-index" class="dob-craft-simulator__list" data-craft-sim-index role="listbox" aria-label="Carpentry recipes">
         <button type="button" role="option" data-craft-sim-item data-craft-sim-section="receitas-de-referencia" data-craft-item-id="wild-staff" data-craft-item-name="Wild Staff" data-craft-group="Reference recipes" data-craft-skill="Carpentry" data-craft-min="63.8" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="16 Boards" data-craft-exceptional="Separate quality roll" data-craft-base="50">
           <span data-craft-sim-index-name>Wild Staff</span>
           <span data-craft-sim-index-meta>Reference recipes · 63.8–105.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="receitas-de-referencia" data-craft-item-id="phantom-staff" data-craft-item-name="Phantom Staff" data-craft-group="Reference recipes" data-craft-skill="Carpentry" data-craft-min="90.0" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="16 Boards + 1 Diseased Bark + 10 Putrefaction + 10 Taint" data-craft-exceptional="This recipe has no Exceptional" data-craft-base="50">
-          <span data-craft-sim-index-name>Phantom Staff</span>
-          <span data-craft-sim-index-meta>Reference recipes · 90.0–105.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="receitas-de-referencia" data-craft-item-id="arcanist-s-wild-staff" data-craft-item-name="Arcanist's Wild Staff" data-craft-group="Reference recipes" data-craft-skill="Carpentry" data-craft-min="63.8" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="16 Boards + 1 White Pearl" data-craft-exceptional="Separate quality roll" data-craft-base="50">
-          <span data-craft-sim-index-name>Arcanist's Wild Staff</span>
-          <span data-craft-sim-index-meta>Reference recipes · 63.8–105.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="receitas-de-referencia" data-craft-item-id="ironwood-crown" data-craft-item-name="Ironwood Crown" data-craft-group="Reference recipes" data-craft-skill="Carpentry" data-craft-min="85.0" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="10 Boards + 1 Diseased Bark + 10 Corruption + 10 Putrefaction" data-craft-exceptional="This recipe has no Exceptional" data-craft-base="50">
-          <span data-craft-sim-index-name>Ironwood Crown</span>
-          <span data-craft-sim-index-meta>Reference recipes · 85.0–105.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="receitas-de-referencia" data-craft-item-id="bramble-coat" data-craft-item-name="Bramble Coat" data-craft-group="Reference recipes" data-craft-skill="Carpentry" data-craft-min="85.0" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="10 Boards + 1 Diseased Bark + 10 Taint + 10 Scourge" data-craft-exceptional="This recipe has no Exceptional" data-craft-base="50">
-          <span data-craft-sim-index-name>Bramble Coat</span>
-          <span data-craft-sim-index-meta>Reference recipes · 85.0–105.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="receitas-de-referencia" data-craft-item-id="kotl-black-rod" data-craft-item-name="Kotl Black Rod" data-craft-group="Reference recipes" data-craft-skill="Carpentry" data-craft-min="100.0" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="20 Boards + 1 Blackrock Moonstone + 1 Staff of the Magi" data-craft-exceptional="Not published in this preview" data-craft-base="50">
-          <span data-craft-sim-index-name>Kotl Black Rod</span>
-          <span data-craft-sim-index-meta>Reference recipes · 100.0–105.0</span>
         </button>
       </div>
       <p class="dob-craft-simulator__empty" data-craft-sim-empty hidden>No recipe matches this search.</p>
@@ -84,7 +64,7 @@
         <div><span>Success chance</span><strong data-craft-sim-chance>—</strong></div>
         <div><span>Exceptional</span><strong data-craft-sim-exceptional>Separate quality roll</strong></div>
       </div>
-      <p id="dob-craft-carpentry-help" class="dob-craft-simulator__help">Phantom Staff, Ironwood Crown, Bramble Coat, and Kotl Black Rod are fixed-result recipes and do not offer Exceptional in the catalog. The recipe requirement still applies when the skill is already in the correct range.</p>
+      <p id="dob-craft-carpentry-help" class="dob-craft-simulator__help">Wild Staff remains available in the current Carpentry menu.</p>
       <p id="dob-craft-carpentry-note" class="dob-craft-simulator__note" data-craft-sim-note>Choose a recipe to query its published curve.</p>
     </div>
   </div>

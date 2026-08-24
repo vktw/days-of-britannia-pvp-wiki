@@ -17,11 +17,10 @@ The main **Chain** pieces use these costs and native Blacksmithy ranges:
 | **Chain Coif** | 10 ingots | 14.5–64.5 |
 | **Chain Legs** | 18 ingots | 36.7–86.7 |
 | **Chain Chest** | 20 ingots | 39.1–89.1 |
-| **Chain Hatsuburi** | 20 ingots | 30.0–80.0 |
 
 These remain classic armor pieces; they are not part of Blacksmithy's thematic **DoB Weapons** lines.
 
-## Armor Rating in Beta 0.34.0
+## Armor Rating in Beta 0.37.0
 
 Armor and shields display **Armor Rating: N**. For recipe-backed pieces, the
 value considers ingot cost, material bonus, and protection tier. On direct hits
@@ -61,5 +60,5 @@ not migrated.
 
 See [Armor and Parrying](../combate/armor-parrying.md).
 
-!!! success "Status: Beta 0.34.0"
+!!! success "Status: Beta 0.37.0"
     Direct-hit resolution uses global Armor Rating from equipped pieces.

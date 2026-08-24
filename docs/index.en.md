@@ -88,32 +88,32 @@ hide:
 <section class="dob-atlas-content" aria-label="Main content">
 <article class="dob-atlas-feature">
 <p class="dob-atlas-kicker">LATEST UPDATE</p>
-<h2>0.34.0 · PvM progression and new Masteries</h2>
-<p class="dob-atlas-feature__date"><time datetime="2026-08-18">August 18, 2026</time></p>
-<p>The server received new Achievement rewards, four melee Masteries, a larger Daily Dungeon bonus, and magical Threat adjustments.</p>
+<h2>0.37.0 · Player Vendors in Nujelm</h2>
+<p class="dob-atlas-feature__date"><time datetime="2026-08-21">August 21, 2026</time></p>
+<p>Nujelm received a protected public market, new banking options, and updates to skill progression, crafting, and Hunter Contracts.</p>
 <a href="patches/">READ PATCH NOTES <span aria-hidden="true">→</span></a>
 </article>
 
 <div class="dob-atlas-index">
 <p class="dob-atlas-kicker">LATEST UPDATED ARTICLES</p>
+<a href="sistemas/player-vendors/">
+<span class="dob-atlas-index__code">AUG 24</span>
+<span><strong>Player Vendors</strong><small>Nujelm's protected public market</small></span>
+<i aria-hidden="true">→</i>
+</a>
+<a href="sistemas/royal-banking-charter/">
+<span class="dob-atlas-index__code">AUG 24</span>
+<span><strong>Royal Banking Charter</strong><small>Permanent character bank expansion</small></span>
+<i aria-hidden="true">→</i>
+</a>
+<a href="sistemas/tomes-expertise/">
+<span class="dob-atlas-index__code">AUG 24</span>
+<span><strong>Tomes of Expertise</strong><small>Permanent skill progress from PvM loot</small></span>
+<i aria-hidden="true">→</i>
+</a>
 <a href="sistemas/pvm-mastery/">
-<span class="dob-atlas-index__code">AUG 21</span>
-<span><strong>PvM Mastery</strong><small>Four new melee Masteries and progression</small></span>
-<i aria-hidden="true">→</i>
-</a>
-<a href="sistemas/achievements/">
-<span class="dob-atlas-index__code">AUG 21</span>
-<span><strong>Achievements</strong><small>Rewards after the initial catalogue</small></span>
-<i aria-hidden="true">→</i>
-</a>
-<a href="sistemas/daily-dungeon/">
-<span class="dob-atlas-index__code">AUG 21</span>
-<span><strong>Daily Dungeon</strong><small>100% extra PvM Mastery XP</small></span>
-<i aria-hidden="true">→</i>
-</a>
-<a href="itens/consumiveis/">
-<span class="dob-atlas-index__code">AUG 21</span>
-<span><strong>Consumables</strong><small>Dragon Blood and true-dragon carving</small></span>
+<span class="dob-atlas-index__code">AUG 24</span>
+<span><strong>PvM Mastery</strong><small>20 levels and up to 95 progression points</small></span>
 <i aria-hidden="true">→</i>
 </a>
 </div>

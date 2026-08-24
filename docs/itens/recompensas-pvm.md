@@ -15,6 +15,17 @@ Um Loot Pack personalizado entrega um item de uma destas categorias:
 
 Criaturas mais resistentes oferecem mais oportunidades de Loot Pack. A seleção continua aleatória, e nem toda morte produz um pack ou Scroll of Knowledge.
 
+Animais, criaturas atuais ou anteriormente domadas e summons não concedem gold,
+XP ou loot de morte gerado pelo sistema.
+
+## Tomes of Expertise
+
+Criaturas PvM elegíveis, exceto animais, têm **7,5% de chance** de deixar um
+Tome of Expertise. O item concede progresso permanente a uma das 49 skills;
+ganhos altos são raros, e as famílias Craft e Harvesting concedem no máximo
+1.0. Consulte [Tomes of Expertise](../sistemas/tomes-expertise.md) para uso e
+limites.
+
 ## Eyes of Newt
 
 NPCs com **Magery acima de 50,0** podem carregar de 1 até `Magery/10` Eyes of
@@ -30,9 +41,9 @@ Earrings, bracelets e rings mágicos podem aumentar STR, DEX ou INT enquanto est
 
 Golpes físicos podem desgastar uma das joias de atributos equipadas. Elas podem ser reparadas pelo fluxo normal de **Tinkering**, sujeito ao desgaste próprio de reparos repetidos.
 
-## Joias da Arena e bônus de Maestria no Beta 0.34.0
+## Joias da Arena e bônus de Maestria no Beta 0.37.0
 
-Na categoria **DoB Jewelry** de Tinkering, o Beta 0.34.0 inclui somente três peças com os bônus fixos das joias da Arena:
+Na categoria **DoB Jewelry** de Tinkering, o Beta 0.37.0 inclui somente três peças com os bônus fixos das joias da Arena:
 
 - **Magic Earrings:** +5 INT.
 - **Magic Ring:** +5 STR.
@@ -54,5 +65,5 @@ normais de participação, proximidade e direito ao loot continuam valendo.
 
 Veja também [Maestria PvM](../sistemas/pvm-mastery.md) e [Threat Rating](../mundo/threat-rating.md).
 
-!!! success "Status: Beta 0.34.0"
+!!! success "Status: Beta 0.37.0"
     Criaturas elegíveis recompensam o grupo conforme a escala do encontro.

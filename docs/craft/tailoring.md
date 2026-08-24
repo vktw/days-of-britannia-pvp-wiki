@@ -4,17 +4,17 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Menu da skill</span>
     <h3 id="dob-craft-tailoring-title">Tailoring</h3>
-    <p>Beta 0.34.0 · Tailoring usa Tailoring como skill-base para roupas, couro, quivers e belts. Algumas receitas especiais forçam um resultado sem Exceptional ou começam com uma chance de sucesso diferente da base do sistema.</p>
+    <p>Beta 0.37.0 · Tailoring usa Tailoring como skill-base para roupas, couro, quivers e belts. Algumas receitas especiais forçam um resultado sem Exceptional ou começam com uma chance de sucesso diferente da base do sistema.</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Menu principal</span>
     <h4>Escolha uma categoria</h4>
     <div class="dob-craft-simulator__menu">
-      <button type="button" data-craft-sim-open-section="couro-quivers-e-belts" data-craft-sim-section-title="Couro, quivers e belts">
-        <span><strong>Couro, quivers e belts</strong><small>8 receitas deste menu</small></span><b>8 receitas&nbsp; →</b>
+      <button type="button" data-craft-sim-open-section="roupas-e-couro" data-craft-sim-section-title="Roupas e couro">
+        <span><strong>Roupas e couro</strong><small>4 receitas deste menu</small></span><b>4 receitas&nbsp; →</b>
       </button>
       <button type="button" data-craft-sim-open-section="all" data-craft-sim-section-title="Índice completo">
-        <span><strong>Buscar receita</strong><small>Pesquisar em todo o menu de Tailoring</small></span><b>8 receitas&nbsp; →</b>
+        <span><strong>Buscar receita</strong><small>Pesquisar em todo o menu de Tailoring</small></span><b>4 receitas&nbsp; →</b>
       </button>
     </div>
   </div>
@@ -27,40 +27,12 @@
       <label class="dob-craft-simulator__search" for="dob-craft-tailoring-search">Buscar no índice
         <input id="dob-craft-tailoring-search" type="search" data-craft-sim-search aria-controls="dob-craft-tailoring-index" placeholder="Nome, grupo ou material">
       </label>
-      <p class="dob-craft-simulator__count" data-craft-sim-count aria-live="polite">8 receitas</p>
+      <p class="dob-craft-simulator__count" data-craft-sim-count aria-live="polite">4 receitas</p>
       <div id="dob-craft-tailoring-index" class="dob-craft-simulator__list" data-craft-sim-index role="listbox" aria-label="Tailoring recipes">
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="couro-quivers-e-belts" data-craft-item-id="elven-quiver" data-craft-item-name="Elven Quiver" data-craft-group="Couro, quivers e belts" data-craft-skill="Tailoring" data-craft-min="65.0" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="28 Leather" data-craft-exceptional="Rolagem de qualidade separada" data-craft-base="50">
-          <span data-craft-sim-index-name>Elven Quiver</span>
-          <span data-craft-sim-index-meta>Couro, quivers e belts · 65.0–105.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="couro-quivers-e-belts" data-craft-item-id="quiver-of-fire" data-craft-item-name="Quiver of Fire" data-craft-group="Couro, quivers e belts" data-craft-skill="Tailoring" data-craft-min="65.0" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="28 Leather + 15 Fire Ruby" data-craft-exceptional="Rolagem de qualidade separada" data-craft-base="50">
-          <span data-craft-sim-index-name>Quiver of Fire</span>
-          <span data-craft-sim-index-meta>Couro, quivers e belts · 65.0–105.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="couro-quivers-e-belts" data-craft-item-id="quiver-of-ice" data-craft-item-name="Quiver of Ice" data-craft-group="Couro, quivers e belts" data-craft-skill="Tailoring" data-craft-min="65.0" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="28 Leather + 15 White Pearl" data-craft-exceptional="Não publicado na prévia" data-craft-base="50">
-          <span data-craft-sim-index-name>Quiver of Ice</span>
-          <span data-craft-sim-index-meta>Couro, quivers e belts · 65.0–105.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="couro-quivers-e-belts" data-craft-item-id="quiver-of-blight" data-craft-item-name="Quiver of Blight" data-craft-group="Couro, quivers e belts" data-craft-skill="Tailoring" data-craft-min="65.0" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="28 Leather + 10 Blight" data-craft-exceptional="Não publicado na prévia" data-craft-base="50">
-          <span data-craft-sim-index-name>Quiver of Blight</span>
-          <span data-craft-sim-index-meta>Couro, quivers e belts · 65.0–105.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="couro-quivers-e-belts" data-craft-item-id="spell-woven-britches" data-craft-item-name="Spell-Woven Britches" data-craft-group="Couro, quivers e belts" data-craft-skill="Tailoring" data-craft-min="92.5" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="15 Leather + 1 Eye of the Travesty + 10 Putrefaction + 10 Scourge" data-craft-exceptional="Receita sem Exceptional" data-craft-base="50">
-          <span data-craft-sim-index-name>Spell-Woven Britches</span>
-          <span data-craft-sim-index-meta>Couro, quivers e belts · 92.5–105.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="couro-quivers-e-belts" data-craft-item-id="song-woven-mantle" data-craft-item-name="Song-Woven Mantle" data-craft-group="Couro, quivers e belts" data-craft-skill="Tailoring" data-craft-min="92.5" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="15 Leather + 1 Eye of the Travesty + 10 Blight + 10 Muculent" data-craft-exceptional="Não publicado na prévia" data-craft-base="50">
-          <span data-craft-sim-index-name>Song-Woven Mantle</span>
-          <span data-craft-sim-index-meta>Couro, quivers e belts · 92.5–105.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="couro-quivers-e-belts" data-craft-item-id="stitcher-s-mittens" data-craft-item-name="Stitcher's Mittens" data-craft-group="Couro, quivers e belts" data-craft-skill="Tailoring" data-craft-min="92.5" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="15 Leather + 1 Captured Essence + 10 Corruption + 10 Taint" data-craft-exceptional="Não publicado na prévia" data-craft-base="50">
-          <span data-craft-sim-index-name>Stitcher's Mittens</span>
-          <span data-craft-sim-index-meta>Couro, quivers e belts · 92.5–105.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="couro-quivers-e-belts" data-craft-item-id="mace-belt-sword-belt-ou-dagger-belt" data-craft-item-name="Mace Belt, Sword Belt ou Dagger Belt" data-craft-group="Couro, quivers e belts" data-craft-skill="Tailoring" data-craft-min="90.0" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="5 Cloth + 5 Leather + 5 Lodestone" data-craft-exceptional="Receita com Exceptional forçado" data-craft-base="5">
-          <span data-craft-sim-index-name>Mace Belt, Sword Belt ou Dagger Belt</span>
-          <span data-craft-sim-index-meta>Couro, quivers e belts · 90.0–105.0</span>
-        </button>
+        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="roupas-e-couro" data-craft-item-id="bandana" data-craft-item-name="Bandana" data-craft-group="Roupas e couro" data-craft-skill="Tailoring" data-craft-min="0.0" data-craft-max="25.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="2 Cloth" data-craft-exceptional="Rolagem separada" data-craft-base="0"><span data-craft-sim-index-name>Bandana</span><span data-craft-sim-index-meta>Roupas e couro · 0.0–25.0</span></button>
+        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="roupas-e-couro" data-craft-item-id="shirt" data-craft-item-name="Shirt" data-craft-group="Roupas e couro" data-craft-skill="Tailoring" data-craft-min="20.7" data-craft-max="45.7" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="8 Cloth" data-craft-exceptional="Rolagem separada" data-craft-base="0"><span data-craft-sim-index-name>Shirt</span><span data-craft-sim-index-meta>Roupas e couro · 20.7–45.7</span></button>
+        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="roupas-e-couro" data-craft-item-id="cloak" data-craft-item-name="Cloak" data-craft-group="Roupas e couro" data-craft-skill="Tailoring" data-craft-min="41.4" data-craft-max="66.4" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="14 Cloth" data-craft-exceptional="Rolagem separada" data-craft-base="0"><span data-craft-sim-index-name>Cloak</span><span data-craft-sim-index-meta>Roupas e couro · 41.4–66.4</span></button>
+        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="roupas-e-couro" data-craft-item-id="leather-chest" data-craft-item-name="Leather Chest" data-craft-group="Roupas e couro" data-craft-skill="Tailoring" data-craft-min="70.5" data-craft-max="95.5" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="12 Leather" data-craft-exceptional="Rolagem separada" data-craft-base="0"><span data-craft-sim-index-name>Leather Chest</span><span data-craft-sim-index-meta>Roupas e couro · 70.5–95.5</span></button>
       </div>
       <p class="dob-craft-simulator__empty" data-craft-sim-empty hidden>Nenhuma receita corresponde à busca.</p>
     </div>
@@ -69,10 +41,10 @@
       <div class="dob-craft-simulator__selected">
         <div>
           <span class="dob-craft-simulator__label">Receita selecionada</span>
-          <h4 data-craft-sim-selected-name>Elven Quiver</h4>
-          <p data-craft-sim-selected-group>Couro, quivers e belts</p>
+          <h4 data-craft-sim-selected-name>Bandana</h4>
+          <p data-craft-sim-selected-group>Roupas e couro</p>
         </div>
-        <strong data-craft-sim-selected-range>65.0–115.0 Tailoring</strong>
+        <strong data-craft-sim-selected-range>0.0–25.0 Tailoring</strong>
       </div>
       <div class="dob-craft-simulator__fields">
         <div class="dob-craft-simulator__material-field">
@@ -84,7 +56,7 @@
           <span class="dob-craft-simulator__range-line"><input id="dob-craft-tailoring-skill" type="range" min="0" max="105" step="0.1" value="100.0" data-craft-sim-skill aria-describedby="dob-craft-tailoring-help dob-craft-tailoring-note"><output for="dob-craft-tailoring-skill" data-craft-sim-skill-value>100.0</output></span>
         </label>
       </div>
-      <div class="dob-craft-simulator__ingredients"><span>Materiais necessários</span><strong data-craft-sim-ingredients>28 Leather</strong></div>
+      <div class="dob-craft-simulator__ingredients"><span>Materiais necessários</span><strong data-craft-sim-ingredients>2 Cloth</strong></div>
       <div class="dob-craft-simulator__result" data-craft-sim-result role="status" aria-live="polite">
         <div><span>Skill usada</span><strong data-craft-sim-skill-name>Tailoring</strong></div>
         <div><span>Skill mínima da receita</span><strong data-craft-sim-recipe-min>65.0</strong></div>

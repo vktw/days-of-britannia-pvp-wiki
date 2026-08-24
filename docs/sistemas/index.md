@@ -39,5 +39,11 @@ Reflection.
 Pets controlados e summons de jogadores não podem atacar ou causar dano a outros
 jogadores, mas continuam utilizáveis normalmente em PvM.
 
-!!! success "Status: Beta 0.34.0"
+## Novos sistemas do Beta 0.37.0
+
+- [Tomes of Expertise](tomes-expertise.md): progresso permanente de skills encontrado no loot PvM.
+- [Player Vendors](player-vendors.md): mercado público protegido de Nujelm.
+- [Royal Banking Charter](royal-banking-charter.md): expansão permanente do banco do personagem.
+
+!!! success "Status: Beta 0.37.0"
     A disponibilidade abaixo corresponde ao ruleset oficial.

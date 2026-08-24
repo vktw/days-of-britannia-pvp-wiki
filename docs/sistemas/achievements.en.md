@@ -61,5 +61,5 @@ PvP Trainer ranking or Arena rules.
 
 See also [PvM Mastery](pvm-mastery.md) for XP, Slayer families, and builds.
 
-!!! success "Status: Beta 0.34.0"
+!!! success "Status: Beta 0.37.0"
     The Achievements system is available on the official server.

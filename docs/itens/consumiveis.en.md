@@ -39,7 +39,11 @@ Treatment is captured when the bandage is used: poison present at the start is
 treated immediately; without poison at the start, life healing keeps its choice
 during the delay even if poison appears afterward.
 
-When a clean bandage is used successfully, it becomes a **Bloody Bandage** with the same weight. If you are overloaded, the result drops to the ground instead of increasing carried weight. One water unit at a water source washes the entire stack and sends the clean bandages to the backpack.
+When treatment succeeds, there is a **70% chance** for the clean bandage to
+become a **Bloody Bandage** with the same weight; failures create no bloody
+bandage. If you are overloaded, the result drops to the ground. Adjacent,
+safely reachable natural water washes the whole stack. Clean and bloody
+bandages from the starter kit are ordinary, stackable, and transferable.
 
 ## Fishing Pole
 
@@ -51,7 +55,7 @@ use.
 Provisioners sell basic Hatchet, Pickaxe, Shovel, and Fishing Pole tools. Tinkers
 sell Hatchet, Pickaxe, and Shovel, while Carpenters sell Fishing Pole.
 
-## DoB Tools in Beta 0.34.0
+## DoB Tools in Beta 0.37.0
 
 Tinkering organizes special tools under the **DoB Tools** submenu. Each family uses a public metal, has its own Tinkering requirement, and appears only for compatible tools.
 
@@ -72,4 +76,4 @@ New characters receive a complete Spellbook, an empty Runebook and a shrunken ho
 
 See [Healing and resources](../combate/cura-recursos.md) for all values and delays.
 
-!!! success "Status: Beta 0.34.0"
+!!! success "Status: Beta 0.37.0"
