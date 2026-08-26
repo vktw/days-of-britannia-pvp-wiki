@@ -35,6 +35,17 @@ steps from top to bottom, then use the references at the end to continue.
     </span>
     <svg class="dob-launcher-download__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
   </a>
+  <a class="dob-launcher-download dob-launcher-download--secondary" href="https://downloads.dobshard.com/launcher/native/macos/releases/0.1.0-preview.1/DoBLauncher-macOS-arm64.zip">
+    <span class="dob-launcher-download__icon" aria-hidden="true">
+      <svg class="dob-launcher-apple" viewBox="0 0 24 24"><path d="M15.2 5.1c.8-1 1.3-2.2 1.2-3.1-1.2.1-2.5.8-3.3 1.7-.7.8-1.3 2-1.2 3 1.2.1 2.4-.6 3.3-1.6ZM19.3 13.8c0-2.8 2.3-4.1 2.4-4.2-1.3-1.9-3.4-2.2-4.1-2.2-1.8-.2-3.4 1-4.3 1s-2.2-1-3.7-1C7.7 7.4 6 8.5 5 10.2c-2.1 3.6-.5 9 1.5 11.8 1 1.4 2.1 3 3.7 2.9 1.5-.1 2.1-1 3.9-1s2.3 1 3.9 1c1.6 0 2.6-1.4 3.6-2.9 1.1-1.6 1.6-3.2 1.6-3.3-.1 0-3.9-1.5-3.9-4.9Z" transform="translate(-2 -1) scale(1.08)"/></svg>
+    </span>
+    <span class="dob-launcher-download__copy">
+      <small>Preview version</small>
+      <strong>Download for macOS</strong>
+      <span>Apple Silicon + CrossOver</span>
+    </span>
+    <svg class="dob-launcher-download__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+  </a>
 </div>
 
 Access to the server must be done through the **official DoB Launcher**. Download the
@@ -43,6 +54,25 @@ package for your system, open the launcher, and follow the instructions presente
 On Linux, the launcher requires **CrossOver or Wine**. This preview version was
 tested only with **CrossOver**; Wine compatibility has not yet been validated by
 the team.
+
+### Installing on macOS
+
+!!! info "Preview for Apple Silicon"
+    This version requires a Mac with **Apple Silicon** (M1, M2, M3, M4, or
+    later), **CrossOver** installed, and an internet connection. There is no
+    package for Intel-based Macs.
+
+After downloading the `.zip` file:
+
+1. Extract the package and drag **Days of Britannia** to the **Applications**
+   folder.
+2. Try to open the application.
+3. If macOS blocks it, open **System Settings → Privacy & Security**.
+4. Scroll to **Security** and click **Open Anyway**.
+5. Confirm your password and click **Open**.
+
+This confirmation is required only on the first launch. After that, open the
+launcher normally from the **Applications** folder.
 
 There is no need to manually configure a client or enter connection details.
 To avoid incompatible files, keep the launcher updated and always use the

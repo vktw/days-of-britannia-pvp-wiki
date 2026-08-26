@@ -1898,7 +1898,7 @@ body:has(.dob-home) .md-main {
 /* Platform downloads on Getting started */
 .dob-launcher-downloads {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.8rem;
   margin: 1rem 0 1.25rem;
 }
@@ -1977,6 +1977,11 @@ body:has(.dob-home) .md-main {
   width: 1.45rem;
   height: 1.45rem;
   overflow: visible;
+}
+
+.dob-launcher-download__icon .dob-launcher-apple {
+  width: 1.4rem;
+  height: 1.4rem;
 }
 
 .dob-launcher-penguin > path:not(.dob-launcher-penguin__beak) {
@@ -2505,6 +2510,10 @@ body:has(.dob-home) .md-main {
 /* Tablet and mobile */
 
 @media screen and (max-width: 76.234375em) {
+  .dob-launcher-downloads {
+    grid-template-columns: 1fr;
+  }
+
   .dob-atlas-desktop {
     display: none;
   }
@@ -2829,10 +2838,6 @@ body:has(.dob-home) .md-main {
 
   .dob-atlas-mark {
     display: none;
-  }
-
-  .dob-launcher-downloads {
-    grid-template-columns: 1fr;
   }
 
   .md-typeset .dob-atlas-hero h1 {

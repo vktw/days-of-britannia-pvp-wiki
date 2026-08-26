@@ -35,6 +35,17 @@ depois, use as referências no fim da página para continuar.
     </span>
     <svg class="dob-launcher-download__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
   </a>
+  <a class="dob-launcher-download dob-launcher-download--secondary" href="https://downloads.dobshard.com/launcher/native/macos/releases/0.1.0-preview.1/DoBLauncher-macOS-arm64.zip">
+    <span class="dob-launcher-download__icon" aria-hidden="true">
+      <svg class="dob-launcher-apple" viewBox="0 0 24 24"><path d="M15.2 5.1c.8-1 1.3-2.2 1.2-3.1-1.2.1-2.5.8-3.3 1.7-.7.8-1.3 2-1.2 3 1.2.1 2.4-.6 3.3-1.6ZM19.3 13.8c0-2.8 2.3-4.1 2.4-4.2-1.3-1.9-3.4-2.2-4.1-2.2-1.8-.2-3.4 1-4.3 1s-2.2-1-3.7-1C7.7 7.4 6 8.5 5 10.2c-2.1 3.6-.5 9 1.5 11.8 1 1.4 2.1 3 3.7 2.9 1.5-.1 2.1-1 3.9-1s2.3 1 3.9 1c1.6 0 2.6-1.4 3.6-2.9 1.1-1.6 1.6-3.2 1.6-3.3-.1 0-3.9-1.5-3.9-4.9Z" transform="translate(-2 -1) scale(1.08)"/></svg>
+    </span>
+    <span class="dob-launcher-download__copy">
+      <small>Versão preview</small>
+      <strong>Baixar para macOS</strong>
+      <span>Apple Silicon + CrossOver</span>
+    </span>
+    <svg class="dob-launcher-download__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+  </a>
 </div>
 
 O acesso ao servidor deve ser feito pelo **DoB Launcher oficial**. Baixe o
@@ -44,6 +55,25 @@ apresentadas.
 No Linux, o launcher exige **CrossOver ou Wine**. Esta versão preview foi
 testada apenas com **CrossOver**; o funcionamento com Wine ainda não foi
 validado pela equipe.
+
+### Instalação no macOS
+
+!!! info "Preview para Apple Silicon"
+    Esta versão exige um Mac com processador **Apple Silicon** (M1, M2, M3, M4
+    ou posterior), **CrossOver** instalado e conexão com a internet. Não há
+    pacote para Macs com processador Intel.
+
+Depois de baixar o arquivo `.zip`:
+
+1. Extraia o pacote e arraste **Days of Britannia** para a pasta **Aplicativos**.
+2. Tente abrir o aplicativo.
+3. Se o macOS bloquear a abertura, acesse **Ajustes do Sistema → Privacidade e
+   Segurança**.
+4. Role até **Segurança** e clique em **Abrir Mesmo Assim**.
+5. Confirme sua senha e clique em **Abrir**.
+
+Essa confirmação é necessária apenas na primeira abertura. Depois disso, abra o
+launcher normalmente pela pasta **Aplicativos**.
 
 Não é necessário configurar manualmente um cliente ou informar dados de
 conexão. Para evitar arquivos incompatíveis, mantenha o launcher atualizado e
