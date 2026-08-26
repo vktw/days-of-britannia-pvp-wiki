@@ -12,10 +12,37 @@ steps from top to bottom, then use the references at the end to continue.
 
 ### Official launcher
 
-[Download DoB Launcher](https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe){ .md-button .md-button--primary }
+<div class="dob-launcher-downloads" role="group" aria-label="DoB Launcher downloads">
+  <a class="dob-launcher-download dob-launcher-download--primary" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
+    <span class="dob-launcher-download__icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M3 5.2 10.5 4v7H3V5.2Zm8.5-1.35L21 2.5V11h-9.5V3.85ZM3 12h7.5v7L3 17.8V12Zm8.5 0H21v8.5l-9.5-1.35V12Z"/></svg>
+    </span>
+    <span class="dob-launcher-download__copy">
+      <small>Official launcher</small>
+      <strong>Download for Windows</strong>
+      <span>.exe installer</span>
+    </span>
+    <svg class="dob-launcher-download__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+  </a>
+  <a class="dob-launcher-download dob-launcher-download--secondary" href="https://downloads.dobshard.com/launcher/native/linux/releases/0.1.0-preview.1/DoBLauncher-Linux-x64.tar.gz">
+    <span class="dob-launcher-download__icon" aria-hidden="true">
+      <svg class="dob-launcher-penguin" viewBox="0 0 24 24"><ellipse cx="12" cy="10.5" rx="5.2" ry="7.8"/><path d="M7.5 8.2C5.7 9.8 5 12 5.3 14.7l2.8-1.8m8.4-4.7c1.8 1.6 2.5 3.8 2.2 6.5l-2.8-1.8"/><ellipse class="dob-launcher-penguin__belly" cx="12" cy="12.7" rx="3.3" ry="4.8"/><circle class="dob-launcher-penguin__eye" cx="10.2" cy="8.4" r=".65"/><circle class="dob-launcher-penguin__eye" cx="13.8" cy="8.4" r=".65"/><path class="dob-launcher-penguin__beak" d="m10.5 9.6 1.5 1 1.5-1-1.5-.65-1.5.65Z"/><path d="M8.2 18.2 6.6 20h4.2L12 18.8l1.2 1.2h4.2l-1.6-1.8"/></svg>
+    </span>
+    <span class="dob-launcher-download__copy">
+      <small>Preview version</small>
+      <strong>Download for Linux</strong>
+      <span>CrossOver or Wine</span>
+    </span>
+    <svg class="dob-launcher-download__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+  </a>
+</div>
 
 Access to the server must be done through the **official DoB Launcher**. Download the
-executable using the button above, open the launcher and follow the instructions presented.
+package for your system, open the launcher, and follow the instructions presented.
+
+On Linux, the launcher requires **CrossOver or Wine**. This preview version was
+tested only with **CrossOver**; Wine compatibility has not yet been validated by
+the team.
 
 There is no need to manually configure a client or enter connection details.
 To avoid incompatible files, keep the launcher updated and always use the
