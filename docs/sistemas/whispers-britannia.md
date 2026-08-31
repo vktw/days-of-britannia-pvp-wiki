@@ -37,5 +37,5 @@ rumores.
 Consulte [Spawns raros](spawns-raros.md) para conhecer as criaturas e os eventos
 que podem ser encontrados durante a exploração.
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     Town Criers oferecem pistas públicas para descobrir eventos raros em Britannia.

@@ -4,7 +4,7 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Skill menu</span>
     <h3 id="dob-craft-inscription-title">Inscription</h3>
-    <p>Beta 0.37.0 · Inscription uses Inscribe as its base skill. Craft chance determines whether the book or scroll is produced; it does not change magic damage, Reactive Armor, Protection, or Magic Reflection.</p>
+    <p>0.40.0 · Inscription uses Inscribe as its base skill. Craft chance determines whether the book or scroll is produced; it does not change magic damage, Reactive Armor, Protection, or Magic Reflection.</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Main menu</span>

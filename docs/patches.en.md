@@ -2,6 +2,79 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.40.0 · The Red Verdict
+
+Odran rides in Wrong while menus, equipment, and interactions receive improvements.
+
+- Odran, the Red Verdict may emerge in Wrong's deepest corridors beside Seris and four daemonic witnesses. Defeating him releases a tamable Ruby Mustang protected from wild creatures for 60 seconds and awards The Condemned Heart, additional PvM rewards, and chances to find his Portuguese or English lore book and The Ruby Judgment scythe.
+- Odran now maintains an even faster pursuit, prioritizes summons for ordinary attacks, and marks the ground for one second before leaping with Sentence of Silence, repeating the Verdict every 20 to 25 seconds. He escapes Paralyze after five seconds by teleporting out of the field; dodging Sentence opens a three-second recovery and Broken Judgment reports each doubled hit. The witnesses may range farther and prioritize players, while Seris sustains the full group without using Magic Arrow.
+- The six eighth-circle Magery summoning spells now use a 2% to 98% success curve that reaches 75% at 100.0 Magery for spellbook casts; scrolls, NPCs, and other spells remain unchanged.
+- The new Unbroken Calling Mastery relatively increases the success chance of those summons and can also appear on new PvM jewelry.
+- Crafting and Animal Lore menus now correctly replace the previous window, preventing disconnections caused by invisible menu accumulation.
+- Each death reduces every equipped item's maximum durability by 1 to 3 points; deaths caused by another member of the same Party or guild do not apply this loss.
+- Clothing now has quality-based durability, wears without reducing incoming damage, and can be repaired through Tailoring.
+- Fire Field continues to damage every valid target without replacing the caster's selected combat target.
+- New PvM Loot Magic Earrings, Magic Bracelets, and Magic Rings now receive a PvM Mastery bonus between +1.00% and +7.50% in 0.25% increments.
+- Arcane Disruption now uses the full chance granted by its Mastery level and PvM jewelry without the former dedicated 12.5% cap; its attempt interval and target rules remain unchanged.
+- Paralyze cast by an eligible PvM creature ends when its caster dies or is removed, without clearing Paralyze Field, another caster's effect, or player effects.
+- Structural house floors no longer block same-storey interactions when they are below the line of sight; walls, doors, storeys, and access rules remain protected.
+- Ordinary players can no longer remain ghosts indefinitely: without a choice, they return after five minutes. PvP deaths allow only itemless return, while PvM keeps its existing recovery; newcomer protection remains unchanged.
+- Focused Hunter charges now remain active for 90 seconds; each compatible kill refreshes the shared duration of every charge.
+- Characters concealed through Hiding or Stealth are now revealed when selecting another skill's target or activating a skill without a target; cancelling the cursor does not reveal, and Snooping retains its own rule.
+- Naturally aggressive pets now disappear with all carried items when released; passive or reactive pets remain in the world normally.
+- Virtual hair, beards, and moustaches no longer appear as loot in player-corpse Grid Containers; real equipment and items remain unchanged.
+- Creatures marked as rewardless, including reinforcements called by monsters, no longer grant XP, loot, or PvM progress.
+
+## 0.39.0 · Passive stamina regeneration
+
+Passive stamina recovery for players and the PvP Trainer now follows a more deliberate pace.
+
+- Players and the PvP Trainer now passively recover 1 point every 5 seconds at the 100.0 Focus baseline with no additional regeneration; Focus and existing modifiers continue to adjust the interval.
+- Players can now use Recall even above their weight limit; all other Recall restrictions and other travel methods remain unchanged.
+- The Bag of Sending now works exclusively for Gold and rejects every other item type.
+- Wild Hell Hounds now award loot and XP through the centralized PvM system and count toward Abyss Hunts and Masteries; summoned, tamed, and formerly tamed ones remain rewardless.
+- Frenzied, Zostrich, and Forest Ostard statuettes now correctly display the pet's original color without changing the pet or other mounts.
+- Daemon Polymorph now temporarily grants 200 STR, 110 DEX, and 150 INT, prevents equipment and attacks against players, can be dispelled, and safely restores character resources when it ends.
+- Player Recall can now arrive on a tile occupied by another mobile; terrain, items, regions, multis and all other restrictions remain enforced.
+- Creatures no longer loot items from player or creature corpses.
+- The two bounded areas north of Minoc are now unguarded on Felucca and Trammel; the rest of the city and mine remains unchanged.
+- Authorized players inside private houses are now protected from external harmful actions and cannot attack across the house boundary; public houses remain unchanged.
+- Tinkering can now craft Metal Chests from 150 ingots under DoB Containers; the menu follows the selected metal and each chest correctly retains and identifies its material and color.
+- Tinkering can now craft Suit of Gold Armor and Suit of Silver Armor deeds from 200 ingots under DoB Deco; Iron keeps the original appearance while other metals apply their own color.
+- At the end of each Arena season, unique PvP Trainer, System Loot and Personal Loot champions receive decorative bank trophies named Days of Britannia Arena Trophy; everyone sees the results on first login, and remaining ties have no champion.
+- The Huntmaster Challenge has been disabled; existing permits, trophies, and rewards remain preserved.
+- NPC guilds have been disabled. Any player may use Stealing against other players without membership; Disguise Kits can no longer be used.
+- The first Help page now shows connected characters and the all-time record, including staff; .pvpcamp is no longer listed in that menu.
+- The Rare Zostrich Ostard can now spawn correctly when its initial point is unavailable.
+- The 'Help me, I'm stuck!' confirmation and countdown now display Portuguese accents correctly.
+
+## 0.38.0 · Nochyer and skill adjustments
+
+Nochyer awakens northeast of Yew while Gate Travel and Poisoning receive adjustments.
+
+- Gate Travel no longer suffers skill fizzle when the character has 100.0 Magery; interruptions, resources, and travel restrictions remain unchanged.
+- The Poisoning skill reuse delay has been reduced from 10 to 4 seconds; application still takes 2 seconds, keeps the same success chance, and preserves the average training pace.
+- Daggers, knives, and tools classified as utility items now deal 1 to 3 base damage, including equippable Blacksmithy hammers; the tooltip now shows that value correctly.
+- Tailoring SkillCheck no longer shows 0% when no gain roll was performed; in those cases, the message marks the chance as unavailable and explains why.
+- SkillCheck now silently ignores any skill that has already reached 100.0 base value; skill behavior and gains remain unchanged.
+- Stamina Damage from competitive Macing weapons now removes 80% of the hit's final damage instead of using the previous 1-to-1 ratio.
+- Casting a spell while hidden by Hiding or Stealth now reveals the character when the cast begins and shows the Words of Power; Invisibility Spell and Invisibility Potion keep their current behavior.
+- Alchemists outside guard protection now maintain a minimum stock of 160 Eyes of Newt and 160 Bat Wings.
+- Controlled pets can now be stored and restored with Shrink Potion, preserving the same pet without occupying follower slots.
+- Nochyer, the Darkness Beneath may emerge northeast of Yew after long intervals. Its Black Moon strikes a marked area; Night Sight reveals its weakness to light for 60 seconds, with a 15-second minimum activation cooldown and no stacking or refresh; and defeating it awards its Heart of the Black Moon, an exclusive dye, three Tomes of Expertise, one Scroll of Knowledge and one additional Loot Pack roll. Its exceptionally rare Heater Shield of Invulnerability takes the form of the Black Moon Aegis.
+- Nochyer now has a minimum of 2,400 hit points, guaranteeing a Legendary Threat classification on every spawn without changing its total 70% bonus.
+- A collectible book about Nochyer's origin may appear in its loot with a 10% chance. It uses the Necromancy book appearance, has no effects, and opens an elegant gump in the language selected through .options.
+- The Rare Zostrich Ostard has joined the rare mount events. Tamed rare mounts now free their slot for a new wild animal on the next cycle.
+- When a PK enters a city's guard protection, everyone receives an anonymous alert identifying the city. Each PK can trigger another alert after five minutes.
+- The server now displays a red warning when the client sends actions too quickly, allowing macros to be paused before a possible disconnection.
+- When a common or DoB tool wears out during crafting, the system automatically uses the next compatible tool in the backpack, including Make Last and automatic production. Runic and special tools remain excluded.
+- New Magic Amulets no longer grant a Wrestling bonus; existing amulets remain unchanged.
+- The PvM hunt XP bonus for creatures in the target group has increased from 50% to 75%; stacking, progress, and the kill that completes the contract remain unchanged.
+- Newly spawned Centaurs, Treefellows, Satyrs, and Rare Phoenixes now have red notoriety.
+- Ensorcelled Armor now belongs to the Abyss group; previously unclassified draconic variants now belong to the Reptilian and Dragon Slaying groups in combat, PvM hunts, and Scrolls of Knowledge.
+- Entering War Mode now interrupts active Tracking and reports that the quarry was lost.
+- Players no longer reveal hidden characters passively while moving: Detect Hidden remains available through manual activation. Positive physical hits now correctly remove Hiding, Stealth, and invisibility when striking creatures as well.
+
 ## 0.37.0 · Player Vendors in Nujelm
 
 - Employment contracts can place Player Vendors at one of 42 reserved wooden benches in Nujelm, limited to one per account and public IP.

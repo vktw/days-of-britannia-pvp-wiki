@@ -1,5 +1,5 @@
 ---
-description: Discover the Phoenix, Rare Events, Rare Rideable Llama, and Britannia's seasonal appearance.
+description: Discover the Phoenix, Rare Events, and Britannia's rare mounts.
 ---
 
 # Rare spawns
@@ -27,6 +27,27 @@ accessible area of pre-T2A Felucca wilderness. It appears with one of the
 available families and color variations and requires **90.0 Animal Taming** to
 tame. It is replaced when the mount is tamed or dies.
 
+## Nochyer, the Darkness Beneath
+
+Nochyer may emerge northeast of Yew after long intervals. Black Moon marks an
+area before striking, and the encounter holds an interaction for players to
+discover. Nochyer is always at least Legendary.
+
+Defeating him may grant Heart of the Black Moon, Black Moon Aegis, three Tomes
+of Expertise, one Scroll of Knowledge, an additional Loot Pack roll, and a lore
+book with a 10% drop chance.
+
+## Odran, the Red Verdict
+
+Odran may emerge in Wrong's deepest corridors with Seris and four daemonic
+witnesses. The ground is marked for one second before Sentence of Silence;
+Verdict repeats every 20 to 25 seconds. After five seconds in Paralyze, Odran
+teleports out of the field.
+
+Defeating him releases a tamable Ruby Mustang protected from wild creatures for
+60 seconds and may award The Condemned Heart, extra PvM rewards, his lore book,
+and The Ruby Judgment scythe.
+
 ## Fixed events
 
 The fixed events are separate from Rare Britannia: the **Rare Rideable Llama
@@ -37,10 +58,5 @@ remains part of exploration, without publishing coordinates.
 For the leads shared by Town Criers, see [Whispers of
 Britannia](whispers-britannia.md).
 
-## Seasonal visual
-
-Felucca receives the seasonal **Spring** appearance. This is a visual change and
-does not alter map geometry, resources, or collision.
-
-!!! success "Status: Beta 0.37.0"
-    Rare creatures and seasonal events offer discovery paths across Britannia.
+!!! success "Status: 0.40.0"
+    Rare creatures and events offer discovery paths across Britannia.

@@ -16,7 +16,7 @@ either one to review the available contract.
 
 - The contract presents a randomized hunting objective.
 - Progress follows eligible PvM kills from the group named by the contract.
-- While the contract is incomplete, target-group creatures grant **50%
+- While the contract is incomplete, target-group creatures grant **75%
   additional PvM Mastery XP**. This stacks with Young and Daily Dungeon and also
   applies to the kill that completes the objective.
 - After completing the objective, deliver the contract to either Hunter.
@@ -28,11 +28,19 @@ not create a parallel creature-loot table.
 Animals, currently or previously tamed creatures, and summons do not generate
 normal PvM rewards.
 
+Wild Hell Hounds count toward **Abyss** Hunts and Masteries and grant normal
+rewards. Summoned, tamed, and formerly tamed versions remain rewardless.
+Creatures explicitly marked as rewardless, including reinforcements summoned by
+monsters, grant no XP, loot, or PvM progress.
+
+Ensorcelled Armor belongs to **Abyss**. Eligible draconic variants count toward
+**Reptilian** and **Dragon Slaying**.
+
 ## Tips
 
 See [PvM Mastery](pvm-mastery.md) for progression and [PvM rewards](../itens/recompensas-pvm.md)
 for the Loot Pack. The introductory [Achievements](achievements.md) path
 remains the best starting point for new characters.
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     PvM hunting contracts match the behavior confirmed on the official server.

@@ -169,7 +169,7 @@ Britain is the starting location, but **Nujelm** is the server's Safe Haven. The
 defined region blocks player conflict, stealing, harmful actions by pets or
 summons, magical travel, Fields, and received damage.
 
-Use Felucca's public moongate network to travel to Nujelm. In Beta 0.37.0, no
+Use Felucca's public moongate network to travel to Nujelm. In 0.40.0, no
 character gains skills inside Safe Haven, including Newcomers.
 
 [Learn about Nujelm Safe Haven](../mundo/nujelm.md) before leaving for a hunt.
@@ -256,5 +256,5 @@ training fight.
 - [Systems and ruleset limits](../sistemas/index.md)
 - [Ultima Online Brasil: shards, servers, and community](ultima-online-brasil.md)
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     The information on this page corresponds to the official server.

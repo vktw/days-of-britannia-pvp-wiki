@@ -4,7 +4,7 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Menu da skill</span>
     <h3 id="dob-craft-masonry-title">Masonry</h3>
-    <p>Beta 0.37.0 · Masonry é uma categoria própria do menu, mas a fonte oficial define Carpentry como sua skill-base. Para acessar o menu, é necessário Carpentry 100.0 e o aprendizado de Masonry, além da ferramenta e dos materiais.</p>
+    <p>0.40.0 · Masonry é uma categoria própria do menu, mas a fonte oficial define Carpentry como sua skill-base. Para acessar o menu, é necessário Carpentry 100.0 e o aprendizado de Masonry, além da ferramenta e dos materiais.</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Menu principal</span>

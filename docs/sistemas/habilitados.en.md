@@ -32,5 +32,5 @@
 
 See specific pages for limits and exceptions. Presence on this list does not mean that the mechanics maintain TrueUO's default behavior.
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     Summary list of core mechanics available to players.

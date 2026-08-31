@@ -29,11 +29,15 @@ Abre as preferências de PvP para a barra colorida de cooldown de poções, que 
 
 Separa o sucesso do teste e o ganho de skill, explica tentativas que não treinam
 ou já estão saturadas e mostra o progresso protegido. Em crafts, também separa
-o check interno real do resultado final da receita.
+o check interno real do resultado final da receita. Skills com 100.0 de valor
+base são ignoradas; em Tailoring, ausência de uma rolagem de ganho é mostrada
+como chance não aplicável, não como 0%.
 
 ## `.help`
 
-Abre a ajuda do DoB com descrições curtas dos comandos e acesso direto às ações disponíveis.
+Abre a ajuda do DoB com descrições curtas dos comandos e acesso direto às ações
+disponíveis. A primeira página também mostra personagens online e o recorde
+histórico, incluindo staff.
 
 ## `.store`
 
@@ -43,5 +47,5 @@ A Ultima Store está desativada. Não há compras, entregas ou uso de Sovereigns
 
 Mostra qual Daily Dungeon está selecionada e quanto tempo falta para a próxima rotação. Use o comando antes de sair para aproveitar os bônus de experiência de Maestria PvM e Loot Packs.
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     Os comandos abaixo estão disponíveis aos jogadores no servidor oficial.

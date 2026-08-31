@@ -42,5 +42,5 @@ Nujelm.
 Consulte [Nujelm Safe Haven](../mundo/nujelm.md) para as regras de proteção e
 [Royal Banking Charter](royal-banking-charter.md) para ampliar o banco.
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     O mercado público de Player Vendors está ativo em Nujelm.

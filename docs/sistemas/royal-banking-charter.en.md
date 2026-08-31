@@ -26,5 +26,5 @@ does not need to remain as an item in the backpack.
 The expansion is especially useful for maintaining [Player Vendor](player-vendors.md)
 stock or storing crafting materials.
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     Royal Banking Charter I is available from Bankers' context menus.

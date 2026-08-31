@@ -32,5 +32,5 @@
 
 Consulte as páginas específicas para limites e exceções. A presença nesta lista não significa que a mecânica mantenha o comportamento padrão do TrueUO.
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     Lista resumida das mecânicas centrais disponíveis aos jogadores.

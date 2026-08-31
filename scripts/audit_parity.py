@@ -47,7 +47,7 @@ def audit():
                 errors.append(f"empty link label: {page.relative_to(DOCS)} -> {target}")
 
     config = (ROOT / "mkdocs.yml").read_text(encoding="utf-8-sig")
-    if not re.search(r'^\s*dob_version:\s*["\'](?:Live|Alpha|Beta) \d+\.\d+\.\d+["\']\s*$', config, re.M):
+    if not re.search(r'^\s*dob_version:\s*["\'](?:(?:Live|Alpha|Beta) )?\d+\.\d+\.\d+["\']\s*$', config, re.M):
         errors.append("mkdocs version is missing or malformed")
     english_home = (DOCS / "index.en.md").read_text(encoding="utf-8-sig")
     for asset in ["hero-action-launcher.webp", "hero-action-discord.webp"]:

@@ -1,5 +1,5 @@
 ---
-status: proposed
+status: implemented-local
 scope: wiki-content-reconciliation
 target_version: 0.40.0
 publication_authorized: false
@@ -105,7 +105,11 @@ montarias se ela for criada; caso contrário, permanecem somente nos patchnotes.
 
 ## Restrições de publicação
 
-- Esta branch contém apenas o diagnóstico e este handoff.
+- A reconciliação aprovada foi implementada localmente nesta branch para revisão visual.
+- Por orientação do responsável, Personagem, Equipamentos, Viagem e áreas de
+  proteção de guards receberam somente correções de fatos já existentes, sem
+  ampliação de conteúdo.
+- A home foi atualizada com os quatro artigos modificados nesta reconciliação.
 - Não houve autorização para merge, push ou deploy.
 - Claims player-facing devem vir do catálogo oficial da tag `v0.40.0`; o arquivo
   detalhado `Docs/Patches/0.40.0.md` não deve ser copiado para a wiki porque

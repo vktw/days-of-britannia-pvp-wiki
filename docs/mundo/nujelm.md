@@ -12,7 +12,7 @@ Stuck e recuperação.
 - Qualquer início de spellcasting fica bloqueado dentro do Safe Haven fora da sobreposição governada pela Arena NuJelm.
 - Personagens e criaturas controladas não recebem dano dentro da região do Safe Haven.
 
-No Beta 0.37.0, essas regras valem dentro do Safe Haven. O bônus de experiência
+No 0.40.0, essas regras valem dentro do Safe Haven. O bônus de experiência
 e gold de Newcomer continua existindo em encontros elegíveis fora dessa
 restrição; ele não libera ganho de skill dentro do Safe Haven.
 
@@ -26,5 +26,5 @@ A [Arena NuJel'm](../arena.md) fica em Felucca e usa as mesmas regras de duelo e
 
 O Safe Haven também recebe o [mercado público de Player Vendors](../sistemas/player-vendors.md).
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     Nujelm é o Safe Haven oficial e o ponto central de retorno seguro em Felucca.

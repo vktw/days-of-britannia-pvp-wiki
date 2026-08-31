@@ -78,7 +78,7 @@ O Live adicionou cinco Maestrias que convertem parte de recursos defensivos ou o
 
 Essas cinco Maestrias escalam de 5% a 9,5% e preservam as exclusões de PvP e Arena. A primeira Maestria aprendida pode entrar automaticamente na build no nível 1 quando o log de combate está habilitado; o Compendium mostra orientações e controles mais claros.
 
-## Catálogo do Beta 0.37.0
+## Catálogo do 0.40.0
 
 ### Ataque e recursos
 
@@ -110,17 +110,27 @@ Essas cinco Maestrias escalam de 5% a 9,5% e preservam as exclusões de PvP e Ar
 |---|---|---|---|
 | **Hit Effect Area** | Elemental | Area | Pode distribuir o efeito de um ataque entre criaturas PvM próximas. O efeito original é dividido, não duplicado. |
 | **Relentless Focus** | Abyssal | Synergy | Aumenta o dano ao manter pressão sobre a mesma criatura. É voltada a alvos mais resistentes. |
-| **Focused Hunter** | Humanoid | Synergy | Ganha força com abates consecutivos de criaturas do mesmo grupo Slayer. Favorece caçadas especializadas. |
+| **Focused Hunter** | Humanoid | Synergy | Ganha força com abates consecutivos do mesmo grupo Slayer. As cargas duram 90 segundos e cada abate compatível renova o prazo compartilhado. |
 | **Versatile Hunter** | Fey | Synergy | Fortalece o primeiro ataque direto contra tipos de criatura que não foram enfrentados recentemente. Favorece rotas variadas. |
 | **Resonant Cascade** | Arachnid | Area | Pode propagar Peacemaking direcionada, Discordance ou Provocation para outras criaturas elegíveis próximas. |
 | **Summoned Vitality** | Reptilian | Basic | Aumenta a vida máxima e atual de summons criados pelo próprio jogador enquanto estiver ativa. |
 | **Summoner's Bond** | Arachnid | Basic | Redireciona parte do dano PvM elegível de summons criados pelo jogador para o invocador, preservando um piso seguro de 10 Hits. |
+| **Chamado Inquebrável** | Reptilian | Synergy | Aumenta relativamente a chance das seis summons de oitavo círculo e também pode aparecer em joias PvM. |
 
 ## Ruptura Arcana
 
 **Ruptura Arcana** é uma nova Maestria PvM. Com ela ativa, dano direto positivo causado pelo jogador pode fazer uma criatura selvagem falhar enquanto conjura. O efeito pertence aos encontros PvM elegíveis; não o trate como regra geral de PvP ou da Arena.
 
-## Maestrias melee do Beta 0.37.0
+A chance usa integralmente o nível da Maestria e os bônus de joias PvM, sem o
+antigo limite específico de 12,5%.
+
+## Invocações de oitavo círculo
+
+As seis magias de invocação de oitavo círculo usam uma curva de sucesso entre
+2% e 98% quando lançadas pelo Spellbook, chegando a **75% com Magery 100.0**.
+Scrolls, NPCs e outras magias não usam essa curva.
+
+## Maestrias melee do 0.40.0
 
 Nos primeiros dez níveis, as quatro Maestrias abaixo avançam **0,25 ponto
 percentual por nível**. Do nível 11 ao 20, a progressão continua com retornos
@@ -199,5 +209,5 @@ Consulte [Recompensas PvM](../itens/recompensas-pvm.md) para XP, Loot Packs, joi
 
 Consulte também [Achievements](achievements.md) para a trilha inicial e as conquistas de atividades.
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     O Hunter's Compendium oferece progressão própria para personagens que enfrentam criaturas.

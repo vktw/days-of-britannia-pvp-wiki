@@ -78,7 +78,7 @@ Live added five Masteries that convert part of defensive or offensive resources 
 
 These five Masteries scale from 5% to 9.5% and preserve the PvP and Arena exclusions. The first learned Mastery can be added to the build automatically at level 1 when the combat log is enabled; the Compendium provides clearer guidance and controls.
 
-## Beta 0.37.0 catalog
+## 0.40.0 catalog
 
 ### Offense and resources
 
@@ -110,17 +110,27 @@ These five Masteries scale from 5% to 9.5% and preserve the PvP and Arena exclus
 |---|---|---|---|
 | **Hit Effect Area** | Elemental | Area | May distribute an attack's effect among nearby PvM creatures. The original effect is divided, not duplicated. |
 | **Relentless Focus** | Abyssal | Synergy | Increases damage while pressure is maintained on the same creature. It is designed for tougher targets. |
-| **Focused Hunter** | Humanoid | Synergy | Builds strength through consecutive kills of creatures from the same Slayer group. It favors specialized hunts. |
+| **Focused Hunter** | Humanoid | Synergy | Builds strength through consecutive kills from the same Slayer group. Charges last 90 seconds and each matching kill refreshes their shared duration. |
 | **Versatile Hunter** | Fey | Synergy | Strengthens the first direct attack against creature types not faced recently. It favors varied hunting routes. |
 | **Resonant Cascade** | Arachnid | Area | May spread targeted Peacemaking, Discordance, or Provocation to other nearby eligible creatures. |
 | **Summoned Vitality** | Reptilian | Basic | Increases the maximum and current health of player-created summons while active. |
 | **Summoner's Bond** | Arachnid | Basic | Redirects part of eligible PvM damage from player-created summons to their summoner while preserving a safe 10-Hit floor. |
+| **Unbroken Calling** | Reptilian | Synergy | Relatively increases the success chance of the six eighth-circle summons and may also appear on PvM jewelry. |
 
 ## Arcane Disruption
 
 **Arcane Disruption** is a new PvM Mastery. While active, positive direct damage dealt by the player may make an eligible wild creature fizzle while casting. The effect belongs to eligible PvM encounters; do not treat it as a general PvP or Arena rule.
 
-## Beta 0.37.0 melee Masteries
+Its chance uses the full value granted by Mastery level and PvM jewelry, without
+the former specific 12.5% cap.
+
+## Eighth-circle summons
+
+The six eighth-circle summoning spells use a 2% to 98% success curve when cast
+from a Spellbook, reaching **75% at 100.0 Magery**. Scrolls, NPCs, and other
+spells do not use this curve.
+
+## 0.40.0 melee Masteries
 
 For their first ten levels, the four Masteries below advance by **0.25 percentage
 point per level**. Levels 11 through 20 continue with diminishing returns. Their
@@ -199,5 +209,5 @@ See [PvM rewards](../itens/recompensas-pvm.md) for XP, Loot Packs, jewelry, and 
 
 See also [Achievements](achievements.md) for the introductory path and activity achievements.
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     The Hunter's Compendium provides dedicated progression for characters who fight creatures.

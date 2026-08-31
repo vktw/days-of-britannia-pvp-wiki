@@ -4,7 +4,7 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Menu da skill</span>
     <h3 id="dob-craft-inscription-title">Inscription</h3>
-    <p>Beta 0.37.0 · Inscription usa Inscribe como skill-base. A chance de craft determina se o livro ou scroll será produzido; ela não altera dano de magia, Reactive Armor, Protection ou Magic Reflection.</p>
+    <p>0.40.0 · Inscription usa Inscribe como skill-base. A chance de craft determina se o livro ou scroll será produzido; ela não altera dano de magia, Reactive Armor, Protection ou Magic Reflection.</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Menu principal</span>

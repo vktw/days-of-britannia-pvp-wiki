@@ -32,5 +32,5 @@ it. The tome is consumed when the gain is applied.
 
 For other hunting rewards, see [PvM rewards](../itens/recompensas-pvm.md).
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     Tomes of Expertise are active on the official server.

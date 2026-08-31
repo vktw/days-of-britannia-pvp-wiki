@@ -41,5 +41,5 @@ account must wait **seven days** before placing another Nujelm vendor.
 See [Nujelm Safe Haven](../mundo/nujelm.md) for protection rules and
 [Royal Banking Charter](royal-banking-charter.md) to expand the bank.
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     The public Player Vendor market is active in Nujelm.

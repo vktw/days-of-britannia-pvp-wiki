@@ -2,6 +2,79 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.40.0 · O Veredito Rubro
+
+Odran cavalga em Wrong, enquanto menus, equipamentos e interações recebem melhorias.
+
+- Odran, o Veredito Rubro, pode surgir nos corredores profundos de Wrong acompanhado por Seris e quatro testemunhas demoníacas. Derrotá-lo liberta uma Ruby Mustang domesticável, protegida de criaturas selvagens por 60 segundos, e concede The Condemned Heart, recompensas extras de PvM e a chance de encontrar seu livro de lore em português ou inglês e a foice The Ruby Judgment.
+- Odran agora mantém uma perseguição ainda mais rápida, prioriza summons nos ataques e marca o chão por um segundo antes de saltar com Sentence of Silence, repetindo o Verdict a cada 20 a 25 segundos. Ele escapa de Paralyze após cinco segundos teleportando para fora do campo; esquivar do Sentence abre três segundos de recuperação e Broken Judgment informa cada dano dobrado. As testemunhas podem se afastar mais e priorizam jogadores, enquanto Seris sustenta todo o grupo sem usar Magic Arrow.
+- As seis magias de invocação de oitavo círculo da Magery agora usam uma curva de sucesso de 2% a 98%, chegando a 75% com Magery 100,0 em casts pelo livro de magias; scrolls, NPCs e outras magias permanecem inalterados.
+- A nova Maestria Chamado Inquebrável aumenta relativamente a chance de sucesso dessas invocações e também pode aparecer nas novas joias de PvM.
+- Menus de crafting e Animal Lore agora substituem corretamente a janela anterior, evitando desconexões causadas pelo acúmulo invisível de menus.
+- Cada morte reduz em 1 a 3 pontos a durabilidade máxima de cada item equipado; mortes causadas por outro membro da mesma Party ou guild não aplicam essa perda.
+- Roupas agora têm durabilidade conforme a qualidade, sofrem desgaste sem reduzir o dano recebido e podem ser reparadas com Tailoring.
+- Fire Field continua causando dano em todos os alvos válidos sem trocar o alvo de combate escolhido pelo conjurador.
+- Novas Magic Earrings, Magic Bracelets e Magic Rings do PvM Loot agora recebem bônus de Maestria entre +1,00% e +7,50%, em incrementos de 0,25%.
+- Ruptura Arcana agora usa integralmente a chance concedida pelo nível da Maestria e pelas joias de PvM, sem o antigo limite específico de 12,5%; o intervalo entre tentativas e as regras de alvo permanecem iguais.
+- Paralyze lançado por uma criatura PvM elegível termina quando o caster morre ou é removido, sem limpar Paralyze Field, outro caster ou efeitos do jogador.
+- Pisos estruturais de casas não bloqueiam mais interações no mesmo andar quando estão abaixo da linha de visão; paredes, portas, andares e regras de acesso continuam protegidos.
+- Jogadores comuns não podem permanecer como ghost indefinidamente: sem escolha, retornam após cinco minutos. Mortes PvP permitem apenas retorno sem itens, enquanto PvM mantém a recuperação existente; a proteção de newcomer permanece inalterada.
+- As cargas de Caçador Focado agora permanecem por 90 segundos; cada abate compatível renova o prazo compartilhado de todas as cargas.
+- Personagens ocultos por Hiding ou Stealth agora são revelados ao escolher o alvo de outra skill, ou ao ativar uma skill sem alvo; cancelar o cursor não revela e Snooping mantém sua regra própria.
+- Pets com comportamento naturalmente agressivo agora desaparecem com todos os itens carregados ao serem liberados, sem deixar conteúdo no chão; pets passivos ou reativos continuam no mundo normalmente.
+- Cabelo, barba e bigode virtuais não aparecem mais como loot no Grid Container de corpses de jogadores; equipamentos e itens reais permanecem inalterados.
+- Criaturas marcadas como sem recompensa, incluindo reforços invocados por monstros, não concedem mais XP, loot ou progresso PvM.
+
+## 0.39.0 · Regeneração passiva de stamina
+
+A recuperação passiva de stamina de jogadores e do PvP Trainer recebe um ritmo mais deliberado.
+
+- Jogadores e o PvP Trainer agora recuperam passivamente 1 ponto de stamina a cada 5 segundos na base de 100.0 Focus e sem regeneração adicional; Focus e os modificadores existentes continuam ajustando o intervalo.
+- Jogadores agora podem usar Recall mesmo acima do limite de peso; as demais restrições de Recall e de outros meios de viagem permanecem inalteradas.
+- A Bag of Sending agora funciona exclusivamente com Gold e rejeita qualquer outro tipo de item.
+- Hell Hounds selvagens agora concedem loot e XP pelo sistema PvM central e contam para Hunts e Maestrias do grupo Abyss; exemplares invocados, domesticados ou anteriormente domesticados continuam sem recompensas.
+- Statues de Frenzied, Zostrich e Forest Ostards agora exibem corretamente a cor original do animal, sem alterar o pet nem as demais montarias.
+- Polymorph em Daemon agora concede temporariamente 200 STR, 110 DEX e 150 INT, impede equipamento e ataques contra jogadores, pode ser dissipado e restaura com segurança os recursos do personagem ao terminar.
+- Recall de jogadores agora pode chegar a um tile ocupado por outro mobile; terreno, itens, regiões, multis e as demais restrições continuam válidos.
+- Criaturas não saqueiam mais itens de cadáveres de jogadores ou de outras criaturas.
+- As duas áreas delimitadas ao norte de Minoc agora permanecem sem proteção de guards em Felucca e Trammel; o restante da cidade e da mina permanece inalterado.
+- Jogadores autorizados dentro de casas privadas agora ficam protegidos de ações hostis externas e também não podem atacar através da fronteira da casa; casas públicas permanecem inalteradas.
+- Tinkering agora permite fabricar Metal Chest com 150 ingots na categoria DoB Containers; o menu acompanha o metal escolhido e o baú preserva e identifica corretamente seu material e cor.
+- Tinkering agora permite fabricar deeds de Suit of Gold Armor e Suit of Silver Armor com 200 ingots na categoria DoB Deco; Iron mantém a aparência original e os demais metais aplicam sua própria cor.
+- Ao final de cada season da Arena, campeões únicos do PvP Trainer, modo sem loot e modo com loot recebem no banco troféus decorativos chamados Days of Britannia Arena Trophy; todos veem os resultados no primeiro login, e empates restantes ficam sem campeão.
+- O Huntmaster Challenge foi desativado; permits, troféus e recompensas existentes permanecem preservados.
+- As guilds de NPC foram desativadas. Qualquer jogador pode usar Stealing contra outros jogadores sem associação; Disguise Kits não podem mais ser usados.
+- A primeira página do Help agora mostra quantos personagens estão online e o recorde histórico, incluindo staff; o comando .pvpcamp deixou de aparecer nesse menu.
+- O Rare Zostrich Ostard agora consegue surgir corretamente quando seu ponto inicial está indisponível.
+- A confirmação e a contagem regressiva de 'Socorro, estou preso!' agora exibem corretamente os acentos em português.
+
+## 0.38.0 · Nochyer e ajustes de habilidades
+
+Nochyer desperta a nordeste de Yew, enquanto Gate Travel e Poisoning recebem ajustes.
+
+- Gate Travel não sofre mais fizzle de skill quando o personagem possui 100.0 de Magery; interrupções, recursos e restrições de viagem permanecem inalterados.
+- O tempo para reutilizar a skill Poisoning foi reduzido de 10 para 4 segundos; a aplicação continua levando 2 segundos, mantém a mesma chance de sucesso e preserva o ritmo médio de treino.
+- Adagas, facas e ferramentas classificadas como utilitárias agora causam 1 a 3 de dano-base, incluindo os martelos equipáveis de Blacksmithy; a tooltip passa a mostrar esse valor corretamente.
+- O SkillCheck de Tailoring não mostra mais 0% quando nenhuma rolagem de ganho foi realizada; nesses casos, a mensagem informa que a chance não se aplica e explica o motivo.
+- O SkillCheck agora ignora silenciosamente qualquer skill que já tenha alcançado 100.0 de valor base; o funcionamento e o ganho das skills não foram alterados.
+- O Stamina Damage das armas competitivas de Macing agora remove 80% do dano final do golpe, em vez de usar a proporção anterior de 1 para 1.
+- Ao conjurar uma magia enquanto estiver oculto por Hiding ou Stealth, o personagem é revelado no início do cast e exibe as Words of Power; Invisibility Spell e Invisibility Potion preservam o comportamento atual.
+- Alchemists fora da proteção agora mantêm um estoque mínimo de 160 Eyes of Newt e 160 Bat Wings.
+- Pets controlados agora podem ser guardados e restaurados com Shrink Potion, preservando o mesmo pet e sem ocupar follower slots.
+- Nochyer, the Darkness Beneath pode surgir a nordeste de Yew após longos intervalos. Sua Black Moon atinge uma área marcada; Night Sight revela sua fraqueza à luz por 60 segundos, com cooldown mínimo de 15 segundos e sem acumular ou renovar a exposição; e derrotá-lo concede seu Heart of the Black Moon, uma tintura exclusiva, três Tomes of Expertise, um Scroll of Knowledge e um roll adicional do Loot Pack. Seu raríssimo Heater Shield of Invulnerability assume a forma do Black Moon Aegis.
+- Nochyer agora possui no mínimo 2.400 de vida, garantindo a classificação Legendary de Threat em todos os spawns sem alterar o bônus total de 70%.
+- Um livro colecionável sobre a origem de Nochyer pode aparecer em seu loot com 10% de chance. Ele usa a aparência de um livro de Necromancy, não possui efeitos e abre um gump elegante no idioma escolhido em .options.
+- A Rare Zostrich Ostard foi adicionada aos eventos de montarias raras. Montarias raras domesticadas agora liberam sua vaga para um novo animal selvagem no próximo ciclo.
+- Quando um PK entra na proteção de uma cidade, todos recebem um alerta anônimo informando a cidade. Cada PK pode gerar um novo alerta após cinco minutos.
+- O servidor agora avisa em vermelho quando o cliente envia ações rápido demais, permitindo pausar macros antes de uma possível desconexão.
+- Quando uma ferramenta comum ou DoB se desgasta durante um craft, o sistema usa automaticamente a próxima ferramenta compatível da mochila, inclusive em Make Last e produção automática. Ferramentas rúnicas e especiais permanecem excluídas.
+- Novos Magic Amulets não concedem mais bônus de Wrestling; amuletos existentes permanecem inalterados.
+- O bônus de XP da caçada PvM para criaturas do grupo alvo aumentou de 50% para 75%; acúmulo, progresso e a kill que completa o contrato permanecem inalterados.
+- Centaurs, Treefellows, Satyrs e Rare Phoenixes recém-surgidos agora possuem notoriedade vermelha.
+- Ensorcelled Armor agora pertence ao grupo Abyss; variantes dracônicas antes sem classificação passam a pertencer aos Slayers Reptilian e Dragon Slaying em combate, caçadas PvM e Scrolls of Knowledge.
+- Entrar em War Mode agora interrompe o Tracking ativo e informa que a presa foi perdida.
+- Players não revelam mais personagens ocultos passivamente ao caminhar: Detect Hidden continua disponível por ativação manual. Golpes físicos com dano positivo agora removem corretamente Hiding, Stealth e invisibilidade também ao atingir criaturas.
+
 ## 0.37.0 · Player Vendors em Nujelm
 
 - Contratos de emprego podem instalar Player Vendors em um dos 42 bancos de madeira reservados de Nujelm, com limite de um por conta e IP público.

@@ -173,7 +173,7 @@ definida bloqueia conflito entre jogadores, stealing, ações nocivas de pets ou
 summons, viagens mágicas, Fields e dano recebido.
 
 Use a rede pública de moongates de Felucca para viajar até Nujelm. No Beta
-0.37.0, nenhum personagem recebe ganho de skill dentro do Safe Haven, inclusive
+0.40.0, nenhum personagem recebe ganho de skill dentro do Safe Haven, inclusive
 Newcomers.
 
 [Conheça Nujelm Safe Haven](../mundo/nujelm.md) antes de sair para uma caçada.
@@ -261,5 +261,5 @@ treino.
 - [Sistemas e limites do ruleset](../sistemas/index.md)
 - [Ultima Online Brasil: shards, servidores e comunidade](ultima-online-brasil.md)
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     As informações desta página correspondem ao servidor oficial.

@@ -4,7 +4,7 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Skill menu</span>
     <h3 id="dob-craft-cartography-title">Cartography</h3>
-    <p>Beta 0.37.0 · Cartography uses Cartography as its base skill. Active regular maps follow the catalog's linear curve.</p>
+    <p>0.40.0 · Cartography uses Cartography as its base skill. Active regular maps follow the catalog's linear curve.</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Main menu</span>

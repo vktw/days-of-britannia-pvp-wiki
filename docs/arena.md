@@ -73,6 +73,9 @@ montaria descritas acima.
 - System Loot e Personal Loot usam rankings separados.
 - O ranking do PvP Trainer considera o menor tempo de vitória e permanece em sua
   própria tabela.
+- Ao final da season, campeões únicos do PvP Trainer, System Loot e Personal
+  Loot recebem no banco um **Days of Britannia Arena Trophy**. Empates restantes
+  não geram campeão.
 
 ## PvP Trainer
 
@@ -81,5 +84,5 @@ entrada custa 1.000 gold e fornece o kit Iron fixo; seleção de tiers não faz
 parte desse fluxo. Esta página documenta somente as regras observáveis de
 entrada, cobrança e resultado, não decisões táticas internas do NPC.
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     Estas são as regras disponíveis no servidor oficial.

@@ -128,6 +128,6 @@ hits or change magical damage, poison, or other ruleset formulas.
 Defense is not only waiting for hits to rise: it buys the time needed to
 reposition, recover mana, or prepare the next response.
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     This page summarizes the active ruleset on the official server. Gameplay
     values were checked against the official server source.

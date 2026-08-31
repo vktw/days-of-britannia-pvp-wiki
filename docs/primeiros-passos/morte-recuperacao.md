@@ -10,5 +10,9 @@ Para Newcomers, existe o retorno automático descrito em [Newcomer e proteção]
 
 Enquanto a escolha de recuperação ou a contagem de Newcomer estiver ativa, o ghost pode caminhar. Um ghost a até dois tiles de um healer pode dar dois cliques nele para pedir a oferta normal de ressurreição; alcance, linha de visão e demais condições do healer continuam valendo.
 
-!!! success "Status: Beta 0.37.0"
+Sem escolha, jogadores comuns retornam automaticamente após cinco minutos.
+Mortes PvP permitem apenas o retorno sem os itens do corpo; mortes PvM mantêm as
+opções de recuperação acima. Criaturas não saqueiam itens de cadáveres.
+
+!!! success "Status: 0.40.0"
     Este fluxo vale para mortes fora da Arena.

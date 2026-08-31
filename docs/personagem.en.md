@@ -70,5 +70,5 @@ maximum of 25 steps. Walking, including while mounted, consumes the limit;
 exhausting it reveals the character, and running, including while mounted,
 reveals immediately. Armor does not block or reduce Stealth effectiveness.
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     Stats, skills, caps and race correspond to the official server.

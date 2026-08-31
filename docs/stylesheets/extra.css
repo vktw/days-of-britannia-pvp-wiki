@@ -242,6 +242,8 @@
 
 /* Centralized craft-menu simulator prototype */
 .dob-craft-simulator {
+  container-name: craft-simulator;
+  container-type: inline-size;
   margin: 1.35rem 0 1.65rem;
   padding: 1rem;
   border: 1px solid var(--dob-border);
@@ -628,7 +630,7 @@
   color: var(--dob-gold-hover);
 }
 
-@media screen and (max-width: 59.984375em) {
+@media screen and (max-width: 76.234375em) {
   .dob-craft-simulator__layout,
   .dob-craft-simulator__layout.has-workbench,
   .dob-craft-simulator__fields {
@@ -676,6 +678,56 @@
 
   .dob-craft-simulator__result {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .dob-craft-simulator__range-line {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.45rem;
+  }
+
+  .dob-craft-simulator__range-line output {
+    justify-self: end;
+  }
+}
+
+@container craft-simulator (max-width: 55rem) {
+  .dob-craft-simulator__layout,
+  .dob-craft-simulator__layout.has-workbench,
+  .dob-craft-simulator__fields {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .dob-craft-simulator__result {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@container craft-simulator (max-width: 44rem) {
+  .dob-craft-simulator__range-line {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.45rem;
+  }
+
+  .dob-craft-simulator__range-line output {
+    justify-self: end;
+  }
+
+  .dob-craft-simulator__result {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@container craft-simulator (max-width: 24rem) {
+  .dob-craft-simulator__result {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media screen and (max-width: 30em) {
+  .dob-craft-simulator__result {
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 

@@ -88,32 +88,32 @@ hide:
 <section class="dob-atlas-content" aria-label="Main content">
 <article class="dob-atlas-feature">
 <p class="dob-atlas-kicker">LATEST UPDATE</p>
-<h2>0.37.0 · Player Vendors in Nujelm</h2>
-<p class="dob-atlas-feature__date"><time datetime="2026-08-21">August 21, 2026</time></p>
-<p>Nujelm received a protected public market, new banking options, and updates to skill progression, crafting, and Hunter Contracts.</p>
+<h2>0.40.0 · The Red Verdict</h2>
+<p class="dob-atlas-feature__date"><time datetime="2026-08-28">August 28, 2026</time></p>
+<p>Odran rides in Wrong while Masteries, equipment, pets, houses, and interactions receive improvements.</p>
 <a href="patches/">READ PATCH NOTES <span aria-hidden="true">→</span></a>
 </article>
 
 <div class="dob-atlas-index">
 <p class="dob-atlas-kicker">LATEST UPDATED ARTICLES</p>
-<a href="sistemas/player-vendors/">
-<span class="dob-atlas-index__code">AUG 24</span>
-<span><strong>Player Vendors</strong><small>Nujelm's protected public market</small></span>
-<i aria-hidden="true">→</i>
-</a>
-<a href="sistemas/royal-banking-charter/">
-<span class="dob-atlas-index__code">AUG 24</span>
-<span><strong>Royal Banking Charter</strong><small>Permanent character bank expansion</small></span>
-<i aria-hidden="true">→</i>
-</a>
-<a href="sistemas/tomes-expertise/">
-<span class="dob-atlas-index__code">AUG 24</span>
-<span><strong>Tomes of Expertise</strong><small>Permanent skill progress from PvM loot</small></span>
+<a href="sistemas/spawns-raros/">
+<span class="dob-atlas-index__code">AUG 31</span>
+<span><strong>Rare spawns</strong><small>Odran, Nochyer, and rare mounts</small></span>
 <i aria-hidden="true">→</i>
 </a>
 <a href="sistemas/pvm-mastery/">
-<span class="dob-atlas-index__code">AUG 24</span>
-<span><strong>PvM Mastery</strong><small>20 levels and up to 95 progression points</small></span>
+<span class="dob-atlas-index__code">AUG 31</span>
+<span><strong>PvM Mastery</strong><small>Unbroken Calling and progression updates</small></span>
+<i aria-hidden="true">→</i>
+</a>
+<a href="sistemas/pets-montarias/">
+<span class="dob-atlas-index__code">AUG 31</span>
+<span><strong>Pets and mounts</strong><small>Shrink Potion, rarities, and pet release</small></span>
+<i aria-hidden="true">→</i>
+</a>
+<a href="sistemas/casas/">
+<span class="dob-atlas-index__code">AUG 31</span>
+<span><strong>Houses</strong><small>Private protection and same-floor interactions</small></span>
 <i aria-hidden="true">→</i>
 </a>
 </div>

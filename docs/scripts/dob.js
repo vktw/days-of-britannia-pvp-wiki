@@ -396,7 +396,7 @@ function bindDobCraftSimulator() {
 
       const selectedSkill = Number(skill.value);
       const minimumSkill = Number(selectedItem.dataset.craftMin);
-      const maximumSkill = Math.min(Number(selectedItem.dataset.craftMax), DOB_CRAFT_SKILL_LIMIT);
+      const maximumSkill = Number(selectedItem.dataset.craftMax);
       const selectedMaterialMin = selectedMaterialMinimum(selectedItem);
       const points = parseDobCraftPoints(selectedItem.dataset.craftPoints);
       const exact = points.find((point) => Math.abs(point.skill - selectedSkill) < 0.051);

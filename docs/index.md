@@ -88,32 +88,32 @@ hide:
 <section class="dob-atlas-content" aria-label="Conteúdo principal">
   <article class="dob-atlas-feature">
     <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
-    <h2>0.37.0 · Player Vendors em Nujelm</h2>
-    <p class="dob-atlas-feature__date"><time datetime="2026-08-21">21 de agosto de 2026</time></p>
-    <p>Nujelm recebeu um mercado público protegido, novas opções bancárias e ajustes na progressão de skills, craft e contratos de caça.</p>
+    <h2>0.40.0 · O Veredito Rubro</h2>
+    <p class="dob-atlas-feature__date"><time datetime="2026-08-28">28 de agosto de 2026</time></p>
+    <p>Odran cavalga em Wrong, enquanto Maestrias, equipamentos, pets, casas e interações recebem melhorias.</p>
     <a href="patches/">LER PATCH NOTES <span aria-hidden="true">→</span></a>
   </article>
 
   <div class="dob-atlas-index">
     <p class="dob-atlas-kicker">ÚLTIMOS ARTIGOS ATUALIZADOS</p>
-    <a href="sistemas/player-vendors/">
-      <span class="dob-atlas-index__code">24 AGO</span>
-      <span><strong>Player Vendors</strong><small>Mercado público protegido de Nujelm</small></span>
-      <i aria-hidden="true">→</i>
-    </a>
-    <a href="sistemas/royal-banking-charter/">
-      <span class="dob-atlas-index__code">24 AGO</span>
-      <span><strong>Royal Banking Charter</strong><small>Expansão permanente do banco do personagem</small></span>
-      <i aria-hidden="true">→</i>
-    </a>
-    <a href="sistemas/tomes-expertise/">
-      <span class="dob-atlas-index__code">24 AGO</span>
-      <span><strong>Tomes of Expertise</strong><small>Progresso permanente de skills no loot PvM</small></span>
+    <a href="sistemas/spawns-raros/">
+      <span class="dob-atlas-index__code">31 AGO</span>
+      <span><strong>Spawns raros</strong><small>Odran, Nochyer e montarias raras</small></span>
       <i aria-hidden="true">→</i>
     </a>
     <a href="sistemas/pvm-mastery/">
-      <span class="dob-atlas-index__code">24 AGO</span>
-      <span><strong>Maestria PvM</strong><small>20 níveis e até 95 pontos de progressão</small></span>
+      <span class="dob-atlas-index__code">31 AGO</span>
+      <span><strong>Maestria PvM</strong><small>Chamado Inquebrável e ajustes de progressão</small></span>
+      <i aria-hidden="true">→</i>
+    </a>
+    <a href="sistemas/pets-montarias/">
+      <span class="dob-atlas-index__code">31 AGO</span>
+      <span><strong>Pets e montarias</strong><small>Shrink Potion, raridades e liberação de pets</small></span>
+      <i aria-hidden="true">→</i>
+    </a>
+    <a href="sistemas/casas/">
+      <span class="dob-atlas-index__code">31 AGO</span>
+      <span><strong>Casas</strong><small>Proteção privada e interações entre pisos</small></span>
       <i aria-hidden="true">→</i>
     </a>
   </div>

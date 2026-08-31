@@ -55,7 +55,7 @@ use.
 Provisioners sell basic Hatchet, Pickaxe, Shovel, and Fishing Pole tools. Tinkers
 sell Hatchet, Pickaxe, and Shovel, while Carpenters sell Fishing Pole.
 
-## DoB Tools in Beta 0.37.0
+## DoB Tools in 0.40.0
 
 Tinkering organizes special tools under the **DoB Tools** submenu. Each family uses a public metal, has its own Tinkering requirement, and appears only for compatible tools.
 
@@ -76,4 +76,4 @@ New characters receive a complete Spellbook, an empty Runebook and a shrunken ho
 
 See [Healing and resources](../combate/cura-recursos.md) for all values and delays.
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"

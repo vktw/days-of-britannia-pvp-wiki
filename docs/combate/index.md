@@ -124,6 +124,6 @@ altera dano mágico, poison ou outras fórmulas do ruleset.
 Defesa não é apenas esperar a vida subir: ela compra o tempo necessário para
 reposicionar, recuperar mana ou preparar a próxima resposta.
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     Esta página resume o ruleset ativo no servidor oficial. Os valores de
     gameplay foram conferidos na fonte oficial do servidor.

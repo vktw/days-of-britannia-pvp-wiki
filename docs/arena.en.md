@@ -67,6 +67,9 @@ belongings. In Personal Loot mode, return follows the body and mount rules above
 - The season lasts 15 days.
 - System Loot and Personal Loot use separate rankings.
 - PvP Trainer ranking uses the shortest victory time and remains in its own table.
+- At season end, unique PvP Trainer, System Loot, and Personal Loot champions
+  receive a **Days of Britannia Arena Trophy** in their bank. Remaining ties
+  produce no champion.
 
 ## PvP Trainer
 
@@ -75,5 +78,5 @@ costs 1,000 gold and provides the fixed Iron kit; tier selection is not part of
 this flow. This page documents only observable entry, fee, and result rules, not
 the NPC's internal tactical decisions.
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     These are the rules available on the official server.

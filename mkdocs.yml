@@ -17,11 +17,11 @@ theme:
   palette:
     scheme: dob
 extra:
-  dob_version: "Beta 0.37.0"
+  dob_version: "0.40.0"
 extra_css:
-  - stylesheets/extra.css?v=20260826.6
+  - stylesheets/extra.css?v=20260831.2
 extra_javascript:
-  - scripts/dob.js?v=20260813.8
+  - scripts/dob.js?v=20260831.1
 plugins:
   - search:
       lang:
@@ -75,6 +75,8 @@ plugins:
             Achievements: Achievements
             Maestria PvM: PvM Mastery
             Caça PvM: PvM hunting
+            Pets e montarias: Pets and mounts
+            Casas: Houses
             Tomes of Expertise: Tomes of Expertise
             Player Vendors: Player Vendors
             Royal Banking Charter: Royal Banking Charter
@@ -122,6 +124,8 @@ nav:
       - Achievements: sistemas/achievements.md
       - Maestria PvM: sistemas/pvm-mastery.md
       - Caça PvM: sistemas/caca-pvm.md
+      - Pets e montarias: sistemas/pets-montarias.md
+      - Casas: sistemas/casas.md
       - Tomes of Expertise: sistemas/tomes-expertise.md
       - Player Vendors: sistemas/player-vendors.md
       - Royal Banking Charter: sistemas/royal-banking-charter.md

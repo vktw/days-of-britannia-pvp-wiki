@@ -4,7 +4,7 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Menu da skill</span>
     <h3 id="dob-craft-blacksmithy-title">Blacksmithy</h3>
-    <p>Beta 0.37.0 · Blacksmithy usa a skill Blacksmith e separa o craft comum das linhas DoB Weapons e dos metais especiais. Os percentuais abaixo são da chance de produzir o item; Arms Lore e Exceptional são tratados separadamente quando aplicável.</p>
+    <p>0.40.0 · Blacksmithy usa a skill Blacksmith e separa o craft comum das linhas DoB Weapons e dos metais especiais. Os percentuais abaixo são da chance de produzir o item; Arms Lore e Exceptional são tratados separadamente quando aplicável.</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Menu principal</span>

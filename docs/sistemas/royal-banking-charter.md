@@ -26,5 +26,5 @@ não precisa permanecer como item na mochila.
 A expansão é especialmente útil para quem mantém estoque de
 [Player Vendors](player-vendors.md) ou acumula materiais de craft.
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     Royal Banking Charter I está disponível no menu de contexto dos Bankers.

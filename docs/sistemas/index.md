@@ -8,13 +8,15 @@ recebe regras de PvP e PvM customizadas para o objetivo do shard.
 - [Achievements](achievements.md)
 - [Maestria PvM](pvm-mastery.md)
 - [Caça PvM](caca-pvm.md): contratos com objetivos sorteados e recompensa em caixa de madeira.
+- [Pets e montarias](pets-montarias.md): Shrink Potion, montarias raras e liberação de pets.
+- [Casas](casas.md): proteção de casas privadas e interação entre pisos.
 - [Recompensas PvM](../itens/recompensas-pvm.md): Loot Packs, joias e amuletos ligados ao PvM.
 
 ## Sistemas de exploração
 
 - [Nujelm Safe Haven](../mundo/nujelm.md): proteção e retornos seguros em Felucca.
 - [Threat Rating](../mundo/threat-rating.md): escala, interpretação e consulta no jogo.
-- [Spawns raros](spawns-raros.md): Phoenix, Rare Events, montarias e visual sazonal.
+- [Spawns raros](spawns-raros.md): Phoenix, Rare Events e montarias raras.
 - [Whispers of Britannia](whispers-britannia.md): rumores públicos e pistas de Town Criers.
 
 As páginas explicam apenas o que está disponível para jogadores e como isso afeta a experiência.
@@ -39,11 +41,11 @@ Reflection.
 Pets controlados e summons de jogadores não podem atacar ou causar dano a outros
 jogadores, mas continuam utilizáveis normalmente em PvM.
 
-## Novos sistemas do Beta 0.37.0
+## Sistemas adicionados desde 0.37.0
 
 - [Tomes of Expertise](tomes-expertise.md): progresso permanente de skills encontrado no loot PvM.
 - [Player Vendors](player-vendors.md): mercado público protegido de Nujelm.
 - [Royal Banking Charter](royal-banking-charter.md): expansão permanente do banco do personagem.
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     A disponibilidade abaixo corresponde ao ruleset oficial.

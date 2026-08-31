@@ -41,15 +41,15 @@ Earrings, bracelets e rings mágicos podem aumentar STR, DEX ou INT enquanto est
 
 Golpes físicos podem desgastar uma das joias de atributos equipadas. Elas podem ser reparadas pelo fluxo normal de **Tinkering**, sujeito ao desgaste próprio de reparos repetidos.
 
-## Joias da Arena e bônus de Maestria no Beta 0.37.0
+## Joias da Arena e bônus de Maestria no 0.40.0
 
-Na categoria **DoB Jewelry** de Tinkering, o Beta 0.37.0 inclui somente três peças com os bônus fixos das joias da Arena:
+Na categoria **DoB Jewelry** de Tinkering, o 0.40.0 inclui somente três peças com os bônus fixos das joias da Arena:
 
 - **Magic Earrings:** +5 INT.
 - **Magic Ring:** +5 STR.
 - **Magic Bracelet:** +5 DEX.
 
-Novas joias mágicas vindas de Loot Packs podem receber um bônus de Maestria PvM entre **+1,00% e +5,00%**, em incrementos de **0,25%**. Ao equipar a peça, a Maestria correspondente fica ativa temporariamente e o Compendium exibe o bônus. Retirar a joia remove somente essa ativação temporária; ela não substitui os cinco espaços da build normal.
+Novas joias mágicas vindas de Loot Packs podem receber um bônus de Maestria PvM entre **+1,00% e +7,50%**, em incrementos de **0,25%**. Ao equipar a peça, a Maestria correspondente fica ativa temporariamente e o Compendium exibe o bônus. Retirar a joia remove somente essa ativação temporária; ela não substitui os cinco espaços da build normal.
 
 ## Amuletos de skill
 
@@ -65,5 +65,5 @@ normais de participação, proximidade e direito ao loot continuam valendo.
 
 Veja também [Maestria PvM](../sistemas/pvm-mastery.md) e [Threat Rating](../mundo/threat-rating.md).
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     Criaturas elegíveis recompensam o grupo conforme a escala do encontro.

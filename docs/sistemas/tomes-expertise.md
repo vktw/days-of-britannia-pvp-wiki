@@ -32,5 +32,5 @@ dois cliques. O tome é consumido quando o ganho é aplicado.
 
 Para outras recompensas de caça, consulte [Recompensas PvM](../itens/recompensas-pvm.md).
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     Tomes of Expertise estão ativos no servidor oficial.

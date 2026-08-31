@@ -29,11 +29,15 @@ Open PvP preferences for the colored potion cooldown bar, which empties each sec
 
 Separates check success from skill gain, explains attempts that do not train or
 are already saturated, and displays protected progress. For crafts, it also
-separates the real internal check from the recipe's final result.
+separates the real internal check from the recipe's final result. Skills at
+100.0 base are ignored; in Tailoring, the absence of a gain roll is shown as
+unavailable rather than 0%.
 
 ## `.help`
 
-Opens DoB help with short command descriptions and direct access to available actions.
+Opens DoB help with short command descriptions and direct access to available
+actions. Its first page also shows online characters and the all-time record,
+including staff.
 
 ## `.store`
 
@@ -43,5 +47,5 @@ The Ultima Store is disabled. Purchases, deliveries, and store use of Sovereigns
 
 Shows the selected Daily Dungeon and the time remaining until the next rotation. Use it before heading out to take advantage of the PvM Mastery experience and Loot Pack bonuses.
 
-!!! success "Status: Beta 0.37.0"
+!!! success "Status: 0.40.0"
     The commands below are available to players on the official server.
