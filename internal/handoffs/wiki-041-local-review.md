@@ -3,7 +3,7 @@
 Branch: `codex/wiki-041-reconciliation`, criada da main `166c448`.
 Tipo: referência e landing page; pares PT-BR/EN atualizados juntos.
 Fonte: catálogo público e regras da tag de produção `v0.41.0`,
-`d159cdbbae5de563c098d535bc7e2335a9d7b021`; publicação registrada em 01/09/2026.
+`2f87ed24418b450af2ba7d1a6ceaf57926584252`; publicação registrada em 01/09/2026.
 
 Escopo aprovado: itens 1–5 e 11–13 da tabela de reconciliação, mais tempos
 de respawn. Itens 6–10 foram inicialmente excluídos por decisão do usuário,
@@ -68,3 +68,64 @@ foram substituídos; cada arma temática agora tem sua própria receita.
 Auditorias, build e QA no navegador: Iron Plate Chest em 100 = 50%; Bronze
 em 35 = 20%; Brittanium em 105 = 77%; Crimson Rite em 105 = 85.71%; Arms Lore
 105 = 76.5% de Exceptional após sucesso. Sem overflow em 390, 820 e 1300 px.
+
+## Revisão adicional de Carpentry
+
+Solicitação atual autorizou reconciliar Carpentry com o mesmo simulador de
+menu aplicado a Alchemy, Blacksmithy e Bowcraft. A fonte aprovada é a classe
+`DefCarpentry` e as regras de `CraftItem` na tag de produção `v0.41.0`.
+
+O catálogo local agora contém 184 receitas visíveis em nove grupos do menu
+oficial: Other, Furniture, Containers, Weapons, Instruments, Misc, Tailoring
+and Cooking, Anvils and Forges e Training. A contagem foi calculada após os
+filtros reais do servidor: o grupo Armor é removido e `RemoveRecipeGatedCrafts`
+retira as entradas dependentes de recipe. A seleção de madeira replica Board,
+Oak, Ash, Yew, Heartwood, Bloodwood e Frostwood com os mínimos publicados de
+0.0, 65.0, 75.0, 85.0 e 95.0, sem bônus de chance pela madeira.
+
+Cada entrada traz material principal, quantidade, recursos adicionais,
+requisitos de skill secundária quando presentes, mínimo de Carpentry e a
+curva de sucesso. Quando a curva oficial termina depois do limite editorial,
+o simulador preserva o ponto calculado em 105.0 sem exibir valores acima
+desse teto. Itens marcados pelo servidor como `ForceNonExceptional` mostram
+Exceptional como não aplicável; os demais usam a rolagem Carpentry oficial
+`ChanceMinusSixtyToFourtyFive`, calculada sem bônus de equipamento.
+
+Ajustes compartilhados: o simulador passou a mostrar requisitos adicionais,
+a mensagem da skill de seleção de madeira usa a skill da própria página e a
+curva de Exceptional do Carpentry foi adicionada ao JavaScript. O cache de
+`dob.js` foi incrementado. Auditorias, build estrito e QA visual local foram
+concluídos: 184 itens no índice PT/EN, busca por Keg, troca para Frostwood,
+Exceptional dinâmico em Weapons, Exceptional não aplicável em Keg, ausência
+de overflow na viewport local e zero erros de console. Não houve commit, push
+ou deploy desta revisão.
+
+## Revisão adicional: Cartography, Cooking, Inscription, Tailoring e Tinkering
+
+Solicitação posterior autorizou aplicar a mesma reconciliação de menu às cinco
+skills restantes. Os catálogos foram lidos diretamente dos `Def*.cs` e das
+regras comuns de `CraftItem` na tag de produção `v0.41.0`.
+
+| Página | Receitas visíveis | Tratamento aplicado |
+|---|---:|---|
+| Cartography | 6 | Eodonian Wall Map recipe-gated omitido; mapas comuns e as duas orientações de Tattered Wall Map preservadas. |
+| Cooking | 61 | Grupos Enchanted e Magical Fish Pies removidos pelo servidor; bebidas, chocolate e preparos ativos incluídos. |
+| Inscription | 87 | Scrolls de magia, livros e materiais ativos; Necromancy e Mysticism desativados na fonte 0.41.0; Scrapper's Compendium e Runic Atlas recipe-gated omitidos. |
+| Tailoring | 153 | Roupas, couro, studded, gargoyle e grupos especiais ativos incluídos; entradas recipe-gated omitidas; chance-base normal corrigida para 50%. |
+| Tinkering | 154 | 100 entradas diretas mais 54 joias geradas por nove `AddJewelrySet`; madeira/cestaria, ferramentas, componentes, utensílios, projetos, armadilhas e grupos DoB incluídos. |
+
+As páginas PT-BR e EN têm o mesmo índice, pesquisa por item/grupo/material e
+curva do simulador. Skills mínimas e materiais adicionais vêm das chamadas
+oficiais de craft; requisitos de skill secundária são exibidos quando a fonte
+os declara. Nenhum controle ou ponto público ultrapassa 105.0. Quando a fonte
+começa acima desse teto, a página informa a fronteira pública em 105.0 com
+chance zero dentro do intervalo consultável, sem expor o valor superior.
+Tailoring usa 50% na skill mínima nas receitas normais; as curvas especiais
+foram recalculadas no teto público sem revelar skills superiores. Tinkering
+preserva a exceção de 50% para Potion Keg e as curvas especiais dos itens DoB.
+Exceptional segue a política ECA oficial do sistema; itens marcados como
+`ForceNonExceptional` mostram que não se aplica.
+
+Glassblowing e Masonry foram retiradas do índice do Craft e do hub público,
+mas os arquivos Markdown foram mantidos fora da navegação para preservar URLs
+antigas e permitir redirect/remoção formal em uma revisão específica.

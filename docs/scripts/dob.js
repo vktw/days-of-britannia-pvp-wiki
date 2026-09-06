@@ -210,6 +210,7 @@ function bindDobCraftSimulator() {
     const skillName = simulator.querySelector("[data-craft-sim-skill-name]");
     const recipeMinimum = simulator.querySelector("[data-craft-sim-recipe-min]");
     const materialMinimum = simulator.querySelector("[data-craft-sim-material-min]");
+    const requirements = simulator.querySelector("[data-craft-sim-requirements]");
     const chance = simulator.querySelector("[data-craft-sim-chance]");
     const exceptional = simulator.querySelector("[data-craft-sim-exceptional]");
     const note = simulator.querySelector("[data-craft-sim-note]");
@@ -229,7 +230,7 @@ function bindDobCraftSimulator() {
           fixedMaterialLabel: "Fixed ingredients",
           woodMaterialLabel: "Main wood",
           woodMaterial: "Selected wood only changes the resource and minimum selection skill; it is not a chance bonus.",
-          materialEligible: (name, value) => `${name} is selectable from ${formatDobCraftSkill(value)} Fletching.`,
+          materialEligible: (name, value) => `${name} is selectable from ${formatDobCraftSkill(value)} ${simulatorSkill}.`,
           belowRecipe: "Below the recipe minimum: this item is not eligible.",
           belowMaterial: "Below the selected material minimum: this material cannot be selected at this skill.",
           baseMinimum: "Base chance at the recipe minimum.",
@@ -247,7 +248,7 @@ function bindDobCraftSimulator() {
           fixedMaterialLabel: "Ingredientes fixos",
           woodMaterialLabel: "Madeira principal",
           woodMaterial: "A madeira só muda o recurso e a skill mínima de seleção; não é bônus de chance.",
-          materialEligible: (name, value) => `${name} pode ser selecionado a partir de ${formatDobCraftSkill(value)} de Fletching.`,
+          materialEligible: (name, value) => `${name} pode ser selecionado a partir de ${formatDobCraftSkill(value)} de ${simulatorSkill}.`,
           belowRecipe: "Abaixo da skill mínima da receita: este item não está elegível.",
           belowMaterial: "Abaixo da skill mínima do material: este material não pode ser selecionado nesta skill.",
           baseMinimum: "Chance-base na skill mínima da receita.",
@@ -418,11 +419,33 @@ function bindDobCraftSimulator() {
           return;
         }
 
+        if (selectedItem.dataset.craftExceptionalMode === "chance-minus-sixty") {
+          exceptional.textContent = successChance === null
+            ? "—"
+            : formatDobCraftChance(Math.max(0, Math.min(100, (successChance - 0.60) * 100)));
+          return;
+        }
+
+        if (selectedItem.dataset.craftExceptionalMode === "chance-minus-sixty-to-fourty-five") {
+          if (successChance === null) {
+            exceptional.textContent = "—";
+            return;
+          }
+
+          let offset = 0.60 - (selectedSkill - 95.0) * 0.03;
+          offset = Math.max(0.45, Math.min(0.60, offset));
+          exceptional.textContent = formatDobCraftChance(Math.max(0, Math.min(100, (successChance - offset) * 100)));
+          return;
+        }
+
         exceptional.textContent = selectedItem.dataset.craftExceptional || "—";
       };
 
       updateExceptional(null);
       updateIngredients(selectedItem);
+      if (requirements) {
+        requirements.textContent = selectedItem.dataset.craftRequirements || "—";
+      }
       chance.textContent = "—";
 
       if (selectedSkill < minimumSkill) {

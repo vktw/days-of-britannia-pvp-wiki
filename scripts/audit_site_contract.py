@@ -40,6 +40,8 @@ INTENTIONALLY_UNLISTED = frozenset(
         "itens/armas.md",
         "itens/armaduras.md",
         "itens/consumiveis.md",
+        "craft/glassblowing.md",
+        "craft/masonry.md",
     }
 )
 

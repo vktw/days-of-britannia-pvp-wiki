@@ -22,7 +22,7 @@ extra_css:
   - stylesheets/extra.css?v=20260831.2
 extra_javascript:
   - scripts/blacksmith.js?v=20260906.1
-  - scripts/dob.js?v=20260906.2
+  - scripts/dob.js?v=20260906.4
 plugins:
   - search:
       lang:
@@ -61,9 +61,7 @@ plugins:
             Carpentry: Carpentry
             Cartography: Cartography
             Cooking: Cooking
-            Glassblowing: Glassblowing
             Inscription: Inscription
-            Masonry: Masonry
             Tailoring: Tailoring
             Tinkering: Tinkering
             Armas clássicas: Classic weapons
@@ -114,9 +112,7 @@ nav:
       - Carpentry: craft/carpentry.md
       - Cartography: craft/cartography.md
       - Cooking: craft/cooking.md
-      - Glassblowing: craft/glassblowing.md
       - Inscription: craft/inscription.md
-      - Masonry: craft/masonry.md
       - Tailoring: craft/tailoring.md
       - Tinkering: craft/tinkering.md
   - Sistemas:

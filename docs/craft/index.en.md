@@ -1,6 +1,6 @@
 # Craft
 
-**0.40.0** organizes crafting into eleven categories. This section gathers
+**0.41.0** organizes crafting into nine categories. This section gathers
 the recipes most useful to players, required materials, skill ranges, and a
 control for checking base success chance.
 
@@ -17,9 +17,7 @@ control for checking base success chance.
 - [Carpentry](carpentry.md): wooden weapons, furniture, and special pieces.
 - [Cartography](cartography.md): maps, charts, and atlases.
 - [Cooking](cooking.md): food, special recipes, and preparations requiring heat.
-- [Glassblowing](glassblowing.md): glassware, prisms, and glass weapons.
 - [Inscription](inscription.md): books, scrolls, and scribe recipes.
-- [Masonry](masonry.md): granite pieces, sculptures, and stonework.
 - [Tailoring](tailoring.md): clothing, leather, quivers, and belts.
 - [Tinkering](tinkering.md): tools, jewelry, and DoB Tools.
 
@@ -27,15 +25,11 @@ control for checking base success chance.
 
 | Menu category | Base skill used for the query | Note |
 |---|---|---|
-| Alchemy | Alchemy | Glassblowing also uses Alchemy as its base skill. |
 | Blacksmithy | Blacksmith | Special metals have their own curves. |
 | Bowcraft | Fletching | The public category is called Bowcraft. |
-| Carpentry | Carpentry | Masonry uses Carpentry as its base skill. |
 | Cartography | Cartography | The result depends on the selected map. |
 | Cooking | Cooking | Some recipes have a different base chance. |
-| Glassblowing | Alchemy | Requires Alchemy 100.0, Glassblowing training, and a forge. |
 | Inscription | Inscribe | Craft chance does not change magic damage. |
-| Masonry | Carpentry | Requires Carpentry 100.0 and Masonry training. |
 | Tailoring | Tailoring | Exceptional is a separate roll. |
 | Tinkering | Tinkering | DoB Tools use special curves. |
 

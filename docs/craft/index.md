@@ -1,6 +1,6 @@
 # Craft
 
-O **0.40.0** organiza o craft em onze categorias. Esta seção reúne as
+O **0.41.0** organiza o craft em nove categorias. Esta seção reúne as
 receitas de maior interesse para jogadores, os materiais exigidos, a faixa de
 skill e um controle para consultar a chance-base de sucesso.
 
@@ -17,9 +17,7 @@ skill e um controle para consultar a chance-base de sucesso.
 - [Carpentry](carpentry.md): armas de madeira, móveis e peças especiais.
 - [Cartography](cartography.md): mapas, cartas e atlas.
 - [Cooking](cooking.md): comida, receitas especiais e preparos que exigem calor.
-- [Glassblowing](glassblowing.md): vidraria, prismas e armas de vidro.
 - [Inscription](inscription.md): livros, scrolls e receitas de escriba.
-- [Masonry](masonry.md): peças de granito, esculturas e alvenaria.
 - [Tailoring](tailoring.md): roupas, couro, quivers e belts.
 - [Tinkering](tinkering.md): ferramentas, joias e DoB Tools.
 
@@ -27,15 +25,11 @@ skill e um controle para consultar a chance-base de sucesso.
 
 | Categoria do menu | Skill-base usada na consulta | Observação |
 |---|---|---|
-| Alchemy | Alchemy | Glassblowing também usa Alchemy como skill-base. |
 | Blacksmithy | Blacksmith | Metais especiais têm curvas próprias. |
 | Bowcraft | Fletching | A categoria pública é chamada Bowcraft. |
-| Carpentry | Carpentry | Masonry usa Carpentry como skill-base. |
 | Cartography | Cartography | O resultado depende do mapa escolhido. |
 | Cooking | Cooking | Algumas receitas têm chance-base diferente. |
-| Glassblowing | Alchemy | Exige Alchemy 100.0, aprendizado de Glassblowing e forge. |
 | Inscription | Inscribe | A chance de craft não altera o dano mágico. |
-| Masonry | Carpentry | Exige Carpentry 100.0 e aprendizado de Masonry. |
 | Tailoring | Tailoring | Exceptional é uma rolagem separada. |
 | Tinkering | Tinkering | DoB Tools usam curvas especiais. |
 
