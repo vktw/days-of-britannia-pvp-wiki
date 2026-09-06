@@ -12,6 +12,8 @@ extended with custom PvP and PvM rules for the shard's direction.
 - [Houses](casas.md): private-house protection and same-floor interactions.
 - [PvM rewards](../itens/recompensas-pvm.md): Loot Packs, jewelry, and PvM-linked amulets.
 
+- [Season of Thorns](season-of-thorns.md): September event, Overgrown creatures, and seasonal rewards.
+
 ## Exploration systems
 
 - [Nujelm Safe Haven](../mundo/nujelm.md): protection and safe returns in Felucca.
@@ -47,5 +49,5 @@ but remain usable normally in PvM.
 - [Player Vendors](player-vendors.md): Nujelm's protected public market.
 - [Royal Banking Charter](royal-banking-charter.md): permanent character bank expansion.
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.41.0"
     The availability below corresponds to the official ruleset.

@@ -4,7 +4,7 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Menu da skill</span>
     <h3 id="dob-craft-tailoring-title">Tailoring</h3>
-    <p>0.40.0 · Tailoring usa Tailoring como skill-base para roupas, couro, quivers e belts. Algumas receitas especiais forçam um resultado sem Exceptional ou começam com uma chance de sucesso diferente da base do sistema.</p>
+    <p>0.41.0 · Tailoring usa Tailoring como skill-base para roupas, couro, quivers e belts. Algumas receitas especiais forçam um resultado sem Exceptional ou começam com uma chance de sucesso diferente da base do sistema.</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Menu principal</span>
@@ -13,8 +13,9 @@
       <button type="button" data-craft-sim-open-section="roupas-e-couro" data-craft-sim-section-title="Roupas e couro">
         <span><strong>Roupas e couro</strong><small>4 receitas deste menu</small></span><b>4 receitas&nbsp; →</b>
       </button>
+      <button type="button" data-craft-sim-open-section="dob-cloth" data-craft-sim-section-title="DoB Cloth"><span><strong>DoB Cloth</strong><small>3 robes de atributos</small></span><b>3 receitas&nbsp; →</b></button>
       <button type="button" data-craft-sim-open-section="all" data-craft-sim-section-title="Índice completo">
-        <span><strong>Buscar receita</strong><small>Pesquisar em todo o menu de Tailoring</small></span><b>4 receitas&nbsp; →</b>
+        <span><strong>Buscar receita</strong><small>Pesquisar em todo o menu de Tailoring</small></span><b>7 receitas&nbsp; →</b>
       </button>
     </div>
   </div>
@@ -27,8 +28,11 @@
       <label class="dob-craft-simulator__search" for="dob-craft-tailoring-search">Buscar no índice
         <input id="dob-craft-tailoring-search" type="search" data-craft-sim-search aria-controls="dob-craft-tailoring-index" placeholder="Nome, grupo ou material">
       </label>
-      <p class="dob-craft-simulator__count" data-craft-sim-count aria-live="polite">4 receitas</p>
+      <p class="dob-craft-simulator__count" data-craft-sim-count aria-live="polite">7 receitas</p>
       <div id="dob-craft-tailoring-index" class="dob-craft-simulator__list" data-craft-sim-index role="listbox" aria-label="Tailoring recipes">
+        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="dob-cloth" data-craft-item-id="mantle-of-the-titan" data-craft-item-name="Mantle of the Titan" data-craft-group="DoB Cloth · +5 Strength" data-craft-skill="Tailoring" data-craft-min="65.0" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="100 Cloth + 100 Mandrake Root + 100 Nightshade" data-craft-exceptional="Rolagem de qualidade separada" data-craft-base="0"><span data-craft-sim-index-name>Mantle of the Titan</span><span data-craft-sim-index-meta>DoB Cloth · +5 Strength · 65.0–105.0</span></button>
+        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="dob-cloth" data-craft-item-id="windrunner-robe" data-craft-item-name="Windrunner Robe" data-craft-group="DoB Cloth · +5 Dexterity" data-craft-skill="Tailoring" data-craft-min="65.0" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="100 Cloth + 100 Bloodmoss + 100 Mandrake Root" data-craft-exceptional="Rolagem de qualidade separada" data-craft-base="0"><span data-craft-sim-index-name>Windrunner Robe</span><span data-craft-sim-index-meta>DoB Cloth · +5 Dexterity · 65.0–105.0</span></button>
+        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="dob-cloth" data-craft-item-id="sages-robe" data-craft-item-name="Sage's Robe" data-craft-group="DoB Cloth · +5 Intelligence" data-craft-skill="Tailoring" data-craft-min="65.0" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="100 Cloth + 100 Mandrake Root + 100 Nightshade" data-craft-exceptional="Rolagem de qualidade separada" data-craft-base="0"><span data-craft-sim-index-name>Sage's Robe</span><span data-craft-sim-index-meta>DoB Cloth · +5 Intelligence · 65.0–105.0</span></button>
         <button type="button" role="option" data-craft-sim-item data-craft-sim-section="roupas-e-couro" data-craft-item-id="bandana" data-craft-item-name="Bandana" data-craft-group="Roupas e couro" data-craft-skill="Tailoring" data-craft-min="0.0" data-craft-max="25.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="2 Cloth" data-craft-exceptional="Rolagem separada" data-craft-base="0"><span data-craft-sim-index-name>Bandana</span><span data-craft-sim-index-meta>Roupas e couro · 0.0–25.0</span></button>
         <button type="button" role="option" data-craft-sim-item data-craft-sim-section="roupas-e-couro" data-craft-item-id="shirt" data-craft-item-name="Shirt" data-craft-group="Roupas e couro" data-craft-skill="Tailoring" data-craft-min="20.7" data-craft-max="45.7" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="8 Cloth" data-craft-exceptional="Rolagem separada" data-craft-base="0"><span data-craft-sim-index-name>Shirt</span><span data-craft-sim-index-meta>Roupas e couro · 20.7–45.7</span></button>
         <button type="button" role="option" data-craft-sim-item data-craft-sim-section="roupas-e-couro" data-craft-item-id="cloak" data-craft-item-name="Cloak" data-craft-group="Roupas e couro" data-craft-skill="Tailoring" data-craft-min="41.4" data-craft-max="66.4" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="14 Cloth" data-craft-exceptional="Rolagem separada" data-craft-base="0"><span data-craft-sim-index-name>Cloak</span><span data-craft-sim-index-meta>Roupas e couro · 41.4–66.4</span></button>

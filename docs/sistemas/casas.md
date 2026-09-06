@@ -12,5 +12,11 @@ Pisos estruturais não bloqueiam interações no mesmo andar quando estão abaix
 da linha de visão. Paredes, portas, outros andares e regras de acesso continuam
 protegidos.
 
-!!! success "Status: 0.40.0"
+## Commodity Deed Box
+
+Bankers vendem a **Commodity Deed Box por 20.000 Gold**. Para operar Commodity
+Deeds, a caixa precisa estar **secured dentro de uma casa**; mantê-la na mochila
+não é suficiente.
+
+!!! success "Status: 0.41.0"
     Estas regras correspondem ao servidor oficial.

@@ -17,10 +17,11 @@ theme:
   palette:
     scheme: dob
 extra:
-  dob_version: "0.40.0"
+  dob_version: "0.41.0"
 extra_css:
   - stylesheets/extra.css?v=20260831.2
 extra_javascript:
+  - scripts/blacksmith.js?v=20260906.1
   - scripts/dob.js?v=20260831.1
 plugins:
   - search:
@@ -125,6 +126,7 @@ nav:
       - Maestria PvM: sistemas/pvm-mastery.md
       - Caça PvM: sistemas/caca-pvm.md
       - Pets e montarias: sistemas/pets-montarias.md
+      - Season of Thorns: sistemas/season-of-thorns.md
       - Casas: sistemas/casas.md
       - Tomes of Expertise: sistemas/tomes-expertise.md
       - Player Vendors: sistemas/player-vendors.md

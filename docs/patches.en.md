@@ -2,6 +2,24 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.41.0 · Season of Thorns
+
+Published September 1, 2026.
+
+- Season of Thorns brings Overgrown creatures after eligible deaths of Ettins, Trolls, Frost Trolls, Ogres, Ogre Lords, Cyclopes, and Minotaurs.
+- Overgrown participate in normal PvM and can use Overgrown Grasp: roots for 3 seconds and Deadly Poison, without duplicating the original loot.
+- Ancient Overgrowth has a 10% chance to carry the bilingual book O Testamento da Primeira Sarça.
+- Heart of the Briar is the edition's tradable, lootable currency. The Briarheart Keeper is available during the season and for 7 days after its natural end.
+- Briarheart Pigment, Briarstrider, and Thornwake are the top rewards, each redeemable once per account per edition.
+- Britain, Minoc, Serpent's Hold, and Cove receive briar decorations that grow during the season and are removed at its end.
+- Tailoring gains DoB Cloth: Mantle of the Titan (+5 Strength), Windrunner Robe (+5 Dexterity), and Sage's Robe (+5 Intelligence). Each recipe requires 100 Cloth and 100 of each matching reagent; success runs from 0% at 65.0 to 100% at 105.0.
+- Ingots and boards now weigh 0.5 stone per unit.
+- Tracking reaches 43 tiles at 100.0 and 45 tiles at 105.0 effective skill, preserving filters and result limits.
+- Magical creatures consider their actual Cure chance and may use Mana Drain or Mana Vampire in PvM, preserving protections for players, pets, summons, Arena, and PvP.
+- Bankers sell Commodity Deed Box for 20,000 Gold; the box must be secured in a house to operate Commodity Deeds.
+
+See [Season of Thorns](sistemas/season-of-thorns.md), [Tailoring](craft/tailoring.md), and [Houses](sistemas/casas.md).
+
 ## 0.40.0 · The Red Verdict
 
 Odran rides in Wrong while menus, equipment, and interactions receive improvements.

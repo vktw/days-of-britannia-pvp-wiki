@@ -4,7 +4,7 @@
   <div class="dob-craft-simulator__heading">
     <span class="dob-craft-simulator__eyebrow">Skill menu</span>
     <h3 id="dob-craft-tailoring-title">Tailoring</h3>
-    <p>0.40.0 · Tailoring uses Tailoring as its base skill for clothing, leather, quivers, and belts. Some special recipes force a result without Exceptional or start with a different success chance from the system base.</p>
+    <p>0.41.0 · Tailoring uses Tailoring as its base skill for clothing, leather, quivers, and belts. Some special recipes force a result without Exceptional or start with a different success chance from the system base.</p>
   </div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
     <span class="dob-craft-simulator__screen-label">Main menu</span>
@@ -13,8 +13,9 @@
       <button type="button" data-craft-sim-open-section="roupas-e-couro" data-craft-sim-section-title="Clothing and leather">
         <span><strong>Clothing and leather</strong><small>4 recipes in this menu</small></span><b>4 recipes&nbsp; →</b>
       </button>
+      <button type="button" data-craft-sim-open-section="dob-cloth" data-craft-sim-section-title="DoB Cloth"><span><strong>DoB Cloth</strong><small>3 stat robes</small></span><b>3 recipes&nbsp; →</b></button>
       <button type="button" data-craft-sim-open-section="all" data-craft-sim-section-title="Full index">
-        <span><strong>Search recipes</strong><small>Search the entire Tailoring menu</small></span><b>4 recipes&nbsp; →</b>
+        <span><strong>Search recipes</strong><small>Search the entire Tailoring menu</small></span><b>7 recipes&nbsp; →</b>
       </button>
     </div>
   </div>
@@ -27,8 +28,11 @@
       <label class="dob-craft-simulator__search" for="dob-craft-tailoring-search">Search the index
         <input id="dob-craft-tailoring-search" type="search" data-craft-sim-search aria-controls="dob-craft-tailoring-index" placeholder="Name, group, or material">
       </label>
-      <p class="dob-craft-simulator__count" data-craft-sim-count aria-live="polite">4 recipes</p>
+      <p class="dob-craft-simulator__count" data-craft-sim-count aria-live="polite">7 recipes</p>
       <div id="dob-craft-tailoring-index" class="dob-craft-simulator__list" data-craft-sim-index role="listbox" aria-label="Tailoring recipes">
+        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="dob-cloth" data-craft-item-id="mantle-of-the-titan" data-craft-item-name="Mantle of the Titan" data-craft-group="DoB Cloth · +5 Strength" data-craft-skill="Tailoring" data-craft-min="65.0" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="100 Cloth + 100 Mandrake Root + 100 Nightshade" data-craft-exceptional="Separate quality roll" data-craft-base="0"><span data-craft-sim-index-name>Mantle of the Titan</span><span data-craft-sim-index-meta>DoB Cloth · +5 Strength · 65.0–105.0</span></button>
+        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="dob-cloth" data-craft-item-id="windrunner-robe" data-craft-item-name="Windrunner Robe" data-craft-group="DoB Cloth · +5 Dexterity" data-craft-skill="Tailoring" data-craft-min="65.0" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="100 Cloth + 100 Bloodmoss + 100 Mandrake Root" data-craft-exceptional="Separate quality roll" data-craft-base="0"><span data-craft-sim-index-name>Windrunner Robe</span><span data-craft-sim-index-meta>DoB Cloth · +5 Dexterity · 65.0–105.0</span></button>
+        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="dob-cloth" data-craft-item-id="sages-robe" data-craft-item-name="Sage's Robe" data-craft-group="DoB Cloth · +5 Intelligence" data-craft-skill="Tailoring" data-craft-min="65.0" data-craft-max="105.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="100 Cloth + 100 Mandrake Root + 100 Nightshade" data-craft-exceptional="Separate quality roll" data-craft-base="0"><span data-craft-sim-index-name>Sage's Robe</span><span data-craft-sim-index-meta>DoB Cloth · +5 Intelligence · 65.0–105.0</span></button>
         <button type="button" role="option" data-craft-sim-item data-craft-sim-section="roupas-e-couro" data-craft-item-id="bandana" data-craft-item-name="Bandana" data-craft-group="Clothing and leather" data-craft-skill="Tailoring" data-craft-min="0.0" data-craft-max="25.0" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="2 Cloth" data-craft-exceptional="Separate roll" data-craft-base="0"><span data-craft-sim-index-name>Bandana</span><span data-craft-sim-index-meta>Clothing and leather · 0.0–25.0</span></button>
         <button type="button" role="option" data-craft-sim-item data-craft-sim-section="roupas-e-couro" data-craft-item-id="shirt" data-craft-item-name="Shirt" data-craft-group="Clothing and leather" data-craft-skill="Tailoring" data-craft-min="20.7" data-craft-max="45.7" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="8 Cloth" data-craft-exceptional="Separate roll" data-craft-base="0"><span data-craft-sim-index-name>Shirt</span><span data-craft-sim-index-meta>Clothing and leather · 20.7–45.7</span></button>
         <button type="button" role="option" data-craft-sim-item data-craft-sim-section="roupas-e-couro" data-craft-item-id="cloak" data-craft-item-name="Cloak" data-craft-group="Clothing and leather" data-craft-skill="Tailoring" data-craft-min="41.4" data-craft-max="66.4" data-craft-slider-max="105.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="14 Cloth" data-craft-exceptional="Separate roll" data-craft-base="0"><span data-craft-sim-index-name>Cloak</span><span data-craft-sim-index-meta>Clothing and leather · 41.4–66.4</span></button>

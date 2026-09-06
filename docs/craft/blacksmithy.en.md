@@ -1,129 +1,115 @@
 # Blacksmithy
 
-<section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Blacksmith" data-craft-sim-slider-max="805" aria-labelledby="dob-craft-blacksmithy-title">
-  <div class="dob-craft-simulator__heading">
-    <span class="dob-craft-simulator__eyebrow">Skill menu</span>
-    <h3 id="dob-craft-blacksmithy-title">Blacksmithy</h3>
-    <p>0.40.0 · Blacksmithy uses Blacksmith as its skill and separates regular crafting from the DoB Weapons lines and special metals. The percentages below are the chance to produce the item; Arms Lore and Exceptional are separate when applicable.</p>
-  </div>
-  <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen>
-    <span class="dob-craft-simulator__screen-label">Main menu</span>
-    <h4>Choose a category</h4>
-    <div class="dob-craft-simulator__menu">
-      <button type="button" data-craft-sim-open-section="dob-weapons" data-craft-sim-section-title="DoB Weapons">
-        <span><strong>DoB Weapons</strong><small>2 recipes in this menu</small></span><b>2 recipes&nbsp; →</b>
-      </button>
-      <button type="button" data-craft-sim-open-section="armaduras-e-pecas-chain" data-craft-sim-section-title="Armor and Chain pieces">
-        <span><strong>Armor and Chain pieces</strong><small>5 recipes in this menu</small></span><b>5 recipes&nbsp; →</b>
-      </button>
-      <button type="button" data-craft-sim-open-section="curvas-de-metais-especiais" data-craft-sim-section-title="Special-metal curves">
-        <span><strong>Special-metal curves</strong><small>8 recipes in this menu</small></span><b>8 recipes&nbsp; →</b>
-      </button>
-      <button type="button" data-craft-sim-open-section="all" data-craft-sim-section-title="Full index">
-        <span><strong>Search recipes</strong><small>Search the entire Blacksmithy menu</small></span><b>85 recipes&nbsp; →</b>
-      </button>
-    </div>
-  </div>
-  <div class="dob-craft-simulator__layout" data-craft-sim-screen="recipes" hidden>
-    <div class="dob-craft-simulator__index">
-      <div class="dob-craft-simulator__screen-top">
-        <button type="button" class="dob-craft-simulator__back" data-craft-sim-back="menu">← Main menu</button>
-        <div><span class="dob-craft-simulator__screen-label">Open menu</span><h4 data-craft-sim-category-title>Full index</h4></div>
-      </div>
-      <label class="dob-craft-simulator__search" for="dob-craft-blacksmithy-search">Search the index
-        <input id="dob-craft-blacksmithy-search" type="search" data-craft-sim-search aria-controls="dob-craft-blacksmithy-index" placeholder="Name, group, or material">
-      </label>
-      <p class="dob-craft-simulator__count" data-craft-sim-count aria-live="polite">85 recipes</p>
-      <div id="dob-craft-blacksmithy-index" class="dob-craft-simulator__list" data-craft-sim-index role="listbox" aria-label="Blacksmithy recipes">
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="dob-weapons" data-craft-item-id="bloodrock-crimson-rite-blood-vow-vein-sever-ritual-conduit-sanguine-toll-e-crimson-verdict" data-craft-item-name="Bloodrock: Crimson Rite, Blood Vow, Vein Sever, Ritual Conduit, Sanguine Toll, and Crimson Verdict" data-craft-group="DoB Weapons" data-craft-skill="Blacksmith" data-craft-min="75.0" data-craft-max="805.0" data-craft-slider-max="805.0" data-craft-formula="points" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="30 Bloodrock Ingots" data-craft-exceptional="Arms Lore as a separate roll" data-craft-points="75:0|92.5:50|805:800" data-craft-interpolate="true">
-          <span data-craft-sim-index-name>Bloodrock: Crimson Rite, Blood Vow, Vein Sever, Ritual Conduit, Sanguine Toll, and Crimson Verdict</span>
-          <span data-craft-sim-index-meta>DoB Weapons · 75.0–805.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="dob-weapons" data-craft-item-id="blackrock-dusk-reaver-nightfang-gloom-sever-umbral-conduit-dark-toll-e-midnight-verdict" data-craft-item-name="Blackrock: Dusk Reaver, Nightfang, Gloom Sever, Umbral Conduit, Dark Toll, and Midnight Verdict" data-craft-group="DoB Weapons" data-craft-skill="Blacksmith" data-craft-min="75.0" data-craft-max="805.0" data-craft-slider-max="805.0" data-craft-formula="points" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="30 Blackrock Ingots" data-craft-exceptional="Arms Lore as a separate roll" data-craft-points="75:0|92.5:50|805:800" data-craft-interpolate="true">
-          <span data-craft-sim-index-name>Blackrock: Dusk Reaver, Nightfang, Gloom Sever, Umbral Conduit, Dark Toll, and Midnight Verdict</span>
-          <span data-craft-sim-index-meta>DoB Weapons · 75.0–805.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="armaduras-e-pecas-chain" data-craft-item-id="chain-coif" data-craft-item-name="Chain Coif" data-craft-group="Armor and Chain pieces" data-craft-skill="Blacksmith" data-craft-min="84.5" data-craft-max="64.5" data-craft-slider-max="805.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="80 Iron Ingots" data-craft-exceptional="Not published in this preview" data-craft-base="0">
-          <span data-craft-sim-index-name>Chain Coif</span>
-          <span data-craft-sim-index-meta>Armor and Chain pieces · 84.5–64.5</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="armaduras-e-pecas-chain" data-craft-item-id="chain-legs" data-craft-item-name="Chain Legs" data-craft-group="Armor and Chain pieces" data-craft-skill="Blacksmith" data-craft-min="36.7" data-craft-max="86.7" data-craft-slider-max="805.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="88 Iron Ingots" data-craft-exceptional="Not published in this preview" data-craft-base="0">
-          <span data-craft-sim-index-name>Chain Legs</span>
-          <span data-craft-sim-index-meta>Armor and Chain pieces · 36.7–86.7</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="armaduras-e-pecas-chain" data-craft-item-id="chain-chest" data-craft-item-name="Chain Chest" data-craft-group="Armor and Chain pieces" data-craft-skill="Blacksmith" data-craft-min="39.8" data-craft-max="89.8" data-craft-slider-max="805.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="20 Iron Ingots" data-craft-exceptional="Not published in this preview" data-craft-base="0">
-          <span data-craft-sim-index-name>Chain Chest</span>
-          <span data-craft-sim-index-meta>Armor and Chain pieces · 39.8–89.8</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="armaduras-e-pecas-chain" data-craft-item-id="plate-chest" data-craft-item-name="Plate Chest" data-craft-group="Armor and Chain pieces" data-craft-skill="Blacksmith" data-craft-min="75.0" data-craft-max="805.0" data-craft-slider-max="805.0" data-craft-formula="linear" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="25 Iron Ingots" data-craft-exceptional="Arms Lore as a separate roll" data-craft-base="0">
-          <span data-craft-sim-index-name>Plate Chest</span>
-          <span data-craft-sim-index-meta>Armor and Chain pieces · 75.0–805.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="curvas-de-metais-especiais" data-craft-item-id="bronze" data-craft-item-name="Bronze" data-craft-group="Special-metal curves" data-craft-skill="Blacksmith" data-craft-min="35.0" data-craft-max="800.0" data-craft-slider-max="805.0" data-craft-formula="points" data-craft-tail="cap" data-craft-material-mode="fixed" data-craft-materials="Bronze Ingots" data-craft-exceptional="Arms Lore as a separate roll" data-craft-points="35:20|800:800" data-craft-interpolate="true">
-          <span data-craft-sim-index-name>Bronze</span>
-          <span data-craft-sim-index-meta>Special-metal curves · 35.0–800.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="curvas-de-metais-especiais" data-craft-item-id="shadow" data-craft-item-name="Shadow" data-craft-group="Special-metal curves" data-craft-skill="Blacksmith" data-craft-min="45.0" data-craft-max="805.0" data-craft-slider-max="805.0" data-craft-formula="review" data-craft-tail="review" data-craft-material-mode="fixed" data-craft-materials="Shadow Ingots" data-craft-exceptional="Not published in this preview">
-          <span data-craft-sim-index-name>Shadow</span>
-          <span data-craft-sim-index-meta>Special-metal curves · 45.0–805.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="curvas-de-metais-especiais" data-craft-item-id="silver" data-craft-item-name="Silver" data-craft-group="Special-metal curves" data-craft-skill="Blacksmith" data-craft-min="55.0" data-craft-max="805.0" data-craft-slider-max="805.0" data-craft-formula="review" data-craft-tail="review" data-craft-material-mode="fixed" data-craft-materials="Silver Ingots" data-craft-exceptional="Not published in this preview">
-          <span data-craft-sim-index-name>Silver</span>
-          <span data-craft-sim-index-meta>Special-metal curves · 55.0–805.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="curvas-de-metais-especiais" data-craft-item-id="gold" data-craft-item-name="Gold" data-craft-group="Special-metal curves" data-craft-skill="Blacksmith" data-craft-min="65.0" data-craft-max="805.0" data-craft-slider-max="805.0" data-craft-formula="review" data-craft-tail="review" data-craft-material-mode="fixed" data-craft-materials="Gold Ingots" data-craft-exceptional="Not published in this preview">
-          <span data-craft-sim-index-name>Gold</span>
-          <span data-craft-sim-index-meta>Special-metal curves · 65.0–805.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="curvas-de-metais-especiais" data-craft-item-id="bloodrock" data-craft-item-name="Bloodrock" data-craft-group="Special-metal curves" data-craft-skill="Blacksmith" data-craft-min="75.0" data-craft-max="805.0" data-craft-slider-max="805.0" data-craft-formula="review" data-craft-tail="review" data-craft-material-mode="fixed" data-craft-materials="Bloodrock Ingots" data-craft-exceptional="Not published in this preview">
-          <span data-craft-sim-index-name>Bloodrock</span>
-          <span data-craft-sim-index-meta>Special-metal curves · 75.0–805.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="curvas-de-metais-especiais" data-craft-item-id="blackrock" data-craft-item-name="Blackrock" data-craft-group="Special-metal curves" data-craft-skill="Blacksmith" data-craft-min="80.0" data-craft-max="805.0" data-craft-slider-max="805.0" data-craft-formula="review" data-craft-tail="review" data-craft-material-mode="fixed" data-craft-materials="Blackrock Ingots" data-craft-exceptional="Not published in this preview">
-          <span data-craft-sim-index-name>Blackrock</span>
-          <span data-craft-sim-index-meta>Special-metal curves · 80.0–805.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="curvas-de-metais-especiais" data-craft-item-id="mythril" data-craft-item-name="Mythril" data-craft-group="Special-metal curves" data-craft-skill="Blacksmith" data-craft-min="85.0" data-craft-max="805.0" data-craft-slider-max="805.0" data-craft-formula="review" data-craft-tail="review" data-craft-material-mode="fixed" data-craft-materials="Mythril Ingots" data-craft-exceptional="Not published in this preview">
-          <span data-craft-sim-index-name>Mythril</span>
-          <span data-craft-sim-index-meta>Special-metal curves · 85.0–805.0</span>
-        </button>
-        <button type="button" role="option" data-craft-sim-item data-craft-sim-section="curvas-de-metais-especiais" data-craft-item-id="brittanium" data-craft-item-name="Brittanium" data-craft-group="Special-metal curves" data-craft-skill="Blacksmith" data-craft-min="90.0" data-craft-max="805.0" data-craft-slider-max="805.0" data-craft-formula="points" data-craft-tail="review" data-craft-material-mode="fixed" data-craft-materials="Brittanium Ingots" data-craft-exceptional="Arms Lore as a separate roll" data-craft-points="90:20|800:75" data-craft-interpolate="true">
-          <span data-craft-sim-index-name>Brittanium</span>
-          <span data-craft-sim-index-meta>Special-metal curves · 90.0–805.0</span>
-        </button>
-      </div>
-      <p class="dob-craft-simulator__empty" data-craft-sim-empty hidden>No recipe matches this search.</p>
-    </div>
-    <div class="dob-craft-simulator__workbench" data-craft-sim-workbench hidden>
-      <button type="button" class="dob-craft-simulator__back" data-craft-sim-back="recipes">← Back to recipes</button>
-      <div class="dob-craft-simulator__selected">
-        <div>
-          <span class="dob-craft-simulator__label">Selected recipe</span>
-          <h4 data-craft-sim-selected-name>Bloodrock: Crimson Rite, Blood Vow, Vein Sever, Ritual Conduit, Sanguine Toll, and Crimson Verdict</h4>
-          <p data-craft-sim-selected-group>DoB Weapons</p>
-        </div>
-        <strong data-craft-sim-selected-range>75.0–805.0 Blacksmith</strong>
-      </div>
-      <div class="dob-craft-simulator__fields">
-        <div class="dob-craft-simulator__material-field">
-          <span>Main material</span>
-          <strong class="dob-craft-simulator__material-static" data-craft-sim-material-static>Fixed ingredients</strong>
-          <small data-craft-sim-material-note>The recipe uses fixed ingredients; the full list appears below.</small>
-        </div>
-        <label for="dob-craft-blacksmithy-skill">Base skill query
-          <span class="dob-craft-simulator__range-line"><input id="dob-craft-blacksmithy-skill" type="range" min="0" max="805" step="0.8" value="800.0" data-craft-sim-skill aria-describedby="dob-craft-blacksmithy-help dob-craft-blacksmithy-note"><output for="dob-craft-blacksmithy-skill" data-craft-sim-skill-value>800.0</output></span>
-        </label>
-      </div>
-      <div class="dob-craft-simulator__ingredients"><span>Required materials</span><strong data-craft-sim-ingredients>30 Bloodrock Ingots</strong></div>
-      <div class="dob-craft-simulator__result" data-craft-sim-result role="status" aria-live="polite">
-        <div><span>Skill used</span><strong data-craft-sim-skill-name>Blacksmith</strong></div>
-        <div><span>Recipe minimum</span><strong data-craft-sim-recipe-min>75.0</strong></div>
-        <div><span>Material minimum</span><strong data-craft-sim-material-min>—</strong></div>
-        <div><span>Success chance</span><strong data-craft-sim-chance>—</strong></div>
-        <div><span>Exceptional</span><strong data-craft-sim-exceptional>Arms Lore as a separate roll</strong></div>
-      </div>
-      <p id="dob-craft-blacksmithy-help" class="dob-craft-simulator__help">Regular weapons continue to use Iron. Special metal is not applied automatically to regular recipes. The selected metal keeps the piece's cost and changes its protection in the public ruleset. Exceptional quality is a separate roll.</p>
-      <p id="dob-craft-blacksmithy-note" class="dob-craft-simulator__note" data-craft-sim-note>Choose a recipe to query its published curve.</p>
-    </div>
-  </div>
+<section class="dob-craft-simulator" data-smith-simulator aria-labelledby="smith-title">
+<div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Skill menu</span><h3 id="smith-title">Blacksmithy</h3><p>0.41.0 · Choose a category, recipe, and material. Use a Blacksmithy tool near a forge and an anvil.</p></div>
+<div data-smith-menu><span class="dob-craft-simulator__screen-label">Main menu</span><h4>Choose a category</h4><div class="dob-craft-simulator__menu">
+<button type="button" data-smith-category="metal-armor"><span><strong>Metal Armor</strong><small>13 recipes</small></span><b>→</b></button>
+<button type="button" data-smith-category="helmets"><span><strong>Helmets</strong><small>5 recipes</small></span><b>→</b></button>
+<button type="button" data-smith-category="shields"><span><strong>Shields</strong><small>9 recipes</small></span><b>→</b></button>
+<button type="button" data-smith-category="bladed"><span><strong>Bladed</strong><small>11 recipes</small></span><b>→</b></button>
+<button type="button" data-smith-category="axes"><span><strong>Axes</strong><small>7 recipes</small></span><b>→</b></button>
+<button type="button" data-smith-category="polearms"><span><strong>Polearms</strong><small>9 recipes</small></span><b>→</b></button>
+<button type="button" data-smith-category="bashing"><span><strong>Bashing</strong><small>5 recipes</small></span><b>→</b></button>
+<button type="button" data-smith-category="dob-weapons"><span><strong>DoB Weapons</strong><small>Bloodrock / Blackrock</small></span><b>→</b></button>
+<button type="button" data-smith-category="all"><span><strong>Search recipes</strong><small>71 recipes in the full index</small></span><b>→</b></button>
+</div></div>
+<div data-smith-submenu hidden><button type="button" class="dob-craft-simulator__back" data-smith-back="menu">← Main menu</button><h4>DoB Weapons</h4><div class="dob-craft-simulator__menu">
+<button type="button" data-smith-category="bloodrock"><span><strong>Bloodrock</strong><small>6 recipes</small></span><b>→</b></button>
+<button type="button" data-smith-category="blackrock"><span><strong>Blackrock</strong><small>6 recipes</small></span><b>→</b></button>
+</div></div>
+<div class="dob-craft-simulator__layout" data-smith-layout hidden>
+<div class="dob-craft-simulator__index">
+<div class="dob-craft-simulator__screen-top"><button type="button" class="dob-craft-simulator__back" data-smith-back="category">← Back</button><div><span class="dob-craft-simulator__screen-label">Open menu</span><h4 data-smith-category-title></h4></div></div>
+<label class="dob-craft-simulator__search" for="smith-search">Search the index<input id="smith-search" type="search" data-smith-search placeholder="Name, category, or material" aria-controls="smith-index"></label>
+<p class="dob-craft-simulator__count" data-smith-count aria-live="polite"></p>
+<div id="smith-index" class="dob-craft-simulator__list" role="listbox" aria-label="Blacksmithy recipes">
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Ringmail Gloves" data-section="metal-armor" data-group="Metal Armor" data-metal="Iron" data-amount="10" data-select-metal="true" data-points="12:0|62:100"><span data-craft-sim-index-name>Ringmail Gloves</span><span data-craft-sim-index-meta>Selectable metal · 10 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Ringmail Legs" data-section="metal-armor" data-group="Metal Armor" data-metal="Iron" data-amount="16" data-select-metal="true" data-points="19.4:0|69.4:100"><span data-craft-sim-index-name>Ringmail Legs</span><span data-craft-sim-index-meta>Selectable metal · 16 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Ringmail Arms" data-section="metal-armor" data-group="Metal Armor" data-metal="Iron" data-amount="14" data-select-metal="true" data-points="16.9:0|66.9:100"><span data-craft-sim-index-name>Ringmail Arms</span><span data-craft-sim-index-meta>Selectable metal · 14 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Ringmail Chest" data-section="metal-armor" data-group="Metal Armor" data-metal="Iron" data-amount="18" data-select-metal="true" data-points="21.9:0|71.9:100"><span data-craft-sim-index-name>Ringmail Chest</span><span data-craft-sim-index-meta>Selectable metal · 18 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Chain Coif" data-section="metal-armor" data-group="Metal Armor" data-metal="Iron" data-amount="10" data-select-metal="true" data-points="14.5:0|64.5:100"><span data-craft-sim-index-name>Chain Coif</span><span data-craft-sim-index-meta>Selectable metal · 10 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Chain Legs" data-section="metal-armor" data-group="Metal Armor" data-metal="Iron" data-amount="18" data-select-metal="true" data-points="36.7:0|86.7:100"><span data-craft-sim-index-name>Chain Legs</span><span data-craft-sim-index-meta>Selectable metal · 18 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Chain Chest" data-section="metal-armor" data-group="Metal Armor" data-metal="Iron" data-amount="20" data-select-metal="true" data-points="39.1:0|89.1:100"><span data-craft-sim-index-name>Chain Chest</span><span data-craft-sim-index-meta>Selectable metal · 20 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Plate Arms" data-section="metal-armor" data-group="Metal Armor" data-metal="Iron" data-amount="18" data-select-metal="true" data-points="66.3:0|105:77.4"><span data-craft-sim-index-name>Plate Arms</span><span data-craft-sim-index-meta>Selectable metal · 18 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Plate Gloves" data-section="metal-armor" data-group="Metal Armor" data-metal="Iron" data-amount="12" data-select-metal="true" data-points="58.9:0|105:92.2"><span data-craft-sim-index-name>Plate Gloves</span><span data-craft-sim-index-meta>Selectable metal · 12 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Plate Gorget" data-section="metal-armor" data-group="Metal Armor" data-metal="Iron" data-amount="10" data-select-metal="true" data-points="56.4:0|105:97.2"><span data-craft-sim-index-name>Plate Gorget</span><span data-craft-sim-index-meta>Selectable metal · 10 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Plate Legs" data-section="metal-armor" data-group="Metal Armor" data-metal="Iron" data-amount="20" data-select-metal="true" data-points="68.8:0|105:72.4"><span data-craft-sim-index-name>Plate Legs</span><span data-craft-sim-index-meta>Selectable metal · 20 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Plate Chest" data-section="metal-armor" data-group="Metal Armor" data-metal="Iron" data-amount="25" data-select-metal="true" data-points="75:0|105:60"><span data-craft-sim-index-name>Plate Chest</span><span data-craft-sim-index-meta>Selectable metal · 25 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Female Plate Chest" data-section="metal-armor" data-group="Metal Armor" data-metal="Iron" data-amount="20" data-select-metal="true" data-points="44.1:0|94.1:100"><span data-craft-sim-index-name>Female Plate Chest</span><span data-craft-sim-index-meta>Selectable metal · 20 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Bascinet" data-section="helmets" data-group="Helmets" data-metal="Iron" data-amount="15" data-select-metal="true" data-points="8.3:0|58.3:100"><span data-craft-sim-index-name>Bascinet</span><span data-craft-sim-index-meta>Selectable metal · 15 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Close Helm" data-section="helmets" data-group="Helmets" data-metal="Iron" data-amount="15" data-select-metal="true" data-points="37.9:0|87.9:100"><span data-craft-sim-index-name>Close Helm</span><span data-craft-sim-index-meta>Selectable metal · 15 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Helmet" data-section="helmets" data-group="Helmets" data-metal="Iron" data-amount="15" data-select-metal="true" data-points="37.9:0|87.9:100"><span data-craft-sim-index-name>Helmet</span><span data-craft-sim-index-meta>Selectable metal · 15 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Norse Helm" data-section="helmets" data-group="Helmets" data-metal="Iron" data-amount="15" data-select-metal="true" data-points="37.9:0|87.9:100"><span data-craft-sim-index-name>Norse Helm</span><span data-craft-sim-index-meta>Selectable metal · 15 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Plate Helm" data-section="helmets" data-group="Helmets" data-metal="Iron" data-amount="15" data-select-metal="true" data-points="62.6:0|105:84.8"><span data-craft-sim-index-name>Plate Helm</span><span data-craft-sim-index-meta>Selectable metal · 15 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Buckler" data-section="shields" data-group="Shields" data-metal="Iron" data-amount="18" data-select-metal="true" data-points="0:50|25:100"><span data-craft-sim-index-name>Buckler</span><span data-craft-sim-index-meta>Selectable metal · 18 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Bronze Shield" data-section="shields" data-group="Shields" data-metal="Iron" data-amount="18" data-select-metal="true" data-points="0:30.4|34.8:100"><span data-craft-sim-index-name>Bronze Shield</span><span data-craft-sim-index-meta>Selectable metal · 18 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Heater Shield" data-section="shields" data-group="Shields" data-metal="Iron" data-amount="18" data-select-metal="true" data-points="24.3:0|74.3:100"><span data-craft-sim-index-name>Heater Shield</span><span data-craft-sim-index-meta>Selectable metal · 18 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Metal Shield" data-section="shields" data-group="Shields" data-metal="Iron" data-amount="18" data-select-metal="true" data-points="0:20.4|39.8:100"><span data-craft-sim-index-name>Metal Shield</span><span data-craft-sim-index-meta>Selectable metal · 18 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Metal Kite Shield" data-section="shields" data-group="Shields" data-metal="Iron" data-amount="18" data-select-metal="true" data-points="4.6:0|54.6:100"><span data-craft-sim-index-name>Metal Kite Shield</span><span data-craft-sim-index-meta>Selectable metal · 18 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Wooden Kite Shield" data-section="shields" data-group="Shields" data-metal="Iron" data-amount="18" data-select-metal="true" data-points="0:30.4|34.8:100"><span data-craft-sim-index-name>Wooden Kite Shield</span><span data-craft-sim-index-meta>Selectable metal · 18 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Small Plate Shield" data-section="shields" data-group="Shields" data-metal="Iron" data-amount="12" data-select-metal="true" data-points="0:50|25:100"><span data-craft-sim-index-name>Small Plate Shield</span><span data-craft-sim-index-meta>Selectable metal · 12 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Large Plate Shield" data-section="shields" data-group="Shields" data-metal="Iron" data-amount="18" data-select-metal="true" data-points="24.3:0|74.3:100"><span data-craft-sim-index-name>Large Plate Shield</span><span data-craft-sim-index-meta>Selectable metal · 18 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Medium Plate Shield" data-section="shields" data-group="Shields" data-metal="Iron" data-amount="14" data-select-metal="true" data-points="0:20.4|39.8:100"><span data-craft-sim-index-name>Medium Plate Shield</span><span data-craft-sim-index-meta>Selectable metal · 14 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Bone Harvester" data-section="bladed" data-group="Bladed" data-metal="Iron" data-amount="10" data-select-metal="false" data-points="33:0|83:100"><span data-craft-sim-index-name>Bone Harvester</span><span data-craft-sim-index-meta>Iron · 10 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Broadsword" data-section="bladed" data-group="Bladed" data-metal="Iron" data-amount="10" data-select-metal="false" data-points="35.4:0|85.4:100"><span data-craft-sim-index-name>Broadsword</span><span data-craft-sim-index-meta>Iron · 10 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Crescent Blade" data-section="bladed" data-group="Bladed" data-metal="Iron" data-amount="14" data-select-metal="false" data-points="45:0|95:100"><span data-craft-sim-index-name>Crescent Blade</span><span data-craft-sim-index-meta>Iron · 14 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Cutlass" data-section="bladed" data-group="Bladed" data-metal="Iron" data-amount="8" data-select-metal="false" data-points="24.3:0|74.3:100"><span data-craft-sim-index-name>Cutlass</span><span data-craft-sim-index-meta>Iron · 8 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Dagger" data-section="bladed" data-group="Bladed" data-metal="Iron" data-amount="3" data-select-metal="false" data-points="0:0.8|49.6:100"><span data-craft-sim-index-name>Dagger</span><span data-craft-sim-index-meta>Iron · 3 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Katana" data-section="bladed" data-group="Bladed" data-metal="Iron" data-amount="8" data-select-metal="false" data-points="44.1:0|94.1:100"><span data-craft-sim-index-name>Katana</span><span data-craft-sim-index-meta>Iron · 8 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Kryss" data-section="bladed" data-group="Bladed" data-metal="Iron" data-amount="8" data-select-metal="false" data-points="36.7:0|86.7:100"><span data-craft-sim-index-name>Kryss</span><span data-craft-sim-index-meta>Iron · 8 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Longsword" data-section="bladed" data-group="Bladed" data-metal="Iron" data-amount="12" data-select-metal="false" data-points="28:0|78:100"><span data-craft-sim-index-name>Longsword</span><span data-craft-sim-index-meta>Iron · 12 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Scimitar" data-section="bladed" data-group="Bladed" data-metal="Iron" data-amount="10" data-select-metal="false" data-points="31.7:0|81.7:100"><span data-craft-sim-index-name>Scimitar</span><span data-craft-sim-index-meta>Iron · 10 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Viking Sword" data-section="bladed" data-group="Bladed" data-metal="Iron" data-amount="14" data-select-metal="false" data-points="24.3:0|74.3:100"><span data-craft-sim-index-name>Viking Sword</span><span data-craft-sim-index-meta>Iron · 14 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="War Cleaver" data-section="bladed" data-group="Bladed" data-metal="Iron" data-amount="18" data-select-metal="false" data-points="70:0|105:70"><span data-craft-sim-index-name>War Cleaver</span><span data-craft-sim-index-meta>Iron · 18 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Axe" data-section="axes" data-group="Axes" data-metal="Iron" data-amount="14" data-select-metal="false" data-points="34.2:0|84.2:100"><span data-craft-sim-index-name>Axe</span><span data-craft-sim-index-meta>Iron · 14 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Battle Axe" data-section="axes" data-group="Axes" data-metal="Iron" data-amount="14" data-select-metal="false" data-points="30.5:0|80.5:100"><span data-craft-sim-index-name>Battle Axe</span><span data-craft-sim-index-meta>Iron · 14 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Double Axe" data-section="axes" data-group="Axes" data-metal="Iron" data-amount="12" data-select-metal="false" data-points="29.3:0|79.3:100"><span data-craft-sim-index-name>Double Axe</span><span data-craft-sim-index-meta>Iron · 12 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Executioner's Axe" data-section="axes" data-group="Axes" data-metal="Iron" data-amount="14" data-select-metal="false" data-points="34.2:0|84.2:100"><span data-craft-sim-index-name>Executioner's Axe</span><span data-craft-sim-index-meta>Iron · 14 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Large Battle Axe" data-section="axes" data-group="Axes" data-metal="Iron" data-amount="12" data-select-metal="false" data-points="28:0|78:100"><span data-craft-sim-index-name>Large Battle Axe</span><span data-craft-sim-index-meta>Iron · 12 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Two-Handed Axe" data-section="axes" data-group="Axes" data-metal="Iron" data-amount="16" data-select-metal="false" data-points="33:0|83:100"><span data-craft-sim-index-name>Two-Handed Axe</span><span data-craft-sim-index-meta>Iron · 16 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="War Axe" data-section="axes" data-group="Axes" data-metal="Iron" data-amount="16" data-select-metal="false" data-points="39.1:0|89.1:100"><span data-craft-sim-index-name>War Axe</span><span data-craft-sim-index-meta>Iron · 16 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Bardiche" data-section="polearms" data-group="Polearms" data-metal="Iron" data-amount="18" data-select-metal="false" data-points="31.7:0|81.7:100"><span data-craft-sim-index-name>Bardiche</span><span data-craft-sim-index-meta>Iron · 18 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Bladed Staff" data-section="polearms" data-group="Polearms" data-metal="Iron" data-amount="12" data-select-metal="false" data-points="40:0|90:100"><span data-craft-sim-index-name>Bladed Staff</span><span data-craft-sim-index-meta>Iron · 12 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Double Bladed Staff" data-section="polearms" data-group="Polearms" data-metal="Iron" data-amount="16" data-select-metal="false" data-points="45:0|95:100"><span data-craft-sim-index-name>Double Bladed Staff</span><span data-craft-sim-index-meta>Iron · 16 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Halberd" data-section="polearms" data-group="Polearms" data-metal="Iron" data-amount="20" data-select-metal="false" data-points="39.1:0|89.1:100"><span data-craft-sim-index-name>Halberd</span><span data-craft-sim-index-meta>Iron · 20 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Pike" data-section="polearms" data-group="Polearms" data-metal="Iron" data-amount="12" data-select-metal="false" data-points="47:0|97:100"><span data-craft-sim-index-name>Pike</span><span data-craft-sim-index-meta>Iron · 12 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Short Spear" data-section="polearms" data-group="Polearms" data-metal="Iron" data-amount="6" data-select-metal="false" data-points="45.3:0|95.3:100"><span data-craft-sim-index-name>Short Spear</span><span data-craft-sim-index-meta>Iron · 6 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Scythe" data-section="polearms" data-group="Polearms" data-metal="Iron" data-amount="14" data-select-metal="false" data-points="39:0|89:100"><span data-craft-sim-index-name>Scythe</span><span data-craft-sim-index-meta>Iron · 14 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Spear" data-section="polearms" data-group="Polearms" data-metal="Iron" data-amount="12" data-select-metal="false" data-points="49:0|99:100"><span data-craft-sim-index-name>Spear</span><span data-craft-sim-index-meta>Iron · 12 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="War Fork" data-section="polearms" data-group="Polearms" data-metal="Iron" data-amount="12" data-select-metal="false" data-points="42.9:0|92.9:100"><span data-craft-sim-index-name>War Fork</span><span data-craft-sim-index-meta>Iron · 12 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Hammer Pick" data-section="bashing" data-group="Bashing" data-metal="Iron" data-amount="16" data-select-metal="false" data-points="34.2:0|84.2:100"><span data-craft-sim-index-name>Hammer Pick</span><span data-craft-sim-index-meta>Iron · 16 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Mace" data-section="bashing" data-group="Bashing" data-metal="Iron" data-amount="6" data-select-metal="false" data-points="14.5:0|64.5:100"><span data-craft-sim-index-name>Mace</span><span data-craft-sim-index-meta>Iron · 6 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Maul" data-section="bashing" data-group="Bashing" data-metal="Iron" data-amount="10" data-select-metal="false" data-points="19.4:0|69.4:100"><span data-craft-sim-index-name>Maul</span><span data-craft-sim-index-meta>Iron · 10 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="War Mace" data-section="bashing" data-group="Bashing" data-metal="Iron" data-amount="14" data-select-metal="false" data-points="28:0|78:100"><span data-craft-sim-index-name>War Mace</span><span data-craft-sim-index-meta>Iron · 14 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="War Hammer" data-section="bashing" data-group="Bashing" data-metal="Iron" data-amount="16" data-select-metal="false" data-points="34.2:0|84.2:100"><span data-craft-sim-index-name>War Hammer</span><span data-craft-sim-index-meta>Iron · 16 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Crimson Rite" data-section="bloodrock" data-group="DoB Weapons" data-metal="Bloodrock" data-amount="30" data-select-metal="false" data-points="75:0|105:85.71428571"><span data-craft-sim-index-name>Crimson Rite</span><span data-craft-sim-index-meta>Bloodrock · 30 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Blood Vow" data-section="bloodrock" data-group="DoB Weapons" data-metal="Bloodrock" data-amount="30" data-select-metal="false" data-points="75:0|105:85.71428571"><span data-craft-sim-index-name>Blood Vow</span><span data-craft-sim-index-meta>Bloodrock · 30 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Vein Sever" data-section="bloodrock" data-group="DoB Weapons" data-metal="Bloodrock" data-amount="30" data-select-metal="false" data-points="75:0|105:85.71428571"><span data-craft-sim-index-name>Vein Sever</span><span data-craft-sim-index-meta>Bloodrock · 30 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Ritual Conduit" data-section="bloodrock" data-group="DoB Weapons" data-metal="Bloodrock" data-amount="30" data-select-metal="false" data-points="75:0|105:85.71428571"><span data-craft-sim-index-name>Ritual Conduit</span><span data-craft-sim-index-meta>Bloodrock · 30 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Sanguine Toll" data-section="bloodrock" data-group="DoB Weapons" data-metal="Bloodrock" data-amount="30" data-select-metal="false" data-points="75:0|105:85.71428571"><span data-craft-sim-index-name>Sanguine Toll</span><span data-craft-sim-index-meta>Bloodrock · 30 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Crimson Verdict" data-section="bloodrock" data-group="DoB Weapons" data-metal="Bloodrock" data-amount="30" data-select-metal="false" data-points="75:0|105:85.71428571"><span data-craft-sim-index-name>Crimson Verdict</span><span data-craft-sim-index-meta>Bloodrock · 30 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Dusk Reaver" data-section="blackrock" data-group="DoB Weapons" data-metal="Blackrock" data-amount="30" data-select-metal="false" data-points="75:0|105:85.71428571"><span data-craft-sim-index-name>Dusk Reaver</span><span data-craft-sim-index-meta>Blackrock · 30 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Nightfang" data-section="blackrock" data-group="DoB Weapons" data-metal="Blackrock" data-amount="30" data-select-metal="false" data-points="75:0|105:85.71428571"><span data-craft-sim-index-name>Nightfang</span><span data-craft-sim-index-meta>Blackrock · 30 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Gloom Sever" data-section="blackrock" data-group="DoB Weapons" data-metal="Blackrock" data-amount="30" data-select-metal="false" data-points="75:0|105:85.71428571"><span data-craft-sim-index-name>Gloom Sever</span><span data-craft-sim-index-meta>Blackrock · 30 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Umbral Conduit" data-section="blackrock" data-group="DoB Weapons" data-metal="Blackrock" data-amount="30" data-select-metal="false" data-points="75:0|105:85.71428571"><span data-craft-sim-index-name>Umbral Conduit</span><span data-craft-sim-index-meta>Blackrock · 30 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Dark Toll" data-section="blackrock" data-group="DoB Weapons" data-metal="Blackrock" data-amount="30" data-select-metal="false" data-points="75:0|105:85.71428571"><span data-craft-sim-index-name>Dark Toll</span><span data-craft-sim-index-meta>Blackrock · 30 Ingots</span></button>
+<button type="button" role="option" aria-selected="false" data-smith-item data-name="Midnight Verdict" data-section="blackrock" data-group="DoB Weapons" data-metal="Blackrock" data-amount="30" data-select-metal="false" data-points="75:0|105:85.71428571"><span data-craft-sim-index-name>Midnight Verdict</span><span data-craft-sim-index-meta>Blackrock · 30 Ingots</span></button>
+</div><p class="dob-craft-simulator__empty" data-smith-empty hidden>No recipe matches your search.</p></div>
+<div class="dob-craft-simulator__workbench" data-smith-workbench hidden>
+<button type="button" class="dob-craft-simulator__back" data-smith-back="recipes">← Back to recipes</button>
+<div class="dob-craft-simulator__selected"><div><span class="dob-craft-simulator__label">Selected recipe</span><h4 data-smith-name></h4><p data-smith-group></p></div><strong>Blacksmithy</strong></div>
+<div class="dob-craft-simulator__fields">
+<label for="smith-metal">Material<select id="smith-metal" data-smith-metal><option value="Iron" data-min="0" data-points="">Iron</option><option value="Bronze" data-min="35" data-points="35:20|100:100|105:100">Bronze</option><option value="Shadow" data-min="45" data-points="45:20|100:98|105:100">Shadow</option><option value="Silver" data-min="55" data-points="55:20|100:95|105:97.5">Silver</option><option value="Gold" data-min="65" data-points="65:20|100:92|105:94.6666666667">Gold</option><option value="Bloodrock" data-min="75" data-points="75:20|100:88|105:91">Bloodrock</option><option value="Blackrock" data-min="80" data-points="80:20|100:85|105:88">Blackrock</option><option value="Mythril" data-min="85" data-points="85:20|100:80|105:82.8571428571">Mythril</option><option value="Brittanium" data-min="90" data-points="90:20|100:75|105:77">Brittanium</option></select><small data-smith-material-note></small></label>
+<label for="smith-skill">Base Blacksmithy<span class="dob-craft-simulator__range-line"><input id="smith-skill" data-smith-skill type="range" min="0" max="105" step="0.1" value="100"><output for="smith-skill" data-smith-skill-value>100.0</output></span></label>
+<label for="smith-lore">Arms Lore<span class="dob-craft-simulator__range-line"><input id="smith-lore" data-smith-lore type="range" min="0" max="105" step="0.1" value="100"><output for="smith-lore" data-smith-lore-value>100.0</output></span><small>Controls Exceptional quality after a successful craft.</small></label>
+</div>
+<div class="dob-craft-simulator__ingredients"><span>Required materials</span><strong data-smith-ingredients></strong></div>
+<div class="dob-craft-simulator__result" role="status" aria-live="polite">
+<div><span>Minimum skill for this combination</span><strong data-smith-min></strong></div>
+<div><span>Success chance</span><strong data-smith-chance></strong></div>
+<div><span>Exceptional after success</span><strong data-smith-exceptional></strong></div>
+</div>
+<p class="dob-craft-simulator__note" data-smith-note></p>
+<p class="dob-craft-simulator__help">Preview with a regular tool and no equipment bonuses. Controls run from 0.0 to 105.0. Chance at 105.0 can remain below 100%; displayed values preserve each recipe or metal curve.</p>
+</div></div>
 </section>

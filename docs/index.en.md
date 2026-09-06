@@ -88,33 +88,17 @@ hide:
 <section class="dob-atlas-content" aria-label="Main content">
 <article class="dob-atlas-feature">
 <p class="dob-atlas-kicker">LATEST UPDATE</p>
-<h2>0.40.0 · The Red Verdict</h2>
-<p class="dob-atlas-feature__date"><time datetime="2026-08-28">August 28, 2026</time></p>
-<p>Odran rides in Wrong while Masteries, equipment, pets, houses, and interactions receive improvements.</p>
+<h2>0.41.0 · Season of Thorns</h2>
+<p class="dob-atlas-feature__date"><time datetime="2026-09-01">September 1, 2026</time></p>
+<p>September brings Overgrown creatures, Heart of the Briar rewards, and new DoB Cloth recipes.</p>
 <a href="patches/">READ PATCH NOTES <span aria-hidden="true">→</span></a>
 </article>
 
 <div class="dob-atlas-index">
 <p class="dob-atlas-kicker">LATEST UPDATED ARTICLES</p>
-<a href="sistemas/spawns-raros/">
-<span class="dob-atlas-index__code">AUG 31</span>
-<span><strong>Rare spawns</strong><small>Odran, Nochyer, and rare mounts</small></span>
-<i aria-hidden="true">→</i>
-</a>
-<a href="sistemas/pvm-mastery/">
-<span class="dob-atlas-index__code">AUG 31</span>
-<span><strong>PvM Mastery</strong><small>Unbroken Calling and progression updates</small></span>
-<i aria-hidden="true">→</i>
-</a>
-<a href="sistemas/pets-montarias/">
-<span class="dob-atlas-index__code">AUG 31</span>
-<span><strong>Pets and mounts</strong><small>Shrink Potion, rarities, and pet release</small></span>
-<i aria-hidden="true">→</i>
-</a>
-<a href="sistemas/casas/">
-<span class="dob-atlas-index__code">AUG 31</span>
-<span><strong>Houses</strong><small>Private protection and same-floor interactions</small></span>
-<i aria-hidden="true">→</i>
-</a>
+<a href="sistemas/season-of-thorns/"><span class="dob-atlas-index__code">SEP 06</span><span><strong>Season of Thorns</strong><small>September event and seasonal rewards</small></span><i aria-hidden="true">→</i></a>
+<a href="craft/tailoring/"><span class="dob-atlas-index__code">SEP 06</span><span><strong>Tailoring</strong><small>DoB Cloth recipes and success chances</small></span><i aria-hidden="true">→</i></a>
+<a href="sistemas/spawns-raros/"><span class="dob-atlas-index__code">SEP 06</span><span><strong>Rare spawns</strong><small>Event cycles and boss respawn times</small></span><i aria-hidden="true">→</i></a>
+<a href="sistemas/casas/"><span class="dob-atlas-index__code">SEP 06</span><span><strong>Houses</strong><small>Commodity Deed Box and storage</small></span><i aria-hidden="true">→</i></a>
 </div>
 </section>

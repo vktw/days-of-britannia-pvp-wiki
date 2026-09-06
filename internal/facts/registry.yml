@@ -3,16 +3,76 @@
 # The 0.40.0 reconciliation below confirms the current release identity and the approved player-facing deltas.
 # Other entries retain their last deep-verification release until that audit is run.
 schema_version: 1
-registry_version: "0.40.0"
+registry_version: "0.41.0"
 source_policy: "live-server-is-final"
 entries:
-  - id: live-version
-    claim: "The public manual identifies the current production ruleset as 0.40.0."
+  - id: blacksmith-menu-0410
+    claim: "Blacksmithy has 71 visible recipes in eight top-level categories, including Bloodrock and Blackrock submenus. Iron uses recipe curves, special-metal armor uses metal curves, thematic weapons have 85.71% success at 105, and Exceptional uses a separate Arms Lore roll with a regular tool."
     status: live
     source_status: approved
-    live_version: "0.40.0"
-    verification_date: "2026-08-31"
-    approved_source: "live-server/v0.40.0"
+    live_version: "0.41.0"
+    verification_date: "2026-09-06"
+    approved_source: "live-server/v0.41.0"
+    public_reference: "docs/craft/blacksmithy.md"
+    canonical_pt: "docs/craft/blacksmithy.md"
+    english_counterpart: "docs/craft/blacksmithy.en.md"
+    owner: server-owner
+    review_after: null
+  - id: season-thorns-0410
+    claim: "September Overgrown event; 1 or 3 Hearts per normal or Ancient; edition-specific currency and seven-day natural-end redemption; vendor prices and account limits verified."
+    status: live
+    source_status: approved
+    live_version: "0.41.0"
+    verification_date: "2026-09-06"
+    approved_source: "live-server/v0.41.0"
+    public_reference: "docs/sistemas/season-of-thorns.md"
+    canonical_pt: "docs/sistemas/season-of-thorns.md"
+    english_counterpart: "docs/sistemas/season-of-thorns.en.md"
+    owner: server-owner
+    review_after: null
+  - id: rare-respawn-0410
+    claim: "Phoenix and Llama attempt hourly; Desert, Forest and Zostrich every 2, 3 and 5 hours; Nochyer and Odran respawn 3-6 days after death; Rare Britannia replaces on tame, death or 12-hour expiry."
+    status: live
+    source_status: approved
+    live_version: "0.41.0"
+    verification_date: "2026-09-06"
+    approved_source: "live-server/v0.41.0"
+    public_reference: "docs/sistemas/spawns-raros.md"
+    canonical_pt: "docs/sistemas/spawns-raros.md"
+    english_counterpart: "docs/sistemas/spawns-raros.en.md"
+    owner: server-owner
+    review_after: null
+  - id: dob-cloth-0410
+    claim: "Three stat robes grant +5 to their respective stat; 100 Cloth and 100 of each required reagent; linear success 0% at 65 to 100% at 105 Tailoring."
+    status: live
+    source_status: approved
+    live_version: "0.41.0"
+    verification_date: "2026-09-06"
+    approved_source: "live-server/v0.41.0"
+    public_reference: "docs/craft/tailoring.md"
+    canonical_pt: "docs/craft/tailoring.md"
+    english_counterpart: "docs/craft/tailoring.en.md"
+    owner: server-owner
+    review_after: null
+  - id: commodity-box-0410
+    claim: "Bankers sell Commodity Deed Box for 20000 Gold; operation requires the box secured in a house."
+    status: live
+    source_status: approved
+    live_version: "0.41.0"
+    verification_date: "2026-09-06"
+    approved_source: "live-server/v0.41.0"
+    public_reference: "docs/sistemas/casas.md"
+    canonical_pt: "docs/sistemas/casas.md"
+    english_counterpart: "docs/sistemas/casas.en.md"
+    owner: server-owner
+    review_after: null
+  - id: live-version
+    claim: "The public manual identifies the current production ruleset as 0.41.0."
+    status: live
+    source_status: approved
+    live_version: "0.41.0"
+    verification_date: "2026-09-06"
+    approved_source: "live-server/v0.41.0"
     public_reference: "docs/patches.md"
     canonical_pt: "docs/patches.md"
     english_counterpart: "docs/patches.en.md"

@@ -2,6 +2,24 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.41.0 · Season of Thorns
+
+Publicado em 1 de setembro de 2026.
+
+- A Season of Thorns traz criaturas Overgrown após mortes elegíveis de Ettins, Trolls, Frost Trolls, Ogres, Ogre Lords, Cyclopes e Minotaurs.
+- Overgrown participam normalmente do PvM e podem usar Overgrown Grasp: raízes por 3 segundos e Deadly Poison, sem duplicar o loot original.
+- Ancient Overgrowth possui 10% de chance de carregar o livro bilíngue O Testamento da Primeira Sarça.
+- Heart of the Briar é a moeda negociável e looteável da edição. O Briarheart Keeper atende durante a season e por 7 dias após seu encerramento natural.
+- Briarheart Pigment, Briarstrider e Thornwake são as recompensas máximas, com um resgate de cada por conta por edição.
+- Britain, Minoc, Serpent's Hold e Cove recebem decoração de briars que cresce durante a season e é removida ao final.
+- Tailoring recebe DoB Cloth: Mantle of the Titan (+5 Strength), Windrunner Robe (+5 Dexterity) e Sage's Robe (+5 Intelligence). Cada receita exige 100 Cloth e 100 de cada reagente correspondente; o sucesso vai de 0% em 65.0 a 100% em 105.0.
+- Ingots e boards passam a pesar 0,5 stone por unidade.
+- Tracking alcança 43 tiles em 100.0 e 45 tiles em 105.0 de skill efetiva, preservando filtros e limites de resultados.
+- Criaturas mágicas consideram a chance real de Cure e podem usar Mana Drain ou Mana Vampire em PvM, preservando as proteções de jogadores, pets, summons, Arena e PvP.
+- Bankers vendem Commodity Deed Box por 20.000 Gold; a caixa precisa estar secured em uma casa para operar Commodity Deeds.
+
+Consulte [Season of Thorns](sistemas/season-of-thorns.md), [Tailoring](craft/tailoring.md) e [Casas](sistemas/casas.md).
+
 ## 0.40.0 · O Veredito Rubro
 
 Odran cavalga em Wrong, enquanto menus, equipamentos e interações recebem melhorias.

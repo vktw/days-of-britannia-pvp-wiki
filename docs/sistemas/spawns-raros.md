@@ -5,7 +5,7 @@ description: Descubra a Phoenix, os Rare Events e as montarias raras de Britanni
 # Spawns raros
 
 Britannia possui criaturas e eventos raros que recompensam exploração. A wiki
-não publica coordenadas ou horários de aparecimento; use o mundo ativo e os
+não publica coordenadas ou horários exatos de aparecimento; use o mundo ativo e os
 rumores públicos como orientação.
 
 ## Phoenix rara
@@ -25,7 +25,14 @@ efetiva, maior a chance de receber um bônus sobre o rendimento normal.
 O mundo mantém uma única montaria selvagem **Rare Britannia** ativa por vez em
 uma área acessível da natureza pré-T2A de Felucca. Ela aparece com uma das
 famílias e variações de cor disponíveis e exige **Animal Taming 90.0** para ser
-domada. A substituição acontece quando a montaria é domada ou morre.
+domada.
+
+**Ao ser domada ou morrer, a reposição começa sem espera programada**, assim
+que houver um local válido para a nova montaria. Não é preciso aguardar 12 horas.
+
+As **12 horas são o tempo máximo de permanência de uma montaria selvagem**:
+se ninguém a domar ou matar nesse prazo, ela desaparece e dá lugar à reposição.
+Esse prazo não é um intervalo entre spawns e não se aplica à montaria já domada.
 
 ## Nochyer, the Darkness Beneath
 
@@ -58,5 +65,22 @@ parte da exploração, sem depender de coordenadas publicadas.
 Para as pistas compartilhadas por Town Criers, consulte [Whispers of
 Britannia](whispers-britannia.md).
 
-!!! success "Status: 0.40.0"
+## Tempos de respawn
+
+| Evento | Intervalo | Como interpretar |
+|---|---|---|
+| Rare Phoenix | 1 hora | Nova tentativa no ciclo do evento, sujeita à ocupação e a um local válido. |
+| Rare Rideable Llama | 1 hora | Nova tentativa no ciclo do evento, sujeita à ocupação e a um local válido. |
+| Rare Desert Ostard | 2 horas | Ciclo independente; uma montaria selvagem existente pode impedir novo nascimento. |
+| Rare Forest Ostard | 3 horas | Ciclo independente; uma montaria selvagem existente pode impedir novo nascimento. |
+| Rare Zostrich Ostard | 5 horas | Ciclo independente; uma montaria selvagem existente pode impedir novo nascimento. |
+| Nochyer | 3–6 dias após a morte | Um intervalo aleatório é escolhido depois da morte do boss. |
+| Odran | 3–6 dias após a morte | Um intervalo aleatório é escolhido depois da morte do boss. |
+| Rare Britannia | Sempre uma disponível | O mundo mantém uma montaria selvagem ativa. Ao liberar a vaga, a reposição começa assim que houver um local válido. |
+
+Os ciclos em horas não são contagens reiniciadas a cada abate. Um ciclo pode
+passar sem uma nova criatura aparecer; os intervalos não garantem um horário
+exato de chegada.
+
+!!! success "Status: 0.41.0"
     Phoenix rara, criaturas raras e eventos oferecem caminhos de descoberta em Britannia.
