@@ -22,7 +22,7 @@ extra_css:
   - stylesheets/extra.css?v=20260831.2
 extra_javascript:
   - scripts/blacksmith.js?v=20260906.1
-  - scripts/dob.js?v=20260831.1
+  - scripts/dob.js?v=20260906.2
 plugins:
   - search:
       lang:

@@ -6,6 +6,18 @@ schema_version: 1
 registry_version: "0.41.0"
 source_policy: "live-server-is-final"
 entries:
+  - id: bowcraft-menu-0410
+    claim: "Bowcraft has 14 visible recipes in Materials, Ammunition, Weapons, and DoB Weapons. Common items use the official base curve; displayed data is capped at 105.0; Fire Bow reaches 81.25% success and 30.63% Exceptional at 105, while Elven Bow reaches 100%."
+    status: live
+    source_status: approved
+    live_version: "0.41.0"
+    verification_date: "2026-09-06"
+    approved_source: "live-server/v0.41.0"
+    public_reference: "docs/craft/bowcraft.md"
+    canonical_pt: "docs/craft/bowcraft.md"
+    english_counterpart: "docs/craft/bowcraft.en.md"
+    owner: server-owner
+    review_after: null
   - id: blacksmith-menu-0410
     claim: "Blacksmithy has 71 visible recipes in eight top-level categories, including Bloodrock and Blackrock submenus. Iron uses recipe curves, special-metal armor uses metal curves, thematic weapons have 85.71% success at 105, and Exceptional uses a separate Arms Lore roll with a regular tool."
     status: live

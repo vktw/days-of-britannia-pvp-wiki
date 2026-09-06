@@ -410,7 +410,18 @@ function bindDobCraftSimulator() {
       materialMinimum.textContent = selectedMaterialMin === null
         ? "—"
         : formatDobCraftSkill(selectedMaterialMin);
-      exceptional.textContent = selectedItem.dataset.craftExceptional || "—";
+      const updateExceptional = (successChance) => {
+        if (selectedItem.dataset.craftExceptionalMode === "fifty-minus-ten") {
+          exceptional.textContent = successChance === null
+            ? "—"
+            : formatDobCraftChance(Math.max(0, Math.min(100, successChance * 50 - 10)));
+          return;
+        }
+
+        exceptional.textContent = selectedItem.dataset.craftExceptional || "—";
+      };
+
+      updateExceptional(null);
       updateIngredients(selectedItem);
       chance.textContent = "—";
 
@@ -436,6 +447,7 @@ function bindDobCraftSimulator() {
 
       if (points.length > 0 && exact) {
         chance.textContent = formatDobCraftChance(exact.chance);
+        updateExceptional(exact.chance / 100);
         note.textContent = copy.exact(exact.skill);
         return;
       }
@@ -444,6 +456,7 @@ function bindDobCraftSimulator() {
         const scalar = (selectedSkill - lower.skill) / (upper.skill - lower.skill);
         const interpolated = lower.chance + scalar * (upper.chance - lower.chance);
         chance.textContent = formatDobCraftChance(interpolated);
+        updateExceptional(interpolated / 100);
         note.textContent = copy.interpolated;
         return;
       }
@@ -451,6 +464,7 @@ function bindDobCraftSimulator() {
       if (points.length > 0 && lower && selectedItem.dataset.craftTail === "cap") {
         const last = points[points.length - 1];
         chance.textContent = formatDobCraftChance(last.chance);
+        updateExceptional(last.chance / 100);
         note.textContent = copy.aboveCap;
         return;
       }
@@ -463,6 +477,7 @@ function bindDobCraftSimulator() {
       const baseChance = Number(selectedItem.dataset.craftBase || 0);
       if (selectedSkill >= maximumSkill) {
         chance.textContent = "100%";
+        updateExceptional(1);
         note.textContent = copy.maximum;
         return;
       }
@@ -470,6 +485,7 @@ function bindDobCraftSimulator() {
       const scalar = (selectedSkill - minimumSkill) / (maximumSkill - minimumSkill);
       const linearChance = baseChance + scalar * (100 - baseChance);
       chance.textContent = formatDobCraftChance(linearChance);
+      updateExceptional(linearChance / 100);
       note.textContent = selectedSkill === minimumSkill ? copy.baseMinimum : copy.interpolated;
     }
 
