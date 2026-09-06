@@ -110,9 +110,9 @@ regras comuns de `CraftItem` na tag de produção `v0.41.0`.
 |---|---:|---|
 | Cartography | 6 | Eodonian Wall Map recipe-gated omitido; mapas comuns e as duas orientações de Tattered Wall Map preservadas. |
 | Cooking | 61 | Grupos Enchanted e Magical Fish Pies removidos pelo servidor; bebidas, chocolate e preparos ativos incluídos. |
-| Inscription | 87 | Scrolls de magia, livros e materiais ativos; Necromancy e Mysticism desativados na fonte 0.41.0; Scrapper's Compendium e Runic Atlas recipe-gated omitidos. |
+| Inscription | 87 | 64 scrolls de magia, 17 scrolls de Necromancy e seis livros/materiais ativos; Scrapper's Compendium e Runic Atlas recipe-gated omitidos. |
 | Tailoring | 153 | Roupas, couro, studded, gargoyle e grupos especiais ativos incluídos; entradas recipe-gated omitidas; chance-base normal corrigida para 50%. |
-| Tinkering | 154 | 100 entradas diretas mais 54 joias geradas por nove `AddJewelrySet`; madeira/cestaria, ferramentas, componentes, utensílios, projetos, armadilhas e grupos DoB incluídos. |
+| Tinkering | 270 | 100 entradas diretas, 54 joias geradas por nove `AddJewelrySet` e 116 ferramentas especiais geradas por `AddDoBSpecialToolRecipes`; madeira/cestaria, ferramentas, componentes, utensílios, projetos, armadilhas e grupos DoB incluídos. |
 
 As páginas PT-BR e EN têm o mesmo índice, pesquisa por item/grupo/material e
 curva do simulador. Skills mínimas e materiais adicionais vêm das chamadas
