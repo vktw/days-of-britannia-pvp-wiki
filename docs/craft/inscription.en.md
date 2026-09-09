@@ -1,7 +1,7 @@
 # Inscription
 
 <section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Inscribe" data-craft-sim-slider-max="105" aria-labelledby="dob-craft-inscription-title">
-<div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Skill menu</span><h3 id="dob-craft-inscription-title">Inscription</h3><p>Official active catalog for server 0.41.0, reconciled from the current craft menu. Public simulator values stop at 105.0.</p></div>
+<div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Skill menu</span><h3 id="dob-craft-inscription-title">Inscription</h3><p>Official active catalog for server 0.42.0, reconciled from the current craft menu. Public simulator values stop at 105.0.</p></div>
 <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen><span class="dob-craft-simulator__screen-label">Main menu</span><h4>Choose a category</h4><div class="dob-craft-simulator__menu">
 <button type="button" data-craft-sim-open-section="livros-e-materiais" data-craft-sim-section-title="Livros e materiais"><span><strong>Livros e materiais</strong><small>6 recipes</small></span><b>6 recipes&nbsp; →</b></button>
 <button type="button" data-craft-sim-open-section="scrolls-de-magia" data-craft-sim-section-title="Scrolls de magia"><span><strong>Scrolls de magia</strong><small>64 recipes</small></span><b>64 recipes&nbsp; →</b></button><button type="button" data-craft-sim-open-section="necromancy-scrolls" data-craft-sim-section-title="Necromancy scrolls"><span><strong>Necromancy scrolls</strong><small>17 recipes</small></span><b>17 recipes&nbsp; →</b></button>

@@ -32,6 +32,9 @@ garantida.
 
 ## Bandages
 
+Bandages limpas precisam estar na mochila do personagem que as usa, inclusive
+quando acionadas por atalhos do cliente.
+
 Bandages removem poison imediatamente sem curar vida no mesmo uso. Sem poison, a cura leva 3,5 segundos e alcança 30-40 hits com Healing e Anatomy em 100.0.
 
 O tratamento é capturado no momento do uso: poison presente no início é tratado
@@ -51,10 +54,15 @@ usos, exibe os usos restantes e quebra quando chega a zero. Um duplo clique em
 uma pole na mochila pode equipá-la e iniciar seu uso; uma falha de skillcheck não
 consome uso.
 
-Provisioners vendem Hatchet, Pickaxe, Shovel e Fishing Pole básicos. Tinkers
-vendem Hatchet, Pickaxe e Shovel, enquanto Carpenters vendem Fishing Pole.
+Provisioners vendem Hatchet, Pickaxe, Shovel e Fishing Pole básicos. O estoque
+inicial tem **320 unidades de cada ferramenta comum**. Tinkers vendem Hatchet,
+Pickaxe e Shovel, enquanto Carpenters vendem Fishing Pole.
 
-## DoB Tools no 0.40.0
+Provisioners também vendem as versões **Enduring** de Hatchet, Pickaxe, Shovel e
+Fishing Pole. Elas têm **500 usos**, aparecem com nomes explícitos no menu e
+custam **dez vezes** o preço da ferramenta comum.
+
+## DoB Tools no 0.42.0
 
 A Tinkering organiza as ferramentas especiais no submenu **DoB Tools**. Cada família usa um metal público, tem sua própria exigência de Tinkering e aparece somente para as ferramentas compatíveis.
 
@@ -69,11 +77,15 @@ A Tinkering organiza as ferramentas especiais no submenu **DoB Tools**. Cada fam
 
 Os bônus de chance vêm da ferramenta ativa e não do item que está sendo produzido. O bônus de Exceptional não se aplica à coleta; Pickaxe, Shovel e Hatchet Reliable alteram somente o sucesso final de Mining ou Lumberjacking. Nem todo tipo de ferramenta aparece em todas as seis famílias.
 
+Nas ferramentas DoB, **Light** usa 500 usos; **Hardened** e **Tempered** usam
+1.000. **Artisan, Reliable e Refined** preservam a durabilidade normal de 50
+usos.
+
 ## Livros e montarias
 
 Novos personagens recebem Spellbook completo, Runebook vazio e cavalo shrinkado. Spellbooks e Runebooks são preservados quando o restante do inventário é guardado para uma luta de arena.
 
 Veja [Cura e recursos](../combate/cura-recursos.md) para todas as faixas e delays.
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.42.0"
     Quantidades de kits e efeitos detalhados correspondem ao servidor oficial.

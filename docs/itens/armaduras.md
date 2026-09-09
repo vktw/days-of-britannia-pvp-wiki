@@ -31,6 +31,13 @@ percentual por região corporal.
 Qualidade altera a durabilidade, enquanto o material e o tier definem a
 proteção usada no cálculo do Armor Rating.
 
+## Durabilidade máxima
+
+Depois que uma arma, armadura, roupa, joia, talismã ou spellbook é criado, sua
+durabilidade máxima não pode aumentar. Desgaste, morte ou outra redução pode
+diminuir esse teto; quando isso acontece, a durabilidade atual também fica
+limitada ao novo máximo.
+
 ## Qualidades
 
 As qualidades defensivas seguem esta ordem:
@@ -61,5 +68,5 @@ itens salvos não são migrados.
 
 Veja [Armor e Parrying](../combate/armor-parrying.md).
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.42.0"
     O cálculo de golpes diretos usa o Armor Rating global das peças equipadas.

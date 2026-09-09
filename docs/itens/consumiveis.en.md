@@ -33,6 +33,9 @@ guaranteed.
 
 ## Bandages
 
+Clean bandages must be in the using character's backpack, including when
+activated through client shortcuts.
+
 Bandages remove poison immediately without healing health in the same use. Without poison, healing takes 3.5 seconds and reaches 30-40 hits with Healing and Anatomy at 100.0.
 
 Treatment is captured when the bandage is used: poison present at the start is
@@ -52,10 +55,15 @@ shows the remaining uses, and breaks at zero. Double-clicking a pole in the
 backpack can equip it and start its use; a failed skillcheck does not consume a
 use.
 
-Provisioners sell basic Hatchet, Pickaxe, Shovel, and Fishing Pole tools. Tinkers
-sell Hatchet, Pickaxe, and Shovel, while Carpenters sell Fishing Pole.
+Provisioners sell basic Hatchet, Pickaxe, Shovel, and Fishing Pole tools. Their
+initial stock has **320 of each ordinary tool**. Tinkers sell Hatchet, Pickaxe,
+and Shovel, while Carpenters sell Fishing Pole.
 
-## DoB Tools in 0.40.0
+Provisioners also sell **Enduring** Hatchet, Pickaxe, Shovel, and Fishing Pole
+versions. They have **500 uses**, use explicit menu names, and cost **ten times**
+the ordinary tool.
+
+## DoB Tools in 0.42.0
 
 Tinkering organizes special tools under the **DoB Tools** submenu. Each family uses a public metal, has its own Tinkering requirement, and appears only for compatible tools.
 
@@ -70,10 +78,13 @@ Tinkering organizes special tools under the **DoB Tools** submenu. Each family u
 
 Chance bonuses come from the active tool, not from the item being produced. The Exceptional bonus does not apply to gathering; Reliable Pickaxes, Shovels, and Hatchets change only the final Mining or Lumberjacking success roll. Not every tool type appears in all six families.
 
+Among DoB tools, **Light** uses 500 uses; **Hardened** and **Tempered** use
+1,000. **Artisan, Reliable, and Refined** keep their normal 50-use durability.
+
 ## Books and mounts
 
 New characters receive a complete Spellbook, an empty Runebook and a shrunken horse. Spellbooks and Runebooks are preserved when the rest of the inventory is saved for an arena fight.
 
 See [Healing and resources](../combate/cura-recursos.md) for all values and delays.
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.42.0"

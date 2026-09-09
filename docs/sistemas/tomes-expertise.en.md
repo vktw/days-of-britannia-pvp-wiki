@@ -25,6 +25,12 @@ as guaranteed outcomes.
 Tomes from the **Craft** and **Harvesting** families grant at most **1.0** skill.
 Progress is permanent and respects the current limit of the selected skill.
 
+## Rolls in 0.42.0
+
+New Tome of Expertise rolls exclude the eight skills that start at 100.0:
+**Swords, Tactics, Archery, Healing, Magery, Meditation, Focus, and Resisting
+Spells**. Drop chance and all other tome gains remain unchanged.
+
 ## How to use one
 
 Keep the tome in your backpack, set the listed skill to raise, and double-click
@@ -32,5 +38,5 @@ it. The tome is consumed when the gain is applied.
 
 For other hunting rewards, see [PvM rewards](../itens/recompensas-pvm.md).
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.42.0"
     Tomes of Expertise are active on the official server.

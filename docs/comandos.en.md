@@ -47,5 +47,12 @@ The Ultima Store is disabled. Purchases, deliveries, and store use of Sovereigns
 
 Shows the selected Daily Dungeon and the time remaining until the next rotation. Use it before heading out to take advantage of the PvM Mastery experience and Loot Pack bonuses.
 
-!!! success "Status: 0.40.0"
+## `.rankings`
+
+Opens a menu with Top 10 tabs for **murder count**, **Gold**, and lifetime **PvM
+Mastery** XP. Connected characters, including staff, can browse it, but staff
+and excluded accounts do not appear in the results. When eligible, your own
+position is highlighted. Records update after a successful world save.
+
+!!! success "Status: 0.42.0"
     The commands below are available to players on the official server.

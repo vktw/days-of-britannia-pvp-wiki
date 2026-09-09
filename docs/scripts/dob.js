@@ -230,6 +230,8 @@ function bindDobCraftSimulator() {
           fixedMaterialLabel: "Fixed ingredients",
           woodMaterialLabel: "Main wood",
           woodMaterial: "Selected wood only changes the resource and minimum selection skill; it is not a chance bonus.",
+          metalMaterialLabel: "Selected metal",
+          metalMaterial: "The metal selected in the menu is preserved in the item's material and color; the official cost is listed below.",
           materialEligible: (name, value) => `${name} is selectable from ${formatDobCraftSkill(value)} ${simulatorSkill}.`,
           belowRecipe: "Below the recipe minimum: this item is not eligible.",
           belowMaterial: "Below the selected material minimum: this material cannot be selected at this skill.",
@@ -248,6 +250,8 @@ function bindDobCraftSimulator() {
           fixedMaterialLabel: "Ingredientes fixos",
           woodMaterialLabel: "Madeira principal",
           woodMaterial: "A madeira só muda o recurso e a skill mínima de seleção; não é bônus de chance.",
+          metalMaterialLabel: "Metal selecionado",
+          metalMaterial: "O metal escolhido no menu é preservado no material e na cor do item; o custo oficial aparece abaixo.",
           materialEligible: (name, value) => `${name} pode ser selecionado a partir de ${formatDobCraftSkill(value)} de ${simulatorSkill}.`,
           belowRecipe: "Abaixo da skill mínima da receita: este item não está elegível.",
           belowMaterial: "Abaixo da skill mínima do material: este material não pode ser selecionado nesta skill.",
@@ -324,16 +328,26 @@ function bindDobCraftSimulator() {
     }
 
     function updateMaterialState(item) {
-      const isWood = item.dataset.craftMaterialMode === "wood";
+      const materialMode = item.dataset.craftMaterialMode;
+      const isWood = materialMode === "wood";
+      const isMetal = materialMode === "metal";
       if (material) {
         material.disabled = !isWood;
       }
 
       if (materialStatic) {
-        materialStatic.textContent = isWood ? copy.woodMaterialLabel : copy.fixedMaterialLabel;
+        materialStatic.textContent = isWood
+          ? copy.woodMaterialLabel
+          : isMetal
+            ? copy.metalMaterialLabel
+            : copy.fixedMaterialLabel;
       }
 
-      materialNote.textContent = isWood ? copy.woodMaterial : copy.fixedMaterial;
+      materialNote.textContent = isWood
+        ? copy.woodMaterial
+        : isMetal
+          ? copy.metalMaterial
+          : copy.fixedMaterial;
     }
 
     function updateSliderLimit(item) {
@@ -660,6 +674,13 @@ function bindDobNavigation() {
 }
 
 function bindDobUi() {
+  const homeMockup = new URLSearchParams(window.location.search).get("mockup");
+  if (["cinema", "hud", "cronica"].includes(homeMockup)) {
+    document.documentElement.dataset.dobHomeMockup = homeMockup;
+  } else {
+    delete document.documentElement.dataset.dobHomeMockup;
+  }
+
   bindDobHome();
   bindDobSearchShortcut();
   personalizeDobSearch();

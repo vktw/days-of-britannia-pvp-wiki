@@ -25,6 +25,13 @@ Fale com um deles para consultar o contrato disponível.
 O contrato usa a progressão de XP de Maestria PvM elegível como referência e não
 cria uma tabela de loot paralela para as criaturas.
 
+## Criaturas mágicas
+
+No PvM, criaturas mágicas consideram a chance real de sucesso de **Cure** ao
+decidir se usam a magia e podem lançar **Mana Drain** ou **Mana Vampire**.
+Proteções para jogadores, pets e summons permanecem ativas; o comportamento
+também não se aplica à Arena nem ao PvP.
+
 Animais, criaturas atuais ou anteriormente domadas e summons não geram as
 recompensas PvM normais.
 
@@ -37,6 +44,12 @@ progresso PvM.
 Ensorcelled Armor pertence ao grupo **Abyss**. Variantes dracônicas elegíveis
 contam para **Reptilian** e **Dragon Slaying**.
 
+## Proteção contra burst
+
+No PvM elegível, a proteção contra burst limita a **90 HP por golpe** e a **90
+HP no total** dentro de uma janela móvel de **2,5 segundos**. Essa proteção é
+específica de encontros PvM e não altera PvP, Arena ou outras fontes de dano.
+
 ## Dicas
 
 Consulte [Maestria PvM](pvm-mastery.md) para entender a progressão e
@@ -44,5 +57,5 @@ Consulte [Maestria PvM](pvm-mastery.md) para entender a progressão e
 trilha inicial de [Achievements](achievements.md) continua sendo a melhor
 introdução para personagens novos.
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.42.0"
     Os contratos de caça PvM correspondem ao comportamento confirmado do servidor oficial.

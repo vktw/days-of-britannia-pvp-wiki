@@ -1,7 +1,7 @@
 # Cartography
 
 <section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Cartography" data-craft-sim-slider-max="105" aria-labelledby="dob-craft-cartography-title">
-<div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Menu da skill</span><h3 id="dob-craft-cartography-title">Cartography</h3><p>Catálogo oficial ativo do servidor 0.41.0, reconciliado a partir do menu atual de craft. Os valores públicos do simulador param em 105.0.</p></div>
+<div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Menu da skill</span><h3 id="dob-craft-cartography-title">Cartography</h3><p>Catálogo oficial ativo do servidor 0.42.0, reconciliado a partir do menu atual de craft. Os valores públicos do simulador param em 105.0.</p></div>
 <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen><span class="dob-craft-simulator__screen-label">Menu principal</span><h4>Escolha uma categoria</h4><div class="dob-craft-simulator__menu">
 <button type="button" data-craft-sim-open-section="mapas-e-cartas" data-craft-sim-section-title="Mapas e cartas"><span><strong>Mapas e cartas</strong><small>6 receitas</small></span><b>6 receitas&nbsp; →</b></button>
 <button type="button" data-craft-sim-open-section="all" data-craft-sim-section-title="Índice completo"><span><strong>Buscar receita</strong><small>Pesquisar em todo o menu</small></span><b>6 receitas&nbsp; →</b></button></div></div>

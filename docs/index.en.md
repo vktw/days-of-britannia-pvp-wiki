@@ -7,6 +7,38 @@ hide:
 
 <h1 class="dob-visually-hidden">Home</h1>
 
+<nav class="dob-mockup-switcher" aria-label="Select a visual proposal">
+  <span>HOME PROPOSALS</span>
+  <a href="?mockup=cinema">01 · Cinematic</a>
+  <a href="?mockup=hud">02 · Game interface</a>
+  <a href="?mockup=cronica">03 · Chronicle</a>
+</nav>
+
+<section class="dob-game-status" aria-label="Server status">
+  <span><i aria-hidden="true"></i><strong>Server online</strong><small>Britannia is active</small></span>
+  <span><strong>0.42.0</strong><small>Current version</small></span>
+  <a href="patches/"><strong>Amulets and PvM Progression</strong><small>Latest update</small></a>
+  <a href="https://economy.dobshard.com/"><strong>Economy</strong><small>Shard marketplace</small></a>
+</section>
+
+<section class="dob-concept-intros" aria-label="Introduction">
+  <div class="dob-concept-intro dob-concept-intro--cinema">
+    <p>A WORLD FORGED BY PLAYERS</p>
+    <h2>Britannia calls.</h2>
+    <span>Enter a modern shard with custom PvM and PvP, unique progression, and an active community.</span>
+  </div>
+  <div class="dob-concept-intro dob-concept-intro--hud">
+    <p>PLAYER COMMAND CENTER</p>
+    <h2>Choose your next objective.</h2>
+    <span>Start playing, consult systems, or return directly to the content driving your journey.</span>
+  </div>
+  <div class="dob-concept-intro dob-concept-intro--cronica">
+    <p>CHRONICLES OF BRITANNIA</p>
+    <h2>A living atlas of the shard.</h2>
+    <span>Guides, systems, and stories organized like a publication from within the game world.</span>
+  </div>
+</section>
+
 <section class="dob-atlas-hero dob-atlas-hero--main-art dob-atlas-codex" aria-label="Main actions">
 <div class="dob-atlas-hero-actions" aria-label="Main actions">
 <a class="dob-atlas-hero-card dob-atlas-hero-card--launcher" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
@@ -85,20 +117,27 @@ hide:
 </a>
 </nav>
 
+<nav class="dob-game-quickbar" aria-label="Choose your path">
+  <a href="primeiros-passos/"><span>01</span><strong>New player</strong><small>Installation, character, and first hour</small></a>
+  <a href="sistemas/pvm-mastery/"><span>02</span><strong>PvM and progression</strong><small>Hunts, Masteries, and rewards</small></a>
+  <a href="combate/"><span>03</span><strong>PvP and Arena</strong><small>Combat, pressure, and competition</small></a>
+  <a href="craft/"><span>04</span><strong>Craft and economy</strong><small>Recipes, materials, and chances</small></a>
+</nav>
+
 <section class="dob-atlas-content" aria-label="Main content">
 <article class="dob-atlas-feature">
 <p class="dob-atlas-kicker">LATEST UPDATE</p>
-<h2>0.41.0 · Season of Thorns</h2>
-<p class="dob-atlas-feature__date"><time datetime="2026-09-01">September 1, 2026</time></p>
-<p>September brings Overgrown creatures, Heart of the Briar rewards, and new DoB Cloth recipes.</p>
+<h2>0.42.0 · Amulets, PvM Progression, Houses, and Tools</h2>
+<p class="dob-atlas-feature__date"><time datetime="2026-09-02">September 2, 2026</time></p>
+<p>Amulets reach +10, PvM makes better use of effective skill, and houses and tools gain new rules.</p>
 <a href="patches/">READ PATCH NOTES <span aria-hidden="true">→</span></a>
 </article>
 
 <div class="dob-atlas-index">
 <p class="dob-atlas-kicker">LATEST UPDATED ARTICLES</p>
-<a href="sistemas/season-of-thorns/"><span class="dob-atlas-index__code">SEP 06</span><span><strong>Season of Thorns</strong><small>September event and seasonal rewards</small></span><i aria-hidden="true">→</i></a>
-<a href="craft/tailoring/"><span class="dob-atlas-index__code">SEP 06</span><span><strong>Tailoring</strong><small>DoB Cloth recipes and success chances</small></span><i aria-hidden="true">→</i></a>
-<a href="sistemas/spawns-raros/"><span class="dob-atlas-index__code">SEP 06</span><span><strong>Rare spawns</strong><small>Event cycles and boss respawn times</small></span><i aria-hidden="true">→</i></a>
-<a href="sistemas/casas/"><span class="dob-atlas-index__code">SEP 06</span><span><strong>Houses</strong><small>Commodity Deed Box and storage</small></span><i aria-hidden="true">→</i></a>
+<a href="itens/recompensas-pvm/"><span class="dob-atlas-index__code">SEP 09</span><span><strong>PvM rewards</strong><small>Magic Skill Amulets and new progression bonuses</small></span><i aria-hidden="true">→</i></a>
+<a href="sistemas/pvm-mastery/"><span class="dob-atlas-index__code">SEP 09</span><span><strong>PvM Mastery</strong><small>Level 1 bonuses and effective-skill progression</small></span><i aria-hidden="true">→</i></a>
+<a href="craft/tinkering/"><span class="dob-atlas-index__code">SEP 09</span><span><strong>Tinkering</strong><small>Classic, Enduring, and DoB Tools</small></span><i aria-hidden="true">→</i></a>
+<a href="sistemas/spawns-raros/"><span class="dob-atlas-index__code">SEP 09</span><span><strong>Rare spawns</strong><small>The Man in the Hedge and respawn cycles</small></span><i aria-hidden="true">→</i></a>
 </div>
 </section>

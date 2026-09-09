@@ -18,14 +18,17 @@ New characters start with the following skills at **100.0**:
 Profession-specific skills are assigned separately. Existing characters keep
 their saved values; the compatible migration never lowers an existing skill.
 
-There is no effective global skill cap. Each player skill is individually capped at **100.0**.
+There is no effective global skill cap. Each player base skill is individually
+capped at **100.0**; temporary bonuses such as skill amulets can raise effective
+value above that limit according to the skill's rules.
 
 ## Skill progression
 
-The 49 active skills use calibrated training curves. From **30.0**, protected
-gain operates only while a skill is behind its projected curve: fast-profile
-skills have an eight-active-hour guarantee and the others have ten. No protected
-progress is banked below 30.0.
+The 49 active skills use calibrated training curves. Between **30.0 and 100.0**,
+projected progression now targets **4 or 6 active hours**, depending on the
+skill. Protected gain still operates only while a skill is behind its curve and
+keeps the **8- or 10-hour** limits for the fast and normal profiles. No
+protected progress is banked below 30.0; saved progress is preserved.
 
 Anatomy, Evaluating Intelligence, Fencing, Wrestling, Parrying, and Mace
 Fighting gain **0.2** when a normal gain is approved in eligible PvM combat,
@@ -37,7 +40,25 @@ Taming gains, including through Combat Training. Herding enters a four-second
 cooldown as soon as the Shepherd's Crook is used, even with a cancelled or
 invalid target.
 
+In protected **Poisoning** training, each paid poison application follows the
+progress, including when the application fails or the poison is unsuitable for
+the target.
+
 Characters created before version 0.7.0 receive Hiding, Stealth, Detect Hidden and Poisoning at 100.0 once upon first login after the update.
+
+## Tracking
+
+Tracking uses **effective skill** for search range: it reaches **43 tiles at
+100.0** and **45 tiles at 105.0**. Filters and result limits remain unchanged.
+
+Tracking activations observe a **four-second** interval. Entering War Mode
+interrupts active Tracking and reports that the quarry was lost.
+
+## Moving through creatures
+
+Animals, monsters, pets, and NPC vendors with at least **10 stamina** can be
+pushed. The movement costs the creature **10 stamina**. This exception does not
+change player-to-player collision.
 
 ## Stats and buffs
 
@@ -70,5 +91,5 @@ maximum of 25 steps. Walking, including while mounted, consumes the limit;
 exhausting it reveals the character, and running, including while mounted,
 reveals immediately. Armor does not block or reduce Stealth effectiveness.
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.42.0"
     Stats, skills, caps and race correspond to the official server.

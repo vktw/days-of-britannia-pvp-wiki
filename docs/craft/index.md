@@ -1,6 +1,6 @@
 # Craft
 
-O **0.41.0** organiza o craft em nove categorias. Esta seção reúne as
+O **0.42.0** organiza o craft em nove categorias. Esta seção reúne as
 receitas de maior interesse para jogadores, os materiais exigidos, a faixa de
 skill e um controle para consultar a chance-base de sucesso.
 
@@ -41,6 +41,12 @@ políticas especiais de DoB podem substituir essa curva linear.
 Nesta prévia local, as tabelas e os controles estão deliberadamente limitados a
 105.0 de skill. Quando a fonte oficial continua além desse ponto, a prévia não
 extrapola a curva depois do corte.
+
+## Peso dos recursos
+
+No servidor 0.42.0, cada unidade de **Ingots** e **Boards** pesa **0,5 stone**.
+O material escolhido continua determinando a identidade e a cor dos itens nas
+receitas que aceitam variação de recurso.
 
 ## O que significa Exceptional
 

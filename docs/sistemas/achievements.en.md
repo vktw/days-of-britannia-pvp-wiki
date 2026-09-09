@@ -53,6 +53,18 @@ become available:
 These rewards are delivered once and do not change the eight-step introductory
 path. Catalogue progress is not retroactive.
 
+## Overgrown and Ancient Overgrown in 0.42.0
+
+The new cumulative tracks grant additional PvM Mastery XP only:
+
+| Variant | Milestone | Reward |
+|---|---:|---:|
+| Overgrown | 1 / 10 / 100 kills | 100 / 500 / 1,000 XP |
+| Ancient Overgrown | 1 / 10 kills | 500 / 1,000 XP |
+
+The two tracks are independent. All eligible profiles count toward the
+milestones; this track adds no Gold, loot, or Scroll reward.
+
 ## Limits
 
 Achievements do not add points, rankings, titles, or cosmetic rewards. First
@@ -61,5 +73,5 @@ PvP Trainer ranking or Arena rules.
 
 See also [PvM Mastery](pvm-mastery.md) for XP, Slayer families, and builds.
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.42.0"
     The Achievements system is available on the official server.

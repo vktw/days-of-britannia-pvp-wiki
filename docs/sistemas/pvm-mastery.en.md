@@ -127,10 +127,17 @@ the former specific 12.5% cap.
 ## Eighth-circle summons
 
 The six eighth-circle summoning spells use a 2% to 98% success curve when cast
-from a Spellbook, reaching **75% at 100.0 Magery**. Scrolls, NPCs, and other
-spells do not use this curve.
+from a Spellbook, reaching **80% at 100.0 Magery** and **88% at 110.0**. The
+**Unbroken Calling** Mastery increases that chance relatively. Scrolls, NPCs,
+summons from other circles, and other spells do not use this curve.
 
-## 0.40.0 melee Masteries
+## 0.42.0 adjustment
+
+All **32 operational PvM Masteries** start with **+5.00 percentage points** at
+level 1. Per-level progression, level 20, caps, and jewelry bonuses continue
+to apply additively, without changing PvP or Arena exclusions.
+
+## 0.42.0 melee Masteries
 
 For their first ten levels, the four Masteries below advance by **0.25 percentage
 point per level**. Levels 11 through 20 continue with diminishing returns. Their
@@ -139,10 +146,10 @@ players or in the Arena.
 
 | Mastery | Family | Level 1–10 range | What it offers |
 |---|---|---:|---|
-| **Bloodbound Renewal** | Undead | 7.50%–9.75% | May invoke Greater Heal on a positive primary melee hit. The effect uses no Words of Power, reagents, or mana. |
-| **Mirrorblade Aegis** | Abyssal | 7.50%–9.75% | May grant one Magic Reflection charge on a positive primary melee hit. The effect uses no Words of Power, reagents, or mana. |
-| **Arcane Bastion** | Elemental | 5.00%–7.25% | May nullify eligible creature PvM damage for 6 seconds after the creature's spell resolves. |
-| **Crimson Wrath** | Humanoid | 5.00%–7.25% | May prepare the next positive primary melee hit for up to 8 seconds, adding 100% of its pre-Paralyzed-Damage-Bonus damage. |
+| **Bloodbound Renewal** | Undead | 12.50%–14.75% | May invoke Greater Heal on a positive primary melee hit. The effect uses no Words of Power, reagents, or mana. |
+| **Mirrorblade Aegis** | Abyssal | 12.50%–14.75% | May grant one Magic Reflection charge on a positive primary melee hit. The effect uses no Words of Power, reagents, or mana. |
+| **Arcane Bastion** | Elemental | 10.00%–12.25% | May nullify eligible creature PvM damage for 6 seconds after the creature's spell resolves. |
+| **Crimson Wrath** | Humanoid | 10.00%–12.25% | May prepare the next positive primary melee hit for up to 8 seconds, adding 100% of its pre-Paralyzed-Damage-Bonus damage. |
 
 Crimson Wrath arms one charge and does not refresh it while it is active.
 
@@ -209,5 +216,5 @@ See [PvM rewards](../itens/recompensas-pvm.md) for XP, Loot Packs, jewelry, and 
 
 See also [Achievements](achievements.md) for the introductory path and activity achievements.
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.42.0"
     The Hunter's Compendium provides dedicated progression for characters who fight creatures.

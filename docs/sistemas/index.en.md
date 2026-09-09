@@ -49,5 +49,5 @@ but remain usable normally in PvM.
 - [Player Vendors](player-vendors.md): Nujelm's protected public market.
 - [Royal Banking Charter](royal-banking-charter.md): permanent character bank expansion.
 
-!!! success "Status: 0.41.0"
+!!! success "Status: 0.42.0"
     The availability below corresponds to the official ruleset.

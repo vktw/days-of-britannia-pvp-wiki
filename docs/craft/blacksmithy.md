@@ -1,7 +1,7 @@
 # Blacksmithy
 
 <section class="dob-craft-simulator" data-smith-simulator aria-labelledby="smith-title">
-<div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Menu da skill</span><h3 id="smith-title">Blacksmithy</h3><p>0.41.0 · Escolha uma categoria, uma receita e o material. Use uma ferramenta de Blacksmithy próxima de uma forja e uma bigorna.</p></div>
+<div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Menu da skill</span><h3 id="smith-title">Blacksmithy</h3><p>0.42.0 · Escolha uma categoria, uma receita e o material. Use uma ferramenta de Blacksmithy próxima de uma forja e uma bigorna.</p></div>
 <div data-smith-menu><span class="dob-craft-simulator__screen-label">Menu principal</span><h4>Escolha uma categoria</h4><div class="dob-craft-simulator__menu">
 <button type="button" data-smith-category="metal-armor"><span><strong>Metal Armor</strong><small>13 receitas</small></span><b>→</b></button>
 <button type="button" data-smith-category="helmets"><span><strong>Helmets</strong><small>5 receitas</small></span><b>→</b></button>

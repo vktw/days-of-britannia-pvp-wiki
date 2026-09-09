@@ -58,21 +58,22 @@ Ordinary weapons remain **Iron**. In Blacksmithy, the **DoB Weapons** submenu se
 
 Success is 0% through 75.0, 50% at 92.5, and 100% at 105.0 or higher, using effective Blacksmithy. An ordinary weapon does not switch to a special metal: ordinary recipes still require Iron.
 
-## Bowcraft in 0.40.0
+## Bowcraft in 0.42.0
 
 Bowcraft now offers two weapons in the **DoB Weapons** category. The recipes use direct resources, and the bonuses below belong to each weapon:
 
 | Weapon | Resources | Bowcraft curve | Intrinsic effect |
 |---|---|---|---|
 | **Fire Bow** | 30 Fire Feathers and 30 Ash Logs | 75% at 100.0 | +6 thematic damage and Fireball impact animation/sound, without a moving projectile |
-| **Elven Bow** | 30 Heartwood Logs | 0% at 65.0 and 100% at 100.0 | Speed 3.00, 7–12 base damage, and +10 Tactics and +10 Archery while equipped |
+| **Elven Bow** | 30 Heartwood Logs | 0% at 65.0 and 100% at 100.0 | Speed 2.50, 7–12 base damage, and +10 Tactics and +10 Archery while equipped |
 
 Fire Feathers from a Rare Phoenix work in the Fire Bow recipe. Weapons made through Bowcraft no longer receive combat bonuses derived from the selected wood; the resource still identifies the item, while Fire Bow and Elven Bow keep their intrinsic effects.
 
-In 0.40.0 PvM, the Elven Bow is the explicit exception to skill
-normalization: its +10 Archery can produce **82.5%** base chance at 110.0, and
-its +10 Tactics continues to affect damage above 100. This exception does not
-change the PvP formula or create a general skill cap.
+In 0.42.0 PvM, weapon attacks against creatures reach an **80%** base chance at
+100.0 effective skill and **88%** at 110.0. The Elven Bow is the explicit exception: its +10
+Archery can reach **96%** at 120.0 when combined with the matching amulet, and
+its +10 Tactics continues to affect damage above 100.0. The 2.50 speed also
+applies in PvP; skill caps and the PvP formula do not change.
 
 ## Official kits
 
@@ -82,5 +83,5 @@ Not every weapon present in the client circulates among players. The shard catal
 
 See [Melee and Archery](../combate/melee-archery.md) and [Poison](../combate/poison.md).
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.42.0"
     Choose weapons by their combat role, not by an isolated damage spreadsheet.

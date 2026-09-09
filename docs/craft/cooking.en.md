@@ -1,7 +1,7 @@
 # Cooking
 
 <section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Cooking" data-craft-sim-slider-max="105" aria-labelledby="dob-craft-cooking-title">
-<div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Skill menu</span><h3 id="dob-craft-cooking-title">Cooking</h3><p>Official active catalog for server 0.41.0, reconciled from the current craft menu. Public simulator values stop at 105.0.</p></div>
+<div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Skill menu</span><h3 id="dob-craft-cooking-title">Cooking</h3><p>Official active catalog for server 0.42.0, reconciled from the current craft menu. Public simulator values stop at 105.0.</p></div>
 <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen><span class="dob-craft-simulator__screen-label">Main menu</span><h4>Choose a category</h4><div class="dob-craft-simulator__menu">
 <button type="button" data-craft-sim-open-section="ingredientes" data-craft-sim-section-title="Ingredientes"><span><strong>Ingredientes</strong><small>10 recipes</small></span><b>10 recipes&nbsp; →</b></button>
 <button type="button" data-craft-sim-open-section="preparos" data-craft-sim-section-title="Preparos"><span><strong>Preparos</strong><small>21 recipes</small></span><b>21 recipes&nbsp; →</b></button>

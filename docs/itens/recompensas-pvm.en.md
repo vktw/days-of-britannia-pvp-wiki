@@ -55,6 +55,17 @@ Amulets can temporarily raise an available skill, including above 100 effective 
 
 An action related to the equipped skill consumes one use. The final use still benefits the action and then breaks the amulet. Inspecting properties, equipping, or storing it does not consume charges.
 
+## Magic Skill Amulets in 0.42.0
+
+New **Magic Skill Amulets** can grant **+1 to +5 in 80%** of generations and
+**+6 to +10 in 20%**. The skill must be active; inactive skills and the eight
+modern skills that start at 100.0 are excluded.
+
+The bonus can raise effective skill to **110.0**. Charges, consumption on a
+skill-related action, and breaking after the final use follow the amulet rules
+above. In PvM, the bonus can combine with the Elven Bow's intrinsic bonus when
+the matching skill is Archery or Tactics.
+
 ## Newcomer
 
 Characters with the eligible Young benefit receive **100% additional PvM Mastery
@@ -63,5 +74,5 @@ and looting-right rules still apply.
 
 See also [PvM Mastery](../sistemas/pvm-mastery.md) and [Threat Rating](../mundo/threat-rating.md).
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.42.0"
     Eligible creatures reward the group according to the scale of the encounter.

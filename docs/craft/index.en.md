@@ -1,6 +1,6 @@
 # Craft
 
-**0.41.0** organizes crafting into nine categories. This section gathers
+**0.42.0** organizes crafting into nine categories. This section gathers
 the recipes most useful to players, required materials, skill ranges, and a
 control for checking base success chance.
 
@@ -41,6 +41,12 @@ bonuses. DoB special policies can replace the linear curve.
 In this local preview, tables and controls are deliberately limited to 105.0
 skill. When the official source continues beyond that point, the preview does
 not extrapolate the curve past the cutoff.
+
+## Resource weight
+
+On server 0.42.0, each **Ingot** and **Board** weighs **0.5 stone**. The
+selected material continues to determine item identity and color in recipes
+that accept resource variants.
 
 ## What Exceptional means
 

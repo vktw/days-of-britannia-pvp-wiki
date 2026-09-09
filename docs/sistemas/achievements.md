@@ -53,6 +53,18 @@ PvM ficam disponíveis:
 Essas recompensas são de uma única entrega e não alteram a trilha inicial de
 oito etapas. O progresso de catálogo não é retroativo.
 
+## Overgrown e Ancient Overgrown no 0.42.0
+
+As novas trilhas cumulativas concedem somente XP de Maestria PvM adicional:
+
+| Variante | Marco | Recompensa |
+|---|---:|---:|
+| Overgrown | 1 / 10 / 100 abates | 100 / 500 / 1.000 XP |
+| Ancient Overgrown | 1 / 10 abates | 500 / 1.000 XP |
+
+As duas trilhas são independentes. Todos os perfis elegíveis contam para os
+marcos; não há Gold, loot ou Scroll adicional nessa trilha.
+
 ## Limites
 
 Achievements não adicionam pontos, rankings, títulos ou recompensas cosméticas.
@@ -61,5 +73,5 @@ ranking do PvP Trainer nem as regras da Arena.
 
 Veja também [Maestria PvM](pvm-mastery.md) para XP, famílias Slayer e builds.
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.42.0"
     O sistema de Achievements está disponível no servidor oficial.

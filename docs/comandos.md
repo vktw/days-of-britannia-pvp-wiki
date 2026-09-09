@@ -47,5 +47,13 @@ A Ultima Store está desativada. Não há compras, entregas ou uso de Sovereigns
 
 Mostra qual Daily Dungeon está selecionada e quanto tempo falta para a próxima rotação. Use o comando antes de sair para aproveitar os bônus de experiência de Maestria PvM e Loot Packs.
 
-!!! success "Status: 0.40.0"
+## `.rankings`
+
+Abre um menu com as abas de Top 10 de **murder count**, **Gold** e XP vitalícia
+de **Maestria PvM**. Personagens conectados, inclusive staff, podem consultar
+o menu, mas contas de staff e contas excluídas não aparecem nos resultados.
+Quando elegível, sua própria posição também é destacada. Os registros são
+atualizados depois de um world save bem-sucedido.
+
+!!! success "Status: 0.42.0"
     Os comandos abaixo estão disponíveis aos jogadores no servidor oficial.

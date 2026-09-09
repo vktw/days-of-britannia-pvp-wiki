@@ -111,7 +111,7 @@ regras comuns de `CraftItem` na tag de produção `v0.41.0`.
 | Cartography | 6 | Eodonian Wall Map recipe-gated omitido; mapas comuns e as duas orientações de Tattered Wall Map preservadas. |
 | Cooking | 61 | Grupos Enchanted e Magical Fish Pies removidos pelo servidor; bebidas, chocolate e preparos ativos incluídos. |
 | Inscription | 87 | 64 scrolls de magia, 17 scrolls de Necromancy e seis livros/materiais ativos; Scrapper's Compendium e Runic Atlas recipe-gated omitidos. |
-| Tailoring | 153 | Roupas, couro, studded, gargoyle e grupos especiais ativos incluídos; entradas recipe-gated omitidas; chance-base normal corrigida para 50%. |
+| Tailoring | 156 | Roupas, couro, studded, gargoyle, grupos especiais e três robes DoB Cloth incluídos; entradas recipe-gated omitidas; chance-base normal corrigida para 50%. |
 | Tinkering | 270 | 100 entradas diretas, 54 joias geradas por nove `AddJewelrySet` e 116 ferramentas especiais geradas por `AddDoBSpecialToolRecipes`; madeira/cestaria, ferramentas, componentes, utensílios, projetos, armadilhas e grupos DoB incluídos. |
 
 As páginas PT-BR e EN têm o mesmo índice, pesquisa por item/grupo/material e
@@ -129,3 +129,15 @@ Exceptional segue a política ECA oficial do sistema; itens marcados como
 Glassblowing e Masonry foram retiradas do índice do Craft e do hub público,
 mas os arquivos Markdown foram mantidos fora da navegação para preservar URLs
 antigas e permitir redirect/remoção formal em uma revisão específica.
+
+## Correção pós-reconciliação baseada no patchnotes
+
+O patchnotes 0.41.0 já registrava Mantle of the Titan, Windrunner Robe e
+Sage's Robe, mas o índice de 153 itens havia sido fechado sem essas três
+entradas. O catálogo PT-BR/EN foi corrigido para 156 receitas, com os bônus de
+atributo, reagentes oficiais e a curva linear de 0% em 65.0 a 100% em 105.0.
+
+O mesmo confronto corrigiu três materiais que ainda refletiam a definição
+genérica do catálogo no Tinkering: Metal Chest agora mostra 150 Ingots, e os
+deeds de Suit Of Gold/Silver Armor mostram 200 Ingots, preservando no texto a
+escolha de metal do menu e sua cor no resultado, conforme o patchnotes 0.39.0.

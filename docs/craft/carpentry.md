@@ -1,7 +1,7 @@
 # Carpentry
 
 <section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Carpentry" data-craft-sim-slider-max="105" aria-labelledby="dob-craft-carpentry-title">
-  <div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Menu da skill</span><h3 id="dob-craft-carpentry-title">Carpentry</h3><p>0.41.0 · Réplica das categorias e receitas visíveis no menu oficial de Carpentry. A consulta pública limita skill e curvas a 105.0; a consulta segue o menu ativo do servidor.</p></div>
+  <div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Menu da skill</span><h3 id="dob-craft-carpentry-title">Carpentry</h3><p>0.42.0 · Réplica das categorias e receitas visíveis no menu oficial de Carpentry. A consulta pública limita skill e curvas a 105.0; a consulta segue o menu ativo do servidor.</p></div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen><span class="dob-craft-simulator__screen-label">Menu principal</span><h4>Escolha uma categoria</h4><div class="dob-craft-simulator__menu">
     <button type="button" data-craft-sim-open-section="other" data-craft-sim-section-title="Outros"><span><strong>Outros</strong><small>Materiais, utilidades e itens especiais</small></span><b>26 receitas&nbsp; →</b></button>
     <button type="button" data-craft-sim-open-section="furniture" data-craft-sim-section-title="Móveis"><span><strong>Móveis</strong><small>Cadeiras, mesas e móveis</small></span><b>25 receitas&nbsp; →</b></button>

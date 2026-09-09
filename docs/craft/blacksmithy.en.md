@@ -1,7 +1,7 @@
 # Blacksmithy
 
 <section class="dob-craft-simulator" data-smith-simulator aria-labelledby="smith-title">
-<div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Skill menu</span><h3 id="smith-title">Blacksmithy</h3><p>0.41.0 · Choose a category, recipe, and material. Use a Blacksmithy tool near a forge and an anvil.</p></div>
+<div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Skill menu</span><h3 id="smith-title">Blacksmithy</h3><p>0.42.0 · Choose a category, recipe, and material. Use a Blacksmithy tool near a forge and an anvil.</p></div>
 <div data-smith-menu><span class="dob-craft-simulator__screen-label">Main menu</span><h4>Choose a category</h4><div class="dob-craft-simulator__menu">
 <button type="button" data-smith-category="metal-armor"><span><strong>Metal Armor</strong><small>13 recipes</small></span><b>→</b></button>
 <button type="button" data-smith-category="helmets"><span><strong>Helmets</strong><small>5 recipes</small></span><b>→</b></button>

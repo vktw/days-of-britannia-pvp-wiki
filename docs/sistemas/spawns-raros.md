@@ -55,6 +55,16 @@ Derrotá-lo liberta uma Ruby Mustang domesticável, protegida de criaturas
 selvagens por 60 segundos, e pode conceder The Condemned Heart, recompensas PvM
 extras, seu livro de lore e a foice The Ruby Judgment.
 
+## The Man in the Hedge
+
+No Hedge Maze, dez sombras espalhadas guardam o encontro. Derrote-as para
+revelar o homem verdadeiro montado no centro. As sombras resistem a armas;
+pets e summons não funcionam contra elas, e **Dispel** expõe sua fraqueza por
+um breve período.
+
+O encontro pode conceder uma **Emerald Llama** ou **Emerald Mustang**, **The
+Eleventh Heart**, loot extra e uma Chronicle relacionada a **Elias Wren**.
+
 ## Eventos fixos
 
 Os eventos fixos são separados da Rare Britannia: a **Rare Rideable Llama exige
@@ -76,11 +86,12 @@ Britannia](whispers-britannia.md).
 | Rare Zostrich Ostard | 5 horas | Ciclo independente; uma montaria selvagem existente pode impedir novo nascimento. |
 | Nochyer | 3–6 dias após a morte | Um intervalo aleatório é escolhido depois da morte do boss. |
 | Odran | 3–6 dias após a morte | Um intervalo aleatório é escolhido depois da morte do boss. |
+| The Man in the Hedge | 3–6 dias após a morte | Um intervalo aleatório é escolhido depois da morte do boss final. |
 | Rare Britannia | Sempre uma disponível | O mundo mantém uma montaria selvagem ativa. Ao liberar a vaga, a reposição começa assim que houver um local válido. |
 
 Os ciclos em horas não são contagens reiniciadas a cada abate. Um ciclo pode
 passar sem uma nova criatura aparecer; os intervalos não garantem um horário
 exato de chegada.
 
-!!! success "Status: 0.41.0"
+!!! success "Status: 0.42.0"
     Phoenix rara, criaturas raras e eventos oferecem caminhos de descoberta em Britannia.

@@ -57,6 +57,17 @@ Amuletos podem elevar temporariamente uma skill disponível, inclusive acima de 
 
 Uma ação relacionada à skill equipada consome um uso. O último uso ainda beneficia a ação e depois quebra o amuleto. Consultar propriedades, equipar ou guardar o item não consome cargas.
 
+## Magic Skill Amulets no 0.42.0
+
+Os novos **Magic Skill Amulets** podem conceder bônus de **+1 a +5 em 80%**
+das gerações e de **+6 a +10 em 20%**. A skill precisa estar ativa; skills
+inativas e as oito skills modernas que começam em 100.0 não entram na rolagem.
+
+O bônus pode levar a skill efetiva até **110.0**. As cargas, o consumo no uso
+relacionado à skill e a quebra após o último uso seguem as regras dos amuletos
+já descritas. No PvM, o bônus pode se combinar com o bônus próprio do Elven Bow
+quando a skill correspondente for Archery ou Tactics.
+
 ## Newcomer
 
 Personagens com o benefício Young elegível recebem **100% adicionais de
@@ -65,5 +76,5 @@ normais de participação, proximidade e direito ao loot continuam valendo.
 
 Veja também [Maestria PvM](../sistemas/pvm-mastery.md) e [Threat Rating](../mundo/threat-rating.md).
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.42.0"
     Criaturas elegíveis recompensam o grupo conforme a escala do encontro.

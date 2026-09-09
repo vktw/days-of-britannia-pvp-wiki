@@ -6,6 +6,13 @@ Jogadores autorizados dentro de casas privadas ficam protegidos de ações hosti
 externas e também não podem atacar através da fronteira da casa. Casas públicas
 permanecem inalteradas.
 
+## Conteúdo visível em casas privadas
+
+O conteúdo da casa também pode mostrar os objetos posicionados em uma casa
+privada. Essa visibilidade não libera interação externa: containers, mapas e
+outros objetos não estruturais continuam protegidos contra retirada, uso ou
+transferência por quem não tem acesso.
+
 ## Interações entre pisos
 
 Pisos estruturais não bloqueiam interações no mesmo andar quando estão abaixo
@@ -18,5 +25,5 @@ Bankers vendem a **Commodity Deed Box por 20.000 Gold**. Para operar Commodity
 Deeds, a caixa precisa estar **secured dentro de uma casa**; mantê-la na mochila
 não é suficiente.
 
-!!! success "Status: 0.41.0"
+!!! success "Status: 0.42.0"
     Estas regras correspondem ao servidor oficial.

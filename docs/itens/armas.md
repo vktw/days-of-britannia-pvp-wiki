@@ -58,21 +58,24 @@ Armas comuns permanecem em **Iron**. Na Blacksmithy, o submenu **DoB Weapons** s
 
 A chance de sucesso é 0% até 75.0, 50% em 92.5 e 100% em 105.0 ou mais, usando a Blacksmithy efetiva. Uma arma comum não troca para metal especial: as receitas comuns continuam exigindo Iron.
 
-## Bowcraft no 0.40.0
+## Bowcraft no 0.42.0
 
 Bowcraft passa a oferecer duas armas na categoria **DoB Weapons**. As receitas usam recursos diretos e os bônus abaixo são próprios de cada arma:
 
 | Arma | Recursos | Curva de Bowcraft | Efeito próprio |
 |---|---|---|---|
 | **Fire Bow** | 30 Fire Feathers e 30 Ash Logs | 75% em 100.0 | +6 de dano temático e impacto visual/sonoro de Fireball, sem projétil em movimento |
-| **Elven Bow** | 30 Heartwood Logs | 0% em 65.0 e 100% em 100.0 | Speed 3.00, dano base 7–12 e +10 de Tactics e +10 de Archery enquanto equipado |
+| **Elven Bow** | 30 Heartwood Logs | 0% em 65.0 e 100% em 100.0 | Speed 2.50, dano base 7–12 e +10 de Tactics e +10 de Archery enquanto equipado |
 
 As Fire Feathers da Rare Phoenix funcionam na receita do Fire Bow. Armas produzidas pela Bowcraft deixam de receber bônus de combate derivados da madeira escolhida; o recurso continua identificando o item, enquanto os efeitos próprios de Fire Bow e Elven Bow permanecem.
 
-No PvM do 0.40.0, o Elven Bow é a exceção explícita à normalização da
-skill: seu +10 de Archery pode produzir **82,5%** de chance-base em 110.0, e seu
-+10 de Tactics continua influenciando o dano acima de 100. Essa exceção não
-altera a fórmula de PvP nem cria um cap geral de skill.
+No PvM do 0.42.0, ataques com armas contra criaturas chegam a **80%** de
+chance-base em 100.0 de skill efetiva e a **88%** em 110.0. O Elven Bow é a
+exceção explícita:
+seu +10 de Archery pode chegar a **96%** em 120.0 quando combinado com o
+amuleto correspondente, e seu +10 de Tactics continua influenciando o dano
+acima de 100.0. A velocidade 2.50 também vale no PvP; os caps de skill e a
+fórmula de PvP não mudam.
 
 ## Kits oficiais
 
@@ -82,5 +85,5 @@ Nem toda arma existente no cliente circula para jogadores. O catálogo do shard 
 
 Veja [Melee e Archery](../combate/melee-archery.md) e [Poison](../combate/poison.md).
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.42.0"
     Escolha armas pelo papel no combate, não por uma planilha isolada de dano.

@@ -2,6 +2,42 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.42.0 · Amulets, PvM Progression, Houses, and Tools
+
+Published on September 2, 2026.
+
+- **Metal Chests** now hold up to **250 items**, including existing chests.
+- New **Magic Skill Amulets** grant +1 to +5 in 80% of rolls and +6 to +10 in 20%; inactive skills and the eight modern skills that start at 100.0 are excluded.
+- Weapon attacks against creatures make better use of effective skill: base hit chance reaches 80% at 100.0 and 88% at 110.0; the PvP formula remains unchanged.
+- In PvM, the **Elven Bow** intrinsic bonus stacks with an Archery or Tactics amulet up to 120.0 effective skill; Archery can reach a 96% base chance.
+- Tactics, Anatomy, and Evaluating Intelligence above 100.0 increase PvM damage effects through amulets; PvP caps remain unchanged.
+- The six eighth-circle Spellbook summons use the 80% curve at 100.0 Magery and 88% at 110.0; **Unbroken Calling** increases that chance relatively.
+- **Elven Bow** speed changes from 3.00 to 2.50 seconds at 100 DEX, in both PvM and PvP.
+- Maximum durability no longer increases after an item is created; wear, deaths, and other reductions can still lower that ceiling.
+- Private houses now display placed objects in the content shown around the house without allowing outside interaction.
+- Private-house item safeguards are reinforced for special containers, maps, and other interaction paths.
+- Clean bandages must be in the using character's backpack, including when activated through client shortcuts.
+- Season of Thorns prices changed to Briarcap Cluster 30, Nest with Eggs 35, Lilly Pad 45, Lilly Pads 55, Briarheart Beehive 75, Yucca Tree 100, and Bamboo 135 Hearts.
+- Wild **Arctic Ogre Lords** can return as Overgrown while preserving their icy identity.
+- The 26 Tinkering **Classic Tools** recipes require 10.0, start at 10% base chance, and scale linearly to 100% at 30.0.
+- Provisioners start with 320 ordinary Hatchets, Pickaxes, Shovels, and Fishing Poles.
+- Provisioners also sell **Enduring** versions of those four tools, with 500 uses, explicit names, and a price ten times the ordinary version.
+- DoB **Light** tools use 500 uses; **Hardened** and **Tempered** use 1,000; Artisan, Reliable, and Refined keep normal durability.
+- `.rankings` opens Top 10 tabs for murder count, Gold, and lifetime PvM Mastery XP; records update after a successful world save.
+- Animals, monsters, pets, and NPC vendors can be pushed when they have at least 10 stamina, spending 10; players are not included in this exception.
+- Odran's bond with the Ruby Mustang prevents the mount from coming loose before the rider is defeated.
+- Protected skill training from 30.0 to 100.0 now targets 4 or 6 hours depending on the skill; the protected limits of 8 and 10 hours remain, as does saved progress.
+- Protected Poisoning training follows each paid poison application, including failed or unsuitable applications.
+- PvM burst protection limits damage to 90 HP per hit and 90 HP total in a rolling 2.5-second window.
+- All 32 operational PvM Masteries start with **+5.00 percentage points** at level 1; progression, level 20, caps, and jewelry remain additive as before.
+- Overgrown grants 100, 500, and 1,000 PvM Mastery XP at 1, 10, and 100 kills; Ancient Overgrown grants 500 and 1,000 XP at 1 and 10. The tracks are independent.
+- The Daily Dungeon grants 125% additional PvM Mastery XP over the participant-adjusted normal award; the Loot Pack divisor changes from 4,000 to 3,500, with an expected rate approximately 128.6% higher.
+- In **The Man in the Hedge**, defeat ten scattered shadows to reveal the mounted true man at the center; shadows resist weapons, pets and summons do not work, and Dispel exposes his weakness. The encounter may yield an Emerald Llama or Mustang, The Eleventh Heart, extra loot, and an Elias Wren Chronicle.
+- The **DoB Cloth** robe stat bonus is restored on reconnect when the robe remains equipped; storing it grants no bonus.
+- The full official Yew Arena area is recognized again as a valid boundary for participants.
+
+See [PvM rewards](itens/recompensas-pvm.md), [Weapons](itens/armas.md), [Houses](sistemas/casas.md), [Season of Thorns](sistemas/season-of-thorns.md), [Tinkering](craft/tinkering.md), [Commands](comandos.md), [PvM Mastery](sistemas/pvm-mastery.md), [Daily Dungeon](sistemas/daily-dungeon.md), [Achievements](sistemas/achievements.md), [PvM hunting](sistemas/caca-pvm.md), [Rare spawns](sistemas/spawns-raros.md), [Character](personagem.md), [Arena](arena.md), and [Tomes of Expertise](sistemas/tomes-expertise.md).
+
 ## 0.41.0 · Season of Thorns
 
 Published September 1, 2026.
@@ -18,7 +54,7 @@ Published September 1, 2026.
 - Magical creatures consider their actual Cure chance and may use Mana Drain or Mana Vampire in PvM, preserving protections for players, pets, summons, Arena, and PvP.
 - Bankers sell Commodity Deed Box for 20,000 Gold; the box must be secured in a house to operate Commodity Deeds.
 
-See [Season of Thorns](sistemas/season-of-thorns.md), [Tailoring](craft/tailoring.md), and [Houses](sistemas/casas.md).
+See [Season of Thorns](sistemas/season-of-thorns.md), [Tailoring](craft/tailoring.md), [Houses](sistemas/casas.md), [Character](personagem.md), [PvM hunting](sistemas/caca-pvm.md), and [Craft](craft/index.md).
 
 ## 0.40.0 · The Red Verdict
 

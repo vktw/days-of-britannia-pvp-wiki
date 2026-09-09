@@ -19,14 +19,17 @@ Skills específicas da profissão são atribuídas separadamente. Personagens
 existentes preservam seus valores; a migração compatível nunca reduz uma skill
 já salva.
 
-Não existe skill cap global efetivo. Cada skill de jogador é limitada individualmente a **100.0**.
+Não existe skill cap global efetivo. Cada skill base de jogador é limitada
+individualmente a **100.0**; bônus temporários, como os amuletos de skill,
+podem elevar o valor efetivo acima desse limite conforme as regras da skill.
 
 ## Progressão de skills
 
-As 49 skills ativas usam curvas de treino calibradas. A partir de **30.0**, o
-ganho protegido atua somente quando a skill está atrás da curva projetada: o
-perfil rápido tem garantia em oito horas ativas e os demais em dez. Abaixo de
-30.0, não há progresso protegido acumulado.
+As 49 skills ativas usam curvas de treino calibradas. Entre **30.0 e 100.0**, a
+progressão projetada agora mira **4 ou 6 horas ativas**, conforme a skill. O
+ganho protegido continua atuando somente quando a skill está atrás da curva e
+mantém os limites de **8 ou 10 horas** para os perfis rápido e normal. Abaixo
+de 30.0, não há progresso protegido acumulado; o progresso já salvo é mantido.
 
 Anatomy, Evaluating Intelligence, Fencing, Wrestling, Parrying e Mace Fighting
 ganham **0.2** quando um ganho normal é aprovado em combate PvM elegível, sem
@@ -38,7 +41,25 @@ de Animal Taming, inclusive por Combat Training. Herding entra em cooldown de
 quatro segundos assim que o Shepherd's Crook é usado, mesmo com alvo cancelado
 ou inválido.
 
+No treino protegido de **Poisoning**, cada aplicação paga de poison acompanha o
+progresso, mesmo quando a aplicação falha ou o veneno não é adequado ao alvo.
+
 Personagens criados antes da versão 0.7.0 recebem Hiding, Stealth, Detect Hidden e Poisoning em 100.0 uma única vez no primeiro login após a atualização.
+
+## Tracking
+
+Tracking usa a **skill efetiva** para calcular o alcance da busca: chega a **43
+tiles em 100.0** e a **45 tiles em 105.0**. Os filtros e os limites de
+resultados permanecem os mesmos.
+
+As ativações de Tracking respeitam um intervalo de **quatro segundos**. Entrar
+em War Mode interrompe um Tracking ativo e informa que a presa foi perdida.
+
+## Movimento entre criaturas
+
+É possível empurrar animais, monstros, pets e NPC vendors que tenham pelo menos
+**10 de stamina**. O movimento consome **10 de stamina** da criatura. Essa
+exceção não altera a colisão entre jogadores.
 
 ## Stats e buffs
 
@@ -71,5 +92,5 @@ de 1 e máximo de 25 passos. Caminhar, inclusive montado, consome esse limite;
 esgotá-lo revela o personagem e correr, inclusive montado, revela imediatamente.
 Usar armadura não bloqueia nem reduz a eficácia de Stealth.
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.42.0"
     Stats, skills, caps e raça correspondem ao servidor oficial.

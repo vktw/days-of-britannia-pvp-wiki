@@ -25,6 +25,13 @@ devem ser tratados como resultado garantido.
 Tomes das famílias **Craft** e **Harvesting** concedem no máximo **1.0** de
 skill. O progresso é permanente e respeita os limites atuais da skill sorteada.
 
+## Rolagens no 0.42.0
+
+As novas rolagens de Tomes of Expertise não incluem as oito skills que começam
+em 100.0: **Swords, Tactics, Archery, Healing, Magery, Meditation, Focus e
+Resisting Spells**. A chance de drop e os demais ganhos dos tomes permanecem
+inalterados.
+
 ## Como usar
 
 Mantenha o tome na mochila, deixe a skill indicada configurada para subir e use
@@ -32,5 +39,5 @@ dois cliques. O tome é consumido quando o ganho é aplicado.
 
 Para outras recompensas de caça, consulte [Recompensas PvM](../itens/recompensas-pvm.md).
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.42.0"
     Tomes of Expertise estão ativos no servidor oficial.

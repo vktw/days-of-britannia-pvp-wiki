@@ -3074,3 +3074,594 @@ body.dob-atlas-nav-open .md-main__inner > .md-sidebar--primary {
     background: linear-gradient(90deg, rgb(7 22 28 / 96%) 0%, rgb(7 22 28 / 88%) 100%);
   }
 }
+
+/* Local home concepts: Portal, Player Dashboard, and Living Atlas */
+html[data-dob-home-mockup] .dob-home .md-content__inner {
+  display: flex;
+  max-width: 78rem;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 3rem;
+}
+
+.dob-mockup-switcher,
+.dob-game-status,
+.dob-game-quickbar { display: none; }
+
+html[data-dob-home-mockup] .dob-mockup-switcher {
+  order: 1;
+  display: flex;
+  min-height: 2.6rem;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem;
+  border: 1px solid var(--dob-border);
+  background: rgb(3 12 16 / 82%);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.dob-mockup-switcher > span {
+  margin: 0 0.65rem;
+  color: var(--dob-text-muted);
+  font-size: 0.56rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.md-typeset .dob-mockup-switcher > a {
+  padding: 0.52rem 0.75rem;
+  color: var(--dob-text-muted);
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.md-typeset .dob-mockup-switcher > a:hover,
+.md-typeset .dob-mockup-switcher > a:focus-visible,
+html[data-dob-home-mockup="portal"] .dob-mockup-switcher > a[href="?mockup=portal"],
+html[data-dob-home-mockup="painel"] .dob-mockup-switcher > a[href="?mockup=painel"],
+html[data-dob-home-mockup="atlas"] .dob-mockup-switcher > a[href="?mockup=atlas"] {
+  color: var(--dob-bg);
+  background: var(--dob-gold-hover);
+}
+
+html[data-dob-home-mockup] .dob-game-status {
+  order: 2;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border: 1px solid var(--dob-border);
+  background: rgb(7 22 28 / 88%);
+}
+
+.dob-game-status > span,
+.md-typeset .dob-game-status > a {
+  position: relative;
+  display: grid;
+  min-width: 0;
+  padding: 0.75rem 0.9rem;
+  color: var(--dob-text);
+  text-decoration: none;
+}
+
+.dob-game-status > * + * { border-left: 1px solid var(--dob-border); }
+.dob-game-status strong,
+.dob-game-status small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dob-game-status strong { color: var(--dob-text-strong); font-size: 0.72rem; }
+.dob-game-status small { margin-top: 0.18rem; color: var(--dob-text-muted); font-size: 0.56rem; }
+
+.dob-game-status i {
+  position: absolute;
+  top: 0.95rem;
+  right: 0.8rem;
+  width: 0.42rem;
+  height: 0.42rem;
+  border-radius: 50%;
+  background: #69c987;
+  box-shadow: 0 0 0.65rem #69c987;
+}
+
+html[data-dob-home-mockup] .dob-game-quickbar {
+  order: 5;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+.md-typeset .dob-game-quickbar > a {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  min-height: 5.6rem;
+  align-content: center;
+  column-gap: 0.7rem;
+  padding: 0.85rem;
+  border: 1px solid var(--dob-border);
+  color: var(--dob-text);
+  background: linear-gradient(135deg, rgb(15 39 47 / 96%), rgb(6 20 26 / 96%));
+  text-decoration: none;
+  transition: border-color 160ms ease, transform 160ms ease;
+}
+
+.md-typeset .dob-game-quickbar > a:hover,
+.md-typeset .dob-game-quickbar > a:focus-visible { border-color: var(--dob-gold-hover); transform: translateY(-2px); }
+.dob-game-quickbar span { grid-row: span 2; color: var(--dob-gold); font-size: 0.58rem; font-weight: 700; }
+.dob-game-quickbar strong { color: var(--dob-text-strong); font-size: 0.76rem; }
+.dob-game-quickbar small { margin-top: 0.2rem; color: var(--dob-text-muted); font-size: 0.58rem; line-height: 1.35; }
+
+html[data-dob-home-mockup] .dob-atlas-hero { order: 3; }
+html[data-dob-home-mockup] .dob-atlas-codex-paths { order: 4; }
+html[data-dob-home-mockup] .dob-atlas-content { order: 6; }
+
+/* 01 — cinematic portal */
+html[data-dob-home-mockup="portal"] body:has(.dob-home)::before {
+  background-image: linear-gradient(180deg, rgb(2 8 11 / 8%), rgb(2 8 11 / 52%) 64%, rgb(4 15 20 / 96%)), radial-gradient(circle at 50% 18%, rgb(186 139 48 / 18%), transparent 42%), url("../assets/hero-main-dark-test-b.webp?v=20260806.1");
+}
+html[data-dob-home-mockup="portal"] .dob-atlas-hero-actions { gap: 1rem; }
+html[data-dob-home-mockup="portal"] .md-typeset .dob-atlas-hero-card { min-height: 19rem; }
+html[data-dob-home-mockup="portal"] .dob-atlas-hero-card__art::after { background: linear-gradient(180deg, rgb(3 9 12 / 20%), rgb(3 9 12 / 92%)); }
+html[data-dob-home-mockup="portal"] .dob-atlas-codex-paths { min-height: 17rem; background: rgb(3 12 16 / 62%); }
+
+/* 02 — player dashboard */
+html[data-dob-home-mockup="painel"] body:has(.dob-home)::before {
+  background-image: linear-gradient(135deg, rgb(5 17 23 / 96%), rgb(3 11 15 / 92%)), url("../assets/hero-main-dark-test-b.webp?v=20260806.1");
+}
+html[data-dob-home-mockup="painel"] .dob-game-quickbar { order: 3; }
+html[data-dob-home-mockup="painel"] .dob-atlas-hero { order: 4; }
+html[data-dob-home-mockup="painel"] .dob-atlas-content { order: 5; }
+html[data-dob-home-mockup="painel"] .dob-atlas-codex-paths { order: 6; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+html[data-dob-home-mockup="painel"] .md-typeset .dob-game-quickbar > a { min-height: 7.5rem; border-top: 2px solid var(--dob-gold-muted); background: linear-gradient(150deg, rgb(20 48 57 / 98%), rgb(5 18 24 / 98%)); }
+html[data-dob-home-mockup="painel"] .md-typeset .dob-atlas-hero-card,
+html[data-dob-home-mockup="painel"] .dob-atlas-hero-card__body { min-height: 11rem; }
+html[data-dob-home-mockup="painel"] .md-typeset .dob-atlas-codex-paths > a { min-height: 8rem; }
+html[data-dob-home-mockup="painel"] .dob-atlas-codex-path__art { width: 7.5rem; }
+
+/* 03 — living atlas */
+html[data-dob-home-mockup="atlas"] body:has(.dob-home)::before {
+  background-image: linear-gradient(90deg, rgb(3 12 16 / 94%) 0%, rgb(3 12 16 / 58%) 56%, rgb(3 12 16 / 88%) 100%), url("../assets/card-britannia-exploration.webp?v=20260813.1");
+  background-position: center;
+}
+html[data-dob-home-mockup="atlas"] .dob-atlas-codex-paths { order: 3; grid-template-columns: 1.35fr 1fr; grid-template-rows: repeat(2, minmax(10rem, 1fr)); min-height: 23rem; gap: 0.7rem; border: 0; }
+html[data-dob-home-mockup="atlas"] .dob-atlas-hero { order: 4; }
+html[data-dob-home-mockup="atlas"] .md-typeset .dob-atlas-codex-paths > a { min-height: 10rem; border: 1px solid var(--dob-border); background: rgb(3 12 16 / 76%); }
+html[data-dob-home-mockup="atlas"] .md-typeset .dob-atlas-codex-paths > a:first-child { grid-row: 1 / 3; }
+html[data-dob-home-mockup="atlas"] .md-typeset .dob-atlas-codex-paths > a + a { border-left: 1px solid var(--dob-border); }
+html[data-dob-home-mockup="atlas"] .md-typeset .dob-atlas-hero-card,
+html[data-dob-home-mockup="atlas"] .dob-atlas-hero-card__body { min-height: 10rem; }
+
+@media screen and (max-width: 59.984375em) {
+  html[data-dob-home-mockup] .dob-game-status,
+  html[data-dob-home-mockup] .dob-game-quickbar { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .dob-game-status > *:nth-child(3) { border-left: 0; border-top: 1px solid var(--dob-border); }
+  .dob-game-status > *:nth-child(4) { border-top: 1px solid var(--dob-border); }
+  html[data-dob-home-mockup="atlas"] .dob-atlas-codex-paths { grid-template-columns: minmax(0, 1fr); grid-template-rows: none; }
+  html[data-dob-home-mockup="atlas"] .md-typeset .dob-atlas-codex-paths > a:first-child { grid-row: auto; }
+}
+
+@media screen and (max-width: 44.984375em) {
+  html[data-dob-home-mockup] .dob-home .md-content__inner { gap: 0.7rem; }
+  html[data-dob-home-mockup] .dob-mockup-switcher { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .dob-mockup-switcher > span { grid-column: 1 / -1; margin: 0.25rem 0.4rem 0; }
+  .md-typeset .dob-mockup-switcher > a { padding-inline: 0.35rem; text-align: center; }
+  html[data-dob-home-mockup] .dob-game-quickbar { grid-template-columns: minmax(0, 1fr); }
+  html[data-dob-home-mockup="portal"] .md-typeset .dob-atlas-hero-card,
+  html[data-dob-home-mockup="painel"] .md-typeset .dob-atlas-hero-card { min-height: 12rem; }
+}
+
+/* Distinct home directions: cinematic landing, game HUD, and editorial chronicle. */
+.dob-concept-intros { display: none; }
+
+html[data-dob-home-mockup] .dob-concept-intros {
+  display: block;
+  order: 2;
+}
+
+html[data-dob-home-mockup] .dob-home .md-content__inner > *,
+html[data-dob-home-mockup] .dob-atlas-hero-actions,
+html[data-dob-home-mockup] .dob-atlas-hero-card { min-width: 0; }
+
+html[data-dob-home-mockup] .dob-concept-intro { display: none; }
+html[data-dob-home-mockup="cinema"] .dob-concept-intro--cinema,
+html[data-dob-home-mockup="hud"] .dob-concept-intro--hud,
+html[data-dob-home-mockup="cronica"] .dob-concept-intro--cronica { display: block; }
+
+.dob-concept-intro > p {
+  margin: 0 0 0.45rem;
+  font-size: 0.61rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.md-typeset .dob-concept-intro > h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.dob-concept-intro > span { display: block; }
+
+html[data-dob-home-mockup="cinema"] .dob-mockup-switcher > a[href="?mockup=cinema"],
+html[data-dob-home-mockup="hud"] .dob-mockup-switcher > a[href="?mockup=hud"],
+html[data-dob-home-mockup="cronica"] .dob-mockup-switcher > a[href="?mockup=cronica"] {
+  color: var(--dob-bg);
+  background: var(--dob-gold-hover);
+}
+
+/* 01 — cinematic landing: art first, minimal chrome, campaign-scale entry. */
+html[data-dob-home-mockup="cinema"] body:has(.dob-home)::before {
+  background-image:
+    linear-gradient(90deg, rgb(2 7 9 / 94%) 0%, rgb(2 7 9 / 46%) 48%, rgb(2 7 9 / 18%) 72%, rgb(2 7 9 / 76%) 100%),
+    linear-gradient(180deg, rgb(2 7 9 / 18%) 0%, rgb(2 7 9 / 24%) 54%, rgb(2 7 9 / 98%) 100%),
+    url("../assets/hero-main-dark-test-b.webp?v=20260806.1");
+  background-position: 62% top;
+}
+
+html[data-dob-home-mockup="cinema"] .md-main__inner:has(.dob-home) {
+  max-width: none;
+  margin: 0;
+}
+
+html[data-dob-home-mockup="cinema"] .md-main__inner:has(.dob-home) > .md-sidebar--primary { display: none; }
+
+html[data-dob-home-mockup="cinema"] .dob-home .md-content__inner {
+  max-width: 88rem;
+  min-height: calc(100vh - 3rem);
+  margin: 0 auto;
+  padding: 1rem clamp(1rem, 4vw, 4.5rem) 4rem;
+  gap: 0;
+}
+
+html[data-dob-home-mockup="cinema"] .dob-mockup-switcher {
+  order: 1;
+  width: fit-content;
+  margin-left: auto;
+  border-color: rgb(255 255 255 / 13%);
+  background: rgb(2 8 11 / 66%);
+}
+
+html[data-dob-home-mockup="cinema"] .dob-concept-intros {
+  order: 2;
+  width: min(42rem, 72%);
+  padding: clamp(4rem, 12vh, 8.5rem) 0 2.2rem;
+}
+
+html[data-dob-home-mockup="cinema"] .dob-concept-intro > p { color: #e1bc62; }
+
+html[data-dob-home-mockup="cinema"] .md-typeset .dob-concept-intro > h2 {
+  color: #fff8e8;
+  font-size: clamp(3.2rem, 7vw, 7rem);
+  font-weight: 500;
+  line-height: 0.91;
+  text-shadow: 0 0.22rem 1.2rem rgb(0 0 0 / 48%);
+}
+
+html[data-dob-home-mockup="cinema"] .dob-concept-intro > span {
+  max-width: 38rem;
+  margin-top: 1.2rem;
+  color: rgb(255 248 232 / 78%);
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+html[data-dob-home-mockup="cinema"] .dob-game-status {
+  order: 3;
+  width: min(42rem, 72%);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-color: rgb(255 255 255 / 13%);
+  background: rgb(2 8 11 / 58%);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+html[data-dob-home-mockup="cinema"] .dob-atlas-hero {
+  order: 4;
+  width: min(52rem, 84%);
+  margin: 1rem 0 0;
+  padding: 0;
+}
+
+html[data-dob-home-mockup="cinema"] .dob-atlas-hero-actions {
+  grid-template-columns: 1.35fr 1fr;
+  gap: 0.65rem;
+}
+
+html[data-dob-home-mockup="cinema"] .md-typeset .dob-atlas-hero-card,
+html[data-dob-home-mockup="cinema"] .dob-atlas-hero-card__body { min-height: 8.8rem; }
+html[data-dob-home-mockup="cinema"] .dob-atlas-hero-card__art { opacity: 0.45; }
+html[data-dob-home-mockup="cinema"] .dob-atlas-hero-card__body { justify-content: flex-end; padding: 1rem; }
+html[data-dob-home-mockup="cinema"] .dob-atlas-hero-card__eyebrow,
+html[data-dob-home-mockup="cinema"] .dob-atlas-hero-card__body > small { display: none; }
+html[data-dob-home-mockup="cinema"] .dob-atlas-hero-card__title { font-size: 1.08rem; }
+html[data-dob-home-mockup="cinema"] .dob-atlas-hero-card__button { width: fit-content; margin-top: 0.6rem; }
+
+html[data-dob-home-mockup="cinema"] .dob-atlas-codex-paths {
+  order: 5;
+  margin-top: clamp(4rem, 12vh, 9rem);
+  background: rgb(2 8 11 / 76%);
+}
+
+html[data-dob-home-mockup="cinema"] .dob-game-quickbar { display: none; }
+html[data-dob-home-mockup="cinema"] .dob-atlas-content { order: 6; }
+
+/* 02 — game HUD: compact, systematic, and driven by next actions. */
+html[data-dob-home-mockup="hud"] body:has(.dob-home)::before {
+  background-image:
+    linear-gradient(rgb(3 14 19 / 96%), rgb(3 14 19 / 96%)),
+    linear-gradient(90deg, rgb(195 164 93 / 8%) 1px, transparent 1px),
+    linear-gradient(rgb(195 164 93 / 8%) 1px, transparent 1px);
+  background-size: auto, 2.5rem 2.5rem, 2.5rem 2.5rem;
+}
+
+html[data-dob-home-mockup="hud"] .dob-home .md-content__inner {
+  display: grid;
+  max-width: 82rem;
+  grid-template-columns: minmax(14rem, 0.72fr) minmax(0, 1.65fr);
+  grid-template-areas:
+    "switch switch"
+    "intro status"
+    "quick hero"
+    "quick content"
+    "paths paths";
+  gap: 0.75rem;
+  padding: 1rem 1.2rem 3rem;
+}
+
+html[data-dob-home-mockup="hud"] .dob-mockup-switcher { grid-area: switch; }
+html[data-dob-home-mockup="hud"] .dob-concept-intros {
+  grid-area: intro;
+  padding: 1.15rem;
+  border-top: 3px solid #c3a45d;
+  background: rgb(5 22 29 / 96%);
+}
+
+html[data-dob-home-mockup="hud"] .dob-concept-intro > p { color: #c3a45d; }
+html[data-dob-home-mockup="hud"] .md-typeset .dob-concept-intro > h2 {
+  margin-top: 0.35rem;
+  color: #f2ead7;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+html[data-dob-home-mockup="hud"] .dob-concept-intro > span {
+  margin-top: 0.75rem;
+  color: rgb(214 225 226 / 66%);
+  font-size: 0.68rem;
+  line-height: 1.5;
+}
+
+html[data-dob-home-mockup="hud"] .dob-game-status { grid-area: status; order: initial; }
+html[data-dob-home-mockup="hud"] .dob-game-status > span,
+html[data-dob-home-mockup="hud"] .md-typeset .dob-game-status > a {
+  align-content: center;
+  gap: 0.25rem;
+}
+
+html[data-dob-home-mockup="hud"] .dob-game-quickbar {
+  grid-area: quick;
+  order: initial;
+  grid-template-columns: minmax(0, 1fr);
+  align-content: start;
+  gap: 0;
+  border: 1px solid rgb(195 164 93 / 28%);
+}
+
+html[data-dob-home-mockup="hud"] .md-typeset .dob-game-quickbar > a {
+  min-height: 6.5rem;
+  border: 0;
+  border-bottom: 1px solid rgb(195 164 93 / 20%);
+  background: rgb(7 28 36 / 96%);
+  box-shadow: inset 0.18rem 0 0 transparent;
+}
+
+html[data-dob-home-mockup="hud"] .md-typeset .dob-game-quickbar > a:hover,
+html[data-dob-home-mockup="hud"] .md-typeset .dob-game-quickbar > a:focus-visible {
+  background: rgb(13 42 52 / 98%);
+  box-shadow: inset 0.18rem 0 0 #c3a45d;
+  transform: none;
+}
+
+html[data-dob-home-mockup="hud"] .dob-atlas-hero {
+  grid-area: hero;
+  order: initial;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+html[data-dob-home-mockup="hud"] .dob-atlas-hero-actions { gap: 0.75rem; }
+html[data-dob-home-mockup="hud"] .md-typeset .dob-atlas-hero-card,
+html[data-dob-home-mockup="hud"] .dob-atlas-hero-card__body { min-height: 14rem; }
+html[data-dob-home-mockup="hud"] .dob-atlas-hero-card__art { opacity: 0.62; filter: saturate(0.72); }
+html[data-dob-home-mockup="hud"] .dob-atlas-hero-card__body { justify-content: flex-end; }
+
+html[data-dob-home-mockup="hud"] .dob-atlas-content {
+  grid-area: content;
+  order: initial;
+  grid-template-columns: 0.82fr 1.18fr;
+  background: rgb(5 22 29 / 94%);
+}
+
+html[data-dob-home-mockup="hud"] .dob-atlas-codex-paths {
+  grid-area: paths;
+  order: initial;
+  min-height: 8rem;
+}
+
+html[data-dob-home-mockup="hud"] .md-typeset .dob-atlas-codex-paths > a { min-height: 8rem; }
+html[data-dob-home-mockup="hud"] .dob-atlas-codex-path__art { width: 8rem; }
+
+/* 03 — editorial chronicle: warm, authored, and closer to a game compendium. */
+html[data-dob-home-mockup="cronica"] body:has(.dob-home)::before {
+  background-image:
+    linear-gradient(rgb(16 12 8 / 34%), rgb(16 12 8 / 52%)),
+    url("../assets/card-britannia-exploration.webp?v=20260813.1");
+  background-position: center top;
+  filter: sepia(0.2) saturate(0.72);
+}
+
+html[data-dob-home-mockup="cronica"] .md-main__inner:has(.dob-home) {
+  max-width: none;
+  margin: 0;
+}
+
+html[data-dob-home-mockup="cronica"] .md-main__inner:has(.dob-home) > .md-sidebar--primary { display: none; }
+
+html[data-dob-home-mockup="cronica"] .dob-home .md-content__inner {
+  max-width: 76rem;
+  margin: 2rem auto 4rem;
+  padding: clamp(1.2rem, 4vw, 4rem);
+  gap: 1.6rem;
+  color: #34281b;
+  background:
+    linear-gradient(rgb(239 229 207 / 97%), rgb(226 211 181 / 97%)),
+    repeating-linear-gradient(0deg, transparent 0 23px, rgb(83 59 34 / 5%) 24px);
+  box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 42%);
+}
+
+html[data-dob-home-mockup="cronica"] .dob-mockup-switcher {
+  order: 1;
+  border: 0;
+  border-bottom: 1px solid rgb(67 45 24 / 32%);
+  background: transparent;
+}
+
+html[data-dob-home-mockup="cronica"] .dob-mockup-switcher > span,
+html[data-dob-home-mockup="cronica"] .md-typeset .dob-mockup-switcher > a { color: #67523b; }
+html[data-dob-home-mockup="cronica"] .dob-mockup-switcher > a[href="?mockup=cronica"] { color: #f7eedc; background: #6b3427; }
+
+html[data-dob-home-mockup="cronica"] .dob-concept-intros {
+  order: 2;
+  padding: 2.5rem 0 2.2rem;
+  text-align: center;
+  border-bottom: 3px double rgb(67 45 24 / 48%);
+}
+
+html[data-dob-home-mockup="cronica"] .dob-concept-intro > p { color: #8a412f; }
+html[data-dob-home-mockup="cronica"] .md-typeset .dob-concept-intro > h2 {
+  color: #302116;
+  font-size: clamp(2.8rem, 6vw, 5.8rem);
+  font-weight: 500;
+  line-height: 1;
+}
+
+html[data-dob-home-mockup="cronica"] .dob-concept-intro > span {
+  max-width: 40rem;
+  margin: 1rem auto 0;
+  color: #67523b;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.88rem;
+  line-height: 1.65;
+}
+
+html[data-dob-home-mockup="cronica"] .dob-game-status {
+  order: 3;
+  border: 1px solid rgb(67 45 24 / 28%);
+  background: rgb(248 241 225 / 54%);
+}
+
+html[data-dob-home-mockup="cronica"] .dob-game-status > * + * { border-left-color: rgb(67 45 24 / 24%); }
+html[data-dob-home-mockup="cronica"] .dob-game-status strong { color: #302116; }
+html[data-dob-home-mockup="cronica"] .dob-game-status small { color: #766047; }
+
+html[data-dob-home-mockup="cronica"] .dob-atlas-codex-paths {
+  order: 4;
+  min-height: 22rem;
+  gap: 1rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+html[data-dob-home-mockup="cronica"] .md-typeset .dob-atlas-codex-paths > a {
+  min-height: 22rem;
+  border: 1px solid rgb(67 45 24 / 38%);
+  color: #f8eed8;
+  box-shadow: 0 0.5rem 1.2rem rgb(61 39 19 / 18%);
+}
+
+html[data-dob-home-mockup="cronica"] .md-typeset .dob-atlas-codex-paths > a + a { border-left: 1px solid rgb(67 45 24 / 38%); }
+html[data-dob-home-mockup="cronica"] .dob-atlas-codex-path__art { filter: sepia(0.24) saturate(0.84); }
+html[data-dob-home-mockup="cronica"] .dob-atlas-codex-path__art::after { background: linear-gradient(180deg, rgb(34 23 14 / 4%), rgb(34 23 14 / 88%)); }
+
+html[data-dob-home-mockup="cronica"] .dob-atlas-hero {
+  order: 5;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+html[data-dob-home-mockup="cronica"] .md-typeset .dob-atlas-hero-card,
+html[data-dob-home-mockup="cronica"] .dob-atlas-hero-card__body { min-height: 10rem; }
+html[data-dob-home-mockup="cronica"] .dob-atlas-hero-card__art { filter: sepia(0.35) saturate(0.7); }
+html[data-dob-home-mockup="cronica"] .dob-atlas-hero-card__body { justify-content: flex-end; }
+
+html[data-dob-home-mockup="cronica"] .dob-game-quickbar {
+  order: 6;
+  gap: 0;
+  border-top: 3px double rgb(67 45 24 / 42%);
+  border-bottom: 3px double rgb(67 45 24 / 42%);
+}
+
+html[data-dob-home-mockup="cronica"] .md-typeset .dob-game-quickbar > a {
+  min-height: 6.8rem;
+  border: 0;
+  color: #493826;
+  background: transparent;
+}
+
+html[data-dob-home-mockup="cronica"] .md-typeset .dob-game-quickbar > a + a { border-left: 1px solid rgb(67 45 24 / 25%); }
+html[data-dob-home-mockup="cronica"] .dob-game-quickbar strong { color: #302116; }
+html[data-dob-home-mockup="cronica"] .dob-game-quickbar small { color: #766047; }
+html[data-dob-home-mockup="cronica"] .dob-game-quickbar span { color: #8a412f; }
+
+html[data-dob-home-mockup="cronica"] .dob-atlas-content {
+  order: 7;
+  border: 1px solid rgb(67 45 24 / 32%);
+  color: #493826;
+  background: rgb(248 241 225 / 48%);
+}
+
+html[data-dob-home-mockup="cronica"] .dob-atlas-feature { border-right-color: rgb(67 45 24 / 24%); }
+html[data-dob-home-mockup="cronica"] .dob-atlas-kicker,
+html[data-dob-home-mockup="cronica"] .dob-atlas-index__code { color: #8a412f; }
+html[data-dob-home-mockup="cronica"] .md-typeset .dob-atlas-feature h2,
+html[data-dob-home-mockup="cronica"] .dob-atlas-index strong { color: #302116; }
+html[data-dob-home-mockup="cronica"] .dob-atlas-feature p,
+html[data-dob-home-mockup="cronica"] .dob-atlas-index small { color: #766047; }
+html[data-dob-home-mockup="cronica"] .dob-atlas-index > a { border-top-color: rgb(67 45 24 / 22%); color: #493826; }
+
+@media screen and (max-width: 59.984375em) {
+  html[data-dob-home-mockup="cinema"] .dob-concept-intros,
+  html[data-dob-home-mockup="cinema"] .dob-game-status,
+  html[data-dob-home-mockup="cinema"] .dob-atlas-hero { width: 100%; }
+
+  html[data-dob-home-mockup="hud"] .dob-home .md-content__inner {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "switch" "intro" "status" "hero" "quick" "content" "paths";
+  }
+
+  html[data-dob-home-mockup="cronica"] .dob-home .md-content__inner { margin: 0; }
+  html[data-dob-home-mockup="cronica"] .dob-atlas-codex-paths { min-height: 0; }
+  html[data-dob-home-mockup="cronica"] .md-typeset .dob-atlas-codex-paths > a { min-height: 13rem; }
+  html[data-dob-home-mockup="cronica"] .md-typeset .dob-game-quickbar > a + a { border-left: 0; }
+}
+
+@media screen and (max-width: 44.984375em) {
+  html[data-dob-home-mockup="cinema"] .dob-home .md-content__inner { padding-inline: 0.8rem; }
+  html[data-dob-home-mockup="cinema"] .dob-mockup-switcher { width: 100%; }
+  html[data-dob-home-mockup="cinema"] .dob-concept-intros { padding: 3rem 0 1.5rem; }
+  html[data-dob-home-mockup="cinema"] .md-typeset .dob-concept-intro > h2 { font-size: clamp(2.8rem, 16vw, 4.2rem); }
+  html[data-dob-home-mockup="cinema"] .dob-atlas-hero-actions { grid-template-columns: minmax(0, 1fr); }
+  html[data-dob-home-mockup="cinema"] .dob-atlas-codex-paths { margin-top: 3rem; }
+
+  html[data-dob-home-mockup="hud"] .dob-home .md-content__inner { padding-inline: 0.7rem; }
+  html[data-dob-home-mockup="hud"] .dob-atlas-content { grid-template-columns: minmax(0, 1fr); }
+
+  html[data-dob-home-mockup="cronica"] .dob-home .md-content__inner { padding: 1rem; }
+  html[data-dob-home-mockup="cronica"] .dob-concept-intros { padding-block: 1.6rem; }
+  html[data-dob-home-mockup="cronica"] .md-typeset .dob-concept-intro > h2 { font-size: 2.55rem; }
+}

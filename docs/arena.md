@@ -15,6 +15,10 @@ Arena NuJel'm fica em Felucca. Ela aceita somente duelos entre jogadores no modo
 **Personal Loot**. O PvP Trainer continua disponível exclusivamente na Arena
 Moonglow.
 
+A área completa da **Yew Cemetery** é reconhecida como parte da Yew Arena. Os
+participantes dentro da área oficial não são tratados como estando fora dos
+limites da luta.
+
 Durante a luta, a Arena usa as mesmas regras do PvP aberto para chance de
 acerto, dano, poison, cura, bandage, cast delay e mana. As restrições próprias
 da Arena ficam no fluxo de preparação, na área, no tempo da sessão e no loot;
@@ -84,5 +88,5 @@ entrada custa 1.000 gold e fornece o kit Iron fixo; seleção de tiers não faz
 parte desse fluxo. Esta página documenta somente as regras observáveis de
 entrada, cobrança e resultado, não decisões táticas internas do NPC.
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.42.0"
     Estas são as regras disponíveis no servidor oficial.

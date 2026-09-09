@@ -15,6 +15,9 @@ Overgrown still participate in normal PvM systems, including Mastery and hunts.
 Their loot neither replaces nor duplicates the original creature's loot.
 **Overgrown Grasp** can root you for **3 seconds** and apply Deadly Poison.
 
+Wild **Arctic Ogre Lords** can also return as Overgrown while preserving their
+icy identity.
+
 The **Ancient Overgrowth** variant has a **10% chance** to drop the bilingual
 collectible book **O Testamento da Primeira Sarça**.
 
@@ -32,13 +35,13 @@ shared across characters and reset each edition.
 
 | Reward | Heart of the Briar | Account limit per edition |
 |---|---:|---|
-| Briarcap Cluster | 45 | No specific limit |
-| Nest with Eggs | 55 | No specific limit |
-| Lilly Pad | 30 | No specific limit |
-| Lilly Pads | 35 | No specific limit |
-| Briarheart Beehive | 135 | No specific limit |
-| Yucca Tree | 75 | No specific limit |
-| Bamboo | 100 | No specific limit |
+| Briarcap Cluster | 30 | No specific limit |
+| Nest with Eggs | 35 | No specific limit |
+| Lilly Pad | 45 | No specific limit |
+| Lilly Pads | 55 | No specific limit |
+| Briarheart Beehive | 75 | No specific limit |
+| Yucca Tree | 100 | No specific limit |
+| Bamboo | 135 | No specific limit |
 | Thornbound Willow | 275 | 1 |
 | Briarheart Pigment | 450 | 1 |
 | Briarstrider Statuette | 725 | 1 |
@@ -53,5 +56,5 @@ tradable and lootable.
 See [PvM hunting](caca-pvm.md), [PvM Mastery](pvm-mastery.md), and
 [Rare spawns](spawns-raros.md) for other exploration goals.
 
-!!! success "Status: 0.41.0"
+!!! success "Status: 0.42.0"
     Recurring September event. Availability follows the edition's calendar.

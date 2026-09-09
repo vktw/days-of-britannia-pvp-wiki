@@ -17,12 +17,12 @@ theme:
   palette:
     scheme: dob
 extra:
-  dob_version: "0.41.0"
+  dob_version: "0.42.0"
 extra_css:
-  - stylesheets/extra.css?v=20260831.2
+  - stylesheets/extra.css?v=20260831.4
 extra_javascript:
   - scripts/blacksmith.js?v=20260906.1
-  - scripts/dob.js?v=20260906.4
+  - scripts/dob.js?v=20260909.2
 plugins:
   - search:
       lang:

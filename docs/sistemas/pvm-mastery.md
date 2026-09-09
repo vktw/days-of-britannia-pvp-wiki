@@ -127,10 +127,19 @@ antigo limite específico de 12,5%.
 ## Invocações de oitavo círculo
 
 As seis magias de invocação de oitavo círculo usam uma curva de sucesso entre
-2% e 98% quando lançadas pelo Spellbook, chegando a **75% com Magery 100.0**.
-Scrolls, NPCs e outras magias não usam essa curva.
+2% e 98% quando lançadas pelo Spellbook, chegando a **80% com Magery 100.0** e
+**88% em 110.0**. A Maestria **Chamado Inquebrável** aumenta essa chance de
+forma relativa. Scrolls, NPCs, summons de outros círculos e outras magias não
+usam essa curva.
 
-## Maestrias melee do 0.40.0
+## Ajuste do 0.42.0
+
+As **32 Maestrias PvM operacionais** começam com **+5,00 pontos percentuais**
+no nível 1. A progressão por nível, o nível 20, os caps e os bônus de joias
+continuam sendo aplicados de forma aditiva, sem alterar as exclusões de PvP e
+Arena.
+
+## Maestrias melee do 0.42.0
 
 Nos primeiros dez níveis, as quatro Maestrias abaixo avançam **0,25 ponto
 percentual por nível**. Do nível 11 ao 20, a progressão continua com retornos
@@ -139,10 +148,10 @@ funcionam contra jogadores ou na Arena.
 
 | Maestria | Família | Faixa nos níveis 1–10 | O que oferece |
 |---|---|---:|---|
-| **Bloodbound Renewal** | Undead | 7,50%–9,75% | Pode invocar Greater Heal ao acertar um golpe melee primário positivo. O efeito não usa Words of Power, reagentes ou mana. |
-| **Mirrorblade Aegis** | Abyssal | 7,50%–9,75% | Pode conceder uma carga de Magic Reflection ao acertar um golpe melee primário positivo. O efeito não usa Words of Power, reagentes ou mana. |
-| **Arcane Bastion** | Elemental | 5,00%–7,25% | Pode zerar o dano PvM elegível de uma criatura por 6 segundos depois que uma magia da criatura é resolvida. |
-| **Crimson Wrath** | Humanoid | 5,00%–7,25% | Pode preparar por até 8 segundos o próximo golpe melee primário positivo para acrescentar 100% do dano anterior ao bônus contra alvo paralisado. |
+| **Bloodbound Renewal** | Undead | 12,50%–14,75% | Pode invocar Greater Heal ao acertar um golpe melee primário positivo. O efeito não usa Words of Power, reagentes ou mana. |
+| **Mirrorblade Aegis** | Abyssal | 12,50%–14,75% | Pode conceder uma carga de Magic Reflection ao acertar um golpe melee primário positivo. O efeito não usa Words of Power, reagentes ou mana. |
+| **Arcane Bastion** | Elemental | 10,00%–12,25% | Pode zerar o dano PvM elegível de uma criatura por 6 segundos depois que uma magia da criatura é resolvida. |
+| **Crimson Wrath** | Humanoid | 10,00%–12,25% | Pode preparar por até 8 segundos o próximo golpe melee primário positivo para acrescentar 100% do dano anterior ao bônus contra alvo paralisado. |
 
 Crimson Wrath arma uma única carga e não a renova enquanto ela estiver ativa.
 
@@ -209,5 +218,5 @@ Consulte [Recompensas PvM](../itens/recompensas-pvm.md) para XP, Loot Packs, joi
 
 Consulte também [Achievements](achievements.md) para a trilha inicial e as conquistas de atividades.
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.42.0"
     O Hunter's Compendium oferece progressão própria para personagens que enfrentam criaturas.

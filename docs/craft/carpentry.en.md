@@ -1,7 +1,7 @@
 # Carpentry
 
 <section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Carpentry" data-craft-sim-slider-max="105" aria-labelledby="dob-craft-carpentry-title">
-  <div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Skill menu</span><h3 id="dob-craft-carpentry-title">Carpentry</h3><p>0.41.0 - Replica of the categories and recipes visible in the official Carpentry menu. The public query limits skills and curves to 105.0; Armor recipes and recipe-gated entries are not shown in the active menu.</p></div>
+  <div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Skill menu</span><h3 id="dob-craft-carpentry-title">Carpentry</h3><p>0.42.0 - Replica of the categories and recipes visible in the official Carpentry menu. The public query limits skills and curves to 105.0; Armor recipes and recipe-gated entries are not shown in the active menu.</p></div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen><span class="dob-craft-simulator__screen-label">Main menu</span><h4>Choose a category</h4><div class="dob-craft-simulator__menu">
     <button type="button" data-craft-sim-open-section="other" data-craft-sim-section-title="Other"><span><strong>Other</strong><small>Materials, tools, and special items</small></span><b>26 recipes -></b></button>
     <button type="button" data-craft-sim-open-section="furniture" data-craft-sim-section-title="Furniture"><span><strong>Furniture</strong><small>Chairs, tables, and furniture</small></span><b>25 recipes -></b></button>

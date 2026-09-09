@@ -7,6 +7,38 @@ hide:
 
 <h1 class="dob-visually-hidden">Início</h1>
 
+<nav class="dob-mockup-switcher" aria-label="Selecionar proposta visual">
+  <span>PROPOSTAS DE HOME</span>
+  <a href="?mockup=cinema">01 · Cinemática</a>
+  <a href="?mockup=hud">02 · Interface de jogo</a>
+  <a href="?mockup=cronica">03 · Crônica</a>
+</nav>
+
+<section class="dob-game-status" aria-label="Status do servidor">
+  <span><i aria-hidden="true"></i><strong>Servidor online</strong><small>Britannia está ativa</small></span>
+  <span><strong>0.42.0</strong><small>Versão atual</small></span>
+  <a href="patches/"><strong>Amuletos e Progressão PvM</strong><small>Última atualização</small></a>
+  <a href="https://economy.dobshard.com/"><strong>Economia</strong><small>Mercado do shard</small></a>
+</section>
+
+<section class="dob-concept-intros" aria-label="Apresentação">
+  <div class="dob-concept-intro dob-concept-intro--cinema">
+    <p>UM MUNDO FORJADO PELOS JOGADORES</p>
+    <h2>Britannia chama.</h2>
+    <span>Entre em um shard moderno, com PvM e PvP customizados, progressão própria e uma comunidade ativa.</span>
+  </div>
+  <div class="dob-concept-intro dob-concept-intro--hud">
+    <p>CENTRAL DO JOGADOR</p>
+    <h2>Escolha seu próximo objetivo.</h2>
+    <span>Comece a jogar, consulte sistemas ou retorne diretamente ao conteúdo que move sua jornada.</span>
+  </div>
+  <div class="dob-concept-intro dob-concept-intro--cronica">
+    <p>CRÔNICAS DE BRITANNIA</p>
+    <h2>Um atlas vivo do shard.</h2>
+    <span>Guias, sistemas e histórias organizados como uma publicação do próprio mundo do jogo.</span>
+  </div>
+</section>
+
 <section class="dob-atlas-hero dob-atlas-hero--main-art dob-atlas-codex" aria-label="Ações principais">
   <div class="dob-atlas-hero-actions" aria-label="Ações principais">
     <a class="dob-atlas-hero-card dob-atlas-hero-card--launcher" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
@@ -85,20 +117,27 @@ hide:
   </a>
 </nav>
 
+<nav class="dob-game-quickbar" aria-label="Escolha seu caminho">
+  <a href="primeiros-passos/"><span>01</span><strong>Novo jogador</strong><small>Instalação, personagem e primeira hora</small></a>
+  <a href="sistemas/pvm-mastery/"><span>02</span><strong>PvM e progressão</strong><small>Caçadas, Maestrias e recompensas</small></a>
+  <a href="combate/"><span>03</span><strong>PvP e Arena</strong><small>Combate, pressão e competição</small></a>
+  <a href="craft/"><span>04</span><strong>Craft e economia</strong><small>Receitas, materiais e chances</small></a>
+</nav>
+
 <section class="dob-atlas-content" aria-label="Conteúdo principal">
   <article class="dob-atlas-feature">
     <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
-    <h2>0.41.0 · Season of Thorns</h2>
-    <p class="dob-atlas-feature__date"><time datetime="2026-09-01">1 de setembro de 2026</time></p>
-    <p>Setembro traz criaturas Overgrown, recompensas por Heart of the Briar e novas receitas DoB Cloth.</p>
+    <h2>0.42.0 · Amuletos, Progressão PvM, Casas e Ferramentas</h2>
+    <p class="dob-atlas-feature__date"><time datetime="2026-09-02">2 de setembro de 2026</time></p>
+    <p>Amuletos chegam a +10, o PvM aproveita melhor a skill efetiva e ferramentas e casas recebem novas regras.</p>
     <a href="patches/">LER PATCH NOTES <span aria-hidden="true">→</span></a>
   </article>
 
-  <div class="dob-atlas-index">
+<div class="dob-atlas-index">
 <p class="dob-atlas-kicker">ÚLTIMOS ARTIGOS ATUALIZADOS</p>
-<a href="sistemas/season-of-thorns/"><span class="dob-atlas-index__code">06 SET</span><span><strong>Season of Thorns</strong><small>Evento de setembro e recompensas sazonais</small></span><i aria-hidden="true">→</i></a>
-<a href="craft/tailoring/"><span class="dob-atlas-index__code">06 SET</span><span><strong>Tailoring</strong><small>Receitas DoB Cloth e chances de sucesso</small></span><i aria-hidden="true">→</i></a>
-<a href="sistemas/spawns-raros/"><span class="dob-atlas-index__code">06 SET</span><span><strong>Spawns raros</strong><small>Ciclos dos eventos e respawn dos bosses</small></span><i aria-hidden="true">→</i></a>
-<a href="sistemas/casas/"><span class="dob-atlas-index__code">06 SET</span><span><strong>Casas</strong><small>Commodity Deed Box e armazenamento</small></span><i aria-hidden="true">→</i></a>
+<a href="itens/recompensas-pvm/"><span class="dob-atlas-index__code">09 SET</span><span><strong>Recompensas PvM</strong><small>Magic Skill Amulets e novos bônus de progressão</small></span><i aria-hidden="true">→</i></a>
+<a href="sistemas/pvm-mastery/"><span class="dob-atlas-index__code">09 SET</span><span><strong>Maestria PvM</strong><small>Bônus de nível 1 e progressão por skill efetiva</small></span><i aria-hidden="true">→</i></a>
+<a href="craft/tinkering/"><span class="dob-atlas-index__code">09 SET</span><span><strong>Tinkering</strong><small>Ferramentas clássicas, Enduring e DoB Tools</small></span><i aria-hidden="true">→</i></a>
+<a href="sistemas/spawns-raros/"><span class="dob-atlas-index__code">09 SET</span><span><strong>Spawns raros</strong><small>The Man in the Hedge e ciclos de respawn</small></span><i aria-hidden="true">→</i></a>
 </div>
 </section>

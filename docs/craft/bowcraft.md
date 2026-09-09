@@ -1,7 +1,7 @@
 # Bowcraft
 
 <section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Fletching" data-craft-sim-slider-max="105" data-craft-sim-exceptional-mode="fifty-minus-ten" aria-labelledby="dob-craft-bowcraft-title">
-  <div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Menu da skill</span><h3 id="dob-craft-bowcraft-title">Bowcraft / Fletching</h3><p>0.41.0 · Replica as categorias e as receitas visíveis do menu oficial. A consulta usa Fletching base e mostra somente o intervalo até 105.0.</p></div>
+  <div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Menu da skill</span><h3 id="dob-craft-bowcraft-title">Bowcraft / Fletching</h3><p>0.42.0 · Replica as categorias e as receitas visíveis do menu oficial. A consulta usa Fletching base e mostra somente o intervalo até 105.0.</p></div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen><span class="dob-craft-simulator__screen-label">Menu principal</span><h4>Escolha uma categoria</h4><div class="dob-craft-simulator__menu">
     <button type="button" data-craft-sim-open-section="materials" data-craft-sim-section-title="Materials"><span><strong>Materials</strong><small>Kindling e shafts</small></span><b>2 receitas&nbsp; →</b></button>
     <button type="button" data-craft-sim-open-section="ammunition" data-craft-sim-section-title="Ammunition"><span><strong>Ammunition</strong><small>Arrows e bolts</small></span><b>2 receitas&nbsp; →</b></button>

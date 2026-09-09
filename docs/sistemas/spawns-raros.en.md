@@ -55,6 +55,15 @@ Defeating him releases a tamable Ruby Mustang protected from wild creatures for
 60 seconds and may award The Condemned Heart, extra PvM rewards, his lore book,
 and The Ruby Judgment scythe.
 
+## The Man in the Hedge
+
+In the Hedge Maze, ten scattered shadows guard the encounter. Defeat them to
+reveal the true man mounted at the center. The shadows resist weapons; pets and
+summons do not work against them, and **Dispel** exposes their weakness briefly.
+
+The encounter may grant an **Emerald Llama** or **Emerald Mustang**, **The
+Eleventh Heart**, extra loot, and a Chronicle connected to **Elias Wren**.
+
 ## Fixed events
 
 The fixed events are separate from Rare Britannia: the **Rare Rideable Llama
@@ -76,11 +85,12 @@ Britannia](whispers-britannia.md).
 | Rare Zostrich Ostard | 5 hours | Independent cycle; an existing wild mount can prevent a new spawn. |
 | Nochyer | 3–6 days after death | A random interval is selected after the boss dies. |
 | Odran | 3–6 days after death | A random interval is selected after the boss dies. |
+| The Man in the Hedge | 3–6 days after death | A random interval is selected after the final boss dies. |
 | Rare Britannia | Always one available | The world maintains one active wild mount. When the slot is freed, replacement begins as soon as a valid location is available. |
 
 Hourly cycles are not countdowns restarted by each kill. A cycle can pass
 without a new creature appearing; these intervals do not guarantee an exact
 arrival time.
 
-!!! success "Status: 0.41.0"
+!!! success "Status: 0.42.0"
     Rare creatures and events offer discovery paths across Britannia.

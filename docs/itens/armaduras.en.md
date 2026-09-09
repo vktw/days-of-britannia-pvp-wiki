@@ -30,6 +30,13 @@ applies global absorption; the value is not a body-region percentage.
 Quality changes durability, while material and tier define the protection used
 by the Armor Rating calculation.
 
+## Maximum durability
+
+After a weapon, armor, clothing, jewel, talisman, or Spellbook is created, its
+maximum durability cannot increase. Wear, death, or another reduction can
+lower that ceiling; when it does, current durability is limited to the new
+maximum as well.
+
 ## Qualities
 
 Defensive qualities follow this order:
@@ -60,5 +67,5 @@ not migrated.
 
 See [Armor and Parrying](../combate/armor-parrying.md).
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.42.0"
     Direct-hit resolution uses global Armor Rating from equipped pieces.

@@ -16,6 +16,9 @@ caçadas. Seu loot não substitui nem duplica o da criatura original. **Overgrow
 Grasp** pode imobilizar você com raízes por **3 segundos** e aplicar Deadly
 Poison.
 
+**Arctic Ogre Lords** selvagens também podem retornar como Overgrown, mantendo
+sua identidade de gelo.
+
 A variante **Ancient Overgrowth** pode deixar o livro colecionável bilíngue
 **O Testamento da Primeira Sarça**, com **10% de chance**.
 
@@ -33,13 +36,13 @@ compartilhados entre os personagens e reiniciam por edição.
 
 | Recompensa | Heart of the Briar | Limite por conta na edição |
 |---|---:|---|
-| Briarcap Cluster | 45 | Sem limite específico |
-| Nest with Eggs | 55 | Sem limite específico |
-| Lilly Pad | 30 | Sem limite específico |
-| Lilly Pads | 35 | Sem limite específico |
-| Briarheart Beehive | 135 | Sem limite específico |
-| Yucca Tree | 75 | Sem limite específico |
-| Bamboo | 100 | Sem limite específico |
+| Briarcap Cluster | 30 | Sem limite específico |
+| Nest with Eggs | 35 | Sem limite específico |
+| Lilly Pad | 45 | Sem limite específico |
+| Lilly Pads | 55 | Sem limite específico |
+| Briarheart Beehive | 75 | Sem limite específico |
+| Yucca Tree | 100 | Sem limite específico |
+| Bamboo | 135 | Sem limite específico |
 | Thornbound Willow | 275 | 1 |
 | Briarheart Pigment | 450 | 1 |
 | Briarstrider Statuette | 725 | 1 |
@@ -54,5 +57,5 @@ continuam negociáveis e looteáveis.
 Consulte [Caça PvM](caca-pvm.md), [Maestria PvM](pvm-mastery.md) e
 [Spawns raros](spawns-raros.md) para outros objetivos de exploração.
 
-!!! success "Status: 0.41.0"
+!!! success "Status: 0.42.0"
     Evento sazonal recorrente de setembro. A disponibilidade acompanha o calendário da edição.
