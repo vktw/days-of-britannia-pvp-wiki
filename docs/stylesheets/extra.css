@@ -1580,6 +1580,56 @@ body {
   box-shadow: inset 2px 0 var(--dob-gold);
 }
 
+.dob-atlas-panel__group + .dob-atlas-panel__group {
+  margin-top: 0.55rem;
+}
+
+.dob-atlas-panel__group-title {
+  display: flex;
+  padding: 0.45rem 0.35rem 0.25rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  color: var(--dob-gold);
+  cursor: pointer;
+  font-size: 0.56rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.dob-atlas-panel__group-title::-webkit-details-marker {
+  display: none;
+}
+
+.dob-atlas-panel__group-title svg {
+  width: 15px;
+  height: 15px;
+  flex: 0 0 15px;
+  transition: transform 140ms ease;
+}
+
+.dob-atlas-panel__group details[open] > .dob-atlas-panel__group-title svg {
+  transform: rotate(180deg);
+}
+
+.dob-atlas-panel__group-title:hover,
+.dob-atlas-panel__group-title:focus-visible {
+  color: var(--dob-gold-hover);
+}
+
+.dob-atlas-panel__group > details > ul {
+  padding-left: 0.4rem;
+  border-left: 1px solid var(--dob-border);
+}
+
+.dob-atlas-panel__group > details > ul a {
+  min-height: 34px;
+  padding: 0.35rem 0.4rem;
+  font-size: 0.64rem;
+}
+
 /* Document layout */
 
 .md-main__inner {
@@ -2726,6 +2776,24 @@ body:has(.dob-home) .md-main {
     padding: 0.2rem 0 0.45rem 1.75rem;
   }
 
+  .dob-atlas-mobile details details > summary {
+    min-height: 44px;
+    padding-left: 0.55rem;
+    font-size: 0.66rem;
+  }
+
+  .dob-atlas-mobile details details > ul {
+    padding-left: 1.1rem;
+  }
+
+  .dob-atlas-mobile__group-marker {
+    display: block;
+    width: 0.55rem;
+    height: 0.55rem;
+    border: 1px solid var(--dob-gold-muted);
+    border-radius: 50%;
+  }
+
   .dob-atlas-mobile details li a {
     display: flex;
     box-sizing: border-box;
@@ -2736,6 +2804,11 @@ body:has(.dob-home) .md-main {
     border-left: 1px solid var(--dob-border);
     font-size: 0.66rem;
     text-decoration: none;
+  }
+
+  .dob-atlas-mobile details details li a {
+    min-height: 40px;
+    font-size: 0.63rem;
   }
 
   .dob-atlas-mobile details li a:hover,

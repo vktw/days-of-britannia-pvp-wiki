@@ -639,8 +639,16 @@ function bindDobNavigation() {
         return;
       }
 
-      nav.querySelectorAll(".dob-atlas-mobile details").forEach((other) => {
-        if (other !== details) {
+      const parentList = details.parentElement?.parentElement;
+
+      if (!parentList) {
+        return;
+      }
+
+      Array.from(parentList.children).forEach((item) => {
+        const other = item.firstElementChild;
+
+        if (other?.tagName === "DETAILS" && other !== details) {
           other.open = false;
         }
       });
@@ -667,6 +675,9 @@ function bindDobNavigation() {
         });
         document.querySelectorAll("[data-dob-nav-panels]").forEach((container) => {
           container.hidden = true;
+        });
+        document.querySelectorAll(".dob-atlas-mobile details[open]").forEach((details) => {
+          details.open = false;
         });
       }
     });
