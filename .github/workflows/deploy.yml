@@ -143,6 +143,7 @@ jobs:
         run: |
           for attempt in {1..6}; do
             body="$(curl --fail --silent --show-error --location \
+              --user-agent "Mozilla/5.0 (compatible; DoB-Atlas-Deploy/1.0)" \
               --connect-timeout 10 --max-time 20 \
               "https://dobshard.com/?deploy=${GITHUB_SHA}")" && \
               grep -q 'data-dob-site="atlas"' <<< "$body" && exit 0
