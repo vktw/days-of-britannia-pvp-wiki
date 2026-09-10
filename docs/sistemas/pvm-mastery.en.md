@@ -1,10 +1,12 @@
 ---
-description: Learn the custom PvM Mastery progression, Slayer families, and build options on the Live server.
+description: Browse the 32 PvM Mastery catalog with family, rarity, and level 1, 10, and 20 effects, plus progression and builds on Live.
 ---
 
 # PvM Mastery
 
 The **Hunter's Compendium** records hunting knowledge, points, and the character's active build. Existing characters receive the book on their first login while the system is active; new characters receive it at creation. Keep it in the main backpack and double-click it to open.
+
+Use the complete catalog below to look up the family, rarity, and effect of each Mastery at levels 1, 10, and 20. The Compendium shows the exact value of the current level and a preview of the next level in game.
 
 ## How the system works
 
@@ -19,8 +21,19 @@ A discovered mastery remains available to the character. Its levels also remain 
 ## Progression and points
 
 Each mastery has 20 levels. A character can hold up to 95 points and keep no
-more than five masteries active, enough to maximize five of them. After level
-10, each new level continues with diminishing returns.
+more than five masteries active, enough to maximize five of them.
+
+On Live 0.42.0, the **32 operational Masteries** start from the base shown in
+the Level 1 column of the catalog; the 0.42.0 adjustment added **+5.00
+percentage points** to that base. From there, each Mastery curve works like
+this:
+
+- from level 1 to 10, progression is linear — the difference between the Level 1 and Level 10 columns equals nine equal steps;
+- from level 11 to 20, each new level continues with diminishing returns;
+- caps, PvM eligibility, and the additive Loot Pack jewelry bonus keep applying, without changing the PvP or Arena exclusions.
+
+The jewelry bonus appears added to the effect in the Compendium and applies
+while the piece stays equipped.
 
 | Next point | XP requirement | Gold cost |
 |---|---:|---:|
@@ -64,58 +77,71 @@ Use these examples to recognize each family. They do not guarantee a scroll: the
 
 The scroll uses the normal corpse loot lifetime. A mastery does not need to be active for its scroll to drop. After discovering a mastery, use the Compendium to track its level and read the description shown in game.
 
-## Live 0.15.0 resource Masteries
+## Complete catalog of the 32 Masteries
 
-Live added five Masteries that convert part of defensive or offensive resources into PvM sustain:
-
-| Mastery | Summary |
-|---|---|
-| **Mana Shield** | Pays part of incoming PvM damage with mana. |
-| **Vigor Shield** | Pays part of incoming PvM damage with stamina. |
-| **Arcane Exertion** | Pays part of eligible spell mana costs with stamina. |
-| **Blood Magic** | Pays part of eligible spell mana costs with health. |
-| **Hit Stamina Leech** | Restores stamina from effective direct weapon damage against eligible PvM creatures. |
-
-These five Masteries scale from 5% to 9.5% and preserve the PvP and Arena exclusions. The first learned Mastery can be added to the build automatically at level 1 when the combat log is enabled; the Compendium provides clearer guidance and controls.
-
-## 0.40.0 catalog
+Effect values on Live 0.42.0. The Level 1, Level 10, and Level 20 columns
+summarize the curve from level 1 to 20: progress is linear between 1 and 10
+and has diminishing returns from 11 to 20. Check the Compendium for the exact
+value of each intermediate level. The five resource Masteries arrived on Live
+0.15.0, the four melee Masteries arrived on 0.34.0, and Unbroken Calling
+arrived on 0.40.0.
 
 ### Offense and resources
 
-| Mastery | Family | Rarity | What it offers |
-|---|---|---|---|
-| **Hit Life Leech** | Undead | Basic | Restores health from effective PvM damage. Helps characters that remain in combat for longer. |
-| **Hit Mana Leech** | Undead | Basic | Restores mana from effective PvM damage. Useful for builds that consume mana frequently. |
-| **Melee Damage Increase** | Humanoid | Basic | Increases direct Melee damage against creatures. |
-| **Archery Damage Increase** | Reptilian | Basic | Increases direct Archery damage against creatures. |
-| **Spell Damage Increase** | Abyssal | Basic | Increases magical PvM damage dealt directly by the character. |
-| **Melee Hit Chance Increase** | Humanoid | Basic | Improves the chance to hit with Melee attacks in PvM. |
-| **Archery Hit Chance Increase** | Reptilian | Basic | Improves the chance to hit with Archery attacks in PvM. |
-| **Hit Lightning Chance** | Elemental | Proc | May add magical Lightning when dealing compatible PvM damage. |
+| Mastery | Family | Rarity | Level 1 | Level 10 | Level 20 | What it offers |
+|---|---|---|---:|---:|---:|---|
+| **Hit Life Leech** | Undead | Basic | 10.00% | 12.25% | 14.16% | Restores health from effective PvM damage. |
+| **Hit Mana Leech** | Undead | Basic | 10.00% | 14.50% | 18.31% | Restores mana from effective PvM damage. |
+| **Hit Stamina Leech** | Fey | Basic | 10.00% | 14.50% | 18.31% | Restores stamina from direct weapon damage in PvM. |
+| **Melee Damage Increase** | Humanoid | Basic | 10.00% | 14.50% | 18.31% | Increases direct Melee damage against creatures. |
+| **Archery Damage Increase** | Reptilian | Basic | 10.00% | 14.50% | 18.31% | Increases direct Archery damage against creatures. |
+| **Spell Damage Increase** | Abyssal | Basic | 10.00% | 14.50% | 18.31% | Increases magical PvM damage dealt directly by the character. |
+| **Melee Hit Chance Increase** | Humanoid | Basic | 10.00% | 12.25% | 14.16% | Improves the chance to hit with Melee attacks in PvM. |
+| **Archery Hit Chance Increase** | Reptilian | Basic | 10.00% | 12.25% | 14.16% | Improves the chance to hit with Archery attacks in PvM. |
+| **Hit Lightning Chance** | Elemental | Proc | 10.00% | 12.25% | 14.16% | May add magical Lightning to compatible PvM damage. |
+| **Mana Shield** | Elemental | Basic | 10.00% | 14.50% | 18.31% | Pays part of incoming PvM damage with mana. |
+| **Vigor Shield** | Humanoid | Basic | 10.00% | 14.50% | 18.31% | Pays part of incoming PvM damage with stamina. |
+| **Arcane Exertion** | Fey | Synergy | 10.00% | 14.50% | 18.31% | Pays part of eligible spell mana costs with stamina. |
+| **Blood Magic** | Undead | Synergy | 10.00% | 14.50% | 18.31% | Pays part of eligible spell mana costs with health. |
 
 ### Defense and control
 
-| Mastery | Family | Rarity | What it offers |
-|---|---|---|---|
-| **Parrying Block Chance Increase** | Fey | Basic | Improves the normal chance to block with Parrying. |
-| **Physical Damage Resistance** | Elemental | Basic | Reduces incoming physical PvM damage. |
-| **Magic Damage Resistance** | Abyssal | Basic | Reduces incoming magical PvM damage. |
-| **Spell Effect Resistance** | Undead | Basic | May negate eligible hostile magical effects. |
-| **Hit Paralyze Chance** | Arachnid | Proc | May paralyze a creature after a direct weapon attack. |
-| **Paralyzed Damage Bonus** | Arachnid | Synergy | Strengthens the next compatible attack against a paralyzed creature. It pairs naturally with sources of paralyze. |
+| Mastery | Family | Rarity | Level 1 | Level 10 | Level 20 | What it offers |
+|---|---|---|---:|---:|---:|---|
+| **Parrying Block Chance Increase** | Fey | Basic | 10.00% | 12.25% | 14.16% | Improves the normal chance to block with Parrying. |
+| **Physical Damage Resistance** | Elemental | Basic | 8.00% | 10.25% | 12.16% | Reduces incoming physical PvM damage. |
+| **Magic Damage Resistance** | Abyssal | Basic | 8.00% | 10.25% | 12.16% | Reduces incoming magical PvM damage. |
+| **Spell Effect Resistance** | Undead | Basic | 10.00% | 12.25% | 14.16% | May negate eligible hostile magical effects. |
+| **Hit Paralyze Chance** | Arachnid | Proc | 10.00% | 12.25% | 14.16% | May paralyze a creature after a direct weapon attack. |
+| **Paralyzed Damage Bonus** | Arachnid | Synergy | 25.00% | 47.50% | 66.56% | Strengthens the next compatible attack against a paralyzed creature. |
+| **Bloodbound Renewal** | Undead | Proc | 12.50% | 14.75% | 16.66% | May invoke Greater Heal on a positive primary melee hit, with no mana or Words of Power. |
+| **Mirrorblade Aegis** | Abyssal | Proc | 12.50% | 14.75% | 16.66% | May grant one Magic Reflection charge on a positive primary melee hit, with no mana or Words of Power. |
+| **Arcane Bastion** | Elemental | Proc | 10.00% | 12.25% | 14.16% | May nullify eligible creature PvM damage for 6 seconds after the creature's spell resolves. |
+| **Crimson Wrath** | Humanoid | Synergy | 10.00% | 12.25% | 14.16% | May prepare the next positive primary melee hit for up to 8 seconds for doubled damage combined with the anti-paralyzed bonus. |
+| **Arcane Disruption** | Abyssal | Proc | 10.00% | 12.25% | 14.16% | Positive direct damage may make an eligible wild creature fizzle while casting. |
 
 ### Hunting rhythm, area, and support
 
-| Mastery | Family | Rarity | What it offers |
-|---|---|---|---|
-| **Hit Effect Area** | Elemental | Area | May distribute an attack's effect among nearby PvM creatures. The original effect is divided, not duplicated. |
-| **Relentless Focus** | Abyssal | Synergy | Increases damage while pressure is maintained on the same creature. It is designed for tougher targets. |
-| **Focused Hunter** | Humanoid | Synergy | Builds strength through consecutive kills from the same Slayer group. Charges last 90 seconds and each matching kill refreshes their shared duration. |
-| **Versatile Hunter** | Fey | Synergy | Strengthens the first direct attack against creature types not faced recently. It favors varied hunting routes. |
-| **Resonant Cascade** | Arachnid | Area | May spread targeted Peacemaking, Discordance, or Provocation to other nearby eligible creatures. |
-| **Summoned Vitality** | Reptilian | Basic | Increases the maximum and current health of player-created summons while active. |
-| **Summoner's Bond** | Arachnid | Basic | Redirects part of eligible PvM damage from player-created summons to their summoner while preserving a safe 10-Hit floor. |
-| **Unbroken Calling** | Reptilian | Synergy | Relatively increases the success chance of the six eighth-circle summons and may also appear on PvM jewelry. |
+| Mastery | Family | Rarity | Level 1 | Level 10 | Level 20 | What it offers |
+|---|---|---|---:|---:|---:|---|
+| **Hit Effect Area** | Elemental | Area | 10.00% | 12.25% | 14.16% | May divide an attack's effect among nearby PvM creatures, without duplicating it. |
+| **Relentless Focus** | Abyssal | Synergy | 7.00% | 9.00% | 10.69% | Increases damage while pressure is maintained on the same creature. |
+| **Focused Hunter** | Humanoid | Synergy | 7.00% | 9.00% | 10.69% | Builds strength through consecutive kills from the same Slayer group; charges last 90 seconds. |
+| **Versatile Hunter** | Fey | Synergy | 10.00% | 15.00% | 19.24% | Strengthens the first direct attack against creature types not faced recently. |
+| **Resonant Cascade** | Arachnid | Area | 6.00% | 8.25% | 10.16% | May spread targeted Peacemaking, Discordance, or Provocation to other nearby eligible creatures. |
+| **Summoned Vitality** | Reptilian | Basic | 10.00% | 12.25% | 14.16% | Increases the maximum and current health of player-created summons. |
+| **Summoner's Bond** | Arachnid | Basic | 10.00% | 12.25% | 14.16% | Redirects part of eligible PvM damage from summons to their summoner, with a safe 10-Hit floor. |
+| **Unbroken Calling** | Reptilian | Basic | 10.00% | 12.25% | 14.16% | Relatively increases the success chance of the six eighth-circle summons; appears on PvM jewelry. |
+
+### Details on the 0.34.0 melee Masteries
+
+Bloodbound Renewal and Mirrorblade Aegis use no Words of Power, reagents, or
+mana. Arcane Bastion grants its immunity for 6 seconds. Crimson Wrath arms
+one charge and does not refresh it while it is active. Their effects remain
+limited to eligible PvM encounters and do not work against players or in the
+Arena.
+
+See [PvM rewards](../itens/recompensas-pvm.md) for the temporary bonus that may come from Loot Pack jewelry.
 
 ## Arcane Disruption
 
@@ -130,30 +156,6 @@ The six eighth-circle summoning spells use a 2% to 98% success curve when cast
 from a Spellbook, reaching **80% at 100.0 Magery** and **88% at 110.0**. The
 **Unbroken Calling** Mastery increases that chance relatively. Scrolls, NPCs,
 summons from other circles, and other spells do not use this curve.
-
-## 0.42.0 adjustment
-
-All **32 operational PvM Masteries** start with **+5.00 percentage points** at
-level 1. Per-level progression, level 20, caps, and jewelry bonuses continue
-to apply additively, without changing PvP or Arena exclusions.
-
-## 0.42.0 melee Masteries
-
-For their first ten levels, the four Masteries below advance by **0.25 percentage
-point per level**. Levels 11 through 20 continue with diminishing returns. Their
-effects remain limited to eligible PvM encounters and do not work against
-players or in the Arena.
-
-| Mastery | Family | Level 1–10 range | What it offers |
-|---|---|---:|---|
-| **Bloodbound Renewal** | Undead | 12.50%–14.75% | May invoke Greater Heal on a positive primary melee hit. The effect uses no Words of Power, reagents, or mana. |
-| **Mirrorblade Aegis** | Abyssal | 12.50%–14.75% | May grant one Magic Reflection charge on a positive primary melee hit. The effect uses no Words of Power, reagents, or mana. |
-| **Arcane Bastion** | Elemental | 10.00%–12.25% | May nullify eligible creature PvM damage for 6 seconds after the creature's spell resolves. |
-| **Crimson Wrath** | Humanoid | 10.00%–12.25% | May prepare the next positive primary melee hit for up to 8 seconds, adding 100% of its pre-Paralyzed-Damage-Bonus damage. |
-
-Crimson Wrath arms one charge and does not refresh it while it is active.
-
-See [PvM rewards](../itens/recompensas-pvm.md) for the temporary bonus that may come from Loot Pack jewelry.
 
 ## Example builds
 
