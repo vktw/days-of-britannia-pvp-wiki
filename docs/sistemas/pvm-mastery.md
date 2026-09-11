@@ -1,10 +1,12 @@
 ---
-description: Entenda a Maestria PvM customizada, sua progressão, famílias de Slayer e possibilidades de build no Live.
+description: Consulte o catálogo das 32 Maestrias PvM com família, raridade e efeito nos níveis 1, 10 e 20, além de progressão e builds no Live.
 ---
 
 # Maestria PvM
 
 O **Hunter's Compendium** registra conhecimentos de caça, pontos e a build ativa do personagem. Personagens existentes recebem o livro no primeiro login com o sistema ativo; novos personagens o recebem na criação. Mantenha-o na mochila principal e use dois cliques para abrir.
+
+Use o catálogo completo abaixo para consultar família, raridade e efeito de cada Maestria nos níveis 1, 10 e 20. O Compendium mostra dentro do jogo o valor exato do nível atual e a prévia do próximo nível.
 
 ## Como o sistema funciona
 
@@ -20,7 +22,17 @@ Uma Maestria descoberta continua disponível para o personagem. Seus níveis tam
 
 Cada Maestria possui 20 níveis. O personagem pode acumular até 95 pontos e
 manter **até cinco Maestrias ativas**, o suficiente para maximizar cinco delas.
-Depois do nível 10, os ganhos por nível continuam com retornos decrescentes.
+
+No Live 0.42.0, as **32 Maestrias operacionais** partem da base indicada na
+coluna Nv 1 do catálogo; o ajuste do 0.42.0 somou **+5,00 pontos percentuais**
+a essa base. A partir dela, a curva de cada Maestria funciona assim:
+
+- do nível 1 ao 10, a progressão é linear — a diferença entre as colunas Nv 1 e Nv 10 equivale a nove passos iguais;
+- do nível 11 ao 20, os ganhos por nível continuam com retornos decrescentes;
+- caps, elegibilidade PvM e o bônus aditivo das joias de Loot Pack continuam valendo, sem alterar as exclusões de PvP e Arena.
+
+O bônus de joia aparece somado ao efeito no Compendium e vale enquanto a peça
+estiver equipada.
 
 | Próximo ponto | Requisito de XP | Custo em gold |
 |---|---:|---:|
@@ -64,58 +76,70 @@ Use estes exemplos para reconhecer cada família. Eles não garantem um scroll: 
 
 O scroll usa o tempo normal de permanência do loot no corpo. Não é necessário ter uma Maestria ativa para encontrá-lo. Ao descobrir uma Maestria, consulte o Compendium para acompanhar seu nível e a descrição exibida no jogo.
 
-## Maestrias de recursos do Live 0.15.0
+## Catálogo completo das 32 Maestrias
 
-O Live adicionou cinco Maestrias que convertem parte de recursos defensivos ou ofensivos em sustentação para o PvM:
-
-| Maestria | Efeito resumido |
-|---|---|
-| **Mana Shield** | Paga parte do dano PvM recebido com mana. |
-| **Vigor Shield** | Paga parte do dano PvM recebido com stamina. |
-| **Arcane Exertion** | Paga parte do custo de mana de magias elegíveis com stamina. |
-| **Blood Magic** | Paga parte do custo de mana de magias elegíveis com vida. |
-| **Hit Stamina Leech** | Recupera stamina a partir de dano direto efetivo de armas contra criaturas PvM elegíveis. |
-
-Essas cinco Maestrias escalam de 5% a 9,5% e preservam as exclusões de PvP e Arena. A primeira Maestria aprendida pode entrar automaticamente na build no nível 1 quando o log de combate está habilitado; o Compendium mostra orientações e controles mais claros.
-
-## Catálogo do 0.40.0
+Valores de efeito no Live 0.42.0. As colunas Nv 1, Nv 10 e Nv 20 resumem a
+curva do nível 1 ao 20: entre 1 e 10 o avanço é linear e de 11 a 20 há
+retornos decrescentes. Consulte o Compendium para o valor exato de cada nível
+intermediário. As cinco Maestrias de recursos entraram no Live 0.15.0, as
+quatro melee entraram no 0.34.0 e o Chamado Inquebrável entrou no 0.40.0.
 
 ### Ataque e recursos
 
-| Maestria | Família | Raridade | O que oferece |
-|---|---|---|---|
-| **Hit Life Leech** | Undead | Basic | Recupera vida a partir do dano PvM efetivo. Ajuda personagens que permanecem em combate por mais tempo. |
-| **Hit Mana Leech** | Undead | Basic | Recupera mana a partir do dano PvM efetivo. Útil para builds com consumo frequente de mana. |
-| **Melee Damage Increase** | Humanoid | Basic | Aumenta o dano direto de ataques Melee contra criaturas. |
-| **Archery Damage Increase** | Reptilian | Basic | Aumenta o dano direto de Archery contra criaturas. |
-| **Spell Damage Increase** | Abyssal | Basic | Aumenta o dano mágico PvM causado diretamente pelo personagem. |
-| **Melee Hit Chance Increase** | Humanoid | Basic | Melhora a chance de acertar ataques Melee em PvM. |
-| **Archery Hit Chance Increase** | Reptilian | Basic | Melhora a chance de acertar ataques de Archery em PvM. |
-| **Hit Lightning Chance** | Elemental | Proc | Pode acrescentar um Lightning mágico ao causar dano PvM compatível. |
+| Maestria | Família | Raridade | Nv 1 | Nv 10 | Nv 20 | O que oferece |
+|---|---|---|---:|---:|---:|---|
+| **Hit Life Leech** | Undead | Basic | 10,00% | 12,25% | 14,16% | Recupera vida a partir do dano PvM efetivo. |
+| **Hit Mana Leech** | Undead | Basic | 10,00% | 14,50% | 18,31% | Recupera mana a partir do dano PvM efetivo. |
+| **Hit Stamina Leech** | Fey | Basic | 10,00% | 14,50% | 18,31% | Recupera stamina a partir de dano direto de armas em PvM. |
+| **Melee Damage Increase** | Humanoid | Basic | 10,00% | 14,50% | 18,31% | Aumenta o dano direto de Melee contra criaturas. |
+| **Archery Damage Increase** | Reptilian | Basic | 10,00% | 14,50% | 18,31% | Aumenta o dano direto de Archery contra criaturas. |
+| **Spell Damage Increase** | Abyssal | Basic | 10,00% | 14,50% | 18,31% | Aumenta o dano mágico causado diretamente pelo personagem. |
+| **Melee Hit Chance Increase** | Humanoid | Basic | 10,00% | 12,25% | 14,16% | Melhora a chance de acertar ataques Melee em PvM. |
+| **Archery Hit Chance Increase** | Reptilian | Basic | 10,00% | 12,25% | 14,16% | Melhora a chance de acertar ataques de Archery em PvM. |
+| **Hit Lightning Chance** | Elemental | Proc | 10,00% | 12,25% | 14,16% | Pode acrescentar um Lightning mágico ao dano PvM compatível. |
+| **Mana Shield** | Elemental | Basic | 10,00% | 14,50% | 18,31% | Paga parte do dano PvM recebido com mana. |
+| **Vigor Shield** | Humanoid | Basic | 10,00% | 14,50% | 18,31% | Paga parte do dano PvM recebido com stamina. |
+| **Arcane Exertion** | Fey | Synergy | 10,00% | 14,50% | 18,31% | Paga parte do custo de mana de magias elegíveis com stamina. |
+| **Blood Magic** | Undead | Synergy | 10,00% | 14,50% | 18,31% | Paga parte do custo de mana de magias elegíveis com vida. |
 
 ### Defesa e controle
 
-| Maestria | Família | Raridade | O que oferece |
-|---|---|---|---|
-| **Parrying Block Chance Increase** | Fey | Basic | Melhora a chance normal de bloqueio com Parrying. |
-| **Physical Damage Resistance** | Elemental | Basic | Reduz o dano físico PvM recebido. |
-| **Magic Damage Resistance** | Abyssal | Basic | Reduz o dano mágico PvM recebido. |
-| **Spell Effect Resistance** | Undead | Basic | Pode negar efeitos mágicos hostis elegíveis. |
-| **Hit Paralyze Chance** | Arachnid | Proc | Pode paralisar uma criatura após um ataque direto com arma. |
-| **Paralyzed Damage Bonus** | Arachnid | Synergy | Fortalece o próximo ataque compatível contra uma criatura paralisada. Combina naturalmente com fontes de paralyze. |
+| Maestria | Família | Raridade | Nv 1 | Nv 10 | Nv 20 | O que oferece |
+|---|---|---|---:|---:|---:|---|
+| **Parrying Block Chance Increase** | Fey | Basic | 10,00% | 12,25% | 14,16% | Melhora a chance normal de bloqueio com Parrying. |
+| **Physical Damage Resistance** | Elemental | Basic | 8,00% | 10,25% | 12,16% | Reduz o dano físico PvM recebido. |
+| **Magic Damage Resistance** | Abyssal | Basic | 8,00% | 10,25% | 12,16% | Reduz o dano mágico PvM recebido. |
+| **Spell Effect Resistance** | Undead | Basic | 10,00% | 12,25% | 14,16% | Pode negar efeitos mágicos hostis elegíveis. |
+| **Hit Paralyze Chance** | Arachnid | Proc | 10,00% | 12,25% | 14,16% | Pode paralisar uma criatura após um ataque direto com arma. |
+| **Paralyzed Damage Bonus** | Arachnid | Synergy | 25,00% | 47,50% | 66,56% | Fortalece o próximo ataque compatível contra uma criatura paralisada. |
+| **Bloodbound Renewal** | Undead | Proc | 12,50% | 14,75% | 16,66% | Pode invocar Greater Heal ao acertar um golpe melee primário positivo, sem mana ou Words of Power. |
+| **Mirrorblade Aegis** | Abyssal | Proc | 12,50% | 14,75% | 16,66% | Pode conceder uma carga de Magic Reflection ao acertar um golpe melee primário positivo, sem mana ou Words of Power. |
+| **Arcane Bastion** | Elemental | Proc | 10,00% | 12,25% | 14,16% | Pode zerar o dano PvM elegível por 6 segundos depois que uma magia da criatura é resolvida. |
+| **Crimson Wrath** | Humanoid | Synergy | 10,00% | 12,25% | 14,16% | Pode preparar por até 8 segundos o próximo golpe melee primário positivo para dano dobrado combinado ao bônus contra paralisado. |
+| **Ruptura Arcana** | Abyssal | Proc | 10,00% | 12,25% | 14,16% | Dano direto positivo pode fazer uma criatura selvagem falhar enquanto conjura. |
 
 ### Ritmo de caça, área e suporte
 
-| Maestria | Família | Raridade | O que oferece |
-|---|---|---|---|
-| **Hit Effect Area** | Elemental | Area | Pode distribuir o efeito de um ataque entre criaturas PvM próximas. O efeito original é dividido, não duplicado. |
-| **Relentless Focus** | Abyssal | Synergy | Aumenta o dano ao manter pressão sobre a mesma criatura. É voltada a alvos mais resistentes. |
-| **Focused Hunter** | Humanoid | Synergy | Ganha força com abates consecutivos do mesmo grupo Slayer. As cargas duram 90 segundos e cada abate compatível renova o prazo compartilhado. |
-| **Versatile Hunter** | Fey | Synergy | Fortalece o primeiro ataque direto contra tipos de criatura que não foram enfrentados recentemente. Favorece rotas variadas. |
-| **Resonant Cascade** | Arachnid | Area | Pode propagar Peacemaking direcionada, Discordance ou Provocation para outras criaturas elegíveis próximas. |
-| **Summoned Vitality** | Reptilian | Basic | Aumenta a vida máxima e atual de summons criados pelo próprio jogador enquanto estiver ativa. |
-| **Summoner's Bond** | Arachnid | Basic | Redireciona parte do dano PvM elegível de summons criados pelo jogador para o invocador, preservando um piso seguro de 10 Hits. |
-| **Chamado Inquebrável** | Reptilian | Synergy | Aumenta relativamente a chance das seis summons de oitavo círculo e também pode aparecer em joias PvM. |
+| Maestria | Família | Raridade | Nv 1 | Nv 10 | Nv 20 | O que oferece |
+|---|---|---|---:|---:|---:|---|
+| **Hit Effect Area** | Elemental | Area | 10,00% | 12,25% | 14,16% | Pode dividir o efeito de um ataque entre criaturas PvM próximas, sem duplicar. |
+| **Relentless Focus** | Abyssal | Synergy | 7,00% | 9,00% | 10,69% | Aumenta o dano ao manter pressão sobre a mesma criatura. |
+| **Focused Hunter** | Humanoid | Synergy | 7,00% | 9,00% | 10,69% | Ganha força com abates consecutivos do mesmo grupo Slayer; as cargas duram 90 segundos. |
+| **Versatile Hunter** | Fey | Synergy | 10,00% | 15,00% | 19,24% | Fortalece o primeiro ataque direto contra tipos de criatura não enfrentados recentemente. |
+| **Resonant Cascade** | Arachnid | Area | 6,00% | 8,25% | 10,16% | Pode propagar Peacemaking direcionada, Discordance ou Provocation para criaturas próximas elegíveis. |
+| **Summoned Vitality** | Reptilian | Basic | 10,00% | 12,25% | 14,16% | Aumenta a vida máxima e atual dos summons criados pelo próprio jogador. |
+| **Summoner's Bond** | Arachnid | Basic | 10,00% | 12,25% | 14,16% | Redireciona parte do dano PvM dos summons ao invocador, com piso seguro de 10 Hits. |
+| **Chamado Inquebrável** | Reptilian | Basic | 10,00% | 12,25% | 14,16% | Aumenta relativamente a chance das seis summons de oitavo círculo; aparece em joias PvM. |
+
+### Detalhes das melee do 0.34.0
+
+Bloodbound Renewal e Mirrorblade Aegis não usam Words of Power, reagentes ou
+mana. Arcane Bastion concede a imunidade por 6 segundos. Crimson Wrath arma
+uma única carga e não a renova enquanto ela estiver ativa. Seus efeitos
+permanecem restritos a encontros PvM elegíveis e não funcionam contra
+jogadores ou na Arena.
+
+Consulte [Recompensas PvM](../itens/recompensas-pvm.md) para o bônus temporário que pode vir em joias de Loot Pack.
 
 ## Ruptura Arcana
 
@@ -131,31 +155,6 @@ As seis magias de invocação de oitavo círculo usam uma curva de sucesso entre
 **88% em 110.0**. A Maestria **Chamado Inquebrável** aumenta essa chance de
 forma relativa. Scrolls, NPCs, summons de outros círculos e outras magias não
 usam essa curva.
-
-## Ajuste do 0.42.0
-
-As **32 Maestrias PvM operacionais** começam com **+5,00 pontos percentuais**
-no nível 1. A progressão por nível, o nível 20, os caps e os bônus de joias
-continuam sendo aplicados de forma aditiva, sem alterar as exclusões de PvP e
-Arena.
-
-## Maestrias melee do 0.42.0
-
-Nos primeiros dez níveis, as quatro Maestrias abaixo avançam **0,25 ponto
-percentual por nível**. Do nível 11 ao 20, a progressão continua com retornos
-decrescentes. Seus efeitos permanecem restritos a encontros PvM elegíveis e não
-funcionam contra jogadores ou na Arena.
-
-| Maestria | Família | Faixa nos níveis 1–10 | O que oferece |
-|---|---|---:|---|
-| **Bloodbound Renewal** | Undead | 12,50%–14,75% | Pode invocar Greater Heal ao acertar um golpe melee primário positivo. O efeito não usa Words of Power, reagentes ou mana. |
-| **Mirrorblade Aegis** | Abyssal | 12,50%–14,75% | Pode conceder uma carga de Magic Reflection ao acertar um golpe melee primário positivo. O efeito não usa Words of Power, reagentes ou mana. |
-| **Arcane Bastion** | Elemental | 10,00%–12,25% | Pode zerar o dano PvM elegível de uma criatura por 6 segundos depois que uma magia da criatura é resolvida. |
-| **Crimson Wrath** | Humanoid | 10,00%–12,25% | Pode preparar por até 8 segundos o próximo golpe melee primário positivo para acrescentar 100% do dano anterior ao bônus contra alvo paralisado. |
-
-Crimson Wrath arma uma única carga e não a renova enquanto ela estiver ativa.
-
-Consulte [Recompensas PvM](../itens/recompensas-pvm.md) para o bônus temporário que pode vir em joias de Loot Pack.
 
 ## Exemplos de builds
 
