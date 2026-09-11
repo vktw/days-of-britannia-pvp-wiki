@@ -46,80 +46,62 @@ function personalizeDobSearch() {
 
 const DOB_PLAYER_REFRESH_MS = 60 * 60 * 1000;
 
-function parseDobPlayerStatus(markup) {
-  const sourceDocument = new DOMParser().parseFromString(markup, "text/html");
-  const statusBadge = sourceDocument.querySelector(".server-status > .status-badge");
-  const playersItem = Array.from(sourceDocument.querySelectorAll(".info-item")).find((item) => {
-    return item.querySelector("h3")?.textContent.trim().toLowerCase().includes("players");
+async function fetchDobPlayerStatus(source) {
+  const response = await fetch(source, {
+    cache: "no-store",
+    credentials: "omit",
+    headers: { Accept: "application/json" },
   });
-  const playersBadge = playersItem?.querySelector(".status-badge");
-  const statusText = statusBadge?.textContent.trim().toLowerCase() || "";
-  const playersText = playersBadge?.textContent.trim().toLowerCase() || "";
-  const isOffline = statusBadge?.classList.contains("offline") ||
-    playersBadge?.classList.contains("offline") ||
-    statusText.includes("offline") ||
-    playersText === "offline" ||
-    /(?:this server is|server is) currently offline/i.test(markup);
 
-  if (isOffline) {
-    return { state: "offline", playerCount: null };
+  if (!response.ok) {
+    throw new Error(`Player count request failed: ${response.status}`);
   }
 
-  const dataScripts = sourceDocument.querySelectorAll('script[type="application/ld+json"]');
+  const payload = await response.json();
+  const checkedAt = typeof payload?.checkedAt === "string" ? payload.checkedAt : null;
 
-  for (const script of dataScripts) {
-    try {
-      const data = JSON.parse(script.textContent || "");
-      const candidates = Array.isArray(data) ? data : [data];
-      const server = candidates.find((entry) => {
-        const type = entry?.["@type"];
-        const isGameServer = type === "GameServer" || (Array.isArray(type) && type.includes("GameServer"));
-        return isGameServer && Number.isFinite(Number(entry.playersOnline));
-      });
-
-      if (server) {
-        return { state: "online", playerCount: Number(server.playersOnline) };
-      }
-    } catch (error) {
-      // Ignore unrelated or malformed structured data blocks.
-    }
+  if (payload?.state === "offline") {
+    return { state: "offline", playerCount: null, checkedAt };
   }
 
-  const playerCountMatch = markup.match(/(?:currently,\s*there\s*are|### Players\s*)([\d,]+)(?:\s+active players online)?/i);
-
-  if (playerCountMatch) {
-    return { state: "online", playerCount: Number(playerCountMatch[1].replace(/,/g, "")) };
+  const playerCount = Number(payload?.playerCount);
+  if (payload?.state === "online" && Number.isSafeInteger(playerCount) && playerCount >= 0) {
+    return { state: "online", playerCount, checkedAt };
   }
 
   return null;
 }
 
-async function fetchDobPlayerStatus(source) {
-  const sourceUrl = new URL(source);
-  const publicSources = [
-    source,
-    `https://r.jina.ai/http://${sourceUrl.host}${sourceUrl.pathname}`,
-  ];
-
-  for (const publicSource of publicSources) {
-    try {
-      const response = await fetch(publicSource, { cache: "no-store", credentials: "omit" });
-
-      if (!response.ok) {
-        throw new Error(`Player count request failed: ${response.status}`);
-      }
-
-      const status = parseDobPlayerStatus(await response.text());
-
-      if (status) {
-        return status;
-      }
-    } catch (error) {
-      // Try the next public source before leaving the current state unchanged.
-    }
+function formatDobPlayerUpdatedAt(checkedAt) {
+  const isEnglish = document.documentElement.lang.toLowerCase().startsWith("en");
+  if (!checkedAt) {
+    return isEnglish ? "Last update: unavailable" : "Última atualização: indisponível";
   }
 
-  return null;
+  const date = new Date(checkedAt);
+  if (Number.isNaN(date.getTime())) {
+    return isEnglish ? "Last update: unavailable" : "Última atualização: indisponível";
+  }
+
+  const time = new Intl.DateTimeFormat(isEnglish ? "en-GB" : "pt-BR", {
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+    timeZone: "America/Sao_Paulo",
+  }).format(date);
+
+  return isEnglish ? `Last update: ${time}` : `Última atualização: ${time}`;
+}
+
+function updateDobPlayerUpdatedAt(link, checkedAt) {
+  const tooltip = link.querySelector("[data-dob-player-updated]");
+  if (!tooltip) {
+    return;
+  }
+
+  const text = formatDobPlayerUpdatedAt(checkedAt);
+  tooltip.textContent = text;
+  link.setAttribute("title", text);
 }
 
 function updateDobPlayerLink(link) {
@@ -141,6 +123,7 @@ function updateDobPlayerLink(link) {
       const label = status.state === "offline" ? "offline" : `${status.playerCount} online`;
       value.textContent = label;
       link.setAttribute("aria-label", label);
+      updateDobPlayerUpdatedAt(link, status.checkedAt);
     })
     .catch(() => {
       link.dataset.dobPlayerState = "unknown";
@@ -166,6 +149,7 @@ function scheduleDobPlayerRefresh() {
 function bindDobPlayerCount() {
   document.querySelectorAll("[data-dob-player-count]:not([data-dob-player-count-bound])").forEach((link) => {
     link.dataset.dobPlayerCountBound = "true";
+    updateDobPlayerUpdatedAt(link, null);
     updateDobPlayerLink(link);
   });
 
