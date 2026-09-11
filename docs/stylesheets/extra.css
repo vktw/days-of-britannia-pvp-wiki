@@ -1315,13 +1315,46 @@ body {
   background: var(--dob-gold);
 }
 
-.dob-header-version {
-  padding: 0.24rem 0.48rem;
-  color: var(--dob-gold);
-  border: 1px solid var(--dob-border);
+.dob-header-player-count {
+  display: inline-flex;
+  flex: 0 0 auto;
+  min-width: 1.45rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.24rem;
+  color: var(--dob-text-muted);
   font-size: 0.56rem;
-  font-weight: 600;
-  white-space: nowrap;
+  font-weight: 700;
+  line-height: 1;
+  opacity: 0.82;
+  text-decoration: none;
+}
+
+.dob-header-player-count span { color: var(--dob-text-strong); }
+
+.dob-header-player-count i {
+  width: 0.32rem;
+  height: 0.32rem;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background: #9aa2aa;
+  box-shadow: 0 0 0.45rem #9aa2aa;
+}
+
+.dob-header-player-count[data-dob-player-state="online"] i {
+  background: #69c987;
+  box-shadow: 0 0 0.45rem #69c987;
+}
+
+.dob-header-player-count[data-dob-player-state="offline"] i {
+  background: #e66b6b;
+  box-shadow: 0 0 0.45rem #e66b6b;
+}
+
+.dob-header-player-count:hover,
+.dob-header-player-count:focus-visible {
+  color: var(--dob-gold-hover);
+  opacity: 1;
 }
 
 /* Search overlay */
@@ -2825,10 +2858,6 @@ body:has(.dob-home) .md-main {
 }
 
 @media screen and (max-width: 59.984375em) {
-  .dob-header-version {
-    display: none;
-  }
-
   .dob-header-search-toggle {
     display: inline-flex;
   }

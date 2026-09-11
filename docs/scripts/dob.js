@@ -44,6 +44,136 @@ function personalizeDobSearch() {
   }
 }
 
+const DOB_PLAYER_REFRESH_MS = 60 * 60 * 1000;
+
+function parseDobPlayerStatus(markup) {
+  const sourceDocument = new DOMParser().parseFromString(markup, "text/html");
+  const statusBadge = sourceDocument.querySelector(".server-status > .status-badge");
+  const playersItem = Array.from(sourceDocument.querySelectorAll(".info-item")).find((item) => {
+    return item.querySelector("h3")?.textContent.trim().toLowerCase().includes("players");
+  });
+  const playersBadge = playersItem?.querySelector(".status-badge");
+  const statusText = statusBadge?.textContent.trim().toLowerCase() || "";
+  const playersText = playersBadge?.textContent.trim().toLowerCase() || "";
+  const isOffline = statusBadge?.classList.contains("offline") ||
+    playersBadge?.classList.contains("offline") ||
+    statusText.includes("offline") ||
+    playersText === "offline" ||
+    /(?:this server is|server is) currently offline/i.test(markup);
+
+  if (isOffline) {
+    return { state: "offline", playerCount: null };
+  }
+
+  const dataScripts = sourceDocument.querySelectorAll('script[type="application/ld+json"]');
+
+  for (const script of dataScripts) {
+    try {
+      const data = JSON.parse(script.textContent || "");
+      const candidates = Array.isArray(data) ? data : [data];
+      const server = candidates.find((entry) => {
+        const type = entry?.["@type"];
+        const isGameServer = type === "GameServer" || (Array.isArray(type) && type.includes("GameServer"));
+        return isGameServer && Number.isFinite(Number(entry.playersOnline));
+      });
+
+      if (server) {
+        return { state: "online", playerCount: Number(server.playersOnline) };
+      }
+    } catch (error) {
+      // Ignore unrelated or malformed structured data blocks.
+    }
+  }
+
+  const playerCountMatch = markup.match(/(?:currently,\s*there\s*are|### Players\s*)([\d,]+)(?:\s+active players online)?/i);
+
+  if (playerCountMatch) {
+    return { state: "online", playerCount: Number(playerCountMatch[1].replace(/,/g, "")) };
+  }
+
+  return null;
+}
+
+async function fetchDobPlayerStatus(source) {
+  const sourceUrl = new URL(source);
+  const publicSources = [
+    source,
+    `https://r.jina.ai/http://${sourceUrl.host}${sourceUrl.pathname}`,
+  ];
+
+  for (const publicSource of publicSources) {
+    try {
+      const response = await fetch(publicSource, { cache: "no-store", credentials: "omit" });
+
+      if (!response.ok) {
+        throw new Error(`Player count request failed: ${response.status}`);
+      }
+
+      const status = parseDobPlayerStatus(await response.text());
+
+      if (status) {
+        return status;
+      }
+    } catch (error) {
+      // Try the next public source before leaving the current state unchanged.
+    }
+  }
+
+  return null;
+}
+
+function updateDobPlayerLink(link) {
+  const value = link.querySelector("[data-dob-player-value]");
+  const source = link.dataset.dobPlayerSource;
+
+  if (!value || !source || link.dataset.dobPlayerRequest === "true") {
+    return;
+  }
+
+  link.dataset.dobPlayerRequest = "true";
+  fetchDobPlayerStatus(source)
+    .then((status) => {
+      if (!status) {
+        throw new Error("Player status was not found in the public sources");
+      }
+
+      link.dataset.dobPlayerState = status.state;
+      const label = status.state === "offline" ? "offline" : `${status.playerCount} online`;
+      value.textContent = label;
+      link.setAttribute("aria-label", label);
+    })
+    .catch(() => {
+      link.dataset.dobPlayerState = "unknown";
+      if (value.textContent.trim() === "— online") {
+        link.setAttribute("aria-label", "Status indisponível");
+      }
+    })
+    .finally(() => {
+      delete link.dataset.dobPlayerRequest;
+    });
+}
+
+function scheduleDobPlayerRefresh() {
+  if (window.dobPlayerRefreshTimer) {
+    return;
+  }
+
+  window.dobPlayerRefreshTimer = window.setInterval(() => {
+    document.querySelectorAll("[data-dob-player-count]").forEach(updateDobPlayerLink);
+  }, DOB_PLAYER_REFRESH_MS);
+}
+
+function bindDobPlayerCount() {
+  document.querySelectorAll("[data-dob-player-count]:not([data-dob-player-count-bound])").forEach((link) => {
+    link.dataset.dobPlayerCountBound = "true";
+    updateDobPlayerLink(link);
+  });
+
+  if (document.querySelector("[data-dob-player-count]")) {
+    scheduleDobPlayerRefresh();
+  }
+}
+
 function formatDobCraftSkill(value) {
   return Number(value).toFixed(1);
 }
@@ -695,6 +825,7 @@ function bindDobUi() {
   bindDobHome();
   bindDobSearchShortcut();
   personalizeDobSearch();
+  bindDobPlayerCount();
   bindDobNavigation();
   bindDobCraftControls();
   bindDobCraftSimulator();
