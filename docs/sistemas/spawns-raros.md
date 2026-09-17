@@ -64,6 +64,8 @@ um breve período.
 
 O encontro pode conceder uma **Emerald Llama** ou **Emerald Mustang**, **The
 Eleventh Heart**, loot extra e uma Chronicle relacionada a **Elias Wren**.
+Enquanto o evento está ativo, Town Criers também podem compartilhar um rumor
+que o menciona; consulte [Whispers of Britannia](whispers-britannia.md).
 
 ## Eventos fixos
 
@@ -72,7 +74,7 @@ Animal Taming 60.0**, enquanto **Desert Ostard, Forest Ostard e Frenzied Ostard
 exigem 70.0**. Eles surgem em pontos fixos do mundo; a busca continua sendo
 parte da exploração, sem depender de coordenadas publicadas.
 
-Para as pistas compartilhadas por Town Criers, consulte [Whispers of
+Para outras pistas compartilhadas por Town Criers, consulte [Whispers of
 Britannia](whispers-britannia.md).
 
 ## Tempos de respawn
@@ -93,5 +95,5 @@ Os ciclos em horas não são contagens reiniciadas a cada abate. Um ciclo pode
 passar sem uma nova criatura aparecer; os intervalos não garantem um horário
 exato de chegada.
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.43.0"
     Phoenix rara, criaturas raras e eventos oferecem caminhos de descoberta em Britannia.

@@ -27,7 +27,8 @@ rumor não traz informação útil.
 
 Town Criers também podem compartilhar rumores sobre os Rare Events e a **Rare
 Rideable Llama**. O objetivo é oferecer uma pista, não substituir a exploração
-do mundo.
+do mundo. Enquanto o evento estiver ativo, o rumor também pode mencionar **The
+Man in the Hedge**.
 
 ## Interface dos Whispers
 
@@ -37,5 +38,5 @@ rumores.
 Consulte [Spawns raros](spawns-raros.md) para conhecer as criaturas e os eventos
 que podem ser encontrados durante a exploração.
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.43.0"
     Town Criers oferecem pistas públicas para descobrir eventos raros em Britannia.

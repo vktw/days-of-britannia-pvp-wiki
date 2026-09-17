@@ -57,8 +57,8 @@ interrupts active Tracking and reports that the quarry was lost.
 ## Moving through creatures
 
 Animals, monsters, pets, and NPC vendors with at least **10 stamina** can be
-pushed. The movement costs the creature **10 stamina**. This exception does not
-change player-to-player collision.
+pushed. The movement costs the creature **5 stamina**. Player-to-player
+collision still requires and consumes the full **10 stamina**.
 
 ## Stats and buffs
 
@@ -91,5 +91,5 @@ maximum of 25 steps. Walking, including while mounted, consumes the limit;
 exhausting it reveals the character, and running, including while mounted,
 reveals immediately. Armor does not block or reduce Stealth effectiveness.
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.43.0"
     Stats, skills, caps and race correspond to the official server.

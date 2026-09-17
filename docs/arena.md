@@ -47,11 +47,12 @@ ranking: System Loot e Personal Loot têm tabelas separadas.
 2. A Arena verifica antecipadamente o gold necessário antes de preparar a
    sessão. A cobrança ocorre no início da luta: 5.000 gold por participante em
    duelos entre jogadores e 1.000 gold no treino contra o Trainer.
-3. Desafios públicos ficam disponíveis por um minuto para aceitação;
-   personagens da mesma conta não podem se enfrentar.
+3. Desafios públicos ficam disponíveis por 120 segundos para aceitação; quando
+   restam 15 segundos, o lembrete é recalculado. Personagens da mesma conta não
+   podem se enfrentar.
 4. Quando um candidato aceita, sua vaga fica reservada por 15 segundos enquanto
    o desafiante confirma ou recusa o oponente.
-5. Há 60 segundos de preparação sem movimento, ataque ou uso de potions. A
+5. Há 90 segundos de preparação sem movimento, ataque ou uso de potions. A
    luta dura no máximo 10 minutos.
 6. Após o resultado, há 15 segundos antes do retorno. A Arena encerra casts e
    ações pendentes e limpa os estados temporários de combate.
@@ -88,5 +89,5 @@ entrada custa 1.000 gold e fornece o kit Iron fixo; seleção de tiers não faz
 parte desse fluxo. Esta página documenta somente as regras observáveis de
 entrada, cobrança e resultado, não decisões táticas internas do NPC.
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.43.0"
     Estas são as regras disponíveis no servidor oficial.

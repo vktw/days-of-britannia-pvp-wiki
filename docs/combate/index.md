@@ -81,6 +81,9 @@ Abrir o target de uma segunda magia não interrompe uma conjuração em andament
 O fizzle, com perda normal de reagentes e mana, acontece quando um alvo válido
 inicia o segundo cast.
 
+Dano recebido também pode interromper a conjuração de **Dispel Field** e **Mass
+Dispel**, como já ocorre com **Teleport**, **Recall** e **Gate Travel**.
+
 ## A janela de finalização
 
 “Finisher” descreve uma decisão de timing, não uma rotação obrigatória:
@@ -124,6 +127,6 @@ altera dano mágico, poison ou outras fórmulas do ruleset.
 Defesa não é apenas esperar a vida subir: ela compra o tempo necessário para
 reposicionar, recuperar mana ou preparar a próxima resposta.
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.43.0"
     Esta página resume o ruleset ativo no servidor oficial. Os valores de
     gameplay foram conferidos na fonte oficial do servidor.

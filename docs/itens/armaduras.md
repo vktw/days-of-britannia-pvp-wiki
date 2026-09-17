@@ -20,6 +20,23 @@ As principais peças de **Chain** usam estes custos e faixas nativas de Blacksmi
 
 Essas peças continuam sendo armaduras clássicas; não fazem parte das linhas temáticas **DoB Weapons** da Blacksmithy.
 
+## Kits, couro e Ringmail no 0.43.0
+
+Bankers vendem o **Royal Armorer's Charter** por **10.000 account gold**. Com
+o charter, a Blacksmithy pode produzir o **Platemail Armor Kit Deed** por 118
+ingots e o **Chainmail Armor Kit Deed** por 100 ingots; ambos exigem **75.0 de
+Inscription**. Cada deed libera sete peças, preservando o material e o hue do
+kit. Uma falha elegível consome 10 ingots.
+
+Cada peça de **Leather Armor** passa a ter exatamente o mesmo `Armor Rating` da
+peça correspondente de Chain, Ringmail ou Gorget no mesmo material. Misturar
+Leather com metal não gera mais vantagem sobre o kit; a curva de Blacksmithy e
+a rolagem separada de **Arms Lore** para Exceptional permanecem inalteradas.
+
+**Ringmail Chest** custa **20 ingots** e **Ringmail Legs** custa **18 ingots**.
+Um kit completo de Ringmail, com Gorget e Coif, custa **82 ingots** e iguala o
+kit de Chainmail no `Armor Rating` de cada peça.
+
 ## Armor Rating no 0.40.0
 
 Armaduras e shields exibem **Armor Rating: N**. Para peças apoiadas por uma
@@ -68,5 +85,5 @@ itens salvos não são migrados.
 
 Veja [Armor e Parrying](../combate/armor-parrying.md).
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.43.0"
     O cálculo de golpes diretos usa o Armor Rating global das peças equipadas.

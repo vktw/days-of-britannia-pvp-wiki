@@ -16,8 +16,8 @@ hide:
 
 <section class="dob-game-status" aria-label="Status do servidor">
   <span><i aria-hidden="true"></i><strong>Servidor online</strong><small>Britannia está ativa</small></span>
-  <span><strong>0.42.0</strong><small>Versão atual</small></span>
-  <a href="patches/"><strong>Amuletos e Progressão PvM</strong><small>Última atualização</small></a>
+  <span><strong>0.43.0</strong><small>Versão atual</small></span>
+  <a href="patches/"><strong>Temporizadores da Arena, couro e armaduras</strong><small>Última atualização</small></a>
   <a href="https://economy.dobshard.com/"><strong>Economia</strong><small>Mercado do shard</small></a>
 </section>
 
@@ -127,17 +127,17 @@ hide:
 <section class="dob-atlas-content" aria-label="Conteúdo principal">
   <article class="dob-atlas-feature">
     <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
-    <h2>0.42.0 · Amuletos, Progressão PvM, Casas e Ferramentas</h2>
-    <p class="dob-atlas-feature__date"><time datetime="2026-09-02">2 de setembro de 2026</time></p>
-    <p>Amuletos chegam a +10, o PvM aproveita melhor a skill efetiva e ferramentas e casas recebem novas regras.</p>
+    <h2>0.43.0 · Temporizadores da Arena, couro e armaduras</h2>
+    <p class="dob-atlas-feature__date"><time datetime="2026-09-10">10 de setembro de 2026</time></p>
+    <p>A Arena ganha novas janelas de tempo, o carving passa a render couro e as armaduras recebem ajustes de equilíbrio.</p>
     <a href="patches/">LER PATCH NOTES <span aria-hidden="true">→</span></a>
   </article>
 
 <div class="dob-atlas-index">
 <p class="dob-atlas-kicker">ÚLTIMOS ARTIGOS ATUALIZADOS</p>
-<a href="itens/recompensas-pvm/"><span class="dob-atlas-index__code">09 SET</span><span><strong>Recompensas PvM</strong><small>Magic Skill Amulets e novos bônus de progressão</small></span><i aria-hidden="true">→</i></a>
-<a href="sistemas/pvm-mastery/"><span class="dob-atlas-index__code">09 SET</span><span><strong>Maestria PvM</strong><small>Bônus de nível 1 e progressão por skill efetiva</small></span><i aria-hidden="true">→</i></a>
-<a href="craft/tinkering/"><span class="dob-atlas-index__code">09 SET</span><span><strong>Tinkering</strong><small>Ferramentas clássicas, Enduring e DoB Tools</small></span><i aria-hidden="true">→</i></a>
-<a href="sistemas/spawns-raros/"><span class="dob-atlas-index__code">09 SET</span><span><strong>Spawns raros</strong><small>The Man in the Hedge e ciclos de respawn</small></span><i aria-hidden="true">→</i></a>
+<a href="arena/"><span class="dob-atlas-index__code">10 SET</span><span><strong>Arena e PvP</strong><small>Novos temporizadores de desafio e preparação</small></span><i aria-hidden="true">→</i></a>
+<a href="itens/armaduras/"><span class="dob-atlas-index__code">10 SET</span><span><strong>Armaduras clássicas</strong><small>Kit deeds, Leather Armor e Ringmail</small></span><i aria-hidden="true">→</i></a>
+<a href="craft/tailoring/"><span class="dob-atlas-index__code">10 SET</span><span><strong>Tailoring</strong><small>Studded Leather Armor sai do menu ativo</small></span><i aria-hidden="true">→</i></a>
+<a href="itens/recompensas-pvm/"><span class="dob-atlas-index__code">10 SET</span><span><strong>Recompensas PvM</strong><small>Carving de couro e bônus de Forensic Evaluation</small></span><i aria-hidden="true">→</i></a>
 </div>
 </section>

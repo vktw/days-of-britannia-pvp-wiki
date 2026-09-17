@@ -63,6 +63,8 @@ summons do not work against them, and **Dispel** exposes their weakness briefly.
 
 The encounter may grant an **Emerald Llama** or **Emerald Mustang**, **The
 Eleventh Heart**, extra loot, and a Chronicle connected to **Elias Wren**.
+While the event is active, Town Criers can also share a rumor that mentions it;
+see [Whispers of Britannia](whispers-britannia.md).
 
 ## Fixed events
 
@@ -71,7 +73,7 @@ requires 60.0 Animal Taming**, while **Desert Ostard, Forest Ostard, and Frenzie
 Ostard require 70.0**. They appear at fixed world locations; finding them
 remains part of exploration, without publishing coordinates.
 
-For the leads shared by Town Criers, see [Whispers of
+For other leads shared by Town Criers, see [Whispers of
 Britannia](whispers-britannia.md).
 
 ## Respawn times
@@ -92,5 +94,5 @@ Hourly cycles are not countdowns restarted by each kill. A cycle can pass
 without a new creature appearing; these intervals do not guarantee an exact
 arrival time.
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.43.0"
     Rare creatures and events offer discovery paths across Britannia.

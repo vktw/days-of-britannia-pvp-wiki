@@ -20,6 +20,23 @@ The main **Chain** pieces use these costs and native Blacksmithy ranges:
 
 These remain classic armor pieces; they are not part of Blacksmithy's thematic **DoB Weapons** lines.
 
+## Kits, leather, and Ringmail in 0.43.0
+
+Bankers sell the **Royal Armorer's Charter** for **10,000 account gold**. With
+the charter, Blacksmithy can produce a **Platemail Armor Kit Deed** for 118
+ingots and a **Chainmail Armor Kit Deed** for 100 ingots; both require **75.0
+Inscription**. Each deed releases seven pieces while preserving the kit's
+material and hue. An eligible failure consumes 10 ingots.
+
+Each **Leather Armor** piece now has exactly the same `Armor Rating` as its
+matching Chain, Ringmail, or Gorget piece in the same material. Mixing Leather
+with metal no longer gives an advantage over the kit; the Blacksmithy curve and
+the separate **Arms Lore** roll for Exceptional remain unchanged.
+
+**Ringmail Chest** costs **20 ingots** and **Ringmail Legs** costs **18 ingots**.
+A complete Ringmail kit, including Gorget and Coif, costs **82 ingots** and
+matches the Chainmail kit's per-piece `Armor Rating`.
+
 ## Armor Rating in 0.40.0
 
 Armor and shields display **Armor Rating: N**. For recipe-backed pieces, the
@@ -67,5 +84,5 @@ not migrated.
 
 See [Armor and Parrying](../combate/armor-parrying.md).
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.43.0"
     Direct-hit resolution uses global Armor Rating from equipped pieces.

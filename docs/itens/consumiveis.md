@@ -21,6 +21,12 @@ Moonglow e Serpent's Hold oferecem um serviço de dye cosmético com Dragon Bloo
 Cada dye consome 150 ingots compatíveis, 10 Dragon Bloods e uma cobrança dinâmica
 em gold com piso de 50.000; o dye possui uma carga.
 
+## Hides e Leather no 0.43.0
+
+Cada **Hide** pesa **1,0 stone** e cada **Leather** pesa **0,5 stone**. Com uma
+tesoura, 100 Hides viram 100 Leather; a conversão mantém a quantidade e reduz o
+peso do stack de 100 para 50. Stacks antigos são normalizados quando carregados.
+
 ## Carving de dragões verdadeiros
 
 O carving de **Dragon, Drake, White Wyrm, Frost Dragon, Cold Drake, Frost Drake,
@@ -87,5 +93,5 @@ Novos personagens recebem Spellbook completo, Runebook vazio e cavalo shrinkado.
 
 Veja [Cura e recursos](../combate/cura-recursos.md) para todas as faixas e delays.
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.43.0"
     Quantidades de kits e efeitos detalhados correspondem ao servidor oficial.

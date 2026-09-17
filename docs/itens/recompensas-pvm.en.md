@@ -33,6 +33,16 @@ uses the normal skill check and adds `ceil((Forensics - 60) / 2)`% with no cap;
 the result is reported by a system message. The special contract delivers only
 Eyes of Newt instead of the normal carving resource set.
 
+## Leather carving in 0.43.0
+
+Eligible creatures can add **2–7 leather resources** to the corpse.
+**Forensic Evaluation** increases this bonus, reaching up to double the normal
+result at **110.0**. An ordinary blade such as a **Kryss** produces **Hides**;
+with a **Skinning Knife** or equipped **Butcher's War Cleaver**, the result is
+cut **Leather**. Collection happens once per corpse, and special carvings such
+as **Eyes of Newt** remain available. The carving message reports the bonus
+percentage and extra resources.
+
 ## Magical jewelry
 
 Magical earrings, bracelets, and rings can increase STR, DEX, or INT while equipped. Jewelry uses the classic appearance of its item type and has durability.
@@ -74,5 +84,5 @@ and looting-right rules still apply.
 
 See also [PvM Mastery](../sistemas/pvm-mastery.md) and [Threat Rating](../mundo/threat-rating.md).
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.43.0"
     Eligible creatures reward the group according to the scale of the encounter.

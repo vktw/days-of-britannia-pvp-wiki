@@ -43,11 +43,12 @@ System Loot and Personal Loot use separate tables.
 2. The Arena checks the required gold before preparing the session. The charge
    happens at fight start: 5,000 gold per participant in player duels and 1,000
    gold for Trainer training.
-3. Public challenges remain available for acceptance for one minute; characters
-   on the same account cannot face each other.
+3. Public challenges remain available for acceptance for 120 seconds; when 15
+   seconds remain, the reminder is recalculated. Characters on the same account
+   cannot face each other.
 4. When a candidate accepts, their spot is reserved for 15 seconds while the
    challenger confirms or rejects the opponent.
-5. There are 60 seconds of preparation without movement, attacks, or potions.
+5. There are 90 seconds of preparation without movement, attacks, or potions.
    The fight lasts a maximum of 10 minutes.
 6. After the result, there are 15 seconds before the return. The Arena closes
    pending casts and actions and clears temporary combat states.
@@ -81,5 +82,5 @@ costs 1,000 gold and provides the fixed Iron kit; tier selection is not part of
 this flow. This page documents only observable entry, fee, and result rules, not
 the NPC's internal tactical decisions.
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.43.0"
     These are the rules available on the official server.

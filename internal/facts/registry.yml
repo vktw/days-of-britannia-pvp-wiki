@@ -1,18 +1,18 @@
 # High-risk gameplay fact inventory.
 # Live entries are approved by production presence; source refs are metadata only.
-# The 0.42.0 reconciliation below confirms the current release identity and the approved player-facing deltas.
+# The 0.43.0 reconciliation below confirms the current release identity and the approved player-facing deltas.
 # Other entries retain their last deep-verification release until that audit is run.
 schema_version: 1
-registry_version: "0.42.0"
+registry_version: "0.43.0"
 source_policy: "live-server-is-final"
 entries:
   - id: bowcraft-menu-0410
     claim: "Bowcraft has 14 visible recipes in Materials, Ammunition, Weapons, and DoB Weapons. Common items use the official base curve; displayed data is capped at 105.0; Fire Bow reaches 81.25% success and 30.63% Exceptional at 105, while Elven Bow reaches 100%."
     status: live
     source_status: approved
-    live_version: "0.41.0"
-    verification_date: "2026-09-06"
-    approved_source: "live-server/v0.41.0"
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
     public_reference: "docs/craft/bowcraft.md"
     canonical_pt: "docs/craft/bowcraft.md"
     english_counterpart: "docs/craft/bowcraft.en.md"
@@ -22,9 +22,9 @@ entries:
     claim: "Blacksmithy has 71 visible recipes in eight top-level categories, including Bloodrock and Blackrock submenus. Iron uses recipe curves, special-metal armor uses metal curves, thematic weapons have 85.71% success at 105, and Exceptional uses a separate Arms Lore roll with a regular tool."
     status: live
     source_status: approved
-    live_version: "0.41.0"
-    verification_date: "2026-09-06"
-    approved_source: "live-server/v0.41.0"
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
     public_reference: "docs/craft/blacksmithy.md"
     canonical_pt: "docs/craft/blacksmithy.md"
     english_counterpart: "docs/craft/blacksmithy.en.md"
@@ -70,21 +70,117 @@ entries:
     claim: "Inscription has 87 active visible recipes including 64 spell scrolls, 17 Necromancy scrolls, six books and supplies; recipe-gated compendiums and atlases are omitted. Public skill curves stop at 105.0."
     status: live
     source_status: approved
-    live_version: "0.41.0"
-    verification_date: "2026-09-06"
-    approved_source: "live-server/v0.41.0"
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
     public_reference: "docs/craft/inscription.md"
     canonical_pt: "docs/craft/inscription.md"
     english_counterpart: "docs/craft/inscription.en.md"
     owner: server-owner
     review_after: null
   - id: tailoring-menu-0410
-    claim: "Tailoring has 156 active visible recipes across the official clothing, leather, studded, gargoyle, special, and DoB Cloth groups after recipe-gated entries are removed. Normal recipes use the official 50% chance-base at the minimum skill; the three DoB Cloth robes use a 0% to 100% linear curve from 65.0 to 105.0; public skill curves stop at 105.0."
+    claim: "Tailoring has 139 active visible recipes across the official clothing, leather, gargoyle, special, and DoB Cloth groups after recipe-gated entries are removed; Studded Leather Armor is no longer in the active menu. Normal recipes use the official 50% chance-base at the minimum skill; the three DoB Cloth robes use a 0% to 100% linear curve from 65.0 to 105.0; public skill curves stop at 105.0."
     status: live
     source_status: approved
-    live_version: "0.41.0"
-    verification_date: "2026-09-09"
-    approved_source: "live-server/v0.41.0"
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
+    public_reference: "docs/craft/tailoring.md"
+    canonical_pt: "docs/craft/tailoring.md"
+    english_counterpart: "docs/craft/tailoring.en.md"
+    owner: server-owner
+    review_after: null
+  - id: arena-armor-kits-0430
+    claim: "Bankers sell Royal Armorer's Charter for 10,000 account gold; with it, Platemail Armor Kit Deed costs 118 ingots and Chainmail Armor Kit Deed costs 100, both require 75.0 Inscription, release seven pieces, preserve material and hue, and consume 10 ingots on an eligible failure."
+    status: live
+    source_status: approved
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
+    public_reference: "docs/itens/armaduras.md"
+    canonical_pt: "docs/itens/armaduras.md"
+    english_counterpart: "docs/itens/armaduras.en.md"
+    owner: server-owner
+    review_after: null
+  - id: leather-carving-0430
+    claim: "Eligible creature carving adds 2 to 7 leather resources; Forensic Evaluation can raise the bonus up to double at 110.0, ordinary blades produce Hides, Skinning Knife or Butcher's War Cleaver produces Leather, collection occurs once per corpse, and special carvings remain available."
+    status: live
+    source_status: approved
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
+    public_reference: "docs/itens/recompensas-pvm.md"
+    canonical_pt: "docs/itens/recompensas-pvm.md"
+    english_counterpart: "docs/itens/recompensas-pvm.en.md"
+    owner: server-owner
+    review_after: null
+  - id: leather-armor-balance-0430
+    claim: "Leather Armor pieces match the Armor Rating of corresponding Chainmail or Ringmail pieces in the same material; mixing leather and metal no longer creates a kit advantage, while Blacksmithy curves and Exceptional Arms Lore remain separate."
+    status: live
+    source_status: approved
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
+    public_reference: "docs/itens/armaduras.md"
+    canonical_pt: "docs/itens/armaduras.md"
+    english_counterpart: "docs/itens/armaduras.en.md"
+    owner: server-owner
+    review_after: null
+  - id: window-response-0430
+    claim: "Invalid or expired window responses are ignored with a short pause and notice instead of an immediate disconnect; persistent repetition can still disconnect."
+    status: live
+    source_status: approved
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
+    public_reference: "docs/patches.md"
+    canonical_pt: "docs/patches.md"
+    english_counterpart: "docs/patches.en.md"
+    owner: server-owner
+    review_after: null
+  - id: dispel-interruption-0430
+    claim: "Damage can interrupt Dispel Field and Mass Dispel while they are being cast, like Teleport, Recall, and Gate Travel."
+    status: live
+    source_status: approved
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
+    public_reference: "docs/combate/index.md"
+    canonical_pt: "docs/combate/index.md"
+    english_counterpart: "docs/combate/index.en.md"
+    owner: combat-maintainer
+    review_after: null
+  - id: loot-necromancy-0430
+    claim: "Necromancy scrolls are removed from loot while Magery and other loot remain unchanged."
+    status: live
+    source_status: approved
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
+    public_reference: "docs/patches.md"
+    canonical_pt: "docs/patches.md"
+    english_counterpart: "docs/patches.en.md"
+    owner: server-owner
+    review_after: null
+  - id: wrong-deep-cells-0430
+    claim: "Incorrect deep cells in Wrong follow normal regional combat."
+    status: live
+    source_status: approved
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
+    public_reference: "docs/patches.md"
+    canonical_pt: "docs/patches.md"
+    english_counterpart: "docs/patches.en.md"
+    owner: world-maintainer
+    review_after: null
+  - id: studded-leather-0430
+    claim: "Studded Leather Armor is no longer craftable, listed in the Tailoring menu, or sold by NPCs; existing pieces and buyback remain preserved."
+    status: live
+    source_status: approved
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
     public_reference: "docs/craft/tailoring.md"
     canonical_pt: "docs/craft/tailoring.md"
     english_counterpart: "docs/craft/tailoring.en.md"
@@ -163,12 +259,12 @@ entries:
     owner: server-owner
     review_after: null
   - id: resource-weight-0410
-    claim: "Ingots and Boards weigh 0.5 stone per unit in the 0.41.0 ruleset."
+    claim: "Ingots and Boards weigh 0.5 stone per unit; Hides weigh 1.0 and Leather weighs 0.5, with 100 Hides converting to 100 Leather by scissors and old stacks normalizing when loaded."
     status: live
     source_status: approved
-    live_version: "0.42.0"
-    verification_date: "2026-09-09"
-    approved_source: "live-server/v0.42.0"
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
     public_reference: "docs/craft/index.md"
     canonical_pt: "docs/craft/index.md"
     english_counterpart: "docs/craft/index.en.md"
@@ -187,12 +283,12 @@ entries:
     owner: server-owner
     review_after: null
   - id: live-version
-    claim: "The public manual identifies the current production ruleset as 0.42.0."
+    claim: "The public manual identifies the current production ruleset as 0.43.0."
     status: live
     source_status: approved
-    live_version: "0.42.0"
-    verification_date: "2026-09-09"
-    approved_source: "live-server/v0.42.0"
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
     public_reference: "docs/patches.md"
     canonical_pt: "docs/patches.md"
     english_counterpart: "docs/patches.en.md"
@@ -391,12 +487,12 @@ entries:
     owner: pvp-maintainer
     review_after: null
   - id: arena-timing
-    claim: "Arena challenges, preparation, matches, and post-match return use the documented time limits; player duels split into System Loot and Personal Loot, while NuJelm is Personal Loot only."
+    claim: "Arena public challenges accept 120 seconds, pre-fight preparation lasts 90 seconds, Personal Loot remains 60 seconds, the match cap remains 10 minutes, and other timers are unchanged; player duels split into System Loot and Personal Loot, while NuJelm is Personal Loot only."
     status: live
     source_status: approved
-    live_version: "0.23.3"
-    verification_date: "2026-08-10"
-    approved_source: "live-server/v0.23.3"
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
     public_reference: "docs/arena.md"
     canonical_pt: "docs/arena.md"
     english_counterpart: "docs/arena.en.md"
@@ -547,12 +643,12 @@ entries:
     owner: world-maintainer
     review_after: null
   - id: britannia-whispers
-    claim: "The public Whispers of Britannia page documents Town Crier purchases, rumor timing, and player-facing discovery limits."
+    claim: "The public Whispers of Britannia page documents Town Crier purchases, rumor timing, player-facing discovery limits, and the active-event rumor for The Man in the Hedge."
     status: live
     source_status: approved
-    live_version: "0.12.0"
-    verification_date: "2026-08-02"
-    approved_source: "live-server/v0.12.0"
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
     public_reference: "docs/sistemas/whispers-britannia.md"
     canonical_pt: "docs/sistemas/whispers-britannia.md"
     english_counterpart: "docs/sistemas/whispers-britannia.en.md"
@@ -667,12 +763,12 @@ entries:
     owner: combat-maintainer
     review_after: null
   - id: bowcraft-0235-local-preview
-    claim: "Live 0.42.0 documents Fire Bow and Elven Bow, their Bowcraft materials and success information, Elven Bow's equipped skill bonuses, 2.50 speed, Fire Feather compatibility, Fire Bow impact presentation, and the Bowcraft material-bonus policy."
+    claim: "Live 0.43.0 documents Fire Bow and Elven Bow, their Bowcraft materials and success information, Elven Bow's equipped skill bonuses, 2.50 speed, Fire Feather compatibility, Fire Bow's correct color, and the Bowcraft material-bonus policy."
     status: live
     source_status: approved
-    live_version: "0.42.0"
-    verification_date: "2026-09-09"
-    approved_source: "live-server/v0.42.0"
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
     public_reference: "docs/itens/armas.md"
     canonical_pt: "docs/itens/armas.md"
     english_counterpart: "docs/itens/armas.en.md"
@@ -715,12 +811,12 @@ entries:
     owner: world-maintainer
     review_after: null
   - id: whispers-world-0235-local-preview
-    claim: "Live 0.23.5 documents the expanded Whispers presentation and public Town Crier rumors for rare events and the Rare Rideable Llama."
+    claim: "Live 0.43.0 documents the expanded Whispers presentation and public Town Crier rumors for rare events, the Rare Rideable Llama, and The Man in the Hedge while its event is active."
     status: live
     source_status: approved
-    live_version: "0.23.5"
-    verification_date: "2026-08-11"
-    approved_source: "live-server/v0.23.5"
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
     public_reference: "docs/sistemas/whispers-britannia.md"
     canonical_pt: "docs/sistemas/whispers-britannia.md"
     english_counterpart: "docs/sistemas/whispers-britannia.en.md"
@@ -751,12 +847,12 @@ entries:
     owner: items-maintainer
     review_after: null
   - id: chain-armor-metals-0130-live
-    claim: "Live 0.23.5 documents the public armor metals, their Physical Resist tier behavior, and the ingot costs and native Blacksmithy ranges for the main Chain pieces."
+    claim: "Live 0.43.0 documents the public armor metals, their Physical Resist tier behavior, Leather Armor parity with corresponding Chainmail or Ringmail pieces, Ringmail Chest and Legs costs of 20 and 18 ingots, the 82-ingot full Ringmail kit, and the native Blacksmithy ranges for the main Chain pieces."
     status: live
     source_status: approved
-    live_version: "0.23.5"
-    verification_date: "2026-08-11"
-    approved_source: "live-server/v0.23.5"
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
     public_reference: "docs/itens/armaduras.md"
     canonical_pt: "docs/itens/armaduras.md"
     english_counterpart: "docs/itens/armaduras.en.md"
@@ -955,12 +1051,12 @@ entries:
     owner: commands-maintainer
     review_after: null
   - id: creature-shove-0420
-    claim: "Animals, monsters, pets, and NPC vendors can be pushed with at least 10 stamina at a cost of 10 stamina; player collision remains unchanged."
+    claim: "Animals, monsters, pets, and NPC vendors can be pushed with at least 10 stamina at a cost of 5 stamina; pushing another player still costs 10 stamina."
     status: live
     source_status: approved
-    live_version: "0.42.0"
-    verification_date: "2026-09-09"
-    approved_source: "live-server/v0.42.0"
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
     public_reference: "docs/personagem.md"
     canonical_pt: "docs/personagem.md"
     english_counterpart: "docs/personagem.en.md"
@@ -1018,9 +1114,9 @@ entries:
     claim: "The Man in the Hedge encounter uses ten scattered shadows, a mounted central reveal, weapon resistance, pet/summon exclusion, Dispel exposure, a 3–6 day respawn interval after the final boss dies, and possible Emerald mount, The Eleventh Heart, extra loot, and Elias Wren Chronicle rewards."
     status: live
     source_status: approved
-    live_version: "0.42.0"
-    verification_date: "2026-09-09"
-    approved_source: "live-server/v0.42.0"
+    live_version: "0.43.0"
+    verification_date: "2026-09-17"
+    approved_source: "live-server/v0.43.0"
     public_reference: "docs/sistemas/spawns-raros.md"
     canonical_pt: "docs/sistemas/spawns-raros.md"
     english_counterpart: "docs/sistemas/spawns-raros.en.md"

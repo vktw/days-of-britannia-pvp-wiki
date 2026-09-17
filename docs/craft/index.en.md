@@ -1,6 +1,6 @@
 # Craft
 
-**0.42.0** organizes crafting into nine categories. This section gathers
+The current catalog organizes crafting into nine categories. This section gathers
 the recipes most useful to players, required materials, skill ranges, and a
 control for checking base success chance.
 
@@ -44,7 +44,8 @@ not extrapolate the curve past the cutoff.
 
 ## Resource weight
 
-On server 0.42.0, each **Ingot** and **Board** weighs **0.5 stone**. The
+On server 0.43.0, each **Ingot** and **Board** weighs **0.5 stone**; **Hides**
+weigh **1.0 stone** and **Leather** weighs **0.5 stone** per unit. The
 selected material continues to determine item identity and color in recipes
 that accept resource variants.
 

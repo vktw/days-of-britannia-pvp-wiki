@@ -2,6 +2,29 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.43.0 · Temporizadores da Arena, couro e armaduras
+
+Publicado em 10 de setembro de 2026.
+
+- Desafios públicos da Arena agora aceitam até **120 segundos**; o lembrete é recalculado quando faltam **15 segundos**.
+- A preparação antes da luta na Arena dura **90 segundos**. **Personal Loot** continua em 60 segundos, o limite da partida em 10 minutos e os demais temporizadores não mudam.
+- Empurrar animais, monstros, pets e NPC vendors custa **5 de stamina**; empurrar outro jogador continua custando 10.
+- Respostas de janelas inválidas ou vencidas são ignoradas com uma pausa curta e aviso, em vez de desconectar imediatamente; repetição persistente ainda pode desconectar.
+- Bankers vendem **Royal Armorer’s Charter** por **10.000 account gold**. Com a charter, é possível criar **Platemail Armor Kit Deed** (118 ingots) e **Chainmail Armor Kit Deed** (100 ingots) com **75.0 Inscription**. Cada deed libera sete peças e preserva material e hue; uma falha elegível consome 10 ingots.
+- Os nomes de itens e categorias nos menus de craft ficaram mais fáceis de ler.
+- O **Fire Bow** agora exibe a cor correta.
+- Enquanto o evento estiver ativo, **Whispers** também pode espalhar o rumor de **The Man in the Hedge**.
+- Células profundas incorretas de **Wrong** seguem o combate regional normal.
+- **Dispel Field** e **Mass Dispel** podem ser interrompidos por dano durante a conjuração, como **Teleport**, **Recall** e **Gate Travel**.
+- Scrolls de **Necromancy** foram removidos dos loots; **Magery** e os demais loots permanecem inalterados.
+- O carving de criaturas elegíveis adiciona 2 a 7 recursos de couro; **Forensic Evaluation** pode elevar o bônus até o dobro em 110.0. Lâminas comuns geram **Hides**, enquanto **Skinning Knife** ou **Butcher’s War Cleaver** geram **Leather**; a coleta ocorre uma vez por corpse, sem remover carvings especiais.
+- Cada peça de **Leather Armor** passa a ter exatamente o mesmo Armor Rating da peça correspondente de Chainmail ou Ringmail do mesmo material. Misturar couro e metal não cria vantagem; as curvas de Blacksmithy e o **Arms Lore** de peças Exceptional continuam separados.
+- **Ringmail Chest** exige 20 ingots, **Ringmail Legs** exige 18, e o kit completo de Ringmail, incluindo gorget e coif, exige 82. O Armor Rating por peça acompanha o kit de Chainmail.
+- **Hides** pesam 1.0 e **Leather** pesa 0.5. Tesouras convertem 100 Hides em 100 Leather, reduzindo o peso da pilha de 100 para 50; pilhas antigas são normalizadas ao carregar.
+- **Studded Leather Armor** deixou de ser craftável, aparecer no menu de Tailoring ou ser vendido por NPCs. Peças existentes e o buyback continuam preservados.
+
+Consulte [Arena](arena.md), [Personagem](personagem.md), [Armaduras](itens/armaduras.md), [Blacksmithy](craft/blacksmithy.md), [Tailoring](craft/tailoring.md), [Recompensas PvM](itens/recompensas-pvm.md), [Consumíveis](itens/consumiveis.md), [Whispers of Britannia](sistemas/whispers-britannia.md), [Spawns raros](sistemas/spawns-raros.md) e [Combate](combate/index.md).
+
 ## 0.42.0 · Amuletos, Progressão PvM, Casas e Ferramentas
 
 Publicado em 2 de setembro de 2026.

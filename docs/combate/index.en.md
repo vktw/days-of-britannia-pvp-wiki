@@ -85,6 +85,10 @@ Opening a second spell target does not interrupt a cast already in progress.
 The fizzle, with normal reagent and mana loss, occurs when a valid target starts
 the second cast.
 
+Damage received can also interrupt **Dispel Field** and **Mass Dispel** while
+they are being cast, as it already does with **Teleport**, **Recall**, and
+**Gate Travel**.
+
 ## The finishing window
 
 “Finisher” describes a timing decision, not a mandatory rotation:
@@ -128,6 +132,6 @@ hits or change magical damage, poison, or other ruleset formulas.
 Defense is not only waiting for hits to rise: it buys the time needed to
 reposition, recover mana, or prepare the next response.
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.43.0"
     This page summarizes the active ruleset on the official server. Gameplay
     values were checked against the official server source.

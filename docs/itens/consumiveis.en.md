@@ -22,6 +22,12 @@ Moonglow and Serpent's Hold offer a cosmetic Dragon Blood dye service. Each dye
 uses 150 matching ingots, 10 Dragon Bloods, and a dynamic gold charge with a
 50,000-gold floor; the dye has one charge.
 
+## Hides and Leather in 0.43.0
+
+Each **Hide** weighs **1.0 stone** and each **Leather** weighs **0.5 stone**.
+With scissors, 100 Hides become 100 Leather; the conversion keeps the quantity
+and reduces the stack weight from 100 to 50. Old stacks normalize when loaded.
+
 ## True-dragon carving
 
 Carving **Dragon, Drake, White Wyrm, Frost Dragon, Cold Drake, Frost Drake,
@@ -87,4 +93,4 @@ New characters receive a complete Spellbook, an empty Runebook and a shrunken ho
 
 See [Healing and resources](../combate/cura-recursos.md) for all values and delays.
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.43.0"

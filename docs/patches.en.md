@@ -2,6 +2,29 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.43.0 · Arena timers, leather, and armor
+
+Published on September 10, 2026.
+
+- Public Arena challenges now accept up to **120 seconds**; the reminder is recalculated when **15 seconds** remain.
+- Pre-fight Arena preparation lasts **90 seconds**. **Personal Loot** remains 60 seconds, the match cap remains 10 minutes, and other timers are unchanged.
+- Pushing animals, monsters, pets, and NPC vendors costs **5 stamina**; pushing another player still costs 10.
+- Invalid or expired window responses are ignored with a short pause and notice instead of an immediate disconnect; persistent repetition can still disconnect.
+- Bankers sell a **Royal Armorer’s Charter** for **10,000 account gold**. With the charter, players can create a **Platemail Armor Kit Deed** (118 ingots) and a **Chainmail Armor Kit Deed** (100 ingots) with **75.0 Inscription**. Each deed releases seven pieces and preserves material and hue; an eligible failure consumes 10 ingots.
+- Item names and category labels in craft menus are now easier to read.
+- The **Fire Bow** now displays its correct color.
+- While the event is active, **Whispers** can also spread the rumor of **The Man in the Hedge**.
+- Incorrect deep cells in **Wrong** follow normal regional combat.
+- **Dispel Field** and **Mass Dispel** can be interrupted by damage while casting, like **Teleport**, **Recall**, and **Gate Travel**.
+- **Necromancy** scrolls have been removed from loot; **Magery** and other loot remain unchanged.
+- Carving eligible creatures adds 2 to 7 leather resources; **Forensic Evaluation** can raise the bonus up to double at 110.0. Ordinary blades produce **Hides**, while an equipped **Skinning Knife** or **Butcher’s War Cleaver** produces **Leather**; collection happens once per corpse and special carvings remain available.
+- Each **Leather Armor** piece now exactly matches the Armor Rating of the corresponding Chainmail or Ringmail piece in the same material. Mixing leather and metal no longer creates an advantage; Blacksmithy curves and **Arms Lore** for Exceptional pieces remain separate.
+- **Ringmail Chest** requires 20 ingots, **Ringmail Legs** requires 18, and a complete Ringmail kit, including gorget and coif, requires 82. Per-piece Armor Rating follows the Chainmail kit.
+- **Hides** weigh 1.0 and **Leather** weighs 0.5. Scissors convert 100 Hides into 100 Leather, reducing stack weight from 100 to 50; old stacks are normalized when loaded.
+- **Studded Leather Armor** is no longer craftable, listed in the Tailoring menu, or sold by NPCs. Existing pieces and buyback remain preserved.
+
+See [Arena](arena.md), [Character](personagem.md), [Armor](itens/armaduras.md), [Blacksmithy](craft/blacksmithy.md), [Tailoring](craft/tailoring.md), [PvM rewards](itens/recompensas-pvm.md), [Consumables](itens/consumiveis.md), [Whispers of Britannia](sistemas/whispers-britannia.md), [Rare spawns](sistemas/spawns-raros.md), and [Combat](combate/index.md).
+
 ## 0.42.0 · Amulets, PvM Progression, Houses, and Tools
 
 Published on September 2, 2026.

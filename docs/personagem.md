@@ -58,8 +58,8 @@ em War Mode interrompe um Tracking ativo e informa que a presa foi perdida.
 ## Movimento entre criaturas
 
 É possível empurrar animais, monstros, pets e NPC vendors que tenham pelo menos
-**10 de stamina**. O movimento consome **10 de stamina** da criatura. Essa
-exceção não altera a colisão entre jogadores.
+**10 de stamina**. O movimento consome **5 de stamina** da criatura. A colisão
+entre jogadores continua exigindo a stamina integral e consumindo **10**.
 
 ## Stats e buffs
 
@@ -92,5 +92,5 @@ de 1 e máximo de 25 passos. Caminhar, inclusive montado, consome esse limite;
 esgotá-lo revela o personagem e correr, inclusive montado, revela imediatamente.
 Usar armadura não bloqueia nem reduz a eficácia de Stealth.
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.43.0"
     Stats, skills, caps e raça correspondem ao servidor oficial.

@@ -35,6 +35,16 @@ Nesse carving, Forensics faz o teste normal e acrescenta
 do sistema. O contrato especial entrega somente Eyes of Newt, sem liberar o
 conjunto de recursos normais de carving.
 
+## Carving de couro no 0.43.0
+
+Criaturas elegíveis podem acrescentar **2–7 recursos de couro** ao cadáver.
+**Forensic Evaluation** aumenta esse bônus, podendo chegar ao dobro do resultado
+normal em **110.0**. Uma lâmina comum, como **Kryss**, produz **Hides**; com
+**Skinning Knife** ou **Butcher's War Cleaver** equipado, o resultado é
+**Leather** cortado. A coleta ocorre uma vez por cadáver, e carvings especiais,
+como **Eyes of Newt**, continuam preservados. A mensagem do carving informa o
+percentual do bônus e os recursos extras.
+
 ## Joias mágicas
 
 Earrings, bracelets e rings mágicos podem aumentar STR, DEX ou INT enquanto estiverem equipados. As joias usam a aparência clássica de seu tipo e possuem durabilidade.
@@ -76,5 +86,5 @@ normais de participação, proximidade e direito ao loot continuam valendo.
 
 Veja também [Maestria PvM](../sistemas/pvm-mastery.md) e [Threat Rating](../mundo/threat-rating.md).
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.43.0"
     Criaturas elegíveis recompensam o grupo conforme a escala do encontro.

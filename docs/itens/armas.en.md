@@ -69,6 +69,8 @@ Bowcraft now offers two weapons in the **DoB Weapons** category. The recipes use
 
 Fire Feathers from a Rare Phoenix work in the Fire Bow recipe. Weapons made through Bowcraft no longer receive combat bonuses derived from the selected wood; the resource still identifies the item, while Fire Bow and Elven Bow keep their intrinsic effects.
 
+In 0.43.0, the **Fire Bow** correctly displays the item's color.
+
 In 0.42.0 PvM, weapon attacks against creatures reach an **80%** base chance at
 100.0 effective skill and **88%** at 110.0. The Elven Bow is the explicit exception: its +10
 Archery can reach **96%** at 120.0 when combined with the matching amulet, and
@@ -83,5 +85,5 @@ Not every weapon present in the client circulates among players. The shard catal
 
 See [Melee and Archery](../combate/melee-archery.md) and [Poison](../combate/poison.md).
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.43.0"
     Choose weapons by their combat role, not by an isolated damage spreadsheet.

@@ -69,6 +69,8 @@ Bowcraft passa a oferecer duas armas na categoria **DoB Weapons**. As receitas u
 
 As Fire Feathers da Rare Phoenix funcionam na receita do Fire Bow. Armas produzidas pela Bowcraft deixam de receber bônus de combate derivados da madeira escolhida; o recurso continua identificando o item, enquanto os efeitos próprios de Fire Bow e Elven Bow permanecem.
 
+No 0.43.0, o **Fire Bow** exibe corretamente a cor do item.
+
 No PvM do 0.42.0, ataques com armas contra criaturas chegam a **80%** de
 chance-base em 100.0 de skill efetiva e a **88%** em 110.0. O Elven Bow é a
 exceção explícita:
@@ -85,5 +87,5 @@ Nem toda arma existente no cliente circula para jogadores. O catálogo do shard 
 
 Veja [Melee e Archery](../combate/melee-archery.md) e [Poison](../combate/poison.md).
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.43.0"
     Escolha armas pelo papel no combate, não por uma planilha isolada de dano.

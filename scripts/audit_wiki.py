@@ -62,8 +62,8 @@ REQUIRED_LIVE_CLAIMS = {
     "mundo/nujelm.md": ["Safe Haven oficial", "3767,1296,0", "Qualquer início de spellcasting", "Status: 0.40.0"],
     "primeiros-passos/newcomer.md": ["100% adicionais de experiência de Maestria PvM", "retorna automaticamente a Nujelm"],
     "comandos.md": ["## `.achievements`", "## `.options`"],
-    "itens/recompensas-pvm.md": ["Eyes of Newt", "100% adicionais de", "Status: 0.42.0"],
-    "itens/consumiveis.md": ["Dragon Blood Clothing Dye", "DoB Tools no 0.42.0", "Status: 0.42.0"],
+    "itens/recompensas-pvm.md": ["Eyes of Newt", "100% adicionais de", "Status: 0.43.0"],
+    "itens/consumiveis.md": ["Dragon Blood Clothing Dye", "DoB Tools no 0.42.0", "Status: 0.43.0"],
     "mundo/cidades-guards.md": ["X=1130..1261", "X=4399..4458", "Serpent's Hold", "Status: 0.40.0"],
 }
 

@@ -1,6 +1,6 @@
 # Craft
 
-O **0.42.0** organiza o craft em nove categorias. Esta seção reúne as
+O catálogo atual organiza o craft em nove categorias. Esta seção reúne as
 receitas de maior interesse para jogadores, os materiais exigidos, a faixa de
 skill e um controle para consultar a chance-base de sucesso.
 
@@ -44,7 +44,8 @@ extrapola a curva depois do corte.
 
 ## Peso dos recursos
 
-No servidor 0.42.0, cada unidade de **Ingots** e **Boards** pesa **0,5 stone**.
+No servidor 0.43.0, cada unidade de **Ingots** e **Boards** pesa **0,5 stone**;
+**Hides** pesam **1,0 stone** e **Leather** pesa **0,5 stone** por unidade.
 O material escolhido continua determinando a identidade e a cor dos itens nas
 receitas que aceitam variação de recurso.
 
