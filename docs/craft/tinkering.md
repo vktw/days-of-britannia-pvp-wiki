@@ -1,5 +1,19 @@
 # Tinkering
 
+## Atualização do 0.45.0
+
+A família **Enduring** aparece antes de Light no menu. É possível fabricar
+**Enduring Hatchet, Enduring Pickaxe** e **Enduring Shovel** com 100 Iron
+Ingots; as tentativas começam em 45.0 e chegam a 100% em 65.0. **Enduring
+Fishing Pole** continua disponível somente com Provisioners. Eles mantêm um piso
+de 320 ferramentas comuns e Enduring mesmo após vendas parciais, preservando
+preços e a escada de estoque.
+
+O simulador abaixo ainda representa o snapshot do menu 0.42.0 (270 receitas) e
+não inclui essas três receitas novas. As notas públicas informam os pontos de
+início e garantia acima, mas não a curva intermediária; consulte o gump oficial
+para tentar cada receita.
+
 ## Atualizações do 0.42.0
 
 As 26 receitas de **Classic Tools** exigem 10.0 de Tinkering, começam com 10%
@@ -7,7 +21,7 @@ de chance-base e chegam linearmente a 100% em 30.0. As curvas próprias de
 **DoB Tools** não mudam.
 
 <section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Tinkering" data-craft-sim-slider-max="105" aria-labelledby="dob-craft-tinkering-title">
-<div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Menu da skill</span><h3 id="dob-craft-tinkering-title">Tinkering</h3><p>Catálogo oficial ativo do servidor 0.42.0, reconciliado a partir do menu atual de craft. Os valores públicos do simulador param em 105.0.</p></div>
+<div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Menu da skill</span><h3 id="dob-craft-tinkering-title">Tinkering</h3><p>Snapshot do catálogo do servidor 0.42.0; as três receitas Enduring adicionadas no 0.45.0 estão descritas acima, mas não entram neste simulador. Os valores mostrados param em 105.0.</p></div>
 <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen><span class="dob-craft-simulator__screen-label">Menu principal</span><h4>Escolha uma categoria</h4><div class="dob-craft-simulator__menu">
 <button type="button" data-craft-sim-open-section="j-ias" data-craft-sim-section-title="Jóias"><span><strong>Jóias</strong><small>63 receitas</small></span><b>63 receitas&nbsp; →</b></button>
 <button type="button" data-craft-sim-open-section="madeira-e-cestaria" data-craft-sim-section-title="Madeira e cestaria"><span><strong>Madeira e cestaria</strong><small>20 receitas</small></span><b>20 receitas&nbsp; →</b></button>

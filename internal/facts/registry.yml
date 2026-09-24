@@ -1,9 +1,9 @@
 # High-risk gameplay fact inventory.
 # Live entries are approved by production presence; source refs are metadata only.
-# The 0.43.0 reconciliation below confirms the current release identity and the approved player-facing deltas.
+# The 0.45.1 reconciliation below confirms the current release identity and the approved player-facing deltas.
 # Other entries retain their last deep-verification release until that audit is run.
 schema_version: 1
-registry_version: "0.43.0"
+registry_version: "0.45.1"
 source_policy: "live-server-is-final"
 entries:
   - id: bowcraft-menu-0410
@@ -79,12 +79,12 @@ entries:
     owner: server-owner
     review_after: null
   - id: tailoring-menu-0410
-    claim: "Tailoring has 139 active visible recipes across the official clothing, leather, gargoyle, special, and DoB Cloth groups after recipe-gated entries are removed; Studded Leather Armor is no longer in the active menu. Normal recipes use the official 50% chance-base at the minimum skill; the three DoB Cloth robes use a 0% to 100% linear curve from 65.0 to 105.0; public skill curves stop at 105.0."
+    claim: "The simulator preserves the 139-recipe Tailoring snapshot from 0.43.0; Studded Leather Armor is no longer active. The Trailseeker Cloak requires 100.0 base Tracking to craft and wear, costs 100 Cloth and 20 Dragon Blood, starts at 80% craft chance, reaches 100% at 110.0, and adds 25 Tracking tiles and four targets. The thief-gray cloak requires 100.0 base Hiding, Stealth, Snooping, and Stealing to craft and wear; its concealment lasts up to one hour while worn and Forensic Evaluation reveals the wearer for ten minutes."
     status: live
     source_status: approved
-    live_version: "0.43.0"
-    verification_date: "2026-09-17"
-    approved_source: "live-server/v0.43.0"
+    live_version: "0.45.1"
+    verification_date: "2026-09-24"
+    approved_source: "live-server/v0.45.1"
     public_reference: "docs/craft/tailoring.md"
     canonical_pt: "docs/craft/tailoring.md"
     english_counterpart: "docs/craft/tailoring.en.md"
@@ -103,12 +103,12 @@ entries:
     owner: server-owner
     review_after: null
   - id: leather-carving-0430
-    claim: "Eligible creature carving adds 2 to 7 leather resources; Forensic Evaluation can raise the bonus up to double at 110.0, ordinary blades produce Hides, Skinning Knife or Butcher's War Cleaver produces Leather, collection occurs once per corpse, and special carvings remain available."
+    claim: "Eligible creature carving yields 3–5 base leather resources; Forensic Evaluation adds up to 50% at 110.0 rounded up. Ordinary blades produce Hides, Skinning Knife or Butcher's War Cleaver produces Leather, collection occurs once per corpse, and special carvings remain available."
     status: live
     source_status: approved
-    live_version: "0.43.0"
-    verification_date: "2026-09-17"
-    approved_source: "live-server/v0.43.0"
+    live_version: "0.45.1"
+    verification_date: "2026-09-24"
+    approved_source: "live-server/v0.45.1"
     public_reference: "docs/itens/recompensas-pvm.md"
     canonical_pt: "docs/itens/recompensas-pvm.md"
     english_counterpart: "docs/itens/recompensas-pvm.en.md"
@@ -187,36 +187,36 @@ entries:
     owner: server-owner
     review_after: null
   - id: tinkering-menu-0410
-    claim: "Tinkering has 270 active visible recipes: 100 direct entries, 54 jewelry entries, and 116 DoB Tools entries. The 26 Classic Tools recipes use the official 10.0-to-30.0 linear curve from 10% to 100%; Metal Chest uses 150 Ingots and Suit Of Gold/Silver Armor Deed use 200 Ingots, with the selected metal preserved in the result; public skill curves stop at 105.0 and official secondary-skill requirements are shown when present."
+    claim: "The simulator preserves the 270-recipe Tinkering snapshot from 0.42.0; the three craftable Enduring tools added in 0.45.0 are documented separately because their intermediate success curve is not published in the patch notes. Enduring tools use 100 Iron Ingots, attempts begin at 45.0 and success is guaranteed at 65.0; Enduring Fishing Pole remains Provisioner-only."
     status: live
     source_status: approved
-    live_version: "0.42.0"
-    verification_date: "2026-09-09"
-    approved_source: "live-server/v0.42.0"
+    live_version: "0.45.1"
+    verification_date: "2026-09-24"
+    approved_source: "live-server/v0.45.1"
     public_reference: "docs/craft/tinkering.md"
     canonical_pt: "docs/craft/tinkering.md"
     english_counterpart: "docs/craft/tinkering.en.md"
     owner: server-owner
     review_after: null
   - id: season-thorns-0410
-    claim: "September Overgrown event; 1 or 3 Hearts per normal or Ancient; edition-specific currency and seven-day natural-end redemption; 0.42.0 vendor prices and account limits verified, with wild Arctic Ogre Lords eligible to return as Overgrown."
+    claim: "September Overgrown event; 1 or 3 Hearts per normal or Ancient; edition-specific currency and seven-day natural-end redemption; 0.45.0 reward prices are Thornbound Willow 275, Briarheart Pigment 375, Briarstrider Statuette 475, and Thornwake 575, with one of each per account; wild Arctic Ogre Lords can return as Overgrown."
     status: live
     source_status: approved
-    live_version: "0.42.0"
-    verification_date: "2026-09-09"
-    approved_source: "live-server/v0.42.0"
+    live_version: "0.45.1"
+    verification_date: "2026-09-24"
+    approved_source: "live-server/v0.45.1"
     public_reference: "docs/sistemas/season-of-thorns.md"
     canonical_pt: "docs/sistemas/season-of-thorns.md"
     english_counterpart: "docs/sistemas/season-of-thorns.en.md"
     owner: server-owner
     review_after: null
   - id: rare-respawn-0410
-    claim: "Phoenix and Llama attempt hourly; Desert, Forest and Zostrich every 2, 3 and 5 hours; Nochyer and Odran respawn 3-6 days after death; Rare Britannia replaces on tame, death or 12-hour expiry."
+    claim: "Phoenix and Llama attempt hourly; Desert, Forest and Zostrich every 2, 3 and 5 hours; Nochyer, Odran, and The Man in the Hedge respawn 3–6 days after death; Modry and Seraphel appear at fixed Felucca points every 3–6 days; Rare Britannia replaces on tame, death, or 12-hour expiry."
     status: live
     source_status: approved
-    live_version: "0.41.0"
-    verification_date: "2026-09-06"
-    approved_source: "live-server/v0.41.0"
+    live_version: "0.45.1"
+    verification_date: "2026-09-24"
+    approved_source: "live-server/v0.45.1"
     public_reference: "docs/sistemas/spawns-raros.md"
     canonical_pt: "docs/sistemas/spawns-raros.md"
     english_counterpart: "docs/sistemas/spawns-raros.en.md"
@@ -247,24 +247,24 @@ entries:
     owner: server-owner
     review_after: null
   - id: tracking-0410
-    claim: "Effective Tracking reaches 43 tiles at 100.0 and 45 tiles at 105.0; filters and result limits remain unchanged, activations observe a four-second interval, and War Mode interrupts active Tracking."
+    claim: "Effective Tracking reaches 43 tiles at 100.0 and 45 tiles at 105.0; filters and result limits remain unchanged, activations observe a four-second interval, and War Mode interrupts active Tracking. The Trailseeker Cloak requires 100.0 base Tracking to craft and wear and adds 25 tiles and four targets."
     status: live
     source_status: approved
-    live_version: "0.42.0"
-    verification_date: "2026-09-09"
-    approved_source: "live-server/v0.42.0"
+    live_version: "0.45.1"
+    verification_date: "2026-09-24"
+    approved_source: "live-server/v0.45.1"
     public_reference: "docs/personagem.md"
     canonical_pt: "docs/personagem.md"
     english_counterpart: "docs/personagem.en.md"
     owner: server-owner
     review_after: null
   - id: resource-weight-0410
-    claim: "Ingots and Boards weigh 0.5 stone per unit; Hides weigh 1.0 and Leather weighs 0.5, with 100 Hides converting to 100 Leather by scissors and old stacks normalizing when loaded."
+    claim: "Ingots and Boards weigh 0.5 stone per unit; Hides weigh 1.0 and Leather weighs 0.5, with 100 Hides converting to 100 Leather by scissors and old stacks normalizing when loaded. Global special ore and wood replenishment scales by unique active IPs, retains accrued credit over restarts, and keeps its hourly delivery limit."
     status: live
     source_status: approved
-    live_version: "0.43.0"
-    verification_date: "2026-09-17"
-    approved_source: "live-server/v0.43.0"
+    live_version: "0.45.1"
+    verification_date: "2026-09-24"
+    approved_source: "live-server/v0.45.1"
     public_reference: "docs/craft/index.md"
     canonical_pt: "docs/craft/index.md"
     english_counterpart: "docs/craft/index.en.md"
@@ -283,28 +283,100 @@ entries:
     owner: server-owner
     review_after: null
   - id: live-version
-    claim: "The public manual identifies the current production ruleset as 0.43.0."
+    claim: "The public manual identifies the current production ruleset as 0.45.1."
     status: live
     source_status: approved
-    live_version: "0.43.0"
-    verification_date: "2026-09-17"
-    approved_source: "live-server/v0.43.0"
+    live_version: "0.45.1"
+    verification_date: "2026-09-24"
+    approved_source: "live-server/v0.45.1"
     public_reference: "docs/patches.md"
     canonical_pt: "docs/patches.md"
     english_counterpart: "docs/patches.en.md"
     owner: server-owner
     review_after: null
   - id: pvm-mastery-levels-0350
-    claim: "PvM Masteries progress through level 20 with diminishing returns after level 10, and a character can hold up to 95 points for five active Masteries; all 32 operational Masteries start 5.00 percentage points higher at level 1 in 0.42.0."
+    claim: "PvM Masteries progress through level 20 with diminishing returns after level 10, and a character can hold up to 95 points for five active Masteries; in 0.45.0 Hit Paralyze Chance applies to normal, Elite, and Boss creatures for the native 5 seconds, Hit Effect Area starts at 15%, and three synergy values were adjusted but not numerically published."
     status: live
     source_status: approved
-    live_version: "0.42.0"
-    verification_date: "2026-09-09"
-    approved_source: "live-server/v0.42.0"
+    live_version: "0.45.1"
+    verification_date: "2026-09-24"
+    approved_source: "live-server/v0.45.1"
     public_reference: "docs/sistemas/pvm-mastery.md"
     canonical_pt: "docs/sistemas/pvm-mastery.md"
     english_counterpart: "docs/sistemas/pvm-mastery.en.md"
     owner: server-owner
+    review_after: null
+  - id: pvp-snooping-stealing-0440
+    claim: "Snooping has a four-second interval and can open starter-bound containers without enabling use, movement, trade, or theft; victims have pair-specific direct retaliation for two minutes. PvP Stealing informs the victim by name, allows pair-specific retaliation for two minutes after failure or 20 minutes after success, returns surviving stolen stackables if the thief dies in the successful-theft window, and turns the thief gray after five successful thefts with decay of one count per 40 active hours."
+    status: live
+    source_status: approved
+    live_version: "0.45.1"
+    verification_date: "2026-09-24"
+    approved_source: "live-server/v0.45.1"
+    public_reference: "docs/combate/index.md"
+    canonical_pt: "docs/combate/index.md"
+    english_counterpart: "docs/combate/index.en.md"
+    owner: pvp-maintainer
+    review_after: null
+  - id: deadly-poison-alchemy-0450
+    claim: "Deadly Poison Potion requires at least 90.0 Alchemy and has 75% success chance at 100.0 and 100% at 110.0 effective skill; Taste Identification can preserve reagents at 50% at 100.0 and 75% at 110.0, while its tool remains consumed and salvaged reagents grant no skill gain."
+    status: live
+    source_status: approved
+    live_version: "0.45.1"
+    verification_date: "2026-09-24"
+    approved_source: "live-server/v0.45.1"
+    public_reference: "docs/craft/alchemy.md"
+    canonical_pt: "docs/craft/alchemy.md"
+    english_counterpart: "docs/craft/alchemy.en.md"
+    owner: server-owner
+    review_after: null
+  - id: repair-kits-0450
+    claim: "Provisioners sell 100-charge repair kits for 1,000 gold and 500-charge kits for 5,000 gold; repair applies to equipped items, backpack items, or all, never fails, and consumes charges only for durability points actually restored, including when maximum durability decreases."
+    status: live
+    source_status: approved
+    live_version: "0.45.1"
+    verification_date: "2026-09-24"
+    approved_source: "live-server/v0.45.1"
+    public_reference: "docs/itens/consumiveis.md"
+    canonical_pt: "docs/itens/consumiveis.md"
+    english_counterpart: "docs/itens/consumiveis.en.md"
+    owner: items-maintainer
+    review_after: null
+  - id: rare-bosses-0440-0450
+    claim: "Modry appears at a fixed Felucca point every 3–6 days with Pestilence, Cure Potion-only removal, five-second life drain, Purification vulnerability, three-second Paralyze cap, and 60-second teleport. Seraphel appears at a fixed Felucca point every 3–6 days; its hits can summon 1-HP Paralyze fairies, Curse doubles damage for 15 seconds, and encounter rewards and immunity windows follow the production notes."
+    status: live
+    source_status: approved
+    live_version: "0.45.1"
+    verification_date: "2026-09-24"
+    approved_source: "live-server/v0.45.1"
+    public_reference: "docs/sistemas/spawns-raros.md"
+    canonical_pt: "docs/sistemas/spawns-raros.md"
+    english_counterpart: "docs/sistemas/spawns-raros.en.md"
+    owner: world-maintainer
+    review_after: null
+  - id: legendary-loot-tier-0450
+    claim: "Legendary-or-higher creatures can drop weapons and armor one tier above; loot shields and helms use permitted craftable appearances without changing Armor Rating, and Chain Coif retains its own appearance."
+    status: live
+    source_status: approved
+    live_version: "0.45.1"
+    verification_date: "2026-09-24"
+    approved_source: "live-server/v0.45.1"
+    public_reference: "docs/itens/recompensas-pvm.md"
+    canonical_pt: "docs/itens/recompensas-pvm.md"
+    english_counterpart: "docs/itens/recompensas-pvm.en.md"
+    owner: pvm-maintainer
+    review_after: null
+  - id: character-name-uniqueness-0440
+    claim: "Character names are unique except Generic Player, which may repeat; duplicates that existed before the rule remain preserved."
+    status: live
+    source_status: approved
+    live_version: "0.45.1"
+    verification_date: "2026-09-24"
+    approved_source: "live-server/v0.45.1"
+    public_reference: "docs/personagem.md"
+    canonical_pt: "docs/personagem.md"
+    english_counterpart: "docs/personagem.en.md"
+    owner: gameplay-maintainer
     review_after: null
   - id: tomes-of-expertise-0360
     claim: "Eligible non-animal PvM creatures have a 7.5% chance to drop a Tome of Expertise that grants permanent skill progress; Craft and Harvesting tomes grant at most 1.0, and 0.42.0 rolls exclude the eight skills that start at 100.0."
@@ -931,12 +1003,12 @@ entries:
     owner: items-maintainer
     review_after: null
   - id: dragon-blood-dye-0240-live
-    claim: "Moonglow and Serpent's Hold offer the Dragon Blood Clothing Dye service using 150 compatible ingots and ten Dragon Bloods for a single charge with a dynamic gold floor; eligible true-dragon carving supplies one base Dragon Blood and a possible Forensics extra."
+    claim: "Drakara in Nujelm Safe Haven is the sole Dragon Blood Clothing Dye service point; each dye uses 150 compatible ingots and ten Dragon Bloods for one charge with the existing dynamic gold floor. Eligible true-dragon carving supplies one base Dragon Blood and a possible Forensics extra."
     status: live
     source_status: approved
-    live_version: "0.34.0"
-    verification_date: "2026-08-21"
-    approved_source: "live-server/v0.34.0"
+    live_version: "0.45.1"
+    verification_date: "2026-09-24"
+    approved_source: "live-server/v0.45.1"
     public_reference: "docs/itens/consumiveis.md"
     canonical_pt: "docs/itens/consumiveis.md"
     english_counterpart: "docs/itens/consumiveis.en.md"
@@ -1027,12 +1099,12 @@ entries:
     owner: items-maintainer
     review_after: null
   - id: private-house-visibility-0420
-    claim: "Private-house content can display placed objects without granting outside interaction; special containers, maps, and other non-structural items remain protected."
+    claim: "Private-house content can display placed objects without granting outside interaction; special containers, maps, and other non-structural items remain protected. Co-owners can open/release owner-secured chests except Owner-security chests and use the listed house controls; transfer, demolition, model, vendor, co-owner-list, and Owner-chest access remain owner-only."
     status: live
     source_status: approved
-    live_version: "0.42.0"
-    verification_date: "2026-09-09"
-    approved_source: "live-server/v0.42.0"
+    live_version: "0.45.1"
+    verification_date: "2026-09-24"
+    approved_source: "live-server/v0.45.1"
     public_reference: "docs/sistemas/casas.md"
     canonical_pt: "docs/sistemas/casas.md"
     english_counterpart: "docs/sistemas/casas.en.md"

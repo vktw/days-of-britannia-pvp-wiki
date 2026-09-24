@@ -4,6 +4,10 @@
 
 Todo novo personagem humano começa com **100 STR, 100 DEX e 100 INT**, Spellbook completo, Runebook, um cavalo shrinkado, 15 Heal Potions normais e um **Starter PvP Iron kit** comum e lootável. O kit não contém joias nem bag de potions. Os livros, o cavalo e os **10.000 gold** iniciais permanecem vinculados ao personagem; o gold é concedido somente ao primeiro personagem elegível por IP.
 
+Nomes de personagens são únicos; **Generic Player** é a única exceção e pode
+ser usado por mais de um personagem. Duplicatas que já existiam antes da regra
+continuam preservadas.
+
 O Starter kit e as Heal Potions são itens comuns e podem ser perdidos no loot.
 O starter gold pode pagar compras de NPC, não vira gold da conta e não financia
 Player Vendors.
@@ -55,6 +59,10 @@ resultados permanecem os mesmos.
 As ativações de Tracking respeitam um intervalo de **quatro segundos**. Entrar
 em War Mode interrompe um Tracking ativo e informa que a presa foi perdida.
 
+O **Trailseeker Cloak** de DoB Cloth concede **+25 tiles e +4 alvos** ao
+Tracking. É necessário ter **100.0 de Tracking base** para criar e vestir a
+peça; veja os custos e demais requisitos em [Tailoring](craft/tailoring.md).
+
 ## Movimento entre criaturas
 
 É possível empurrar animais, monstros, pets e NPC vendors que tenham pelo menos
@@ -92,5 +100,5 @@ de 1 e máximo de 25 passos. Caminhar, inclusive montado, consome esse limite;
 esgotá-lo revela o personagem e correr, inclusive montado, revela imediatamente.
 Usar armadura não bloqueia nem reduz a eficácia de Stealth.
 
-!!! success "Status: 0.43.0"
+!!! success "Status: 0.45.0"
     Stats, skills, caps e raça correspondem ao servidor oficial.

@@ -16,8 +16,8 @@ hide:
 
 <section class="dob-game-status" aria-label="Status do servidor">
   <span><i aria-hidden="true"></i><strong>Servidor online</strong><small>Britannia está ativa</small></span>
-  <span><strong>0.43.0</strong><small>Versão atual</small></span>
-  <a href="patches/"><strong>Temporizadores da Arena, couro e armaduras</strong><small>Última atualização</small></a>
+  <span><strong>0.45.1</strong><small>Versão atual</small></span>
+  <a href="patches/"><strong>Coleta e reparos</strong><small>Última atualização</small></a>
   <a href="https://economy.dobshard.com/"><strong>Economia</strong><small>Mercado do shard</small></a>
 </section>
 
@@ -127,17 +127,17 @@ hide:
 <section class="dob-atlas-content" aria-label="Conteúdo principal">
   <article class="dob-atlas-feature">
     <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
-    <h2>0.43.0 · Temporizadores da Arena, couro e armaduras</h2>
-    <p class="dob-atlas-feature__date"><time datetime="2026-09-10">10 de setembro de 2026</time></p>
-    <p>A Arena ganha novas janelas de tempo, o carving passa a render couro e as armaduras recebem ajustes de equilíbrio.</p>
+    <h2>0.45.1 · Coleta e reparos</h2>
+    <p class="dob-atlas-feature__date"><time datetime="2026-09-23">23 de setembro de 2026</time></p>
+    <p>A reposição de recursos especiais acompanha a população conectada, e os kits de reparo consomem cargas somente pela durabilidade restaurada.</p>
     <a href="patches/">LER PATCH NOTES <span aria-hidden="true">→</span></a>
   </article>
 
 <div class="dob-atlas-index">
 <p class="dob-atlas-kicker">ÚLTIMOS ARTIGOS ATUALIZADOS</p>
-<a href="arena/"><span class="dob-atlas-index__code">10 SET</span><span><strong>Arena e PvP</strong><small>Novos temporizadores de desafio e preparação</small></span><i aria-hidden="true">→</i></a>
-<a href="itens/armaduras/"><span class="dob-atlas-index__code">10 SET</span><span><strong>Armaduras clássicas</strong><small>Kit deeds, Leather Armor e Ringmail</small></span><i aria-hidden="true">→</i></a>
-<a href="craft/tailoring/"><span class="dob-atlas-index__code">10 SET</span><span><strong>Tailoring</strong><small>Studded Leather Armor sai do menu ativo</small></span><i aria-hidden="true">→</i></a>
-<a href="itens/recompensas-pvm/"><span class="dob-atlas-index__code">10 SET</span><span><strong>Recompensas PvM</strong><small>Carving de couro e bônus de Forensic Evaluation</small></span><i aria-hidden="true">→</i></a>
+<a href="itens/consumiveis/"><span class="dob-atlas-index__code">23 SET</span><span><strong>Consumíveis e ferramentas</strong><small>Kits de reparo e novas regras de cobrança</small></span><i aria-hidden="true">→</i></a>
+<a href="craft/"><span class="dob-atlas-index__code">23 SET</span><span><strong>Craft e recursos</strong><small>Reposição global de minérios e madeiras especiais</small></span><i aria-hidden="true">→</i></a>
+<a href="sistemas/spawns-raros/"><span class="dob-atlas-index__code">19 SET</span><span><strong>Spawns raros</strong><small>Modry, Seraphel e seus novos encontros</small></span><i aria-hidden="true">→</i></a>
+<a href="sistemas/casas/"><span class="dob-atlas-index__code">19 SET</span><span><strong>Casas</strong><small>Permissões atualizadas para co-owners</small></span><i aria-hidden="true">→</i></a>
 </div>
 </section>

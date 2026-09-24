@@ -37,7 +37,7 @@ REQUIRED_HEADINGS = {
     "combate/exemplos-dano.md": ["# Exemplos de dano", "## Conteúdo consolidado"],
     "combate/poison.md": ["# Poison", "## Conteúdo consolidado"],
     "combate/invisibilidade.md": ["# Invisibilidade e Detect Hidden", "## Conteúdo consolidado"],
-    "patches.md": ["# Patch notes", "## 0.23.0", "## 0.22.1", "## 0.22.0", "## 0.21.1", "## 0.21.0", "## 0.20.0", "## 0.19.0", "## 0.18.4", "## 0.18.3", "## 0.18.1", "## 0.18.0", "## 0.17.2", "## 0.17.0", "## 0.16.0", "## 0.15.0", "## 0.14.1", "## 0.14.0", "## 0.13.1", "## 0.13.0", "## 0.12.0", "## 0.11.5", "## 0.11.4", "## 0.11.3", "## 0.11.1", "## 0.11.0", "## 0.10.3", "## 0.10.2", "## 0.10.1", "## 0.10.0", "## 0.9.12", "## 0.9.8", "## 0.9.6", "## 0.9.2", "## 0.7.0", "## 0.1.0"],
+    "patches.md": ["# Patch notes", "## 0.45.1 · Coleta e reparos", "## 0.45.0 · Casas, crafting e exploração", "## 0.44.0 · Modry, ofícios e PvP", "## 0.23.0", "## 0.22.1", "## 0.22.0", "## 0.21.1", "## 0.21.0", "## 0.20.0", "## 0.19.0", "## 0.18.4", "## 0.18.3", "## 0.18.1", "## 0.18.0", "## 0.17.2", "## 0.17.0", "## 0.16.0", "## 0.15.0", "## 0.14.1", "## 0.14.0", "## 0.13.1", "## 0.13.0", "## 0.12.0", "## 0.11.5", "## 0.11.4", "## 0.11.3", "## 0.11.1", "## 0.11.0", "## 0.10.3", "## 0.10.2", "## 0.10.1", "## 0.10.0", "## 0.9.12", "## 0.9.8", "## 0.9.6", "## 0.9.2", "## 0.7.0", "## 0.1.0"],
     "proximo-patch.md": ["# Próximo Patch Planejado"],
     "sistemas-desativados.md": ["# Sistemas desativados"],
     "mundo/threat-rating.md": ["# Threat Rating", "## Exemplos da escala"],
@@ -57,13 +57,13 @@ REQUIRED_LIVE_CLAIMS = {
     "itens/armas.md": ["não determinam a compatibilidade da arma com poison"],
     "mundo/threat-rating.md": ["Neira | Legendary", "Harrower | Mythic"],
     "mundo/threat-inventory.md": ["classificação visível no jogo"],
-    "sistemas/pvm-mastery.md": ["Status: 0.42.0", "até cinco Maestrias ativas", "Summoner's Bond"],
+    "sistemas/pvm-mastery.md": ["Status: 0.45.0", "até cinco Maestrias ativas", "Summoner's Bond"],
     "sistemas/achievements.md": ["`.achievements`", "100 XP de Maestria PvM", "Status: 0.42.0"],
     "mundo/nujelm.md": ["Safe Haven oficial", "3767,1296,0", "Qualquer início de spellcasting", "Status: 0.40.0"],
     "primeiros-passos/newcomer.md": ["100% adicionais de experiência de Maestria PvM", "retorna automaticamente a Nujelm"],
     "comandos.md": ["## `.achievements`", "## `.options`"],
     "itens/recompensas-pvm.md": ["Eyes of Newt", "100% adicionais de", "Status: 0.43.0"],
-    "itens/consumiveis.md": ["Dragon Blood Clothing Dye", "DoB Tools no 0.42.0", "Status: 0.43.0"],
+    "itens/consumiveis.md": ["Dragon Blood Clothing Dye", "DoB Tools no 0.42.0", "Status: 0.45.1"],
     "mundo/cidades-guards.md": ["X=1130..1261", "X=4399..4458", "Serpent's Hold", "Status: 0.40.0"],
 }
 
@@ -76,6 +76,8 @@ FORBIDDEN_LIVE_CLAIMS = {
     "sistemas/pvm-mastery.md": ["floor(MaxHits", "Cada 8.000 MaxHits", "log persistente"],
     "proximo-patch.md": ["floor(MaxHits", "chance residual exata"],
 }
+
+SUPPORTED_BRACKET_COMMANDS = {"`[rareevents`"}
 
 
 def anchors(text):
@@ -137,9 +139,10 @@ def main():
     for page in DOCS.rglob("*.md"):
         text = page.read_text(encoding="utf-8-sig")
         for command in compatibility_command_pattern.findall(text):
-            errors.append(
-                f"compatibility command exposed: {page.relative_to(DOCS)}: {command}"
-            )
+            if command not in SUPPORTED_BRACKET_COMMANDS:
+                errors.append(
+                    f"compatibility command exposed: {page.relative_to(DOCS)}: {command}"
+                )
         for target in link_pattern.findall(text):
             if target.startswith(("http://", "https://", "mailto:")):
                 continue

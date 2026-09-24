@@ -35,15 +35,22 @@ Nesse carving, Forensics faz o teste normal e acrescenta
 do sistema. O contrato especial entrega somente Eyes of Newt, sem liberar o
 conjunto de recursos normais de carving.
 
-## Carving de couro no 0.43.0
+## Carving de couro no 0.44.0
 
-Criaturas elegíveis podem acrescentar **2–7 recursos de couro** ao cadáver.
-**Forensic Evaluation** aumenta esse bônus, podendo chegar ao dobro do resultado
-normal em **110.0**. Uma lâmina comum, como **Kryss**, produz **Hides**; com
+Criaturas elegíveis podem acrescentar **3–5 recursos de couro** ao cadáver.
+**Forensic Evaluation** aumenta esse resultado em até **50% em 110.0**, com o
+valor extra arredondado para cima. Uma lâmina comum, como **Kryss**, produz **Hides**; com
 **Skinning Knife** ou **Butcher's War Cleaver** equipado, o resultado é
 **Leather** cortado. A coleta ocorre uma vez por cadáver, e carvings especiais,
 como **Eyes of Newt**, continuam preservados. A mensagem do carving informa o
 percentual do bônus e os recursos extras.
+
+## Loot Legendary ou superior no 0.45.0
+
+Criaturas com qualidade **Legendary** ou superior podem deixar armas e armaduras
+um tier acima: armas de Ruin a Vanquishing e armaduras de Defense a
+Invulnerability. Shields e helms usam aparências permitidas de peças craftáveis,
+sem alterar o Armor Rating. A **Chain Coif** mantém sua aparência própria.
 
 ## Joias mágicas
 

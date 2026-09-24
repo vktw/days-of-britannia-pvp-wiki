@@ -44,9 +44,9 @@ compartilhados entre os personagens e reiniciam por edição.
 | Yucca Tree | 100 | Sem limite específico |
 | Bamboo | 135 | Sem limite específico |
 | Thornbound Willow | 275 | 1 |
-| Briarheart Pigment | 450 | 1 |
-| Briarstrider Statuette | 725 | 1 |
-| Thornwake | 1000 | 1 |
+| Briarheart Pigment | 375 | 1 |
+| Briarstrider Statuette | 475 | 1 |
+| Thornwake | 575 | 1 |
 
 Briarheart Pigment é a tintura sazonal, Briarstrider é a montaria da edição e
 Thornwake é a arma de recompensa. O limite controla o resgate; os prêmios
@@ -57,5 +57,5 @@ continuam negociáveis e looteáveis.
 Consulte [Caça PvM](caca-pvm.md), [Maestria PvM](pvm-mastery.md) e
 [Spawns raros](spawns-raros.md) para outros objetivos de exploração.
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.45.0"
     Evento sazonal recorrente de setembro. A disponibilidade acompanha o calendário da edição.

@@ -2,6 +2,54 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.45.1 · Gathering and repairs
+
+Published on September 23, 2026.
+
+- Global special ore and wood replenishment now considers unique IPs among connected players when checking population in the status panel. Accumulated credit survives restarts; the hourly delivery limit is unchanged.
+- Repair Kits now spend charges only on durability points actually restored, including when a repair lowers maximum durability.
+
+See [Craft](craft/index.md) and [Consumables](itens/consumiveis.md).
+
+## 0.45.0 · Houses, crafting, and exploration
+
+Published on September 19, 2026.
+
+- Co-owners can open and release chests locked down or secured by the owner, except those protected by **Owner** security, which remain owner-only. They can also use Moving Crates, toggle teleporters and public/private status, customize or convert the house, change its sign, and use addons and decorations. Transfers, demolitions, model changes, vendors, the co-owner list, and **Owner** chests remain owner-only.
+- **Deadly Poison Potion** requires at least 90.0 Alchemy and reaches a 75% success chance at 100.0 and 100% at 110.0 effective skill. Other potions are unchanged.
+- A failed potion craft may preserve reagents: **Taste Identification** provides a 50% chance at 100.0 and 75% at 110.0. The tool is still consumed, and preserved reagents do not grant skill gain.
+- **Vile Treefellows** and **Shadow Wisps** turn red and attack players on sight like centaurs; centaurs now shoot arrows.
+- **Seraphel** appears at a fixed Felucca location every 3–6 days. This red-named Elite mage is listed in `[rareevents` and Whispers. Its hits have a 25% chance to summon a 1-HP hollow fairy that only casts Paralyze, grants no XP or loot, and disappears with Seraphel. **Curse** doubles damage to Seraphel for 15 seconds and silences the fairies; both then become immune for 60 seconds. Victory may grant its own dye, **Heart of Fallen Light**, Tomes, a Scroll of Knowledge, and an extra loot roll; Heater Shields of Invulnerability appear as **Dawnward of the Hollow Choir**. The collectible book gains its lore text only after discovery.
+- Creatures of **Legendary** quality or higher can drop weapons and armor one tier above, from Ruin through Vanquishing and Defense through Invulnerability. Loot shields and helms use permitted craftable appearances without changing Armor Rating; **Chain Coif** keeps its own appearance.
+- Global hourly special ore and wood replenishment is multiplied by unique active IPs; the stock cap follows population.
+- Tinkering adds the **Enduring** family before Light: Enduring Hatchet, Pickaxe, and Shovel cost 100 Iron Ingots, can be attempted at 45.0, and reach 100% at 65.0. Enduring Fishing Poles remain Provisioner-only. Provisioners maintain minimum stock of 320 ordinary and Enduring tools even after partial sales; native prices and stock ladder remain.
+- Season of Thorns account prices change to **Briarheart Pigment: 375**, **Briarstrider Statuette: 475**, and **Thornwake: 575 Hearts**. Thornbound Willow remains 275, and the one-per-account limits remain.
+- **Fairy Dragons** no longer drop Fairy Dragon Wings or Draconic Orbs; valid existing items remain.
+- The **Trailseeker Cloak**, made from DoB Cloth, costs 100 Cloth and 20 Dragon Blood. It requires 100 base Tracking to craft and wear, starts at an 80% success chance, and reaches 100% at 110.0; it grants +25 tiles and +4 targets to Tracking, and its tooltip reports the bonus.
+- In PvM, **Hit Paralyze Chance** now also paralyzes normal, Elite, and Boss creatures for the native 5 seconds. **Hit Effect Area** now starts at 15%; **Relentless Focus**, **Focused Hunter**, and **Versatile Hunter** synergies were adjusted.
+- Provisioners sell small Repair Kits for 1,000 gold/100 charges and large kits for 5,000 gold/500 charges. The interface shows durability for equipped items and backpack items; players can repair equipped items, backpack items, or everything. Repairs never fail, each restored point uses one charge, and an empty kit disappears.
+- While the event is active, Town Criers can also share rumors about Seraphel.
+
+See [Houses](sistemas/casas.md), [Alchemy](craft/alchemy.md), [Rare spawns](sistemas/spawns-raros.md), [Craft](craft/index.md), [Tinkering](craft/tinkering.md), [Season of Thorns](sistemas/season-of-thorns.md), [Tailoring](craft/tailoring.md), [PvM Mastery](sistemas/pvm-mastery.md), [Consumables](itens/consumiveis.md), [Whispers of Britannia](sistemas/whispers-britannia.md), and [PvM rewards](itens/recompensas-pvm.md).
+
+## 0.44.0 · Modry, professions, and PvP
+
+Published on September 15, 2026.
+
+- **Modry, the Plaguebearer** appears at a fixed Felucca location every 3–6 days. Pestilence contaminates players, pets, and summons; only a Cure Potion removes it. After 5 seconds, the infection drains life to Modry. Casting Cure or Arch Cure on Modry activates Purification: he takes double damage for 60 seconds and is immune to new activations for another 60. Paralyze lasts at most 3 seconds, and Modry teleports near a random player every 60 seconds. Victory may grant its own dye, **The Pestilent Heart**, three Tomes, a Scroll of Knowledge, and extra loot; generated Vanquishing Cutlasses appear as **Pestilent Edge**. The collectible book has a 10% chance to drop and follows the language selected in `.options`.
+- Leather carving now yields **3–5 base resources**; Forensic Evaluation adds up to 50% at 110.0, rounded up. Other carving rules are unchanged.
+- Dragon Blood Dye vendor **Drakara** moves from Moonglow to **Nujelm Safe Haven**. Service and prices are unchanged; Vorga no longer serves players, and Drakara becomes the sole service point.
+- Fishing Poles can no longer catch Sea Serpents or Deep Sea Serpents.
+- When detected by Snooping, a victim can retaliate directly against the snooper for 2 minutes without becoming criminal or triggering guards. This right applies only to that pair and is not saved on logout.
+- Snooping can inspect and open starter-bound containers, including those containing other bound items. Using, moving, trading, or stealing those items remains blocked.
+- In PvP Stealing, the victim is told the thief's name and can retaliate for 2 minutes after a failed attempt or 20 minutes after a successful theft, without criminal/guard consequences and only against that thief. If the thief dies within the 20 minutes after a successful theft, stolen stackables return to their owner in the exact remaining amount; consumed items and containers do not return.
+- Snooping attempts have a 4-second interval. A blocked attempt reports the remaining time and reveals no contents.
+- Character names are now unique except **Generic Player**, which can repeat. Existing duplicates are preserved.
+- After 5 successful PvP thefts, a character turns gray and can be attacked by any player without being considered criminal. Guards do not intervene, and banks, vendors, and moongates keep working. The count decreases by 1 every 40 active hours; murderer status takes precedence. Say `*i must consider my sins*` to check the count.
+- The **DoB Cloth thief-gray cloak** hides a gray status from viewers who have not revealed the wearer for up to 1 hour while worn. Crafting and wearing it require 100 base Hiding, Stealth, Snooping, and Stealing. Forensic Evaluation reveals the wearer for 10 minutes.
+
+See [Rare spawns](sistemas/spawns-raros.md), [PvM rewards](itens/recompensas-pvm.md), [Consumables](itens/consumiveis.md), [Whispers of Britannia](sistemas/whispers-britannia.md), [Character](personagem.md), [Combat](combate/index.md), and [Tailoring](craft/tailoring.md).
+
 ## 0.43.0 · Arena timers, leather, and armor
 
 Published on September 10, 2026.

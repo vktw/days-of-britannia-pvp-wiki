@@ -9,7 +9,7 @@ extended with custom PvP and PvM rules for the shard's direction.
 - [PvM Mastery](pvm-mastery.md)
 - [PvM hunting](caca-pvm.md): contracts with randomized objectives and a wooden-crate reward.
 - [Pets and mounts](pets-montarias.md): Shrink Potion, rare mounts, and pet release.
-- [Houses](casas.md): private-house protection and same-floor interactions.
+- [Houses](casas.md): private-house protection, same-floor interactions, and co-owner permissions.
 - [PvM rewards](../itens/recompensas-pvm.md): Loot Packs, jewelry, and PvM-linked amulets.
 
 - [Season of Thorns](season-of-thorns.md): September event, Overgrown creatures, and seasonal rewards.
@@ -18,7 +18,7 @@ extended with custom PvP and PvM rules for the shard's direction.
 
 - [Nujelm Safe Haven](../mundo/nujelm.md): protection and safe returns in Felucca.
 - [Threat Rating](../mundo/threat-rating.md): scale, interpretation, and in-game lookup.
-- [Rare spawns](spawns-raros.md): Phoenix, Rare Events, and rare mounts.
+- [Rare spawns](spawns-raros.md): Phoenix, Modry, Seraphel, Rare Events, and rare mounts.
 - [Whispers of Britannia](whispers-britannia.md): public rumors and Town Crier leads.
 
 These pages explain only what is available to players and how it affects the experience.
@@ -49,5 +49,5 @@ but remain usable normally in PvM.
 - [Player Vendors](player-vendors.md): Nujelm's protected public market.
 - [Royal Banking Charter](royal-banking-charter.md): permanent character bank expansion.
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.45.0"
     The availability below corresponds to the official ruleset.

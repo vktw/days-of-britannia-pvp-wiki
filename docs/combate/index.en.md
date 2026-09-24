@@ -132,6 +132,32 @@ hits or change magical damage, poison, or other ruleset formulas.
 Defense is not only waiting for hits to rise: it buys the time needed to
 reposition, recover mana, or prepare the next response.
 
-!!! success "Status: 0.43.0"
+## Snooping and Stealing in PvP
+
+Snooping has a **4-second** interval. If an attempt is blocked by cooldown, you
+are told how long remains and see no contents. You can inspect and open
+starter-bound containers, including those holding other bound items; using,
+moving, trading, or stealing those items remains blocked.
+
+A Snooping victim can retaliate directly against the snooper for **2 minutes**,
+without criminal status or guard intervention. This right applies only between
+that pair and does not persist after logout.
+
+For PvP Stealing, the victim is told the thief's name and can retaliate
+directly: for **2 minutes** after a failed attempt or **20 minutes** after a
+successful theft. This retaliation also causes no criminal status or guard
+intervention and applies only between that victim and thief. If the thief dies
+during the **20 minutes after a successful theft**, stolen stackables return to
+their owner in the exact remaining amount; consumed items and containers do
+not return.
+
+After **5 successful PvP thefts**, the character turns gray and can be attacked
+by any player without being considered criminal. Guards do not interfere, and
+banks, vendors, and moongates keep working. The count decreases by **1 every 40
+active hours**; murderer status takes precedence. Say `*i must consider my sins*`
+to check the count. The [DoB Cloth thief-gray cloak](../craft/tailoring.md) can
+hide the gray status from viewers who have not revealed the wearer.
+
+!!! success "Status: 0.45.0"
     This page summarizes the active ruleset on the official server. Gameplay
     values were checked against the official server source.

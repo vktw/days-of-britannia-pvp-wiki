@@ -25,7 +25,10 @@ manter **até cinco Maestrias ativas**, o suficiente para maximizar cinco delas.
 
 No Live 0.42.0, as **32 Maestrias operacionais** partem da base indicada na
 coluna Nv 1 do catálogo; o ajuste do 0.42.0 somou **+5,00 pontos percentuais**
-a essa base. A partir dela, a curva de cada Maestria funciona assim:
+a essa base. Em 0.45.0, Hit Effect Area e três sinergias receberam ajustes;
+quando as notas públicas não informam seus valores numéricos atuais, a tabela
+marca esses campos com `—*` em vez de manter números antigos. Consulte o
+Compendium para os níveis atuais.
 
 - do nível 1 ao 10, a progressão é linear — a diferença entre as colunas Nv 1 e Nv 10 equivale a nove passos iguais;
 - do nível 11 ao 20, os ganhos por nível continuam com retornos decrescentes;
@@ -78,7 +81,7 @@ O scroll usa o tempo normal de permanência do loot no corpo. Não é necessári
 
 ## Catálogo completo das 32 Maestrias
 
-Valores de efeito no Live 0.42.0. As colunas Nv 1, Nv 10 e Nv 20 resumem a
+Valores numéricos-base do Live 0.42.0. As colunas Nv 1, Nv 10 e Nv 20 resumem a
 curva do nível 1 ao 20: entre 1 e 10 o avanço é linear e de 11 a 20 há
 retornos decrescentes. Consulte o Compendium para o valor exato de cada nível
 intermediário. As cinco Maestrias de recursos entraram no Live 0.15.0, as
@@ -110,7 +113,7 @@ quatro melee entraram no 0.34.0 e o Chamado Inquebrável entrou no 0.40.0.
 | **Physical Damage Resistance** | Elemental | Basic | 8,00% | 10,25% | 12,16% | Reduz o dano físico PvM recebido. |
 | **Magic Damage Resistance** | Abyssal | Basic | 8,00% | 10,25% | 12,16% | Reduz o dano mágico PvM recebido. |
 | **Spell Effect Resistance** | Undead | Basic | 10,00% | 12,25% | 14,16% | Pode negar efeitos mágicos hostis elegíveis. |
-| **Hit Paralyze Chance** | Arachnid | Proc | 10,00% | 12,25% | 14,16% | Pode paralisar uma criatura após um ataque direto com arma. |
+| **Hit Paralyze Chance** | Arachnid | Proc | 10,00% | 12,25% | 14,16% | Pode paralisar criaturas normais, Elite e Boss por 5 segundos, no tempo nativo. |
 | **Paralyzed Damage Bonus** | Arachnid | Synergy | 25,00% | 47,50% | 66,56% | Fortalece o próximo ataque compatível contra uma criatura paralisada. |
 | **Bloodbound Renewal** | Undead | Proc | 12,50% | 14,75% | 16,66% | Pode invocar Greater Heal ao acertar um golpe melee primário positivo, sem mana ou Words of Power. |
 | **Mirrorblade Aegis** | Abyssal | Proc | 12,50% | 14,75% | 16,66% | Pode conceder uma carga de Magic Reflection ao acertar um golpe melee primário positivo, sem mana ou Words of Power. |
@@ -122,14 +125,17 @@ quatro melee entraram no 0.34.0 e o Chamado Inquebrável entrou no 0.40.0.
 
 | Maestria | Família | Raridade | Nv 1 | Nv 10 | Nv 20 | O que oferece |
 |---|---|---|---:|---:|---:|---|
-| **Hit Effect Area** | Elemental | Area | 10,00% | 12,25% | 14,16% | Pode dividir o efeito de um ataque entre criaturas PvM próximas, sem duplicar. |
-| **Relentless Focus** | Abyssal | Synergy | 7,00% | 9,00% | 10,69% | Aumenta o dano ao manter pressão sobre a mesma criatura. |
-| **Focused Hunter** | Humanoid | Synergy | 7,00% | 9,00% | 10,69% | Ganha força com abates consecutivos do mesmo grupo Slayer; as cargas duram 90 segundos. |
-| **Versatile Hunter** | Fey | Synergy | 10,00% | 15,00% | 19,24% | Fortalece o primeiro ataque direto contra tipos de criatura não enfrentados recentemente. |
+| **Hit Effect Area** | Elemental | Area | 15,00% | —* | —* | Começa em 15%; pode dividir o efeito de um ataque entre criaturas PvM próximas, sem duplicar. |
+| **Relentless Focus** | Abyssal | Synergy | —* | —* | —* | Sinergia ajustada no 0.45.0; consulte o Compendium para o efeito atual. |
+| **Focused Hunter** | Humanoid | Synergy | —* | —* | —* | Sinergia ajustada no 0.45.0; consulte o Compendium para o efeito atual. |
+| **Versatile Hunter** | Fey | Synergy | —* | —* | —* | Sinergia ajustada no 0.45.0; consulte o Compendium para o efeito atual. |
 | **Resonant Cascade** | Arachnid | Area | 6,00% | 8,25% | 10,16% | Pode propagar Peacemaking direcionada, Discordance ou Provocation para criaturas próximas elegíveis. |
 | **Summoned Vitality** | Reptilian | Basic | 10,00% | 12,25% | 14,16% | Aumenta a vida máxima e atual dos summons criados pelo próprio jogador. |
 | **Summoner's Bond** | Arachnid | Basic | 10,00% | 12,25% | 14,16% | Redireciona parte do dano PvM dos summons ao invocador, com piso seguro de 10 Hits. |
 | **Chamado Inquebrável** | Reptilian | Basic | 10,00% | 12,25% | 14,16% | Aumenta relativamente a chance das seis summons de oitavo círculo; aparece em joias PvM. |
+
+`—*` indica que as notas públicas do 0.45.0 confirmam um ajuste, mas não
+publicam o valor numérico daquele nível. O Compendium exibe o valor atual.
 
 ### Detalhes das melee do 0.34.0
 
@@ -217,5 +223,5 @@ Consulte [Recompensas PvM](../itens/recompensas-pvm.md) para XP, Loot Packs, joi
 
 Consulte também [Achievements](achievements.md) para a trilha inicial e as conquistas de atividades.
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.45.0"
     O Hunter's Compendium oferece progressão própria para personagens que enfrentam criaturas.

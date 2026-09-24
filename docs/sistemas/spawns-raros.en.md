@@ -55,6 +55,34 @@ Defeating him releases a tamable Ruby Mustang protected from wild creatures for
 60 seconds and may award The Condemned Heart, extra PvM rewards, his lore book,
 and The Ruby Judgment scythe.
 
+## Modry, the Plaguebearer
+
+Modry appears at a fixed Felucca location every **3–6 days**. Pestilence can
+contaminate players, pets, and summons; only a **Cure Potion** removes the
+effect. After **5 seconds**, the infection drains life to Modry. Casting Cure or
+Arch Cure on him activates **Purification**: Modry takes double damage for 60
+seconds and is immune to new activations for another 60. Paralyze lasts at most
+3 seconds, and Modry teleports near a random player every 60 seconds.
+
+Victory may grant its own dye, **The Pestilent Heart**, three Tomes of
+Expertise, a Scroll of Knowledge, and an extra Loot Pack roll. Generated
+Vanquishing Cutlasses appear as **Pestilent Edge**. The collectible book has a
+10% chance to drop and uses the language selected in `.options`.
+
+## Seraphel
+
+Seraphel appears at a fixed Felucca location every **3–6 days**. This red-named
+Elite mage is listed in `[rareevents` and may be mentioned by Whispers. Its hits
+have a 25% chance to summon a 1-HP hollow fairy that only casts Paralyze, grants
+no XP or loot, and disappears with Seraphel.
+
+**Curse** doubles damage to Seraphel for 15 seconds and silences the fairies;
+afterward, Seraphel and the fairies are immune to the effect for 60 seconds.
+Victory may grant its own dye, **Heart of Fallen Light**, Tomes of Expertise, a
+Scroll of Knowledge, and an extra loot roll. Heater Shields of Invulnerability
+appear as **Dawnward of the Hollow Choir**. The collectible book starts without
+lore text until discovered.
+
 ## The Man in the Hedge
 
 In the Hedge Maze, ten scattered shadows guard the encounter. Defeat them to
@@ -87,6 +115,8 @@ Britannia](whispers-britannia.md).
 | Rare Zostrich Ostard | 5 hours | Independent cycle; an existing wild mount can prevent a new spawn. |
 | Nochyer | 3–6 days after death | A random interval is selected after the boss dies. |
 | Odran | 3–6 days after death | A random interval is selected after the boss dies. |
+| Modry | 3–6 days | Fixed Felucca location; random interval between appearances. |
+| Seraphel | 3–6 days | Fixed Felucca location; random interval between appearances. |
 | The Man in the Hedge | 3–6 days after death | A random interval is selected after the final boss dies. |
 | Rare Britannia | Always one available | The world maintains one active wild mount. When the slot is freed, replacement begins as soon as a valid location is available. |
 
@@ -94,5 +124,5 @@ Hourly cycles are not countdowns restarted by each kill. A cycle can pass
 without a new creature appearing; these intervals do not guarantee an exact
 arrival time.
 
-!!! success "Status: 0.43.0"
-    Rare creatures and events offer discovery paths across Britannia.
+!!! success "Status: 0.45.0"
+    Rare events include the Modry and Seraphel spawns in Felucca.

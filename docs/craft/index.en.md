@@ -44,10 +44,17 @@ not extrapolate the curve past the cutoff.
 
 ## Resource weight
 
-On server 0.43.0, each **Ingot** and **Board** weighs **0.5 stone**; **Hides**
+Each **Ingot** and **Board** currently weighs **0.5 stone**; **Hides**
 weigh **1.0 stone** and **Leather** weighs **0.5 stone** per unit. The
 selected material continues to determine item identity and color in recipes
 that accept resource variants.
+
+## Special ore and wood replenishment
+
+Global hourly replenishment of special ore and wood is multiplied by unique
+active IPs, and the stock cap follows population. The population check considers
+the unique IPs of connected players shown in the status panel; accumulated
+credit is preserved across restarts. The hourly delivery limit is unchanged.
 
 ## What Exceptional means
 

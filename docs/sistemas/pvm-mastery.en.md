@@ -25,8 +25,10 @@ more than five masteries active, enough to maximize five of them.
 
 On Live 0.42.0, the **32 operational Masteries** start from the base shown in
 the Level 1 column of the catalog; the 0.42.0 adjustment added **+5.00
-percentage points** to that base. From there, each Mastery curve works like
-this:
+percentage points** to that base. In 0.45.0, Hit Effect Area and three synergies
+were adjusted; when the public notes do not give their current numerical values,
+the table uses `—*` instead of retaining old figures. Check the Compendium for
+current levels.
 
 - from level 1 to 10, progression is linear — the difference between the Level 1 and Level 10 columns equals nine equal steps;
 - from level 11 to 20, each new level continues with diminishing returns;
@@ -79,7 +81,7 @@ The scroll uses the normal corpse loot lifetime. A mastery does not need to be a
 
 ## Complete catalog of the 32 Masteries
 
-Effect values on Live 0.42.0. The Level 1, Level 10, and Level 20 columns
+Baseline numeric values on Live 0.42.0. The Level 1, Level 10, and Level 20 columns
 summarize the curve from level 1 to 20: progress is linear between 1 and 10
 and has diminishing returns from 11 to 20. Check the Compendium for the exact
 value of each intermediate level. The five resource Masteries arrived on Live
@@ -112,7 +114,7 @@ arrived on 0.40.0.
 | **Physical Damage Resistance** | Elemental | Basic | 8.00% | 10.25% | 12.16% | Reduces incoming physical PvM damage. |
 | **Magic Damage Resistance** | Abyssal | Basic | 8.00% | 10.25% | 12.16% | Reduces incoming magical PvM damage. |
 | **Spell Effect Resistance** | Undead | Basic | 10.00% | 12.25% | 14.16% | May negate eligible hostile magical effects. |
-| **Hit Paralyze Chance** | Arachnid | Proc | 10.00% | 12.25% | 14.16% | May paralyze a creature after a direct weapon attack. |
+| **Hit Paralyze Chance** | Arachnid | Proc | 10.00% | 12.25% | 14.16% | May paralyze normal, Elite, and Boss creatures for the native 5 seconds. |
 | **Paralyzed Damage Bonus** | Arachnid | Synergy | 25.00% | 47.50% | 66.56% | Strengthens the next compatible attack against a paralyzed creature. |
 | **Bloodbound Renewal** | Undead | Proc | 12.50% | 14.75% | 16.66% | May invoke Greater Heal on a positive primary melee hit, with no mana or Words of Power. |
 | **Mirrorblade Aegis** | Abyssal | Proc | 12.50% | 14.75% | 16.66% | May grant one Magic Reflection charge on a positive primary melee hit, with no mana or Words of Power. |
@@ -124,14 +126,17 @@ arrived on 0.40.0.
 
 | Mastery | Family | Rarity | Level 1 | Level 10 | Level 20 | What it offers |
 |---|---|---|---:|---:|---:|---|
-| **Hit Effect Area** | Elemental | Area | 10.00% | 12.25% | 14.16% | May divide an attack's effect among nearby PvM creatures, without duplicating it. |
-| **Relentless Focus** | Abyssal | Synergy | 7.00% | 9.00% | 10.69% | Increases damage while pressure is maintained on the same creature. |
-| **Focused Hunter** | Humanoid | Synergy | 7.00% | 9.00% | 10.69% | Builds strength through consecutive kills from the same Slayer group; charges last 90 seconds. |
-| **Versatile Hunter** | Fey | Synergy | 10.00% | 15.00% | 19.24% | Strengthens the first direct attack against creature types not faced recently. |
+| **Hit Effect Area** | Elemental | Area | 15.00% | —* | —* | Starts at 15%; may divide an attack's effect among nearby PvM creatures, without duplicating it. |
+| **Relentless Focus** | Abyssal | Synergy | —* | —* | —* | Synergy adjusted in 0.45.0; check the Compendium for its current effect. |
+| **Focused Hunter** | Humanoid | Synergy | —* | —* | —* | Synergy adjusted in 0.45.0; check the Compendium for its current effect. |
+| **Versatile Hunter** | Fey | Synergy | —* | —* | —* | Synergy adjusted in 0.45.0; check the Compendium for its current effect. |
 | **Resonant Cascade** | Arachnid | Area | 6.00% | 8.25% | 10.16% | May spread targeted Peacemaking, Discordance, or Provocation to other nearby eligible creatures. |
 | **Summoned Vitality** | Reptilian | Basic | 10.00% | 12.25% | 14.16% | Increases the maximum and current health of player-created summons. |
 | **Summoner's Bond** | Arachnid | Basic | 10.00% | 12.25% | 14.16% | Redirects part of eligible PvM damage from summons to their summoner, with a safe 10-Hit floor. |
 | **Unbroken Calling** | Reptilian | Basic | 10.00% | 12.25% | 14.16% | Relatively increases the success chance of the six eighth-circle summons; appears on PvM jewelry. |
+
+`—*` means the 0.45.0 public notes confirm an adjustment but do not publish
+that level's numeric value. The Compendium displays the current value.
 
 ### Details on the 0.34.0 melee Masteries
 
@@ -218,5 +223,5 @@ See [PvM rewards](../itens/recompensas-pvm.md) for XP, Loot Packs, jewelry, and 
 
 See also [Achievements](achievements.md) for the introductory path and activity achievements.
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.45.0"
     The Hunter's Compendium provides dedicated progression for characters who fight creatures.

@@ -2,6 +2,54 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.45.1 · Coleta e reparos
+
+Publicado em 23 de setembro de 2026.
+
+- A reposição global de minérios e madeiras especiais considera os IPs únicos dos jogadores conectados ao consultar a população no painel de status. Créditos já acumulados sobrevivem a reinícios; o limite de entrega por hora não muda.
+- Kits de reparo agora consomem cargas somente pelos pontos de durabilidade realmente restaurados, inclusive quando o reparo reduz a durabilidade máxima.
+
+Consulte [Craft](craft/index.md) e [Consumíveis](itens/consumiveis.md).
+
+## 0.45.0 · Casas, crafting e exploração
+
+Publicado em 19 de setembro de 2026.
+
+- Co-owners podem abrir e soltar baús secured ou locked down pelo dono, exceto os protegidos pela segurança **Owner**, que continuam exclusivos do dono. Também podem usar Moving Crates, alternar teleporters e o estado público/privado, customizar ou converter a casa, mudar a placa e usar addons e decorações. Transferência, demolição, mudança de modelo, vendors, lista de co-owners e baús **Owner** permanecem ações exclusivas do dono.
+- **Deadly Poison Potion** exige pelo menos 90.0 de Alchemy e chega a 75% de chance em 100.0 e 100% em 110.0 de skill efetiva. As demais potions não mudam.
+- Uma falha ao criar potion pode preservar reagentes: **Taste Identification** oferece 50% em 100.0 e 75% em 110.0. A ferramenta ainda é consumida, e reagentes preservados não concedem ganho de skill.
+- **Vile Treefellows** e **Shadow Wisps** ficam vermelhos e atacam jogadores à vista como centaurs; centaurs passam a disparar flechas.
+- **Seraphel** surge em ponto fixo de Felucca em intervalos de 3 a 6 dias. É um mage Elite, de nome vermelho, listado em `[rareevents` e nos Whispers. Seus golpes têm 25% de chance de invocar uma hollow fairy com 1 HP, que só conjura Paralyze, não concede XP ou loot e desaparece com Seraphel. **Curse** dobra o dano contra Seraphel por 15 segundos e silencia as fairies; depois, ambos ficam imunes por 60 segundos. A vitória pode render dye próprio, **Heart of Fallen Light**, Tomes, Scroll of Knowledge e um roll extra de loot; Heater Shields of Invulnerability passam a aparecer como **Dawnward of the Hollow Choir**. O livro colecionável só ganha conteúdo de lore após a descoberta.
+- Criaturas de qualidade **Legendary** ou superior podem deixar armas e armaduras um tier acima, de Ruin a Vanquishing e de Defense a Invulnerability. Shields e helms de loot usam aparências permitidas de peças craftáveis sem alterar Armor Rating; **Chain Coif** preserva sua aparência própria.
+- A reposição horária global de minério e madeira especiais é multiplicada pelos IPs únicos ativos; o limite de estoque acompanha a população.
+- Tinkering adiciona a família **Enduring** antes de Light: Enduring Hatchet, Pickaxe e Shovel custam 100 Iron Ingots, podem ser tentados com 45.0 e chegam a 100% em 65.0. Enduring Fishing Pole continua disponível somente com Provisioners. O estoque mínimo de ferramentas comuns e Enduring dos Provisioners é 320, mesmo após vendas parciais; preços e escada de estoque nativos permanecem.
+- Na Season of Thorns, os preços por conta mudam para **Briarheart Pigment: 375**, **Briarstrider Statuette: 475** e **Thornwake: 575 Hearts**. Thornbound Willow continua 275 e os limites de um por conta permanecem.
+- **Fairy Dragons** deixam de soltar Fairy Dragon Wings e Draconic Orbs; itens válidos já existentes permanecem.
+- O **Trailseeker Cloak**, de DoB Cloth, custa 100 Cloth e 20 Dragon Blood. Exige 100 de Tracking base para criar e vestir, começa com **80% de chance de sucesso** e chega a 100% em 110.0; concede +25 tiles e +4 alvos ao Tracking, e sua tooltip informa o bônus.
+- No PvM, **Hit Paralyze Chance** também paralisa criaturas normais, Elite e Boss por 5 segundos, no tempo nativo. **Hit Effect Area** passa a começar em 15%; **Relentless Focus**, **Focused Hunter** e **Versatile Hunter** têm suas sinergias ajustadas.
+- Provisioners vendem kits pequenos de reparo por 1.000 gold/100 cargas e grandes por 5.000 gold/500 cargas. A interface mostra a durabilidade dos itens equipados e da mochila; é possível reparar equipamento, mochila ou tudo. O reparo nunca falha e cada ponto restaurado consome uma carga; o kit desaparece vazio.
+- Durante o evento, Town Criers também podem divulgar rumores sobre Seraphel.
+
+Consulte [Casas](sistemas/casas.md), [Alchemy](craft/alchemy.md), [Spawns raros](sistemas/spawns-raros.md), [Craft](craft/index.md), [Tinkering](craft/tinkering.md), [Season of Thorns](sistemas/season-of-thorns.md), [Tailoring](craft/tailoring.md), [Maestria PvM](sistemas/pvm-mastery.md), [Consumíveis](itens/consumiveis.md), [Whispers of Britannia](sistemas/whispers-britannia.md) e [Recompensas PvM](itens/recompensas-pvm.md).
+
+## 0.44.0 · Modry, ofícios e PvP
+
+Publicado em 15 de setembro de 2026.
+
+- **Modry, the Plaguebearer** surge em ponto fixo de Felucca a cada 3 a 6 dias. A Pestilence contamina jogadores, pets e summons; somente Cure Potion remove o efeito. Após 5 segundos, a infecção drena vida para Modry. Cure ou Arch Cure lançado em Modry ativa Purification: ele recebe o dobro de dano por 60 segundos e fica imune a novas ativações por outros 60. Paralyze dura no máximo 3 segundos, e Modry se teleporta para perto de um jogador aleatório a cada 60 segundos. A vitória pode render dye próprio, **The Pestilent Heart**, três Tomes, Scroll of Knowledge e loot extra; Vanquishing Cutlasses geradas aparecem como **Pestilent Edge**. O livro colecionável tem 10% de chance e segue o idioma de `.options`.
+- O carving de couro passa a render **3–5 recursos base**; Forensic Evaluation acrescenta até 50% em 110.0, arredondado para cima. As demais regras de carving não mudam.
+- O vendedor de Dragon Blood Dye **Drakara** muda de Moonglow para **Nujelm Safe Haven**. O serviço e os preços permanecem iguais; Vorga deixa de atender e Drakara passa a ser o único ponto de serviço.
+- Fishing Poles deixam de pescar Sea Serpents e Deep Sea Serpents.
+- Ao ser detectada por Snooping, a vítima pode retaliar diretamente contra o snooper por 2 minutos, sem se tornar criminal nem acionar guards. O direito vale somente entre aquele par e não é salvo ao sair.
+- Snooping pode inspecionar e abrir containers vinculados ao starter kit, inclusive quando contêm outros itens vinculados. Usar, mover, trocar ou roubar esses itens continua bloqueado.
+- Em PvP Stealing, a vítima recebe o nome do ladrão e pode retaliar por 2 minutos após uma falha ou 20 minutos após um roubo bem-sucedido, sem criminal/guards e somente contra aquele ladrão. Se o ladrão morrer durante os 20 minutos após o roubo bem-sucedido, itens stackáveis roubados retornam ao dono na quantidade exata ainda existente; itens consumidos e containers não retornam.
+- Tentativas de Snooping têm intervalo de 4 segundos. Uma tentativa bloqueada informa o tempo restante e não revela conteúdo.
+- Nomes de personagens passam a ser únicos, exceto **Generic Player**, que pode se repetir. Duplicatas que já existiam são preservadas.
+- Ao completar 5 roubos PvP bem-sucedidos, o personagem fica cinza e pode ser atacado por qualquer jogador, sem ser considerado criminal. Guards não intervêm, e bancos, vendors e moongates continuam funcionando. A contagem reduz em 1 a cada 40 horas ativas; o estado murderer tem precedência. Diga `*i must consider my sins*` para consultar a contagem.
+- A **DoB Cloth thief-gray cloak** oculta o estado cinza de quem ainda não revelou o usuário por até 1 hora vestida. Para criar e vestir, exige 100 de Hiding, Stealth, Snooping e Stealing base. Forensic Evaluation revela o usuário por 10 minutos.
+
+Consulte [Spawns raros](sistemas/spawns-raros.md), [Recompensas PvM](itens/recompensas-pvm.md), [Consumíveis](itens/consumiveis.md), [Whispers of Britannia](sistemas/whispers-britannia.md), [Personagem](personagem.md), [Combate](combate/index.md) e [Tailoring](craft/tailoring.md).
+
 ## 0.43.0 · Temporizadores da Arena, couro e armaduras
 
 Publicado em 10 de setembro de 2026.

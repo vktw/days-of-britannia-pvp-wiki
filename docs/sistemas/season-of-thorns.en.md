@@ -43,9 +43,9 @@ shared across characters and reset each edition.
 | Yucca Tree | 100 | No specific limit |
 | Bamboo | 135 | No specific limit |
 | Thornbound Willow | 275 | 1 |
-| Briarheart Pigment | 450 | 1 |
-| Briarstrider Statuette | 725 | 1 |
-| Thornwake | 1000 | 1 |
+| Briarheart Pigment | 375 | 1 |
+| Briarstrider Statuette | 475 | 1 |
+| Thornwake | 575 | 1 |
 
 Briarheart Pigment is the seasonal dye, Briarstrider is the edition's mount, and
 Thornwake is its reward weapon. The limit governs redemption; rewards remain
@@ -56,5 +56,5 @@ tradable and lootable.
 See [PvM hunting](caca-pvm.md), [PvM Mastery](pvm-mastery.md), and
 [Rare spawns](spawns-raros.md) for other exploration goals.
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.45.0"
     Recurring September event. Availability follows the edition's calendar.

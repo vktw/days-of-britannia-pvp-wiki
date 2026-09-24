@@ -9,7 +9,7 @@ recebe regras de PvP e PvM customizadas para o objetivo do shard.
 - [Maestria PvM](pvm-mastery.md)
 - [Caça PvM](caca-pvm.md): contratos com objetivos sorteados e recompensa em caixa de madeira.
 - [Pets e montarias](pets-montarias.md): Shrink Potion, montarias raras e liberação de pets.
-- [Casas](casas.md): proteção de casas privadas e interação entre pisos.
+- [Casas](casas.md): proteção de casas privadas, interação entre pisos e permissões de co-owners.
 - [Recompensas PvM](../itens/recompensas-pvm.md): Loot Packs, joias e amuletos ligados ao PvM.
 
 - [Season of Thorns](season-of-thorns.md): evento de setembro, criaturas Overgrown e recompensas sazonais.
@@ -18,7 +18,7 @@ recebe regras de PvP e PvM customizadas para o objetivo do shard.
 
 - [Nujelm Safe Haven](../mundo/nujelm.md): proteção e retornos seguros em Felucca.
 - [Threat Rating](../mundo/threat-rating.md): escala, interpretação e consulta no jogo.
-- [Spawns raros](spawns-raros.md): Phoenix, Rare Events e montarias raras.
+- [Spawns raros](spawns-raros.md): Phoenix, Modry, Seraphel, Rare Events e montarias raras.
 - [Whispers of Britannia](whispers-britannia.md): rumores públicos e pistas de Town Criers.
 
 As páginas explicam apenas o que está disponível para jogadores e como isso afeta a experiência.
@@ -49,5 +49,5 @@ jogadores, mas continuam utilizáveis normalmente em PvM.
 - [Player Vendors](player-vendors.md): mercado público protegido de Nujelm.
 - [Royal Banking Charter](royal-banking-charter.md): expansão permanente do banco do personagem.
 
-!!! success "Status: 0.42.0"
+!!! success "Status: 0.45.0"
     A disponibilidade abaixo corresponde ao ruleset oficial.

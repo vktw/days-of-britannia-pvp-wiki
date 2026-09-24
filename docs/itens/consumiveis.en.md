@@ -18,9 +18,9 @@ it is not consumed when mana is already full.
 
 ## Dragon Blood Clothing Dye
 
-Moonglow and Serpent's Hold offer a cosmetic Dragon Blood dye service. Each dye
-uses 150 matching ingots, 10 Dragon Bloods, and a dynamic gold charge with a
-50,000-gold floor; the dye has one charge.
+The cosmetic Dragon Blood dye service is located at **Nujelm Safe Haven**, with
+the NPC **Drakara**. Each dye uses 150 matching ingots, 10 Dragon Bloods, and a
+dynamic gold charge with a 50,000-gold floor; the dye has one charge.
 
 ## Hides and Leather in 0.43.0
 
@@ -67,7 +67,16 @@ and Shovel, while Carpenters sell Fishing Pole.
 
 Provisioners also sell **Enduring** Hatchet, Pickaxe, Shovel, and Fishing Pole
 versions. They have **500 uses**, use explicit menu names, and cost **ten times**
-the ordinary tool.
+the ordinary tool. Fishing Poles can no longer catch Sea Serpents or Deep Sea
+Serpents.
+
+## Craftable Enduring Tools in 0.45.0
+
+Tinkering can craft **Enduring Hatchet, Enduring Pickaxe**, and **Enduring
+Shovel** with **100 Iron Ingots**. Attempts start at **45.0** Tinkering and
+reach 100% at **65.0**. The **Enduring Fishing Pole** remains Provisioner-only.
+Provisioners maintain a floor of 320 ordinary and Enduring tools even after
+partial sales, without changing prices or the stock ladder.
 
 ## DoB Tools in 0.42.0
 
@@ -87,10 +96,19 @@ Chance bonuses come from the active tool, not from the item being produced. The 
 Among DoB tools, **Light** uses 500 uses; **Hardened** and **Tempered** use
 1,000. **Artisan, Reliable, and Refined** keep their normal 50-use durability.
 
+## Repair Kits
+
+Provisioners sell the small kit for **1,000 gold and 100 charges** and the large
+kit for **5,000 gold and 500 charges**. The interface shows durability for
+equipped and backpack items and lets you repair equipped items, backpack items,
+or everything at once. Repairs never fail; each durability point actually
+restored uses one charge. Maximum-durability reductions do not spend charges
+unless a point is repaired, and an empty kit disappears.
+
 ## Books and mounts
 
 New characters receive a complete Spellbook, an empty Runebook and a shrunken horse. Spellbooks and Runebooks are preserved when the rest of the inventory is saved for an arena fight.
 
 See [Healing and resources](../combate/cura-recursos.md) for all values and delays.
 
-!!! success "Status: 0.43.0"
+!!! success "Status: 0.45.1"

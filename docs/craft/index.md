@@ -44,10 +44,18 @@ extrapola a curva depois do corte.
 
 ## Peso dos recursos
 
-No servidor 0.43.0, cada unidade de **Ingots** e **Boards** pesa **0,5 stone**;
+Cada unidade de **Ingots** e **Boards** pesa **0,5 stone** no servidor atual;
 **Hides** pesam **1,0 stone** e **Leather** pesa **0,5 stone** por unidade.
 O material escolhido continua determinando a identidade e a cor dos itens nas
 receitas que aceitam variação de recurso.
+
+## Reposição de minérios e madeiras especiais
+
+A reposição global por hora de minério e madeira especiais é multiplicada pelos
+IPs únicos ativos, e o limite de estoque acompanha a população. A verificação
+considera os IPs únicos dos jogadores conectados exibidos no painel de status;
+créditos já acumulados são preservados após reinícios. O limite de entrega por
+hora não muda.
 
 ## O que significa Exceptional
 

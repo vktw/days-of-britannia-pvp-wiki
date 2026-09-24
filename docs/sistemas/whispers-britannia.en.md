@@ -28,6 +28,7 @@ the rumor provides no useful information.
 Town Criers can also share rumors about Rare Events and the **Rare Rideable
 Llama**. The goal is to provide a lead, not to replace exploring the world.
 While the event is active, the rumor may also mention **The Man in the Hedge**.
+Town Criers can also share leads about **Seraphel** while that event is active.
 
 ## Whispers interface
 
@@ -36,5 +37,5 @@ The Whispers gump is wider and provides more room to read the rumors.
 See [Rare spawns](spawns-raros.md) for the creatures and events that can be
 found during exploration.
 
-!!! success "Status: 0.43.0"
-    Town Criers offer public leads for discovering rare events across Britannia.
+!!! success "Status: 0.45.0"
+    Town Criers offer public leads about active rare events across Britannia.

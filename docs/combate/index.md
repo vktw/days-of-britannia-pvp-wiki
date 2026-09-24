@@ -127,6 +127,33 @@ altera dano mágico, poison ou outras fórmulas do ruleset.
 Defesa não é apenas esperar a vida subir: ela compra o tempo necessário para
 reposicionar, recuperar mana ou preparar a próxima resposta.
 
-!!! success "Status: 0.43.0"
+## Snooping e Stealing em PvP
+
+Snooping respeita um intervalo de **4 segundos**. Se uma tentativa for bloqueada
+por cooldown, você recebe o tempo restante e não vê o conteúdo. É possível
+inspecionar e abrir containers vinculados ao starter kit, inclusive com outros
+itens vinculados dentro; usar, mover, trocar ou roubar esses itens continua
+bloqueado.
+
+Uma vítima de Snooping pode retaliar diretamente contra o snooper por **2
+minutos**, sem criminalidade ou intervenção de guards. O direito vale apenas
+entre aquele par e não persiste ao sair do jogo.
+
+Em um roubo PvP, a vítima recebe o nome do ladrão e pode retaliar diretamente:
+por **2 minutos** se a tentativa falhar ou **20 minutos** se for bem-sucedida.
+Essa retaliação também não gera criminalidade nem intervenção de guards e vale
+somente entre vítima e ladrão. Se o ladrão morrer nos **20 minutos após um
+roubo bem-sucedido**, itens stackáveis roubados retornam ao dono na quantidade
+exata que ainda existir; itens consumidos e containers não retornam.
+
+Ao alcançar **5 roubos PvP bem-sucedidos**, o personagem fica cinza e pode ser
+atacado por qualquer jogador sem ser considerado criminal. Guards não
+interferem, e bancos, vendors e moongates continuam funcionando. A contagem
+diminui em **1 a cada 40 horas ativas**; murderer tem precedência. Diga
+`*i must consider my sins*` para consultar a contagem. A [thief-gray cloak de
+DoB Cloth](../craft/tailoring.md) pode ocultar o estado cinza de quem ainda não
+revelou o usuário.
+
+!!! success "Status: 0.45.0"
     Esta página resume o ruleset ativo no servidor oficial. Os valores de
     gameplay foram conferidos na fonte oficial do servidor.

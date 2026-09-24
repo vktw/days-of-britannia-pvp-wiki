@@ -1,5 +1,19 @@
 # Tinkering
 
+## 0.45.0 update
+
+The **Enduring** family appears before Light in the menu. You can craft
+**Enduring Hatchet, Enduring Pickaxe**, and **Enduring Shovel** with 100 Iron
+Ingots; attempts start at 45.0 and reach 100% at 65.0. **Enduring Fishing Pole**
+remains Provisioner-only. Provisioners maintain a floor of 320 ordinary and
+Enduring tools even after partial sales, while preserving prices and the stock
+ladder.
+
+The simulator below still represents the 0.42.0 menu snapshot (270 recipes)
+and does not include these three new recipes. Public notes give the attempt
+starting point and guaranteed-success point, but not the intermediate curve;
+use the official gump when attempting each recipe.
+
 ## 0.42.0 updates
 
 The 26 **Classic Tools** recipes require 10.0 Tinkering, start at 10% base
@@ -7,7 +21,7 @@ chance, and scale linearly to 100% at 30.0. The dedicated **DoB Tools** curves
 are unchanged.
 
 <section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Tinkering" data-craft-sim-slider-max="105" aria-labelledby="dob-craft-tinkering-title">
-<div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Skill menu</span><h3 id="dob-craft-tinkering-title">Tinkering</h3><p>Official active catalog for server 0.42.0, reconciled from the current craft menu. Public simulator values stop at 105.0.</p></div>
+<div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Skill menu</span><h3 id="dob-craft-tinkering-title">Tinkering</h3><p>Snapshot of the 0.42.0 server catalog; the three Enduring recipes added in 0.45.0 are described above but are not included in this simulator. Displayed values stop at 105.0.</p></div>
 <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen><span class="dob-craft-simulator__screen-label">Main menu</span><h4>Choose a category</h4><div class="dob-craft-simulator__menu">
 <button type="button" data-craft-sim-open-section="j-ias" data-craft-sim-section-title="Jóias"><span><strong>Jóias</strong><small>63 recipes</small></span><b>63 recipes&nbsp; →</b></button>
 <button type="button" data-craft-sim-open-section="madeira-e-cestaria" data-craft-sim-section-title="Madeira e cestaria"><span><strong>Madeira e cestaria</strong><small>20 recipes</small></span><b>20 recipes&nbsp; →</b></button>

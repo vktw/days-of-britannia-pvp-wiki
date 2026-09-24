@@ -1,5 +1,21 @@
 # Tailoring
 
+## Novos itens de DoB Cloth no 0.44.0 e 0.45.0
+
+O **Trailseeker Cloak** custa **100 Cloth e 20 Dragon Blood**. Sua receita tem
+80% de chance inicial e chega a 100% com 110.0; criar e vestir a peça exige
+**100.0 de Tracking base**. Ela concede **+25 tiles e +4 alvos** ao Tracking, e
+a tooltip informa o bônus.
+
+A **thief-gray cloak** esconde o estado cinza de jogadores que ainda não
+revelaram quem a veste por até **1 hora enquanto estiver vestida**. Para criar e
+usar a peça, são necessários **100.0 base** em Hiding, Stealth, Snooping e
+Stealing. Forensic Evaluation revela o usuário por **10 minutos**.
+
+O simulador abaixo mantém o snapshot do catálogo 0.43.0 e ainda não representa
+essas duas peças. Consulte o gump oficial de Tailoring para outros detalhes de
+criação que não aparecem nas notas públicas.
+
 ## Atualização do 0.43.0
 
 **Studded Leather Armor** deixou de ser craftável, aparecer no menu de Tailoring
@@ -11,7 +27,7 @@ O bônus de atributos das robes de **DoB Cloth** é restaurado no reconnect
 quando a robe permanece equipada. Guardar a robe não concede o bônus.
 
 <section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Tailoring" data-craft-sim-slider-max="105" aria-labelledby="dob-craft-tailoring-title">
-<div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Menu da skill</span><h3 id="dob-craft-tailoring-title">Tailoring</h3><p>Catálogo oficial ativo do servidor 0.43.0, reconciliado a partir do menu atual de craft. Os valores públicos do simulador param em 105.0.</p></div>
+<div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Menu da skill</span><h3 id="dob-craft-tailoring-title">Tailoring</h3><p>Snapshot do catálogo do servidor 0.43.0; as duas peças novas de DoB Cloth estão descritas acima, mas não entram neste simulador. Os valores mostrados param em 105.0.</p></div>
 <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen><span class="dob-craft-simulator__screen-label">Menu principal</span><h4>Escolha uma categoria</h4><div class="dob-craft-simulator__menu">
 <button type="button" data-craft-sim-open-section="materiais" data-craft-sim-section-title="Materiais"><span><strong>Materiais</strong><small>4 receitas</small></span><b>4 receitas&nbsp; →</b></button>
 <button type="button" data-craft-sim-open-section="chap-us" data-craft-sim-section-title="Chapéus"><span><strong>Chapéus</strong><small>20 receitas</small></span><b>20 receitas&nbsp; →</b></button>

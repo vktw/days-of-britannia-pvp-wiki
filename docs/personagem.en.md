@@ -4,6 +4,10 @@
 
 Every new human character starts with **100 STR, 100 DEX and 100 INT**, a complete Spellbook, a Runebook, a shrunken horse, 15 normal Heal Potions, and an ordinary, lootable **Starter PvP Iron kit**. The kit contains no jewelry or potion bag. The books, horse, and initial **10,000 gold** remain bound to the character; the gold is only awarded to the first eligible character per IP.
 
+Character names are unique; **Generic Player** is the only exception and can
+be used by multiple characters. Duplicates that existed before this rule are
+preserved.
+
 The Starter kit and Heal Potions are ordinary items and may be lost as loot.
 Starter gold can pay for NPC purchases, does not become account gold, and cannot
 fund Player Vendors.
@@ -54,6 +58,10 @@ Tracking uses **effective skill** for search range: it reaches **43 tiles at
 Tracking activations observe a **four-second** interval. Entering War Mode
 interrupts active Tracking and reports that the quarry was lost.
 
+The DoB Cloth **Trailseeker Cloak** grants **+25 tiles and +4 targets** to
+Tracking. You need **100.0 base Tracking** to craft and wear it; see
+[Tailoring](craft/tailoring.md) for its cost and other requirements.
+
 ## Moving through creatures
 
 Animals, monsters, pets, and NPC vendors with at least **10 stamina** can be
@@ -91,5 +99,5 @@ maximum of 25 steps. Walking, including while mounted, consumes the limit;
 exhausting it reveals the character, and running, including while mounted,
 reveals immediately. Armor does not block or reduce Stealth effectiveness.
 
-!!! success "Status: 0.43.0"
+!!! success "Status: 0.45.0"
     Stats, skills, caps and race correspond to the official server.

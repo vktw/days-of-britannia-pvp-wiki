@@ -33,15 +33,22 @@ uses the normal skill check and adds `ceil((Forensics - 60) / 2)`% with no cap;
 the result is reported by a system message. The special contract delivers only
 Eyes of Newt instead of the normal carving resource set.
 
-## Leather carving in 0.43.0
+## Leather carving in 0.44.0
 
-Eligible creatures can add **2–7 leather resources** to the corpse.
-**Forensic Evaluation** increases this bonus, reaching up to double the normal
-result at **110.0**. An ordinary blade such as a **Kryss** produces **Hides**;
-with a **Skinning Knife** or equipped **Butcher's War Cleaver**, the result is
-cut **Leather**. Collection happens once per corpse, and special carvings such
-as **Eyes of Newt** remain available. The carving message reports the bonus
-percentage and extra resources.
+Eligible creatures can add **3–5 base leather resources** to the corpse.
+**Forensic Evaluation** increases this result by up to **50% at 110.0**, with
+the extra amount rounded up. An ordinary blade such as a **Kryss** produces
+**Hides**; with a **Skinning Knife** or equipped **Butcher's War Cleaver**, the
+result is cut **Leather**. Collection happens once per corpse, and special
+carvings such as **Eyes of Newt** remain available. The carving message reports
+the bonus percentage and extra resources.
+
+## Legendary or higher loot in 0.45.0
+
+Creatures with **Legendary** quality or higher can drop weapons and armor one
+tier above: weapons from Ruin through Vanquishing and armor from Defense through
+Invulnerability. Shields and helms use permitted craftable appearances without
+changing Armor Rating. **Chain Coif** keeps its own appearance.
 
 ## Magical jewelry
 

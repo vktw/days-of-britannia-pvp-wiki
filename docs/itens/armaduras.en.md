@@ -37,6 +37,12 @@ the separate **Arms Lore** roll for Exceptional remain unchanged.
 A complete Ringmail kit, including Gorget and Coif, costs **82 ingots** and
 matches the Chainmail kit's per-piece `Armor Rating`.
 
+## Loot appearances in 0.45.0
+
+Armor looted from **Legendary** or higher creatures can be one tier higher, up
+to Invulnerability. Loot shields and helms use permitted craftable appearances
+without changing `Armor Rating`; **Chain Coif** keeps its own appearance.
+
 ## Armor Rating in 0.40.0
 
 Armor and shields display **Armor Rating: N**. For recipe-backed pieces, the
@@ -84,5 +90,5 @@ not migrated.
 
 See [Armor and Parrying](../combate/armor-parrying.md).
 
-!!! success "Status: 0.43.0"
-    Direct-hit resolution uses global Armor Rating from equipped pieces.
+!!! success "Status: 0.45.0"
+    Loot tier does not change the piece's calculated Armor Rating.

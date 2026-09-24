@@ -19,11 +19,22 @@ Pisos estruturais não bloqueiam interações no mesmo andar quando estão abaix
 da linha de visão. Paredes, portas, outros andares e regras de acesso continuam
 protegidos.
 
+## Ações de co-owners no 0.45.0
+
+Co-owners podem abrir e soltar baús locked down ou secured pelo dono, exceto
+quando a segurança do baú está definida como **Owner**. Também podem usar Moving
+Crates, alternar teleporters e o estado público/privado, customizar ou converter
+a casa, mudar a placa e usar addons e decorações.
+
+Transferir ou demolir a casa, mudar seu modelo, administrar vendors ou a lista
+de co-owners e acessar baús com segurança **Owner** continuam sendo ações
+exclusivas do dono.
+
 ## Commodity Deed Box
 
 Bankers vendem a **Commodity Deed Box por 20.000 Gold**. Para operar Commodity
 Deeds, a caixa precisa estar **secured dentro de uma casa**; mantê-la na mochila
 não é suficiente.
 
-!!! success "Status: 0.42.0"
-    Estas regras correspondem ao servidor oficial.
+!!! success "Status: 0.45.0"
+    As permissões de co-owners correspondem às notas de produção.

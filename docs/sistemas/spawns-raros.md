@@ -55,6 +55,35 @@ Derrotá-lo liberta uma Ruby Mustang domesticável, protegida de criaturas
 selvagens por 60 segundos, e pode conceder The Condemned Heart, recompensas PvM
 extras, seu livro de lore e a foice The Ruby Judgment.
 
+## Modry, the Plaguebearer
+
+Modry surge em um ponto fixo de Felucca, em intervalos de **3 a 6 dias**. Sua
+Pestilence pode contaminar jogadores, pets e summons; somente uma **Cure Potion**
+remove o efeito. Após **5 segundos**, a infecção drena vida para Modry. Lançar
+Cure ou Arch Cure nele ativa **Purification**: Modry recebe o dobro de dano por
+60 segundos e fica imune a novas ativações por outros 60. Paralyze dura no
+máximo 3 segundos, e Modry se teleporta para perto de um jogador aleatório a
+cada 60 segundos.
+
+A vitória pode conceder dye próprio, **The Pestilent Heart**, três Tomes of
+Expertise, um Scroll of Knowledge e um roll extra de Loot Pack. Cutlasses de
+Vanquishing geradas nesse loot aparecem como **Pestilent Edge**. O livro
+colecionável tem 10% de chance e usa o idioma selecionado em `.options`.
+
+## Seraphel
+
+Seraphel aparece em um ponto fixo de Felucca a cada **3 a 6 dias**. É um mage
+Elite de nome vermelho, anunciado em `[rareevents` e que pode ser mencionado nos
+Whispers. Seus golpes têm 25% de chance de invocar uma hollow fairy de 1 HP, que
+só conjura Paralyze, não concede XP nem loot e desaparece junto com Seraphel.
+
+**Curse** dobra o dano recebido por Seraphel por 15 segundos e silencia as
+fairies; depois, Seraphel e as fairies ficam imunes ao efeito por 60 segundos.
+A vitória pode render dye próprio, **Heart of Fallen Light**, Tomes of
+Expertise, Scroll of Knowledge e um roll extra de loot. Heater Shields of
+Invulnerability aparecem como **Dawnward of the Hollow Choir**. O livro
+colecionável começa sem conteúdo de lore até ser descoberto.
+
 ## The Man in the Hedge
 
 No Hedge Maze, dez sombras espalhadas guardam o encontro. Derrote-as para
@@ -88,6 +117,8 @@ Britannia](whispers-britannia.md).
 | Rare Zostrich Ostard | 5 horas | Ciclo independente; uma montaria selvagem existente pode impedir novo nascimento. |
 | Nochyer | 3–6 dias após a morte | Um intervalo aleatório é escolhido depois da morte do boss. |
 | Odran | 3–6 dias após a morte | Um intervalo aleatório é escolhido depois da morte do boss. |
+| Modry | 3–6 dias | Ponto fixo em Felucca; intervalo aleatório entre aparições. |
+| Seraphel | 3–6 dias | Ponto fixo em Felucca; intervalo aleatório entre aparições. |
 | The Man in the Hedge | 3–6 dias após a morte | Um intervalo aleatório é escolhido depois da morte do boss final. |
 | Rare Britannia | Sempre uma disponível | O mundo mantém uma montaria selvagem ativa. Ao liberar a vaga, a reposição começa assim que houver um local válido. |
 
@@ -95,5 +126,5 @@ Os ciclos em horas não são contagens reiniciadas a cada abate. Um ciclo pode
 passar sem uma nova criatura aparecer; os intervalos não garantem um horário
 exato de chegada.
 
-!!! success "Status: 0.43.0"
-    Phoenix rara, criaturas raras e eventos oferecem caminhos de descoberta em Britannia.
+!!! success "Status: 0.45.0"
+    Eventos raros incluem os spawns de Modry e Seraphel em Felucca.

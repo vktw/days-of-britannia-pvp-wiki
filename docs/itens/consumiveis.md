@@ -17,9 +17,9 @@ cheia.
 
 ## Dragon Blood Clothing Dye
 
-Moonglow e Serpent's Hold oferecem um serviço de dye cosmético com Dragon Blood.
-Cada dye consome 150 ingots compatíveis, 10 Dragon Bloods e uma cobrança dinâmica
-em gold com piso de 50.000; o dye possui uma carga.
+O serviço de dye cosmético com Dragon Blood fica em **Nujelm Safe Haven**, com
+a NPC **Drakara**. Cada dye consome 150 ingots compatíveis, 10 Dragon Bloods e
+uma cobrança dinâmica em gold com piso de 50.000; o dye possui uma carga.
 
 ## Hides e Leather no 0.43.0
 
@@ -66,7 +66,16 @@ Pickaxe e Shovel, enquanto Carpenters vendem Fishing Pole.
 
 Provisioners também vendem as versões **Enduring** de Hatchet, Pickaxe, Shovel e
 Fishing Pole. Elas têm **500 usos**, aparecem com nomes explícitos no menu e
-custam **dez vezes** o preço da ferramenta comum.
+custam **dez vezes** o preço da ferramenta comum. Sea Serpents e Deep Sea
+Serpents não podem mais ser capturados com Fishing Pole.
+
+## Enduring Tools craftáveis no 0.45.0
+
+Tinkering permite fabricar **Enduring Hatchet, Enduring Pickaxe** e **Enduring
+Shovel** com **100 Iron Ingots**. As tentativas começam em **45.0** de Tinkering
+e chegam a 100% em **65.0**. A **Enduring Fishing Pole** continua exclusiva dos
+Provisioners. O estoque deles mantém um piso de 320 ferramentas comuns e
+Enduring mesmo após vendas parciais, sem alterar preços ou a escada de estoque.
 
 ## DoB Tools no 0.42.0
 
@@ -87,11 +96,20 @@ Nas ferramentas DoB, **Light** usa 500 usos; **Hardened** e **Tempered** usam
 1.000. **Artisan, Reliable e Refined** preservam a durabilidade normal de 50
 usos.
 
+## Kits de reparo
+
+Provisioners vendem o kit pequeno por **1.000 gold e 100 cargas** e o grande por
+**5.000 gold e 500 cargas**. A interface mostra a durabilidade dos itens
+equipados e da mochila e permite reparar o equipamento, a mochila ou tudo de uma
+vez. O reparo não falha; cada ponto de durabilidade efetivamente restaurado
+consome uma carga. Reduções de durabilidade máxima não gastam cargas sem reparar
+um ponto, e um kit vazio desaparece.
+
 ## Livros e montarias
 
 Novos personagens recebem Spellbook completo, Runebook vazio e cavalo shrinkado. Spellbooks e Runebooks são preservados quando o restante do inventário é guardado para uma luta de arena.
 
 Veja [Cura e recursos](../combate/cura-recursos.md) para todas as faixas e delays.
 
-!!! success "Status: 0.43.0"
+!!! success "Status: 0.45.1"
     Quantidades de kits e efeitos detalhados correspondem ao servidor oficial.
