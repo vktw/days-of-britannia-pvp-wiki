@@ -155,8 +155,8 @@ After **5 successful PvP thefts**, the character turns gray and can be attacked
 by any player without being considered criminal. Guards do not interfere, and
 banks, vendors, and moongates keep working. The count decreases by **1 every 40
 active hours**; murderer status takes precedence. Say `*i must consider my sins*`
-to check the count. The [DoB Cloth thief-gray cloak](../craft/tailoring.md) can
-hide the gray status from viewers who have not revealed the wearer.
+to check the count. The [DoB Cloth Thieving Cape](../craft/tailoring.md) can hide
+the gray status from viewers who have not revealed the wearer.
 
 !!! success "Status: 0.45.0"
     This page summarizes the active ruleset on the official server. Gameplay

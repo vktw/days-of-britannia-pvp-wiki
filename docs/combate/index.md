@@ -150,8 +150,8 @@ Ao alcançar **5 roubos PvP bem-sucedidos**, o personagem fica cinza e pode ser
 atacado por qualquer jogador sem ser considerado criminal. Guards não
 interferem, e bancos, vendors e moongates continuam funcionando. A contagem
 diminui em **1 a cada 40 horas ativas**; murderer tem precedência. Diga
-`*i must consider my sins*` para consultar a contagem. A [thief-gray cloak de
-DoB Cloth](../craft/tailoring.md) pode ocultar o estado cinza de quem ainda não
+`*i must consider my sins*` para consultar a contagem. A [Thieving Cape de DoB
+Cloth](../craft/tailoring.md) pode ocultar o estado cinza de quem ainda não
 revelou o usuário.
 
 !!! success "Status: 0.45.0"

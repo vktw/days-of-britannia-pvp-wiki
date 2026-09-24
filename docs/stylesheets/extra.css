@@ -546,6 +546,10 @@
   margin-top: 1rem;
 }
 
+.dob-craft-simulator__fields [data-craft-sim-arms-lore-field][hidden] {
+  display: none;
+}
+
 .dob-craft-simulator__fields select:disabled {
   opacity: 0.72;
   cursor: not-allowed;
@@ -611,6 +615,12 @@
   padding: 0.65rem;
   border: 1px solid var(--dob-border);
   background: rgb(7 22 28 / 48%);
+}
+
+.dob-craft-simulator__result > [data-craft-sim-tool-effect],
+.dob-craft-simulator__result > [data-craft-sim-requirements-row],
+.dob-craft-simulator__result > [data-craft-sim-effect-row] {
+  grid-column: 1 / -1;
 }
 
 .dob-craft-simulator__result strong {

@@ -79,7 +79,7 @@ entries:
     owner: server-owner
     review_after: null
   - id: tailoring-menu-0410
-    claim: "The simulator preserves the 139-recipe Tailoring snapshot from 0.43.0; Studded Leather Armor is no longer active. The Trailseeker Cloak requires 100.0 base Tracking to craft and wear, costs 100 Cloth and 20 Dragon Blood, starts at 80% craft chance, reaches 100% at 110.0, and adds 25 Tracking tiles and four targets. The thief-gray cloak requires 100.0 base Hiding, Stealth, Snooping, and Stealing to craft and wear; its concealment lasts up to one hour while worn and Forensic Evaluation reveals the wearer for ten minutes."
+    claim: "The simulator indexes 88 live Tailoring recipes from 0.45.1, excluding removed and blocked equipment; five basic Leather armor costs match the live recipe quantities, and all 16 Leather-primary recipes expose the selected leather material; the six supported armor pieces use its custom success curve and the Arms Lore Exceptional curve. Studded Leather Armor is no longer active. The Trailseeker Cloak requires 100.0 base Tracking to craft and wear, costs 100 Cloth and 20 Dragon Blood, and uses a 50% base chance at 80.0 effective Tailoring, interpolated linearly to 100% at 110.0 before any eligible Talisman bonus; it adds 25 Tracking tiles and four targets. The Thieving Cape requires 100.0 base Hiding, Stealth, Snooping, and Stealing to craft and wear. Its recipe uses 100 Cloth, 100 Bloodmoss, 100 Garlic, 100 Nightshade, and 15 Dragon Blood; its base chance is 50% at 75.0 effective Tailoring, interpolated linearly to 100% at 110.0 before any eligible Talisman bonus. Concealment lasts up to one hour while worn and Forensic Evaluation reveals the wearer for ten minutes."
     status: live
     source_status: approved
     live_version: "0.45.1"
@@ -187,7 +187,7 @@ entries:
     owner: server-owner
     review_after: null
   - id: tinkering-menu-0410
-    claim: "The simulator preserves the 270-recipe Tinkering snapshot from 0.42.0; the three craftable Enduring tools added in 0.45.0 are documented separately because their intermediate success curve is not published in the patch notes. Enduring tools use 100 Iron Ingots, attempts begin at 45.0 and success is guaranteed at 65.0; Enduring Fishing Pole remains Provisioner-only."
+    claim: "The simulator indexes 269 live Tinkering menu entries from 0.45.1, including three craftable Enduring gathering tools and the visible but uncraftable Nunchaku; blocked Gargish jewelry is excluded. Enduring tools cost 100 Iron Ingots and have a linear 0%-to-100% base success curve from 45.0 to 65.0; Enduring Fishing Pole remains Provisioner-only. Axle and Barrel Hoops have 50% and 30% base success chance at skill 0, respectively. Magic jewelry uses Gold Ingots; 108 Iron-primary recipes expose selectable metal, and Metal Chest and both armor-suit deeds use material-specific success curves."
     status: live
     source_status: approved
     live_version: "0.45.1"

@@ -168,14 +168,14 @@ function formatDobCraftChance(value) {
 
 const DOB_CRAFT_SKILL_LIMIT = 105.0;
 
-function parseDobCraftPoints(value) {
+function parseDobCraftPoints(value, skillLimit = DOB_CRAFT_SKILL_LIMIT) {
   return String(value || "")
     .split("|")
     .map((point) => {
       const [skill, chance] = point.split(":").map(Number);
       return { skill, chance };
     })
-    .filter((point) => Number.isFinite(point.skill) && Number.isFinite(point.chance) && point.skill <= DOB_CRAFT_SKILL_LIMIT)
+    .filter((point) => Number.isFinite(point.skill) && Number.isFinite(point.chance) && point.skill <= skillLimit)
     .sort((left, right) => left.skill - right.skill);
 }
 
@@ -316,6 +316,9 @@ function bindDobCraftSimulator() {
     const selectedGroup = simulator.querySelector("[data-craft-sim-selected-group]");
     const selectedRange = simulator.querySelector("[data-craft-sim-selected-range]");
     const material = simulator.querySelector("[data-craft-sim-material]");
+    const armsLoreField = simulator.querySelector("[data-craft-sim-arms-lore-field]");
+    const armsLore = simulator.querySelector("[data-craft-sim-arms-lore]");
+    const armsLoreValue = simulator.querySelector("[data-craft-sim-arms-lore-value]");
     const materialStatic = simulator.querySelector("[data-craft-sim-material-static]");
     const materialNote = simulator.querySelector("[data-craft-sim-material-note]");
     const skill = simulator.querySelector("input[data-craft-sim-skill]");
@@ -325,14 +328,16 @@ function bindDobCraftSimulator() {
     const recipeMinimum = simulator.querySelector("[data-craft-sim-recipe-min]");
     const materialMinimum = simulator.querySelector("[data-craft-sim-material-min]");
     const requirements = simulator.querySelector("[data-craft-sim-requirements]");
+    const itemEffect = simulator.querySelector("[data-craft-sim-effect]");
     const chance = simulator.querySelector("[data-craft-sim-chance]");
     const exceptional = simulator.querySelector("[data-craft-sim-exceptional]");
+    const result = simulator.querySelector("[data-craft-sim-result]");
     const note = simulator.querySelector("[data-craft-sim-note]");
 
     if (!menuScreen || !layout || !workbench || !openSectionButtons.length || !backButtons.length ||
         !search || !index || !items.length || !empty || !count || !categoryTitle || !selectedName ||
         !selectedGroup || !selectedRange || (!material && !materialStatic) || !materialNote || !skill || !skillValue ||
-        !ingredients || !skillName || !recipeMinimum || !materialMinimum || !chance || !exceptional || !note) {
+        !ingredients || !skillName || !recipeMinimum || !materialMinimum || !chance || !exceptional || !result || !note) {
       return;
     }
 
@@ -344,8 +349,13 @@ function bindDobCraftSimulator() {
           fixedMaterialLabel: "Fixed ingredients",
           woodMaterialLabel: "Main wood",
           woodMaterial: "Selected wood only changes the resource and minimum selection skill; it is not a chance bonus.",
+          leatherMaterialLabel: "Selected leather",
+          leatherMaterial: "The selected leather sets the success curve. Exceptional depends on Arms Lore, before tool bonuses.",
+          leatherStandard: "Selected leather changes the resource and its minimum selection skill, not this recipe's success curve.",
+          leatherCurve: "Live leather curve; the recipe minimum does not override the leather minimum.",
           metalMaterialLabel: "Selected metal",
           metalMaterial: "The metal selected in the menu is preserved in the item's material and color; the official cost is listed below.",
+          metalCurve: "Live success curve for the selected metal.",
           materialEligible: (name, value) => `${name} is selectable from ${formatDobCraftSkill(value)} ${simulatorSkill}.`,
           belowRecipe: "Below the recipe minimum: this item is not eligible.",
           belowMaterial: "Below the selected material minimum: this material cannot be selected at this skill.",
@@ -356,6 +366,18 @@ function bindDobCraftSimulator() {
           aboveCap: "At and above the last official point, the chance remains at the published cap.",
           review: "No chance is published for this skill point in the preview.",
           noCurve: "This entry has no chance curve to query.",
+          unavailable: "This item appears in the menu, but crafting it is disabled on the live server.",
+          toolEffectLabel: "DoB Tool family effect:",
+          noSearchMatch: "No recipe matches the search.",
+          toolEffects: {
+            Enduring: "500 uses per gathering tool.",
+            Light: "Lighter tool; 500 uses.",
+            Hardened: "Doubles the tool's uses; 1,000 uses.",
+            Tempered: "Lighter tool with double uses; 1,000 uses.",
+            Artisan: "+10% Exceptional chance on applicable crafts.",
+            Reliable: "+10% success chance. For gathering tools, this affects only the final Mining or Lumberjacking roll.",
+            Refined: "+10% success chance and +10% Exceptional chance on applicable crafts.",
+          },
           defaultTitle: "Full index",
         }
       : {
@@ -364,8 +386,13 @@ function bindDobCraftSimulator() {
           fixedMaterialLabel: "Ingredientes fixos",
           woodMaterialLabel: "Madeira principal",
           woodMaterial: "A madeira só muda o recurso e a skill mínima de seleção; não é bônus de chance.",
+          leatherMaterialLabel: "Couro selecionado",
+          leatherMaterial: "O couro define a curva de sucesso. Exceptional depende de Arms Lore, antes de bônus de ferramenta.",
+          leatherStandard: "O couro muda o recurso e a skill mínima de seleção, não a curva de sucesso desta receita.",
+          leatherCurve: "Curva live do couro; a mínima da receita não substitui a mínima do couro.",
           metalMaterialLabel: "Metal selecionado",
           metalMaterial: "O metal escolhido no menu é preservado no material e na cor do item; o custo oficial aparece abaixo.",
+          metalCurve: "Curva de sucesso live do metal selecionado.",
           materialEligible: (name, value) => `${name} pode ser selecionado a partir de ${formatDobCraftSkill(value)} de ${simulatorSkill}.`,
           belowRecipe: "Abaixo da skill mínima da receita: este item não está elegível.",
           belowMaterial: "Abaixo da skill mínima do material: este material não pode ser selecionado nesta skill.",
@@ -376,8 +403,30 @@ function bindDobCraftSimulator() {
           aboveCap: "No último ponto oficial e acima dele, a chance permanece no teto publicado.",
           review: "A fonte oficial não publica uma chance para este ponto na prévia.",
           noCurve: "Esta entrada não possui curva de chance para consulta.",
+          unavailable: "Este item aparece no menu, mas sua fabricação está bloqueada no servidor live.",
+          toolEffectLabel: "Efeito da família DoB Tool:",
+          noSearchMatch: "Nenhuma receita corresponde à busca.",
+          toolEffects: {
+            Enduring: "500 usos por ferramenta de coleta.",
+            Light: "Ferramenta mais leve; 500 usos.",
+            Hardened: "Duplica os usos da ferramenta; 1.000 usos.",
+            Tempered: "Ferramenta mais leve e com o dobro de usos; 1.000 usos.",
+            Artisan: "+10% de chance de Exceptional em crafts aplicáveis.",
+            Reliable: "+10% de chance de sucesso. Em ferramentas de coleta, afeta somente a rolagem final de Mining ou Lumberjacking.",
+            Refined: "+10% de chance de sucesso e +10% de Exceptional em crafts aplicáveis.",
+          },
           defaultTitle: "Índice completo",
         };
+
+    const toolEffectField = document.createElement("div");
+    toolEffectField.hidden = true;
+    toolEffectField.dataset.craftSimToolEffect = "";
+    const toolEffectLabel = document.createElement("span");
+    toolEffectLabel.textContent = copy.toolEffectLabel;
+    const toolEffectValue = document.createElement("strong");
+    toolEffectField.append(toolEffectLabel, toolEffectValue);
+    result.append(toolEffectField);
+    empty.textContent = copy.noSearchMatch;
 
     const legacySectionIds = {
       materials: ["elven-fletching", "kindling", "shaft", "arrow", "bolt", "fukiya-darts"],
@@ -408,15 +457,40 @@ function bindDobCraftSimulator() {
     }
 
     function selectedMaterialMinimum(item) {
-      if (item.dataset.craftMaterialMode !== "wood") {
+      if (!["wood", "leather", "metal-standard", "metal-policy"].includes(item.dataset.craftMaterialMode)) {
         return null;
       }
 
-      return Number(selectedMaterialOption()?.dataset.craftMaterialMin || 0);
+      const materialMinimum = Number(selectedMaterialOption()?.dataset.craftMaterialMin || 0);
+      return item.dataset.craftMaterialMode === "metal-policy"
+        ? Math.max(50, materialMinimum)
+        : materialMinimum;
     }
 
     function updateIngredients(item) {
       const mode = item.dataset.craftMaterialMode;
+
+      if (mode === "leather") {
+        const selectedOption = selectedMaterialOption();
+        const amount = Number(item.dataset.craftLeatherAmount || 0);
+        const name = amount === 1
+          ? selectedOption?.dataset.craftMaterialName
+          : selectedOption?.dataset.craftMaterialPlural;
+        ingredients.textContent = amount > 0 && name ? `${amount} ${name}` : "—";
+        return;
+      }
+
+      if (mode === "metal-standard" || mode === "metal-policy") {
+        const option = selectedMaterialOption();
+        const original = item.dataset.craftMaterials || "";
+        const iron = /^(\d+) Iron Ingot(?:s)?(.*)$/.exec(original);
+        const amount = iron ? Number(iron[1]) : Number(item.dataset.craftMetalAmount || 0);
+        const extra = iron ? iron[2] : "";
+        ingredients.textContent = amount > 0 && option
+          ? `${amount} ${option.dataset.craftMaterialPlural || "Ingots"}${extra}`
+          : "—";
+        return;
+      }
 
       if (mode !== "wood") {
         ingredients.textContent = item.dataset.craftMaterials || "—";
@@ -444,14 +518,23 @@ function bindDobCraftSimulator() {
     function updateMaterialState(item) {
       const materialMode = item.dataset.craftMaterialMode;
       const isWood = materialMode === "wood";
-      const isMetal = materialMode === "metal";
+      const isMetal = materialMode === "metal-standard" || materialMode === "metal-policy";
+      const isLeather = materialMode === "leather";
+      const isLeatherArmor = item.dataset.craftFormula === "leather";
       if (material) {
-        material.disabled = !isWood;
+        material.disabled = !(isWood || isLeather || isMetal);
+        material.hidden = !(isWood || isLeather || isMetal);
+      }
+
+      if (armsLoreField) {
+        armsLoreField.hidden = !isLeatherArmor;
       }
 
       if (materialStatic) {
         materialStatic.textContent = isWood
           ? copy.woodMaterialLabel
+          : isLeather
+            ? copy.leatherMaterialLabel
           : isMetal
             ? copy.metalMaterialLabel
             : copy.fixedMaterialLabel;
@@ -459,14 +542,15 @@ function bindDobCraftSimulator() {
 
       materialNote.textContent = isWood
         ? copy.woodMaterial
+        : isLeather
+          ? (isLeatherArmor ? copy.leatherMaterial : copy.leatherStandard)
         : isMetal
           ? copy.metalMaterial
           : copy.fixedMaterial;
     }
 
     function updateSliderLimit(item) {
-      const configuredMaximum = Math.min(Number(item.dataset.craftSliderMax || simulator.dataset.craftSimSliderMax || 150), DOB_CRAFT_SKILL_LIMIT);
-      const sliderMaximum = Math.min(DOB_CRAFT_SKILL_LIMIT, Math.max(configuredMaximum, Number(item.dataset.craftMax || 0)));
+      const sliderMaximum = Number(item.dataset.craftSliderMax || simulator.dataset.craftSimSliderMax || DOB_CRAFT_SKILL_LIMIT);
       const currentSkill = Math.min(Number(skill.value), sliderMaximum);
 
       skill.max = String(sliderMaximum);
@@ -487,6 +571,8 @@ function bindDobCraftSimulator() {
           item.dataset.craftGroup,
           item.dataset.craftMaterials,
           item.dataset.craftFixedMaterials,
+          item.dataset.craftRequirements,
+          item.dataset.craftEffect,
           searchableMaterials,
           item.textContent,
         ].join(" "));
@@ -523,11 +609,19 @@ function bindDobCraftSimulator() {
         return;
       }
 
+      const family = selectedItem.dataset.craftSimSection === "dob-tools"
+        ? (selectedItem.dataset.craftItemName || "").trim().split(/\s+/, 1)[0]
+        : "";
+      const effect = copy.toolEffects[family];
+      toolEffectField.hidden = !effect;
+      toolEffectValue.textContent = effect || "";
       const selectedSkill = Number(skill.value);
+      skillValue.textContent = formatDobCraftSkill(selectedSkill);
+
       const minimumSkill = Number(selectedItem.dataset.craftMin);
       const maximumSkill = Number(selectedItem.dataset.craftMax);
       const selectedMaterialMin = selectedMaterialMinimum(selectedItem);
-      const points = parseDobCraftPoints(selectedItem.dataset.craftPoints);
+      const points = parseDobCraftPoints(selectedItem.dataset.craftPoints, Number(skill.max));
       const exact = points.find((point) => Math.abs(point.skill - selectedSkill) < 0.051);
       const lower = points.filter((point) => point.skill < selectedSkill - 0.051).pop();
       const upper = points.find((point) => point.skill > selectedSkill + 0.051);
@@ -572,9 +666,61 @@ function bindDobCraftSimulator() {
       updateExceptional(null);
       updateIngredients(selectedItem);
       if (requirements) {
-        requirements.textContent = selectedItem.dataset.craftRequirements || "—";
+        const value = selectedItem.dataset.craftRequirements || "";
+        requirements.textContent = value;
+        requirements.parentElement.hidden = !value;
+      }
+      if (itemEffect) {
+        const value = selectedItem.dataset.craftEffect || "";
+        itemEffect.textContent = value;
+        itemEffect.parentElement.hidden = !value;
       }
       chance.textContent = "—";
+
+      if (selectedItem.dataset.craftUnavailable === "true") {
+        note.textContent = copy.unavailable;
+        return;
+      }
+
+      if (selectedItem.dataset.craftFormula === "leather") {
+        const option = selectedMaterialOption();
+        const required = Number(option?.dataset.craftMaterialMin);
+        const at100 = Number(option?.getAttribute("data-craft-leather-at-100"));
+        const full = Number(option?.dataset.craftLeatherFull);
+        const lore = Math.max(0, Math.min(150, Number(armsLore?.value || 0)));
+        if (armsLoreValue) armsLoreValue.textContent = formatDobCraftSkill(lore);
+        selectedRange.textContent = `${formatDobCraftSkill(required)}–${formatDobCraftSkill(Math.min(full, Number(skill.max)))} ${skillLabel}`;
+        if (!option || selectedSkill < required) {
+          note.textContent = copy.belowMaterial;
+          return;
+        }
+        const success = selectedSkill <= 100
+          ? 20 + (selectedSkill - required) / (100 - required) * (at100 - 20)
+          : selectedSkill >= full
+            ? 100
+            : at100 + (selectedSkill - 100) / (full - 100) * (100 - at100);
+        const exceptionalChance = lore <= 100 ? lore * 0.75 : 75 + (lore - 100) * 0.30;
+        chance.textContent = formatDobCraftChance(success);
+        exceptional.textContent = formatDobCraftChance(exceptionalChance);
+        note.textContent = copy.leatherCurve;
+        return;
+      }
+
+      if (selectedItem.dataset.craftFormula === "metal-policy") {
+        const option = selectedMaterialOption();
+        const required = selectedMaterialMinimum(selectedItem);
+        const full = Number(option?.dataset.craftMetalFull);
+        selectedRange.textContent = `${formatDobCraftSkill(required)}–${formatDobCraftSkill(full)} ${skillLabel}`;
+        if (!option || selectedSkill < required) {
+          note.textContent = copy.belowMaterial;
+          return;
+        }
+        const success = selectedSkill >= full ? 100 : (selectedSkill - required) / (full - required) * 100;
+        chance.textContent = formatDobCraftChance(success);
+        updateExceptional(success / 100);
+        note.textContent = copy.metalCurve;
+        return;
+      }
 
       if (selectedSkill < minimumSkill) {
         note.textContent = copy.belowRecipe;
@@ -651,7 +797,7 @@ function bindDobCraftSimulator() {
       selectedName.textContent = item.dataset.craftItemName || "—";
       selectedGroup.textContent = item.dataset.craftGroup || "—";
       const skillLabel = item.dataset.craftSkill || simulatorSkill;
-      selectedRange.textContent = `${formatDobCraftSkill(item.dataset.craftMin)}–${formatDobCraftSkill(Math.min(Number(item.dataset.craftMax), DOB_CRAFT_SKILL_LIMIT))} ${skillLabel}`;
+      selectedRange.textContent = `${formatDobCraftSkill(item.dataset.craftMin)}–${formatDobCraftSkill(Math.min(Number(item.dataset.craftMax), Number(item.dataset.craftSliderMax || DOB_CRAFT_SKILL_LIMIT)))} ${skillLabel}`;
       updateSliderLimit(item);
       updateMaterialState(item);
       updateSimulator();
@@ -673,6 +819,7 @@ function bindDobCraftSimulator() {
     search.addEventListener("input", updateSearchResults);
     material?.addEventListener("change", updateSimulator);
     skill.addEventListener("input", updateSimulator);
+    armsLore?.addEventListener("input", updateSimulator);
 
     items.forEach((item) => {
       item.hidden = true;
