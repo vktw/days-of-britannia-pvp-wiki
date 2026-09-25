@@ -72,6 +72,7 @@ plugins:
             Sistemas: Systems
             Base e referência: Foundation and reference
             Sistemas habilitados: Enabled systems
+            'Thief: Snooping e Stealing': 'Thief: Snooping and Stealing'
             Achievements: Achievements
             Maestria PvM: PvM Mastery
             Caça PvM: PvM hunting
@@ -124,6 +125,7 @@ nav:
       - Base e referência:
           - Visão geral: sistemas/index.md
           - Sistemas habilitados: sistemas/habilitados.md
+          - 'Thief: Snooping e Stealing': sistemas/thief.md
       - Progressão e PvM:
           - Achievements: sistemas/achievements.md
           - Maestria PvM: sistemas/pvm-mastery.md

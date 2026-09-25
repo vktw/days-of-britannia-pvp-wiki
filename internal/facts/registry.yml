@@ -313,9 +313,9 @@ entries:
     live_version: "0.45.1"
     verification_date: "2026-09-24"
     approved_source: "live-server/v0.45.1"
-    public_reference: "docs/combate/index.md"
-    canonical_pt: "docs/combate/index.md"
-    english_counterpart: "docs/combate/index.en.md"
+    public_reference: "docs/sistemas/thief.md"
+    canonical_pt: "docs/sistemas/thief.md"
+    english_counterpart: "docs/sistemas/thief.en.md"
     owner: pvp-maintainer
     review_after: null
   - id: deadly-poison-alchemy-0450

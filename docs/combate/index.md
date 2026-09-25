@@ -129,6 +129,8 @@ reposicionar, recuperar mana ou preparar a próxima resposta.
 
 ## Snooping e Stealing em PvP
 
+Consulte [Thief: Snooping e Stealing](../sistemas/thief.md) para o fluxo completo de inspeção, roubo, retaliação e estado cinza.
+
 Snooping respeita um intervalo de **4 segundos**. Se uma tentativa for bloqueada
 por cooldown, você recebe o tempo restante e não vê o conteúdo. É possível
 inspecionar e abrir containers vinculados ao starter kit, inclusive com outros

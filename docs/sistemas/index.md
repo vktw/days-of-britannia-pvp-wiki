@@ -5,6 +5,7 @@ recebe regras de PvP e PvM customizadas para o objetivo do shard.
 
 - [Sistemas habilitados](habilitados.md)
 - [Arena e treinamento](../arena.md)
+- [Thief: Snooping e Stealing](thief.md): inspeção, roubo PvP, retaliação e estado cinza.
 - [Achievements](achievements.md)
 - [Maestria PvM](pvm-mastery.md)
 - [Caça PvM](caca-pvm.md): contratos com objetivos sorteados e recompensa em caixa de madeira.

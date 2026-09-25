@@ -5,6 +5,7 @@ extended with custom PvP and PvM rules for the shard's direction.
 
 - [Enabled systems](habilitados.md)
 - [Arena and training](../arena.md)
+- [Thief: Snooping and Stealing](thief.md): inspection, PvP theft, retaliation, and gray status.
 - [Achievements](achievements.md)
 - [PvM Mastery](pvm-mastery.md)
 - [PvM hunting](caca-pvm.md): contracts with randomized objectives and a wooden-crate reward.

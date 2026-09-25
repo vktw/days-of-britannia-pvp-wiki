@@ -134,6 +134,8 @@ reposition, recover mana, or prepare the next response.
 
 ## Snooping and Stealing in PvP
 
+See [Thief: Snooping and Stealing](../sistemas/thief.md) for the full flow of inspection, theft, retaliation, and gray status.
+
 Snooping has a **4-second** interval. If an attempt is blocked by cooldown, you
 are told how long remains and see no contents. You can inspect and open
 starter-bound containers, including those holding other bound items; using,
