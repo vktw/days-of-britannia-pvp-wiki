@@ -50,6 +50,15 @@ tier above: weapons from Ruin through Vanquishing and armor from Defense through
 Invulnerability. Shields and helms use permitted craftable appearances without
 changing Armor Rating. **Chain Coif** keeps its own appearance.
 
+## Great Harts in 0.46.0
+
+Slaying a wild rare Great Hart with looting rights awards exactly one exclusive
+variant **dye** and one **wall trophy**, with no Gold, XP, carving, or normal
+Loot Pack. Deaths without an eligible participant, pets, summons, and already
+tamed specimens grant none of these rewards. Hunt and tame PvM Mastery XP comes
+only from the achievements; see [Achievements](../sistemas/achievements.md) and
+[Rare spawns](../sistemas/spawns-raros.md).
+
 ## Magical jewelry
 
 Magical earrings, bracelets, and rings can increase STR, DEX, or INT while equipped. Jewelry uses the classic appearance of its item type and has durability.

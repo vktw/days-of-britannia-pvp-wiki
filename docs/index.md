@@ -21,8 +21,8 @@ hide:
 
 <section class="dob-landing-strip" aria-label="Status do servidor">
   <span class="dob-landing-stat"><strong><i aria-hidden="true"></i>Servidor online</strong><small>Britannia está ativa</small></span>
-  <span class="dob-landing-stat"><strong>0.45.1</strong><small>Versão atual</small></span>
-  <a class="dob-landing-stat" href="patches/"><strong>Coleta e reparos</strong><small>Última atualização</small></a>
+  <span class="dob-landing-stat"><strong>0.46.1</strong><small>Versão atual</small></span>
+  <a class="dob-landing-stat" href="patches/"><strong>Correção de picos de ping</strong><small>Última atualização</small></a>
 </section>
 
 <nav class="dob-landing-shortcuts" aria-label="Atalhos do manual">
@@ -81,18 +81,18 @@ hide:
   <h2 id="dob-landing-news" class="dob-landing-section__title">O shard não para</h2>
   <div class="dob-landing-news">
     <article class="dob-landing-patch">
-      <span class="dob-landing-patch__tag">Última atualização · 0.45.1</span>
-      <h3>Coleta e reparos</h3>
-      <p class="dob-landing-patch__date"><time datetime="2026-09-23">23 de setembro de 2026</time></p>
-      <p>A reposição de recursos especiais acompanha a população conectada, e os kits de reparo consomem cargas somente pela durabilidade restaurada.</p>
+      <span class="dob-landing-patch__tag">Última atualização · 0.46.1</span>
+      <h3>Correção de picos de ping</h3>
+      <p class="dob-landing-patch__date"><time datetime="2026-09-27">27 de setembro de 2026</time></p>
+      <p>Atualizações de rede agrupadas no mesmo ciclo do servidor reduzem picos de ping em combate e ao entrar em áreas com muitas criaturas.</p>
       <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="patches/">Ler patch notes</a>
     </article>
     <div class="dob-landing-articles">
       <h3>Últimos artigos atualizados</h3>
-      <a href="itens/consumiveis/"><time datetime="2026-09-23">23 set</time><span><strong>Consumíveis e ferramentas</strong><small>Kits de reparo e novas regras de cobrança</small></span></a>
-      <a href="craft/"><time datetime="2026-09-23">23 set</time><span><strong>Craft e recursos</strong><small>Reposição global de minérios e madeiras especiais</small></span></a>
-      <a href="sistemas/spawns-raros/"><time datetime="2026-09-19">19 set</time><span><strong>Spawns raros</strong><small>Modry, Seraphel e seus novos encontros</small></span></a>
-      <a href="sistemas/casas/"><time datetime="2026-09-19">19 set</time><span><strong>Casas</strong><small>Permissões atualizadas para co-owners</small></span></a>
+      <a href="sistemas/spawns-raros/"><time datetime="2026-09-24">24 set</time><span><strong>Spawns raros</strong><small>Seis Great Harts raros, ciclos, doma e recompensas</small></span></a>
+      <a href="sistemas/achievements/"><time datetime="2026-09-24">24 set</time><span><strong>Achievements</strong><small>12 conquistas de caçada e doma dos Harts</small></span></a>
+      <a href="itens/recompensas-pvm/"><time datetime="2026-09-24">24 set</time><span><strong>Recompensas PvM</strong><small>Tintas exclusivas e troféus de parede</small></span></a>
+      <a href="patches/"><time datetime="2026-09-27">27 set</time><span><strong>Patch notes</strong><small>Correção de picos de ping do 0.46.1</small></span></a>
     </div>
   </div>
 </section>

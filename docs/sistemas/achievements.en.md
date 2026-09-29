@@ -65,6 +65,24 @@ The new cumulative tracks grant additional PvM Mastery XP only:
 The two tracks are independent. All eligible profiles count toward the
 milestones; this track adds no Gold, loot, or Scroll reward.
 
+## Great Harts in 0.46.0
+
+Each rare Great Hart variant has two one-time achievements of its own, with no
+retroactive credit:
+
+| Variant | Hunt (defeat 1 wild) | Tame (tame 1 wild) |
+|---|---|---|
+| Moonshroud Hart | 2,500 XP | 5,000 XP |
+| Stormveil Hart | 2,500 XP | 5,000 XP |
+| Duskbloom Hart | 2,500 XP | 5,000 XP |
+| Emberfall Hart | 2,500 XP | 5,000 XP |
+| Crimsonveil Hart | 2,500 XP | 5,000 XP |
+| Starveil Hart | 2,500 XP | 5,000 XP |
+
+Rewards are additional PvM Mastery XP only; the hunt grants no ordinary PvM
+economy and taming grants no XP beyond the achievement.
+See [Rare spawns](spawns-raros.md) for cycles and taming requirements.
+
 ## Limits
 
 Achievements do not add points, rankings, titles, or cosmetic rewards. First

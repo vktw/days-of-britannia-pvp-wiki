@@ -29,6 +29,8 @@ Town Criers can also share rumors about Rare Events and the **Rare Rideable
 Llama**. The goal is to provide a lead, not to replace exploring the world.
 While the event is active, the rumor may also mention **The Man in the Hedge**.
 Town Criers can also share leads about **Seraphel** while that event is active.
+Rare **Great Harts do not** appear in Whispers; follow them through the world
+announcements and `[rareevents`.
 
 ## Whispers interface
 

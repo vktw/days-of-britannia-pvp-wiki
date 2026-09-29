@@ -6,6 +6,10 @@ O catálogo de craft inclui **Iron, Bronze, Shadow, Silver, Gold, Bloodrock, Bla
 
 Equipamentos mágicos de PvM permanecem em Iron.
 
+No 0.46.0, **Shadow** ganhou uma nova cor: lingotes, minérios e granitos de
+Shadow já existentes passam a usar a nova cor, enquanto equipamentos que
+guardam o próprio hue mantêm sua aparência.
+
 ## Metais e peças Chain
 
 Blacksmithy permite escolher entre **Iron, Bronze, Shadow, Silver, Gold, Bloodrock, Blackrock, Mythril e Brittanium**. O metal escolhido mantém o custo da receita e contribui com o bônus de material no `Armor Rating` conforme o tier. A qualidade Low, Normal ou Exceptional muda a durabilidade, mas não a proteção calculada pelo material.
@@ -80,6 +84,9 @@ elementais modernas não entram separadamente no PvP do shard.
 
 Equipamentos novos ou alterados dos tiers Invulnerability usam hue `2483`;
 itens salvos não são migrados.
+
+Armaduras e shields **Guarding** novos usam a cor atualizada do tier; peças
+Guarding já existentes mantêm sua aparência.
 
 ## Cobertura e slots
 

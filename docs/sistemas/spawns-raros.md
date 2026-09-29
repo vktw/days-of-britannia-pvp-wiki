@@ -84,6 +84,25 @@ Expertise, Scroll of Knowledge e um roll extra de loot. Heater Shields of
 Invulnerability aparecem como **Dawnward of the Hollow Choir**. O livro
 colecionável começa sem conteúdo de lore até ser descoberto.
 
+## Great Harts raros
+
+Seis **Great Harts raros** percorrem Felucca, cada um com sua própria cor:
+**Moonshroud**, **Stormveil**, **Duskbloom**, **Emberfall**, **Crimsonveil** e
+**Starveil**. Cada variante tem seu próprio ciclo de **2 a 4 dias** e apenas um
+exemplar selvagem por vez; a wiki não publica pontos ou horários.
+
+Eles podem ser domados com **105.0 de Animal Taming** e não deixam carne, couro,
+Gold ou recompensas normais de PvM. Abater um exemplar selvagem com direito ao
+loot garante uma **tinta exclusiva** da variante e um **troféu de parede**.
+
+Avisos globais em vermelho anunciam a chegada, lembram a presença a cada hora
+enquanto o hart segue vivo e selvagem e avisam quando ele é domado ou abatido.
+Great Harts raros **não** aparecem nos Whispers of Britannia; a equipe pode
+acompanhar cada variante por `[rareevents`.
+
+Caçar ou domar cada variante pela primeira vez conclui um achievement próprio;
+consulte [Achievements](achievements.md).
+
 ## The Man in the Hedge
 
 No Hedge Maze, dez sombras espalhadas guardam o encontro. Derrote-as para
@@ -119,6 +138,7 @@ Britannia](whispers-britannia.md).
 | Odran | 3–6 dias após a morte | Um intervalo aleatório é escolhido depois da morte do boss. |
 | Modry | 3–6 dias | Ponto fixo em Felucca; intervalo aleatório entre aparições. |
 | Seraphel | 3–6 dias | Ponto fixo em Felucca; intervalo aleatório entre aparições. |
+| Great Harts raros | 2–4 dias por variante | Seis ciclos independentes; um exemplar selvagem por variante. |
 | The Man in the Hedge | 3–6 dias após a morte | Um intervalo aleatório é escolhido depois da morte do boss final. |
 | Rare Britannia | Sempre uma disponível | O mundo mantém uma montaria selvagem ativa. Ao liberar a vaga, a reposição começa assim que houver um local válido. |
 
@@ -126,5 +146,5 @@ Os ciclos em horas não são contagens reiniciadas a cada abate. Um ciclo pode
 passar sem uma nova criatura aparecer; os intervalos não garantem um horário
 exato de chegada.
 
-!!! success "Status: 0.45.0"
-    Eventos raros incluem os spawns de Modry e Seraphel em Felucca.
+!!! success "Status: 0.46.0"
+    Eventos raros incluem os spawns de Modry, Seraphel e dos seis Great Harts em Felucca.

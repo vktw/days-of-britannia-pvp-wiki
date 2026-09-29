@@ -21,8 +21,8 @@ hide:
 
 <section class="dob-landing-strip" aria-label="Server status">
   <span class="dob-landing-stat"><strong><i aria-hidden="true"></i>Server online</strong><small>Britannia is active</small></span>
-  <span class="dob-landing-stat"><strong>0.45.1</strong><small>Current version</small></span>
-  <a class="dob-landing-stat" href="patches/"><strong>Gathering and repairs</strong><small>Latest update</small></a>
+  <span class="dob-landing-stat"><strong>0.46.1</strong><small>Current version</small></span>
+  <a class="dob-landing-stat" href="patches/"><strong>Ping spike fix</strong><small>Latest update</small></a>
 </section>
 
 <nav class="dob-landing-shortcuts" aria-label="Manual shortcuts">
@@ -81,18 +81,18 @@ hide:
   <h2 id="dob-landing-news" class="dob-landing-section__title">The shard keeps moving</h2>
   <div class="dob-landing-news">
     <article class="dob-landing-patch">
-      <span class="dob-landing-patch__tag">Latest update · 0.45.1</span>
-      <h3>Gathering and repairs</h3>
-      <p class="dob-landing-patch__date"><time datetime="2026-09-23">September 23, 2026</time></p>
-      <p>Special-resource replenishment now follows the connected population, and Repair Kits spend charges only for durability actually restored.</p>
+      <span class="dob-landing-patch__tag">Latest update · 0.46.1</span>
+      <h3>Ping spike fix</h3>
+      <p class="dob-landing-patch__date"><time datetime="2026-09-27">September 27, 2026</time></p>
+      <p>Network updates coalesced within the same server cycle reduce ping spikes in combat and when entering areas with many creatures.</p>
       <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="patches/">Read patch notes</a>
     </article>
     <div class="dob-landing-articles">
       <h3>Latest updated articles</h3>
-      <a href="itens/consumiveis/"><time datetime="2026-09-23">Sep 23</time><span><strong>Consumables and tools</strong><small>Repair Kits and updated charge rules</small></span></a>
-      <a href="craft/"><time datetime="2026-09-23">Sep 23</time><span><strong>Craft and resources</strong><small>Global supply of special ore and wood</small></span></a>
-      <a href="sistemas/spawns-raros/"><time datetime="2026-09-19">Sep 19</time><span><strong>Rare spawns</strong><small>Modry, Seraphel, and their new encounters</small></span></a>
-      <a href="sistemas/casas/"><time datetime="2026-09-19">Sep 19</time><span><strong>Houses</strong><small>Updated co-owner permissions</small></span></a>
+      <a href="sistemas/spawns-raros/"><time datetime="2026-09-24">Sep 24</time><span><strong>Rare spawns</strong><small>Six rare Great Harts, cycles, taming, and rewards</small></span></a>
+      <a href="sistemas/achievements/"><time datetime="2026-09-24">Sep 24</time><span><strong>Achievements</strong><small>12 Hart hunt and tame achievements</small></span></a>
+      <a href="itens/recompensas-pvm/"><time datetime="2026-09-24">Sep 24</time><span><strong>PvM rewards</strong><small>Exclusive dyes and wall trophies</small></span></a>
+      <a href="patches/"><time datetime="2026-09-27">Sep 27</time><span><strong>Patch notes</strong><small>0.46.1 ping spike fix</small></span></a>
     </div>
   </div>
 </section>

@@ -6,6 +6,10 @@ The crafting catalog includes **Iron, Bronze, Shadow, Silver, Gold, Bloodrock, B
 
 Magical PvM equipment remains Iron.
 
+In 0.46.0, **Shadow** gained a new color: existing Shadow ingots, ore, and
+granite now use the new color, while equipment storing its own hue keeps its
+appearance.
+
 ## Metals and Chain pieces
 
 Blacksmithy lets you choose **Iron, Bronze, Shadow, Silver, Gold, Bloodrock, Blackrock, Mythril, or Brittanium**. The selected metal keeps the recipe cost and contributes its material bonus to `Armor Rating` according to its tier. Low, Normal, and Exceptional quality change durability but not the protection calculated from the material.
@@ -78,6 +82,9 @@ elemental resistances do not apply separately in the shard's PvP.
 
 New or tier-mutated Invulnerability equipment uses hue `2483`; saved items are
 not migrated.
+
+New **Guarding** armor and shields use the tier's updated color; existing
+Guarding pieces keep their appearance.
 
 ## Coverage and slots
 
