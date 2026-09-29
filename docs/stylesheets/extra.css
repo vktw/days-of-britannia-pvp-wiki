@@ -3083,3 +3083,32 @@ body:has(.dob-landing-page) .md-main__inner {
     min-height: min(88vh, 46rem);
   }
 }
+
+/* Landing hero: centered copy and actions. */
+.dob-landing-hero {
+  align-items: center;
+  text-align: center;
+}
+
+.md-typeset .dob-landing-hero__lede {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dob-landing-cta {
+  justify-content: center;
+}
+
+body:has(.dob-landing-page) .md-container::before {
+  background:
+    linear-gradient(180deg, rgb(7 9 12 / 55%) 0%, rgb(7 9 12 / 0%) 24%, rgb(7 9 12 / 0%) 46%, rgb(7 9 12 / 86%) 82%, var(--dob-bg) 100%),
+    radial-gradient(60% 50% at 50% 72%, rgb(7 9 12 / 70%), transparent),
+    url("../assets/hero-main-dark-test-b.webp?v=20260806.1") center 35% / cover no-repeat;
+}
+
+.dob-landing-hero .dob-landing-kicker::after {
+  width: 1.8rem;
+  height: 2px;
+  background: currentcolor;
+  content: "";
+}
