@@ -37,7 +37,7 @@ REQUIRED_HEADINGS = {
     "combate/exemplos-dano.md": ["# Exemplos de dano", "## Conteúdo consolidado"],
     "combate/poison.md": ["# Poison", "## Conteúdo consolidado"],
     "combate/invisibilidade.md": ["# Invisibilidade e Detect Hidden", "## Conteúdo consolidado"],
-    "patches.md": ["# Patch notes", "## 0.45.1 · Coleta e reparos", "## 0.45.0 · Casas, crafting e exploração", "## 0.44.0 · Modry, ofícios e PvP", "## 0.23.0", "## 0.22.1", "## 0.22.0", "## 0.21.1", "## 0.21.0", "## 0.20.0", "## 0.19.0", "## 0.18.4", "## 0.18.3", "## 0.18.1", "## 0.18.0", "## 0.17.2", "## 0.17.0", "## 0.16.0", "## 0.15.0", "## 0.14.1", "## 0.14.0", "## 0.13.1", "## 0.13.0", "## 0.12.0", "## 0.11.5", "## 0.11.4", "## 0.11.3", "## 0.11.1", "## 0.11.0", "## 0.10.3", "## 0.10.2", "## 0.10.1", "## 0.10.0", "## 0.9.12", "## 0.9.8", "## 0.9.6", "## 0.9.2", "## 0.7.0", "## 0.1.0"],
+    "patches.md": ["# Patch notes", "## 0.46.1 · Correção de picos de ping", "## 0.46.0 · Seis Great Harts raros", "## 0.45.1 · Coleta e reparos", "## 0.45.0 · Casas, crafting e exploração", "## 0.44.0 · Modry, ofícios e PvP", "## 0.23.0", "## 0.22.1", "## 0.22.0", "## 0.21.1", "## 0.21.0", "## 0.20.0", "## 0.19.0", "## 0.18.4", "## 0.18.3", "## 0.18.1", "## 0.18.0", "## 0.17.2", "## 0.17.0", "## 0.16.0", "## 0.15.0", "## 0.14.1", "## 0.14.0", "## 0.13.1", "## 0.13.0", "## 0.12.0", "## 0.11.5", "## 0.11.4", "## 0.11.3", "## 0.11.1", "## 0.11.0", "## 0.10.3", "## 0.10.2", "## 0.10.1", "## 0.10.0", "## 0.9.12", "## 0.9.8", "## 0.9.6", "## 0.9.2", "## 0.7.0", "## 0.1.0"],
     "proximo-patch.md": ["# Próximo Patch Planejado"],
     "sistemas-desativados.md": ["# Sistemas desativados"],
     "mundo/threat-rating.md": ["# Threat Rating", "## Exemplos da escala"],

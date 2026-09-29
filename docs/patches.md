@@ -2,6 +2,24 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.46.1 · Correção de picos de ping
+
+Publicado em 27 de setembro de 2026.
+
+- O envio de pequenas atualizações de rede agora é agrupado dentro do mesmo ciclo do servidor, reduzindo picos de ping em combate e ao entrar em áreas com muitas criaturas.
+
+## 0.46.0 · Seis Great Harts raros
+
+Publicado em 24 de setembro de 2026.
+
+- Seis **Great Harts raros** percorrem Felucca. Cada variante tem sua própria cor, pode ser domada com **105.0 de Animal Taming** e, quando caçada ainda selvagem, pode deixar uma tinta exclusiva e um troféu de parede. Cada variante tem seu próprio ciclo de 2 a 4 dias, sem carne, couro, Gold ou economia normal de PvM.
+- Avisos globais em vermelho anunciam a chegada dos Great Harts raros, lembram sua presença a cada hora enquanto estão vivos e selvagens e avisam quando são domados ou abatidos. Eles não aparecem nos Whispers of Britannia.
+- Caçar ou domar cada variante pela primeira vez conclui um achievement próprio: **2.500 XP de Maestria PvM** na caçada e **5.000 XP** na doma, uma única vez por variante.
+- **Shadow** ganha uma nova cor. Lingotes, minérios e granitos de Shadow já existentes passam a usar a nova cor; equipamentos já existentes mantêm sua aparência.
+- Novas armas **Might** e armaduras e shields **Guarding** recebem uma nova cor. Itens já existentes mantêm sua aparência.
+
+Consulte [Spawns raros](sistemas/spawns-raros.md), [Achievements](sistemas/achievements.md) e [Recompensas PvM](itens/recompensas-pvm.md).
+
 ## 0.45.1 · Coleta e reparos
 
 Publicado em 23 de setembro de 2026.

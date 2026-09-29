@@ -2,6 +2,24 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.46.1 · Ping spike fix
+
+Published on September 27, 2026.
+
+- Small network updates are now coalesced within the same server cycle, reducing ping spikes during combat and when entering areas with many creatures.
+
+## 0.46.0 · Six rare Great Harts
+
+Published on September 24, 2026.
+
+- Six rare **Great Harts** roam Felucca. Each variant has its own color, can be tamed with **105.0 Animal Taming**, and may leave an exclusive dye and a wall trophy when hunted in the wild. Each variant runs its own 2-to-4-day cycle, with no meat, hides, Gold, or ordinary PvM economy.
+- Red world announcements herald the arrival of rare Great Harts, recall their presence every hour while they remain alive and wild, and tell when they are tamed or slain. They do not appear in Whispers of Britannia.
+- Hunting or taming each variant for the first time completes its own achievement: **2,500 PvM Mastery XP** for the hunt and **5,000 XP** for the tame, once per variant.
+- **Shadow** gains a new color. Existing Shadow ingots, ore, and granite now use the new color; existing equipment keeps its appearance.
+- New **Might** weapons and **Guarding** armor and shields receive a new color. Existing items keep their appearance.
+
+See [Rare spawns](sistemas/spawns-raros.md), [Achievements](sistemas/achievements.md), and [PvM rewards](itens/recompensas-pvm.md).
+
 ## 0.45.1 · Gathering and repairs
 
 Published on September 23, 2026.

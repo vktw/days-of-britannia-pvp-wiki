@@ -16,8 +16,8 @@ hide:
 
 <section class="dob-game-status" aria-label="Status do servidor">
   <span><i aria-hidden="true"></i><strong>Servidor online</strong><small>Britannia está ativa</small></span>
-  <span><strong>0.45.1</strong><small>Versão atual</small></span>
-  <a href="patches/"><strong>Coleta e reparos</strong><small>Última atualização</small></a>
+  <span><strong>0.46.1</strong><small>Versão atual</small></span>
+  <a href="patches/"><strong>Correção de picos de ping</strong><small>Última atualização</small></a>
   <a href="https://economy.dobshard.com/"><strong>Economia</strong><small>Mercado do shard</small></a>
 </section>
 
@@ -127,17 +127,17 @@ hide:
 <section class="dob-atlas-content" aria-label="Conteúdo principal">
   <article class="dob-atlas-feature">
     <p class="dob-atlas-kicker">ÚLTIMA ATUALIZAÇÃO</p>
-    <h2>0.45.1 · Coleta e reparos</h2>
-    <p class="dob-atlas-feature__date"><time datetime="2026-09-23">23 de setembro de 2026</time></p>
-    <p>A reposição de recursos especiais acompanha a população conectada, e os kits de reparo consomem cargas somente pela durabilidade restaurada.</p>
+    <h2>0.46.1 · Correção de picos de ping</h2>
+    <p class="dob-atlas-feature__date"><time datetime="2026-09-27">27 de setembro de 2026</time></p>
+    <p>Atualizações de rede agrupadas no mesmo ciclo do servidor reduzem picos de ping em combate e ao entrar em áreas com muitas criaturas.</p>
     <a href="patches/">LER PATCH NOTES <span aria-hidden="true">→</span></a>
   </article>
 
 <div class="dob-atlas-index">
 <p class="dob-atlas-kicker">ÚLTIMOS ARTIGOS ATUALIZADOS</p>
-<a href="itens/consumiveis/"><span class="dob-atlas-index__code">23 SET</span><span><strong>Consumíveis e ferramentas</strong><small>Kits de reparo e novas regras de cobrança</small></span><i aria-hidden="true">→</i></a>
-<a href="craft/"><span class="dob-atlas-index__code">23 SET</span><span><strong>Craft e recursos</strong><small>Reposição global de minérios e madeiras especiais</small></span><i aria-hidden="true">→</i></a>
-<a href="sistemas/spawns-raros/"><span class="dob-atlas-index__code">19 SET</span><span><strong>Spawns raros</strong><small>Modry, Seraphel e seus novos encontros</small></span><i aria-hidden="true">→</i></a>
-<a href="sistemas/casas/"><span class="dob-atlas-index__code">19 SET</span><span><strong>Casas</strong><small>Permissões atualizadas para co-owners</small></span><i aria-hidden="true">→</i></a>
+<a href="sistemas/spawns-raros/"><span class="dob-atlas-index__code">24 SET</span><span><strong>Spawns raros</strong><small>Seis Great Harts raros, ciclos, doma e recompensas</small></span><i aria-hidden="true">→</i></a>
+<a href="sistemas/achievements/"><span class="dob-atlas-index__code">24 SET</span><span><strong>Achievements</strong><small>12 conquistas de caçada e doma dos Harts</small></span><i aria-hidden="true">→</i></a>
+<a href="itens/recompensas-pvm/"><span class="dob-atlas-index__code">24 SET</span><span><strong>Recompensas PvM</strong><small>Tintas exclusivas e troféus de parede</small></span><i aria-hidden="true">→</i></a>
+<a href="patches/"><span class="dob-atlas-index__code">27 SET</span><span><strong>Patch notes</strong><small>Correção de picos de ping do 0.46.1</small></span><i aria-hidden="true">→</i></a>
 </div>
 </section>

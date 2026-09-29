@@ -83,6 +83,25 @@ Scroll of Knowledge, and an extra loot roll. Heater Shields of Invulnerability
 appear as **Dawnward of the Hollow Choir**. The collectible book starts without
 lore text until discovered.
 
+## Rare Great Harts
+
+Six rare **Great Harts** roam Felucca, each with its own color:
+**Moonshroud**, **Stormveil**, **Duskbloom**, **Emberfall**, **Crimsonveil**, and
+**Starveil**. Each variant runs its own **2-to-4-day** cycle with only one wild
+specimen at a time; the wiki does not publish locations or times.
+
+They can be tamed with **105.0 Animal Taming** and leave no meat, hides, Gold,
+or ordinary PvM rewards. Slaying a wild specimen with looting rights awards an
+exclusive variant **dye** and a **wall trophy**.
+
+Red world announcements herald their arrival, recall their presence every hour
+while a hart remains alive and wild, and tell when it is tamed or slain. Rare
+Great Harts do **not** appear in Whispers of Britannia; staff can track each
+variant through `[rareevents`.
+
+Hunting or taming each variant for the first time completes its own
+achievement; see [Achievements](achievements.md).
+
 ## The Man in the Hedge
 
 In the Hedge Maze, ten scattered shadows guard the encounter. Defeat them to
@@ -117,6 +136,7 @@ Britannia](whispers-britannia.md).
 | Odran | 3–6 days after death | A random interval is selected after the boss dies. |
 | Modry | 3–6 days | Fixed Felucca location; random interval between appearances. |
 | Seraphel | 3–6 days | Fixed Felucca location; random interval between appearances. |
+| Rare Great Harts | 2–4 days per variant | Six independent cycles; one wild specimen per variant. |
 | The Man in the Hedge | 3–6 days after death | A random interval is selected after the final boss dies. |
 | Rare Britannia | Always one available | The world maintains one active wild mount. When the slot is freed, replacement begins as soon as a valid location is available. |
 
@@ -124,5 +144,5 @@ Hourly cycles are not countdowns restarted by each kill. A cycle can pass
 without a new creature appearing; these intervals do not guarantee an exact
 arrival time.
 
-!!! success "Status: 0.45.0"
-    Rare events include the Modry and Seraphel spawns in Felucca.
+!!! success "Status: 0.46.0"
+    Rare events include the Modry, Seraphel, and six Great Hart spawns in Felucca.

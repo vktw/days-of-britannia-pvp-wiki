@@ -17,6 +17,8 @@ Special moves remain disabled and do not determine a weapon's poison compatibili
 
 New or tier-mutated Vanquishing weapons use hue `2483`; saved weapons are not migrated.
 
+New **Might** weapons use the tier's updated color; existing Might weapons keep their appearance.
+
 ## Practical roles
 
 - **One-handed:** allows a shield and combines pressure with defense.

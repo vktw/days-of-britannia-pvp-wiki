@@ -52,6 +52,15 @@ um tier acima: armas de Ruin a Vanquishing e armaduras de Defense a
 Invulnerability. Shields e helms usam aparências permitidas de peças craftáveis,
 sem alterar o Armor Rating. A **Chain Coif** mantém sua aparência própria.
 
+## Great Harts no 0.46.0
+
+Abater um Great Hart raro selvagem com direito ao loot concede exatamente uma
+**tinta exclusiva** da variante e um **troféu de parede**, sem Gold, XP,
+carving ou Loot Pack normal. Mortes sem participante elegível, pets, summons e
+exemplares já domados não concedem essas recompensas. O XP de Maestria PvM da
+caçada e da doma vem somente dos achievements; consulte
+[Achievements](../sistemas/achievements.md) e [Spawns raros](../sistemas/spawns-raros.md).
+
 ## Joias mágicas
 
 Earrings, bracelets e rings mágicos podem aumentar STR, DEX ou INT enquanto estiverem equipados. As joias usam a aparência clássica de seu tipo e possuem durabilidade.

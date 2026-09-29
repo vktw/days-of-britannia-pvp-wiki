@@ -16,8 +16,8 @@ hide:
 
 <section class="dob-game-status" aria-label="Server status">
   <span><i aria-hidden="true"></i><strong>Server online</strong><small>Britannia is active</small></span>
-  <span><strong>0.45.1</strong><small>Current version</small></span>
-  <a href="patches/"><strong>Gathering and repairs</strong><small>Latest update</small></a>
+  <span><strong>0.46.1</strong><small>Current version</small></span>
+  <a href="patches/"><strong>Ping spike fix</strong><small>Latest update</small></a>
   <a href="https://economy.dobshard.com/"><strong>Economy</strong><small>Shard marketplace</small></a>
 </section>
 
@@ -127,17 +127,17 @@ hide:
 <section class="dob-atlas-content" aria-label="Main content">
 <article class="dob-atlas-feature">
 <p class="dob-atlas-kicker">LATEST UPDATE</p>
-<h2>0.45.1 · Gathering and repairs</h2>
-<p class="dob-atlas-feature__date"><time datetime="2026-09-23">September 23, 2026</time></p>
-<p>Special-resource replenishment now follows the connected population, and Repair Kits spend charges only for durability actually restored.</p>
+<h2>0.46.1 · Ping spike fix</h2>
+<p class="dob-atlas-feature__date"><time datetime="2026-09-27">September 27, 2026</time></p>
+<p>Network updates coalesced within the same server cycle reduce ping spikes in combat and when entering areas with many creatures.</p>
 <a href="patches/">READ PATCH NOTES <span aria-hidden="true">→</span></a>
 </article>
 
 <div class="dob-atlas-index">
 <p class="dob-atlas-kicker">LATEST UPDATED ARTICLES</p>
-<a href="itens/consumiveis/"><span class="dob-atlas-index__code">SEP 23</span><span><strong>Consumables and tools</strong><small>Repair Kits and updated charge rules</small></span><i aria-hidden="true">→</i></a>
-<a href="craft/"><span class="dob-atlas-index__code">SEP 23</span><span><strong>Craft and resources</strong><small>Global supply of special ore and wood</small></span><i aria-hidden="true">→</i></a>
-<a href="sistemas/spawns-raros/"><span class="dob-atlas-index__code">SEP 19</span><span><strong>Rare spawns</strong><small>Modry, Seraphel, and their new encounters</small></span><i aria-hidden="true">→</i></a>
-<a href="sistemas/casas/"><span class="dob-atlas-index__code">SEP 19</span><span><strong>Houses</strong><small>Updated co-owner permissions</small></span><i aria-hidden="true">→</i></a>
+<a href="sistemas/spawns-raros/"><span class="dob-atlas-index__code">SEP 24</span><span><strong>Rare spawns</strong><small>Six rare Great Harts, cycles, taming, and rewards</small></span><i aria-hidden="true">→</i></a>
+<a href="sistemas/achievements/"><span class="dob-atlas-index__code">SEP 24</span><span><strong>Achievements</strong><small>12 Hart hunt and tame achievements</small></span><i aria-hidden="true">→</i></a>
+<a href="itens/recompensas-pvm/"><span class="dob-atlas-index__code">SEP 24</span><span><strong>PvM rewards</strong><small>Exclusive dyes and wall trophies</small></span><i aria-hidden="true">→</i></a>
+<a href="patches/"><span class="dob-atlas-index__code">SEP 27</span><span><strong>Patch notes</strong><small>0.46.1 ping spike fix</small></span><i aria-hidden="true">→</i></a>
 </div>
 </section>

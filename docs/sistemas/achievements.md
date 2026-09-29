@@ -65,6 +65,24 @@ As novas trilhas cumulativas concedem somente XP de Maestria PvM adicional:
 As duas trilhas são independentes. Todos os perfis elegíveis contam para os
 marcos; não há Gold, loot ou Scroll adicional nessa trilha.
 
+## Great Harts no 0.46.0
+
+Cada variante de Great Hart raro tem dois achievements próprios de entrega
+única, sem crédito retroativo:
+
+| Variante | Caçada (derrotar 1 selvagem) | Doma (domar 1 selvagem) |
+|---|---|---|
+| Moonshroud Hart | 2.500 XP | 5.000 XP |
+| Stormveil Hart | 2.500 XP | 5.000 XP |
+| Duskbloom Hart | 2.500 XP | 5.000 XP |
+| Emberfall Hart | 2.500 XP | 5.000 XP |
+| Crimsonveil Hart | 2.500 XP | 5.000 XP |
+| Starveil Hart | 2.500 XP | 5.000 XP |
+
+As recompensas são somente XP de Maestria PvM adicional; a caçada não libera
+economia normal de PvM e a doma não concede XP além do achievement.
+Consulte [Spawns raros](spawns-raros.md) para os ciclos e requisitos de doma.
+
 ## Limites
 
 Achievements não adicionam pontos, rankings, títulos ou recompensas cosméticas.

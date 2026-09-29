@@ -29,7 +29,8 @@ Town Criers também podem compartilhar rumores sobre os Rare Events e a **Rare
 Rideable Llama**. O objetivo é oferecer uma pista, não substituir a exploração
 do mundo. Enquanto o evento estiver ativo, o rumor também pode mencionar **The
 Man in the Hedge**. Town Criers também podem divulgar pistas sobre **Seraphel**
-enquanto o evento estiver ativo.
+enquanto o evento estiver ativo. Os **Great Harts raros não** aparecem nos
+Whispers; acompanhe-os pelos avisos globais e por `[rareevents`.
 
 ## Interface dos Whispers
 

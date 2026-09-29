@@ -17,6 +17,8 @@ Special moves permanecem desativados e não determinam a compatibilidade da arma
 
 Armas novas ou alteradas do tier Vanquishing usam hue `2483`; armas salvas não são migradas.
 
+Armas **Might** novas usam a cor atualizada do tier; armas Might já existentes mantêm sua aparência.
+
 ## Papéis práticos
 
 - **Uma mão:** permite shield e combina pressão com defesa.
