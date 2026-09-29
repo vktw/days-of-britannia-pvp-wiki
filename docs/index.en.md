@@ -2,142 +2,112 @@
 template: home.html
 description: Official Days of Britannia manual for getting started, understanding combat, and consulting Live systems.
 hide:
-- knock
+  - toc
 ---
 
-<h1 class="dob-visually-hidden">Home</h1>
-
-<nav class="dob-mockup-switcher" aria-label="Select a visual proposal">
-  <span>HOME PROPOSALS</span>
-  <a href="?mockup=cinema">01 · Cinematic</a>
-  <a href="?mockup=hud">02 · Game interface</a>
-  <a href="?mockup=cronica">03 · Chronicle</a>
-</nav>
-
-<section class="dob-game-status" aria-label="Server status">
-  <span><i aria-hidden="true"></i><strong>Server online</strong><small>Britannia is active</small></span>
-  <span><strong>0.45.1</strong><small>Current version</small></span>
-  <a href="patches/"><strong>Gathering and repairs</strong><small>Latest update</small></a>
-  <a href="https://economy.dobshard.com/"><strong>Economy</strong><small>Shard marketplace</small></a>
+<section class="dob-landing-hero" aria-labelledby="dob-landing-title">
+  <span class="dob-landing-kicker">Ultima Online shard</span>
+  <h1 id="dob-landing-title" class="dob-landing-hero__title">Britannia<br>is <em>calling.</em></h1>
+  <p class="dob-landing-hero__lede">Hunt dragons in Destard, mine in Minoc, and trade blows with PKs across the world. The nostalgia of the Brazilian Ultima Online freeshards is back.</p>
+  <div class="dob-landing-cta">
+    <a class="dob-landing-btn dob-landing-btn--fire" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 21h16"></path></svg>
+      <span>Play now</span>
+    </a>
+    <a class="dob-landing-btn dob-landing-btn--ghost" href="https://discord.gg/e2VDbg2NYw" target="_blank" rel="noopener noreferrer">Join Discord</a>
+  </div>
+  <p class="dob-landing-hero__note">Official launcher for Windows. Linux and macOS builds are in <a href="primeiros-passos/">Getting started</a>.</p>
 </section>
 
-<section class="dob-concept-intros" aria-label="Introduction">
-  <div class="dob-concept-intro dob-concept-intro--cinema">
-    <p>A WORLD FORGED BY PLAYERS</p>
-    <h2>Britannia calls.</h2>
-    <span>Enter a modern shard with custom PvM and PvP, unique progression, and an active community.</span>
-  </div>
-  <div class="dob-concept-intro dob-concept-intro--hud">
-    <p>PLAYER COMMAND CENTER</p>
-    <h2>Choose your next objective.</h2>
-    <span>Start playing, consult systems, or return directly to the content driving your journey.</span>
-  </div>
-  <div class="dob-concept-intro dob-concept-intro--cronica">
-    <p>CHRONICLES OF BRITANNIA</p>
-    <h2>A living atlas of the shard.</h2>
-    <span>Guides, systems, and stories organized like a publication from within the game world.</span>
+<section class="dob-landing-strip" aria-label="Server status">
+  <span class="dob-landing-stat"><strong><i aria-hidden="true"></i>Server online</strong><small>Britannia is active</small></span>
+  <span class="dob-landing-stat"><strong>0.45.1</strong><small>Current version</small></span>
+  <a class="dob-landing-stat" href="patches/"><strong>Gathering and repairs</strong><small>Latest update</small></a>
+</section>
+
+<nav class="dob-landing-shortcuts" aria-label="Manual shortcuts">
+  <a href="primeiros-passos/"><strong>New player</strong><small>Installation, character, and first hour</small></a>
+  <a href="sistemas/pvm-mastery/"><strong>PvM and progression</strong><small>Hunts, Masteries, and rewards</small></a>
+  <a href="combate/"><strong>PvP and Arena</strong><small>Combat, pressure, and competition</small></a>
+  <a href="craft/"><strong>Craft and economy</strong><small>Recipes, materials, and chances</small></a>
+</nav>
+
+<section class="dob-landing-section" aria-labelledby="dob-landing-paths">
+  <span class="dob-landing-kicker">Three ways to play</span>
+  <h2 id="dob-landing-paths" class="dob-landing-section__title">Choose your path</h2>
+  <div class="dob-landing-paths">
+    <a class="dob-landing-path" href="sistemas/pvm-mastery/">
+      <span class="dob-landing-path__art"><img src="../assets/card-pvm-mastery.webp?v=20260813.1" alt="A hunter faces an ancient dragon in a ruined temple" loading="lazy"></span>
+      <span class="dob-landing-path__body">
+        <span class="dob-landing-path__num">I · PvM</span>
+        <strong>PvM Mastery</strong>
+        <small>Hunt, progress and build your own path.</small>
+        <span class="dob-landing-path__more">See progression <span aria-hidden="true">→</span></span>
+      </span>
+    </a>
+    <a class="dob-landing-path" href="arena/">
+      <span class="dob-landing-path__art"><img src="../assets/card-arena-pvp.webp?v=20260813.1" alt="Two champions face each other in a stone arena" loading="lazy"></span>
+      <span class="dob-landing-path__body">
+        <span class="dob-landing-path__num">II · PvP</span>
+        <strong>Arena and PvP</strong>
+        <small>Duel, compete and master player combat.</small>
+        <span class="dob-landing-path__more">Visit the arena <span aria-hidden="true">→</span></span>
+      </span>
+    </a>
+    <a class="dob-landing-path" href="sistemas/">
+      <span class="dob-landing-path__art"><img src="../assets/card-britannia-exploration.webp?v=20260813.1" alt="A traveler overlooks Britannia, its ports, cities and mountains" loading="lazy"></span>
+      <span class="dob-landing-path__body">
+        <span class="dob-landing-path__num">III · World</span>
+        <strong>Living Britannia</strong>
+        <small>Explore threats, rare events and hidden places.</small>
+        <span class="dob-landing-path__more">Explore systems <span aria-hidden="true">→</span></span>
+      </span>
+    </a>
   </div>
 </section>
 
-<section class="dob-atlas-hero dob-atlas-hero--main-art dob-atlas-codex" aria-label="Main actions">
-<div class="dob-atlas-hero-actions" aria-label="Main actions">
-<a class="dob-atlas-hero-card dob-atlas-hero-card--launcher" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
-<span class="dob-atlas-hero-card__art" aria-hidden="true">
-<img src="../assets/hero-action-launcher.webp?v=20260821.1" alt="">
-</span>
-<span class="dob-atlas-hero-card__body">
-<span class="dob-atlas-hero-card__eyebrow">ENTER BRITANNIA</span>
-<strong class="dob-atlas-hero-card__title">Download the official launcher</strong>
-<small>Install, update, and enter the server through the recommended path.</small>
-<span class="dob-atlas-hero-card__button">
-<svg class="dob-atlas-hero-card__icon dob-atlas-download-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
-<path d="M24 7v23M15 22l9 9 9-9"></path>
-<path d="M10 35v6h28v-6"></path>
-</svg>
-<span>PLAY NOW</span>
-<svg class="dob-atlas-hero-card__arrow" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
-<path d="M3 10h14M12 5l5 5-5 5"></path>
-</svg>
-</span>
-</span>
-</a>
-
-<a class="dob-atlas-hero-card dob-atlas-hero-card--discord" href="https://discord.gg/e2VDbg2NYw" target="_blank" rel="noopener noreferrer">
-<span class="dob-atlas-hero-card__art" aria-hidden="true">
-<img src="../assets/hero-action-discord.webp?v=20260821.1" alt="">
-</span>
-<span class="dob-atlas-hero-card__body">
-<span class="dob-atlas-hero-card__eyebrow">JOIN THE COMMUNITY</span>
-<strong class="dob-atlas-hero-card__title">Join our Discord</strong>
-<small>Meet players, follow the latest news, and take part in the community.</small>
-<span class="dob-atlas-hero-card__button">
-<svg class="dob-atlas-hero-card__icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
-<path class="dob-atlas-discord-mark" d="M10 13c8-4 20-4 28 0 4 6 6 14 6 21-4 5-8 8-13 9l-3-5h-8l-3 5c-5-1-9-4-13-9 0-7 2-15 6-21Z"></path>
-<circle cx="18" cy="27" r="3"></circle>
-<circle cx="30" cy="27" r="3"></circle>
-<path d="M17 34c4 3 10 3 14 0"></path>
-</svg>
-<span>JOIN DISCORD</span>
-<svg class="dob-atlas-hero-card__arrow" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
-<path d="M5 15 15 5M8 5h7v7"></path>
-</svg>
-</span>
-</span>
-</a>
-</div>
+<section class="dob-landing-section dob-landing-section--glow" aria-labelledby="dob-landing-start">
+  <span class="dob-landing-kicker">In a few minutes</span>
+  <h2 id="dob-landing-start" class="dob-landing-section__title">How to join</h2>
+  <ol class="dob-landing-steps">
+    <li><strong>Download the launcher</strong><p>Install, update, and enter the server through the recommended path.</p><a href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">DoBLauncher.exe <span aria-hidden="true">→</span></a></li>
+    <li><strong>Join Discord</strong><p>Meet players, follow the latest news, and take part in the community.</p><a href="https://discord.gg/e2VDbg2NYw" target="_blank" rel="noopener noreferrer">Open invite <span aria-hidden="true">→</span></a></li>
+    <li><strong>Read the starter guide</strong><p>Installation, character, and your first hour in Britannia.</p><a href="primeiros-passos/">Getting started <span aria-hidden="true">→</span></a></li>
+  </ol>
 </section>
 
-<nav class="dob-atlas-codex-paths" aria-label="Main wiki paths">
-<a href="sistemas/pvm-mastery/">
-<span class="dob-atlas-codex-path__art">
-<img src="../assets/card-pvm-mastery.webp?v=20260813.1" alt="Hunter faces an ancient dragon in a ruined temple">
-</span>
-<span class="dob-atlas-codex-path__body">
-<span class="dob-atlas-codex-path__code" aria-hidden="true">I</span>
-<span><strong>PvM Mastery</strong><small>Hunt, progress and build your own path</small></span>
-</span>
-</a>
-<a href="arena/">
-<span class="dob-atlas-codex-path__art">
-<img src="../assets/card-arena-pvp.webp?v=20260813.1" alt="Two champions face each other in a stone arena">
-</span>
-<span class="dob-atlas-codex-path__body">
-<span class="dob-atlas-codex-path__code" aria-hidden="true">II</span>
-<span><strong>Arena and PvP</strong><small>Duel, compete and master player combat</small></span>
-</span>
-</a>
-<a href="sistemas/">
-<span class="dob-atlas-codex-path__art">
-<img src="../assets/card-britannia-exploration.webp?v=20260813.1" alt="Traveler overlooks Britannia, its ports, cities and mountains">
-</span>
-<span class="dob-atlas-codex-path__body">
-<span class="dob-atlas-codex-path__code" aria-hidden="true">III</span>
-<span><strong>Living Britannia</strong><small>Explore threats, rare events and hidden places</small></span>
-</span>
-</a>
-</nav>
+<section class="dob-landing-section" aria-labelledby="dob-landing-news">
+  <span class="dob-landing-kicker">News</span>
+  <h2 id="dob-landing-news" class="dob-landing-section__title">The shard keeps moving</h2>
+  <div class="dob-landing-news">
+    <article class="dob-landing-patch">
+      <span class="dob-landing-patch__tag">Latest update · 0.45.1</span>
+      <h3>Gathering and repairs</h3>
+      <p class="dob-landing-patch__date"><time datetime="2026-09-23">September 23, 2026</time></p>
+      <p>Special-resource replenishment now follows the connected population, and Repair Kits spend charges only for durability actually restored.</p>
+      <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="patches/">Read patch notes</a>
+    </article>
+    <div class="dob-landing-articles">
+      <h3>Latest updated articles</h3>
+      <a href="itens/consumiveis/"><time datetime="2026-09-23">Sep 23</time><span><strong>Consumables and tools</strong><small>Repair Kits and updated charge rules</small></span></a>
+      <a href="craft/"><time datetime="2026-09-23">Sep 23</time><span><strong>Craft and resources</strong><small>Global supply of special ore and wood</small></span></a>
+      <a href="sistemas/spawns-raros/"><time datetime="2026-09-19">Sep 19</time><span><strong>Rare spawns</strong><small>Modry, Seraphel, and their new encounters</small></span></a>
+      <a href="sistemas/casas/"><time datetime="2026-09-19">Sep 19</time><span><strong>Houses</strong><small>Updated co-owner permissions</small></span></a>
+    </div>
+  </div>
+</section>
 
-<nav class="dob-game-quickbar" aria-label="Choose your path">
-  <a href="primeiros-passos/"><span>01</span><strong>New player</strong><small>Installation, character, and first hour</small></a>
-  <a href="sistemas/pvm-mastery/"><span>02</span><strong>PvM and progression</strong><small>Hunts, Masteries, and rewards</small></a>
-  <a href="combate/"><span>03</span><strong>PvP and Arena</strong><small>Combat, pressure, and competition</small></a>
-  <a href="craft/"><span>04</span><strong>Craft and economy</strong><small>Recipes, materials, and chances</small></a>
-</nav>
-
-<section class="dob-atlas-content" aria-label="Main content">
-<article class="dob-atlas-feature">
-<p class="dob-atlas-kicker">LATEST UPDATE</p>
-<h2>0.45.1 · Gathering and repairs</h2>
-<p class="dob-atlas-feature__date"><time datetime="2026-09-23">September 23, 2026</time></p>
-<p>Special-resource replenishment now follows the connected population, and Repair Kits spend charges only for durability actually restored.</p>
-<a href="patches/">READ PATCH NOTES <span aria-hidden="true">→</span></a>
-</article>
-
-<div class="dob-atlas-index">
-<p class="dob-atlas-kicker">LATEST UPDATED ARTICLES</p>
-<a href="itens/consumiveis/"><span class="dob-atlas-index__code">SEP 23</span><span><strong>Consumables and tools</strong><small>Repair Kits and updated charge rules</small></span><i aria-hidden="true">→</i></a>
-<a href="craft/"><span class="dob-atlas-index__code">SEP 23</span><span><strong>Craft and resources</strong><small>Global supply of special ore and wood</small></span><i aria-hidden="true">→</i></a>
-<a href="sistemas/spawns-raros/"><span class="dob-atlas-index__code">SEP 19</span><span><strong>Rare spawns</strong><small>Modry, Seraphel, and their new encounters</small></span><i aria-hidden="true">→</i></a>
-<a href="sistemas/casas/"><span class="dob-atlas-index__code">SEP 19</span><span><strong>Houses</strong><small>Updated co-owner permissions</small></span><i aria-hidden="true">→</i></a>
-</div>
+<section class="dob-landing-final" aria-label="Start playing">
+  <a class="dob-landing-final__card" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
+    <img src="../assets/hero-action-launcher.webp?v=20260821.1" alt="" loading="lazy">
+    <span class="dob-landing-kicker">Enter Britannia</span>
+    <strong>Download the official launcher</strong>
+    <span class="dob-landing-btn dob-landing-btn--fire">Play now</span>
+  </a>
+  <a class="dob-landing-final__card dob-landing-final__card--discord" href="https://discord.gg/e2VDbg2NYw" target="_blank" rel="noopener noreferrer">
+    <img src="../assets/hero-action-discord.webp?v=20260821.1" alt="" loading="lazy">
+    <span class="dob-landing-kicker">Join the community</span>
+    <strong>Join our Discord</strong>
+    <span class="dob-landing-btn dob-landing-btn--ghost">Join Discord</span>
+  </a>
 </section>

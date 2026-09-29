@@ -946,13 +946,6 @@ function bindDobNavigation() {
 }
 
 function bindDobUi() {
-  const homeMockup = new URLSearchParams(window.location.search).get("mockup");
-  if (["cinema", "hud", "cronica"].includes(homeMockup)) {
-    document.documentElement.dataset.dobHomeMockup = homeMockup;
-  } else {
-    delete document.documentElement.dataset.dobHomeMockup;
-  }
-
   bindDobHome();
   bindDobSearchShortcut();
   personalizeDobSearch();

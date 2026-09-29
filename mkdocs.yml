@@ -19,10 +19,10 @@ theme:
 extra:
   dob_version: "0.45.1"
 extra_css:
-  - stylesheets/extra.css?v=20260924.13
+  - stylesheets/extra.css?v=20260929.1
 extra_javascript:
   - scripts/blacksmith.js?v=20260906.1
-  - scripts/dob.js?v=20260924.11
+  - scripts/dob.js?v=20260929.1
 plugins:
   - search:
       lang:
