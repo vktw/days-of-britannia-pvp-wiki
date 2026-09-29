@@ -135,9 +135,9 @@ hide:
 
 <div class="dob-atlas-index">
 <p class="dob-atlas-kicker">ÚLTIMOS ARTIGOS ATUALIZADOS</p>
-<a href="sistemas/spawns-raros/"><span class="dob-atlas-index__code">24 SET</span><span><strong>Spawns raros</strong><small>Seis Great Harts raros, ciclos, doma e recompensas</small></span><i aria-hidden="true">→</i></a>
-<a href="sistemas/achievements/"><span class="dob-atlas-index__code">24 SET</span><span><strong>Achievements</strong><small>12 conquistas de caçada e doma dos Harts</small></span><i aria-hidden="true">→</i></a>
-<a href="itens/recompensas-pvm/"><span class="dob-atlas-index__code">24 SET</span><span><strong>Recompensas PvM</strong><small>Tintas exclusivas e troféus de parede</small></span><i aria-hidden="true">→</i></a>
+<a href="sistemas/achievements/"><span class="dob-atlas-index__code">29 SET</span><span><strong>Achievements</strong><small>Tabela consolidada com os 39 achievements</small></span><i aria-hidden="true">→</i></a>
 <a href="patches/"><span class="dob-atlas-index__code">27 SET</span><span><strong>Patch notes</strong><small>Correção de picos de ping do 0.46.1</small></span><i aria-hidden="true">→</i></a>
+<a href="sistemas/spawns-raros/"><span class="dob-atlas-index__code">24 SET</span><span><strong>Spawns raros</strong><small>Seis Great Harts raros, ciclos, doma e recompensas</small></span><i aria-hidden="true">→</i></a>
+<a href="itens/recompensas-pvm/"><span class="dob-atlas-index__code">24 SET</span><span><strong>Recompensas PvM</strong><small>Tintas exclusivas e troféus de parede</small></span><i aria-hidden="true">→</i></a>
 </div>
 </section>

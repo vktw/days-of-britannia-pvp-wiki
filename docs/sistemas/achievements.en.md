@@ -29,29 +29,57 @@ unlocks. Existing profiles that already unlocked the catalogue keep access.
 
 ## Activity catalogue
 
-The full catalogue includes:
+All 39 achievements in one place. Rewards are delivered once and catalogue
+progress is not retroactive.
 
-- **Area Miner:** records the start of a 5x5 Mining session.
-- **Area Fisher:** records the start of a 5x5 Fishing session.
-- **Area Lumberjack:** records the start of a 5x5 Lumberjacking session.
-- **Rare Phoenix Hunter:** records a successful Rare Phoenix carving.
-- **First Trainer Fight:** records the completion of a PvP Trainer match and grants 200 PvM Mastery XP once.
+| Achievement | Requirement | Goal | Reward |
+|---|---|---|---|
+| **First Hunt** | Introductory path | 10 Undead creatures | 100 PvM Mastery XP, 1,000 gold, and one Undead Basic Scroll of Knowledge |
+| **Troll Hunter** | Introductory path | 10 Humanoid creatures | 200 PvM Mastery XP, 1,000 gold, and one Humanoid Basic Scroll of Knowledge |
+| **Scaled Hunter** | Introductory path | 10 Reptilian creatures | 300 PvM Mastery XP, 1,000 gold, and one Reptilian Basic Scroll of Knowledge |
+| **Scorpion Hunter** | Introductory path | 10 eligible Scorpions | 400 PvM Mastery XP, 1,000 gold, and one Arachnid Basic Scroll of Knowledge |
+| **Earth Elemental Hunter** | Introductory path | 10 eligible Earth Elementals | 500 PvM Mastery XP, 1,000 gold, and one Elemental Basic Scroll of Knowledge |
+| **Harpy Hunter** | Introductory path | 10 eligible Harpies | 600 PvM Mastery XP, 1,000 gold, and one DoB Magic Ring |
+| **Orc Hunter** | Introductory path | 10 eligible Orcs | 700 PvM Mastery XP, 1,000 gold, and one DoB Magic Bracelet |
+| **Ettin Hunter** | Introductory path | 10 eligible Ettins | 800 PvM Mastery XP, 1,000 gold, and one DoB Magic Earring |
+| **First PvM Hunt** | Full catalogue | Complete a PvM hunting contract | 500 PvM Mastery XP |
+| **First Daily Dungeon Kill** | Full catalogue | Defeat a creature in the active Daily Dungeon | 300 PvM Mastery XP |
+| **Bane of the Undead** | Full catalogue | 150 eligible Undead group kills | 1,000 PvM Mastery XP |
+| **Bane of the Humanoids** | Full catalogue | 150 eligible Humanoid group kills | 1,000 PvM Mastery XP |
+| **Bane of the Reptilians** | Full catalogue | 150 eligible Reptilian group kills | 1,000 PvM Mastery XP |
+| **Bane of the Abyss** | Full catalogue | 150 eligible Abyss group kills | 1,000 PvM Mastery XP |
+| **Bane of the Elementals** | Full catalogue | 150 eligible Elemental group kills | 1,000 PvM Mastery XP |
+| **Bane of the Arachnids** | Full catalogue | 150 eligible Arachnid group kills | 1,000 PvM Mastery XP |
+| **Bane of the Fey** | Full catalogue | 150 eligible Fey group kills | 1,000 PvM Mastery XP |
+| **Area Miner** | Full catalogue | Start a 5x5 Mining session | 200 PvM Mastery XP |
+| **Area Fisher** | Full catalogue | Start a 5x5 Fishing session | 200 PvM Mastery XP |
+| **Area Lumberjack** | Full catalogue | Start a 5x5 Lumberjacking session | 200 PvM Mastery XP |
+| **Rare Phoenix Hunter** | Full catalogue | Successful Rare Phoenix carving | 350 PvM Mastery XP |
+| **First Trainer Fight** | Full catalogue | Complete a fight against the PvP Trainer | 200 PvM Mastery XP |
+| **Overgrown Hunter** | No requirement | 1 eligible Overgrown kill | 100 PvM Mastery XP |
+| **Overgrown Slayer** | No requirement | 10 eligible Overgrown kills | 500 PvM Mastery XP |
+| **Overgrown Master** | No requirement | 100 eligible Overgrown kills | 1,000 PvM Mastery XP |
+| **Ancient Overgrown Hunter** | No requirement | 1 eligible Ancient Overgrown kill | 500 PvM Mastery XP |
+| **Ancient Overgrown Slayer** | No requirement | 10 eligible Ancient Overgrown kills | 1,000 PvM Mastery XP |
+| **Moonshroud Hart Hunter** | No requirement | Defeat 1 wild Moonshroud Hart | 2,500 PvM Mastery XP |
+| **Moonshroud Hart Tamer** | No requirement | Tame 1 wild Moonshroud Hart | 5,000 PvM Mastery XP |
+| **Stormveil Hart Hunter** | No requirement | Defeat 1 wild Stormveil Hart | 2,500 PvM Mastery XP |
+| **Stormveil Hart Tamer** | No requirement | Tame 1 wild Stormveil Hart | 5,000 PvM Mastery XP |
+| **Duskbloom Hart Hunter** | No requirement | Defeat 1 wild Duskbloom Hart | 2,500 PvM Mastery XP |
+| **Duskbloom Hart Tamer** | No requirement | Tame 1 wild Duskbloom Hart | 5,000 PvM Mastery XP |
+| **Emberfall Hart Hunter** | No requirement | Defeat 1 wild Emberfall Hart | 2,500 PvM Mastery XP |
+| **Emberfall Hart Tamer** | No requirement | Tame 1 wild Emberfall Hart | 5,000 PvM Mastery XP |
+| **Crimsonveil Hart Hunter** | No requirement | Defeat 1 wild Crimsonveil Hart | 2,500 PvM Mastery XP |
+| **Crimsonveil Hart Tamer** | No requirement | Tame 1 wild Crimsonveil Hart | 5,000 PvM Mastery XP |
+| **Starveil Hart Hunter** | No requirement | Defeat 1 wild Starveil Hart | 2,500 PvM Mastery XP |
+| **Starveil Hart Tamer** | No requirement | Tame 1 wild Starveil Hart | 5,000 PvM Mastery XP |
 
-Area Miner, Area Fisher, and Area Lumberjack grant 200 PvM Mastery XP each. Rare Phoenix Hunter grants 350 XP. These achievements do not change gathering time, resource consumption, or normal carving rewards.
+The **introductory path** is sequential: kills made before a stage is unlocked
+do not advance the locked stage. Completing **Ettin Hunter** unlocks the
+**full catalogue** and earlier progress is preserved. The **Overgrown** and
+**Great Hart** tracks do not require the full catalogue.
 
-## Achievements after the introductory catalogue
-
-After the full catalogue is unlocked, three additional PvM progression lines
-become available:
-
-| Activity | Requirement | Reward |
-|---|---|---:|
-| Completed hunt | Complete a PvM hunting contract | 500 PvM Mastery XP |
-| First Daily Dungeon kill | Defeat a creature in the active Daily Dungeon | 300 PvM Mastery XP |
-| Slayer Group | Reach 150 eligible kills in each canonical Slayer Group | 1,000 PvM Mastery XP per group |
-
-These rewards are delivered once and do not change the eight-step introductory
-path. Catalogue progress is not retroactive.
+## Details by patch
 
 ## Overgrown and Ancient Overgrown in 0.42.0
 

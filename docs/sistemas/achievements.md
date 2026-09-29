@@ -29,29 +29,57 @@ Perfis antigos que já desbloquearam o catálogo preservam o acesso.
 
 ## Catálogo de atividades
 
-O catálogo completo inclui:
+Todos os 39 achievements em um só lugar. As recompensas são de entrega única
+e o progresso de catálogo não é retroativo.
 
-- **Area Miner:** registra o início de uma sessão de Mining em área 5x5.
-- **Area Fisher:** registra o início de uma sessão de Fishing em área 5x5.
-- **Area Lumberjack:** registra o início de uma sessão de Lumberjacking em área 5x5.
-- **Rare Phoenix Hunter:** registra o carving bem-sucedido de uma Rare Phoenix.
-- **First Trainer Fight:** registra a conclusão de uma luta contra o PvP Trainer e concede 200 XP de Maestria PvM uma única vez.
+| Conquista | Requisito | Objetivo | Recompensa |
+|---|---|---|---|
+| **First Hunt** | Trilha inicial | 10 criaturas Undead | 100 XP de Maestria PvM, 1.000 gold e um Scroll of Knowledge Basic de Undead |
+| **Troll Hunter** | Trilha inicial | 10 criaturas Humanoid | 200 XP de Maestria PvM, 1.000 gold e um Scroll of Knowledge Basic de Humanoid |
+| **Scaled Hunter** | Trilha inicial | 10 criaturas Reptilian | 300 XP de Maestria PvM, 1.000 gold e um Scroll of Knowledge Basic de Reptilian |
+| **Scorpion Hunter** | Trilha inicial | 10 Scorpions elegíveis | 400 XP de Maestria PvM, 1.000 gold e um Scroll of Knowledge Basic de Arachnid |
+| **Earth Elemental Hunter** | Trilha inicial | 10 Earth Elementals elegíveis | 500 XP de Maestria PvM, 1.000 gold e um Scroll of Knowledge Basic de Elemental |
+| **Harpy Hunter** | Trilha inicial | 10 Harpies elegíveis | 600 XP de Maestria PvM, 1.000 gold e um DoB Magic Ring |
+| **Orc Hunter** | Trilha inicial | 10 Orcs elegíveis | 700 XP de Maestria PvM, 1.000 gold e um DoB Magic Bracelet |
+| **Ettin Hunter** | Trilha inicial | 10 Ettins elegíveis | 800 XP de Maestria PvM, 1.000 gold e um DoB Magic Earring |
+| **First PvM Hunt** | Catálogo completo | Completar um contrato de caça PvM | 500 XP de Maestria PvM |
+| **First Daily Dungeon Kill** | Catálogo completo | Derrotar uma criatura na Daily Dungeon ativa | 300 XP de Maestria PvM |
+| **Bane of the Undead** | Catálogo completo | 150 kills elegíveis do grupo Undead | 1.000 XP de Maestria PvM |
+| **Bane of the Humanoids** | Catálogo completo | 150 kills elegíveis do grupo Humanoid | 1.000 XP de Maestria PvM |
+| **Bane of the Reptilians** | Catálogo completo | 150 kills elegíveis do grupo Reptilian | 1.000 XP de Maestria PvM |
+| **Bane of the Abyss** | Catálogo completo | 150 kills elegíveis do grupo Abyss | 1.000 XP de Maestria PvM |
+| **Bane of the Elementals** | Catálogo completo | 150 kills elegíveis do grupo Elemental | 1.000 XP de Maestria PvM |
+| **Bane of the Arachnids** | Catálogo completo | 150 kills elegíveis do grupo Arachnid | 1.000 XP de Maestria PvM |
+| **Bane of the Fey** | Catálogo completo | 150 kills elegíveis do grupo Fey | 1.000 XP de Maestria PvM |
+| **Area Miner** | Catálogo completo | Iniciar uma sessão de Mining em área 5x5 | 200 XP de Maestria PvM |
+| **Area Fisher** | Catálogo completo | Iniciar uma sessão de Fishing em área 5x5 | 200 XP de Maestria PvM |
+| **Area Lumberjack** | Catálogo completo | Iniciar uma sessão de Lumberjacking em área 5x5 | 200 XP de Maestria PvM |
+| **Rare Phoenix Hunter** | Catálogo completo | Carving bem-sucedido de uma Rare Phoenix | 350 XP de Maestria PvM |
+| **First Trainer Fight** | Catálogo completo | Concluir uma luta contra o PvP Trainer | 200 XP de Maestria PvM |
+| **Overgrown Hunter** | Sem requisito | 1 abate de Overgrown elegível | 100 XP de Maestria PvM |
+| **Overgrown Slayer** | Sem requisito | 10 abates de Overgrown elegíveis | 500 XP de Maestria PvM |
+| **Overgrown Master** | Sem requisito | 100 abates de Overgrown elegíveis | 1.000 XP de Maestria PvM |
+| **Ancient Overgrown Hunter** | Sem requisito | 1 abate de Ancient Overgrown elegível | 500 XP de Maestria PvM |
+| **Ancient Overgrown Slayer** | Sem requisito | 10 abates de Ancient Overgrown elegíveis | 1.000 XP de Maestria PvM |
+| **Moonshroud Hart Hunter** | Sem requisito | Derrotar 1 Moonshroud Hart selvagem | 2.500 XP de Maestria PvM |
+| **Moonshroud Hart Tamer** | Sem requisito | Domar 1 Moonshroud Hart selvagem | 5.000 XP de Maestria PvM |
+| **Stormveil Hart Hunter** | Sem requisito | Derrotar 1 Stormveil Hart selvagem | 2.500 XP de Maestria PvM |
+| **Stormveil Hart Tamer** | Sem requisito | Domar 1 Stormveil Hart selvagem | 5.000 XP de Maestria PvM |
+| **Duskbloom Hart Hunter** | Sem requisito | Derrotar 1 Duskbloom Hart selvagem | 2.500 XP de Maestria PvM |
+| **Duskbloom Hart Tamer** | Sem requisito | Domar 1 Duskbloom Hart selvagem | 5.000 XP de Maestria PvM |
+| **Emberfall Hart Hunter** | Sem requisito | Derrotar 1 Emberfall Hart selvagem | 2.500 XP de Maestria PvM |
+| **Emberfall Hart Tamer** | Sem requisito | Domar 1 Emberfall Hart selvagem | 5.000 XP de Maestria PvM |
+| **Crimsonveil Hart Hunter** | Sem requisito | Derrotar 1 Crimsonveil Hart selvagem | 2.500 XP de Maestria PvM |
+| **Crimsonveil Hart Tamer** | Sem requisito | Domar 1 Crimsonveil Hart selvagem | 5.000 XP de Maestria PvM |
+| **Starveil Hart Hunter** | Sem requisito | Derrotar 1 Starveil Hart selvagem | 2.500 XP de Maestria PvM |
+| **Starveil Hart Tamer** | Sem requisito | Domar 1 Starveil Hart selvagem | 5.000 XP de Maestria PvM |
 
-Area Miner, Area Fisher e Area Lumberjack concedem 200 XP de Maestria PvM cada. Rare Phoenix Hunter concede 350 XP. Essas conquistas não alteram o tempo da coleta, o consumo de recursos ou as recompensas normais do carving.
+A **trilha inicial** é sequencial: os abates feitos antes de uma etapa ser
+liberada não avançam a etapa bloqueada. Completar **Ettin Hunter** libera o
+**catálogo completo** e o progresso anterior é preservado. As trilhas de
+**Overgrown** e de **Great Harts** não exigem o catálogo completo.
 
-## Conquistas após o catálogo inicial
-
-Depois que o catálogo completo é liberado, três linhas adicionais de progressão
-PvM ficam disponíveis:
-
-| Atividade | Requisito | Recompensa |
-|---|---|---:|
-| Caçada concluída | Completar um contrato de caça PvM | 500 XP de Maestria PvM |
-| Primeira baixa na Daily Dungeon | Derrotar uma criatura na Daily Dungeon ativa | 300 XP de Maestria PvM |
-| Grupo Slayer | Alcançar 150 kills elegíveis em cada grupo Slayer canônico | 1.000 XP de Maestria PvM por grupo |
-
-Essas recompensas são de uma única entrega e não alteram a trilha inicial de
-oito etapas. O progresso de catálogo não é retroativo.
+## Detalhes por patch
 
 ## Overgrown e Ancient Overgrown no 0.42.0
 

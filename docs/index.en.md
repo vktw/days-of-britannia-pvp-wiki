@@ -135,9 +135,9 @@ hide:
 
 <div class="dob-atlas-index">
 <p class="dob-atlas-kicker">LATEST UPDATED ARTICLES</p>
-<a href="sistemas/spawns-raros/"><span class="dob-atlas-index__code">SEP 24</span><span><strong>Rare spawns</strong><small>Six rare Great Harts, cycles, taming, and rewards</small></span><i aria-hidden="true">→</i></a>
-<a href="sistemas/achievements/"><span class="dob-atlas-index__code">SEP 24</span><span><strong>Achievements</strong><small>12 Hart hunt and tame achievements</small></span><i aria-hidden="true">→</i></a>
-<a href="itens/recompensas-pvm/"><span class="dob-atlas-index__code">SEP 24</span><span><strong>PvM rewards</strong><small>Exclusive dyes and wall trophies</small></span><i aria-hidden="true">→</i></a>
+<a href="sistemas/achievements/"><span class="dob-atlas-index__code">SEP 29</span><span><strong>Achievements</strong><small>Consolidated table with all 39 achievements</small></span><i aria-hidden="true">→</i></a>
 <a href="patches/"><span class="dob-atlas-index__code">SEP 27</span><span><strong>Patch notes</strong><small>0.46.1 ping spike fix</small></span><i aria-hidden="true">→</i></a>
+<a href="sistemas/spawns-raros/"><span class="dob-atlas-index__code">SEP 24</span><span><strong>Rare spawns</strong><small>Six rare Great Harts, cycles, taming, and rewards</small></span><i aria-hidden="true">→</i></a>
+<a href="itens/recompensas-pvm/"><span class="dob-atlas-index__code">SEP 24</span><span><strong>PvM rewards</strong><small>Exclusive dyes and wall trophies</small></span><i aria-hidden="true">→</i></a>
 </div>
 </section>
