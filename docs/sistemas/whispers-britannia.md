@@ -32,6 +32,9 @@ Man in the Hedge**. Town Criers também podem divulgar pistas sobre **Seraphel**
 enquanto o evento estiver ativo. Os **Great Harts raros não** aparecem nos
 Whispers; acompanhe-os pelos avisos globais e por `[rareevents`.
 
+O **coven da Season of the Witch também não** aparece nos Whispers; acompanhe-o
+pelos avisos globais em vermelho.
+
 ## Interface dos Whispers
 
 O gump de Whispers fica mais largo e oferece uma área maior para a leitura dos

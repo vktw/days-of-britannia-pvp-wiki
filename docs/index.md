@@ -21,8 +21,8 @@ hide:
 
 <section class="dob-landing-strip" aria-label="Status do servidor">
   <span class="dob-landing-stat"><strong><i aria-hidden="true"></i>Servidor online</strong><small>Britannia está ativa</small></span>
-  <span class="dob-landing-stat"><strong>0.46.1</strong><small>Versão atual</small></span>
-  <a class="dob-landing-stat" href="patches/"><strong>Correção de picos de ping</strong><small>Última atualização</small></a>
+  <span class="dob-landing-stat"><strong>0.47.0</strong><small>Versão atual</small></span>
+  <a class="dob-landing-stat" href="patches/"><strong>A Temporada das Bruxas</strong><small>Última atualização</small></a>
 </section>
 
 <nav class="dob-landing-shortcuts" aria-label="Atalhos do manual">
@@ -81,18 +81,18 @@ hide:
   <h2 id="dob-landing-news" class="dob-landing-section__title">O shard não para</h2>
   <div class="dob-landing-news">
     <article class="dob-landing-patch">
-      <span class="dob-landing-patch__tag">Última atualização · 0.46.1</span>
-      <h3>Correção de picos de ping</h3>
-      <p class="dob-landing-patch__date"><time datetime="2026-09-27">27 de setembro de 2026</time></p>
-      <p>Atualizações de rede agrupadas no mesmo ciclo do servidor reduzem picos de ping em combate e ao entrar em áreas com muitas criaturas.</p>
+      <span class="dob-landing-patch__tag">Última atualização · 0.47.0</span>
+      <h3>A Temporada das Bruxas</h3>
+      <p class="dob-landing-patch__date"><time datetime="2026-09-29">29 de setembro de 2026</time></p>
+      <p>Um coven de cinco bruxas surge nos cemitérios de Felucca em outubro: enfrente ondas de mortos-vivos, um adversário especial e uma líder para trocar Coven Orbs com o Coven Keeper.</p>
       <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="patches/">Ler patch notes</a>
     </article>
     <div class="dob-landing-articles">
       <h3>Últimos artigos atualizados</h3>
+      <a href="sistemas/season-of-the-witch/"><time datetime="2026-09-29">29 set</time><span><strong>Season of the Witch</strong><small>Coven, Coven Orbs e as 11 recompensas da temporada</small></span></a>
+      <a href="patches/"><time datetime="2026-09-29">29 set</time><span><strong>Patch notes</strong><small>A Temporada das Bruxas do 0.47.0</small></span></a>
+      <a href="mundo/cidades-guards/"><time datetime="2026-09-29">29 set</time><span><strong>Cidades e guards</strong><small>Jhelom e Nujel'm sem guards; novas faixas em Britain e Minoc</small></span></a>
       <a href="sistemas/spawns-raros/"><time datetime="2026-09-24">24 set</time><span><strong>Spawns raros</strong><small>Seis Great Harts raros, ciclos, doma e recompensas</small></span></a>
-      <a href="sistemas/achievements/"><time datetime="2026-09-24">24 set</time><span><strong>Achievements</strong><small>12 conquistas de caçada e doma dos Harts</small></span></a>
-      <a href="itens/recompensas-pvm/"><time datetime="2026-09-24">24 set</time><span><strong>Recompensas PvM</strong><small>Tintas exclusivas e troféus de parede</small></span></a>
-      <a href="patches/"><time datetime="2026-09-27">27 set</time><span><strong>Patch notes</strong><small>Correção de picos de ping do 0.46.1</small></span></a>
     </div>
   </div>
 </section>

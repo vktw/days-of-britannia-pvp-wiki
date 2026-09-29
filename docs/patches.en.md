@@ -2,6 +2,35 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.47.0 · Season of the Witch
+
+Published on September 29, 2026.
+
+- **Season of the Witch** arrives in October: a coven of five witches appears in a Felucca cemetery and calls the undead when attacked. The season starts on **October 1** — decorations and the Coven Keeper arrive after 00:00 BRT and the first coven appears at the **10:00** slot.
+- The first valid aggression activates the fight, including pets and summons, and all five witches retaliate at once. Each witch has a role: the guardian shields a sister, the mender heals wounds, and the summoner calls larger waves.
+- Undead waves arrive as each witch loses health; summoned undead fall to a single blow and a **Grave Champion** may rise with the waves, always carrying a PvM Loot Pack reward.
+- The first fallen witch releases one of three special foes: **The Ossuary Warden**, the **Leashed Shade** (move more than three tiles from the mark, break line of sight, or damage it during the warning to avoid the curse), and the **Grave Herald** (damaging him interrupts the Skeletal Knight ritual).
+- After the five witches and the special foe, one of four leaders appears: **The Candle Widow**, **The Grave Mother**, **The Nameless Crone**, and **The Veiled Matriarch**. Extinguish the candles to weaken the Widow and the Matriarch, and leave the ground marks to avoid their rituals. Special abilities seek an eligible adventurer when the target is a controlled creature.
+- Each witch grants **2 Coven Orbs**, the special foe **3**, the leader **5**, and each supporting undead **1**. Each special foe and each leader grants one additional PvM Loot Pack roll; magical gear from the leader's loot rises one quality tier. Defeating the leader quickly grants extra Orbs.
+- The **Coven Keeper** trades Coven Orbs for eleven rewards (30 to 575 Orbs) at the **Nujel'm Safe Haven**, beside the Briarheart Keeper. The four rarest are limited to one per account per edition. Leaders may leave **The Unwritten Chronicle** (10%), a collectible book whose story is not yet revealed.
+- After victory, another coven appears at the next fixed Brasilia time: **10:00 and 22:00** during The Missing Names (October 1–7), **02:00, 10:00, 14:00 and 22:00** during The Gathering (October 8–21), and **02:00, 06:00, 10:00, 14:00, 18:00 and 22:00** during The Sabbath (October 22–31).
+- A red global notice announces each coven without revealing the cemetery and repeats each hour; another announces defeat or fading. The coven does not appear in Whispers of Britannia.
+- **Jhelom and Nujel'm** lose guard protection in Felucca (the Safe Haven is unchanged), as do the area west of Britain (X=1099..1286, Y=1595..1920, including the fields) and a strip on Minoc's eastern edge (X=2608..2610, Y=475..538).
+- The server no longer freezes for a few seconds during internal memory cleanup, reducing stutter in fights with many creatures.
+
+See [Season of the Witch](sistemas/season-of-the-witch.md), [Cities and guards](mundo/cidades-guards.md), and [Nujel'm Safe Haven](mundo/nujelm.md).
+
+## 0.46.2 · Server stability
+
+Published on September 28, 2026.
+
+- Combat and action animations use less server memory when many players are nearby, reducing stalls in group fights.
+- The view range requested by the client now always respects the server limits.
+- Armor Kit Make Max now stops when ingots or another requirement are missing instead of repeating the message and locking the menu. Crafting a kit also plays the hammer sound and reopens the Blacksmithy menu.
+- Movement synchronization with the server has been improved, making movement and actions more responsive.
+
+See [Armor](itens/armaduras.md).
+
 ## 0.46.1 · Ping spike fix
 
 Published on September 27, 2026.

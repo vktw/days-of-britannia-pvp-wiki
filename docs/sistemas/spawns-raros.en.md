@@ -113,6 +113,13 @@ Eleventh Heart**, extra loot, and a Chronicle connected to **Elias Wren**.
 While the event is active, Town Criers can also share a rumor that mentions it;
 see [Whispers of Britannia](whispers-britannia.md).
 
+## Season of the Witch
+
+In October, the **Season of the Witch** coven holds one Felucca cemetery at a
+time. Red global notices announce each coven without revealing the location
+and repeat each hour; the coven does not appear in Whispers. Fight details,
+currency, and rewards live in [Season of the Witch](season-of-the-witch.md).
+
 ## Fixed events
 
 The fixed events are separate from Rare Britannia: the **Rare Rideable Llama

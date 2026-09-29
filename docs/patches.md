@@ -2,6 +2,35 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.47.0 · A Temporada das Bruxas
+
+Publicado em 29 de setembro de 2026.
+
+- A **Season of the Witch** chega em outubro: um coven de cinco bruxas surge em um cemitério de Felucca e, quando atacado, convoca mortos-vivos. A temporada começa em **1º de outubro** — decorações e o Coven Keeper entram após 00:00 BRT e o primeiro coven surge no horário das **10:00**.
+- A primeira agressão válida ativa o confronto, inclusive de pets e summons, e as cinco bruxas revidam de imediato. Cada bruxa tem um papel: a guardiã protege uma irmã, a curandeira restaura feridas e a invocadora chama ondas maiores.
+- Ondas de mortos-vivos chegam quando cada bruxa perde vida; os invocados caem com um único golpe e um **Campeão da Cova** pode surgir nas ondas, sempre com recompensa do pacote de saque PvM.
+- A primeira bruxa derrotada libera um entre três adversários especiais: **The Ossuary Warden**, o **Espectro Vinculado** (saia mais de três tiles da marca, quebre a linha de visão ou fira-o durante o aviso para evitar a maldição) e o **Arauto Sepulcral** (feri-lo interrompe o ritual dos Cavaleiros Esqueléticos).
+- Após as cinco bruxas e o adversário especial, surge uma entre quatro líderes: **The Candle Widow**, **The Grave Mother**, **The Nameless Crone** e **The Veiled Matriarch**. Apague as velas para enfraquecer a Viúva e a Matriarca e saia das marcas no chão para evitar os rituais. Habilidades especiais procuram um aventureiro elegível quando o alvo é uma criatura controlada.
+- Cada bruxa concede **2 Coven Orbs**, o adversário especial **3**, a líder **5** e cada morto-vivo auxiliar **1**. Cada adversário especial e cada líder concede uma rolagem adicional do pacote de saque PvM; equipamentos mágicos do saque da líder sobem um nível de qualidade. Derrotar a líder rapidamente rende Orbs extras.
+- O **Coven Keeper** troca Coven Orbs por onze recompensas (30 a 575 Orbs) no **Nujel'm Safe Haven**, ao lado do Briarheart Keeper. As quatro mais raras têm limite de uma por conta por edição. As líderes podem deixar **A Crônica Não Escrita** (10%), livro colecionável ainda sem história revelada.
+- Depois da vitória, outro coven surge no próximo horário fixo de Brasília: **10:00 e 22:00** em The Missing Names (1 a 7 de outubro), **02:00, 10:00, 14:00 e 22:00** em The Gathering (8 a 21) e **02:00, 06:00, 10:00, 14:00, 18:00 e 22:00** em The Sabbath (22 a 31).
+- Um aviso global vermelho anuncia cada coven sem revelar o cemitério e se repete a cada hora; outro avisa a derrota ou dissipação. O coven não aparece nos Whispers of Britannia.
+- **Jhelom e Nujel'm** perdem a proteção de guards em Felucca (o Safe Haven continua igual), assim como a região a oeste de Britain (X=1099..1286, Y=1595..1920, incluindo os campos) e uma faixa na borda leste de Minoc (X=2608..2610, Y=475..538).
+- O servidor não congela mais por alguns segundos durante a limpeza interna de memória, reduzindo travadas em combates com muitas criaturas.
+
+Consulte [Season of the Witch](sistemas/season-of-the-witch.md), [Cidades e guards](mundo/cidades-guards.md) e [Nujelm Safe Haven](mundo/nujelm.md).
+
+## 0.46.2 · Estabilidade do servidor
+
+Publicado em 28 de setembro de 2026.
+
+- Animações de combate e de ações usam menos memória do servidor com muitos jogadores por perto, reduzindo pausas em lutas de grupo.
+- O alcance de visão pedido pelo cliente agora sempre respeita os limites do servidor.
+- O Make Max dos Armor Kits agora para quando faltam lingotes ou outro requisito, em vez de repetir a mensagem e travar o menu. Fabricar um kit também toca o som do martelo e reabre o menu de Blacksmithy.
+- A sincronização da movimentação com o servidor foi aprimorada, deixando movimento e ações mais responsivos.
+
+Consulte [Armaduras](itens/armaduras.md).
+
 ## 0.46.1 · Correção de picos de ping
 
 Publicado em 27 de setembro de 2026.

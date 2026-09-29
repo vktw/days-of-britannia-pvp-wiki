@@ -14,11 +14,21 @@ Ocllo is an unguarded Felucca city without the former Safe Haven restriction on 
 
 Only the classic urban cores of Britain and Moonglow remain protected. The farms west of Britain, Moonglow's peripheral islands, and the separate moongate areas are unguarded. Watch the region indication and do not assume protection merely because you are near the city.
 
+## Jhelom in Felucca
+
+In 0.47.0, Jhelom in Felucca loses guard protection. The city geometry is unchanged; only protection changes.
+
+## Nujel'm in Felucca
+
+In 0.47.0, Nujel'm in Felucca loses guard protection. The Nujel'm Safe Haven keeps its existing rules — see [Nujel'm Safe Haven](nujelm.md).
+
 ## Britain farming strip in Felucca
 
-In 0.40.0, the Britain farming strip in Felucca between **X=1130..1261**
-and **Y=1542..1732** has no guard protection. `A Turnip Field in Britain 2`
-falls within this correction; the equivalent Trammel field remains unchanged, as
+In 0.47.0, the area west of Britain in Felucca between **X=1099..1286**
+and **Y=1595..1920** has no guard protection, including the wheat, carrot,
+and onion fields. It extends the already unguarded farming strip
+(X=1130..1261, Y=1542..1732, including
+`A Turnip Field in Britain 2`); Trammel remains unchanged, as
 does the turnip spawn.
 
 ## Moonglow in Trammel
@@ -50,6 +60,11 @@ Minoc Mine is guarded on Felucca and Trammel within the public rectangle defined
 by **X=2554..2581** and **Y=474..501**. Outside this rectangle, check the region
 indicator before assuming protection.
 
+## Eastern Minoc strip in Felucca
+
+In 0.47.0, the strip on Minoc's eastern edge in Felucca between **X=2608..2610**
+and **Y=475..538** has no guard protection. Trammel remains unchanged.
+
 See [Arena and Training](../arena.md) for rules for entry, external interference, and returning characters.
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.47.0"

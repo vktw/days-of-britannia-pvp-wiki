@@ -32,6 +32,9 @@ Town Criers can also share leads about **Seraphel** while that event is active.
 Rare **Great Harts do not** appear in Whispers; follow them through the world
 announcements and `[rareevents`.
 
+The Season of the Witch **coven does not** appear in Whispers either; follow it
+through the red world announcements.
+
 ## Whispers interface
 
 The Whispers gump is wider and provides more room to read the rumors.

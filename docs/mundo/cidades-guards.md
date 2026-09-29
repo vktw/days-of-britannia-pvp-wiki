@@ -12,12 +12,22 @@ Ocllo é uma cidade de Felucca sem guards e sem a antiga restrição especial de
 
 Somente os núcleos urbanos clássicos de Britain e Moonglow permanecem protegidos. As fazendas a oeste de Britain, ilhas periféricas de Moonglow e as áreas separadas dos moongates são desprotegidas. Observe a indicação de região e não presuma proteção apenas por estar perto da cidade.
 
+## Jhelom em Felucca
+
+No 0.47.0, Jhelom em Felucca perde a proteção de guards. A geometria da cidade é mantida; apenas a proteção muda.
+
+## Nujel'm em Felucca
+
+No 0.47.0, Nujel'm em Felucca perde a proteção de guards. O Nujelm Safe Haven continua com as mesmas regras — consulte [Nujelm Safe Haven](nujelm.md).
+
 ## Faixa agrícola de Britain em Felucca
 
-No 0.40.0, a faixa agrícola de Britain em Felucca entre **X=1130..1261**
-e **Y=1542..1732** não recebe proteção de guards. O campo
-`A Turnip Field in Britain 2` está dentro dessa correção; o campo equivalente em
-Trammel permanece inalterado, assim como o spawn de turnips.
+No 0.47.0, a região a oeste de Britain em Felucca entre **X=1099..1286**
+e **Y=1595..1920** não recebe proteção de guards, incluindo os campos de
+trigo, cenoura e cebola. Ela amplia a faixa agrícola já desprotegida
+(X=1130..1261, Y=1542..1732, incluindo o campo
+`A Turnip Field in Britain 2`); Trammel permanece inalterado, assim como o
+spawn de turnips.
 
 ## Moonglow em Trammel
 
@@ -48,7 +58,12 @@ A Mina de Minoc é protegida por guards na Felucca e em Trammel dentro do
 retângulo público definido por **X=2554..2581** e **Y=474..501**. Fora desse
 retângulo, consulte a indicação de região antes de presumir proteção.
 
+## Faixa leste de Minoc em Felucca
+
+No 0.47.0, a faixa na borda leste de Minoc em Felucca entre **X=2608..2610**
+e **Y=475..538** não recebe proteção de guards. Trammel permanece inalterado.
+
 Consulte [Arena e treinamento](../arena.md) para regras de entrada, interferência externa e devolução dos personagens.
 
-!!! success "Status: 0.40.0"
+!!! success "Status: 0.47.0"
     Esta página registra somente exceções confirmadas. A ausência de uma cidade na lista não significa que ela seja desprotegida.

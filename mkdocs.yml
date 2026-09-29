@@ -17,7 +17,7 @@ theme:
   palette:
     scheme: dob
 extra:
-  dob_version: "0.46.1"
+  dob_version: "0.47.0"
 extra_css:
   - stylesheets/extra.css?v=20260929.3
 extra_javascript:
@@ -136,6 +136,7 @@ nav:
       - Mundo e eventos:
           - Pets e montarias: sistemas/pets-montarias.md
           - Season of Thorns: sistemas/season-of-thorns.md
+          - Season of the Witch: sistemas/season-of-the-witch.md
           - Spawns raros: sistemas/spawns-raros.md
           - Whispers of Britannia: sistemas/whispers-britannia.md
           - Nujelm Safe Haven: mundo/nujelm.md

@@ -18,6 +18,8 @@ restrição; ele não libera ganho de skill dentro do Safe Haven.
 
 O Safe Haven não transforma toda a cidade em uma área sem risco fora da região definida. Observe a indicação de região antes de iniciar uma atividade.
 
+No 0.47.0, a cidade de Nujel'm em Felucca perde a proteção de guards fora do Safe Haven.
+
 ## Retornos e Arena
 
 Mortes fora da Arena, a opção Stuck e os fluxos de recuperação usam Nujelm como destino seguro. Consulte [Morte e recuperação](../primeiros-passos/morte-recuperacao.md) e [Newcomer e proteção](../primeiros-passos/newcomer.md) para os detalhes de cada fluxo.

@@ -32,6 +32,10 @@ ingots and a **Chainmail Armor Kit Deed** for 100 ingots; both require **75.0
 Inscription**. Each deed releases seven pieces while preserving the kit's
 material and hue. An eligible failure consumes 10 ingots.
 
+In 0.46.2, Armor Kit Make Max stops when ingots or another requirement are
+missing instead of repeating the message and locking the menu. Crafting a kit
+plays the hammer sound and reopens the Blacksmithy menu.
+
 Each **Leather Armor** piece now has exactly the same `Armor Rating` as its
 matching Chain, Ringmail, or Gorget piece in the same material. Mixing Leather
 with metal no longer gives an advantage over the kit; the Blacksmithy curve and
