@@ -70,6 +70,7 @@ plugins:
             Recompensas PvM: PvM rewards
             Arena e treinamento: Arena and training
             Sistemas: Systems
+            Temporadas: Seasons
             Base e referência: Foundation and reference
             Sistemas habilitados: Enabled systems
             'Thief: Snooping e Stealing': 'Thief: Snooping and Stealing'
@@ -135,12 +136,13 @@ nav:
           - Tomes of Expertise: sistemas/tomes-expertise.md
       - Mundo e eventos:
           - Pets e montarias: sistemas/pets-montarias.md
-          - Season of Thorns: sistemas/season-of-thorns.md
-          - Season of the Witch: sistemas/season-of-the-witch.md
           - Spawns raros: sistemas/spawns-raros.md
           - Whispers of Britannia: sistemas/whispers-britannia.md
           - Nujelm Safe Haven: mundo/nujelm.md
           - Threat Rating: mundo/threat-rating.md
+      - Temporadas:
+          - Season of the Witch: sistemas/season-of-the-witch.md
+          - Season of Thorns: sistemas/season-of-thorns.md
       - Casas e economia:
           - Casas: sistemas/casas.md
           - Player Vendors: sistemas/player-vendors.md
