@@ -107,6 +107,7 @@ achievement; see [Achievements](achievements.md).
 In the Hedge Maze, ten scattered shadows guard the encounter. Defeat them to
 reveal the true man mounted at the center. The shadows resist weapons; pets and
 summons do not work against them, and **Dispel** exposes their weakness briefly.
+The encounter cannot be fought from behind a fence.
 
 The encounter may grant an **Emerald Llama** or **Emerald Mustang**, **The
 Eleventh Heart**, extra loot, and a Chronicle connected to **Elias Wren**.

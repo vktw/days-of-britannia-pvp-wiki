@@ -44,6 +44,11 @@ proteção da cidade inteira nem altera a regra equivalente de Trammel.
 Serpent's Hold não recebe proteção de guards em Felucca nem em Trammel. Seus
 limites e conteúdo permanecem inalterados.
 
+## Magincia em Felucca
+
+No 0.49.0, Magincia em Felucca perde a proteção de guards. Posicionar uma casa
+na cidade continua recusado — consulte [Casas](../sistemas/casas.md).
+
 ## Cemitérios canônicos de Felucca
 
 Os perímetros definidos dos cemitérios de Britain, Cove, Jhelom, Moonglow, Nujelm, Vesper e Yew não recebem proteção de guards. Esta regra é separada da Arena Yew Cemetery, que fica em Trammel.

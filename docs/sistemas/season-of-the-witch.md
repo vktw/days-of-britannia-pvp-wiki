@@ -13,7 +13,8 @@ desde o deploy, em 29 de setembro.
 ## O coven
 
 Um único coven ocupa um cemitério de Felucca por vez: Britain, Cove, Jhelom,
-Moonglow, Nujelm, Vesper ou Yew. Ele é descoberto pela visão — basta enxergar
+Moonglow, Nujelm, Vesper ou Yew, sempre num ponto fixo e livre do cemitério
+sorteado. Ele é descoberto pela visão — basta enxergar
 uma bruxa com linha de visão. A primeira agressão válida ativa o confronto,
 inclusive ataques de pets e summons, e as cinco bruxas revidam de imediato.
 Cada bruxa tem um papel: a **guardiã** protege uma irmã, a **curandeira**
@@ -33,12 +34,13 @@ e cada golpe que recebem de uma criatura invocada tem 30% de chance de
 dissipar a invocação.
 
 A primeira bruxa derrotada libera um entre três adversários especiais.
-**The Ossuary Warden** marca no chão o raio de impacto do seu golpe.
-O **Espectro Vinculado** marca onde a maldição vai cair: saia mais de três
-tiles da marca, quebre a linha de visão ou fira-o durante o aviso para evitar
-a aplicação — depois de aplicada, a maldição completa seus quatro pulsos de
-15 de dano. O **Arauto Sepulcral** abre as sepulturas para chamar Cavaleiros
-Esqueléticos; feri-lo interrompe o ritual.
+**The Ossuary Warden** luta corpo a corpo e marca no chão o raio de impacto
+do seu golpe. O **Espectro Vinculado** e o **Arauto Sepulcral** lutam como
+conjuradores, como as líderes: o Espectro Vinculado marca onde a maldição vai
+cair — saia mais de três tiles da marca, quebre a linha de visão ou fira-o
+durante o aviso para evitar a aplicação — depois de aplicada, a maldição
+completa seus quatro pulsos de 15 de dano. O **Arauto Sepulcral** abre as
+sepulturas para chamar Cavaleiros Esqueléticos; feri-lo interrompe o ritual.
 
 Após as cinco bruxas e o adversário especial, surge uma entre quatro líderes:
 **The Candle Widow**, **The Grave Mother**, **The Nameless Crone** e
@@ -92,7 +94,8 @@ máximas usam o tom abóbora metalizado da temporada. O limite controla o
 resgate; os prêmios continuam negociáveis e looteáveis.
 
 As líderes podem deixar **A Crônica Não Escrita** com **10% de chance**: um
-livro colecionável cujas páginas ainda não revelam a história. Ele não é
+livro colecionável no tom abóbora metalizado da temporada, cujas páginas ainda
+não revelam a história. Ele não é
 necessário para atacar, participar ou resgatar recompensas.
 
 ## Outubro em Britannia

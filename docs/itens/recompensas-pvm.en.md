@@ -59,6 +59,10 @@ tamed specimens grant none of these rewards. Hunt and tame PvM Mastery XP comes
 only from the achievements; see [Achievements](../sistemas/achievements.md) and
 [Rare spawns](../sistemas/spawns-raros.md).
 
+In 0.49.0, special dyes (rare Great Harts, Pestilent, Black Moon, Heaven, and
+Dragon Blood) also dye your own hair and beard — target yourself — and your
+own backpack.
+
 ## Magical jewelry
 
 Magical earrings, bracelets, and rings can increase STR, DEX, or INT while equipped. Jewelry uses the classic appearance of its item type and has durability.

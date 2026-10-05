@@ -73,11 +73,13 @@ Use these examples to recognize each family. They do not guarantee a scroll: the
 | **Humanoid** | Orc, Ogre, and Troll |
 | **Reptilian** | Lizardman, Drake, and Dragon |
 | **Abyssal** | Imp, Daemon, and Balron |
-| **Elemental** | Earth Elemental, Fire Elemental, and Water Elemental |
+| **Elemental** | Earth Elemental, Fire Elemental, Water Elemental, and Mud Pie |
 | **Arachnid** | Giant Spider, Scorpion, and Terathan |
 | **Fey** | Pixie, Wisp, and Centaur |
 
 The scroll uses the normal corpse loot lifetime. A mastery does not need to be active for its scroll to drop. After discovering a mastery, use the Compendium to track its level and read the description shown in game.
+
+In 0.49.0, a scroll for a Mastery you already know can be consumed for a **+5% effect bonus for 60 minutes** of play. If it is inactive, the bonus activates it without taking one of the five slots; one bonus at a time, and the Compendium shows the bonus and the time left.
 
 ## Complete catalog of the 32 Masteries
 

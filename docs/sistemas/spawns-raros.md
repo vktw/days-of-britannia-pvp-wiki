@@ -108,7 +108,7 @@ consulte [Achievements](achievements.md).
 No Hedge Maze, dez sombras espalhadas guardam o encontro. Derrote-as para
 revelar o homem verdadeiro montado no centro. As sombras resistem a armas;
 pets e summons não funcionam contra elas, e **Dispel** expõe sua fraqueza por
-um breve período.
+um breve período. Não é possível lutar o encontro por trás de uma cerca.
 
 O encontro pode conceder uma **Emerald Llama** ou **Emerald Mustang**, **The
 Eleventh Heart**, loot extra e uma Chronicle relacionada a **Elias Wren**.

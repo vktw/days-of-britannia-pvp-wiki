@@ -2,6 +2,36 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.49.0 · Bandage Resurrection
+
+Published on October 3, 2026.
+
+- Bandage resurrection is now applied to the **corpse**, not the ghost, and costs **100 bandages per attempt**, success or failure. The ghost must stay within **2 tiles** of the corpse until it accepts. At **Healing 100** it always works; from 80 Healing and Anatomy the chance starts at **60%**. A carved or skeletal corpse does not qualify.
+- Whoever returns through bandages recovers what was still on the corpse: worn equipment is re-equipped and the rest goes to the backpack; whatever does not fit stays on the corpse. The **Resurrection** spell returns belongings the same way when the ghost accepts within **1 tile**. When a resurrection returns everything — bandages, Resurrection, return with belongings, or Sacrifice — the empty corpse disappears.
+- In Season of the Witch, the **Grave Mother, Leashed Shade, and Grave Herald** now fight as casters; the **Ossuary Warden** stays melee.
+- A **Scroll of Knowledge** for a known Mastery can be consumed for **+5% effect for 60 minutes** of play. If it is inactive, it activates without taking a slot; one bonus at a time, and the Hunter's Compendium shows bonus and time left.
+- Special dyes (rare Great Harts, Pestilent, Black Moon, Heaven, and Dragon Blood) now also dye your own **hair and beard** when targeting yourself, and your own **backpack**.
+- Each Alchemy Lab PotionKeg has its own color: Invisibility grey, Total Refreshment red, Greater Heal yellow, and Deadly Poison green; Total Mana keeps its own. Existing kegs receive the new color automatically.
+- **Magincia** loses guard protection. Trying to place a house there no longer crashes the server, but building stays forbidden.
+- The coven always appears at a **fixed, clear spot** in each cemetery; the cemetery is still drawn each cycle.
+- Re-deeding a colored-metal Suit of Gold/Silver Armor keeps the metal color on the deed; deeds that had lost it recover it automatically.
+
+See [Death and recovery](primeiros-passos/morte-recuperacao.md), [Season of the Witch](sistemas/season-of-the-witch.md), [PvM Mastery](sistemas/pvm-mastery.md), [PvM rewards](itens/recompensas-pvm.md), [Cities and guards](mundo/cidades-guards.md), [Houses](sistemas/casas.md), [Armor](itens/armaduras.md), and [Alchemy](craft/alchemy.md).
+
+## 0.48.0 · Public Alchemy Lab
+
+Published on September 30, 2026.
+
+- Public **Alchemy Labs** in Britain and Serpent's Hold: they offer all Alchemy, include the DoB Kegs category, apply a final **7.5 percentage-point** bonus, and charge **5 gold** per normal craft or **500 gold** per keg attempt. Fee and bonus appear in the Lab tooltip and the menu.
+- PotionKegs weigh **20 stones** empty plus **0.3 per charge**, and the tooltip shows the current load (for example, charges: 73 / 100).
+- An Alchemy failure saved by Taste ID no longer creates an extra empty bottle.
+- The **Fire Bow** adds **11 points** to both ends of its damage instead of 8.
+- **Mud Pie** counts as an Elemental: it counts for Elemental Ban, contracts, mastery, and group achievements.
+- The Season of Thorns **Briarstrider** can be shrunk with a Shrink Potion, including already released ones; shrunk pets read as `shrunken horse`, without repeating the article.
+- **The Unwritten Chronicle** uses the season's metallic pumpkin hue.
+
+See [Alchemy](craft/alchemy.md), [Weapons](itens/armas.md), [PvM Mastery](sistemas/pvm-mastery.md), [Season of Thorns](sistemas/season-of-thorns.md), and [Season of the Witch](sistemas/season-of-the-witch.md).
+
 ## 0.47.0 · Season of the Witch
 
 Published on September 29, 2026.

@@ -2,6 +2,36 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.49.0 · Ressurreição com Bandagens
+
+Publicado em 3 de outubro de 2026.
+
+- A ressurreição com bandagens agora é aplicada no **corpo**, não no fantasma, e custa **100 bandagens por tentativa**, com sucesso ou falha. O fantasma precisa ficar a até **2 tiles** do corpo até aceitar. Com **Healing 100** sempre funciona; a partir de 80 de Healing e Anatomy a chance começa em **60%**. Corpo cortado ou reduzido a ossos não vale.
+- Quem volta por bandagens recupera o que ainda estava no corpo: o equipamento volta a ser vestido e o resto vai para a mochila; o que não couber continua no corpo. A magia **Resurrection** devolve os pertences do mesmo jeito quando o fantasma aceita a até **1 tile**. Quando a ressurreição devolve tudo — bandagens, Resurrection, retorno com pertences ou Sacrifice — o corpo vazio desaparece.
+- Na Temporada das Bruxas, **Grave Mother, Leashed Shade e Grave Herald** agora lutam como conjuradores; o **Ossuary Warden** continua corpo a corpo.
+- Um **Scroll of Knowledge** de Maestria conhecida pode ser consumido para **+5% de efeito por 60 minutos** de jogo. Se ela estiver inativa, ativa sem ocupar espaço; só um bônus por vez, e o Hunter's Compendium mostra bônus e tempo restante.
+- As tintas especiais (Great Harts raros, Pestilent, Black Moon, Heaven e Dragon Blood) agora também pintam o **cabelo e a barba** do próprio personagem, mirando em si mesmo, e a **própria mochila**.
+- Cada PotionKeg do Alchemy Lab tem cor própria: Invisibility em cinza, Total Refreshment em vermelho, Greater Heal em amarelo e Deadly Poison em verde; Total Mana mantém a sua. Kegs existentes recebem a nova cor automaticamente.
+- **Magincia** perde a proteção de guards. Tentar posicionar uma casa lá não derruba mais o servidor, mas construir continua proibido.
+- O coven surge sempre num **ponto fixo e livre** de cada cemitério; o cemitério continua sorteado a cada ciclo.
+- Redeed de Suit of Gold/Silver Armor de metal colorido mantém a cor do metal no deed; deeds que haviam perdido a cor recuperam automaticamente.
+
+Consulte [Morte e recuperação](primeiros-passos/morte-recuperacao.md), [Season of the Witch](sistemas/season-of-the-witch.md), [Maestria PvM](sistemas/pvm-mastery.md), [Recompensas PvM](itens/recompensas-pvm.md), [Cidades e guards](mundo/cidades-guards.md), [Casas](sistemas/casas.md), [Armaduras](itens/armaduras.md) e [Alchemy](craft/alchemy.md).
+
+## 0.48.0 · Alchemy Lab Público
+
+Publicado em 30 de setembro de 2026.
+
+- **Alchemy Labs públicos** em Britain e Serpent's Hold: oferecem todo o Alchemy, incluem a categoria DoB Kegs, aplicam bônus final de **7,5 pontos percentuais** e cobram **5 gold** por craft normal ou **500 gold** por tentativa de keg. Taxa e bônus aparecem na tooltip do Lab e no menu.
+- PotionKegs pesam **20 stones** vazios mais **0,3 por carga**, e a tooltip mostra a carga atual (por exemplo, charges: 73 / 100).
+- Falha de Alchemy salva pelo Taste ID não gera mais garrafa vazia extra.
+- O **Fire Bow** soma **11 pontos** às duas pontas do dano, em vez de 8.
+- **Mud Pie** conta como Elemental: vale para Elemental Ban, contratos, maestria e conquistas do grupo.
+- O **Briarstrider** da Season of Thorns pode ser shrinkado com Shrink Potion, inclusive os já liberados; pets shrinkados aparecem como `shrunken horse`, sem repetir o artigo.
+- **A Crônica Não Escrita** usa o tom abóbora metalizado da temporada.
+
+Consulte [Alchemy](craft/alchemy.md), [Armas](itens/armas.md), [Maestria PvM](sistemas/pvm-mastery.md), [Season of Thorns](sistemas/season-of-thorns.md) e [Season of the Witch](sistemas/season-of-the-witch.md).
+
 ## 0.47.0 · A Temporada das Bruxas
 
 Publicado em 29 de setembro de 2026.

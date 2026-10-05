@@ -66,7 +66,7 @@ Bowcraft passa a oferecer duas armas na categoria **DoB Weapons**. As receitas u
 
 | Arma | Recursos | Curva de Bowcraft | Efeito próprio |
 |---|---|---|---|
-| **Fire Bow** | 30 Fire Feathers e 30 Ash Logs | 75% em 100.0 | +6 de dano temático e impacto visual/sonoro de Fireball, sem projétil em movimento |
+| **Fire Bow** | 30 Fire Feathers e 30 Ash Logs | 75% em 100.0 | +11 de dano temático e impacto visual/sonoro de Fireball, sem projétil em movimento |
 | **Elven Bow** | 30 Heartwood Logs | 0% em 65.0 e 100% em 100.0 | Speed 2.50, dano base 7–12 e +10 de Tactics e +10 de Archery enquanto equipado |
 
 As Fire Feathers da Rare Phoenix funcionam na receita do Fire Bow. Armas produzidas pela Bowcraft deixam de receber bônus de combate derivados da madeira escolhida; o recurso continua identificando o item, enquanto os efeitos próprios de Fire Bow e Elven Bow permanecem.

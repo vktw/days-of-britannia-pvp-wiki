@@ -22,6 +22,10 @@ The cosmetic Dragon Blood dye service is located at **Nujelm Safe Haven**, with
 the NPC **Drakara**. Each dye uses 150 matching ingots, 10 Dragon Bloods, and a
 dynamic gold charge with a 50,000-gold floor; the dye has one charge.
 
+In 0.49.0, special dyes (rare Great Harts, Pestilent, Black Moon, Heaven, and
+Dragon Blood) also dye your own hair and beard — target yourself — and your
+own backpack.
+
 ## Hides and Leather in 0.43.0
 
 Each **Hide** weighs **1.0 stone** and each **Leather** weighs **0.5 stone**.

@@ -50,7 +50,8 @@ compartilhados entre os personagens e reiniciam por edição.
 
 Briarheart Pigment é a tintura sazonal, Briarstrider é a montaria da edição e
 Thornwake é a arma de recompensa. O limite controla o resgate; os prêmios
-continuam negociáveis e looteáveis.
+continuam negociáveis e looteáveis. No 0.48.0, o Briarstrider pode ser
+guardado com Shrink Potion, inclusive os já liberados.
 
 ## Continue explorando
 

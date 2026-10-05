@@ -30,6 +30,11 @@ Transferring or demolishing the house, changing its model, managing vendors or
 the co-owner list, and accessing chests with **Owner** security remain
 owner-only actions.
 
+## Magincia in 0.49.0
+
+Placing a house in **Magincia** no longer crashes the server, but the attempt
+stays refused: building houses in the town is not allowed.
+
 ## Commodity Deed Box
 
 Bankers sell the **Commodity Deed Box for 20,000 Gold**. To operate Commodity

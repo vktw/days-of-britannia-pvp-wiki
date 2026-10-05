@@ -9,7 +9,22 @@ isso o simulador informa apenas o ponto confirmado de 100.0 e não interpola.
 
 Se uma potion falhar, **Taste Identification** pode preservar os reagentes:
 chance de **50% em 100.0** e **75% em 110.0**. A ferramenta continua sendo
-consumida, e reagentes preservados não geram ganho de skill.
+consumida, e reagentes preservados não geram ganho de skill. A falha salva
+não gera garrafa vazia extra.
+
+## Alchemy Labs públicos no 0.48.0
+
+Britain e Serpent's Hold têm **Alchemy Labs públicos**: estações que oferecem
+todo o Alchemy, incluindo a categoria **DoB Kegs**, com bônus final de
+**7,5 pontos percentuais** na chance. Cada craft normal custa **5 gold**, e
+cada tentativa de keg custa **500 gold**; taxa e bônus aparecem na tooltip do
+Lab e no menu de craft.
+
+PotionKegs pesam **20 stones** vazios mais **0,3 por carga armazenada**, e a
+tooltip mostra a carga atual (por exemplo, charges: 73 / 100). Cada conteúdo
+tem sua cor: Invisibility em cinza, Total Refreshment em vermelho, Greater
+Heal em amarelo e Deadly Poison em verde; Total Mana mantém a sua. Kegs já
+existentes recebem a nova cor automaticamente.
 
 <section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Alchemy" data-craft-sim-slider-max="105" aria-labelledby="dob-craft-alchemy-title">
   <div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Menu da skill</span><h3 id="dob-craft-alchemy-title">Alchemy</h3><p>Snapshot do catálogo 0.40.0. Para Deadly Poison, o ponto de 100.0 foi atualizado; a prévia não publica a curva entre pontos e não alcança 110.0 de skill efetiva. A skill controla a chance, não a potência da potion.</p></div>

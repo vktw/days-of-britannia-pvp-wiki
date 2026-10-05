@@ -51,6 +51,12 @@ Armor looted from **Legendary** or higher creatures can be one tier higher, up
 to Invulnerability. Loot shields and helms use permitted craftable appearances
 without changing `Armor Rating`; **Chain Coif** keeps its own appearance.
 
+## Deed color in 0.49.0
+
+Re-deeding a colored-metal Suit of Gold Armor or Suit of Silver Armor keeps
+the metal color on the deed. Deeds that had already lost it recover it
+automatically.
+
 ## Armor Rating in 0.40.0
 
 Armor and shields display **Armor Rating: N**. For recipe-backed pieces, the

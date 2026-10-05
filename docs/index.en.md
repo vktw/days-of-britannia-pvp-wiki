@@ -21,8 +21,8 @@ hide:
 
 <section class="dob-landing-strip" aria-label="Server status">
   <span class="dob-landing-stat"><strong><i aria-hidden="true"></i>Server online</strong><small>Britannia is active</small></span>
-  <span class="dob-landing-stat"><strong>0.47.0</strong><small>Current version</small></span>
-  <a class="dob-landing-stat" href="patches/"><strong>Season of the Witch</strong><small>Latest update</small></a>
+  <span class="dob-landing-stat"><strong>0.49.0</strong><small>Current version</small></span>
+  <a class="dob-landing-stat" href="patches/"><strong>Bandage Resurrection</strong><small>Latest update</small></a>
 </section>
 
 <nav class="dob-landing-shortcuts" aria-label="Manual shortcuts">
@@ -81,18 +81,18 @@ hide:
   <h2 id="dob-landing-news" class="dob-landing-section__title">The shard keeps moving</h2>
   <div class="dob-landing-news">
     <article class="dob-landing-patch">
-      <span class="dob-landing-patch__tag">Latest update · 0.47.0</span>
-      <h3>Season of the Witch</h3>
-      <p class="dob-landing-patch__date"><time datetime="2026-09-29">September 29, 2026</time></p>
-      <p>A coven of five witches rises in Felucca cemeteries this October: face undead waves, a special foe, and a leader to trade Coven Orbs with the Coven Keeper.</p>
+      <span class="dob-landing-patch__tag">Latest update · 0.49.0</span>
+      <h3>Bandage Resurrection</h3>
+      <p class="dob-landing-patch__date"><time datetime="2026-10-03">October 3, 2026</time></p>
+      <p>Bandages applied to the corpse bring the ghost back with belongings; Magincia loses its guards and the coven gains a fixed spot.</p>
       <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="patches/">Read patch notes</a>
     </article>
     <div class="dob-landing-articles">
       <h3>Latest updated articles</h3>
-      <a href="sistemas/season-of-the-witch/"><time datetime="2026-09-29">Sep 29</time><span><strong>Season of the Witch</strong><small>Coven, Coven Orbs, and the 11 seasonal rewards</small></span></a>
-      <a href="patches/"><time datetime="2026-09-29">Sep 29</time><span><strong>Patch notes</strong><small>0.47.0 Season of the Witch</small></span></a>
-      <a href="mundo/cidades-guards/"><time datetime="2026-09-29">Sep 29</time><span><strong>Cities and guards</strong><small>Unguarded Jhelom and Nujel'm; new Britain and Minoc strips</small></span></a>
-      <a href="sistemas/spawns-raros/"><time datetime="2026-09-24">Sep 24</time><span><strong>Rare spawns</strong><small>Six rare Great Harts, cycles, taming, and rewards</small></span></a>
+      <a href="primeiros-passos/morte-recuperacao/"><time datetime="2026-10-03">Oct 3</time><span><strong>Death and recovery</strong><small>Corpse-side bandage resurrection, with belongings</small></span></a>
+      <a href="patches/"><time datetime="2026-10-03">Oct 3</time><span><strong>Patch notes</strong><small>0.49.0 Bandage Resurrection</small></span></a>
+      <a href="craft/alchemy/"><time datetime="2026-09-30">Sep 30</time><span><strong>Alchemy</strong><small>Public labs, kegs, and per-content colors</small></span></a>
+      <a href="mundo/cidades-guards/"><time datetime="2026-10-03">Oct 3</time><span><strong>Cities and guards</strong><small>Unguarded Magincia in Felucca</small></span></a>
     </div>
   </div>
 </section>

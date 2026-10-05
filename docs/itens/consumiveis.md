@@ -21,6 +21,10 @@ O serviço de dye cosmético com Dragon Blood fica em **Nujelm Safe Haven**, com
 a NPC **Drakara**. Cada dye consome 150 ingots compatíveis, 10 Dragon Bloods e
 uma cobrança dinâmica em gold com piso de 50.000; o dye possui uma carga.
 
+No 0.49.0, as tintas especiais (Great Harts raros, Pestilent, Black Moon,
+Heaven e Dragon Blood) também pintam o cabelo e a barba do próprio personagem
+— mire em si mesmo — e a própria mochila.
+
 ## Hides e Leather no 0.43.0
 
 Cada **Hide** pesa **1,0 stone** e cada **Leather** pesa **0,5 stone**. Com uma

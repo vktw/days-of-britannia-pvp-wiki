@@ -52,6 +52,12 @@ acima, até Invulnerability. Shields e helms de loot usam aparências permitidas
 de peças craftáveis, sem alteração do `Armor Rating`; **Chain Coif** preserva a
 aparência própria.
 
+## Cor do deed no 0.49.0
+
+Refazer o deed de um Suit of Gold Armor ou Suit of Silver Armor de metal
+colorido mantém a cor do metal no deed. Deeds que já haviam perdido a cor
+recuperam automaticamente.
+
 ## Armor Rating no 0.40.0
 
 Armaduras e shields exibem **Armor Rating: N**. Para peças apoiadas por uma

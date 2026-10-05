@@ -13,7 +13,8 @@ applies since deployment on September 29.
 ## The coven
 
 A single coven holds one Felucca cemetery at a time: Britain, Cove, Jhelom,
-Moonglow, Nujel'm, Vesper, or Yew. It is discovered by sight — seeing one
+Moonglow, Nujel'm, Vesper, or Yew, always at a fixed, clear spot in the drawn
+cemetery. It is discovered by sight - seeing one
 witch with line of sight is enough. The first valid aggression activates the
 fight, including pet and summon attacks, and all five witches retaliate at
 once. Each witch has a role: the **guardian** shields a sister, the
@@ -32,12 +33,13 @@ Coven creatures are immune to paralysis, and each hit they take from a
 summoned creature has a 30% chance to dispel the summon.
 
 The first fallen witch releases one of three special foes.
-**The Ossuary Warden** marks the impact radius of his strike on the ground.
-The **Leashed Shade** marks where its curse will land: move more than three
-tiles from the mark, break line of sight, or damage it during the warning to
-prevent application — once applied, the curse completes its four 15-damage
-pulses. The **Grave Herald** opens the graves to call Skeletal Knights;
-damaging him interrupts the ritual.
+**The Ossuary Warden** fights in melee and marks the impact radius of his
+strike on the ground. The **Leashed Shade** and the **Grave Herald** fight as
+casters, like the leaders: the Leashed Shade marks where its curse will land —
+move more than three tiles from the mark, break line of sight, or damage it
+during the warning to prevent application — once applied, the curse completes
+its four 15-damage pulses. The **Grave Herald** opens the graves to call
+Skeletal Knights; damaging him interrupts the ritual.
 
 After the five witches and the special foe, one of four leaders appears:
 **The Candle Widow**, **The Grave Mother**, **The Nameless Crone**, and
@@ -91,7 +93,8 @@ season's metallic pumpkin hue. Limits control redemption; rewards remain
 tradeable and lootable.
 
 Leaders may leave **The Unwritten Chronicle** with a **10%** chance: a
-collectible book whose pages do not yet reveal the story. It is never required
+collectible book in the season's metallic pumpkin hue, whose pages do not yet
+reveal the story. It is never required
 to attack, participate, or claim rewards.
 
 ## October in Britannia

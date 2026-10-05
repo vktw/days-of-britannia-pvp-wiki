@@ -49,7 +49,8 @@ shared across characters and reset each edition.
 
 Briarheart Pigment is the seasonal dye, Briarstrider is the edition's mount, and
 Thornwake is its reward weapon. The limit governs redemption; rewards remain
-tradable and lootable.
+tradable and lootable. In 0.48.0, the Briarstrider can be stored with a Shrink
+Potion, including already released ones.
 
 ## Keep exploring
 

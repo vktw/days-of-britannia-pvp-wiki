@@ -61,6 +61,10 @@ exemplares já domados não concedem essas recompensas. O XP de Maestria PvM da
 caçada e da doma vem somente dos achievements; consulte
 [Achievements](../sistemas/achievements.md) e [Spawns raros](../sistemas/spawns-raros.md).
 
+No 0.49.0, as tintas especiais (Great Harts raros, Pestilent, Black Moon,
+Heaven e Dragon Blood) também pintam o cabelo e a barba do próprio personagem
+— mire em si mesmo — e a própria mochila.
+
 ## Joias mágicas
 
 Earrings, bracelets e rings mágicos podem aumentar STR, DEX ou INT enquanto estiverem equipados. As joias usam a aparência clássica de seu tipo e possuem durabilidade.

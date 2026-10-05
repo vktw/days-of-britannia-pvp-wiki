@@ -73,11 +73,13 @@ Use estes exemplos para reconhecer cada família. Eles não garantem um scroll: 
 | **Humanoid** | Orc, Ogre e Troll |
 | **Reptilian** | Lizardman, Drake e Dragon |
 | **Abyssal** | Imp, Daemon e Balron |
-| **Elemental** | Earth Elemental, Fire Elemental e Water Elemental |
+| **Elemental** | Earth Elemental, Fire Elemental, Water Elemental e Mud Pie |
 | **Arachnid** | Giant Spider, Scorpion e Terathan |
 | **Fey** | Pixie, Wisp e Centaur |
 
 O scroll usa o tempo normal de permanência do loot no corpo. Não é necessário ter uma Maestria ativa para encontrá-lo. Ao descobrir uma Maestria, consulte o Compendium para acompanhar seu nível e a descrição exibida no jogo.
+
+No 0.49.0, um scroll de Maestria que você já conhece pode ser consumido para um bônus de **+5% de efeito por 60 minutos** de jogo. Se ela estiver inativa, o bônus a ativa sem ocupar um dos cinco espaços; só um bônus por vez, e o Compendium mostra o bônus e o tempo restante.
 
 ## Catálogo completo das 32 Maestrias
 

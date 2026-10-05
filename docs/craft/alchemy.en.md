@@ -9,7 +9,22 @@ simulator reports only the confirmed 100.0 point and does not interpolate.
 
 If a potion craft fails, **Taste Identification** may preserve its reagents:
 **50% chance at 100.0** and **75% at 110.0**. The tool is still consumed, and
-preserved reagents do not grant skill gain.
+preserved reagents do not grant skill gain. A saved failure does not create an
+extra empty bottle.
+
+## Public Alchemy Labs in 0.48.0
+
+Britain and Serpent's Hold have public **Alchemy Labs**: stations offering all
+Alchemy, including the **DoB Kegs** category, with a final **7.5
+percentage-point** chance bonus. Each normal craft costs **5 gold**, and each
+keg attempt costs **500 gold**; fee and bonus appear in the Lab tooltip and the
+craft menu.
+
+PotionKegs weigh **20 stones** empty plus **0.3 per stored charge**, and the
+tooltip shows the current load (for example, charges: 73 / 100). Each content
+has its own color: Invisibility grey, Total Refreshment red, Greater Heal
+yellow, and Deadly Poison green; Total Mana keeps its own. Existing kegs
+receive the new color automatically.
 
 <section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Alchemy" data-craft-sim-slider-max="105" aria-labelledby="dob-craft-alchemy-title">
   <div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Skill menu</span><h3 id="dob-craft-alchemy-title">Alchemy</h3><p>0.40.0 catalog snapshot. The Deadly Poison point at 100.0 is updated; this preview does not publish the curve between points and does not reach 110.0 effective skill. Skill controls chance, not potion potency.</p></div>

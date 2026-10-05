@@ -66,7 +66,7 @@ Bowcraft now offers two weapons in the **DoB Weapons** category. The recipes use
 
 | Weapon | Resources | Bowcraft curve | Intrinsic effect |
 |---|---|---|---|
-| **Fire Bow** | 30 Fire Feathers and 30 Ash Logs | 75% at 100.0 | +6 thematic damage and Fireball impact animation/sound, without a moving projectile |
+| **Fire Bow** | 30 Fire Feathers and 30 Ash Logs | 75% at 100.0 | +11 thematic damage and Fireball impact animation/sound, without a moving projectile |
 | **Elven Bow** | 30 Heartwood Logs | 0% at 65.0 and 100% at 100.0 | Speed 2.50, 7–12 base damage, and +10 Tactics and +10 Archery while equipped |
 
 Fire Feathers from a Rare Phoenix work in the Fire Bow recipe. Weapons made through Bowcraft no longer receive combat bonuses derived from the selected wood; the resource still identifies the item, while Fire Bow and Elven Bow keep their intrinsic effects.

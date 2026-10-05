@@ -30,6 +30,11 @@ Transferir ou demolir a casa, mudar seu modelo, administrar vendors ou a lista
 de co-owners e acessar baús com segurança **Owner** continuam sendo ações
 exclusivas do dono.
 
+## Magincia no 0.49.0
+
+Posicionar uma casa em **Magincia** não derruba mais o servidor, mas a
+tentativa continua recusada: construir casas na cidade não é permitido.
+
 ## Commodity Deed Box
 
 Bankers vendem a **Commodity Deed Box por 20.000 Gold**. Para operar Commodity
