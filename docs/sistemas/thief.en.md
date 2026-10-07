@@ -22,6 +22,12 @@ If the thief dies within **20 minutes after a successful theft**, stolen stackab
 
 In [Nujelm Safe Haven](../mundo/nujelm.md), stealing between players is blocked by the region's protection.
 
+## Getting caught stealing
+
+Each attempt against a player can expose the thief: at **100.0 Stealing**, roughly **1 in 3** attempts is noticed; at **120.0**, roughly **1 in 5**. Immovable items outside containers never cause this exposure.
+
+Whoever is caught **turns criminal on the spot**, and everyone within **8 tiles** sees the attempt — unless they share the victim's guild or the victim is not innocent. Being caught or failing does not count toward the 5 thefts of gray status.
+
 ## The thief's gray status
 
 After **5 successful PvP thefts**, the character turns gray and can be attacked by any player without the attacker becoming criminal. Guards do not interfere; banks, vendors, and moongates keep working. Murderer status takes precedence.

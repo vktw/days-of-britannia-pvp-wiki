@@ -22,6 +22,12 @@ Se o ladrão morrer dentro dos **20 minutos após um roubo bem-sucedido**, os it
 
 Em [Nujelm Safe Haven](../mundo/nujelm.md), Stealing entre jogadores é bloqueado pela proteção da região.
 
+## Ser pego roubando
+
+Cada tentativa contra um jogador pode expor o ladrão: com **100.0 de Stealing**, cerca de **1 em 3** tentativas é percebida; com **120.0**, cerca de **1 em 5**. Itens imóveis fora de containers não geram essa exposição.
+
+Quem é pego **vira criminal na hora**, e todos num raio de **8 tiles** veem que ele tentava roubar — exceto se for da mesma guild da vítima ou a vítima não for inocente. Ser pego ou falhar não conta para os 5 roubos do estado cinza.
+
 ## Estado cinza do thief
 
 Depois de **5 roubos PvP bem-sucedidos**, o personagem fica cinza e pode ser atacado por qualquer jogador sem que o atacante se torne criminal. Guards não interferem; bancos, vendors e moongates continuam funcionando. O estado murderer tem precedência.
