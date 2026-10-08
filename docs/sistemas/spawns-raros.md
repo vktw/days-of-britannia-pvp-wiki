@@ -122,19 +122,6 @@ por vez. Avisos globais em vermelho anunciam cada coven sem revelar o local e
 se repetem a cada hora; o coven não aparece nos Whispers. Detalhes do
 confronto, moeda e recompensas ficam em [Season of the Witch](season-of-the-witch.md).
 
-## Orc Warlord
-
-Na Orc Cave vive o **Orc Warlord**, um comandante orc com a força de um Ogre
-Lord (STR 767–945, dano 20–25, 580–635 de vida) e a agilidade de um orc (DEX
-91–115). Ele não pode ser domado.
-
-O Warlord é o primeiro a usar uma nova inteligência de combate corpo a corpo,
-ainda em teste e restrita a criaturas novas: persegue na velocidade de um
-cavalo quem ataca de longe, evita campos mágicos, se liberta da paralisia,
-derruba Wall of Stone e Energy Field, fareja quem se esconde, vai atrás de
-quem cura seus inimigos e chama outros orcs para a luta. Criaturas com essa
-inteligência valem mais Threat, com mais gold, XP e loot.
-
 ## Eventos fixos
 
 Os eventos fixos são separados da Rare Britannia: a **Rare Rideable Llama exige

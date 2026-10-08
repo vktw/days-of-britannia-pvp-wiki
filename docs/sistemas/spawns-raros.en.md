@@ -121,19 +121,6 @@ time. Red global notices announce each coven without revealing the location
 and repeat each hour; the coven does not appear in Whispers. Fight details,
 currency, and rewards live in [Season of the Witch](season-of-the-witch.md).
 
-## Orc Warlord
-
-The Orc Cave holds the **Orc Warlord**, an orc commander with an Ogre Lord's
-strength (STR 767–945, damage 20–25, 580–635 hits) and an orc's agility (DEX
-91–115). It cannot be tamed.
-
-The Warlord is the first to use a new melee combat mind, still in testing and
-limited to new creatures: it chases at a horse's speed whoever attacks from
-range, avoids magic fields, breaks free of paralysis, smashes Wall of Stone
-and Energy Field, sniffs out whoever hides, goes after whoever heals its foes,
-and calls other orcs to the fight. Creatures with this mind are worth more
-Threat, with more gold, XP, and loot.
-
 ## Fixed events
 
 The fixed events are separate from Rare Britannia: the **Rare Rideable Llama

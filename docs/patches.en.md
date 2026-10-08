@@ -14,7 +14,7 @@ Published on October 5, 2026.
 - The Minoc mine has been rebuilt on the Felucca map and is now **fully protected by guards**.
 - Automatic world saves freeze the game for less time: the backup copy now runs after the save without pausing the server.
 
-See [Rare spawns](sistemas/spawns-raros.md), [Kharag](sistemas/kharag.md), [PvM rewards](itens/recompensas-pvm.md), [Threat Rating](mundo/threat-rating.md), [Consumables](itens/consumiveis.md), [Character](personagem.md), and [Cities and guards](mundo/cidades-guards.md).
+See [PvM hunting](sistemas/caca-pvm.md), [Kharag](sistemas/kharag.md), [PvM rewards](itens/recompensas-pvm.md), [Threat Rating](mundo/threat-rating.md), [Consumables](itens/consumiveis.md), [Character](personagem.md), and [Cities and guards](mundo/cidades-guards.md).
 
 ## 0.49.0 · Bandage Resurrection
 

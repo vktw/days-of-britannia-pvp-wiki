@@ -14,7 +14,7 @@ Publicado em 5 de outubro de 2026.
 - A mina de Minoc foi reconstruída no mapa de Felucca e agora é **toda protegida por guards**.
 - O save automático trava o jogo por menos tempo: a cópia de backup agora é feita depois do save, sem pausar o servidor.
 
-Consulte [Spawns raros](sistemas/spawns-raros.md), [Kharag](sistemas/kharag.md), [Recompensas PvM](itens/recompensas-pvm.md), [Threat Rating](mundo/threat-rating.md), [Consumíveis](itens/consumiveis.md), [Personagem](personagem.md) e [Cidades e guards](mundo/cidades-guards.md).
+Consulte [Caça PvM](sistemas/caca-pvm.md), [Kharag](sistemas/kharag.md), [Recompensas PvM](itens/recompensas-pvm.md), [Threat Rating](mundo/threat-rating.md), [Consumíveis](itens/consumiveis.md), [Personagem](personagem.md) e [Cidades e guards](mundo/cidades-guards.md).
 
 ## 0.49.0 · Ressurreição com Bandagens
 

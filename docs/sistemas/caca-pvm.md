@@ -50,6 +50,19 @@ No PvM elegível, a proteção contra burst limita a **90 HP por golpe** e a **9
 HP no total** dentro de uma janela móvel de **2,5 segundos**. Essa proteção é
 específica de encontros PvM e não altera PvP, Arena ou outras fontes de dano.
 
+## Orc Warlord na Orc Cave
+
+Na Orc Cave vive o **Orc Warlord**, um comandante orc com a força de um Ogre
+Lord (STR 767–945, dano 20–25, 580–635 de vida) e a agilidade de um orc (DEX
+91–115). Ele não pode ser domado.
+
+O Warlord é o primeiro a usar uma nova inteligência de combate corpo a corpo,
+ainda em teste e restrita a criaturas novas: persegue na velocidade de um
+cavalo quem ataca de longe, evita campos mágicos, se liberta da paralisia,
+derruba Wall of Stone e Energy Field, fareja quem se esconde, vai atrás de
+quem cura seus inimigos e chama outros orcs para a luta. Criaturas com essa
+inteligência valem mais Threat, com mais gold, XP e loot.
+
 ## Dicas
 
 Consulte [Maestria PvM](pvm-mastery.md) para entender a progressão e

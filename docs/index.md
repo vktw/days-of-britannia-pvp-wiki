@@ -91,7 +91,7 @@ hide:
       <h3>Últimos artigos atualizados</h3>
       <a href="sistemas/kharag/"><time datetime="2026-10-05">5 out</time><span><strong>Kharag</strong><small>Pontos por recurso e as 28 recompensas</small></span></a>
       <a href="patches/"><time datetime="2026-10-05">5 out</time><span><strong>Patch notes</strong><small>Orc Warlord e Kharag do 0.50.0</small></span></a>
-      <a href="sistemas/spawns-raros/"><time datetime="2026-10-05">5 out</time><span><strong>Spawns raros</strong><small>Orc Warlord na Orc Cave</small></span></a>
+      <a href="sistemas/caca-pvm/"><time datetime="2026-10-05">5 out</time><span><strong>Caça PvM</strong><small>Orc Warlord na Orc Cave</small></span></a>
       <a href="mundo/cidades-guards/"><time datetime="2026-10-05">5 out</time><span><strong>Cidades e guards</strong><small>Mina de Minoc toda protegida</small></span></a>
     </div>
   </div>

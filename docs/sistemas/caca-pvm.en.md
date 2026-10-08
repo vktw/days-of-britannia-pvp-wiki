@@ -49,6 +49,19 @@ In eligible PvM, burst protection limits damage to **90 HP per hit** and **90 HP
 total** within a **2.5-second** rolling window. This protection is specific to
 PvM encounters and does not change PvP, Arena, or other damage sources.
 
+## Orc Warlord in the Orc Cave
+
+The Orc Cave holds the **Orc Warlord**, an orc commander with an Ogre Lord's
+strength (STR 767–945, damage 20–25, 580–635 hits) and an orc's agility (DEX
+91–115). It cannot be tamed.
+
+The Warlord is the first to use a new melee combat mind, still in testing and
+limited to new creatures: it chases at a horse's speed whoever attacks from
+range, avoids magic fields, breaks free of paralysis, smashes Wall of Stone
+and Energy Field, sniffs out whoever hides, goes after whoever heals its foes,
+and calls other orcs to the fight. Creatures with this mind are worth more
+Threat, with more gold, XP, and loot.
+
 ## Tips
 
 See [PvM Mastery](pvm-mastery.md) for progression and [PvM rewards](../itens/recompensas-pvm.md)
