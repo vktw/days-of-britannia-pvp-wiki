@@ -28,6 +28,37 @@ Each attempt against a player can expose the thief: at **100.0 Stealing**, rough
 
 Whoever is caught **turns criminal on the spot**, and everyone within **8 tiles** sees the attempt — unless they share the victim's guild or the victim is not innocent. Being caught or failing does not count toward the 5 thefts of gray status.
 
+The victim always gets the attempt warning, even on a clean theft. With a
+**+10** Stealing amulet, effective skill reaches **110.0** and the caught
+chance drops to roughly **1 in 4**.
+
+## How much can be stolen
+
+Nothing over **10 stones** can be stolen. In stacks, the maximum amount per
+attempt is skill divided by 10 and by the unit weight — with the skill check
+deciding success:
+
+- Gold coins: up to **1,500** at 100.0, up to **1,650** at 110.0.
+- Reagents: up to **100** at 100.0, up to **110** at 110.0.
+- 1-stone potions: up to **10** at 100.0, up to **11** at 110.0.
+
+Near the 10-stone limit, success chance at 110.0 is around **2 in 3**.
+
+## Training at home
+
+Stealing items from your own **secured** chest at home causes no criminal
+flag, calls no guards, and does not count toward gray status. Put the training
+item in the chest and repeat stealing and returning it.
+
+Skill gain follows item weight — use these bands as reference:
+
+| Stealing | Ideal weight | Examples |
+|---|---|---|
+| 0.0–40.0 | 1 stone | Daggers, empty bottles |
+| 40.0–60.0 | 2–3 stones | Books, shoes, clothes |
+| 60.0–80.0 | 4–6 stones | Smith hammers, light armor |
+| 80.0–100.0 | 7–10 stones | Shields, ingots, 8–10 stone piles |
+
 ## The thief's gray status
 
 After **5 successful PvP thefts**, the character turns gray and can be attacked by any player without the attacker becoming criminal. Guards do not interfere; banks, vendors, and moongates keep working. Murderer status takes precedence.
@@ -35,6 +66,16 @@ After **5 successful PvP thefts**, the character turns gray and can be attacked 
 The count decreases by **1 every 40 active hours**. To check it in game, say `*i must consider my sins*`.
 
 The [Thieving Cape](../craft/tailoring.md) can hide gray status from players who have not revealed the wearer. Crafting and wearing it require **100.0 base** Hiding, Stealth, Snooping, and Stealing. Forensic Evaluation reveals the wearer for **10 minutes**.
+
+The cape carries **1 hour** of disguise, spent only while worn, and is
+indistinguishable from a common cloak in name, art, weight, and hue. Attacking
+a cloaked thief does not make the attacker criminal, even with the confirm
+gump. Revealing is a **Forensics + Detect Hidden** versus **Hiding + Stealth**
+contest: the winner sees the thief gray for 10 minutes, privately — to
+everyone else, the thief still looks blue. The thief gets the red warning
+`You have been revealed by [name]!`. Only real success against a player counts
+toward gray: failures, monsters, NPCs, and the Arena do not, and at the 5th
+point `You are now known as a thief!` appears.
 
 For other combat rules, see [How PvP works](../combate/index.md). For concealment and movement, see [Hiding and Stealth](../personagem.md).
 

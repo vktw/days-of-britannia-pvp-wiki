@@ -28,6 +28,38 @@ Cada tentativa contra um jogador pode expor o ladrão: com **100.0 de Stealing**
 
 Quem é pego **vira criminal na hora**, e todos num raio de **8 tiles** veem que ele tentava roubar — exceto se for da mesma guild da vítima ou a vítima não for inocente. Ser pego ou falhar não conta para os 5 roubos do estado cinza.
 
+A vítima sempre recebe o aviso da tentativa, mesmo no furto limpo. Com um
+amuleto de Stealing **+10**, o efetivo chega a **110.0** e a chance de ser
+pego cai para cerca de **1 em 4**.
+
+## Quanto dá para roubar
+
+Nada acima de **10 stones** pode ser roubado. Em pilhas, a quantidade máxima
+por tentativa é a skill dividida por 10 e pelo peso da unidade — com o teste
+de skill decidindo o sucesso:
+
+- Moedas de ouro: até **1.500** com 100.0, até **1.650** com 110.0.
+- Reagentes: até **100** com 100.0, até **110** com 110.0.
+- Poções de 1 stone: até **10** com 100.0, até **11** com 110.0.
+
+Perto do limite de 10 stones, a chance de sucesso com 110.0 fica em torno de
+**2 em 3**.
+
+## Treinar em casa
+
+Furtar itens do próprio baú **secured** em casa não gera flag criminal, não
+chama guards e não conta para o estado cinza. Coloque o item de treino no baú
+e repita furtar e devolver.
+
+O ganho de skill acompanha o peso do item — use estas faixas como referência:
+
+| Stealing | Peso ideal | Exemplos |
+|---|---|---|
+| 0.0–40.0 | 1 stone | Adagas, garrafas vazias |
+| 40.0–60.0 | 2–3 stones | Livros, sapatos, roupas |
+| 60.0–80.0 | 4–6 stones | Martelos, armaduras leves |
+| 80.0–100.0 | 7–10 stones | Escudos, lingotes, pilhas de 8–10 stones |
+
 ## Estado cinza do thief
 
 Depois de **5 roubos PvP bem-sucedidos**, o personagem fica cinza e pode ser atacado por qualquer jogador sem que o atacante se torne criminal. Guards não interferem; bancos, vendors e moongates continuam funcionando. O estado murderer tem precedência.
@@ -35,6 +67,16 @@ Depois de **5 roubos PvP bem-sucedidos**, o personagem fica cinza e pode ser ata
 A contagem diminui em **1 a cada 40 horas ativas**. Para consultá-la no jogo, diga `*i must consider my sins*`.
 
 A [Thieving Cape](../craft/tailoring.md) pode ocultar o estado cinza de jogadores que ainda não revelaram o usuário. Ela exige **100.0 base** em Hiding, Stealth, Snooping e Stealing para criar e vestir. Forensic Evaluation revela o usuário por **10 minutos**.
+
+A capa tem **1 hora** de disfarce, gasta somente enquanto vestida, e é
+indistinguível de uma capa comum em nome, arte, peso e cor. Atacar um ladrão
+de capa não deixa o atacante criminal, mesmo com o gump de confirmação. A
+revelação é um duelo de **Forensics + Detect Hidden** contra **Hiding +
+Stealth**: quem vence passa a ver o ladrão cinza por 10 minutos, só para si —
+para os demais, ele continua azul. O ladrão recebe o aviso vermelho `You have
+been revealed by [nome]!`. Só conta para o cinza o sucesso real contra jogador:
+falhas, monstros, NPCs e Arena não contam, e ao 5º ponto aparece `You are now
+known as a thief!`.
 
 Para as demais regras de confronto, consulte [Como funciona o PvP](../combate/index.md). Para ocultação e movimento, consulte [Hiding e Stealth](../personagem.md).
 
