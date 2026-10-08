@@ -21,8 +21,8 @@ hide:
 
 <section class="dob-landing-strip" aria-label="Status do servidor">
   <span class="dob-landing-stat"><strong><i aria-hidden="true"></i>Servidor online</strong><small>Britannia está ativa</small></span>
-  <span class="dob-landing-stat"><strong>0.49.0</strong><small>Versão atual</small></span>
-  <a class="dob-landing-stat" href="patches/"><strong>Ressurreição com Bandagens</strong><small>Última atualização</small></a>
+  <span class="dob-landing-stat"><strong>0.50.0</strong><small>Versão atual</small></span>
+  <a class="dob-landing-stat" href="patches/"><strong>Orc Warlord e Kharag</strong><small>Última atualização</small></a>
 </section>
 
 <nav class="dob-landing-shortcuts" aria-label="Atalhos do manual">
@@ -81,18 +81,18 @@ hide:
   <h2 id="dob-landing-news" class="dob-landing-section__title">O shard não para</h2>
   <div class="dob-landing-news">
     <article class="dob-landing-patch">
-      <span class="dob-landing-patch__tag">Última atualização · 0.49.0</span>
-      <h3>Ressurreição com Bandagens</h3>
-      <p class="dob-landing-patch__date"><time datetime="2026-10-03">3 de outubro de 2026</time></p>
-      <p>Bandagens aplicadas no corpo trazem o fantasma de volta e devolvem os pertences; Magincia perde os guards e o coven ganha ponto fixo.</p>
+      <span class="dob-landing-patch__tag">Última atualização · 0.50.0</span>
+      <h3>Orc Warlord e Kharag</h3>
+      <p class="dob-landing-patch__date"><time datetime="2026-10-05">5 de outubro de 2026</time></p>
+      <p>Um comandante orc com nova inteligência de combate na Orc Cave — e Kharag troca seus deeds de recursos por elixires e recompensas em Nujel'm.</p>
       <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="patches/">Ler patch notes</a>
     </article>
     <div class="dob-landing-articles">
       <h3>Últimos artigos atualizados</h3>
-      <a href="primeiros-passos/morte-recuperacao/"><time datetime="2026-10-03">3 out</time><span><strong>Morte e recuperação</strong><small>Ressurreição com bandagens no corpo, com pertences</small></span></a>
-      <a href="patches/"><time datetime="2026-10-03">3 out</time><span><strong>Patch notes</strong><small>Ressurreição com Bandagens do 0.49.0</small></span></a>
-      <a href="craft/alchemy/"><time datetime="2026-09-30">30 set</time><span><strong>Alchemy</strong><small>Labs públicos, kegs e cores por conteúdo</small></span></a>
-      <a href="mundo/cidades-guards/"><time datetime="2026-10-03">3 out</time><span><strong>Cidades e guards</strong><small>Magincia sem guards em Felucca</small></span></a>
+      <a href="sistemas/kharag/"><time datetime="2026-10-05">5 out</time><span><strong>Kharag</strong><small>Pontos por recurso e as 28 recompensas</small></span></a>
+      <a href="patches/"><time datetime="2026-10-05">5 out</time><span><strong>Patch notes</strong><small>Orc Warlord e Kharag do 0.50.0</small></span></a>
+      <a href="sistemas/spawns-raros/"><time datetime="2026-10-05">5 out</time><span><strong>Spawns raros</strong><small>Orc Warlord na Orc Cave</small></span></a>
+      <a href="mundo/cidades-guards/"><time datetime="2026-10-05">5 out</time><span><strong>Cidades e guards</strong><small>Mina de Minoc toda protegida</small></span></a>
     </div>
   </div>
 </section>

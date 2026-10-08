@@ -82,6 +82,10 @@ entre jogadores continua exigindo a stamina integral e consumindo **10**.
 
 STR influencia vida e dano físico. DEX influencia stamina e velocidade das armas. INT influencia mana e participa de fórmulas mágicas.
 
+No 0.50.0, a forma Daemon do Polymorph carrega até **1.000 stones** entre
+personagem e mochila. Ao sair da forma, o limite normal volta e o excesso deixa
+você sobrecarregado até descarregar.
+
 ## Raça
 
 Human é a única raça permanente disponível para jogadores. Transformações temporárias de magia continuam sendo efeitos separados.

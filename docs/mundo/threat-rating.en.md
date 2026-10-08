@@ -29,6 +29,10 @@ Some well-known creatures help players interpret the scale:
 | Neira | Legendary |
 | Harrower | Mythic |
 
+In 0.50.0, creatures with the new melee combat mind are worth more Threat,
+with proportionally more gold, XP, and loot. The **Orc Warlord**, its first
+user, lands in Dangerous at Threat 754–825.
+
 ## How to interpret it
 
 - Paragon appears as a separate variant, not as a class above Apocalyptic.

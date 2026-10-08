@@ -2,6 +2,20 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.50.0 · Orc Warlord e Kharag
+
+Publicado em 5 de outubro de 2026.
+
+- Novo inimigo: o **Orc Warlord**, um comandante orc com a força de um Ogre Lord e a agilidade de um orc, na Orc Cave. Ele é o primeiro a usar uma nova inteligência de combate corpo a corpo, ainda em teste: persegue na velocidade de um cavalo quem ataca de longe, evita campos mágicos, se liberta da paralisia, derruba Wall of Stone e Energy Field, fareja quem se esconde, vai atrás de quem cura seus inimigos e chama outros orcs para a luta. Criaturas com essa inteligência valem mais Threat, com mais gold, XP e loot.
+- **Kharag, o Coração da Terra**, chegou ao Safe Haven de Nujel'm: entregue Commodity Deeds de lingotes, toras ou tábuas em troca de pontos, e troque os pontos por elixires, tintas e estatuetas. Os elixires dobram o XP de PvM, aumentam os rolls de loot ou a chance de sucesso e de Exceptional de um craft, por 60 minutos de jogo.
+- Loot packs de PvM agora podem conter, raramente, **Academic Books**, o insumo da Academic Bookcase de Carpentry.
+- Mage, Alchemist e Docks Alchemist mantêm pelo menos **320 de cada reagente**, e o Mage mantém **320 Blank Scrolls**.
+- Na forma Daemon do Polymorph, você e sua mochila carregam até **1.000 stones**; ao sair da forma, o limite normal volta e o excesso deixa você sobrecarregado até descarregar.
+- A mina de Minoc foi reconstruída no mapa de Felucca e agora é **toda protegida por guards**.
+- O save automático trava o jogo por menos tempo: a cópia de backup agora é feita depois do save, sem pausar o servidor.
+
+Consulte [Spawns raros](sistemas/spawns-raros.md), [Kharag](sistemas/kharag.md), [Recompensas PvM](itens/recompensas-pvm.md), [Threat Rating](mundo/threat-rating.md), [Consumíveis](itens/consumiveis.md), [Personagem](personagem.md) e [Cidades e guards](mundo/cidades-guards.md).
+
 ## 0.49.0 · Ressurreição com Bandagens
 
 Publicado em 3 de outubro de 2026.

@@ -61,9 +61,11 @@ The Yew Cemetery Arena occupies a controlled area in Trammel and only accepts du
 
 ## Minoc Mine
 
-Minoc Mine is guarded on Felucca and Trammel within the public rectangle defined
-by **X=2554..2581** and **Y=474..501**. Outside this rectangle, check the region
-indicator before assuming protection.
+In 0.50.0, the Minoc Mine was rebuilt on the Felucca map and is **fully
+protected by guards**: beyond the public rectangle (**X=2554..2581** and
+**Y=474..501**), the rebuilt area between **X=2554..2606** and **Y=452..486**
+is also protected, at every height. Trammel is unchanged, and the eastern
+Minoc strip stays unguarded.
 
 ## Eastern Minoc strip in Felucca
 
@@ -72,4 +74,4 @@ and **Y=475..538** has no guard protection. Trammel remains unchanged.
 
 See [Arena and Training](../arena.md) for rules for entry, external interference, and returning characters.
 
-!!! success "Status: 0.47.0"
+!!! success "Status: 0.50.0"

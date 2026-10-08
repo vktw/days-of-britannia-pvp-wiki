@@ -15,6 +15,9 @@ Alchemy de **65.0 a 105.0**. No menu, a receita aparece como `total mana`; o
 efeito da potion permanece o mesmo e ela não é consumida quando a mana já está
 cheia.
 
+No 0.50.0, **Mage, Alchemist e Docks Alchemist** mantêm pelo menos **320 de
+cada reagente**, e o Mage mantém **320 Blank Scrolls**.
+
 ## Dragon Blood Clothing Dye
 
 O serviço de dye cosmético com Dragon Blood fica em **Nujelm Safe Haven**, com

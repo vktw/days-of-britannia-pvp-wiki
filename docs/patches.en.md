@@ -2,6 +2,20 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.50.0 · Orc Warlord and Kharag
+
+Published on October 5, 2026.
+
+- New enemy: the **Orc Warlord**, an orc commander with an Ogre Lord's strength and an orc's agility, in the Orc Cave. It is the first to use a new melee combat mind, still in testing: it chases at a horse's speed whoever attacks from range, avoids magic fields, breaks free of paralysis, smashes Wall of Stone and Energy Field, sniffs out whoever hides, goes after whoever heals its foes, and calls other orcs to the fight. Creatures with this mind are worth more Threat, with more gold, XP, and loot.
+- **Kharag, Heart of the Earth**, has arrived at the Nujel'm Safe Haven: hand over Commodity Deeds of ingots, logs, or boards for points, and exchange points for draughts, dyes, and statuettes. Draughts double PvM XP, raise loot pack rolls, or raise a craft's success or Exceptional chance, for 60 minutes of play.
+- PvM loot packs can now rarely contain **Academic Books**, the ingredient of the Carpentry Academic Bookcase.
+- Mage, Alchemist, and Docks Alchemist now keep at least **320 of every reagent**, and the Mage keeps **320 Blank Scrolls**.
+- In the Polymorph Daemon form, you and your backpack carry up to **1,000 stones**; when the form ends, the normal limit returns and any excess leaves you overloaded until you unload.
+- The Minoc mine has been rebuilt on the Felucca map and is now **fully protected by guards**.
+- Automatic world saves freeze the game for less time: the backup copy now runs after the save without pausing the server.
+
+See [Rare spawns](sistemas/spawns-raros.md), [Kharag](sistemas/kharag.md), [PvM rewards](itens/recompensas-pvm.md), [Threat Rating](mundo/threat-rating.md), [Consumables](itens/consumiveis.md), [Character](personagem.md), and [Cities and guards](mundo/cidades-guards.md).
+
 ## 0.49.0 · Bandage Resurrection
 
 Published on October 3, 2026.

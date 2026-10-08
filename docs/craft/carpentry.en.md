@@ -1,5 +1,11 @@
 # Carpentry
 
+## Academic Bookcase in 0.50.0
+
+The **Academic Bookcase** is a Carpentry furniture container: it requires
+**60.0 to 85.0** Carpentry, **25 Boards**, and **Academic Books**. Books come
+rarely from PvM loot packs; see [PvM rewards](../itens/recompensas-pvm.md).
+
 <section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Carpentry" data-craft-sim-slider-max="105" aria-labelledby="dob-craft-carpentry-title">
   <div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Skill menu</span><h3 id="dob-craft-carpentry-title">Carpentry</h3><p>0.42.0 - Replica of the categories and recipes visible in the official Carpentry menu. The public query limits skills and curves to 105.0; Armor recipes and recipe-gated entries are not shown in the active menu.</p></div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen><span class="dob-craft-simulator__screen-label">Main menu</span><h4>Choose a category</h4><div class="dob-craft-simulator__menu">

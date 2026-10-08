@@ -16,6 +16,9 @@ Eyes of Newt and one Bottle and can be crafted with **65.0–105.0** Alchemy. Th
 menu displays the recipe as `total mana`; the potion's effect is unchanged and
 it is not consumed when mana is already full.
 
+In 0.50.0, **Mage, Alchemist, and Docks Alchemist** keep at least **320 of
+every reagent**, and the Mage keeps **320 Blank Scrolls**.
+
 ## Dragon Blood Clothing Dye
 
 The cosmetic Dragon Blood dye service is located at **Nujelm Safe Haven**, with

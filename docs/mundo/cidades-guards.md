@@ -59,9 +59,11 @@ A Arena Yew Cemetery ocupa uma área controlada em Trammel e aceita apenas duelo
 
 ## Mina de Minoc
 
-A Mina de Minoc é protegida por guards na Felucca e em Trammel dentro do
-retângulo público definido por **X=2554..2581** e **Y=474..501**. Fora desse
-retângulo, consulte a indicação de região antes de presumir proteção.
+No 0.50.0, a Mina de Minoc foi reconstruída no mapa de Felucca e é **toda
+protegida por guards**: além do retângulo público (**X=2554..2581** e
+**Y=474..501**), a área reconstruída entre **X=2554..2606** e **Y=452..486**
+também recebe proteção, em todas as alturas. Trammel permanece inalterado, e a
+faixa leste de Minoc continua desprotegida.
 
 ## Faixa leste de Minoc em Felucca
 
@@ -70,5 +72,5 @@ e **Y=475..538** não recebe proteção de guards. Trammel permanece inalterado.
 
 Consulte [Arena e treinamento](../arena.md) para regras de entrada, interferência externa e devolução dos personagens.
 
-!!! success "Status: 0.47.0"
+!!! success "Status: 0.50.0"
     Esta página registra somente exceções confirmadas. A ausência de uma cidade na lista não significa que ela seja desprotegida.

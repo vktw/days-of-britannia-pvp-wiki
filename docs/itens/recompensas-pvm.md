@@ -13,6 +13,9 @@ Um Loot Pack personalizado entrega um item de uma destas categorias:
 - amuleto mágico de skill;
 - utilidades, como Bag of Sending ou Powder of Translocation.
 
+No 0.50.0, as utilidades incluem raramente **Academic Books**, o insumo da
+Academic Bookcase de Carpentry.
+
 Criaturas mais resistentes oferecem mais oportunidades de Loot Pack. A seleção continua aleatória, e nem toda morte produz um pack ou Scroll of Knowledge.
 
 Animais, criaturas atuais ou anteriormente domadas e summons não concedem gold,

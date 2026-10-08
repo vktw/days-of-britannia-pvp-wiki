@@ -13,6 +13,9 @@ A custom Loot Pack delivers one item from one of these categories:
 - magical skill amulets;
 - utilities such as a Bag of Sending or Powder of Translocation.
 
+In 0.50.0, utilities rarely include **Academic Books**, the ingredient of the
+Carpentry Academic Bookcase.
+
 More resilient creatures offer more Loot Pack opportunities. Selection remains random, and not every death produces a pack or Scroll of Knowledge.
 
 Animals, currently or previously tamed creatures, and summons grant no gold,

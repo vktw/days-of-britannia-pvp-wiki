@@ -29,6 +29,10 @@ Algumas criaturas conhecidas ajudam a interpretar a escala:
 | Neira | Legendary |
 | Harrower | Mythic |
 
+No 0.50.0, criaturas com a nova inteligência de combate corpo a corpo valem
+mais Threat, com mais gold, XP e loot na proporção. O **Orc Warlord**, primeiro
+usuário, fica em Dangerous com Threat 754–825.
+
 ## Como interpretar
 
 - Paragon aparece como uma variante separada, não como uma classe acima de Apocalyptic.

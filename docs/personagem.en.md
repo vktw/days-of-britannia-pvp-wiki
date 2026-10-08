@@ -81,6 +81,10 @@ collision still requires and consumes the full **10 stamina**.
 
 STR influences health and physical damage. DEX influences stamina and weapon speed. INT influences mana and participates in magical formulas.
 
+In 0.50.0, the Polymorph Daemon form carries up to **1,000 stones** between
+character and backpack. When the form ends, the normal limit returns and any
+excess leaves you overloaded until you unload.
+
 ## Race
 
 Human is the only permanent race available to players. Temporary spell transformations remain separate effects.
