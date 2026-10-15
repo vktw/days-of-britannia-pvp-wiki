@@ -16,6 +16,11 @@ Another player can resurrect you by applying bandages to the **corpse**, not the
 
 Whoever returns through bandages recovers what was still on the corpse: worn equipment is re-equipped and the rest goes to the backpack; whatever does not fit stays on the corpse. The **Resurrection** spell returns belongings the same way when the ghost accepts within **1 tile** of the corpse. When a resurrection returns every belonging — bandages, Resurrection, return with belongings, or Sacrifice — the empty corpse disappears.
 
+In 0.51.0, returning with belongings through the death menu also re-wears
+equipment, and overflow goes to the **bank**, with notice. On resurrection you
+get the death's maximum-durability cost, the pieces that broke, and the pieces
+close to breaking.
+
 Without a choice, regular players return automatically after five minutes. PvP
 deaths allow only a return without corpse items; PvM deaths keep the recovery
 options above. Creatures do not loot items from corpses.

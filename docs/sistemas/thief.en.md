@@ -22,6 +22,10 @@ If the thief dies within **20 minutes after a successful theft**, stolen stackab
 
 In [Nujelm Safe Haven](../mundo/nujelm.md), stealing between players is blocked by the region's protection.
 
+The first time you use Stealing, a window explains the stealing rules; the
+skill unlocks only after you accept. Stealing from or snooping a party or guild
+member has no consequences: no steal count, no gray state, no aggression.
+
 ## Getting caught stealing
 
 Each attempt against a player can expose the thief: at **100.0 Stealing**, roughly **1 in 3** attempts is noticed; at **120.0**, roughly **1 in 5**. Immovable items outside containers never cause this exposure.
@@ -63,7 +67,8 @@ Skill gain follows item weight — use these bands as reference:
 
 After **5 successful PvP thefts**, the character turns gray and can be attacked by any player without the attacker becoming criminal. Guards do not interfere; banks, vendors, and moongates keep working. Murderer status takes precedence.
 
-The count decreases by **1 every 40 active hours**. To check it in game, say `*i must consider my sins*`.
+The count decreases by **1 every 24 hours of play**. In 0.51.0, all counts were
+cleared once. To check it in game, say `*i must consider my sins*`.
 
 The [Thieving Cape](../craft/tailoring.md) can hide gray status from players who have not revealed the wearer. Crafting and wearing it require **100.0 base** Hiding, Stealth, Snooping, and Stealing. Forensic Evaluation reveals the wearer for **10 minutes**.
 

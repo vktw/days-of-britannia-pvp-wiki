@@ -1,5 +1,5 @@
 ---
-description: Browse the 32 PvM Mastery catalog with family, rarity, and level 1, 10, and 20 effects, plus progression and builds on Live.
+description: Browse the 37 PvM Mastery catalog with family, rarity, and level 1, 10, and 20 effects, plus progression and builds on Live.
 ---
 
 # PvM Mastery
@@ -26,9 +26,10 @@ more than five masteries active, enough to maximize five of them.
 On Live 0.42.0, the **32 operational Masteries** start from the base shown in
 the Level 1 column of the catalog; the 0.42.0 adjustment added **+5.00
 percentage points** to that base. In 0.45.0, Hit Effect Area and three synergies
-were adjusted; when the public notes do not give their current numerical values,
-the table uses `—*` instead of retaining old figures. Check the Compendium for
-current levels.
+were adjusted; in 0.51.0 **5 new Masteries** arrive (4 venom plus Ambush),
+totaling **37**; the Compendium carries the new per-level values. When the
+public notes do not give current numerical values, the table uses `—*`
+instead of retaining old figures. Check the Compendium for current levels.
 
 - from level 1 to 10, progression is linear — the difference between the Level 1 and Level 10 columns equals nine equal steps;
 - from level 11 to 20, each new level continues with diminishing returns;
@@ -81,7 +82,7 @@ The scroll uses the normal corpse loot lifetime. A mastery does not need to be a
 
 In 0.49.0, a scroll for a Mastery you already know can be consumed for a **+5% effect bonus for 60 minutes** of play. If it is inactive, the bonus activates it without taking one of the five slots; one bonus at a time, and the Compendium shows the bonus and the time left.
 
-## Complete catalog of the 32 Masteries
+## Complete catalog of Masteries
 
 Baseline numeric values on Live 0.42.0. The Level 1, Level 10, and Level 20 columns
 summarize the curve from level 1 to 20: progress is linear between 1 and 10
@@ -156,6 +157,19 @@ See [PvM rewards](../itens/recompensas-pvm.md) for the temporary bonus that may 
 
 Its chance uses the full value granted by Mastery level and PvM jewelry, without
 the former specific 12.5% cap.
+
+## New Masteries in 0.51.0
+
+Four Masteries revolve around the **Venom Flask** (see
+[Alchemy](../craft/alchemy.md)):
+
+- **Venomblade** (Arachnid): melee hits poison from the flask instead of the weapon.
+- **Venom Arrows** (Reptilian): arrows poison from the flask.
+- **Toxic Exploit** (Reptilian): more of your and your pets'/summons' damage against poisoned creatures.
+- **Plague Contagion** (Undead): when poisoned, a dying creature spreads a weaker poison to up to 3 nearby creatures within 3 tiles.
+
+**Ambush** (Humanoid): the first hit landing out of Hiding or Stealth deals
+bonus damage, with a 10-second cooldown. Missing neither reveals nor spends.
 
 ## Eighth-circle summons
 

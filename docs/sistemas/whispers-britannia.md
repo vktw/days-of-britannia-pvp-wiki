@@ -27,9 +27,9 @@ rumor não traz informação útil.
 
 Town Criers também podem compartilhar rumores sobre os Rare Events e a **Rare
 Rideable Llama**. O objetivo é oferecer uma pista, não substituir a exploração
-do mundo. Enquanto o evento estiver ativo, o rumor também pode mencionar **The
-Man in the Hedge**. Town Criers também podem divulgar pistas sobre **Seraphel**
-enquanto o evento estiver ativo. Os **Great Harts raros não** aparecem nos
+do mundo. No 0.51.0, os bosses raros (Nochyer, Odran, Modry, Seraphel, Vhorrak
+e The Man in the Hedge) deixaram de ser vendidos nos Whispers; acompanhe-os
+pelos avisos globais. Os **Great Harts raros não** aparecem nos
 Whispers; acompanhe-os pelos avisos globais e por `[rareevents`.
 
 O **coven da Season of the Witch também não** aparece nos Whispers; acompanhe-o
@@ -43,5 +43,5 @@ rumores.
 Consulte [Spawns raros](spawns-raros.md) para conhecer as criaturas e os eventos
 que podem ser encontrados durante a exploração.
 
-!!! success "Status: 0.45.0"
+!!! success "Status: 0.51.0"
     Town Criers oferecem pistas públicas sobre eventos raros ativos em Britannia.

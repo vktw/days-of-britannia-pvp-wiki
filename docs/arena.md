@@ -11,8 +11,8 @@ arena compatível, treinar contra o **PvP Trainer**.
 | Yew Cemetery | Sim | Não |
 | Arena NuJel'm | Sim | Não |
 
-Arena NuJel'm fica em Felucca. Ela aceita somente duelos entre jogadores no modo
-**Personal Loot**. O PvP Trainer continua disponível exclusivamente na Arena
+Arena NuJel'm fica em Felucca. As três arenas aceitam duelos com loot do sistema
+ou loot pessoal. O PvP Trainer continua disponível exclusivamente na Arena
 Moonglow.
 
 A área completa da **Yew Cemetery** é reconhecida como parte da Yew Arena. Os
@@ -37,29 +37,30 @@ Duelos entre jogadores nas arenas compatíveis oferecem dois modos:
   o perdedor fica retido por 15 segundos e o conteúdo restante é perdido ao fim
   da janela.
 
-NuJelm oferece somente Personal Loot. O modo escolhido também determina o
-ranking: System Loot e Personal Loot têm tabelas separadas.
+Os dois modos têm tabelas de ranking separadas. O vencedor de cada duelo entre
+jogadores é anunciado para todo o servidor.
 
 ## Taxas e fluxo da luta
 
+No 0.52.0, a Arena ficou gratuita: duelos entre jogadores e treinos contra o
+PvP Trainer não cobram mais taxa de entrada.
+
 1. Abra `.arena`, escolha um duelo contra jogador ou um treino contra o PvP
    Trainer e, para duelos entre jogadores, escolha o modo de loot disponível.
-2. A Arena verifica antecipadamente o gold necessário antes de preparar a
-   sessão. A cobrança ocorre no início da luta: 5.000 gold por participante em
-   duelos entre jogadores e 1.000 gold no treino contra o Trainer.
-3. Desafios públicos ficam disponíveis por 120 segundos para aceitação; quando
+2. Desafios públicos ficam disponíveis por 120 segundos para aceitação; quando
    restam 15 segundos, o lembrete é recalculado. Personagens da mesma conta não
    podem se enfrentar.
-4. Quando um candidato aceita, sua vaga fica reservada por 15 segundos enquanto
+3. Quando um candidato aceita, sua vaga fica reservada por 15 segundos enquanto
    o desafiante confirma ou recusa o oponente.
-5. Há 90 segundos de preparação sem movimento, ataque ou uso de potions. A
+4. Há 90 segundos de preparação sem movimento, ataque ou uso de potions. A
    luta dura no máximo 10 minutos.
-6. Após o resultado, há 15 segundos antes do retorno. A Arena encerra casts e
+5. Após o resultado, há 15 segundos antes do retorno. A Arena encerra casts e
    ações pendentes e limpa os estados temporários de combate.
 
-No modo System Loot, a Arena restaura a configuração original e os pertences do
-participante. No modo Personal Loot, a devolução segue as regras do corpo e da
-montaria descritas acima.
+Um item segurado no cursor quando a partida começa é guardado com os
+pertences e devolvido no fim. No modo System Loot, a Arena restaura a
+configuração original e os pertences do participante. No modo Personal Loot, a
+devolução segue as regras do corpo e da montaria descritas acima.
 
 ## Desconexão
 
@@ -85,9 +86,9 @@ montaria descritas acima.
 ## PvP Trainer
 
 O PvP Trainer é uma opção de treinamento disponível pela Arena Moonglow. A
-entrada custa 1.000 gold e fornece o kit Iron fixo; seleção de tiers não faz
+entrada é gratuita e fornece o kit Iron fixo; seleção de tiers não faz
 parte desse fluxo. Esta página documenta somente as regras observáveis de
 entrada, cobrança e resultado, não decisões táticas internas do NPC.
 
-!!! success "Status: 0.43.0"
+!!! success "Status: 0.52.0"
     Estas são as regras disponíveis no servidor oficial.

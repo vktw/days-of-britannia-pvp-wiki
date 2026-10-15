@@ -26,6 +26,15 @@ tem sua cor: Invisibility em cinza, Total Refreshment em vermelho, Greater
 Heal em amarelo e Deadly Poison em verde; Total Mana mantém a sua. Kegs já
 existentes recebem a nova cor automaticamente.
 
+## Venom Flask no 0.51.0
+
+O **Venom Flask** segue a mesma receita da Deadly Poison (**90.0 a 110.0**,
+8 Nightshade + Bottle) e sai com **55 a 80 cargas**. É um veneno de uso
+automático **só contra criaturas de PvM**, pelas Maestrias Venomblade e Venom
+Arrows: abaixo de 60.0 de Poisoning não envenena; de 60.0 a 79.9 aplica
+Greater; de 80.0 em diante, Deadly. Acima de 100.0, cada ponto soma **+2%** no
+veneno.
+
 <section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Alchemy" data-craft-sim-slider-max="105" aria-labelledby="dob-craft-alchemy-title">
   <div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Menu da skill</span><h3 id="dob-craft-alchemy-title">Alchemy</h3><p>Snapshot do catálogo 0.40.0. Para Deadly Poison, o ponto de 100.0 foi atualizado; a prévia não publica a curva entre pontos e não alcança 110.0 de skill efetiva. A skill controla a chance, não a potência da potion.</p></div>
   <div class="dob-craft-simulator__menu-screen" data-craft-sim-menu-screen><span class="dob-craft-simulator__screen-label">Menu principal</span><h4>Escolha uma categoria</h4><div class="dob-craft-simulator__menu">

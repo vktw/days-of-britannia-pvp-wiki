@@ -16,6 +16,11 @@ Outro jogador pode ressuscitar você aplicando bandagens no **corpo**, não no f
 
 Quem volta por bandagens recupera o que ainda estava no corpo: o equipamento volta a ser vestido e o resto vai para a mochila; o que não couber continua no corpo. A magia **Resurrection** devolve os pertences do mesmo jeito quando o fantasma aceita a até **1 tile** do corpo. Quando a ressurreição devolve todos os pertences — bandagens, Resurrection, retorno com pertences ou Sacrifice — o corpo vazio desaparece.
 
+No 0.51.0, voltar com pertences pelo menu de morte também reveste o
+equipamento, e o que não couber na mochila vai ao **banco**, com aviso. Ao
+ressuscitar, você recebe o gasto da morte na durabilidade máxima, as peças que
+quebraram e as peças perto de quebrar.
+
 Sem escolha, jogadores comuns retornam automaticamente após cinco minutos.
 Mortes PvP permitem apenas o retorno sem os itens do corpo; mortes PvM mantêm as
 opções de recuperação acima. Criaturas não saqueiam itens de cadáveres.

@@ -2,6 +2,37 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 0.52.0 · Discord e arena gratuita
+
+Publicado em 9 de outubro de 2026.
+
+- Anúncios de bosses raros, Great Harts, Daily Dungeon, Season of the Witch, bonsais Legendary e desafios de arena também saem em português no Discord do shard. No jogo, tudo continua como antes.
+- O vencedor de cada duelo de arena entre jogadores é anunciado para todo o servidor e no Discord.
+- A arena ficou gratuita: duelos e treinos contra o PvP Trainer não cobram mais entrada. As três arenas aceitam loot do sistema e loot pessoal; o Trainer continua só em Moonglow.
+- Bonsai fertilizer cai com mais frequência das criaturas da floresta.
+- Commodity deeds de ingots e granite mostram o nome DoB do metal. Ferramentas DoB e Enduring saem com a cor da família, não a do metal do seletor.
+- Todo dia às **20:00**, a montaria rara de Britannia solta é anunciada com pista de onde está; doma, abate ou sumiço geram novo anúncio.
+
+Consulte [Arena e treinamento](arena.md), [Bonsais](sistemas/bonsais.md) e [Spawns raros](sistemas/spawns-raros.md).
+
+## 0.51.0 · Bonsais
+
+Publicado em 8 de outubro de 2026.
+
+- Cortando árvores em Felucca, lenhadores acham **mudas de bonsai** (1 por conta a cada 24 horas). Tranque a muda na casa e dê dois cliques para plantar: em 24 horas nasce um bonsai surpresa, entre 16 modelos de cinco raridades.
+- Criaturas da floresta deixam **bonsai fertilizer**: adube a muda antes de plantar para garantir pelo menos um Uncommon — Legendary só nasce de muda adubada. Todo bonsai mostra raridade e cultivador, e o Legendary é anunciado no servidor.
+- Ao voltar com pertences pelo menu de morte, o equipamento volta vestido; o que não couber vai ao banco, com aviso. Ao ressuscitar, você vê o gasto de durabilidade máxima, peças quebradas e peças perto de quebrar.
+- Wooden boxes só entram no chão de casa própria ou de co-dono; as já colocadas ficam.
+- **Modry** só se teleporta em combate, até quem ele vê, sem ser puxado para longe. A inteligência do Orc Warlord foi aprimorada. O caldeirão do Coven Keeper mostra usos ilimitados.
+- **Venom Flask** (Alchemy, como Deadly Poison): veneno só para PvM, conforme o Poisoning. Quatro Maestrias novas (Venomblade, Venom Arrows, Toxic Exploit, Plague Contagion) e a Maestria **Ambush** (primeiro golpe saindo de Hiding/Stealth com dano extra).
+- **Vhorrak, the Bloodhorn**, senhor minotauro numa ilha de fogo além de Hythloth: bebe o sangue que derrama, marca o chão com a Bloodletter, avança sobre quem foge e ferve com fogo. Recompensas: Heart of the Bloodhorn, tinta exclusiva, três Tomes, scroll, roll extra e chance de livro e da War Cleaver Bloodletter.
+- Bosses raros (Nochyer, Odran, Modry, Seraphel, Vhorrak, Hedge) voltam em **24–48 horas**, com anúncio global ao surgir, de hora em hora e ao morrer — com pista e nome de quem mais causou dano. Rumores deles saem do Whispers. As 6 armas/escudos especiais têm roll próprio de **2%** por abate.
+- Great Harts voltam em **48–72 horas**, com pista e nome de quem domou ou matou.
+- Steal counts zerados uma vez; cada um some após **24 horas** de jogo. Roubar ou espiar party/guild não tem consequência. Na primeira vez com Stealing, uma janela explica as regras e libera a skill.
+- Regen de vida não quebra mais a preparação de Hiding/Stealth. Arraste/equipe rápido não prende item no cursor; item na mão ao morrer, sair ou reiniciar vai para mochila ou banco, nunca ao chão. Na Arena, vencedor do Personal Loot tem os 60 segundos, item do cursor é guardado e sobras vão ao banco.
+
+Consulte [Bonsais](sistemas/bonsais.md), [Morte e recuperação](primeiros-passos/morte-recuperacao.md), [Casas](sistemas/casas.md), [Alchemy](craft/alchemy.md), [Maestria PvM](sistemas/pvm-mastery.md), [Spawns raros](sistemas/spawns-raros.md), [Whispers of Britannia](sistemas/whispers-britannia.md), [Thief](sistemas/thief.md), [Personagem](personagem.md) e [Arena e treinamento](arena.md).
+
 ## 0.50.0 · Orc Warlord e Kharag
 
 Publicado em 5 de outubro de 2026.

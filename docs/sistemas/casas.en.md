@@ -30,6 +30,9 @@ Transferring or demolishing the house, changing its model, managing vendors or
 the co-owner list, and accessing chests with **Owner** security remain
 owner-only actions.
 
+In 0.51.0, **wooden boxes** (and similar reward boxes) only go on the floor of
+a house you own or co-own. Already placed boxes stay where they are.
+
 ## Magincia in 0.49.0
 
 Placing a house in **Magincia** no longer crashes the server, but the attempt

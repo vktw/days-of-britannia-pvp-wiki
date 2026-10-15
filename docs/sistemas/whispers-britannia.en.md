@@ -27,9 +27,9 @@ the rumor provides no useful information.
 
 Town Criers can also share rumors about Rare Events and the **Rare Rideable
 Llama**. The goal is to provide a lead, not to replace exploring the world.
-While the event is active, the rumor may also mention **The Man in the Hedge**.
-Town Criers can also share leads about **Seraphel** while that event is active.
-Rare **Great Harts do not** appear in Whispers; follow them through the world
+In 0.51.0, rare bosses (Nochyer, Odran, Modry, Seraphel, Vhorrak, and The Man
+in the Hedge) are no longer sold in Whispers; follow them through the global
+announcements. Rare **Great Harts do not** appear in Whispers; follow them through the world
 announcements and `[rareevents`.
 
 The Season of the Witch **coven does not** appear in Whispers either; follow it
@@ -42,5 +42,5 @@ The Whispers gump is wider and provides more room to read the rumors.
 See [Rare spawns](spawns-raros.md) for the creatures and events that can be
 found during exploration.
 
-!!! success "Status: 0.45.0"
+!!! success "Status: 0.51.0"
     Town Criers offer public leads about active rare events across Britannia.

@@ -2,6 +2,37 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 0.52.0 · Discord and a free arena
+
+Published on October 9, 2026.
+
+- Rare boss, Great Hart, Daily Dungeon, Season of the Witch, Legendary bonsai, and arena challenge announcements are also posted in Portuguese on the shard's Discord. In game, everything stays as before.
+- The winner of every player arena duel is announced to the whole server and on Discord.
+- The arena is free: duels and PvP Trainer fights no longer charge entry. All three arenas accept system and personal loot; the Trainer stays in Moonglow only.
+- Bonsai fertilizer drops more often from forest creatures.
+- Ingot and granite commodity deeds show the DoB metal name. DoB and Enduring tools keep their family color, not the selector's metal.
+- Every day at **20:00**, the loose Rare Britannia mount is announced with a hint of where it is; taming, slaying, or vanishing triggers a new announcement.
+
+See [Arena and training](arena.md), [Bonsais](sistemas/bonsais.md), and [Rare spawns](sistemas/spawns-raros.md).
+
+## 0.51.0 · Bonsais
+
+Published on October 8, 2026.
+
+- Chopping trees in Felucca, lumberjacks find **bonsai saplings** (1 per account every 24 hours). Lock the sapling down at home and double-click to plant: 24 hours later a surprise bonsai grows, one of 16 models across five rarities.
+- Forest creatures drop **bonsai fertilizer**: feed the sapling before planting to guarantee at least an Uncommon — Legendaries only grow fertilized. Every bonsai shows rarity and cultivator, and Legendaries are server-announced.
+- Returning with belongings through the death menu re-wears your equipment; overflow goes to the bank, with notice. On resurrection you see the maximum-durability cost, broken pieces, and pieces close to breaking.
+- Wooden boxes only go on the floor of your own or co-owned house; placed ones stay.
+- **Modry** only teleports in combat, to victims it sees, and cannot be lured away. The Orc Warlord's mind was improved. The Coven Keeper's cauldron shows unlimited uses.
+- **Venom Flask** (Alchemy, like Deadly Poison): PvM-only poison scaling with Poisoning. Four new Masteries (Venomblade, Venom Arrows, Toxic Exploit, Plague Contagion) plus **Ambush** (first hit out of Hiding/Stealth with bonus damage).
+- **Vhorrak, the Bloodhorn**, a minotaur lord on a fire isle beyond Hythloth: he drinks spilled blood, marks the ground with his Bloodletter, charges whoever flees, and boils with fire. Rewards: Heart of the Bloodhorn, exclusive dye, three Tomes, a scroll, an extra roll, and a chance at a book and the Bloodletter War Cleaver.
+- Rare bosses (Nochyer, Odran, Modry, Seraphel, Vhorrak, Hedge) return within **24–48 hours**, with a global announcement on appearance, hourly, and on death — with a hint and the top damager's name. Their rumors leave Whispers. The 6 special weapons/shields have their own **2%** roll per kill.
+- Great Harts return within **48–72 hours**, with a hint and the tamer/slayer name.
+- Steal counts cleared once; each fades after **24 hours** of play. Stealing or snooping party/guild has no consequences. First-time Stealing shows a rules window that unlocks the skill.
+- Life regen no longer breaks Hiding/Stealth preparation. Fast drag/equip never sticks items on the cursor; hand-held items on death, logout, or restart go to backpack or bank, never the ground. In Arena, Personal Loot winners get the 60 seconds, cursor items are stored, and leftovers go to the bank.
+
+See [Bonsais](sistemas/bonsais.md), [Death and recovery](primeiros-passos/morte-recuperacao.md), [Houses](sistemas/casas.md), [Alchemy](craft/alchemy.md), [PvM Mastery](sistemas/pvm-mastery.md), [Rare spawns](sistemas/spawns-raros.md), [Whispers of Britannia](sistemas/whispers-britannia.md), [Thief](sistemas/thief.md), [Character](personagem.md), and [Arena and training](arena.md).
+
 ## 0.50.0 · Orc Warlord and Kharag
 
 Published on October 5, 2026.

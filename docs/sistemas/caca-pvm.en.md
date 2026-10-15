@@ -60,7 +60,8 @@ limited to new creatures: it chases at a horse's speed whoever attacks from
 range, avoids magic fields, breaks free of paralysis, smashes Wall of Stone
 and Energy Field, sniffs out whoever hides, goes after whoever heals its foes,
 and calls other orcs to the fight. Creatures with this mind are worth more
-Threat, with more gold, XP, and loot.
+Threat, with more gold, XP, and loot. In 0.51.0, it resists chained Peacemaking
+and Provocation.
 
 ## Tips
 

@@ -22,6 +22,11 @@ Se o ladrão morrer dentro dos **20 minutos após um roubo bem-sucedido**, os it
 
 Em [Nujelm Safe Haven](../mundo/nujelm.md), Stealing entre jogadores é bloqueado pela proteção da região.
 
+Na primeira vez que você usa Stealing, uma janela explica as regras de roubo;
+a skill só é liberada depois que você aceita. Roubar ou espiar a mochila de um
+membro da sua party ou guild não tem consequência: não soma steal count, não
+deixa cinza e não gera agressão.
+
 ## Ser pego roubando
 
 Cada tentativa contra um jogador pode expor o ladrão: com **100.0 de Stealing**, cerca de **1 em 3** tentativas é percebida; com **120.0**, cerca de **1 em 5**. Itens imóveis fora de containers não geram essa exposição.
@@ -64,7 +69,9 @@ O ganho de skill acompanha o peso do item — use estas faixas como referência:
 
 Depois de **5 roubos PvP bem-sucedidos**, o personagem fica cinza e pode ser atacado por qualquer jogador sem que o atacante se torne criminal. Guards não interferem; bancos, vendors e moongates continuam funcionando. O estado murderer tem precedência.
 
-A contagem diminui em **1 a cada 40 horas ativas**. Para consultá-la no jogo, diga `*i must consider my sins*`.
+A contagem diminui em **1 a cada 24 horas de jogo**. No 0.51.0, todas as
+contagens foram zeradas uma única vez. Para consultá-la no jogo, diga `*i
+must consider my sins*`.
 
 A [Thieving Cape](../craft/tailoring.md) pode ocultar o estado cinza de jogadores que ainda não revelaram o usuário. Ela exige **100.0 base** em Hiding, Stealth, Snooping e Stealing para criar e vestir. Forensic Evaluation revela o usuário por **10 minutos**.
 

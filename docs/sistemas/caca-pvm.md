@@ -61,7 +61,8 @@ ainda em teste e restrita a criaturas novas: persegue na velocidade de um
 cavalo quem ataca de longe, evita campos mágicos, se liberta da paralisia,
 derruba Wall of Stone e Energy Field, fareja quem se esconde, vai atrás de
 quem cura seus inimigos e chama outros orcs para a luta. Criaturas com essa
-inteligência valem mais Threat, com mais gold, XP e loot.
+inteligência valem mais Threat, com mais gold, XP e loot. No 0.51.0, ela
+resiste a Peacemaking e Provocation encadeados.
 
 ## Dicas
 

@@ -96,7 +96,9 @@ Ao usar Hiding ou Stealth, o personagem permanece visível durante 3 segundos de
 preparação. Você pode se mover durante esse período, mas precisa estar parado no
 final. Dano, ataque, magia, fala, potion, bandagem, ação reveladora, morte,
 logout ou troca de mapa interrompem a tentativa. Reativar Hiding ou Stealth já
-oculto revela o personagem e inicia uma nova preparação.
+oculto revela o personagem e inicia uma nova preparação. No 0.51.0, a
+regeneração natural de vida deixa de interromper a preparação; dano e curas
+continuam interrompendo.
 
 As duas skills podem iniciar ou renovar a ocultação e compartilham o movimento
 escondido. O limite é calculado por `floor((Hiding + Stealth) / 8)`, com mínimo

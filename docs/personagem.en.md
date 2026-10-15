@@ -95,7 +95,9 @@ When using Hiding or Stealth, the character remains visible for 3 seconds of
 preparation. You may move during this period but must be stationary at the end.
 Damage, attack, magic, speech, potion, bandage, revealing actions, death,
 logout, or map change interrupt the attempt. Reactivating Hiding or Stealth
-while hidden reveals the character and starts a new preparation.
+while hidden reveals the character and starts a new preparation. In 0.51.0,
+natural life regeneration no longer interrupts preparation; damage and heals
+still do.
 
 Both skills can start or renew concealment and share hidden movement. The limit
 is calculated as `floor((Hiding + Stealth) / 8)`, with a minimum of 1 and a

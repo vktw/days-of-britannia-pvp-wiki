@@ -1,5 +1,5 @@
 ---
-description: Consulte o catálogo das 32 Maestrias PvM com família, raridade e efeito nos níveis 1, 10 e 20, além de progressão e builds no Live.
+description: Consulte o catálogo das 37 Maestrias PvM com família, raridade e efeito nos níveis 1, 10 e 20, além de progressão e builds no Live.
 ---
 
 # Maestria PvM
@@ -25,10 +25,12 @@ manter **até cinco Maestrias ativas**, o suficiente para maximizar cinco delas.
 
 No Live 0.42.0, as **32 Maestrias operacionais** partem da base indicada na
 coluna Nv 1 do catálogo; o ajuste do 0.42.0 somou **+5,00 pontos percentuais**
-a essa base. Em 0.45.0, Hit Effect Area e três sinergias receberam ajustes;
-quando as notas públicas não informam seus valores numéricos atuais, a tabela
-marca esses campos com `—*` em vez de manter números antigos. Consulte o
-Compendium para os níveis atuais.
+a essa base. Em 0.45.0, Hit Effect Area e três sinergias receberam ajustes.
+No 0.51.0 chegam **5 Maestrias novas** (4 de veneno e Ambush), totalizando
+**37**; os valores por nível das novas estão no Compendium. Quando as notas
+públicas não informam valores numéricos atuais, a tabela marca esses campos
+com `—*` em vez de manter números antigos. Consulte o Compendium para os
+níveis atuais.
 
 - do nível 1 ao 10, a progressão é linear — a diferença entre as colunas Nv 1 e Nv 10 equivale a nove passos iguais;
 - do nível 11 ao 20, os ganhos por nível continuam com retornos decrescentes;
@@ -81,7 +83,7 @@ O scroll usa o tempo normal de permanência do loot no corpo. Não é necessári
 
 No 0.49.0, um scroll de Maestria que você já conhece pode ser consumido para um bônus de **+5% de efeito por 60 minutos** de jogo. Se ela estiver inativa, o bônus a ativa sem ocupar um dos cinco espaços; só um bônus por vez, e o Compendium mostra o bônus e o tempo restante.
 
-## Catálogo completo das 32 Maestrias
+## Catálogo completo das Maestrias
 
 Valores numéricos-base do Live 0.42.0. As colunas Nv 1, Nv 10 e Nv 20 resumem a
 curva do nível 1 ao 20: entre 1 e 10 o avanço é linear e de 11 a 20 há
@@ -155,6 +157,19 @@ Consulte [Recompensas PvM](../itens/recompensas-pvm.md) para o bônus temporári
 
 A chance usa integralmente o nível da Maestria e os bônus de joias PvM, sem o
 antigo limite específico de 12,5%.
+
+## Novas Maestrias no 0.51.0
+
+Quatro Maestrias giram em torno do **Venom Flask** (consulte
+[Alchemy](../craft/alchemy.md)):
+
+- **Venomblade** (Arachnid): golpes melee envenenam com o frasco em vez da arma.
+- **Venom Arrows** (Reptilian): flechas envenenam com o frasco.
+- **Toxic Exploit** (Reptilian): mais dano seu e de pets/summons contra criaturas envenenadas.
+- **Plague Contagion** (Undead): ao morrer envenenada, a criatura espalha um veneno mais fraco para até 3 próximas num raio de 3 tiles.
+
+**Ambush** (Humanoid): o primeiro golpe que acerta saindo de Hiding ou Stealth
+causa dano adicional, com 10 segundos de recarga. Errar não revela nem gasta.
 
 ## Invocações de oitavo círculo
 

@@ -30,6 +30,10 @@ Transferir ou demolir a casa, mudar seu modelo, administrar vendors ou a lista
 de co-owners e acessar baús com segurança **Owner** continuam sendo ações
 exclusivas do dono.
 
+No 0.51.0, **Wooden boxes** (e caixas de recompensa do tipo) só entram no chão
+de casa da qual você é dono ou co-dono. Caixas já colocadas continuam onde
+estão.
+
 ## Magincia no 0.49.0
 
 Posicionar uma casa em **Magincia** não derruba mais o servidor, mas a

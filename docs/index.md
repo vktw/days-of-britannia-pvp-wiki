@@ -21,8 +21,8 @@ hide:
 
 <section class="dob-landing-strip" aria-label="Status do servidor">
   <span class="dob-landing-stat"><strong><i aria-hidden="true"></i>Servidor online</strong><small>Britannia está ativa</small></span>
-  <span class="dob-landing-stat"><strong>0.50.0</strong><small>Versão atual</small></span>
-  <a class="dob-landing-stat" href="patches/"><strong>Orc Warlord e Kharag</strong><small>Última atualização</small></a>
+  <span class="dob-landing-stat"><strong>0.52.0</strong><small>Versão atual</small></span>
+  <a class="dob-landing-stat" href="patches/"><strong>Discord e arena gratuita</strong><small>Última atualização</small></a>
 </section>
 
 <nav class="dob-landing-shortcuts" aria-label="Atalhos do manual">
@@ -81,18 +81,18 @@ hide:
   <h2 id="dob-landing-news" class="dob-landing-section__title">O shard não para</h2>
   <div class="dob-landing-news">
     <article class="dob-landing-patch">
-      <span class="dob-landing-patch__tag">Última atualização · 0.50.0</span>
-      <h3>Orc Warlord e Kharag</h3>
-      <p class="dob-landing-patch__date"><time datetime="2026-10-05">5 de outubro de 2026</time></p>
-      <p>Um comandante orc com nova inteligência de combate na Orc Cave — e Kharag troca seus deeds de recursos por elixires e recompensas em Nujel'm.</p>
+      <span class="dob-landing-patch__tag">Última atualização · 0.52.0</span>
+      <h3>Discord e arena gratuita</h3>
+      <p class="dob-landing-patch__date"><time datetime="2026-10-09">9 de outubro de 2026</time></p>
+      <p>Os grandes eventos chegam ao Discord em português — e a arena ficou gratuita, com loot do sistema e loot pessoal nas três casas.</p>
       <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="patches/">Ler patch notes</a>
     </article>
     <div class="dob-landing-articles">
       <h3>Últimos artigos atualizados</h3>
-      <a href="sistemas/kharag/"><time datetime="2026-10-05">5 out</time><span><strong>Kharag</strong><small>Pontos por recurso e as 28 recompensas</small></span></a>
-      <a href="patches/"><time datetime="2026-10-05">5 out</time><span><strong>Patch notes</strong><small>Orc Warlord e Kharag do 0.50.0</small></span></a>
-      <a href="sistemas/caca-pvm/"><time datetime="2026-10-05">5 out</time><span><strong>Caça PvM</strong><small>Orc Warlord na Orc Cave</small></span></a>
-      <a href="mundo/cidades-guards/"><time datetime="2026-10-05">5 out</time><span><strong>Cidades e guards</strong><small>Mina de Minoc toda protegida</small></span></a>
+      <a href="sistemas/bonsais/"><time datetime="2026-10-09">9 out</time><span><strong>Bonsais</strong><small>Cultive mudas em casa, do Common ao Legendary</small></span></a>
+      <a href="patches/"><time datetime="2026-10-09">9 out</time><span><strong>Patch notes</strong><small>Discord e arena gratuita do 0.52.0</small></span></a>
+      <a href="arena/"><time datetime="2026-10-09">9 out</time><span><strong>Arena e treinamento</strong><small>Entrada gratuita e loot livre nas três arenas</small></span></a>
+      <a href="sistemas/spawns-raros/"><time datetime="2026-10-08">8 out</time><span><strong>Spawns raros</strong><small>Vhorrak e ciclos de 24–48 horas</small></span></a>
     </div>
   </div>
 </section>

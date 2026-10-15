@@ -34,6 +34,10 @@ As **12 horas são o tempo máximo de permanência de uma montaria selvagem**:
 se ninguém a domar ou matar nesse prazo, ela desaparece e dá lugar à reposição.
 Esse prazo não é um intervalo entre spawns e não se aplica à montaria já domada.
 
+No 0.52.0, todo dia às **20:00** a montaria solta é anunciada para todo o
+servidor e no Discord, com pista de onde está; doma, abate ou sumiço geram um
+novo anúncio.
+
 ## Nochyer, the Darkness Beneath
 
 Nochyer pode surgir a nordeste de Yew após longos intervalos. A Black Moon
@@ -57,13 +61,14 @@ extras, seu livro de lore e a foice The Ruby Judgment.
 
 ## Modry, the Plaguebearer
 
-Modry surge em um ponto fixo de Felucca, em intervalos de **3 a 6 dias**. Sua
+Modry surge em um ponto fixo de Felucca, em intervalos de **24 a 48 horas**. Sua
 Pestilence pode contaminar jogadores, pets e summons; somente uma **Cure Potion**
 remove o efeito. Após **5 segundos**, a infecção drena vida para Modry. Lançar
 Cure ou Arch Cure nele ativa **Purification**: Modry recebe o dobro de dano por
 60 segundos e fica imune a novas ativações por outros 60. Paralyze dura no
 máximo 3 segundos, e Modry se teleporta para perto de um jogador aleatório a
-cada 60 segundos.
+cada 60 segundos — somente em combate, até quem ele vê, sem ser puxado para
+longe do território.
 
 A vitória pode conceder dye próprio, **The Pestilent Heart**, três Tomes of
 Expertise, um Scroll of Knowledge e um roll extra de Loot Pack. Cutlasses de
@@ -72,9 +77,8 @@ colecionável tem 10% de chance e usa o idioma selecionado em `.options`.
 
 ## Seraphel
 
-Seraphel aparece em um ponto fixo de Felucca a cada **3 a 6 dias**. É um mage
-Elite de nome vermelho, anunciado em `[rareevents` e que pode ser mencionado nos
-Whispers. Seus golpes têm 25% de chance de invocar uma hollow fairy de 1 HP, que
+Seraphel aparece em um ponto fixo de Felucca a cada **24 a 48 horas**. É um mage
+Elite de nome vermelho, anunciado em `[rareevents`. Seus golpes têm 25% de chance de invocar uma hollow fairy de 1 HP, que
 só conjura Paralyze, não concede XP nem loot e desaparece junto com Seraphel.
 
 **Curse** dobra o dano recebido por Seraphel por 15 segundos e silencia as
@@ -84,11 +88,34 @@ Expertise, Scroll of Knowledge e um roll extra de loot. Heater Shields of
 Invulnerability aparecem como **Dawnward of the Hollow Choir**. O livro
 colecionável começa sem conteúdo de lore até ser descoberto.
 
+## Vhorrak, the Bloodhorn
+
+**Vhorrak, the Bloodhorn**, um senhor de guerra minotauro, surge numa ilha de
+fogo além de Hythloth após longos intervalos. Ele bebe o sangue que derrama
+para se curar, marca o chão com a **Bloodletter**, avança sobre quem foge e
+ferve com fogo: magias e armas de fogo de jogadores causam o dobro de dano
+nele. Arqueiros e magos bloodsworn guardam a ilha e punem quem luta de longe.
+
+A vitória concede **Heart of the Bloodhorn**, tinta exclusiva, três Tomes of
+Expertise, um Scroll of Knowledge, um roll extra de Loot Pack e chance de um
+livro colecionável e da War Cleaver **Bloodletter**.
+
+## Ciclos e anúncios dos bosses no 0.51.0
+
+Nochyer, Odran, Modry, Seraphel, Vhorrak e The Man in the Hedge voltam em
+**24 a 48 horas**. Avisos globais anunciam o surgimento, lembram de hora em
+hora e avisam a morte — com pista de onde estão e o nome de quem mais causou
+dano. Os rumores deles não são mais vendidos no Whispers of Britannia.
+
+As armas e escudos especiais (Black Moon Aegis, Dawnward of the Hollow Choir,
+Pestilent Edge, The Ruby Judgment, The Last Deception e Bloodletter) têm roll
+próprio de **2%** a cada abate, sem depender do Loot Pack.
+
 ## Great Harts raros
 
 Seis **Great Harts raros** percorrem Felucca, cada um com sua própria cor:
 **Moonshroud**, **Stormveil**, **Duskbloom**, **Emberfall**, **Crimsonveil** e
-**Starveil**. Cada variante tem seu próprio ciclo de **2 a 4 dias** e apenas um
+**Starveil**. Cada variante tem seu próprio ciclo de **48 a 72 horas** e apenas um
 exemplar selvagem por vez; a wiki não publica pontos ou horários.
 
 Eles podem ser domados com **105.0 de Animal Taming** e não deixam carne, couro,
@@ -96,7 +123,8 @@ Gold ou recompensas normais de PvM. Abater um exemplar selvagem com direito ao
 loot garante uma **tinta exclusiva** da variante e um **troféu de parede**.
 
 Avisos globais em vermelho anunciam a chegada, lembram a presença a cada hora
-enquanto o hart segue vivo e selvagem e avisam quando ele é domado ou abatido.
+enquanto o hart segue vivo e selvagem e avisam quando ele é domado ou abatido —
+com pista de onde surgiu e o nome de quem domou ou matou.
 Great Harts raros **não** aparecem nos Whispers of Britannia; a equipe pode
 acompanhar cada variante por `[rareevents`.
 
@@ -141,17 +169,18 @@ Britannia](whispers-britannia.md).
 | Rare Desert Ostard | 2 horas | Ciclo independente; uma montaria selvagem existente pode impedir novo nascimento. |
 | Rare Forest Ostard | 3 horas | Ciclo independente; uma montaria selvagem existente pode impedir novo nascimento. |
 | Rare Zostrich Ostard | 5 horas | Ciclo independente; uma montaria selvagem existente pode impedir novo nascimento. |
-| Nochyer | 3–6 dias após a morte | Um intervalo aleatório é escolhido depois da morte do boss. |
-| Odran | 3–6 dias após a morte | Um intervalo aleatório é escolhido depois da morte do boss. |
-| Modry | 3–6 dias | Ponto fixo em Felucca; intervalo aleatório entre aparições. |
-| Seraphel | 3–6 dias | Ponto fixo em Felucca; intervalo aleatório entre aparições. |
-| Great Harts raros | 2–4 dias por variante | Seis ciclos independentes; um exemplar selvagem por variante. |
-| The Man in the Hedge | 3–6 dias após a morte | Um intervalo aleatório é escolhido depois da morte do boss final. |
+| Nochyer | 24–48 horas após a morte | Um intervalo aleatório é escolhido depois da morte do boss. |
+| Odran | 24–48 horas após a morte | Um intervalo aleatório é escolhido depois da morte do boss. |
+| Modry | 24–48 horas | Ponto fixo em Felucca; intervalo aleatório entre aparições. |
+| Seraphel | 24–48 horas | Ponto fixo em Felucca; intervalo aleatório entre aparições. |
+| Vhorrak | 24–48 horas | Ilha de fogo além de Hythloth; intervalo aleatório entre aparições. |
+| Great Harts raros | 48–72 horas por variante | Seis ciclos independentes; um exemplar selvagem por variante. |
+| The Man in the Hedge | 24–48 horas após a morte | Um intervalo aleatório é escolhido depois da morte do boss final. |
 | Rare Britannia | Sempre uma disponível | O mundo mantém uma montaria selvagem ativa. Ao liberar a vaga, a reposição começa assim que houver um local válido. |
 
 Os ciclos em horas não são contagens reiniciadas a cada abate. Um ciclo pode
 passar sem uma nova criatura aparecer; os intervalos não garantem um horário
 exato de chegada.
 
-!!! success "Status: 0.46.0"
-    Eventos raros incluem os spawns de Modry, Seraphel e dos seis Great Harts em Felucca.
+!!! success "Status: 0.51.0"
+    Eventos raros incluem os spawns de Modry, Seraphel, Vhorrak e dos seis Great Harts em Felucca.
