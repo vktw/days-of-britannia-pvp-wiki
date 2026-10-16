@@ -2828,6 +2828,96 @@ body:has(.dob-landing-page) .md-main__inner,
   color: var(--dob-gold);
 }
 
+/* Random community video */
+.dob-landing-video[hidden] {
+  display: none;
+}
+
+.dob-landing-video {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1.4rem 1.6rem;
+  border: 1px solid var(--dob-line);
+  background: var(--dob-surface);
+}
+
+.dob-landing-video__frame {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid var(--dob-line);
+  background: #000;
+  cursor: pointer;
+}
+
+.dob-landing-video__frame img,
+.dob-landing-video__frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.dob-landing-video__frame img {
+  object-fit: cover;
+}
+
+.dob-landing-video__play {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(180deg, transparent 55%, rgb(0 0 0 / 55%));
+  transition: background-color 180ms ease;
+}
+
+.dob-landing-video__play svg {
+  width: 3.2rem;
+  height: 3.2rem;
+  color: #fff;
+  filter: drop-shadow(0 0.2rem 0.6rem rgb(0 0 0 / 60%));
+  transition: transform 180ms ease;
+}
+
+.dob-landing-video__frame:hover .dob-landing-video__play svg,
+.dob-landing-video__frame:focus-visible .dob-landing-video__play svg {
+  transform: scale(1.1);
+}
+
+.md-typeset .dob-landing-video__body {
+  display: grid;
+  gap: 0.5rem;
+  align-content: start;
+}
+
+.md-typeset .dob-landing-video__body strong {
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+.md-typeset .dob-landing-video__body a.dob-landing-video__title {
+  color: var(--dob-text-strong);
+}
+
+.md-typeset .dob-landing-video__body small {
+  color: var(--dob-text-muted);
+  font-size: 0.68rem;
+}
+
+.dob-landing-video__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.4rem;
+}
+
 /* Final CTAs */
 .dob-landing-final {
   display: grid;
@@ -2910,6 +3000,7 @@ body:has(.dob-landing-page) .md-main__inner,
 
   .md-typeset ol.dob-landing-steps:not([hidden]),
   .dob-landing-news,
+  .dob-landing-video,
   .dob-landing-final {
     grid-template-columns: 1fr;
   }

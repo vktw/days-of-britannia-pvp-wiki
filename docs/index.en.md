@@ -97,6 +97,26 @@ hide:
   </div>
 </section>
 
+<section class="dob-landing-section" aria-labelledby="dob-landing-video">
+  <span class="dob-landing-kicker">Community</span>
+  <h2 id="dob-landing-video" class="dob-landing-section__title">DoB on video</h2>
+  <div class="dob-landing-video" data-dob-youtube hidden>
+    <button type="button" class="dob-landing-video__frame" data-dob-youtube-frame>
+      <img data-dob-youtube-thumb alt="" loading="lazy">
+      <span class="dob-landing-video__play" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      </span>
+    </button>
+    <div class="dob-landing-video__body">
+      <strong><a class="dob-landing-video__title" data-dob-youtube-title href="https://www.youtube.com/@DaysOfBritannia" target="_blank" rel="noopener noreferrer"></a></strong>
+      <small>Random video from the channel · <time data-dob-youtube-date></time></small>
+      <span class="dob-landing-video__actions">
+        <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="https://www.youtube.com/@DaysOfBritannia" target="_blank" rel="noopener noreferrer">Visit channel</a>
+      </span>
+    </div>
+  </div>
+</section>
+
 <section class="dob-landing-final" aria-label="Start playing">
   <a class="dob-landing-final__card" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
     <img src="../assets/hero-action-launcher.webp?v=20260821.1" alt="" loading="lazy">

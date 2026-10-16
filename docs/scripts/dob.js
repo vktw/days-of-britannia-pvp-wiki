@@ -945,8 +945,119 @@ function bindDobNavigation() {
   }
 }
 
+function playDobYoutubeFrame(frame) {
+  const videoId = frame.dataset.dobYoutubePlay;
+
+  if (!videoId || frame.querySelector("iframe")) {
+    return;
+  }
+
+  const player = document.createElement("iframe");
+  player.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(videoId)}?autoplay=1&rel=0`;
+  player.title = frame.getAttribute("aria-label") || "YouTube video player";
+  player.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+  player.allowFullscreen = true;
+  player.loading = "lazy";
+
+  frame.replaceChildren(player);
+}
+
+async function fillDobYoutubeSlot(slot) {
+  if (slot.dataset.dobYoutubeLoading === "true" || slot.dataset.dobYoutubePlaying === "true") {
+    return;
+  }
+
+  slot.dataset.dobYoutubeLoading = "true";
+
+  try {
+    const response = await fetch("/api/youtube.json", {
+      cache: "no-store",
+      credentials: "omit",
+      headers: { Accept: "application/json" },
+    });
+
+    if (!response.ok) {
+      throw new Error(`YouTube list request failed: ${response.status}`);
+    }
+
+    const payload = await response.json();
+    const videos = Array.isArray(payload?.videos) ? payload.videos.filter((video) => video && video.id) : [];
+
+    if (videos.length === 0) {
+      return;
+    }
+
+    const video = videos[Math.floor(Math.random() * videos.length)];
+    const watchUrl = `https://www.youtube.com/watch?v=${encodeURIComponent(video.id)}`;
+    const frame = slot.querySelector("[data-dob-youtube-frame]");
+    const thumb = slot.querySelector("[data-dob-youtube-thumb]");
+    const title = slot.querySelector("[data-dob-youtube-title]");
+    const date = slot.querySelector("[data-dob-youtube-date]");
+
+    if (frame) {
+      frame.dataset.dobYoutubePlay = video.id;
+      frame.setAttribute("aria-label", video.title);
+    }
+
+    if (thumb) {
+      thumb.src = `https://i.ytimg.com/vi/${encodeURIComponent(video.id)}/hqdefault.jpg`;
+      thumb.alt = "";
+      thumb.onerror = () => {
+        thumb.onerror = null;
+        thumb.src = `https://i.ytimg.com/vi/${encodeURIComponent(video.id)}/hq720.jpg`;
+      };
+    }
+
+    if (title) {
+      title.textContent = video.title;
+      title.href = watchUrl;
+    }
+
+    if (date && video.published) {
+      const parsed = new Date(video.published);
+
+      if (!Number.isNaN(parsed.getTime())) {
+        date.textContent = parsed.toLocaleDateString(document.documentElement.lang || "pt-BR", {
+          day: "numeric",
+          month: "short",
+          year: "numeric",
+        });
+        date.setAttribute("datetime", video.published);
+      }
+    }
+
+    slot.hidden = false;
+  } catch {
+    /* keep the section hidden when the list is unreachable */
+  } finally {
+    delete slot.dataset.dobYoutubeLoading;
+  }
+}
+
+function bindDobYoutube() {
+  document.querySelectorAll("[data-dob-youtube]:not([data-dob-youtube-bound])").forEach((slot) => {
+    slot.dataset.dobYoutubeBound = "true";
+    slot.addEventListener("click", (event) => {
+      const frame = event.target.closest("[data-dob-youtube-frame]");
+
+      if (frame && slot.contains(frame)) {
+        playDobYoutubeFrame(frame);
+        slot.dataset.dobYoutubePlaying = "true";
+      }
+    });
+    fillDobYoutubeSlot(slot);
+  });
+
+  document.querySelectorAll("[data-dob-youtube-bound]").forEach((slot) => {
+    if (!slot.dataset.dobYoutubePlaying) {
+      fillDobYoutubeSlot(slot);
+    }
+  });
+}
+
 function bindDobUi() {
   bindDobHome();
+  bindDobYoutube();
   bindDobSearchShortcut();
   personalizeDobSearch();
   bindDobPlayerCount();
