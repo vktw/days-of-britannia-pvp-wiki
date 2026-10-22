@@ -45,7 +45,15 @@ The Ultima Store is disabled. Purchases, deliveries, and store use of Sovereigns
 
 ## `.dailydungeon`
 
-Shows the selected Daily Dungeon and the time remaining until the next rotation. Use it before heading out to take advantage of the PvM Mastery experience and Loot Pack bonuses.
+Shows the selected Daily Dungeon and the time remaining until the next rotation. Since 0.53.0, rotation happens 1 time a day. Use it before heading out to take advantage of the PvM Mastery experience and Loot Pack bonuses.
+
+## `.events`
+
+Opens registration for the weekly **Free-for-All**, from 15 minutes before the time. See [Free-for-All](sistemas/free-for-all.md) for days, rules, and rewards.
+
+## `.fortunetide`
+
+Shows the port and time of the day's **Fortune Tide**, and tells whether it is active where you are. See [Treasure Maps](sistemas/mapas-tesouro.md).
 
 ## `.rankings`
 

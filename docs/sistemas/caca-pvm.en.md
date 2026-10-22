@@ -23,7 +23,8 @@ either one to review the available contract.
 - The reward is a **wooden crate** containing one PvM Loot Pack roll.
 
 The contract uses eligible PvM Mastery XP progression as its reference and does
-not create a parallel creature-loot table.
+not create a parallel creature-loot table. Wild creature tooltips show the
+Slayer Group, the same one used by Masteries, contracts, and scrolls.
 
 ## Magical creatures
 

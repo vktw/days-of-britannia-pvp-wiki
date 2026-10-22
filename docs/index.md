@@ -21,8 +21,8 @@ hide:
 
 <section class="dob-landing-strip" aria-label="Status do servidor">
   <span class="dob-landing-stat"><strong><i aria-hidden="true"></i>Servidor online</strong><small>Britannia está ativa</small></span>
-  <span class="dob-landing-stat"><strong>0.52.0</strong><small>Versão atual</small></span>
-  <a class="dob-landing-stat" href="patches/"><strong>Discord e arena gratuita</strong><small>Última atualização</small></a>
+  <span class="dob-landing-stat"><strong>1.2.0</strong><small>Versão atual</small></span>
+  <a class="dob-landing-stat" href="patches/"><strong>Daily Dungeon e criaturas</strong><small>Última atualização</small></a>
 </section>
 
 <nav class="dob-landing-shortcuts" aria-label="Atalhos do manual">
@@ -81,18 +81,18 @@ hide:
   <h2 id="dob-landing-news" class="dob-landing-section__title">O shard não para</h2>
   <div class="dob-landing-news">
     <article class="dob-landing-patch">
-      <span class="dob-landing-patch__tag">Última atualização · 0.52.0</span>
-      <h3>Discord e arena gratuita</h3>
-      <p class="dob-landing-patch__date"><time datetime="2026-10-09">9 de outubro de 2026</time></p>
-      <p>Os grandes eventos chegam ao Discord em português — e a arena ficou gratuita, com loot do sistema e loot pessoal nas três casas.</p>
+      <span class="dob-landing-patch__tag">Última atualização · 1.2.0</span>
+      <h3>Daily Dungeon e criaturas</h3>
+      <p class="dob-landing-patch__date"><time datetime="2026-10-21">21 de outubro de 2026</time></p>
+      <p>Todo dia uma segunda dungeon sorteada, o Bloodmire, com +150% de XP e loot — e os mapas do tesouro voltaram com baús, minijogos e a Fortune Tide.</p>
       <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="patches/">Ler patch notes</a>
     </article>
     <div class="dob-landing-articles">
       <h3>Últimos artigos atualizados</h3>
-      <a href="sistemas/bonsais/"><time datetime="2026-10-09">9 out</time><span><strong>Bonsais</strong><small>Cultive mudas em casa, do Common ao Legendary</small></span></a>
-      <a href="patches/"><time datetime="2026-10-09">9 out</time><span><strong>Patch notes</strong><small>Discord e arena gratuita do 0.52.0</small></span></a>
-      <a href="arena/"><time datetime="2026-10-09">9 out</time><span><strong>Arena e treinamento</strong><small>Entrada gratuita e loot livre nas três arenas</small></span></a>
-      <a href="sistemas/spawns-raros/"><time datetime="2026-10-08">8 out</time><span><strong>Spawns raros</strong><small>Vhorrak e ciclos de 24–48 horas</small></span></a>
+      <a href="sistemas/mapas-tesouro/"><time datetime="2026-10-21">21 out</time><span><strong>Mapas do Tesouro</strong><small>Baús, testes DoB, Driftseeker e Fortune Tide</small></span></a>
+      <a href="patches/"><time datetime="2026-10-21">21 out</time><span><strong>Patch notes</strong><small>1.2.0, 1.1.0, 1.0.0 e 0.53.0</small></span></a>
+      <a href="sistemas/daily-dungeon/"><time datetime="2026-10-21">21 out</time><span><strong>Daily Dungeon</strong><small>Bloodmire, Bounty e Slayer's Codex</small></span></a>
+      <a href="sistemas/free-for-all/"><time datetime="2026-10-15">15 out</time><span><strong>Free-for-All</strong><small>Todos contra todos no domingo e na quarta</small></span></a>
     </div>
   </div>
 </section>

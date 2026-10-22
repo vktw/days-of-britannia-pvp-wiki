@@ -17,7 +17,7 @@ theme:
   palette:
     scheme: dob
 extra:
-  dob_version: "0.52.0"
+  dob_version: "1.2.0"
 extra_css:
   - stylesheets/extra.css?v=20261015.1
 extra_javascript:
@@ -77,6 +77,7 @@ plugins:
             Achievements: Achievements
             Maestria PvM: PvM Mastery
             Caça PvM: PvM hunting
+            Mapas do Tesouro: Treasure Maps
             Pets e montarias: Pets and mounts
             Progressão e PvM: Progression and PvM
             Mundo e eventos: World and events
@@ -132,6 +133,7 @@ nav:
           - Maestria PvM: sistemas/pvm-mastery.md
           - Caça PvM: sistemas/caca-pvm.md
           - Daily Dungeon: sistemas/daily-dungeon.md
+          - Mapas do Tesouro: sistemas/mapas-tesouro.md
           - Recompensas PvM: itens/recompensas-pvm.md
           - Tomes of Expertise: sistemas/tomes-expertise.md
       - Mundo e eventos:
@@ -151,6 +153,7 @@ nav:
           - Royal Banking Charter: sistemas/royal-banking-charter.md
       - Arena e treino:
           - Arena e treinamento: arena.md
+          - Free-for-All: sistemas/free-for-all.md
   # Os URLs mundo/ permanecem estáveis para links publicados; o antigo hub
   # Mundo, as páginas gerais e threat-inventory ficam fora do menu por compatibilidade.
   - Comandos: comandos.md

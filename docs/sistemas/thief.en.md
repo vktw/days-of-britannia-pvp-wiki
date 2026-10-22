@@ -24,7 +24,9 @@ In [Nujelm Safe Haven](../mundo/nujelm.md), stealing between players is blocked 
 
 The first time you use Stealing, a window explains the stealing rules; the
 skill unlocks only after you accept. Stealing from or snooping a party or guild
-member has no consequences: no steal count, no gray state, no aggression.
+member has no consequences: no steal count, no gray state, no aggression. Only
+real successes against players count: failures, monsters, NPCs, and the Arena
+do not.
 
 ## Getting caught stealing
 

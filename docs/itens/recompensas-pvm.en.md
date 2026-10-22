@@ -14,7 +14,11 @@ A custom Loot Pack delivers one item from one of these categories:
 - utilities such as a Bag of Sending or Powder of Translocation.
 
 In 0.50.0, utilities rarely include **Academic Books**, the ingredient of the
-Carpentry Academic Bookcase.
+Carpentry Academic Bookcase. In 1.1.0 come **Reinforced Cloth** (cloth for
+double-durability garments, via Tailoring) and rare **masks**: one per Daily
+dungeon (orc helm, bear, horned tribal, platemail mempo, skull, ogre, deer,
+and tribal), with chain coif protection (mempo plate gorget), only Hardening,
+Fortification, or Invulnerability.
 
 More resilient creatures offer more Loot Pack opportunities. Selection remains random, and not every death produces a pack or Scroll of Knowledge.
 
@@ -64,7 +68,8 @@ only from the achievements; see [Achievements](../sistemas/achievements.md) and
 
 In 0.49.0, special dyes (rare Great Harts, Pestilent, Black Moon, Heaven, and
 Dragon Blood) also dye your own hair and beard — target yourself — and your
-own backpack.
+own backpack. In 1.2.0, the dyed backpack gains a **Restore** context-menu
+option to return to the original color.
 
 ## Magical jewelry
 
@@ -86,7 +91,11 @@ New magical jewelry from Loot Packs can receive a PvM Mastery bonus from **+1.00
 
 Amulets can temporarily raise an available skill, including above 100 effective value, without changing its permanent base. Each amulet displays its remaining uses.
 
-An action related to the equipped skill consumes one use. The final use still benefits the action and then breaks the amulet. Inspecting properties, equipping, or storing it does not consume charges.
+An action related to the equipped skill consumes one use. The final use still
+benefits the action and then breaks the amulet. Inspecting properties, equipping, or storing it does not consume
+charges.
+
+In 1.1.0, the **Fishing** amulet spends **1** use per cast, including in shallow coastal and port water; the **Item Identification** amulet spends **1** use per opened Map in a Bottle.
 
 ## Magic Skill Amulets in 0.42.0
 

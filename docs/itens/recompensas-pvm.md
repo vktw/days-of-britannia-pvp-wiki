@@ -14,7 +14,11 @@ Um Loot Pack personalizado entrega um item de uma destas categorias:
 - utilidades, como Bag of Sending ou Powder of Translocation.
 
 No 0.50.0, as utilidades incluem raramente **Academic Books**, o insumo da
-Academic Bookcase de Carpentry.
+Academic Bookcase de Carpentry. No 1.1.0 chegam o **Reinforced Cloth** (tecido
+para roupas com o dobro de durabilidade, via Tailoring) e **máscaras** raras:
+uma por dungeon da Daily (orc helm, urso, tribal com chifres, platemail mempo,
+skull, ogre, cervo e tribal), com proteção de chain coif (mempo de plate
+gorget), só Hardening, Fortification ou Invulnerability.
 
 Criaturas mais resistentes oferecem mais oportunidades de Loot Pack. A seleção continua aleatória, e nem toda morte produz um pack ou Scroll of Knowledge.
 
@@ -66,7 +70,8 @@ caçada e da doma vem somente dos achievements; consulte
 
 No 0.49.0, as tintas especiais (Great Harts raros, Pestilent, Black Moon,
 Heaven e Dragon Blood) também pintam o cabelo e a barba do próprio personagem
-— mire em si mesmo — e a própria mochila.
+— mire em si mesmo — e a própria mochila. No 1.2.0, a mochila tingida ganha a
+opção **Restore** no menu de contexto para voltar à cor original.
 
 ## Joias mágicas
 
@@ -89,6 +94,8 @@ Novas joias mágicas vindas de Loot Packs podem receber um bônus de Maestria Pv
 Amuletos podem elevar temporariamente uma skill disponível, inclusive acima de 100 de valor efetivo, sem alterar sua base permanente. Cada amuleto mostra seus usos restantes.
 
 Uma ação relacionada à skill equipada consome um uso. O último uso ainda beneficia a ação e depois quebra o amuleto. Consultar propriedades, equipar ou guardar o item não consome cargas.
+
+No 1.1.0, o amuleto de **Fishing** passa a gastar **1** uso a cada lance, inclusive na água rasa da costa e dos portos; o de **Item Identification** gasta **1** uso a cada Map in a Bottle aberto.
 
 ## Magic Skill Amulets no 0.42.0
 

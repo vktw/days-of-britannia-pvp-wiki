@@ -1,5 +1,11 @@
 # Tailoring
 
+## Reinforced Cloth no 1.1.0
+
+O **Reinforced Cloth** é um insumo do loot de PvM. No menu de Tailoring, ligue
+a opção Reinforced Cloth: cada roupa de tecido feita com sucesso gasta **1** e
+sai Reinforced, com o dobro de durabilidade; uma falha não gasta nenhum.
+
 ## Atualização do 0.43.0
 
 **Studded Leather Armor** deixou de ser craftável, aparecer no menu de Tailoring

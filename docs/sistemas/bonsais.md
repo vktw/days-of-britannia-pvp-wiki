@@ -13,11 +13,11 @@ continuar trancada para terminar de crescer.
 ## Adubo
 
 Criaturas da floresta — Reapers, Corpsers, Boglings, Bog Things, Wisps, Shadow
-Wisps, Pixies, Unicorns, Kirins, dryads, satyrs, treefellows e centaurs —
+Wisps, Pixies, dryads, satyrs, treefellows e centaurs —
 deixam **bonsai fertilizer**. Use o adubo da mochila na muda **antes** de
 plantar: a muda adubada garante pelo menos um bonsai **Uncommon**, e só mudas
 adubadas geram **Legendary** (5% de chance). Desde o 0.52.0 o adubo cai com
-mais frequência.
+mais frequência, e ainda mais no 0.53.0.
 
 ## Raridades
 

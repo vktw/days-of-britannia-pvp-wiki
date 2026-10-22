@@ -25,7 +25,8 @@ Em [Nujelm Safe Haven](../mundo/nujelm.md), Stealing entre jogadores é bloquead
 Na primeira vez que você usa Stealing, uma janela explica as regras de roubo;
 a skill só é liberada depois que você aceita. Roubar ou espiar a mochila de um
 membro da sua party ou guild não tem consequência: não soma steal count, não
-deixa cinza e não gera agressão.
+deixa cinza e não gera agressão. Só contam sucessos reais contra jogadores:
+falhas, monstros, NPCs e Arena não contam.
 
 ## Ser pego roubando
 

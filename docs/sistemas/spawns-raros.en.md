@@ -36,7 +36,9 @@ not an interval between spawns and does not apply to an already tamed mount.
 
 In 0.52.0, every day at **20:00** the loose mount is announced to the whole
 server and on Discord, with a hint of where it is; taming, slaying, or
-vanishing triggers a new announcement.
+vanishing triggers a new announcement. In 0.53.0, the daily announcement goes
+out at a **drawn** time, and every wild taming is announced in game and on
+Discord; a mount about to vanish is not announced.
 
 ## Nochyer, the Darkness Beneath
 
@@ -98,7 +100,26 @@ and magi guard the isle and punish those who fight from range.
 
 Victory grants **Heart of the Bloodhorn**, an exclusive dye, three Tomes of
 Expertise, a Scroll of Knowledge, an extra Loot Pack roll, and a chance at a
-collectible book and the **Bloodletter** War Cleaver.
+collectible book and the **Bloodletter** War Cleaver. In 1.2.0, Vhorrak is now
+guarded by **3** bloodsworn archers, no magi; a fallen guard returns only when
+the fight restarts, and each fall dazes him for **15 seconds** (still, not
+attacking, double damage).
+
+## First-defeat titles in 1.0.0
+
+The first time you defeat each rare boss, everyone with loot rights receives
+an overhead title and **5,000** Mastery XP: Nochyer (**the Nightbane**),
+Modry (**the Plaguebreaker**), Seraphel (**the Lightfallen**), Odran (**the
+Unsentenced**), Vhorrak (**the Hornbreaker**), and Hedge (**the Hedgebane**).
+
+## Medusa in 1.0.0
+
+Somewhere in Felucca, an altar accepts 1 heart from each of the **6** rare
+bosses. Whoever offers opens the way to the isle of **Medusa** and her two
+guardians, for themselves and their party alone; the fight is hard and the
+rewards are unique, with a **Death Shroud** among them. The isle opens to
+everyone **24 hours** after the summoning, even with the party there; **1
+hour** and **10 minutes** warning.
 
 ## Boss cycles and announcements in 0.51.0
 

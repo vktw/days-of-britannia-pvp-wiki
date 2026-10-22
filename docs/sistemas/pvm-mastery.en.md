@@ -71,7 +71,7 @@ Use these examples to recognize each family. They do not guarantee a scroll: the
 | Family | Creature examples |
 |---|---|
 | **Undead** | Zombie, Skeleton, and Lich |
-| **Humanoid** | Orc, Ogre, and Troll |
+| **Humanoid** | Orc, Ogre, Troll, Harpy, Vhorrak, and Odran |
 | **Reptilian** | Lizardman, Drake, and Dragon |
 | **Abyssal** | Imp, Daemon, and Balron |
 | **Elemental** | Earth Elemental, Fire Elemental, Water Elemental, and Mud Pie |
@@ -171,6 +171,16 @@ Four Masteries revolve around the **Venom Flask** (see
 **Ambush** (Humanoid): the first hit landing out of Hiding or Stealth deals
 bonus damage, with a 10-second cooldown. Missing neither reveals nor spends.
 
+## Fire Field in 1.0.0
+
+**Fire Field** counts as magical damage: Masteries treat it as a spell and it
+still triggers Hit Lightning, but never weapon-hit effects (such as Hit
+Paralyze). Anyone hurt by it in Stealth or Invisibility is revealed. Creature
+Fire Fields deal 25% less to players, like their other spells.
+
+In 1.1.0, **Venomblade** warns at most once a minute when it skips the Venom
+Flask, and why: no charged flask, recent PvP, or Poisoning below 60.
+
 ## Eighth-circle summons
 
 The six eighth-circle summoning spells use a 2% to 98% success curve when cast
@@ -220,6 +230,10 @@ Resonant Cascade may begin after a successful **targeted Peacemaking**, **Discor
 - **Flexible slots:** Spell Damage Increase for the character's direct magical attacks, mana recovery, and resistances suited to the hunt.
 
 ## Choosing your five slots
+
+In 1.0.0, every **15** Mastery points bought with gold open a new active slot:
+from **5** up to **11** slots, at **90** points. Jewelry and scrolls keep adding
+on top.
 
 Start by identifying the problem that limits the hunt most:
 

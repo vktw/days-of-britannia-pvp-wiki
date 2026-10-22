@@ -13,6 +13,13 @@ um dos 42 bancos de madeira reservados no Safe Haven de Felucca.
 2. Vá até um banco de madeira reservado no mercado de Nujelm.
 3. Use o contrato e confirme a instalação no local disponível.
 
+No 1.0.0, os vendors ficaram mais simples e baratos: o contrato comum e o
+**contrato de comissão**, vendido pelo banker, colocam um vendor normal em
+qualquer um dos 42 spots livres do Safe Haven. O vendor comum paga só a diária
+normal, sem os 1.500 Gold extras e sem reserva para instalar; o de comissão
+fica com 5,25% de cada venda e não paga diária. Um vendor por conta; se ele
+sair, os itens e o gold vão para o seu banco.
+
 Cada conta e IP público pode manter **um único vendor de Nujelm**. Esse limite
 não altera Player Vendors instalados em casas.
 

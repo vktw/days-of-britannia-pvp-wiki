@@ -36,7 +36,9 @@ Esse prazo não é um intervalo entre spawns e não se aplica à montaria já do
 
 No 0.52.0, todo dia às **20:00** a montaria solta é anunciada para todo o
 servidor e no Discord, com pista de onde está; doma, abate ou sumiço geram um
-novo anúncio.
+novo anúncio. No 0.53.0, o anúncio diário passa a sair em horário **sorteado**,
+e toda doma selvagem é anunciada no jogo e no Discord; montaria prestes a
+sumir não é anunciada.
 
 ## Nochyer, the Darkness Beneath
 
@@ -98,7 +100,27 @@ nele. Arqueiros e magos bloodsworn guardam a ilha e punem quem luta de longe.
 
 A vitória concede **Heart of the Bloodhorn**, tinta exclusiva, três Tomes of
 Expertise, um Scroll of Knowledge, um roll extra de Loot Pack e chance de um
-livro colecionável e da War Cleaver **Bloodletter**.
+livro colecionável e da War Cleaver **Bloodletter**. No 1.2.0, Vhorrak passou
+a ser guardado por **3 arqueiros** bloodsworn, sem magos; guarda morto só
+volta ao recomeçar, e cada queda o atordoa por **15 segundos** (parado, sem
+atacar, dobro de dano).
+
+## Títulos de primeira derrota no 1.0.0
+
+A primeira vez que você derrota cada chefe raro, todos com direito ao loot
+recebem um título acima do nome e **5.000** de XP de maestria: Nochyer
+(**the Nightbane**), Modry (**the Plaguebreaker**), Seraphel (**the
+Lightfallen**), Odran (**the Unsentenced**), Vhorrak (**the Hornbreaker**) e
+Hedge (**the Hedgebane**).
+
+## Medusa no 1.0.0
+
+Em algum lugar de Felucca, um altar aceita 1 coração de cada um dos **6**
+chefes raros. Quem oferece abre a passagem para a ilha da **Medusa** e suas
+duas guardiãs, só para si e a party; a luta é difícil e as recompensas são
+únicas, com um **Death Shroud** entre elas. A ilha abre a todos **24 horas**
+após a invocação, mesmo com a party lá; aviso **1 hora** e **10 minutos**
+antes.
 
 ## Ciclos e anúncios dos bosses no 0.51.0
 

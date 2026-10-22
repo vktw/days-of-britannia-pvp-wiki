@@ -8,11 +8,11 @@ compatible arena, train against the **PvP Trainer**.
 | Arena | Player vs player | PvP Trainer |
 |---|:---:|:---:|
 | Moonglow | Yes | Yes |
-| Yew Cemetery | Yes | No |
-| Arena NuJel'm | Yes | No |
+| Yew Cemetery | Yes | Yes |
+| Arena NuJel'm | Yes | Yes |
 
 Arena NuJel'm is in Felucca. All three arenas accept duels with system loot or
-personal loot. The PvP Trainer remains available exclusively in Moonglow Arena.
+personal loot. In 0.53.0, the PvP Trainer started being offered in every arena.
 
 The full **Yew Cemetery** area is recognized as part of Yew Arena. Participants
 inside the official area are not treated as being outside the fight boundary.
@@ -28,7 +28,9 @@ Player duels in the compatible arenas offer two modes:
 
 - **System Loot:** each participant receives the Arena's fixed Iron kit and the
   original setup is restored afterward. There is no public armor or weapon tier
-  selection.
+  selection. In 1.0.0, the kit started including the Bone Harvester,
+  Broadsword, Viking Sword, Executioner's Axe, Scythe, and Double Bladed Staff,
+  in Iron.
 - **Personal Loot:** the body, backpack, and mount follow the normal death flow.
   Only the winner may loot the defeated body for 60 seconds; the loser is held
   for 15 seconds and the remaining contents are lost when the window ends.
@@ -43,6 +45,8 @@ charge an entry fee.
 
 1. Open `.arena`, choose a player duel or PvP Trainer training and, for player
    duels, choose the available loot mode.
+   Players in combat with other players do not enter the arena, open, or accept
+   challenges until **2 minutes** after the last attack.
 2. Public challenges remain available for acceptance for 120 seconds; when 15
    seconds remain, the reminder is recalculated. Characters on the same account
    cannot face each other.
@@ -79,10 +83,13 @@ the body and mount rules above.
 
 ## PvP Trainer
 
-The PvP Trainer is a training option available through Moonglow Arena. Entry is
+The PvP Trainer is a training option available in all three arenas. Entry is
 free and provides the fixed Iron kit; tier selection is not part of this flow.
+In 0.53.0, it started moving at player speed (mounted keeps up with mounted),
+chasing while casting (finishers included), retreating while healing or buffing,
+and colliding like a player (passing through needs full stamina, costs 10).
 This page documents only observable entry, fee, and result rules, not the NPC's
 internal tactical decisions.
 
-!!! success "Status: 0.52.0"
+!!! success "Status: 0.53.0"
     These are the rules available on the official server.

@@ -13,11 +13,11 @@ must stay locked down to finish growing.
 ## Fertilizer
 
 Forest creatures — Reapers, Corpsers, Boglings, Bog Things, Wisps, Shadow
-Wisps, Pixies, Unicorns, Kirins, dryads, satyrs, treefellows, and centaurs —
+Wisps, Pixies, dryads, satyrs, treefellows, and centaurs —
 drop **bonsai fertilizer**. Use the fertilizer from your backpack on the
 sapling **before** planting: a fertilized sapling guarantees at least an
 **Uncommon** bonsai, and only fertilized saplings grow **Legendary** (5%
-chance). Since 0.52.0 fertilizer drops more often.
+chance). Since 0.52.0 fertilizer drops more often, and even more in 0.53.0.
 
 ## Rarities
 

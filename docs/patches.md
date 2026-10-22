@@ -2,6 +2,73 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 1.2.0 · Daily Dungeon e criaturas
+
+Publicado em 21 de outubro de 2026, junto com o 1.1.0.
+
+- Todo dia uma segunda dungeon é sorteada, o **Bloodmire**: lá, XP de Maestria PvM e chance de Loot Pack PvM aumentam **150%**. As criaturas ficam reforçadas por nível (**1,5 vez** no primeiro, mais **0,5** por nível abaixo, **50** a mais nas perícias por nível), com perigo mínimo **Dangerous**, **Deadly** e **Legendary** do terceiro em diante; nome e cor próprios mostram o reforço.
+- Na primeira **Bloodmire Bounty** entregue, o personagem recebe o **Slayer's Codex**: cada criatura derrotada ensina o grupo Slayer dela, e cada nível comprado com ouro vira ponto permanente de dano causado ou recebido contra o grupo.
+- **Thorne, o Espreitador de Bloodmire**, na entrada, oferece 1 contrato por conta por dia: **6.000** de XP de Maestria PvM nessa dungeon por uma caixa com 1 roll de Loot Pack sem utilidades e equipamento um nível acima.
+- A cada hora, cada nível volta a ter **10** criaturas de Despise (Phantom, Naba, Darkmane, Skeletrex, Hellion, Echidnite, Birling Blades e Prometheoid). Phantom, Skeletrex e Prometheoid são mortos-vivos, Naba é reptiliano e as demais são abissais. Raramente deixam tintas de roupa do nível: wight's ash, gorestain, clotted crimson, charnel ember e mire black.
+- A Bounty fica na mochila como contrato com progresso; o Espreitador entrega nova cópia se você perder a sua.
+- Livros de chefes raros e temporadas viram **encadernações**: sem texto, dão capa e cor a um runebook, ao Hunter's Compendium ou ao Slayer's Codex. Caem com **5%** de chance, em **20** capas.
+- **Vhorrak** agora tem **3 arqueiros** bloodsworn, sem magos. Guarda morto só volta ao recomeçar; cada queda o deixa atordoado por **15 segundos** (parado, sem atacar, dobro de dano). Corpos dos guardas não mostram cabelo.
+- `.fortunetide` agora funciona e diz se a Fortune Tide está ativa onde você está. Até **3** contas por IP. Mochila tingida tem **Restore** no menu para voltar à cor original. **Venomblade** avisa uma vez por minuto quando não usa o Venom Flask (sem cargas, PvP recente ou Poisoning abaixo de 60). Criaturas lidam melhor com fields, recuos, paralisia, paredes e bardo.
+
+Consulte [Daily Dungeon](sistemas/daily-dungeon.md), [Maestria PvM](sistemas/pvm-mastery.md) e [Spawns raros](sistemas/spawns-raros.md).
+
+## 1.1.0 · Testes DoB nos Baús do Tesouro
+
+Publicado em 21 de outubro de 2026, junto com o 1.2.0.
+
+- Com o cliente DoB, dono do mapa e party escolhem entre teste comum e **teste DoB** ao usar lockpick ou Remove Trap; outro cliente só tem o comum. Vale por etapa, sem trocar; em fechadura DoB, lockpick comum e magia Unlock não funcionam. Fechar o Pavio não pausa o estudo; fechar ou se afastar com o pavio aceso explode.
+- **Fechadura** (Lockpicking): cada estágio tem um ponto certo escondido; segure para girar, vibra perto do ponto, e forçar fora do ponto gasta o grampo até quebrar (**1** lockpick) sem quebrar itens do baú. Tiers altos têm mais estágios e pontos menores, com ponto falso a partir de Hoard. Sem skill mínima, nem no Trove; acima de 100 a skill ajuda (ponto maior, grampo dura mais, gira mais rápido).
+- **Pavio** (Remove Trap): estude com tempo e gire as peças até o respiro; peça queimada não gira. A faísca explode se bater em peça fechada, voltar por onde passou, sair sem respiro ou entrar no falso (dano da armadilha + Ancient Guardian, como no comum). Mais skill deixa a faísca mais devagar e o estudo mais longo; com **90** o falso aparece marcado; com **80**, **100** e **110** o pavio se aperta sozinho uma vez cada antes de explodir.
+- **Clean pick** (abrir sem quebrar grampo) afasta o Grubber e soma **1** item; falha prévia no comum impede. Pavio sem explosão no mesmo baú deixa o baú **perfeito** e soma mais **1** item.
+- Conquistas de baú perfeito: **10**, **50** e **100** dão XP de maestria; aos 50, o título **Master Locksmith**.
+- **Reinforced Cloth** (drop de PvM): ligue a opção no menu de Tailoring; cada roupa de tecido feita com sucesso gasta **1** e sai Reinforced, com o dobro de durabilidade; falha não gasta.
+- **Máscaras** raras de PvM, uma por dungeon da Daily: Orc Cave (orc helm), Covetous (urso), Hythloth (tribal com chifres), Destard (platemail mempo), Deceit (skull), Despise (ogre), Shame (cervo) e Wrong (tribal). Proteção e durabilidade de chain coif (mempo de plate gorget), sem impedir arco; só **Hardening**, **Fortification** ou **Invulnerability**, na cor do tier; tintas especiais pintam na mochila; sem derreter, só Repair Kit conserta.
+- A ilha da Medusa abre a todos **24 horas** após a invocação, mesmo com a party lá; aviso **1 hora** e **10 minutos** antes.
+- Minerar e pescar montado em qualquer lugar, inclusive na Fortune Tide, com o golpe mostrado.
+- Na Fortune Tide, a chance de Map in a Bottle por lance sobe de **1%** para **2%** (ainda até **2** garrafas por dia, por conta e por IP). Amuleto de Fishing gasta **1** uso por lance; amuleto de Item Identification gasta **1** por garrafa aberta.
+
+Consulte [Mapas do Tesouro](sistemas/mapas-tesouro.md), [Craft](craft/index.md) e [Spawns raros](sistemas/spawns-raros.md).
+
+## 1.0.0 · Grupos de Slayer e Mapas do Tesouro
+
+Publicado em 19 de outubro de 2026.
+
+- O tooltip das criaturas selvagens mostra o **grupo de Slayer**, o mesmo de maestrias, contratos, conquistas e scrolls.
+- **Mapas do tesouro** voltaram: toda criatura elegível pode deixar um mapa de Felucca, com chance pela Threat (Daily Dungeon e Fortune Draught aumentam); baús em terra de Felucca, fora de cidades, dungeons e guards; tier pela força.
+- Baús com gold e poucos itens que melhoram com o tier: armas e armaduras com upgrade, joias até **+10%**, amuletos com o dobro de usos e, de **Cache** em diante, **Scroll of Knowledge do tesouro** (**+10%** por **7 dias** de jogo) e **Tome of Expertise do tesouro** (**+10** de skill, com craft e coleta). Abaixo de Trove, **10%** de chance de um mapa de Felucca do próximo tier. **Sunken Gold Dye** (uso único) só em **Hoard (2%)** e **Trove (6%)**.
+- **Trove** exige **101** de Cartography para decodificar/ler e **101** de Lockpicking no baú: acima de 100, só com amuleto ou Tome do tesouro.
+- **Driftseeker Pole** (Carpentry **85–110**, **100** boards de qualquer madeira, nome por madeira): pesca **Map in a Bottle** com Fishing **100** a **0,05%** por lance, sem limite. Madeira e Fishing acima de 100 puxam o tier (comum nada; Oak e Ash pouco; Yew mais; Heartwood, Bloodwood e Frostwood o máximo, igual a Fishing **110**; melhor madeira com Fishing **110** nunca dá Stash nem Supply). Ao abrir, Item Identification dá **1%** por ponto acima de 100 (**10%** com **110**) de subir um tier, exceto Trove.
+- **Fortune Tide**: todo dia **1 hora** em porto sorteado sem guards (Jhelom, Nujel'm, Magincia, Ocllo, Buccaneer's Den, Cove ou Serpent's Hold); **1%** por lance de Map in a Bottle, até **2** garrafas por conta e por IP, peixes sem esgotar. `.fortunetide` mostra porto e horário.
+- Conquistas **Treasure Hunter**: XP pelo primeiro baú de cada tier e por **10**, **50** e **100** baús; aos 50, o título **the Treasure Hunter** acima do nome. Trove na superfície: server e Discord avisam, sem local nem quem.
+- Slots de maestria: **+1** a cada **15** pontos comprados, de **5** até **11** com **90** pontos; joias e scrolls por fora.
+- **Medusa**: altar em Felucca aceita 1 coração de cada um dos **6** chefes raros e abre a passagem para si e a party; recompensas únicas, com **Death Shroud**.
+- Primeira derrota dos chefes dá título acima do nome a todos com loot, mais **5.000** de XP: Nochyer (**the Nightbane**), Modry (**the Plaguebreaker**), Seraphel (**the Lightfallen**), Odran (**the Unsentenced**), Vhorrak (**the Hornbreaker**) e Hedge (**the Hedgebane**).
+- **12** armas novas (**30** ingots, Blacksmithy **75–110**): **6** Bloodrock (**+9**) e **6** Blackrock (**+10**) — Crimson Harvest/Nightreap, Sanguine Edge/Dusk Edge, Red Saga/Night Saga, Blood Sentence/Umbral Sentence, Vein Reaper/Gloom Reaper, Twin Vow/Twin Fang.
+- **Vhorrak, Odran e harpias** viram **Humanoid**: contratos, conquistas, maestrias e **Repond** passam a valer. Party do dono desarma a armadilha do baú.
+- **Metal Chest** de Tinkering treina Lockpicking até **100** (feito por tinker **100**, tranca exige **76**; já feitos não mudam).
+- **Fire Field** vira dano mágico: maestrias tratam como magia, ainda gera Hit Lightning, não gera efeitos de arma (como Hit Paralyze); revela Stealth/Invis; o das criaturas causa **25%** menos em players.
+- Kit Iron da Arena soma as **6** armas novas, em Iron. Varas e armas de Carpentry perdem atributos de madeira (só nome e cor, mais o bônus da Driftseeker). Vendors de Nujel'm mais simples: contrato comum e de comissão no banker, **42** spots; comum sem os **1.500** gold e sem reserva; comissão **5,25%** sem diária; **1** por conta; saída vai ao banco.
+- Vhorrak e Odran dropam o Scroll garantido de Humanoid. Baú move de verdade após **30 dias** sem escavar; guardiões nascem em volta, não em cima; item do Grubber volta no corpo dele. Relogar não congela mais.
+
+Consulte [Mapas do Tesouro](sistemas/mapas-tesouro.md), [Maestria PvM](sistemas/pvm-mastery.md), [Spawns raros](sistemas/spawns-raros.md), [Craft](craft/index.md), [Arena e treinamento](arena.md), [Player Vendors](sistemas/player-vendors.md) e [Threat Rating](mundo/threat-rating.md).
+
+## 0.53.0 · Free-for-All, montarias raras e arena
+
+Publicado em 15 de outubro de 2026.
+
+- **Free-for-All** toda semana: **domingo 21:00** e **quarta 12:15**, no Cemitério de Britain em Trammel; todos contra todos com o kit Iron, anônimos sob o mesmo manto. Mínimo **2** jogadores ou cancela; após **20 minutos** vem a morte súbita (ninguém se esconde, dreno crescente; empate no dreno: mais vida, depois mais dano). Sem summons; Teleport dentro do cemitério; **5 segundos** de proteção ao voltar (magia da luta não alcança em casa). `.events` registra a partir de **15 minutos** antes; pertences guardados e devolvidos. Vencedor leva **DoB FFA Trophy** no banco, o título **the Last Contender** e conquistas (lutas e vitórias).
+- Fertilizante de bonsai cai ainda mais das criaturas da floresta.
+- Toda doma selvagem de montaria rara de Britannia é anunciada no jogo e no Discord, não só a do anúncio diário. O anúncio diário passa a sair em horário **sorteado** (não mais **20:00** fixas); montaria prestes a sumir não é anunciada.
+- **PvP Trainer** na velocidade do jogador (montado acompanha montado), em todas as arenas (Moonglow, Yew Cemetery e NuJel'm); persegue castando (inclusive finalizadoras), recua curando/buffando e colide como jogador (atravessar exige stamina cheia, custa **10**).
+- Em combate com outros jogadores, sem arena até **2 minutos** após o último ataque. Daily Dungeon anunciada **1 vez** por dia, na meia-noite. Trocar de arma com duplo clique não mostra mais a mensagem de erro.
+
+Consulte [Free-for-All](sistemas/free-for-all.md), [Spawns raros](sistemas/spawns-raros.md), [Bonsais](sistemas/bonsais.md), [Arena e treinamento](arena.md) e [Daily Dungeon](sistemas/daily-dungeon.md).
+
 ## 0.52.0 · Discord e arena gratuita
 
 Publicado em 9 de outubro de 2026.

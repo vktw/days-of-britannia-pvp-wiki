@@ -69,6 +69,9 @@ peça; veja os custos e demais requisitos em [Tailoring](craft/tailoring.md).
 **10 de stamina**. O movimento consome **5 de stamina** da criatura. A colisão
 entre jogadores continua exigindo a stamina integral e consumindo **10**.
 
+No 1.1.0, dá para minerar e pescar montado em qualquer lugar, inclusive na
+Fortune Tide, com o golpe da ferramenta mostrado.
+
 ## Stats e buffs
 
 - Stats permanentes: máximo de 100 cada e 300 no total.

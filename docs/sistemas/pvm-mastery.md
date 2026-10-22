@@ -72,7 +72,7 @@ Use estes exemplos para reconhecer cada família. Eles não garantem um scroll: 
 | Família | Exemplos de criaturas |
 |---|---|
 | **Undead** | Zombie, Skeleton e Lich |
-| **Humanoid** | Orc, Ogre e Troll |
+| **Humanoid** | Orc, Ogre, Troll, Harpia, Vhorrak e Odran |
 | **Reptilian** | Lizardman, Drake e Dragon |
 | **Abyssal** | Imp, Daemon e Balron |
 | **Elemental** | Earth Elemental, Fire Elemental, Water Elemental e Mud Pie |
@@ -171,6 +171,18 @@ Quatro Maestrias giram em torno do **Venom Flask** (consulte
 **Ambush** (Humanoid): o primeiro golpe que acerta saindo de Hiding ou Stealth
 causa dano adicional, com 10 segundos de recarga. Errar não revela nem gasta.
 
+## Fire Field no 1.0.0
+
+O **Fire Field** conta como dano mágico: as maestrias o tratam como magia e
+ele ainda gera Hit Lightning, mas não gera efeitos de golpe de arma (como Hit
+Paralyze). Quem for ferido por ele em Stealth ou Invisibility é revelado. O
+Fire Field das criaturas causa 25% menos em jogadores, como as outras magias
+delas.
+
+No 1.1.0, a **Venomblade** avisa no máximo uma vez por minuto quando não usa o
+Venom Flask, e por quê: sem flask com cargas, PvP recente ou Poisoning abaixo
+de 60.
+
 ## Invocações de oitavo círculo
 
 As seis magias de invocação de oitavo círculo usam uma curva de sucesso entre
@@ -221,6 +233,10 @@ Resonant Cascade pode começar depois de uma **Peacemaking direcionada**, **Disc
 - **Espaços flexíveis:** Spell Damage Increase para os ataques mágicos diretos do personagem, recuperação de mana e resistências adequadas à caçada.
 
 ## Como escolher seus cinco espaços
+
+No 1.0.0, cada **15** pontos de maestria comprados com ouro abrem um novo slot
+ativo: de **5** até **11** slots, com **90** pontos. Joias e scrolls continuam
+somando por fora.
 
 Comece identificando o problema que mais limita a caçada:
 

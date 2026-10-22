@@ -1,5 +1,11 @@
 # Tailoring
 
+## Reinforced Cloth in 1.1.0
+
+**Reinforced Cloth** is a PvM loot ingredient. In the Tailoring menu, turn the
+Reinforced Cloth option on: each cloth garment made with success spends **1**
+and comes out Reinforced, with double durability; a failure spends none.
+
 ## 0.43.0 update
 
 **Studded Leather Armor** is no longer craftable, listed in the Tailoring menu,

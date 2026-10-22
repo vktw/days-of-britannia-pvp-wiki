@@ -83,6 +83,19 @@ Rewards are additional PvM Mastery XP only; the hunt grants no ordinary PvM
 economy and taming grants no XP beyond the achievement.
 See [Rare spawns](spawns-raros.md) for cycles and taming requirements.
 
+## New achievements in 1.0.0–0.53.0
+
+- **Treasure Hunter**: XP for the first chest of each tier (Stash **1,000**,
+  Supply **2,000**, Cache **3,000**, Hoard **4,000**, Trove **5,000**) and for
+  **10**, **50**, and **100** opened chests (**5,000**, **10,000**, and
+  **15,000**); at 50, **the Treasure Hunter** title.
+- **Perfect chest**: **10**, **50**, and **100** perfect chests (**5,000**,
+  **10,000**, and **15,000** XP); at 50, the **Master Locksmith** title.
+- **First defeat** of each rare boss: overhead title and **5,000** XP (see
+  [Rare spawns](spawns-raros.md) for the titles).
+- **Free-for-All**: counts fights (**1**, **10**, and **50**) and wins (**1**,
+  **5**, and **25**); the winner takes the trophy and the title.
+
 ## Limits
 
 Achievements do not add points, rankings, titles, or cosmetic rewards. First

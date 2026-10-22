@@ -68,6 +68,9 @@ Animals, monsters, pets, and NPC vendors with at least **10 stamina** can be
 pushed. The movement costs the creature **5 stamina**. Player-to-player
 collision still requires and consumes the full **10 stamina**.
 
+In 1.1.0, you can mine and fish mounted anywhere, Fortune Tide included, with
+the tool swing shown.
+
 ## Stats and buffs
 
 - Permanent stats: maximum 100 each and 300 in total.

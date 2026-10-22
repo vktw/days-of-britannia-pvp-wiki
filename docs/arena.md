@@ -8,12 +8,12 @@ arena compatível, treinar contra o **PvP Trainer**.
 | Arena | Jogador vs jogador | PvP Trainer |
 |---|:---:|:---:|
 | Moonglow | Sim | Sim |
-| Yew Cemetery | Sim | Não |
-| Arena NuJel'm | Sim | Não |
+| Yew Cemetery | Sim | Sim |
+| Arena NuJel'm | Sim | Sim |
 
 Arena NuJel'm fica em Felucca. As três arenas aceitam duelos com loot do sistema
-ou loot pessoal. O PvP Trainer continua disponível exclusivamente na Arena
-Moonglow.
+ou loot pessoal. No 0.53.0, o PvP Trainer passou a ser oferecido em todas as
+arenas.
 
 A área completa da **Yew Cemetery** é reconhecida como parte da Yew Arena. Os
 participantes dentro da área oficial não são tratados como estando fora dos
@@ -31,7 +31,9 @@ Duelos entre jogadores nas arenas compatíveis oferecem dois modos:
 
 - **System Loot:** cada participante recebe o kit Iron fixo da Arena e a
   configuração original é restaurada ao final. Não há seleção pública de tiers
-  de armor ou weapons.
+  de armor ou weapons. No 1.0.0, o kit passou a incluir Bone Harvester,
+  Broadsword, Viking Sword, Executioner's Axe, Scythe e Double Bladed Staff,
+  em Iron.
 - **Personal Loot:** o corpo, a mochila e a montaria seguem o fluxo normal de
   morte. Somente o vencedor pode saquear o corpo derrotado durante 60 segundos;
   o perdedor fica retido por 15 segundos e o conteúdo restante é perdido ao fim
@@ -47,6 +49,8 @@ PvP Trainer não cobram mais taxa de entrada.
 
 1. Abra `.arena`, escolha um duelo contra jogador ou um treino contra o PvP
    Trainer e, para duelos entre jogadores, escolha o modo de loot disponível.
+   Quem está em combate com outros jogadores não entra na arena, nem desafia
+   nem aceita desafios, até **2 minutos** após o último ataque.
 2. Desafios públicos ficam disponíveis por 120 segundos para aceitação; quando
    restam 15 segundos, o lembrete é recalculado. Personagens da mesma conta não
    podem se enfrentar.
@@ -85,10 +89,14 @@ devolução segue as regras do corpo e da montaria descritas acima.
 
 ## PvP Trainer
 
-O PvP Trainer é uma opção de treinamento disponível pela Arena Moonglow. A
+O PvP Trainer é uma opção de treinamento disponível nas três arenas. A
 entrada é gratuita e fornece o kit Iron fixo; seleção de tiers não faz
-parte desse fluxo. Esta página documenta somente as regras observáveis de
-entrada, cobrança e resultado, não decisões táticas internas do NPC.
+parte desse fluxo. No 0.53.0, ele passou a se mover na velocidade do jogador
+(montado acompanha montado), a perseguir enquanto conjura (inclusive
+finalizadoras), a recuar enquanto se cura ou se fortalece e a colidir como um
+jogador (atravessar exige stamina cheia e custa 10). Esta página documenta
+somente as regras observáveis de entrada, cobrança e resultado, não decisões
+táticas internas do NPC.
 
-!!! success "Status: 0.52.0"
+!!! success "Status: 0.53.0"
     Estas são as regras disponíveis no servidor oficial.

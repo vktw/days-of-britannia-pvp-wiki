@@ -83,6 +83,19 @@ As recompensas são somente XP de Maestria PvM adicional; a caçada não libera
 economia normal de PvM e a doma não concede XP além do achievement.
 Consulte [Spawns raros](spawns-raros.md) para os ciclos e requisitos de doma.
 
+## Novos achievements no 1.0.0–0.53.0
+
+- **Treasure Hunter**: XP pelo primeiro baú de cada tier (Stash **1.000**,
+  Supply **2.000**, Cache **3.000**, Hoard **4.000**, Trove **5.000**) e por
+  **10**, **50** e **100** baús abertos (**5.000**, **10.000** e **15.000**);
+  aos 50, o título **the Treasure Hunter**.
+- **Baú perfeito**: **10**, **50** e **100** baús perfeitos (**5.000**,
+  **10.000** e **15.000** de XP); aos 50, o título **Master Locksmith**.
+- **Primeira derrota** de cada chefe raro: título acima do nome e **5.000** de
+  XP (consulte [Spawns raros](spawns-raros.md) para os títulos).
+- **Free-for-All**: contam lutas (**1**, **10** e **50**) e vitórias (**1**,
+  **5** e **25**); o vencedor leva o troféu e o título.
+
 ## Limites
 
 Achievements não adicionam pontos, rankings, títulos ou recompensas cosméticas.

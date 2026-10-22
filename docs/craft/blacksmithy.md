@@ -1,5 +1,13 @@
 # Blacksmithy
 
+## Novas armas Bloodrock e Blackrock no 1.0.0
+
+**12** armas novas, **6** por metal, no mesmo modelo das atuais (**30**
+ingots, Blacksmithy **75–110**): Bloodrock com **+9** e Blackrock com
+**+10** de dano. Bloodrock: Crimson Harvest, Sanguine Edge, Red Saga, Blood
+Sentence, Vein Reaper e Twin Vow. Blackrock: Nightreap, Dusk Edge, Night Saga,
+Umbral Sentence, Gloom Reaper e Twin Fang.
+
 <section class="dob-craft-simulator" data-smith-simulator aria-labelledby="smith-title">
 <div class="dob-craft-simulator__heading"><span class="dob-craft-simulator__eyebrow">Menu da skill</span><h3 id="smith-title">Blacksmithy</h3><p>0.43.0 · Escolha uma categoria, uma receita e o material. Use uma ferramenta de Blacksmithy próxima de uma forja e uma bigorna.</p></div>
 <div data-smith-menu><span class="dob-craft-simulator__screen-label">Menu principal</span><h4>Escolha uma categoria</h4><div class="dob-craft-simulator__menu">

@@ -13,6 +13,13 @@ Nujelm's public market lets you place a protected **Player Vendor** on one of
 2. Go to a reserved wooden bench in Nujelm's market.
 3. Use the contract and confirm placement at the available location.
 
+In 1.0.0, vendors became simpler and cheaper: the ordinary contract and the
+**commission contract**, sold by bankers, place a regular vendor on any of the
+42 free Safe Haven spots. The ordinary vendor pays only the normal daily
+charge, with no extra 1,500 Gold and no reserve to place it; the commission one
+keeps 5.25% of each sale and pays no daily. One vendor per account; if it
+leaves, its items and gold go to your bank.
+
 Each account and public IP may keep **one Nujelm vendor**. This limit does not
 change Player Vendors placed inside houses.
 

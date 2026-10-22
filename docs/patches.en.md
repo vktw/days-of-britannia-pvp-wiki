@@ -2,6 +2,73 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 1.2.0 · Daily Dungeon and creatures
+
+Published on October 21, 2026, with 1.1.0.
+
+- Each day a second dungeon is drawn, the **Bloodmire**: there, PvM Mastery XP and PvM Loot Pack chance rise **150%**. Creatures are empowered per level (**1.5 times** on the first, plus **0.5** per level below, **50** more in skills per level), with minimum danger **Dangerous**, **Deadly**, and **Legendary** from the third on; their names and a color show it.
+- On delivering the first **Bloodmire Bounty**, the character receives the **Slayer's Codex**: every defeated creature teaches its Slayer Group, and each tier bought with gold becomes a permanent point of damage dealt or taken against the group.
+- **Thorne, the Bloodmire Stalker**, at the entrance, offers 1 contract per account per day: **6,000** PvM Mastery XP in that dungeon for a crate with 1 Loot Pack roll without utilities and equipment one tier higher.
+- Every hour, each level returns to **10** Despise creatures (Phantom, Naba, Darkmane, Skeletrex, Hellion, Echidnite, Birling Blades, and Prometheoid). Phantom, Skeletrex, and Prometheoid are undead, Naba is reptilian, and the rest are abyssal. They rarely leave level clothing dyes: wight's ash, gorestain, clotted crimson, charnel ember, and mire black.
+- The Bounty sits in the backpack as a progress deed; the Stalker hands a new copy if you lose yours.
+- Rare boss and season books become **bindings**: with no text, they give their cover and color to a runebook, the Hunter's Compendium, or the Slayer's Codex. They drop at **5%**, in **20** covers.
+- **Vhorrak** is now guarded by **3** bloodsworn archers, no magi. A fallen guard returns only when the fight restarts; each fall dazes him for **15 seconds** (still, not attacking, double damage). Guard corpses show no hair.
+- `.fortunetide` now works and tells whether the Fortune Tide is active where you are. Up to **3** accounts per IP. A dyed backpack has **Restore** in its menu to return to the original color. **Venomblade** warns once a minute when it skips the Venom Flask (no charges, recent PvP, or Poisoning below 60). Creatures handle fields, retreats, paralysis, walls, and bard music better.
+
+See [Daily Dungeon](sistemas/daily-dungeon.md), [PvM Mastery](sistemas/pvm-mastery.md), and [Rare spawns](sistemas/spawns-raros.md).
+
+## 1.1.0 · DoB Tests on Treasure Chests
+
+Published on October 21, 2026, with 1.2.0.
+
+- With the DoB client, the map owner and party choose between the common test and the **DoB test** on lockpick or Remove Trap; other clients only get the common one. It holds per step, with no switching; on a DoB lock, common lockpick and the Unlock spell do not work. Closing the Fuse does not pause study; closing or walking away with the fuse lit explodes it.
+- **Lock** (Lockpicking): each stage has a hidden sweet spot; hold to turn, it vibrates near the spot, and forcing off the spot wears the pick until it breaks (**1** lockpick) without breaking chest items. Higher tiers have more stages and smaller spots, with a false spot from Hoard up. No minimum skill, even on Trove; above 100 skill helps (bigger spot, longer-lasting pick, faster turn).
+- **Fuse** (Remove Trap): study in time and turn the pieces to the vent; a burnt piece no longer turns. The spark explodes on a closed piece, on running back, on leaving with no vent, or on entering the false one (trap damage + Ancient Guardian, as in the common test). More skill slows the spark and lengthens study; at **90** the false vent shows marked; at **80**, **100**, and **110** the fuse pinches itself once each before exploding.
+- **Clean pick** (opening without breaking a pick) keeps the Grubber away and adds **1** item; an earlier common failure blocks it. A Fuse disarmed without explosion on the same chest makes it **perfect** and adds **1** more item.
+- Perfect chest achievements: **10**, **50**, and **100** grant Mastery XP; at 50, the **Master Locksmith** title.
+- **Reinforced Cloth** (PvM drop): turn the option on in the Tailoring menu; each cloth garment made with success spends **1** and comes out Reinforced, with double durability; a failure spends none.
+- **Masks**, rare PvM drops, one per Daily dungeon: Orc Cave (orc helm), Covetous (bear), Hythloth (horned tribal), Destard (platemail mempo), Deceit (skull), Despise (ogre), Shame (deer), and Wrong (tribal). Chain coif (mempo plate gorget) protection and durability, bows allowed; only **Hardening**, **Fortification**, or **Invulnerability**, in the tier color; special dyes paint them in the backpack; no smelting, Repair Kit only.
+- Medusa's isle opens to everyone **24 hours** after the summoning, even with the party there; **1 hour** and **10 minutes** warning.
+- Mine and fish mounted anywhere, Fortune Tide included, with the swing shown.
+- During the Fortune Tide, the Map in a Bottle chance per cast rises from **1%** to **2%** (still up to **2** bottles a day, per account and per IP). A Fishing amulet spends **1** use per cast; an Item Identification amulet spends **1** per bottle opened.
+
+See [Treasure Maps](sistemas/mapas-tesouro.md), [Craft](craft/index.md), and [Rare spawns](sistemas/spawns-raros.md).
+
+## 1.0.0 · Slayer Groups and Treasure Maps
+
+Published on October 19, 2026.
+
+- Wild creature tooltips show the **Slayer Group**, the same one used by Masteries, contracts, achievements, and scrolls.
+- **Treasure maps** are back: every eligible creature may drop a Felucca map, with Threat-based chance (Daily Dungeon and Fortune Draught raise it); chests on Felucca land, away from towns, dungeons, and guards; tier by strength.
+- Chests hold gold and a few items that improve with the tier: upgraded weapons and armor, jewelry up to **+10%**, amulets with double uses and, from **Cache** up, a treasure **Scroll of Knowledge** (**+10%** for **7 days** of play) and a treasure **Tome of Expertise** (**+10** skill, craft and gathering included). Below Trove, a **10%** chance of a next-tier Felucca map. **Sunken Gold Dye** (single use) only in **Hoard (2%)** and **Trove (6%)**.
+- **Trove** needs **101** Cartography to decode/read and **101** Lockpicking on the chest: above 100, only with an amulet or the treasure Tome.
+- **Driftseeker Pole** (Carpentry **85–110**, **100** boards of any wood, named per wood): fishes **Map in a Bottle** with Fishing **100** at **0.05%** per cast, no limit. Wood and Fishing above 100 push the tier (common nothing; Oak and Ash a little; Yew more; Heartwood, Bloodwood, and Frostwood the most, same as Fishing **110**; best wood with Fishing **110** never yields Stash or Supply). On opening, Item Identification gives **1%** per point above 100 (**10%** at **110**) for one tier up, except Trove.
+- **Fortune Tide**: every day **1 hour** at a drawn unguarded port (Jhelom, Nujel'm, Magincia, Ocllo, Buccaneer's Den, Cove, or Serpent's Hold); **1%** Map in a Bottle per cast, up to **2** bottles per account and per IP, fish never run out. `.fortunetide` shows the port and time.
+- **Treasure Hunter** achievements: XP for the first chest of each tier and for **10**, **50**, and **100** chests; at 50, **the Treasure Hunter** title above the name. Trove surfacing: server and Discord announce, with no location or who.
+- Mastery slots: **+1** per **15** bought points, from **5** to **11** at **90** points; jewelry and scrolls on top.
+- **Medusa**: a Felucca altar takes 1 heart from each of the **6** rare bosses and opens the way for you and your party; unique rewards, with a **Death Shroud**.
+- First defeat of each boss grants an overhead title to everyone with loot, plus **5,000** XP: Nochyer (**the Nightbane**), Modry (**the Plaguebreaker**), Seraphel (**the Lightfallen**), Odran (**the Unsentenced**), Vhorrak (**the Hornbreaker**), and Hedge (**the Hedgebane**).
+- **12** new weapons (**30** ingots, Blacksmithy **75–110**): **6** Bloodrock (**+9**) and **6** Blackrock (**+10**) — Crimson Harvest/Nightreap, Sanguine Edge/Dusk Edge, Red Saga/Night Saga, Blood Sentence/Umbral Sentence, Vein Reaper/Gloom Reaper, Twin Vow/Twin Fang.
+- **Vhorrak, Odran, and harpies** become **Humanoid**: contracts, achievements, Masteries, and **Repond** apply. The owner's party disarms the chest trap.
+- Tinkering **Metal Chest** trains Lockpicking to **100** (made by a **100** tinker, its lock needs **76**; old ones unchanged).
+- **Fire Field** becomes magical damage: Masteries treat it as a spell, it still triggers Hit Lightning, never weapon-hit effects (such as Hit Paralyze); it reveals Stealth/Invis; creature fields deal **25%** less to players.
+- The Arena Iron kit adds the **6** new weapons, in Iron. Carpentry rods and weapons lose wood attributes (name and color only, plus the Driftseeker bonus). Nujel'm vendors made simpler: ordinary and commission contracts at the banker, **42** spots; ordinary without the **1,500** gold and without reserve; commission **5.25%** with no daily; **1** per account; exits go to the bank.
+- Vhorrak and Odran drop the promised Humanoid Scroll. Chests truly move after **30 days** undug; guardians spawn around, not on top; a Grubber's item returns on its corpse. Relogging no longer freezes.
+
+See [Treasure Maps](sistemas/mapas-tesouro.md), [PvM Mastery](sistemas/pvm-mastery.md), [Rare spawns](sistemas/spawns-raros.md), [Craft](craft/index.md), [Arena and training](arena.md), [Player Vendors](sistemas/player-vendors.md), and [Threat Rating](mundo/threat-rating.md).
+
+## 0.53.0 · Free-for-All, rare mounts, and the arena
+
+Published on October 15, 2026.
+
+- Weekly **Free-for-All**: **Sunday 21:00** and **Wednesday 12:15**, at the Britain Cemetery in Trammel; everyone fights everyone with the Iron kit, anonymous under the same shroud. At least **2** players or it cancels; after **20 minutes** comes sudden death (no hiding, growing drain; drain tie: most life, then most damage). No summons; Teleport inside the cemetery; **5 seconds** of protection on return (fight spells do not reach home). `.events` registers from **15 minutes** before; belongings kept and returned. The winner takes the **DoB FFA Trophy** in the bank, **the Last Contender** title, and achievements (fights and wins).
+- Bonsai fertilizer drops even more from forest creatures.
+- Every wild Rare Britannia taming is announced in game and on Discord, not only the daily one. The daily announcement now goes out at a **drawn** time (no longer fixed **20:00**); a mount about to vanish is not announced.
+- The **PvP Trainer** moves at player speed (mounted keeps up with mounted), in every arena (Moonglow, Yew Cemetery, and NuJel'm); it chases while casting (finishers included), retreats while healing/buffing, and collides like a player (passing through needs full stamina, costs **10**).
+- In combat with other players, no arena until **2 minutes** after the last attack. The Daily Dungeon is announced **1** time a day, at midnight. Double-click weapon swaps no longer show the error message.
+
+See [Free-for-All](sistemas/free-for-all.md), [Rare spawns](sistemas/spawns-raros.md), [Bonsais](sistemas/bonsais.md), [Arena and training](arena.md), and [Daily Dungeon](sistemas/daily-dungeon.md).
+
 ## 0.52.0 · Discord and a free arena
 
 Published on October 9, 2026.

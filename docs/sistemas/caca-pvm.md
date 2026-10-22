@@ -23,7 +23,8 @@ Fale com um deles para consultar o contrato disponível.
 - A recompensa é uma **caixa de madeira** com uma rolagem de Loot Pack PvM.
 
 O contrato usa a progressão de XP de Maestria PvM elegível como referência e não
-cria uma tabela de loot paralela para as criaturas.
+cria uma tabela de loot paralela para as criaturas. O tooltip das criaturas
+selvagens mostra o grupo de Slayer, o mesmo de maestrias, contratos e scrolls.
 
 ## Criaturas mágicas
 

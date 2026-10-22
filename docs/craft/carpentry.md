@@ -1,6 +1,15 @@
 # Carpentry
 
-## Academic Bookcase no 0.50.0
+## Driftseeker Pole no 1.0.0
+
+A **Driftseeker Pole** (Carpentry **85–110**, **100** boards de qualquer
+madeira, com o nome da madeira) pesca **Map in a Bottle** com Fishing
+**100**. Veja as chances e o bônus por madeira em [Mapas do Tesouro](../sistemas/mapas-tesouro.md).
+
+Varas de pesca e armas de Carpentry perderam os atributos da madeira (como
+Spell Channeling, Luck, dano extra e requisitos menores): a madeira dá só o
+nome e a cor, mais o bônus de tier da Driftseeker. Itens já feitos mantêm o
+que têm.
 
 A **Academic Bookcase** é um móvel-container de Carpentry: exige **60.0 a
 85.0** de Carpentry, **25 Boards** e **Academic Books**. Os Books vêm

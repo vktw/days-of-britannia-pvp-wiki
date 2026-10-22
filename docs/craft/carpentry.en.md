@@ -1,6 +1,15 @@
 # Carpentry
 
-## Academic Bookcase in 0.50.0
+## Driftseeker Pole in 1.0.0
+
+The **Driftseeker Pole** (Carpentry **85–110**, **100** boards of any wood,
+named per wood) fishes **Map in a Bottle** with Fishing **100**. See chances
+and the per-wood bonus in [Treasure Maps](../sistemas/mapas-tesouro.md).
+
+Carpentry fishing poles and weapons lost their wood attributes (such as Spell
+Channeling, Luck, extra damage, and lower requirements): wood gives only the
+name and color, plus the Driftseeker tier bonus. Already made items keep what
+they have.
 
 The **Academic Bookcase** is a Carpentry furniture container: it requires
 **60.0 to 85.0** Carpentry, **25 Boards**, and **Academic Books**. Books come

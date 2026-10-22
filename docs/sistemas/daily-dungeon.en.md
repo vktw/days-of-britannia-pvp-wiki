@@ -4,7 +4,8 @@ description: Learn how the Daily Dungeon boosts PvM Mastery experience and Loot 
 
 # Daily Dungeon
 
-The Daily Dungeon is the day's best reference for combining PvM with Mastery progression. The selection changes on a daily rotation; use `.dailydungeon` to see the current dungeon and the remaining time.
+The Daily Dungeon is the day's best reference for combining PvM with Mastery progression. The selection changes on a daily rotation; use `.dailydungeon` to see the current dungeon and the
+remaining time. Since 0.53.0, rotation and announcement happen **1** time a day, at midnight.
 
 ## What changes in the daily dungeon
 
@@ -16,6 +17,30 @@ The Daily Dungeon is the day's best reference for combining PvM with Mastery pro
 - The bonus lasts until the next daily rotation.
 
 The bonuses apply to the dungeon selected at that moment. Check the command window before planning your route.
+
+## Bloodmire in 1.2.0
+
+Each day a second dungeon is drawn, the **Bloodmire**, with its own look
+inspired by Trammel's Despise. There, PvM Mastery XP and PvM Loot Pack chance
+rise **150%**. Creatures are empowered per level (**1.5 times** on the first,
+plus **0.5** per level below, **50** more in skills per level), with minimum
+danger **Dangerous**, **Deadly**, and **Legendary** from the third on; their
+names and a color show it.
+
+Every hour, each level returns to **10** Despise creatures (Phantom, Naba,
+Darkmane, Skeletrex, Hellion, Echidnite, Birling Blades, and Prometheoid).
+They rarely leave level clothing dyes: wight's ash, gorestain, clotted
+crimson, charnel ember, and mire black.
+
+**Thorne, the Bloodmire Stalker**, at the entrance, offers **1** contract per
+account per day, the **Bloodmire Bounty**: **6,000** PvM Mastery XP in that
+dungeon for a crate with **1** Loot Pack roll without utilities and equipment
+one tier higher. The Bounty sits in the backpack as a progress deed, and the
+Stalker hands a new copy if you lose yours.
+
+On delivering the first Bounty, the character receives the **Slayer's Codex**:
+every defeated creature teaches its Slayer Group, and each tier bought with
+gold becomes a permanent point of damage dealt or taken against the group.
 
 ## Lost Lands access
 

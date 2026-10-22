@@ -45,7 +45,15 @@ A Ultima Store está desativada. Não há compras, entregas ou uso de Sovereigns
 
 ## `.dailydungeon`
 
-Mostra qual Daily Dungeon está selecionada e quanto tempo falta para a próxima rotação. Use o comando antes de sair para aproveitar os bônus de experiência de Maestria PvM e Loot Packs.
+Mostra qual Daily Dungeon está selecionada e quanto tempo falta para a próxima rotação. Desde o 0.53.0, a rotação acontece 1 vez por dia. Use o comando antes de sair para aproveitar os bônus de experiência de Maestria PvM e Loot Packs.
+
+## `.events`
+
+Abre o registro do **Free-for-All** semanal, a partir de 15 minutos antes do horário. Veja [Free-for-All](sistemas/free-for-all.md) para dias, regras e recompensas.
+
+## `.fortunetide`
+
+Mostra o porto e o horário da **Fortune Tide** do dia, e diz se ela está ativa onde você está. Veja [Mapas do Tesouro](sistemas/mapas-tesouro.md).
 
 ## `.rankings`
 
