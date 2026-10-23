@@ -37,9 +37,8 @@ nessa dungeon por uma caixa com **1** roll de Loot Pack sem utilidades e
 equipamento um nível acima. A Bounty fica na mochila como contrato com
 progresso, e o Espreitador entrega nova cópia se você perder a sua.
 
-Na primeira Bounty entregue, o personagem recebe o **Slayer's Codex**: cada
-criatura derrotada ensina o grupo Slayer dela, e cada nível comprado com ouro
-vira ponto permanente de dano causado ou recebido contra o grupo.
+Na primeira Bounty entregue, o personagem recebe o **Slayer's Codex**: veja
+como ele funciona em [Slayer's Codex](slayers-codex.md).
 
 ## Acesso às Lost Lands
 

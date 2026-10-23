@@ -39,8 +39,7 @@ one tier higher. The Bounty sits in the backpack as a progress deed, and the
 Stalker hands a new copy if you lose yours.
 
 On delivering the first Bounty, the character receives the **Slayer's Codex**:
-every defeated creature teaches its Slayer Group, and each tier bought with
-gold becomes a permanent point of damage dealt or taken against the group.
+see how it works in [Slayer's Codex](slayers-codex.md).
 
 ## Lost Lands access
 
