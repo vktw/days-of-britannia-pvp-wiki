@@ -52,5 +52,13 @@ agressivos desaparecem permanentemente; pets agressivos levam consigo os itens
 carregados. Pets passivos ou reativos continuam no mundo normalmente depois de
 perder o vínculo com o antigo dono.
 
+## Domar com 100,0 ou mais no 1.3.0
+
+Com **100,0** ou mais de Animal Taming, o progresso da doma aparece acima da
+criatura e a doma é garantida ao completar a barra: cada tentativa completa
+que falha soma a chance efetiva da rolagem, e a tentativa que fecha a barra
+acerta. O progresso é privado, pausa abaixo de 100 e dura **1 hora** desde a
+última tentativa.
+
 !!! success "Status: 0.40.0"
     Estas regras correspondem ao servidor oficial.

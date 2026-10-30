@@ -55,6 +55,10 @@ Opens registration for the weekly **Free-for-All**, from 15 minutes before the t
 
 Shows the port and time of the day's **Fortune Tide**, and tells whether it is active where you are. See [Treasure Maps](sistemas/mapas-tesouro.md).
 
+## `.pets`
+
+Lists all your followers (pets, summons, and hirelings), where each one is and how many slots it takes, and lets you release them even from afar. Near you it is the usual release; far away, the follower leaves for good. The mount you ride and a pack animal carrying items cannot be released. See [Pets and mounts](sistemas/pets-montarias.md).
+
 ## `.rankings`
 
 Opens a menu with Top 10 tabs for **murder count**, **Gold**, and lifetime **PvM

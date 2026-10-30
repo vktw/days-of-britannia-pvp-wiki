@@ -165,6 +165,22 @@ Eleventh Heart**, loot extra e uma Chronicle relacionada a **Elias Wren**.
 Enquanto o evento está ativo, Town Criers também podem compartilhar um rumor
 que o menciona; consulte [Whispers of Britannia](whispers-britannia.md).
 
+## Pesadelo
+
+De tempos em tempos, **quatro crânios de cristal** despertam nos cantos de
+uma praça de pedra cortada por rios de fogo, com o centro em chamas: pisar na
+chama do pesadelo queima. **Três ondas de 10** criaturas (de **Trivial** a
+**Dangerous**) guardam o caminho até o **Engine of Nightmares**, que lança
+terrores em marcas no chão — saia de cima a tempo.
+
+Quem cai para as criaturas do evento não morre: acorda ao lado do ankh da
+caverna, montado e com os itens, com **25%** de vida, mana e stamina, preso
+por **10 segundos**, perdendo a Fame e o desgaste de uma morte comum. Só quem
+luta contra o boss descobre onde o Nightmare espera; só um Grão-Mestre em
+Animal Taming consegue domá-lo, ganhando a conquista **Quebra-Sonhos** e o
+título **the Dreambreaker** (o servidor anuncia quem conseguiu **5 minutos**
+depois).
+
 ## Season of the Witch
 
 Em outubro, o coven da **Season of the Witch** ocupa um cemitério de Felucca
@@ -198,6 +214,7 @@ Britannia](whispers-britannia.md).
 | Vhorrak | 24–48 horas | Ilha de fogo além de Hythloth; intervalo aleatório entre aparições. |
 | Great Harts raros | 48–72 horas por variante | Seis ciclos independentes; um exemplar selvagem por variante. |
 | The Man in the Hedge | 24–48 horas após a morte | Um intervalo aleatório é escolhido depois da morte do boss final. |
+| Pesadelo | 72–120 horas | Praça de pedra além da caverna; intervalo aleatório entre aparições. |
 | Rare Britannia | Sempre uma disponível | O mundo mantém uma montaria selvagem ativa. Ao liberar a vaga, a reposição começa assim que houver um local válido. |
 
 Os ciclos em horas não são contagens reiniciadas a cada abate. Um ciclo pode

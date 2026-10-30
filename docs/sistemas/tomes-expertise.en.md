@@ -25,6 +25,9 @@ as guaranteed outcomes.
 Tomes from the **Craft** and **Harvesting** families grant at most **1.0** skill.
 Progress is permanent and respects the current limit of the selected skill.
 
+In 1.3.0, tomes got stronger: craft and harvest **+1.0 to +5.0**, other skills
+**+5.0 to +10.0**, with higher values rarer. Tomes you already have keep their value.
+
 ## Rolls in 0.42.0
 
 New Tome of Expertise rolls exclude the eight skills that start at 100.0:
@@ -35,6 +38,10 @@ Spells**. Drop chance and all other tome gains remain unchanged.
 
 Keep the tome in your backpack, set the listed skill to raise, and double-click
 it. The tome is consumed when the gain is applied.
+
+In 1.3.0, to join same-skill tomes (**75.0** Inscription required): double-click
+a tome and target a bag — that skill's tomes in the bag become one, up to
+**+100.0**. To read a tome, double-click it and target yourself.
 
 For other hunting rewards, see [PvM rewards](../itens/recompensas-pvm.md).
 

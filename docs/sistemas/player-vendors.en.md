@@ -18,7 +18,9 @@ In 1.0.0, vendors became simpler and cheaper: the ordinary contract and the
 42 free Safe Haven spots. The ordinary vendor pays only the normal daily
 charge, with no extra 1,500 Gold and no reserve to place it; the commission one
 keeps 5.25% of each sale and pays no daily. One vendor per account; if it
-leaves, its items and gold go to your bank.
+leaves, its items and gold go to your bank. In 1.3.0, Nujelm vendors always
+face south, including placed ones; vendor cycle no longer turns them. House
+vendors are unchanged.
 
 Each account and public IP may keep **one Nujelm vendor**. This limit does not
 change Player Vendors placed inside houses.

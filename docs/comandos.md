@@ -55,6 +55,10 @@ Abre o registro do **Free-for-All** semanal, a partir de 15 minutos antes do hor
 
 Mostra o porto e o horário da **Fortune Tide** do dia, e diz se ela está ativa onde você está. Veja [Mapas do Tesouro](sistemas/mapas-tesouro.md).
 
+## `.pets`
+
+Mostra todos os seus seguidores (pets, invocações e mercenários), onde cada um está e quantos slots ocupa, e permite liberá-los mesmo de longe. Perto de você é a liberação normal; longe, o seguidor parte de vez. A montaria em uso e um animal de carga com itens não podem ser liberados. Veja [Pets e montarias](sistemas/pets-montarias.md).
+
 ## `.rankings`
 
 Abre um menu com as abas de Top 10 de **murder count**, **Gold** e XP vitalícia

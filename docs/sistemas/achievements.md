@@ -94,7 +94,13 @@ Consulte [Spawns raros](spawns-raros.md) para os ciclos e requisitos de doma.
 - **Primeira derrota** de cada chefe raro: título acima do nome e **5.000** de
   XP (consulte [Spawns raros](spawns-raros.md) para os títulos).
 - **Free-for-All**: contam lutas (**1**, **10** e **50**) e vitórias (**1**,
-  **5** e **25**); o vencedor leva o troféu e o título.
+  **5** e **25**); o título **the Last Contender** chega num deed da conquista
+  **De Pé até o Fim** e aparece só acima do nome.
+- **Caçador Selvagem**: **25** caçadas da Wild Hunt (**the Wild Hunter**,
+  **10.000** de XP).
+- **Espreitador Silencioso**: caçada com emboscada e sem fuga (**the Silent
+  Stalker**, **5.000** de XP).
+- **Quebra-Sonhos**: dome o Nightmare (**the Dreambreaker**).
 
 ## Limites
 

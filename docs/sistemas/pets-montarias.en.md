@@ -52,5 +52,13 @@ aggressive pets disappear permanently; aggressive pets take all carried items
 with them. Passive or reactive pets remain in the world normally after losing
 their bond to the former owner.
 
+## Taming at 100.0 or more in 1.3.0
+
+With **100.0** or more Animal Taming, taming progress shows above the creature
+and the tame is guaranteed when the bar completes: each completed failed
+attempt adds the roll's effective chance, and the attempt that fills the bar
+succeeds. Progress is private, pauses below 100, and lasts **1 hour** since
+the last attempt.
+
 !!! success "Status: 0.40.0"
     These rules match the official server.

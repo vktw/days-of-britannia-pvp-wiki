@@ -69,7 +69,7 @@ Skill gain follows item weight — use these bands as reference:
 
 After **5 successful PvP thefts**, the character turns gray and can be attacked by any player without the attacker becoming criminal. Guards do not interfere; banks, vendors, and moongates keep working. Murderer status takes precedence.
 
-The count decreases by **1 every 24 hours of play**. In 0.51.0, all counts were
+The count decreases by **1 every 6 hours of play**. In 0.51.0, all counts were
 cleared once. To check it in game, say `*i must consider my sins*`.
 
 The [Thieving Cape](../craft/tailoring.md) can hide gray status from players who have not revealed the wearer. Crafting and wearing it require **100.0 base** Hiding, Stealth, Snooping, and Stealing. Forensic Evaluation reveals the wearer for **10 minutes**.

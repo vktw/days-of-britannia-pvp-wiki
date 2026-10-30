@@ -25,6 +25,10 @@ devem ser tratados como resultado garantido.
 Tomes das famílias **Craft** e **Harvesting** concedem no máximo **1.0** de
 skill. O progresso é permanente e respeita os limites atuais da skill sorteada.
 
+No 1.3.0, os tomes ficaram mais fortes: craft e coleta de **+1,0 a +5,0**,
+outras skills de **+5,0 a +10,0**, com os valores mais altos mais raros. Tomes
+que você já tem mantêm o valor.
+
 ## Rolagens no 0.42.0
 
 As novas rolagens de Tomes of Expertise não incluem as oito skills que começam
@@ -36,6 +40,11 @@ inalterados.
 
 Mantenha o tome na mochila, deixe a skill indicada configurada para subir e use
 dois cliques. O tome é consumido quando o ganho é aplicado.
+
+No 1.3.0, para juntar tomes da mesma skill (exige **75,0** de Inscription): dê
+dois cliques num tome e clique numa bolsa — os tomes daquela skill na bolsa
+viram um só, até **+100,0**. Para ler um tome, dê dois cliques nele e clique em
+você.
 
 Para outras recompensas de caça, consulte [Recompensas PvM](../itens/recompensas-pvm.md).
 

@@ -21,8 +21,8 @@ hide:
 
 <section class="dob-landing-strip" aria-label="Status do servidor">
   <span class="dob-landing-stat"><strong><i aria-hidden="true"></i>Servidor online</strong><small>Britannia está ativa</small></span>
-  <span class="dob-landing-stat"><strong>1.2.0</strong><small>Versão atual</small></span>
-  <a class="dob-landing-stat" href="patches/"><strong>Daily Dungeon e criaturas</strong><small>Última atualização</small></a>
+  <span class="dob-landing-stat"><strong>1.3.0</strong><small>Versão atual</small></span>
+  <a class="dob-landing-stat" href="patches/"><strong>A Caçada Selvagem</strong><small>Última atualização</small></a>
 </section>
 
 <nav class="dob-landing-shortcuts" aria-label="Atalhos do manual">
@@ -81,18 +81,18 @@ hide:
   <h2 id="dob-landing-news" class="dob-landing-section__title">O shard não para</h2>
   <div class="dob-landing-news">
     <article class="dob-landing-patch">
-      <span class="dob-landing-patch__tag">Última atualização · 1.2.0</span>
-      <h3>Daily Dungeon e criaturas</h3>
-      <p class="dob-landing-patch__date"><time datetime="2026-10-21">21 de outubro de 2026</time></p>
-      <p>Todo dia uma segunda dungeon sorteada, o Bloodmire, com +150% de XP e loot — e os mapas do tesouro voltaram com baús, minijogos e a Fortune Tide.</p>
+      <span class="dob-landing-patch__tag">Última atualização · 1.3.0</span>
+      <h3>A Caçada Selvagem</h3>
+      <p class="dob-landing-patch__date"><time datetime="2026-10-27">27 de outubro de 2026</time></p>
+      <p>Novembro traz caçadas com leitura de pistas, estratégia e execução — além do Pesadelo, do Donation Chest e do comando .pets.</p>
       <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="patches/">Ler patch notes</a>
     </article>
     <div class="dob-landing-articles">
       <h3>Últimos artigos atualizados</h3>
-      <a href="sistemas/mapas-tesouro/"><time datetime="2026-10-21">21 out</time><span><strong>Mapas do Tesouro</strong><small>Baús, testes DoB, Driftseeker e Fortune Tide</small></span></a>
-      <a href="patches/"><time datetime="2026-10-21">21 out</time><span><strong>Patch notes</strong><small>1.2.0, 1.1.0, 1.0.0 e 0.53.0</small></span></a>
-      <a href="sistemas/daily-dungeon/"><time datetime="2026-10-21">21 out</time><span><strong>Daily Dungeon</strong><small>Bloodmire, Bounty e Slayer's Codex</small></span></a>
-      <a href="sistemas/free-for-all/"><time datetime="2026-10-15">15 out</time><span><strong>Free-for-All</strong><small>Todos contra todos no domingo e na quarta</small></span></a>
+      <a href="sistemas/wild-hunt/"><time datetime="2026-10-27">27 out</time><span><strong>Season of the Wild Hunt</strong><small>Charadas, rastros e Frostmarks em novembro</small></span></a>
+      <a href="patches/"><time datetime="2026-10-27">27 out</time><span><strong>Patch notes</strong><small>1.3.0 · A Caçada Selvagem</small></span></a>
+      <a href="sistemas/spawns-raros/"><time datetime="2026-10-27">27 out</time><span><strong>Spawns raros</strong><small>O Pesadelo e suas três ondas</small></span></a>
+      <a href="sistemas/mapas-tesouro/"><time datetime="2026-10-27">27 out</time><span><strong>Mapas do Tesouro</strong><small>Trove Force+, Driftseeker e guardiões</small></span></a>
     </div>
   </div>
 </section>

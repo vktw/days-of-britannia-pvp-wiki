@@ -18,7 +18,9 @@ No 1.0.0, os vendors ficaram mais simples e baratos: o contrato comum e o
 qualquer um dos 42 spots livres do Safe Haven. O vendor comum paga só a diária
 normal, sem os 1.500 Gold extras e sem reserva para instalar; o de comissão
 fica com 5,25% de cada venda e não paga diária. Um vendor por conta; se ele
-sair, os itens e o gold vão para o seu banco.
+sair, os itens e o gold vão para o seu banco. No 1.3.0, os vendors de Nujelm
+passam a ficar sempre virados para o sul, inclusive os já instalados; o vendor
+cycle não os gira mais. Vendors em casas não mudam.
 
 Cada conta e IP público pode manter **um único vendor de Nujelm**. Esse limite
 não altera Player Vendors instalados em casas.

@@ -34,7 +34,9 @@ combat line, on by default and switchable off in the book itself.
 
 Rare boss and season books are now **bindings**: with no text, they give
 their cover and color to a runebook, the Hunter's Compendium, or the Slayer's
-Codex. They drop at **5%**, in **20** covers.
+Codex. They drop at **5%**, in **20** covers. In 1.3.0, **Restore** on a bound
+book asks for confirmation before returning the original look (the binding is
+still not returned).
 
 ## Keep exploring
 

@@ -34,7 +34,9 @@ por padrão e desligável no próprio livro.
 
 Livros de chefes raros e temporadas viraram **encadernações**: sem texto,
 dão capa e cor a um runebook, ao Hunter's Compendium ou ao Slayer's Codex.
-Caem com **5%** de chance, em **20** capas.
+Caem com **5%** de chance, em **20** capas. No 1.3.0, o **Restore** de um livro
+encadernado pede confirmação antes de devolver o visual original (a
+encadernação continua sem voltar).
 
 ## Continue explorando
 

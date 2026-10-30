@@ -65,7 +65,8 @@ kit inicial são itens comuns, empilháveis e transferíveis.
 Fishing Pole é uma ferramenta básica de Fishing. Uma pole comum começa com 50
 usos, exibe os usos restantes e quebra quando chega a zero. Um duplo clique em
 uma pole na mochila pode equipá-la e iniciar seu uso; uma falha de skillcheck não
-consome uso.
+consome uso. No 1.3.0, botas, sapatos, sandálias e thigh boots velhos deixaram
+de sair na vara.
 
 Provisioners vendem Hatchet, Pickaxe, Shovel e Fishing Pole básicos. O estoque
 inicial tem **320 unidades de cada ferramenta comum**. Tinkers vendem Hatchet,

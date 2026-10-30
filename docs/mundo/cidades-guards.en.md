@@ -2,6 +2,10 @@
 
 This page only records confirmed exceptions. The absence of a city on the list does not mean that it is unprotected.
 
+## How guards act in 1.3.0
+
+PKs can use the bank and vendors of guarded cities. Any player can call the guards on a city PK, even one with no crime. Guards no longer kill outright: each blow takes **90** life every **2 seconds** from PKs and criminals while the target stays in the protected area.
+
 ## Cove
 
 Cove in Felucca has no guard protection and can be used as an open PvP area.
@@ -74,4 +78,4 @@ and **Y=475..538** has no guard protection. Trammel remains unchanged.
 
 See [Arena and Training](../arena.md) for rules for entry, external interference, and returning characters.
 
-!!! success "Status: 0.50.0"
+!!! success "Status: 1.3.0"

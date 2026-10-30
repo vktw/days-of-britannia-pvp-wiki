@@ -2,6 +2,34 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 1.3.0 · The Wild Hunt
+
+Published on October 27, 2026.
+
+- From **November 1 to 30**, **4 times a day** (**10:00**, **14:00**, **18:00**, and **22:00** Brasilia time), the Wild Hunt horn names a frost-marked beast somewhere wild in Felucca. The call is a riddle: combine its clues to find the region; every hour nobody finds the quarry, a new clue is added.
+- In the region, follow the trail: hoofprints, broken branches, tufts of fur, and droppings, fresher near the den. Double-click a sign to read freshness, direction, and wind; Tracking nearby gives a finer direction. The quarry never appears in the Tracking menu.
+- The quarry senses scent, noise, and large groups: approach against the wind, without running or riding near it. Startled, it flees to a new den; corner it by closing escape routes, or wait until it tires. A first strike while it is calm stuns it for a few seconds. Nobody can harm it from outside the hunt area or from inside a house.
+- The first quarry is the **White Hind**, with telegraphed frost kicks, leaps at hunters who strike from afar, and attempts to break the circle.
+- Every completed hunt pays **Frostmarks** per taking-part account (**40**, plus **5** for an ambush, **5** for no flight, and **5** for finding it in the first hour). Trade them with the Huntwarden in the Safe Haven until **December 7**: winter decorations, the Horn of the Wild Hunt, Frost Pigment, the Frostmane Statuette, and the Rimewind bow — the last four **1** per account.
+- Season achievements grant overhead titles: **Wild Hunter**, for **25** completed hunts (**the Wild Hunter**, **10,000** XP), and **Silent Stalker**, for an ambush-started, flight-free hunt (**the Silent Stalker**, **5,000** XP).
+- New **.pets** command: lists followers (pets, summons, and hirelings), where each is and how many slots it takes, and releases even from afar (far away, it leaves for good). The mount you ride and a pack animal carrying items cannot be released.
+- New rare event: the **Nightmare**. Four skulls wake on a stone square with fire rivers; the center burns whoever steps in. Three waves of **10** creatures (**Trivial** to **Dangerous**) guard the **Engine of Nightmares**, with terrors on marked ground: step off. Whoever falls does not die: they wake at the cave ankh, mounted and with their items, at **25%** life, mana, and stamina, held for **10 seconds**, losing ordinary-death Fame and wear. Only boss fighters learn where the Nightmare waits; only a Grandmaster tames, earning the **Dreambreaker** achievement and **the Dreambreaker** title (**5 minutes** later announced).
+- New **Donation Chest**: a golden chest beside the Britain bank; give and take with no limit. Holds **100** items (a stack counts as **1**); at the **101st**, the oldest disappears. No gold, checks, containers, blessed, or untradeable items.
+- **The Last Contender** title becomes a deed from the **Last One Standing** achievement, overhead only (holders now show it). FFA at new times: **Wednesday 15:00** and **Friday 22:00** Brasilia time.
+- Stronger **Tomes of Expertise**: craft and harvest **+1.0 to +5.0**, others **+5.0 to +10.0** (higher values rarer; old ones keep theirs). To join same-skill tomes (**75.0** Inscription): double-click a tome, then a bag, up to **+100.0**. To read: double-click, then yourself.
+- Guarded cities: PKs use the bank and vendors; any player can call the guards on a city PK, even with no crime. Guards no longer kill outright: **90** life every **2 seconds** on PKs and criminals in the area.
+- **Trove** chests: weapons and armor always Force or better (**85%** Force, **10%** Power, **5%** Vanquishing; Hardening, Fortification, and Invulnerability armor).
+- **Map in a Bottle**: Driftseeker from **0.05%** to **0.1%** per cast; in the Fortune Tide the cap rises from **2** to **4** a day, per account and per IP (**2%** chance kept).
+- Fishing without old boots, shoes, sandals, or thigh boots. The Driftseeker keeps only the Map in a Bottle (the rest returns to the water with a message; still trains Fishing; ordinary pole unchanged).
+- Treasure: creatures show Threat and pay for it; at most **1** Ancient Guardian per chest (leaves loot; its death disarms); lifting an item calls no monster. In the DoB test, with **100** Remove Trap the trap disarms at once after the wait (up to **9 minutes** on a Trove).
+- Animal Trainer without a quest window. Stairs, blocks, floors, mosaics, and carpets no longer block line of sight above them; walls, closed doors, frames, and windows do; an open one does not.
+- Masteries with no maximum level: same XP and gold, **1** slot per **15** points with no cap. Above **10**, each level adds at least **0.25%**; chances and reductions stop at **90%**, Leech and costs at **100%**, own caps never rise; damage uncapped. A reduced hit always deals at least **1** (only Arcane Bastion nullifies).
+- Taming at **100.0** or more shows progress above the creature and guarantees it on completion: each completed failure adds the effective chance, and the one that fills the bar succeeds. Private, pauses below 100, lasts **1 hour**.
+- A weapon breaking on the hit it lands, or a killing hit, spends no poison and poisons nothing. With active Venomblade and a charged flask, weapon poison is never spent on creatures (blocked flask: just no poison; empty: back to the weapon). The flask also poisons monster-summoned creatures.
+- Nujelm vendors always face south (including placed ones). Steal counts fade after **6 hours** (was **24**; existing ones count from now). Restore on a bound book now asks for confirmation.
+
+See [Season of the Wild Hunt](sistemas/wild-hunt.md), [Rare spawns](sistemas/spawns-raros.md), [Commands](comandos.md), [PvM Mastery](sistemas/pvm-mastery.md), [Thief](sistemas/thief.md), [Threat Rating](mundo/threat-rating.md), [Treasure Maps](sistemas/mapas-tesouro.md), [Craft](craft/index.md), [Cities and guards](mundo/cidades-guards.md), and [Player Vendors](sistemas/player-vendors.md).
+
 ## 1.2.0 · Daily Dungeon and creatures
 
 Published on October 21, 2026, with 1.1.0.

@@ -1,5 +1,12 @@
 # Cidades e guards
 
+## Como os guards agem no 1.3.0
+
+PKs podem usar o banco e os vendors das cidades com guards. Qualquer jogador
+pode chamar os guards contra um PK dentro da cidade, mesmo sem crime dele. Os
+guards não matam na hora: cada golpe tira **90** de vida a cada **2 segundos**
+de PKs e criminosos, enquanto o alvo continuar na área protegida.
+
 ## Cove
 
 Cove em Felucca não possui proteção de guards e pode ser usada como área aberta de PvP.
@@ -72,5 +79,5 @@ e **Y=475..538** não recebe proteção de guards. Trammel permanece inalterado.
 
 Consulte [Arena e treinamento](../arena.md) para regras de entrada, interferência externa e devolução dos personagens.
 
-!!! success "Status: 0.50.0"
+!!! success "Status: 1.3.0"
     Esta página registra somente exceções confirmadas. A ausência de uma cidade na lista não significa que ela seja desprotegida.

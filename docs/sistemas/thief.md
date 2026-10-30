@@ -70,7 +70,7 @@ O ganho de skill acompanha o peso do item — use estas faixas como referência:
 
 Depois de **5 roubos PvP bem-sucedidos**, o personagem fica cinza e pode ser atacado por qualquer jogador sem que o atacante se torne criminal. Guards não interferem; bancos, vendors e moongates continuam funcionando. O estado murderer tem precedência.
 
-A contagem diminui em **1 a cada 24 horas de jogo**. No 0.51.0, todas as
+A contagem diminui em **1 a cada 6 horas de jogo**. No 0.51.0, todas as
 contagens foram zeradas uma única vez. Para consultá-la no jogo, diga `*i
 must consider my sins*`.
 

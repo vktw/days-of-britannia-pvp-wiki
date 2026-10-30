@@ -179,7 +179,11 @@ Paralyze). Anyone hurt by it in Stealth or Invisibility is revealed. Creature
 Fire Fields deal 25% less to players, like their other spells.
 
 In 1.1.0, **Venomblade** warns at most once a minute when it skips the Venom
-Flask, and why: no charged flask, recent PvP, or Poisoning below 60.
+Flask, and why: no charged flask, recent PvP, or Poisoning below 60. In 1.3.0,
+with active Venomblade and a charged flask in the backpack, weapon poison is
+never spent on creatures: when the flask cannot act (recent PvP or Poisoning
+below 60), the hit just does not poison; with the flask empty, the weapon goes
+back to its own poison. The flask now also poisons monsters' summoned creatures.
 
 ## Eighth-circle summons
 
@@ -233,7 +237,13 @@ Resonant Cascade may begin after a successful **targeted Peacemaking**, **Discor
 
 In 1.0.0, every **15** Mastery points bought with gold open a new active slot:
 from **5** up to **11** slots, at **90** points. Jewelry and scrolls keep adding
-on top.
+on top. In 1.3.0, Masteries lost their maximum level and slots started opening
+**1** per **15** points with no cap: above **10**, each level adds at least
+**0.25%**; chances and damage reductions stop at **90%**, Leech and costs paid
+with another resource at **100%**, and a Mastery that reaches its own cap
+rises no further; damage bonuses have no cap. A hit reduced by the Masteries
+and the Slayer's Codex always deals at least **1** damage (only Arcane Bastion
+nullifies).
 
 Start by identifying the problem that limits the hunt most:
 

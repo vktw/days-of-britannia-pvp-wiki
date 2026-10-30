@@ -94,7 +94,12 @@ See [Rare spawns](spawns-raros.md) for cycles and taming requirements.
 - **First defeat** of each rare boss: overhead title and **5,000** XP (see
   [Rare spawns](spawns-raros.md) for the titles).
 - **Free-for-All**: counts fights (**1**, **10**, and **50**) and wins (**1**,
-  **5**, and **25**); the winner takes the trophy and the title.
+  **5**, and **25**); **the Last Contender** title arrives as a deed from the
+  **Last One Standing** achievement and shows only above the name.
+- **Wild Hunter**: **25** Wild Hunt hunts (**the Wild Hunter**, **10,000** XP).
+- **Silent Stalker**: an ambush-started, flight-free hunt (**the Silent
+  Stalker**, **5,000** XP).
+- **Dreambreaker**: tame the Nightmare (**the Dreambreaker**).
 
 ## Limits
 

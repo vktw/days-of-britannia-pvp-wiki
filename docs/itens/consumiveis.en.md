@@ -66,7 +66,8 @@ bandages from the starter kit are ordinary, stackable, and transferable.
 Fishing Pole is a basic Fishing tool. A standard pole starts with 50 uses,
 shows the remaining uses, and breaks at zero. Double-clicking a pole in the
 backpack can equip it and start its use; a failed skillcheck does not consume a
-use.
+use. In 1.3.0, old boots, shoes, sandals, and thigh boots stopped coming up on
+the rod.
 
 Provisioners sell basic Hatchet, Pickaxe, Shovel, and Fishing Pole tools. Their
 initial stock has **320 of each ordinary tool**. Tinkers sell Hatchet, Pickaxe,

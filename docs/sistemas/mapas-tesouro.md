@@ -17,7 +17,9 @@ usos e, de **Cache** em diante, **Scroll of Knowledge do tesouro** (**+10%**
 por **7 dias** de jogo, só em maestria conhecida) e **Tome of Expertise do
 tesouro** (**+10** de skill, com craft e coleta). Abaixo de Trove, **10%** de
 chance de um mapa de Felucca do próximo tier. **Sunken Gold Dye** (uso único)
-só em **Hoard (2%)** e **Trove (6%)**.
+só em **Hoard (2%)** e **Trove (6%)**. No 1.3.0, armas e armaduras de Trove vêm
+sempre de Force para cima: **85%** Force, **10%** Power e **5%** Vanquishing
+(armaduras Hardening, Fortification e Invulnerability).
 
 **Trove** exige **101** de Cartography para decodificar ou ler, e o baú Trove
 exige **101** de Lockpicking: acima de 100, só com bônus de Magic Amulet ou
@@ -45,7 +47,10 @@ voltar por onde passou, sair sem respiro ou entrar no falso (dano da
 armadilha + Ancient Guardian, como no comum). Mais skill deixa a faísca mais
 devagar e o estudo mais longo; com **90** o falso aparece marcado; com
 **80**, **100** e **110** o pavio se aperta sozinho uma vez cada antes de
-explodir.
+explodir. No 1.3.0, com **100** de Remove Trap a armadilha desarma direto após
+a espera do baú (até **9 minutos** no Trove), como no teste comum; acima de
+**100** (amuletos e power scrolls contam), a explosão nunca tira mais de
+**99** de vida.
 
 **Clean pick** (abrir sem quebrar grampo) afasta o Grubber e soma **1** item;
 falha prévia no comum impede. Pavio sem explosão no mesmo baú deixa o baú
@@ -56,7 +61,9 @@ falha prévia no comum impede. Pavio sem explosão no mesmo baú deixa o baú
 
 A **Driftseeker Pole** (Carpentry **85–110**, **100** boards de qualquer
 madeira, com o nome da madeira) pesca **Map in a Bottle** com Fishing
-**100** a **0,05%** por lance, sem limite. A madeira e o Fishing acima de 100
+**100** a **0,05%** por lance, sem limite. No 1.3.0, a chance dobrou para
+**0,1%**, e a vara só fica com o Map in a Bottle (o resto volta à água com
+aviso; pescar continua treinando Fishing, e a vara comum não muda). A madeira e o Fishing acima de 100
 puxam o tier: madeira comum nada; Oak e Ash pouco; Yew mais; Heartwood,
 Bloodwood e Frostwood o máximo, igual a Fishing **110**; melhor madeira com
 Fishing **110** nunca dá Stash nem Supply. Ao abrir a garrafa, o Item
@@ -66,7 +73,8 @@ Identification de quem abre dá **1%** por ponto acima de 100 (**10%** com
 A **Fortune Tide** acontece todo dia por **1 hora** em um porto sorteado sem
 guards (Jhelom, Nujel'm, Magincia, Ocllo, Buccaneer's Den, Cove ou Serpent's
 Hold): pescar na cidade tem **2%** de chance por lance de Map in a Bottle,
-até **2** garrafas por conta e por IP, e os peixes não se esgotam.
+até **4** garrafas por dia, por conta e por IP (desde o 1.3.0; antes **2**),
+e os peixes não se esgotam.
 `.fortunetide` mostra o porto e o horário, e diz se a Tide está ativa onde
 você está.
 
@@ -74,7 +82,7 @@ você está.
 
 - Conquistas **Treasure Hunter** dão XP pelo primeiro baú de cada tier e por **10**, **50** e **100** baús abertos; aos 50, o título **the Treasure Hunter** acima do nome. Trove na superfície: servidor e Discord avisam, sem local nem quem.
 - O **Metal Chest** feito em Tinkering treina Lockpicking até **100**: feito por um tinker **100**, a tranca exige **76**; baús já feitos não mudam.
-- O mapa do tesouro reinicia de verdade após **30 dias** sem escavar (o baú muda de lugar); guardiões nascem em volta do baú, não em cima; item roubado por um Grubber volta no corpo dele. A party do dono do mapa também pode desarmar a armadilha.
+- O mapa do tesouro reinicia de verdade após **30 dias** sem escavar (o baú muda de lugar); guardiões nascem em volta do baú, não em cima; item roubado por um Grubber volta no corpo dele. A party do dono do mapa também pode desarmar a armadilha. No 1.3.0, cada baú chama no máximo **1 Ancient Guardian**, que deixa loot, e a morte dele desarma a armadilha; pegar um item do baú não chama mais monstro novo.
 
 ## Continue explorando
 

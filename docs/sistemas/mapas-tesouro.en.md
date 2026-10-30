@@ -17,7 +17,9 @@ armor, Mastery jewelry up to **+10%**, skill amulets with double uses and, from
 play, known Masteries only) and a treasure **Tome of Expertise** (**+10**
 skill, craft and gathering included). Below Trove, a **10%** chance of a
 next-tier Felucca map. **Sunken Gold Dye** (single use) only in **Hoard (2%)**
-and **Trove (6%)**.
+and **Trove (6%)**. In 1.3.0, Trove weapons and armor always come at Force or
+better: **85%** Force, **10%** Power, and **5%** Vanquishing (Hardening,
+Fortification, and Invulnerability armor).
 
 **Trove** needs **101** Cartography to decode or read, and the Trove chest
 needs **101** Lockpicking: above 100, only with a Magic Amulet bonus or the
@@ -44,7 +46,11 @@ vent; a burnt piece no longer turns. The spark explodes on a closed piece, on
 running back, on leaving with no vent, or on entering the false one (trap
 damage + Ancient Guardian, as in the common test). More skill slows the spark
 and lengthens study; at **90** the false vent shows marked; at **80**,
-**100**, and **110** the fuse pinches itself once each before exploding.
+**100**, and **110** the fuse pinches itself once each before exploding. In
+1.3.0, with **100** Remove Trap the trap disarms at once after the chest's
+wait (up to **9 minutes** on a Trove), as in the common test; above **100**
+(amulets and power scrolls count), the explosion never takes more than **99**
+life.
 
 **Clean pick** (opening without breaking a pick) keeps the Grubber away and
 adds **1** item; an earlier common failure blocks it. A Fuse disarmed without
@@ -56,7 +62,9 @@ Perfect chest achievements (**10**, **50**, and **100**) grant Mastery XP; at
 
 The **Driftseeker Pole** (Carpentry **85–110**, **100** boards of any wood,
 named per wood) fishes **Map in a Bottle** with Fishing **100** at **0.05%**
-per cast, with no limit. Wood and Fishing above 100 push the tier: common wood
+per cast, with no limit. In 1.3.0 the chance doubled to **0.1%**, and the rod
+only keeps the Map in a Bottle (the rest goes back to the water with a
+message; casting still trains Fishing, and the ordinary pole is unchanged). Wood and Fishing above 100 push the tier: common wood
 nothing; Oak and Ash a little; Yew more; Heartwood, Bloodwood, and Frostwood
 the most, same as Fishing **110**; best wood with Fishing **110** never yields
 Stash or Supply. On opening the bottle, the opener's Item Identification gives
@@ -64,15 +72,16 @@ Stash or Supply. On opening the bottle, the opener's Item Identification gives
 
 The **Fortune Tide** runs every day for **1 hour** at a drawn unguarded port
 (Jhelom, Nujel'm, Magincia, Ocllo, Buccaneer's Den, Cove, or Serpent's Hold):
-fishing in town has a **2%** Map in a Bottle chance per cast, up to **2**
-bottles per account and per IP, and fish never run out. `.fortunetide` shows
+fishing in town has a **2%** Map in a Bottle chance per cast, up to **4**
+bottles a day, per account and per IP (since 1.3.0; previously **2**), and
+fish never run out. `.fortunetide` shows
 the port and time, and tells whether the Tide is active where you are.
 
 ## Chests, achievements, and Metal Chest
 
 - **Treasure Hunter** achievements grant XP for the first chest of each tier and for **10**, **50**, and **100** opened chests; at 50, **the Treasure Hunter** title above the name. Trove surfacing: server and Discord announce, with no location or who.
 - The Tinkering **Metal Chest** trains Lockpicking to **100**: made by a **100** tinker, its lock needs **76**; old chests unchanged.
-- Treasure maps truly reset after **30 days** undug (the chest moves); guardians spawn around the chest, not on top; an item stolen by a Grubber returns on its corpse. The map owner's party can also disarm the trap.
+- Treasure maps truly reset after **30 days** undug (the chest moves); guardians spawn around the chest, not on top; an item stolen by a Grubber returns on its corpse. The map owner's party can also disarm the trap. In 1.3.0, each chest calls at most **1 Ancient Guardian**, which leaves loot, and its death disarms the trap; lifting an item from the chest no longer calls a new monster.
 
 ## Keep exploring
 

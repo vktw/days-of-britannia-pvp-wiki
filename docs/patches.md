@@ -2,6 +2,34 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 1.3.0 · A Caçada Selvagem
+
+Publicado em 27 de outubro de 2026.
+
+- De **1 a 30 de novembro**, **4 vezes por dia** (**10:00**, **14:00**, **18:00** e **22:00** de Brasília), a trompa da Caçada Selvagem anuncia uma besta marcada pela geada em algum ponto selvagem de Felucca. O anúncio é uma charada: cruze as pistas para descobrir a região; a cada hora sem acharem a presa, surge uma pista nova.
+- Na região, siga o rastro: pegadas, galhos quebrados, tufos de pelo e fezes, cada vez mais frescos perto da toca. Duplo clique num sinal lê frescor, direção e vento; Tracking perto dá direção melhor. A presa não aparece no menu de Tracking.
+- A presa sente cheiro, barulho e grupos grandes: chegue contra o vento, sem correr nem cavalgar perto dela. Assustada, ela foge para uma nova toca; encurrale fechando as rotas ou espere cansar. O primeiro golpe com ela calma a atordoa por alguns segundos. Ninguém a fere de fora da área nem de dentro de casa.
+- A primeira presa é a **Corça Branca**, com coices de gelo telegrafados, saltos contra quem ataca de longe e tentativas de romper o cerco.
+- Cada caçada paga **Frostmarks** por conta participante (**40**, mais **5** por emboscada, **5** sem fuga e **5** achando na primeira hora). Troque com o Huntwarden no Safe Haven até **7 de dezembro**: decorações de inverno, Horn of the Wild Hunt, Frost Pigment, Frostmane Statuette e o arco Rimewind — os quatro últimos **1** por conta.
+- Conquistas da temporada dão títulos acima do nome: **Caçador Selvagem**, por **25** caçadas (**the Wild Hunter**, **10.000** de XP), e **Espreitador Silencioso**, por caçada com emboscada e sem fuga (**the Silent Stalker**, **5.000** de XP).
+- Novo comando **.pets**: lista seguidores (pets, invocações e mercenários), onde estão e quantos slots ocupam, e libera mesmo de longe (longe, parte de vez). Montaria em uso e animal de carga com itens não liberam.
+- Novo evento raro: o **Pesadelo**. Quatro crânios despertam numa praça de pedra com rios de fogo; o centro queima quem pisa. Três ondas de **10** criaturas (**Trivial** a **Dangerous**) guardam o **Engine of Nightmares**, com terrores em marcas no chão: saia de cima. Quem cai não morre: acorda no ankh da caverna, montado e com os itens, com **25%** de vida, mana e stamina, preso por **10 segundos**, perdendo a Fame e o desgaste de morte comum. Só quem luta o boss descobre onde o Nightmare espera; só Grão-Mestre doma, ganhando a conquista **Quebra-Sonhos** e o título **the Dreambreaker** (anúncio **5 minutos** depois).
+- Novo **Donation Chest**: baú dourado ao lado do banco de Britain; doe e pegue sem limite. Guarda **100** itens (pilha conta como **1**); no **101º**, o mais antigo some. Sem ouro, cheques, recipientes, blessed ou introcáveis.
+- O título **the Last Contender** vira deed da conquista **De Pé até o Fim**, só acima do nome (quem já tem passa a exibir). FFA em novos horários: **quarta 15:00** e **sexta 22:00** de Brasília.
+- **Tomes of Expertise** mais fortes: craft e coleta de **+1,0 a +5,0**, outras de **+5,0 a +10,0** (raras as maiores; antigos mantêm). Para juntar mesma skill (**75,0** Inscription): duplo clique no tome e na bolsa, até **+100,0**. Para ler: duplo clique e em si.
+- Cidades com guards: PKs usam banco e vendors; qualquer jogador chama os guards para um PK na cidade, mesmo sem crime. Guards não matam na hora: **90** de vida a cada **2 segundos** em PKs e criminosos na área.
+- Baús **Trove**: armas e armaduras sempre de Force para cima (**85%** Force, **10%** Power, **5%** Vanquishing; armaduras Hardening, Fortification e Invulnerability).
+- **Map in a Bottle**: Driftseeker de **0,05%** para **0,1%** por lance; na Fortune Tide o limite sobe de **2** para **4** por dia, por conta e por IP (chance **2%** mantida).
+- Pesca sem botas, sapatos, sandálias e thigh boots velhos. Driftseeker só fica com o Map in a Bottle (resto volta à água com aviso; treina Fishing; comum igual).
+- Tesouro: criaturas mostram Threat e pagam; no máximo **1** Ancient Guardian por baú (deixa loot; morte desarma); pegar item não chama monstro. No teste DoB, com **100** de Remove Trap a armadilha desarma direto após a espera (até **9 minutos** no Trove).
+- Animal Trainer sem janela de quests. Escadas, blocos, pisos, mosaicos e tapetes não bloqueiam linha de visão por cima; paredes, portas fechadas, batentes e janelas sim; aberta não.
+- Maestrias sem nível máximo: mesmo XP e gold, slots **1** a cada **15** pontos sem limite. Acima do **10**, cada nível soma pelo menos **0,25%**; chances e reduções param em **90%**, Leech e custos em **100%**, teto próprio não sobe; dano sem teto. Golpe reduzido causa pelo menos **1** (só Arcane Bastion anula).
+- Domar com **100,0** ou mais mostra o progresso acima da criatura e garante ao completar: cada falha completa soma a chance efetiva, e a que fecha acerta. Privado, pausa abaixo de 100, dura **1 hora**.
+- Arma que quebra no golpe que acerta, ou golpe que mata, não gasta veneno nem envenena. Com Venomblade ativa e flask com cargas, o veneno da arma nunca gasta em criaturas (flask impedido: só não envenena; vazio: volta à arma). Flask pega invocadas de monstros.
+- Vendors de Nujelm sempre virados ao sul (inclusive instalados). Steal count some após **6 horas** (antes **24**; existentes contam daqui). Restore em encadernado pede confirmação.
+
+Consulte [Season of the Wild Hunt](sistemas/wild-hunt.md), [Spawns raros](sistemas/spawns-raros.md), [Comandos](comandos.md), [Maestria PvM](sistemas/pvm-mastery.md), [Thief](sistemas/thief.md), [Threat Rating](mundo/threat-rating.md), [Mapas do Tesouro](sistemas/mapas-tesouro.md), [Craft](craft/index.md), [Cidades e guards](mundo/cidades-guards.md) e [Player Vendors](sistemas/player-vendors.md).
+
 ## 1.2.0 · Daily Dungeon e criaturas
 
 Publicado em 21 de outubro de 2026, junto com o 1.1.0.

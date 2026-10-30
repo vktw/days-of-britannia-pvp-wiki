@@ -165,6 +165,21 @@ Eleventh Heart**, extra loot, and a Chronicle connected to **Elias Wren**.
 While the event is active, Town Criers can also share a rumor that mentions it;
 see [Whispers of Britannia](whispers-britannia.md).
 
+## Nightmare
+
+From time to time, **four crystal skulls** wake at the corners of a stone
+square cut by rivers of fire, its center ablaze: stepping on the nightmare
+flame burns. **Three waves of 10** creatures (from **Trivial** to **Dangerous**)
+guard the way to the **Engine of Nightmares**, which casts terrors on marked
+ground — step off in time.
+
+Whoever falls to the event's creatures does not die: they wake beside the
+cave's ankh, mounted and with their items, at **25%** life, mana, and stamina,
+held for **10 seconds**, losing ordinary-death Fame and wear. Only boss
+fighters learn where the Nightmare waits; only a Grandmaster tamer can tame
+it, earning the **Dreambreaker** achievement and **the Dreambreaker** title
+(the shard announces who did it **5 minutes** later).
+
 ## Season of the Witch
 
 In October, the **Season of the Witch** coven holds one Felucca cemetery at a
@@ -198,6 +213,7 @@ Britannia](whispers-britannia.md).
 | Vhorrak | 24–48 hours | Fire isle beyond Hythloth; random interval between appearances. |
 | Rare Great Harts | 48–72 hours per variant | Six independent cycles; one wild specimen per variant. |
 | The Man in the Hedge | 24–48 hours after death | A random interval is selected after the final boss dies. |
+| Nightmare | 72–120 hours | Stone square past the cave; random interval between appearances. |
 | Rare Britannia | Always one available | The world maintains one active wild mount. When the slot is freed, replacement begins as soon as a valid location is available. |
 
 Hourly cycles are not countdowns restarted by each kill. A cycle can pass

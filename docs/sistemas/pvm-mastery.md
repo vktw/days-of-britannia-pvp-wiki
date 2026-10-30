@@ -181,7 +181,11 @@ delas.
 
 No 1.1.0, a **Venomblade** avisa no máximo uma vez por minuto quando não usa o
 Venom Flask, e por quê: sem flask com cargas, PvP recente ou Poisoning abaixo
-de 60.
+de 60. No 1.3.0, com Venomblade ativa e flask com cargas na mochila, o veneno
+da arma nunca é gasto em criaturas: se o flask não puder agir (PvP recente ou
+Poisoning abaixo de 60), o golpe só não envenena; com o flask vazio, a arma
+volta ao veneno próprio. O flask agora também envenena criaturas invocadas por
+monstros.
 
 ## Invocações de oitavo círculo
 
@@ -236,7 +240,13 @@ Resonant Cascade pode começar depois de uma **Peacemaking direcionada**, **Disc
 
 No 1.0.0, cada **15** pontos de maestria comprados com ouro abrem um novo slot
 ativo: de **5** até **11** slots, com **90** pontos. Joias e scrolls continuam
-somando por fora.
+somando por fora. No 1.3.0, as Maestrias perderam o nível máximo e os slots
+passaram a abrir **1** a cada **15** pontos sem limite: acima do **10**, cada
+nível soma pelo menos **0,25%**; chances e reduções de dano param em **90%**,
+Leech e custos pagos com outro recurso em **100%**, e a Maestria que chega ao
+teto próprio não sobe mais; bônus de dano não têm teto. Um golpe reduzido
+pelas Maestrias e pelo Slayer's Codex sempre causa pelo menos **1** de dano
+(só Arcane Bastion anula).
 
 Comece identificando o problema que mais limita a caçada:
 
