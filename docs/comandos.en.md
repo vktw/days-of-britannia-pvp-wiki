@@ -61,10 +61,14 @@ Lists all your followers (pets, summons, and hirelings), where each one is and h
 
 ## `.rankings`
 
-Opens a menu with Top 10 tabs for **murder count**, **Gold**, and lifetime **PvM
-Mastery** XP. Connected characters, including staff, can browse it, but staff
+Opens a menu with Top 10 tabs for **murder count**, **Gold**, lifetime **PvM
+Mastery** XP, and, since 2.2.0, **PVP** (lifetime arena duel total). Connected characters, including staff, can browse it, but staff
 and excluded accounts do not appear in the results. When eligible, your own
 position is highlighted. Records update after a successful world save.
+
+## `.auction`
+
+Opens the global **auction**: list any tradeable item from your backpack for **24**, **48**, or **72** hours, with a starting price and increment (up to **10** auctions per account). See [Auction](sistemas/leilao.md) for commission, extension, and anonymity.
 
 !!! success "Status: 0.42.0"
     The commands below are available to players on the official server.

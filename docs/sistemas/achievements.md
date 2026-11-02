@@ -101,6 +101,13 @@ Consulte [Spawns raros](spawns-raros.md) para os ciclos e requisitos de doma.
 - **Espreitador Silencioso**: caçada com emboscada e sem fuga (**the Silent
   Stalker**, **5.000** de XP).
 - **Quebra-Sonhos**: dome o Nightmare (**the Dreambreaker**).
+- **Iniciado**: complete a prova dos Arcanos (**the Initiate**, mais **5.000**
+  de XP da escola).
+- **Hartbinder**: dome os **12** Great Harts (**the Hartbinder**).
+- **Hartbane**: derrote os **12** Great Harts (**the Hartbane**).
+- Encomendas do Aldric: **Apprentice of the Guild** com **100** itens,
+  **Journeyman Artisan** com **500**, **Master of Commissions** com **2.000** e
+  **Grand Artisan of Britannia** com **5.000**.
 
 ## Limites
 

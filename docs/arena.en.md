@@ -76,6 +76,7 @@ the body and mount rules above.
 - Fights between the same IP do not score points.
 - The season lasts 15 days.
 - System Loot and Personal Loot use separate rankings.
+- In 2.2.0, `.rankings` gained a **PVP** tab: it adds up duel points for good, System Loot and Personal Loot together (**3** per win, **1** per draw), with wins, draws, and losses, and never resets with the season. The season and its trophies are unchanged, and current points already count.
 - PvP Trainer ranking uses the shortest victory time and remains in its own table.
 - At season end, unique PvP Trainer, System Loot, and Personal Loot champions
   receive a **Days of Britannia Arena Trophy** in their bank. Remaining ties

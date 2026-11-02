@@ -2,6 +2,68 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 2.2.0 · Auction and craft orders
+
+Published on November 1, 2026.
+
+- Six new rare **Great Harts**, in colors no dye has: Verdigris, Claybloom, Irisveil, Nightsteel, Cinderglass, and Jadeshade. Up to **2** roam the world at once, and every color comes out before any repeats. Each has hunter and tamer achievements; whoever tames all **12** harts earns the title **the Hartbinder**, whoever defeats all **12**, **the Hartbane**.
+- Great Hart announcements no longer describe places in the rumor; the only clue to where a hart is is the announcement's own location hint.
+- **.rankings** gains a **PVP** tab: it adds up arena duel points for good, System Loot and Personal Loot together (**3** per win, **1** per draw), with wins, draws, and losses, and never resets with the season. The season and its trophies are unchanged, and current points already count.
+- New **Leather Armor Kit** in Tailoring, under DoB Armor Kits: with the Royal Armorer's Charter and **75** Inscription, **35** Barbed leather become a deed opening into the **6** leather pieces. Every armor kit now shows who made it, and the pieces it opens into carry that mark too.
+- New global **auction** with the **.auction** command: list any tradeable item from your backpack for **24**, **48**, or **72** hours, at the starting price and increment you choose (up to **10** auctions per account). A bid comes from your bank gold and returns if outbid; a bid in the last **5 minutes** extends the auction by **5 minutes**. No one sees who sells or who bids. After the first bid the auction cannot be cancelled; a sale pays the price less a **10%** commission, and an unsold item returns to your bank.
+- Auctions now have their own Discord channel: each auction is announced when it opens, again at most once an hour when it gets new bids, and when it ends. No seller or bidder names.
+- **Aldric, the Master Artisan**, beside Kharag: every day from **20:00** he asks for one kind of item (kits, Bloodrock and Blackrock weapons, bows, house items, jewels) and takes as many as you deliver, by targeting an item or a container. Each item adds points to your Kharag balance for its materials, **+50%** if you made it and **+25%** if it is exceptional. The next day the items go to auction one at a time; the sale gold leaves the economy, and one that does not sell is discarded.
+- Kharag now has rewards for crafters: the **Artisan's Mark**, in **6** colors, colors your name in the "crafted by" line of everything you craft, for good (to change the color, buy another); common tools, blessed, with **5,000** charges and a weight of **1** stone; the **Giant Beetle** and the **Giant Fire Beetle**, found nowhere else, tamed in a statuette; and three single-use dyes in colors of their own: Royal Violet, Twilight Lavender, and Jade.
+- Delivering to Aldric's craft orders earns titles: **Apprentice of the Guild** at **100** delivered items, **Journeyman Artisan** at **500**, **Master of Commissions** at **2,000**, and **Grand Artisan of Britannia** at **5,000**, each with its achievement.
+- New Huntwarden reward in the Wild Hunt: the **Mantle of the Hunter's Moon**, for **275** Moonmarks, one per account. A mantle in the season's color that, worn by someone with **100** base Tracking, extends Tracking's range by **35** tiles and lists **6** more results (the Trailseeker Cloak gives **25** and **4**; they do not add up). It is not blessed and takes no dye.
+
+See [Rare spawns](sistemas/spawns-raros.md), [Commands](comandos.md), [Player Vendors](sistemas/player-vendors.md), [Craft](craft/index.md), [Kharag](sistemas/kharag.md), [Achievements](sistemas/achievements.md), and [Season of the Wild Hunt](sistemas/wild-hunt.md).
+
+## 2.1.0 · The Wild Hunt
+
+Published on October 31, 2026.
+
+- The Wild Hunt gains new quarries from **November 11**: besides the White Hind, the frost-rimed **grizzly**, which tolerates more noise, flees once and not far, and strikes with a telegraphed Charge and Roar, and the pale **unicorn**, which flees in blinks, a glimmer on the ground showing each one first, and strikes with Starfall.
+- The White Hind now has less life, so a hunt ends sooner.
+- From **November 11** the Wild Hunt's trails gain one or two false branches: they leave an old sign and their freshness falls until a cold sign that leads nowhere. Reading the sequence saves time.
+- From **November 21 to 30** the **22:00** hunt is the **Erlking's**: he waits with his spectral pack, names a hunter as his quarry, and looses the hounds on them. The hounds take solid form only near the ward stones, and the Erlking stays beyond reach while his pack runs. At half his life he calls more hounds. Defeating him earns **80** Frostmarks.
+- Odran's Condemned Heart and the Man in the Hedge's Eleventh Heart now stack like the other bosses' hearts, including the ones you already have.
+- At the Wrong and Hythloth entrances, Thorne, the Bloodmire Stalker, now stands on the other side of the corridor and no longer hides behind the wall.
+- **Spirit Speak** no longer heals in PvP: for **2 minutes** after a fight against players, or in an arena fight, the spirits are silent.
+- Fighting players no longer costs PvM rewards: whoever has just fought over a spot gets the Mastery XP, the Hart's dye and deed, the Wild Hunt's Frostmarks, and the drops as usual. Masteries still never apply in PvP: for **2 minutes** after a fight against players they do not apply, not even against creatures.
+- The Wild Hunt's rewards are now snow white, a color no other item has: the Frostmark, the horn, the Frost Pigment (and what it dyes), the statuette and the Frostmane, Rimewind, and the binding. Those you already own change by themselves, and old Frostmarks still stack with new ones.
+- The Wild Hunt's omens and notices now appear in game in your language (Portuguese or English). Before, they were in English only.
+- If nobody sights the Wild Hunt's quarry in the first hour, the horn sounds a second and last time with every clue and the den's location, as in the Great Hart announcements. Before, the clues came one an hour.
+- The Wild Hunt traded the frost for the storm and the spectral moon: the currency is now the **Moonmark** (the same coin, renamed), the first phase's quarry is the **Moonlit Hind**, the bear is the **storm-scarred grizzly**, and the rewards are the **Moonlight Pigment**, the **Moonmane**, and the **Stormcaller** bow, whose special strike is now a lightning bolt. The Huntwarden traded the snow decorations for hunting trophies: the spectral hound and hind statuettes, the wolf, Great Hart, and grizzly trophies, and **2** bear rugs. What you already own is renamed by itself.
+- The Wild Hunt's trail signs now take the quarry's color and grow as the trail warms: **one** piece when cold, **two** when old, and **three** when fresh. They use only large graphics (broken branches, tufts of fur, and blood) and never lie under roofs or against walls.
+- Each Wild Hunt hunt now pays more Moonmarks: **50** (it was **40**), plus **10** for an ambush, **10** if the quarry never fled, and **10** if it was sighted before the second hint (**5** each before). The Erlking pays **100** (it was **80**). The Huntwarden's prices are unchanged.
+- The Moonlit Hind now has **2,000** life (it was **3,000**).
+- Items left on a house's floor no longer decay, even when not locked down. In return they count toward the house's item limit (the storage shown on its sign), with everything they hold, and a full house takes nothing more on its floor.
+- **Tracking** now works normally in the Wild Hunt: the quarry appears in the list like any creature when in range. Using Tracking near a trail sign still reads the sign in more detail.
+- Inside houses, line of sight now follows the real height of walls, stairs, doors, and floors: the walls and doors of the floor above, steps, and railings no longer block the view of a chest on the floor below, and someone standing in an archway sees normally. Locked-down chests can be used from any tile within reach in every house; a real wall between you and the chest still blocks.
+- The Moonlit Hind now wears the season's color, as do its blood and the effects of its attacks. Its trail is made only of pools of its blood in that color: the first signs are **2** pools, growing as the trail gets fresher (**three**, then **four**).
+- The Huntwarden's top reward (**575** Moonmarks, one per account) is now the **Visage of the Hunter's Moon**: a deer mask in the season's color, on the model of the dungeon masks, at their highest level (Invulnerability). It replaces the Stormcaller bow in the shop; anyone who already bought the bow keeps it.
+- The Huntwarden's shop is remade, everything in the season's color: a bear trap (**30**), an antler chair (**35**), a bearskin rug (**45**), a stuffed wolf (**55**), a bear wall trophy (**75**), the Great Hart wall trophy (**100**), a stuffed bear (**135**), the Moonlight Pigment (**375**), the Moonstrider Statuette (**475**), and the Visage of the Hunter's Moon (**575**). The stuffed animals, the trap, and the chair can be turned; the wall trophies keep their color when taken down. The Horn, the Moonmane, the brown rug, and the statuettes leave the shop; anyone who has them keeps them. The rug's picture in the window now shows whole.
+- The Huntwarden's rewards now carry their own names, deeds included: Snare of the Wild Hunt, Erlking's Antler Throne, Pelt of the Storm Bear, Moonhowl, the Mounted Wolf, Head of the Storm Bear, Antlers of the Moonlit Hart, and Stormhide, the Mounted Grizzly. The wall trophies and the rug keep their names when placed and taken down.
+
+See [Season of the Wild Hunt](sistemas/wild-hunt.md), [Rare spawns](sistemas/spawns-raros.md), [Threat Rating](mundo/threat-rating.md), [Player Vendors](sistemas/player-vendors.md), and [Houses](sistemas/casas.md).
+
+## 2.0.0 · The Arcana
+
+Published on October 30, 2026.
+
+- The Arcana: active PvM abilities in **six** schools (**Fire**, **Frost**, **Life**, **Shadow**, **Blood**, and **Void**), each with **three** abilities and one ultimate, gathered in a new book, the **Magnum Opus**. Using them needs the updated DoB client.
+- To begin, speak to **Maelis Greyveil** in the Nujelm Safe Haven (you need the **Slayer's Codex**): choose a first school, receive the Magnum Opus with its first ability, and prove it in **10** PvM kills using that school. The reward is **5,000** XP of the school and the **Initiate** achievement, with the title **the Initiate**. Then she opens each new school for **100,000** gold.
+- Every other ability comes from **Arcana Scrolls**, dropped in PvM by the creatures of the Slayer Group weak to the school (**Undead** and **Arachnid** for Fire, **Reptilian** for Frost, **Abyss** for Life, **Humanoid** for Shadow, **Fey** for Blood, and **Elemental** for Void). Ultimates are the rarest. Scrolls can be traded and teach only in an open school.
+- **Vis**: a charge of up to **100** that rises as you deal or take damage from creatures and as you heal allies in PvM, shown as the fourth row of your health bar. Each ability spends Vis and has a cooldown; without enough Vis it fizzles and spends what you had.
+- **Bar**: **4** abilities of any school and **1** ultimate, which needs **three** abilities of its school on the bar. Drag the book's icons onto the client's hotkeys. The bar changes only after **30 seconds** out of combat.
+- **Progression**: each PvM kill gives its Mastery XP to the schools used in the fight. With the XP, buy levels with gold and put each into an ability, with no maximum level. At levels **25** and **50** an ability gains a larger area, duration, or effect and a new animation.
+- Each Slayer Group is weak to one school (**25%** more ability damage) and resists another (**25%** less), shown in the creature's tooltip beside the Slayer Group. The scroll of an ability you already know gives the school's **Essence**: **+10%** to its abilities for **60 minutes** of play.
+- The Arcana are PvM only: they do not affect players, the PvP Trainer, arenas, or the Free-for-All, do not work in the Safe Haven, and cannot be used within **2 minutes** of combat with a player.
+- For better performance: in the client's Options, the new **Arcana** section chooses how the effects appear. **Full** shows all of it, animated; **Static**, only the marks on the floor, held still; **Tiles**, only the tiles hit, in the school's color.
+
+See [Arcana](sistemas/arcana.md), [PvM Mastery](sistemas/pvm-mastery.md), [Slayer's Codex](sistemas/slayers-codex.md), and [Commands](comandos.md).
+
 ## 1.3.0 · The Wild Hunt
 
 Published on October 27, 2026.

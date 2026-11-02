@@ -21,8 +21,8 @@ hide:
 
 <section class="dob-landing-strip" aria-label="Server status">
   <span class="dob-landing-stat"><strong><i aria-hidden="true"></i>Server online</strong><small>Britannia is active</small></span>
-  <span class="dob-landing-stat"><strong>1.3.0</strong><small>Current version</small></span>
-  <a class="dob-landing-stat" href="patches/"><strong>The Wild Hunt</strong><small>Latest update</small></a>
+  <span class="dob-landing-stat"><strong>2.2.0</strong><small>Current version</small></span>
+  <a class="dob-landing-stat" href="patches/"><strong>Auction and craft orders</strong><small>Latest update</small></a>
 </section>
 
 <nav class="dob-landing-shortcuts" aria-label="Manual shortcuts">
@@ -81,18 +81,18 @@ hide:
   <h2 id="dob-landing-news" class="dob-landing-section__title">The shard keeps moving</h2>
   <div class="dob-landing-news">
     <article class="dob-landing-patch">
-      <span class="dob-landing-patch__tag">Latest update · 1.3.0</span>
-      <h3>The Wild Hunt</h3>
-      <p class="dob-landing-patch__date"><time datetime="2026-10-27">October 27, 2026</time></p>
-      <p>November brings hunts won by reading clues, strategy, and execution — plus the Nightmare, the Donation Chest, and the .pets command.</p>
+      <span class="dob-landing-patch__tag">Latest update · 2.2.0</span>
+      <h3>Auction and craft orders</h3>
+      <p class="dob-landing-patch__date"><time datetime="2026-11-01">November 1, 2026</time></p>
+      <p>The global auction arrives with .auction, Aldric pays crafters — plus six new Harts, a forever PvP ladder, and the Mantle in the Hunt.</p>
       <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="patches/">Read patch notes</a>
     </article>
     <div class="dob-landing-articles">
       <h3>Latest updated articles</h3>
-      <a href="sistemas/wild-hunt/"><time datetime="2026-10-27">Oct 27</time><span><strong>Season of the Wild Hunt</strong><small>Riddles, trails, and Frostmarks in November</small></span></a>
-      <a href="patches/"><time datetime="2026-10-27">Oct 27</time><span><strong>Patch notes</strong><small>1.3.0 · The Wild Hunt</small></span></a>
-      <a href="sistemas/spawns-raros/"><time datetime="2026-10-27">Oct 27</time><span><strong>Rare spawns</strong><small>The Nightmare and its three waves</small></span></a>
-      <a href="sistemas/mapas-tesouro/"><time datetime="2026-10-27">Oct 27</time><span><strong>Treasure Maps</strong><small>Force Trove, Driftseeker, and guardians</small></span></a>
+      <a href="sistemas/arcana/"><time datetime="2026-11-01">Nov 1</time><span><strong>Arcana</strong><small>Six schools, Vis, and the ability bar</small></span></a>
+      <a href="patches/"><time datetime="2026-11-01">Nov 1</time><span><strong>Patch notes</strong><small>2.2.0, 2.1.0, and 2.0.0</small></span></a>
+      <a href="sistemas/leilao/"><time datetime="2026-11-01">Nov 1</time><span><strong>Auction</strong><small>Global .auction with a Discord channel</small></span></a>
+      <a href="sistemas/spawns-raros/"><time datetime="2026-11-01">Nov 1</time><span><strong>Rare spawns</strong><small>Six new Harts and the Nightmare</small></span></a>
     </div>
   </div>
 </section>

@@ -43,6 +43,7 @@ user, lands in Dangerous at Threat 754–825.
   with a 45% combined ceiling for that group. Archer and other combinations
   retain the 35% combined ceiling.
 - Pets, summons, vendors, and the PvP Trainer do not receive PvM Threat Rating.
+- Rare mounts (ostards, the Great Hart, llamas, Rare Britannia mounts, the Ruby Mustang, the Emerald Llama and Emerald Mustang, and the event's Nightmare) show no Threat. Odran's witness daemons and Seraphel's fairies show theirs and pay for it.
 
 ## How to check in game
 

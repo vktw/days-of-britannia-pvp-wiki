@@ -2,55 +2,86 @@
 
 Em novembro, a **Season of the Wild Hunt** instala caçadas em regiões
 selvagens de Felucca. De **1 a 30 de novembro**, **4 vezes por dia**
-(**10:00**, **14:00**, **18:00** e **22:00** de Brasília), a trompa anuncia uma besta
-marcada pela geada; a cada hora sem acharem a presa, surge uma pista nova. O
+(**10:00**, **14:00**, **18:00** e **22:00** de Brasília), a trompa anuncia
+uma besta marcada; a cada hora sem acharem a presa, surge uma pista nova. O
 Huntwarden atende no Safe Haven até **7 de dezembro**.
+
+A temporada tem fases: de **1 a 10**, a Caça Primeira com a Corça Branca; de
+**11 a 20**, entram o urso e o unicórnio; de **21 a 30**, a caçada das
+**22:00** é a do **Erlking**. A moeda é a **Moonmark** (a mesma de antes, com
+novo nome).
 
 ## A charada e o rastro
 
 O anúncio global em inglês é uma charada montada de fragmentos: cruze as
 pistas para descobrir a região entre as **51** regiões selvagens do
 catálogo. Na região, siga o rastro: pegadas, galhos quebrados, tufos de pelo
-e fezes, cada vez mais frescos perto da toca.
+e sangue, cada vez mais frescos perto da toca.
 
-Dê dois cliques num sinal (a até **3 tiles**, com linha de visão) para ler
-frescor, direção e vento; usar Tracking perto dele dá uma direção mais
-precisa, em **16** direções. A presa nunca aparece no menu de Tracking.
+Os sinais têm a cor da presa e crescem com o rastro: **um** pedaço no frio,
+**dois** no velho e **três** no fresco (só gráficos grandes, nunca sob telhados
+nem colados em paredes). A partir de **11 de novembro**, os rastros ganham
+**uma ou duas trilhas falsas**, que saem de um sinal antigo e murcham até um
+sinal frio sem continuação.
 
-## A presa
+Dê dois cliques num sinal (a até **3** tiles, com linha de visão) para ler
+frescor, direção e vento; **Tracking** funciona normal na caçada (a presa
+aparece na lista no alcance), e usar Tracking perto de um sinal lê com mais
+detalhe. A presa nunca aparece sozinha no menu de Tracking.
+
+## As presas
 
 A presa sente cheiro, barulho e grupos grandes: chegue contra o vento, sem
 correr nem cavalgar perto dela. Assustada, ela foge para uma nova toca;
 encurrale fechando as rotas de fuga, ou espere que se canse. Um primeiro
-golpe com ela calma a deixa atordoada. Ninguém a fere de fora da área da
-caçada nem de dentro de uma casa.
+golpe com ela calma a atordoa. Ninguém a fere de fora da área nem de dentro
+de uma casa.
 
-A primeira presa é a **Corça Branca**: coices de gelo telegrafados, saltos
-contra quem ataca de longe e tentativas de romper o cerco.
+- **Corça Branca** (até dia 10) e **Corça do Luar** (depois): coices de gelo
+  telegrafados, saltos contra quem ataca de longe e tentativas de romper o
+  cerco. A do Luar tem **2.000** de vida; a trilha dela é só de poças do
+  próprio sangue (**2** poças frias, **3** velhas, **4** frescas).
+- **Urso coberto de geada** (a partir de dia 11, marcado pela tempestade):
+  tolera mais barulho, foge uma vez e pouco, e ataca com Investida e Rugido
+  anunciados.
+- **Unicórnio pálido** (a partir de dia 11): foge em saltos, com um brilho
+  no chão antes de cada um, e ataca com Chuva de Estrelas.
+- **Erlking** (caçada das **22:00**, dias **21 a 30**): espera com a matilha
+  espectral, nomeia um caçador como presa e solta os cães. Os cães só ficam
+  sólidos perto das pedras de proteção, e o Erlking fica fora de alcance
+  enquanto a matilha corre. Na metade da vida ele chama mais cães. Vencê-lo
+  rende **100** Moonmarks.
 
 ## Recompensas
 
-Cada caçada concluída paga **Frostmarks** por conta participante: **40** de
-base, mais **5** por emboscada, **5** sem fuga e **5** achando na primeira
-hora. O Huntwarden troca por **11** prêmios:
+Cada caçada paga **Moonmarks** por conta participante: **50** de base, mais
+**10** por emboscada, **10** sem fuga e **10** achando antes da segunda
+dica (antes: **40** e **5** cada). O Huntwarden troca **11** prêmios, com
+nomes próprios e deeds que mantêm o nome:
 
-| Recompensa | Frostmarks | Limite por conta |
+| Recompensa | Moonmarks | Limite por conta |
 |---|---:|---|
-| Snow Pile | 30 | Sem limite específico |
-| Snow Globe | 35 | Sem limite específico |
-| Brown Bear Rug | 45 | Sem limite específico |
-| Snow Tree | 55 | Sem limite específico |
-| Polar Bear Rug | 75 | Sem limite específico |
-| Snow Statue | 100 | Sem limite específico |
-| Snow Lady Statuette | 135 | Sem limite específico |
-| Horn of the Wild Hunt | 275 | 1 |
-| Frost Pigment | 375 | 1 |
-| Frostmane Statuette | 475 | 1 |
-| Rimewind | 575 | 1 |
+| Snare of the Wild Hunt (armadilha de urso) | 30 | Sem limite específico |
+| Erlking's Antler Throne (cadeira de chifres) | 35 | Sem limite específico |
+| Pelt of the Storm Bear (tapete de urso) | 45 | Sem limite específico |
+| Moonhowl, the Mounted Wolf (lobo empalhado) | 55 | Sem limite específico |
+| Head of the Storm Bear (troféu de urso) | 75 | Sem limite específico |
+| Antlers of the Moonlit Hart (troféu de Great Hart) | 100 | Sem limite específico |
+| Stormhide, the Mounted Grizzly (urso empalhado) | 135 | Sem limite específico |
+| Mantle of the Hunter's Moon (manto +35 Tracking) | 275 | 1 |
+| Moonlight Pigment | 375 | 1 |
+| Moonstrider Statuette (ostard da temporada) | 475 | 1 |
+| Visage of the Hunter's Moon (máscara Invulnerability) | 575 | 1 |
 
-O Rimewind é um arco composite Vanquishing com Frostbite (**10%** por **10**
-segundos, **40–60** de cold contra selvagens de PvM). A encadernação
-**Binding of the First Frost** cai com **5%** por presa.
+Empalhados, armadilha e cadeira viram; troféus mantêm a cor ao recolher; o
+tapete aparece inteiro na janela. O **Mantle of the Hunter's Moon** exige
+**100** base de Tracking para vestir (alcance **+35** tiles, **+6**
+resultados; não soma com a Trailseeker), não é blessed e não aceita tinta. A
+**Visage** substitui o arco Stormcaller (quem comprou continua com ele).
+
+A encadernação **Binding of the First Frost** cai com **5%** por presa. Se
+ninguém avistar a presa na primeira hora, a trompa soa uma segunda e última
+vez com todas as pistas e a toca.
 
 Conquistas da temporada dão títulos acima do nome: **Caçador Selvagem**, por
 **25** caçadas (**the Wild Hunter**, **10.000** de XP), e **Espreitador
@@ -63,5 +94,5 @@ Consulte [Spawns raros](spawns-raros.md) para os eventos raros, [Maestria
 PvM](pvm-mastery.md) para a progressão e [Achievements](achievements.md) para
 as conquistas.
 
-!!! success "Status: 1.3.0"
+!!! success "Status: 2.2.0"
     Evento sazonal de novembro, com loja até 7 de dezembro.

@@ -43,6 +43,10 @@ usuário, fica em Dangerous com Threat 754–825.
   Threat, com teto combinado de 45% para esse grupo. Archer e demais
   combinações preservam o teto combinado de 35%.
 - Pets, summons, vendors e o PvP Trainer não recebem Threat Rating PvM.
+- Montarias raras (ostards, Great Hart, lhamas, montarias de Rare Britannia,
+  Ruby Mustang, Emerald Llama e Emerald Mustang, e o Nightmare do evento) não
+  mostram Threat. As testemunhas demoníacas do Odran e as fadas da Seraphel
+  mostram e pagam por ele.
 
 ## Como consultar no jogo
 

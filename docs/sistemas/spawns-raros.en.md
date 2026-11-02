@@ -144,6 +144,12 @@ They can be tamed with **105.0 Animal Taming** and leave no meat, hides, Gold,
 or ordinary PvM rewards. Slaying a wild specimen with looting rights awards an
 exclusive variant **dye** and a **wall trophy**.
 
+In 2.2.0 six more variants arrived, in colors no dye has: **Verdigris**,
+**Claybloom**, **Irisveil**, **Nightsteel**, **Cinderglass**, and **Jadeshade**.
+Up to **2** roam the world at once, and every color comes out before any
+repeats. Announcements now carry only the announcement's own location hint,
+with no place descriptions in the rumor.
+
 Red world announcements herald their arrival, recall their presence every hour
 while a hart remains alive and wild, and tell when it is tamed or slain —
 with a hint of where it appeared and the name of whoever tamed or slew it.
@@ -151,7 +157,8 @@ Rare Great Harts do **not** appear in Whispers of Britannia; staff can track eac
 variant through `[rareevents`.
 
 Hunting or taming each variant for the first time completes its own
-achievement; see [Achievements](achievements.md).
+achievement; whoever tames all **12** harts earns **the Hartbinder**, whoever
+defeats all **12**, **the Hartbane**. See [Achievements](achievements.md).
 
 ## The Man in the Hedge
 
@@ -211,7 +218,7 @@ Britannia](whispers-britannia.md).
 | Modry | 24–48 hours | Fixed Felucca location; random interval between appearances. |
 | Seraphel | 24–48 hours | Fixed Felucca location; random interval between appearances. |
 | Vhorrak | 24–48 hours | Fire isle beyond Hythloth; random interval between appearances. |
-| Rare Great Harts | 48–72 hours per variant | Six independent cycles; one wild specimen per variant. |
+| Rare Great Harts | 48–72 hours per variant | Twelve independent cycles; up to 2 wild specimens at once, no repeated color. |
 | The Man in the Hedge | 24–48 hours after death | A random interval is selected after the final boss dies. |
 | Nightmare | 72–120 hours | Stone square past the cave; random interval between appearances. |
 | Rare Britannia | Always one available | The world maintains one active wild mount. When the slot is freed, replacement begins as soon as a valid location is available. |

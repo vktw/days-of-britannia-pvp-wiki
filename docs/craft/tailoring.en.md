@@ -1,5 +1,12 @@
 # Tailoring
 
+## Leather Armor Kit in 2.2.0
+
+The **Leather Armor Kit** lives under DoB Armor Kits: with the Royal Armorer's
+Charter and **75** Inscription, **35** Barbed leather become a deed for the
+**6** leather pieces. Every armor kit now shows who made it, and the pieces it
+opens into carry that mark.
+
 ## Reinforced Cloth in 1.1.0
 
 **Reinforced Cloth** is a PvM loot ingredient. In the Tailoring menu, turn the

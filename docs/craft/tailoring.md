@@ -1,5 +1,12 @@
 # Tailoring
 
+## Leather Armor Kit no 2.2.0
+
+O **Leather Armor Kit** fica em DoB Armor Kits: com Royal Armorer's Charter e
+**75** de Inscription, **35** Barbed leather viram um deed com as **6** peças
+de couro. Todo kit de armadura agora mostra quem o fez, e as peças que saem
+dele levam a marca.
+
 ## Reinforced Cloth no 1.1.0
 
 O **Reinforced Cloth** é um insumo do loot de PvM. No menu de Tailoring, ligue

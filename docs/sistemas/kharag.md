@@ -48,6 +48,29 @@ Fletching e Inscription. As estatuetas vão de Iron (1.000) a Brittanium
 (15.000), passando por Bronze, Shadow, Silver, Gold, Bloodrock, Blackrock e
 Mythril.
 
+## Aldric, o Mestre Artesão
+
+No 2.2.0, **Aldric, o Mestre Artesão**, chegou ao lado do Kharag com
+**encomendas diárias**: todo dia a partir das **20:00** ele pede um tipo de
+item (kits, armas Bloodrock e Blackrock, arcos, casa, joias) e aceita quantos
+você entregar, com mira num item ou container. Cada item dá pontos no seu
+saldo do Kharag pelo valor dos materiais, **+50%** se foi você quem fez e
+**+25%** se for exceptional. No dia seguinte os itens vão a leilão um de cada
+vez; o gold sai da economia, e o não vendido é descartado.
+
+Quem entrega nas encomendas ganha títulos: **Apprentice of the Guild** com
+**100** itens, **Journeyman Artisan** com **500**, **Master of Commissions**
+com **2.000** e **Grand Artisan of Britannia** com **5.000**.
+
+## Recompensas para crafters no 2.2.0
+
+O Kharag ganhou recompensas para quem crafta: a **Marca de Artesão**, em
+**6** cores, que deixa seu nome colorido no "crafted by" de tudo que você
+crafta, para sempre (para trocar a cor, compre outra); ferramentas comuns
+blessed de **5.000** cargas e **1** stone; **Giant Beetle** e **Giant Fire
+Beetle** domados em estatueta, só dele; e **três** tintas de uso único (Violeta
+Real, Lavanda do Crepúsculo e Jade).
+
 ## Continue explorando
 
 Consulte [Craft](../craft/index.md), [Maestria PvM](pvm-mastery.md) e

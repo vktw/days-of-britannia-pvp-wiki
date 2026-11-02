@@ -38,6 +38,19 @@ a house you own or co-own. Already placed boxes stay where they are.
 Placing a house in **Magincia** no longer crashes the server, but the attempt
 stays refused: building houses in the town is not allowed.
 
+## Floor items and line of sight in 2.1.0
+
+In 2.1.0, items left on the house floor no longer decay over time, even when
+not locked down. In return, they count toward the house's item limit (the
+storage on its sign), with everything they hold; a full house takes nothing
+more on its floor.
+
+Inside houses, line of sight follows the real height: the walls and doors of
+the floor above, steps, and railings no longer block the view of a chest on
+the floor below; someone standing in an arch or on a threshold sees normally.
+Use locked-down chests from any tile within reach in every house; a real wall
+between you and the chest still blocks.
+
 ## Commodity Deed Box
 
 Bankers sell the **Commodity Deed Box for 20,000 Gold**. To operate Commodity

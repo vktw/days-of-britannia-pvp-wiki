@@ -155,10 +155,19 @@ not return.
 
 After **5 successful PvP thefts**, the character turns gray and can be attacked
 by any player without being considered criminal. Guards do not interfere, and
-banks, vendors, and moongates keep working. The count decreases by **1 every 40
-active hours**; murderer status takes precedence. Say `*i must consider my sins*`
+banks, vendors, and moongates keep working. The count decreases by **1 every 6
+hours of play**; murderer status takes precedence. Say `*i must consider my sins*`
 to check the count. The [DoB Cloth Thieving Cape](../craft/tailoring.md) can hide
 the gray status from viewers who have not revealed the wearer.
+
+## After PvP
+
+In 1.3.0, **Spirit Speak** does not heal in PvP: for **2 minutes** after a fight
+against players, or in an arena fight, the spirits are silent. Fighting players
+also no longer costs PvM rewards: whoever has just fought over a spot gets XP,
+dyes, deeds, Frostmarks, and drops as usual. Masteries, however, never apply in
+PvP: for **2 minutes** after a fight against players they do not apply, not
+even against creatures.
 
 !!! success "Status: 0.45.0"
     This page summarizes the active ruleset on the official server. Gameplay

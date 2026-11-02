@@ -81,6 +81,10 @@ devolução segue as regras do corpo e da montaria descritas acima.
 - Lutas entre o mesmo IP não pontuam.
 - A temporada dura 15 dias.
 - System Loot e Personal Loot usam rankings separados.
+- No 2.2.0, o `.rankings` ganhou a aba **PVP**: soma os pontos dos duelos para
+  sempre, System Loot e Personal Loot juntos (**3** por vitória, **1** por
+  empate), com vitórias, empates e derrotas, e não zera com a temporada. A
+  temporada e os troféus continuam iguais, e os pontos atuais já contam.
 - O ranking do PvP Trainer considera o menor tempo de vitória e permanece em sua
   própria tabela.
 - Ao final da season, campeões únicos do PvP Trainer, System Loot e Personal

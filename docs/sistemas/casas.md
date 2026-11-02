@@ -39,6 +39,18 @@ estão.
 Posicionar uma casa em **Magincia** não derruba mais o servidor, mas a
 tentativa continua recusada: construir casas na cidade não é permitido.
 
+## Itens no chão e linha de visão no 2.1.0
+
+No 2.1.0, itens largados no chão da casa não somem mais com o tempo, mesmo sem
+lock down. Em troca, eles contam no limite de itens da casa (o storage da
+placa), com o que tiverem dentro; casa cheia não aceita mais nada no chão.
+
+Dentro de casa, a linha de visão respeita a altura real: paredes e portas do
+andar de cima, degraus e grades não bloqueiam a visão de um baú no andar de
+baixo; quem está num arco ou batente enxerga normal. Mexa nos baús trancados
+de qualquer ponto ao alcance, em todas as casas; parede de verdade continua
+bloqueando.
+
 ## Commodity Deed Box
 
 Bankers vendem a **Commodity Deed Box por 20.000 Gold**. Para operar Commodity

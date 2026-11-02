@@ -46,6 +46,30 @@ Draughts cover Blacksmithy, Tailoring, Carpentry, Tinkering, Fletching, and
 Inscription. Statuettes run from Iron (1,000) to Brittanium (15,000), through
 Bronze, Shadow, Silver, Gold, Bloodrock, Blackrock, and Mythril.
 
+## Aldric, the Master Artisan
+
+In 2.2.0, **Aldric, the Master Artisan**, arrived beside Kharag with daily
+craft orders: every day from **20:00** he asks for one kind of item (kits,
+Bloodrock and Blackrock weapons, bows, house items, jewels) and takes as many
+as you deliver, by targeting an item or a container. Each item adds points to
+your Kharag balance for its materials' value, **+50%** if you made it and
+**+25%** if it is exceptional. The next day the items go to auction one at a
+time; the sale gold leaves the economy, and one that does not sell is
+discarded.
+
+Delivering to the orders earns titles: **Apprentice of the Guild** at **100**
+items, **Journeyman Artisan** at **500**, **Master of Commissions** at
+**2,000**, and **Grand Artisan of Britannia** at **5,000**.
+
+## Crafter rewards in 2.2.0
+
+Kharag now has rewards for crafters: the **Artisan's Mark**, in **6** colors,
+which colors your name in the "crafted by" line of everything you craft, for
+good (to change the color, buy another); common blessed tools with **5,000**
+charges and a weight of **1** stone; the **Giant Beetle** and **Giant Fire
+Beetle**, found nowhere else, tamed in a statuette; and three single-use dyes
+(Royal Violet, Twilight Lavender, and Jade).
+
 ## Keep exploring
 
 See [Craft](../craft/index.md), [PvM Mastery](pvm-mastery.md), and

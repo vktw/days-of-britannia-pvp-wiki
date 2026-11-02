@@ -144,6 +144,12 @@ Eles podem ser domados com **105.0 de Animal Taming** e não deixam carne, couro
 Gold ou recompensas normais de PvM. Abater um exemplar selvagem com direito ao
 loot garante uma **tinta exclusiva** da variante e um **troféu de parede**.
 
+No 2.2.0 chegaram mais seis variantes, em cores que não existem em nenhuma
+tinta: **Verdigris**, **Claybloom**, **Irisveil**, **Nightsteel**,
+**Cinderglass** e **Jadeshade**. Até **2** andam pelo mundo ao mesmo tempo, e
+cada cor sai antes de alguma se repetir. Os anúncios agora trazem só a
+indicação de local do próprio anúncio, sem descrever lugares no rumor.
+
 Avisos globais em vermelho anunciam a chegada, lembram a presença a cada hora
 enquanto o hart segue vivo e selvagem e avisam quando ele é domado ou abatido —
 com pista de onde surgiu e o nome de quem domou ou matou.
@@ -151,7 +157,8 @@ Great Harts raros **não** aparecem nos Whispers of Britannia; a equipe pode
 acompanhar cada variante por `[rareevents`.
 
 Caçar ou domar cada variante pela primeira vez conclui um achievement próprio;
-consulte [Achievements](achievements.md).
+quem domar os **12** harts ganha o título **the Hartbinder**, quem derrotar
+os **12**, **the Hartbane**. Consulte [Achievements](achievements.md).
 
 ## The Man in the Hedge
 
@@ -212,7 +219,7 @@ Britannia](whispers-britannia.md).
 | Modry | 24–48 horas | Ponto fixo em Felucca; intervalo aleatório entre aparições. |
 | Seraphel | 24–48 horas | Ponto fixo em Felucca; intervalo aleatório entre aparições. |
 | Vhorrak | 24–48 horas | Ilha de fogo além de Hythloth; intervalo aleatório entre aparições. |
-| Great Harts raros | 48–72 horas por variante | Seis ciclos independentes; um exemplar selvagem por variante. |
+| Great Harts raros | 48–72 horas por variante | Doze ciclos independentes; até 2 exemplares selvagens por vez, sem repetir cor. |
 | The Man in the Hedge | 24–48 horas após a morte | Um intervalo aleatório é escolhido depois da morte do boss final. |
 | Pesadelo | 72–120 horas | Praça de pedra além da caverna; intervalo aleatório entre aparições. |
 | Rare Britannia | Sempre uma disponível | O mundo mantém uma montaria selvagem ativa. Ao liberar a vaga, a reposição começa assim que houver um local válido. |

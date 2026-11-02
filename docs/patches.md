@@ -2,6 +2,68 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 2.2.0 · Leilão e encomendas
+
+Publicado em 1 de novembro de 2026.
+
+- Seis novos **Great Harts raros**, em cores que não existem em nenhuma tinta: Verdigris, Claybloom, Irisveil, Nightsteel, Cinderglass e Jadeshade. Até **2** andam pelo mundo ao mesmo tempo, e cada cor sai antes de alguma se repetir. Cada um tem conquistas de caçador e domador; quem domar os **12** harts ganha o título **the Hartbinder**, quem derrotar os **12**, **the Hartbane**.
+- Os anúncios dos Great Harts não descrevem mais lugares no rumor; a única pista de onde o hart está é a indicação de local do próprio anúncio.
+- O **.rankings** ganha a aba **PVP**: soma os pontos dos duelos da arena para sempre, System Loot e Personal Loot juntos (**3** por vitória, **1** por empate), com vitórias, empates e derrotas, e não zera com a temporada. A temporada e os troféus continuam iguais, e os pontos atuais já contam.
+- Novo **Leather Armor Kit** na Tailoring, em DoB Armor Kits: com Royal Armorer's Charter e **75** de Inscription, **35** Barbed leather viram um deed com as **6** peças de couro. Todo kit de armadura agora mostra quem o fez, e as peças que saem dele levam a marca.
+- Novo **leilão global** com o comando **.auction**: qualquer item negociável da mochila por **24**, **48** ou **72** horas, com lance inicial e incremento (até **10** leilões por conta). O lance sai do gold do banco e volta se superado; lance nos últimos **5 minutos** estende **5 minutos**. Ninguém vê quem vende nem dá lance. Após o primeiro lance não cancela; a venda paga o preço menos **10%** de comissão, e o item não vendido volta ao banco.
+- Os leilões têm canal próprio no Discord: cada leilão é anunciado ao abrir, com novo aviso no máximo uma vez por hora com lances novos, e ao terminar. Sem nomes de quem vende ou dá lance.
+- **Aldric, o Mestre Artesão**, ao lado do Kharag: todo dia a partir das **20:00** pede um tipo de item (kits, armas Bloodrock e Blackrock, arcos, casa, joias) e aceita quantos você entregar, com mira num item ou container. Cada item dá pontos no saldo do Kharag pelo valor dos materiais, **+50%** se foi você quem fez e **+25%** se for exceptional. No dia seguinte os itens vão a leilão um de cada vez; o gold sai da economia, e o não vendido é descartado.
+- O Kharag ganhou recompensas para quem crafta: a **Marca de Artesão**, em **6** cores (nome colorido no "crafted by" para sempre; outra cor, outra compra); ferramentas comuns blessed de **5.000** cargas e **1** stone; **Giant Beetle** e **Giant Fire Beetle** domados em estatueta, só dele; e **três** tintas de uso único (Violeta Real, Lavanda do Crepúsculo e Jade).
+- Quem entrega nas encomendas ganha títulos: **Apprentice of the Guild** com **100** itens, **Journeyman Artisan** com **500**, **Master of Commissions** com **2.000** e **Grand Artisan of Britannia** com **5.000**, cada um com achievement.
+- Nova recompensa do Huntwarden: o **Mantle of the Hunter's Moon**, por **275** Moonmarks, **uma** por conta. Manto na cor da temporada que, vestido por quem tem **100** base de Tracking, aumenta o alcance em **35** tiles e mostra **6** resultados a mais (a Trailseeker dá **25** e **4**; não somam). Não é blessed e não aceita tinta.
+
+Consulte [Spawns raros](sistemas/spawns-raros.md), [Comandos](comandos.md), [Player Vendors](sistemas/player-vendors.md), [Craft](craft/index.md), [Kharag](sistemas/kharag.md), [Achievements](sistemas/achievements.md) e [Season of the Wild Hunt](sistemas/wild-hunt.md).
+
+## 2.1.0 · A Caçada Selvagem
+
+Publicado em 31 de outubro de 2026.
+
+- A Caçada Selvagem ganha novas presas a partir de **11 de novembro**: além da Corça Branca, o **urso coberto de geada** (tolera mais barulho, foge uma vez e pouco, Investida e Rugido anunciados) e o **unicórnio pálido** (foge em saltos com brilho no chão antes de cada um, Chuva de Estrelas).
+- A Corça Branca agora tem menos vida, e a caçada termina mais rápido.
+- A partir de **11 de novembro**, os rastros ganham **uma ou duas trilhas falsas**: saem de um sinal antigo e o frescor cai até um sinal frio sem continuação. Ler a sequência evita perder tempo.
+- De **21 a 30 de novembro**, a caçada das **22:00** é a do **Erlking**: ele espera com a matilha espectral, nomeia um caçador como presa e solta os cães. Os cães só ficam sólidos perto das pedras de proteção, e o Erlking fica fora de alcance enquanto a matilha corre. Na metade da vida ele chama mais cães. Vencê-lo rende **80** Frostmarks.
+- Corações do Odran e do Hedge agora empilham como os dos outros bosses, inclusive os que você já tem.
+- Thorne, o Espreitador do Bloodmire, agora fica do outro lado do corredor nas entradas de Wrong e Hythloth, sem sumir atrás da parede.
+- **Spirit Speak** não cura mais em PvP: até **2 minutos** depois de luta contra jogadores, ou em luta de arena, os espíritos se calam.
+- Lutar contra jogadores não tira mais as recompensas de PvM: quem brigou por um spot ganha XP, tinta e deed do Hart, Frostmarks e drops normalmente. As Maestrias continuam sem valer em PvP: por **2 minutos** após luta contra jogadores elas não se aplicam, nem contra criaturas.
+- As recompensas da Caçada Selvagem agora são branco-neve, cor que não existe em outro item: Frostmark, trompa, Frost Pigment (e o que ele tinge), estatueta, Frostmane, Rimewind e encadernação. As que você já tem mudam sozinhas, e Frostmarks antigas empilham com as novas.
+- Presságios e avisos da Caçada agora saem no seu idioma (português ou inglês). Antes saíam só em inglês.
+- Se ninguém avistar a presa na primeira hora, a trompa soa uma segunda e última vez com todas as pistas e a toca — como nos anúncios dos Great Harts. Antes as pistas chegavam uma por hora.
+- A Caçada trocou o gelo pela tempestade e pelo luar espectral: a moeda agora é a **Moonmark** (a mesma, novo nome), a presa da primeira fase é a **Corça do Luar**, o urso é o **marcado pela tempestade**, e as recompensas são **Moonlight Pigment**, **Moonmane** e o arco **Stormcaller**, cujo especial agora é um raio. O Huntwarden trocou decorações de neve por troféus: estatuetas do cão e da corça, troféus de lobo, Great Hart e urso, e **2** tapetes de urso. O que você já tem muda de nome sozinho.
+- Os sinais da trilha agora têm a cor da presa e crescem com o rastro: **um** pedaço no frio, **dois** no velho e **três** no fresco. Só gráficos grandes (galhos, pelos e sangue), nunca sob telhados nem colados em paredes.
+- Cada caçada paga mais Moonmarks: **50** (eram **40**), mais **10** por emboscada, **10** sem fuga e **10** avistando antes da segunda dica (**5** cada antes). O Erlking paga **100** (eram **80**). Preços do Huntwarden iguais.
+- A Corça do Luar agora tem **2.000** de vida (eram **3.000**).
+- Itens no chão de casa não somem mais com o tempo, mesmo sem lock down. Em troca, contam no limite de itens da casa (o storage da placa), com o que tiverem dentro; casa cheia não aceita mais nada no chão.
+- **Tracking** funciona normal na Caçada: a presa aparece na lista como qualquer criatura no alcance. Usar Tracking perto de um sinal continua lendo com detalhe.
+- Dentro de casa, a linha de visão respeita a altura real: paredes e portas do andar de cima, degraus e grades não bloqueiam a visão de um baú no andar de baixo; quem está num arco ou batente enxerga normal. Mexa nos baús trancados de qualquer ponto ao alcance, em todas as casas; parede de verdade continua bloqueando.
+- A Corça do Luar agora tem a cor da temporada, como o sangue e os efeitos. A trilha dela é só de poças do próprio sangue, na mesma cor: as primeiras pistas são **2** poças, crescendo (**três**, depois **quatro**).
+- A recompensa máxima do Huntwarden (**575** Moonmarks, **uma** por conta) agora é a **Visage of the Hunter's Moon**: máscara de cervo na cor da temporada, no modelo das máscaras das dungeons, no nível máximo (Invulnerability). Substitui o Stormcaller; quem comprou o arco continua com ele.
+- A loja do Huntwarden foi refeita: armadilha de urso (**30**), cadeira de chifres (**35**), tapete de pele de urso (**45**), lobo empalhado (**55**), troféu de parede de urso (**75**), troféu de parede do Great Hart (**100**), urso empalhado (**135**), Moonlight Pigment (**375**), estatueta do **Moonstrider** (**475**) e Visage of the Hunter's Moon (**575**). Empalhados, armadilha e cadeira viram; troféus mantêm a cor ao recolher. Saem Horn, Moonmane, tapete pardo e estatuetas; quem tem continua. O tapete aparece inteiro na janela.
+- As recompensas ganharam nomes próprios, e os deeds também: Snare of the Wild Hunt, Erlking's Antler Throne, Pelt of the Storm Bear, Moonhowl, the Mounted Wolf, Head of the Storm Bear, Antlers of the Moonlit Hart e Stormhide, the Mounted Grizzly. Troféus e tapete mantêm o nome ao colocar e recolher.
+
+Consulte [Season of the Wild Hunt](sistemas/wild-hunt.md), [Spawns raros](sistemas/spawns-raros.md), [Threat Rating](mundo/threat-rating.md), [Player Vendors](sistemas/player-vendors.md) e [Casas](sistemas/casas.md).
+
+## 2.0.0 · Os Arcanos
+
+Publicado em 30 de outubro de 2026.
+
+- Os Arcanos: habilidades ativas de PvM em **seis** escolas (**Fogo**, **Gelo**, **Vida**, **Sombra**, **Sangue** e **Vazio**), cada uma com **três** habilidades e uma suprema, num livro novo, o **Magnum Opus**. Precisa do cliente DoB atualizado.
+- Para começar, fale com **Maelis Greyveil** no Safe Haven de Nujelm (precisa do **Slayer's Codex**): escolha a primeira escola, receba o Magnum Opus com a primeira habilidade e prove em **10** abates PvM usando essa escola. Recompensa: **5.000** de XP da escola e a conquista **Iniciado** (the Initiate). Depois, cada escola nova por **100.000** de gold.
+- As outras habilidades vêm de **Arcana Scrolls**, que caem em PvM das criaturas do grupo fraco à escola (**Undead** e **Arachnid** para Fogo, **Reptilian** para Gelo, **Abyss** para Vida, **Humanoid** para Sombra, **Fey** para Sangue e **Elemental** para Vazio). As supremas são as mais raras. Negociáveis; só ensinam em escola aberta.
+- **Vis**: carga até **100** que sobe quando você causa ou recebe dano de criaturas e quando cura aliados em PvM, mostrada como quarta linha da barra de vida. Cada habilidade gasta Vis e tem recarga; sem Vis suficiente ela falha e gasta o que você tinha.
+- **Barra**: **4** habilidades de qualquer escola e **1** suprema, que exige **três** habilidades da mesma escola na barra. Arraste os ícones do livro para as hotkeys do cliente. A barra só muda depois de **30 segundos** fora de combate.
+- **Progressão**: cada abate PvM dá o XP de Maestria às escolas usadas na luta. Com o XP, compre níveis com ouro e aplique cada um numa habilidade, sem nível máximo. Nos níveis **25** e **50** a habilidade ganha área, duração ou efeito maior e uma animação nova.
+- Cada Slayer Group é fraco a uma escola (**+25%** de dano das habilidades) e resiste a outra (**-25%**), mostrado no tooltip da criatura ao lado do Slayer Group. O scroll de uma habilidade que você já conhece dá a **Essência** da escola: **+10%** nas habilidades dela por **60 minutos** de jogo.
+- Os Arcanos são só para PvM: não afetam jogadores, o PvP Trainer, arenas nem o Free-for-All, não funcionam no Safe Haven e não podem ser usados até **2 minutos** depois de combate contra jogador.
+- No Options do cliente, a nova seção **Arcana** escolhe como os efeitos aparecem: **Full** mostra tudo, animado; **Static**, só as marcas no chão, paradas; **Tiles**, só os tiles atingidos, na cor da escola.
+
+Consulte [Arcanos](sistemas/arcana.md), [Maestria PvM](sistemas/pvm-mastery.md), [Slayer's Codex](sistemas/slayers-codex.md) e [Comandos](comandos.md).
+
 ## 1.3.0 · A Caçada Selvagem
 
 Publicado em 27 de outubro de 2026.

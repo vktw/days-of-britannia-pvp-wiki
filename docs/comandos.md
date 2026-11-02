@@ -61,11 +61,15 @@ Mostra todos os seus seguidores (pets, invocações e mercenários), onde cada u
 
 ## `.rankings`
 
-Abre um menu com as abas de Top 10 de **murder count**, **Gold** e XP vitalícia
-de **Maestria PvM**. Personagens conectados, inclusive staff, podem consultar
+Abre um menu com as abas de Top 10 de **murder count**, **Gold**, XP vitalícia
+de **Maestria PvM** e, desde o 2.2.0, **PVP** (soma dos duelos da arena para sempre). Personagens conectados, inclusive staff, podem consultar
 o menu, mas contas de staff e contas excluídas não aparecem nos resultados.
 Quando elegível, sua própria posição também é destacada. Os registros são
 atualizados depois de um world save bem-sucedido.
+
+## `.auction`
+
+Abre o **leilão global**: liste qualquer item negociável da mochila por **24**, **48** ou **72** horas, com lance inicial e incremento (até **10** leilões por conta). Veja [Leilão](sistemas/leilao.md) para comissões, prorrogação e anonimato.
 
 !!! success "Status: 0.42.0"
     Os comandos abaixo estão disponíveis aos jogadores no servidor oficial.

@@ -100,6 +100,13 @@ See [Rare spawns](spawns-raros.md) for cycles and taming requirements.
 - **Silent Stalker**: an ambush-started, flight-free hunt (**the Silent
   Stalker**, **5,000** XP).
 - **Dreambreaker**: tame the Nightmare (**the Dreambreaker**).
+- **Initiate**: complete the Arcana trial (**the Initiate**, plus **5,000**
+  school XP).
+- **Hartbinder**: tame all **12** Great Harts (**the Hartbinder**).
+- **Hartbane**: defeat all **12** Great Harts (**the Hartbane**).
+- Aldric's craft orders: **Apprentice of the Guild** at **100** items,
+  **Journeyman Artisan** at **500**, **Master of Commissions** at **2,000**,
+  and **Grand Artisan of Britannia** at **5,000**.
 
 ## Limits
 

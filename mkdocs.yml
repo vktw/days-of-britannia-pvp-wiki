@@ -17,7 +17,7 @@ theme:
   palette:
     scheme: dob
 extra:
-  dob_version: "1.3.0"
+  dob_version: "2.2.0"
 extra_css:
   - stylesheets/extra.css?v=20261015.1
 extra_javascript:
@@ -77,6 +77,8 @@ plugins:
             Achievements: Achievements
             Maestria PvM: PvM Mastery
             Caça PvM: PvM hunting
+            Arcanos: Arcana
+            Leilão: Auction
             Mapas do Tesouro: Treasure Maps
             Pets e montarias: Pets and mounts
             Progressão e PvM: Progression and PvM
@@ -135,6 +137,7 @@ nav:
           - Daily Dungeon: sistemas/daily-dungeon.md
           - Mapas do Tesouro: sistemas/mapas-tesouro.md
           - Slayer's Codex: sistemas/slayers-codex.md
+          - Arcanos: sistemas/arcana.md
           - Recompensas PvM: itens/recompensas-pvm.md
           - Tomes of Expertise: sistemas/tomes-expertise.md
       - Mundo e eventos:
@@ -152,6 +155,7 @@ nav:
           - Casas: sistemas/casas.md
           - Kharag, o Coração da Terra: sistemas/kharag.md
           - Donation Chest: sistemas/donation-chest.md
+          - Leilão: sistemas/leilao.md
           - Player Vendors: sistemas/player-vendors.md
           - Royal Banking Charter: sistemas/royal-banking-charter.md
       - Arena e treino:

@@ -21,8 +21,8 @@ hide:
 
 <section class="dob-landing-strip" aria-label="Status do servidor">
   <span class="dob-landing-stat"><strong><i aria-hidden="true"></i>Servidor online</strong><small>Britannia está ativa</small></span>
-  <span class="dob-landing-stat"><strong>1.3.0</strong><small>Versão atual</small></span>
-  <a class="dob-landing-stat" href="patches/"><strong>A Caçada Selvagem</strong><small>Última atualização</small></a>
+  <span class="dob-landing-stat"><strong>2.2.0</strong><small>Versão atual</small></span>
+  <a class="dob-landing-stat" href="patches/"><strong>Leilão e encomendas</strong><small>Última atualização</small></a>
 </section>
 
 <nav class="dob-landing-shortcuts" aria-label="Atalhos do manual">
@@ -81,18 +81,18 @@ hide:
   <h2 id="dob-landing-news" class="dob-landing-section__title">O shard não para</h2>
   <div class="dob-landing-news">
     <article class="dob-landing-patch">
-      <span class="dob-landing-patch__tag">Última atualização · 1.3.0</span>
-      <h3>A Caçada Selvagem</h3>
-      <p class="dob-landing-patch__date"><time datetime="2026-10-27">27 de outubro de 2026</time></p>
-      <p>Novembro traz caçadas com leitura de pistas, estratégia e execução — além do Pesadelo, do Donation Chest e do comando .pets.</p>
+      <span class="dob-landing-patch__tag">Última atualização · 2.2.0</span>
+      <h3>Leilão e encomendas</h3>
+      <p class="dob-landing-patch__date"><time datetime="2026-11-01">1 de novembro de 2026</time></p>
+      <p>O leilão global chega com o .auction, Aldric paga quem crafta — e seis novos Harts, ranking PvP para sempre e o Mantle na Caçada.</p>
       <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="patches/">Ler patch notes</a>
     </article>
     <div class="dob-landing-articles">
       <h3>Últimos artigos atualizados</h3>
-      <a href="sistemas/wild-hunt/"><time datetime="2026-10-27">27 out</time><span><strong>Season of the Wild Hunt</strong><small>Charadas, rastros e Frostmarks em novembro</small></span></a>
-      <a href="patches/"><time datetime="2026-10-27">27 out</time><span><strong>Patch notes</strong><small>1.3.0 · A Caçada Selvagem</small></span></a>
-      <a href="sistemas/spawns-raros/"><time datetime="2026-10-27">27 out</time><span><strong>Spawns raros</strong><small>O Pesadelo e suas três ondas</small></span></a>
-      <a href="sistemas/mapas-tesouro/"><time datetime="2026-10-27">27 out</time><span><strong>Mapas do Tesouro</strong><small>Trove Force+, Driftseeker e guardiões</small></span></a>
+      <a href="sistemas/arcana/"><time datetime="2026-11-01">1 nov</time><span><strong>Arcanos</strong><small>Seis escolas, Vis e barra de habilidades</small></span></a>
+      <a href="patches/"><time datetime="2026-11-01">1 nov</time><span><strong>Patch notes</strong><small>2.2.0, 2.1.0 e 2.0.0</small></span></a>
+      <a href="sistemas/leilao/"><time datetime="2026-11-01">1 nov</time><span><strong>Leilão</strong><small>.auction global com canal no Discord</small></span></a>
+      <a href="sistemas/spawns-raros/"><time datetime="2026-11-01">1 nov</time><span><strong>Spawns raros</strong><small>Seis novos Harts e o Pesadelo</small></span></a>
     </div>
   </div>
 </section>
