@@ -2,6 +2,35 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 2.3.0 · Skills, ofícios e montarias
+
+Publicado em 3 de novembro de 2026.
+
+- A Royal Banking Charter II chega ao menu do Banker: por **150.000** Gold da conta, ela eleva permanentemente o banco do personagem de **250** para **500** itens. Só pode ser comprada por quem já tem a Royal Banking Charter I.
+- Novo Alchemy Lab para a casa, vendido pelo Alchemist por **250.000** Gold: funciona como o Alchemy Lab público de Britain e Serpent's Hold, com os DoB Kegs e o bônus de **+7,5%** de sucesso, mas sem taxa por craft. O dono, os co-donos e os amigos da casa usam de dentro dela; visitantes não. Um por casa; só o dono pode transformá-lo em deed, e se a casa cair o deed vai para o banco do dono.
+- O Mage passa a vender o Runic Atlas por **250.000** Gold: um livro de runas para **48** runas e até **100** cargas, recarregado com scrolls de Recall como o Runebook.
+- Pets cuja estatueta de shrink se perdeu (por exemplo, apodrecendo no chão da casa) não somem mais de vez: a staff agora consegue vê-los e devolver cada um numa estatueta nova no banco do dono.
+- As estatuetas de shrink não apodrecem mais: largadas no chão, dentro ou fora de casa, elas ficam até alguém pegar, como um pet no estábulo. As que já estão no chão também deixam de apodrecer.
+- As criaturas da Season of the Witch agora têm Slayer Group: as bruxas e o Grave Herald são Humanoid, os mortos-vivos, o Leashed Shade, a Grave Mother e o Ossuary Warden são Undead. Slayers, o Slayer's Codex, os Hunter Contracts e os Scrolls of Knowledge passam a valer contra elas.
+- Na janela do leilão, a imagem, o nome, o lance, o tempo e o botão de cada lote agora ficam alinhados na mesma linha.
+- Agora dá para leiloar itens do banco: com o banco aberto, use .auction e escolha o item direto dele, inclusive de dentro de uma bolsa.
+- O Kharag agora troca Giant Beetles nas cores dos minérios DoB, de Bronze a Brittanium: **35.000** pontos o de Bronze e **10.000** a mais a cada minério, até **105.000** o de Brittanium. A estatueta solta da mochila um besouro já domado, na cor do minério, que também é montado nela.
+- O Kharag agora também vende a Machadinha, a Vara de Pescar, a Pena de Cartógrafo e a Frigideira blessed, com **5.000** cargas e **1** stone de peso, pelo mesmo preço das outras ferramentas.
+- Os Arcanos ficaram mais fortes: a Vis agora vai até **180** (era **100**), o que permite combar uma suprema com outra habilidade, ou duas habilidades comuns como Carcer Glaciei e Fractura. Ela segura **60** segundos depois da luta antes de começar a cair (eram **30**). E lançar sem Vis suficiente não gasta mais nada: os Arcanos só descansam **3** segundos. Custos e recargas não mudaram. Com o cliente DoB atualizado, a barra de Vis mostra até **180**.
+- A Magnum Opus agora aceita encadernação: clique duas vezes numa encadernação de boss e escolha a sua Magnum Opus. Ela ganha o visual e a cor da encadernação, e as opções Turn e Restore funcionam como no Hunter's Compendium e no Slayer's Codex.
+- Na Caçada Selvagem, os Moonmarks agora chegam a quem caçou a até **24** tiles da presa quando ela cai (eram **18**).
+- A Caçada Selvagem agora também acontece de madrugada: uma caçada a cada **4** horas, às **02:00**, **06:00**, **10:00**, **14:00**, **18:00** e **22:00** (horário de Brasília).
+- Na última fase da Caçada Selvagem, o Erlking aparece uma vez por dia em uma caçada sorteada.
+- O urso, o unicórnio e o Erlking da Caçada Selvagem agora usam a cor da temporada, como a Moonlit Hind, e deixam o mesmo rastro de poças de sangue, que cresce conforme a pista fica fresca. Os cães do Erlking também usam a cor da temporada e continuam mudando de cor quando ficam sólidos perto de uma pedra de proteção.
+- Todo personagem, novo ou antigo, agora tem Anatomy, Evaluating Intelligence, Parrying, Fencing e Macing em **100**: as bandagens curam o que devem, as magias batem forte, o escudo defende e a kryss e as maças acertam desde o primeiro dia. Ninguém perde nada.
+- O bônus de ouro do Young dobrou: agora é metade do ouro de cada criatura (era um quarto). O bônus de XP continua dobrando a XP.
+- Menos golpes no vazio contra monstros: com a skill da arma em **100**, o acerto subiu de **80%** para **90%**. As invocações de oitavo círculo da Magery (os elementais, o Energy Vortex e o Summon Daemon) também passam a dar certo **90%** das vezes com Magery **100** (eram **80%**).
+- Novas missões de ofício com Edric, o Instrutor de Ofícios, ao lado do banco de Britain: Mineração, Ferraria, Lenhador, Carpintaria, Alfaiataria, Pesca, Culinária, Alquimia, Inscrição e Doma. Ao aceitar, a skill sobe para **30** e você ganha a ferramenta do ofício; ao cumprir a tarefa, a skill sobe para **60** e você ganha uma ferramenta Enduring do ofício, um Tome of Expertise e **500** de XP de PvM Mastery. Quem conclui todos os ofícios ganha mais **1.000** de ouro, **1.000** de XP e o título the Jack of All Trades. Uma missão por vez, cada ofício uma vez por personagem.
+- Ao abrir um mapa do tesouro que você consegue ler, a mensagem agora diz também a posição exata do tesouro (x, y). Só quem pode ler o mapa vê.
+- Rideable Darkmane: dois em cada cem Darkmanes do Bloodmire nascem domáveis. Exige Animal Taming **100**, ocupa um slot e vira uma montaria que guarda a cor do nível em que nasceu. Quando um nasce, o jogo e o Discord avisam.
+
+Consulte [Royal Banking Charter](sistemas/royal-banking-charter.md), [Craft](craft/index.md), [Kharag](sistemas/kharag.md), [Pets e montarias](sistemas/pets-montarias.md), [Maestria PvM](sistemas/pvm-mastery.md), [Season of the Wild Hunt](sistemas/wild-hunt.md), [Comandos](comandos.md), [Personagem](personagem.md), [Threat Rating](mundo/threat-rating.md), [Mapas do Tesouro](sistemas/mapas-tesouro.md), [Spawns raros](sistemas/spawns-raros.md) e [Daily Dungeon](sistemas/daily-dungeon.md).
+
 ## 2.2.0 · Leilão e encomendas
 
 Publicado em 1 de novembro de 2026.

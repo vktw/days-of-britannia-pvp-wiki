@@ -2,6 +2,35 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 2.3.0 · Skills, trades and mounts
+
+Published on November 3, 2026.
+
+- Royal Banking Charter II arrives in the Banker menu: for **150,000** account Gold it permanently raises that character's bank from **250** to **500** items. Only a character that already holds Royal Banking Charter I can buy it.
+- New Alchemy Lab for the house, sold by the Alchemist for **250,000** Gold: it works like the public Alchemy Lab in Britain and Serpent's Hold, with the DoB Kegs and the **+7.5%** success bonus, but with no craft fee. The house's owner, co-owners and friends use it from inside the house; visitors cannot. One per house; only the owner can redeed it, and if the house falls the deed goes to the owner's bank.
+- The Mage now sells the Runic Atlas for **250,000** Gold: a rune book for **48** runes and up to **100** charges, recharged with Recall scrolls like a Runebook.
+- Pets whose shrink statuette was lost (for example, decaying on a house floor) are no longer gone for good: staff can now see them and give each back in a new statuette in its owner's bank.
+- Shrink statuettes no longer decay: left on the ground, inside a house or outside, they stay until someone picks them up, like a pet in the stable. Those already on the ground stop decaying too.
+- The Season of the Witch creatures now have a Slayer Group: the witches and the Grave Herald are Humanoid, the undead, the Leashed Shade, the Grave Mother and the Ossuary Warden are Undead. Slayers, the Slayer's Codex, Hunter Contracts and Scrolls of Knowledge now work against them.
+- In the auction window, each lot's picture, name, bid, time left and button now line up on the same row.
+- You can now auction items from your bank: with the bank open, use .auction and pick the item straight from it, even from inside a bag.
+- Kharag now trades Giant Beetles in the colors of the DoB ores, from Bronze to Brittanium: **35,000** points for Bronze and **10,000** more for each ore, up to **105,000** for Brittanium. The statuette releases from the backpack a tamed beetle in the ore's color, which keeps it when ridden.
+- Kharag now also sells the Hatchet, the Fishing Pole, the Mapmaker's Pen and the Skillet, blessed, with **5,000** charges and a weight of **1** stone, at the same price as the other tools.
+- The Arcana grew stronger: Vis now goes up to **180** (it was **100**), enough to chain an ultimate and another ability, or two common abilities such as Carcer Glaciei and Fractura. It holds **60** seconds after a fight before it starts to fall (it was **30**). And casting without enough Vis no longer costs anything: the Arcana just rest **3** seconds. Costs and cooldowns are unchanged. With the updated DoB client, the Vis bar shows up to **180**.
+- The Magnum Opus now takes a binding: double-click a boss binding and choose your Magnum Opus. It takes the binding's look and colour, and Turn and Restore work as on the Hunter's Compendium and the Slayer's Codex.
+- In the Wild Hunt, Moonmarks now reach hunters up to **24** tiles from the quarry when it falls (it was **18**).
+- The Wild Hunt now rides at dawn too: a hunt every **4** hours, at **02:00**, **06:00**, **10:00**, **14:00**, **18:00** and **22:00** (Brasília time).
+- In the Wild Hunt's last phase, the Erlking appears once a day at a drawn hunt.
+- The grizzly, the unicorn and the Erlking of the Wild Hunt now wear the season's colour, like the Moonlit Hind, and leave the same trail of blood pools, growing as the trail gets fresher. The Erlking's hounds wear the season's colour too and still change colour when they turn solid beside a ward stone.
+- Every character, new or old, now has Anatomy, Evaluating Intelligence, Parrying, Fencing and Macing at **100**: bandages heal what they should, spells hit hard, the shield defends and the kryss and maces land from day one. Nobody loses anything.
+- The Young gold bonus doubled: it is now half the gold of each creature (it was a quarter). The XP bonus still doubles the XP.
+- Fewer swings at thin air against monsters: at **100** weapon skill, the hit chance rose from **80%** to **90%**. Magery's eighth-circle summons (the elementals, Energy Vortex and Summon Daemon) now also succeed **90%** of the time at **100** Magery (it was **80%**).
+- New trade quests with Edric, the Trade Instructor, beside the Britain bank: Mining, Blacksmithing, Lumberjacking, Carpentry, Tailoring, Fishing, Cooking, Alchemy, Inscription and Animal Taming. Accepting raises the skill to **30** and gives the trade's tool; doing the task raises it to **60** and gives an Enduring tool of the trade, a Tome of Expertise and **500** PvM Mastery XP. Finishing every trade adds **1,000** gold, **1,000** XP and the title the Jack of All Trades. One quest at a time, each trade once per character.
+- Opening a treasure map you can read now also tells the treasure's exact position (x, y). Only whoever can read the map sees it.
+- Rideable Darkmane: two Darkmanes in a hundred in the Bloodmire come tamable. It needs **100** Animal Taming, takes one slot and becomes a mount that keeps the colour of the level it was born on. When one is born, the game and Discord announce it.
+
+See [Royal Banking Charter](sistemas/royal-banking-charter.md), [Craft](craft/index.md), [Kharag](sistemas/kharag.md), [Pets and mounts](sistemas/pets-montarias.md), [PvM Mastery](sistemas/pvm-mastery.md), [Season of the Wild Hunt](sistemas/wild-hunt.md), [Commands](comandos.md), [Character](personagem.md), [Threat Rating](mundo/threat-rating.md), [Treasure Maps](sistemas/mapas-tesouro.md), [Rare spawns](sistemas/spawns-raros.md) and [Daily Dungeon](sistemas/daily-dungeon.md).
+
 ## 2.2.0 · Auction and craft orders
 
 Published on November 1, 2026.

@@ -52,9 +52,14 @@ Any adventurer may join: there is no loot reservation for the first attacker.
 The leader's death dissipates the remaining undead with no reward — already
 created corpses and loot remain — and twelve freed souls rise at the cemetery.
 After victory, another coven appears at the next fixed Brasilia time:
-**10:00 and 22:00** during The Missing Names (October 1–7), **02:00, 10:00,
-14:00 and 22:00** during The Gathering (October 8–21), and **02:00, 06:00,
-10:00, 14:00, 18:00 and 22:00** during The Sabbath (October 22–31).
+**10:00 and 22:00** during The Missing Names (October 1-7), **02:00, 10:00,
+14:00 and 22:00** during The Gathering (October 8-21), and **02:00, 06:00,
+10:00, 14:00, 18:00 and 22:00** during The Sabbath (October 22-31).
+
+In 2.3.0, the coven gained Slayer Groups: the witches and the Grave Herald are
+**Humanoid**; the undead, the Leashed Shade, the Grave Mother, and the Ossuary
+Warden are **Undead**. Slayers, the Slayer's Codex, Hunter Contracts, and
+Scrolls of Knowledge now count in the fight.
 
 ## Currency and redemption window
 

@@ -31,6 +31,10 @@ Naba, Darkmane, Skeletrex, Hellion, Echidnite, Birling Blades e Prometheoid).
 Raramente deixam tintas de roupa do nível: wight's ash, gorestain, clotted
 crimson, charnel ember e mire black.
 
+No 2.3.0, **2** em cada **100** Darkmanes do Bloodmire nascem domáveis: exige
+**100** de Animal Taming, ocupa **1** slot e a montaria guarda a cor do nível
+em que nasceu. Quando um nasce, o jogo e o Discord avisam.
+
 **Thorne, o Espreitador de Bloodmire**, na entrada, oferece **1** contrato
 por conta por dia, a **Bloodmire Bounty**: **6.000** de XP de Maestria PvM
 nessa dungeon por uma caixa com **1** roll de Loot Pack sem utilidades e

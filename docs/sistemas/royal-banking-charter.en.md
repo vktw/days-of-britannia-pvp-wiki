@@ -7,6 +7,13 @@ description: "Permanently expand a character's bank with Royal Banking Charter I
 **Royal Banking Charter I** permanently expands the character's bank capacity
 from **125 to 250 items**.
 
+## Charter II in 2.3.0
+
+**Royal Banking Charter II** arrives in the Banker menu: for **150,000**
+account Gold it permanently raises that character's bank from **250** to
+**500** items. Only a character that already holds Royal Banking Charter I
+can buy it.
+
 ## How to purchase it
 
 1. Open a Banker's context menu.

@@ -190,8 +190,8 @@ monstros.
 ## Invocações de oitavo círculo
 
 As seis magias de invocação de oitavo círculo usam uma curva de sucesso entre
-2% e 98% quando lançadas pelo Spellbook, chegando a **80% com Magery 100.0** e
-**88% em 110.0**. A Maestria **Chamado Inquebrável** aumenta essa chance de
+2% e 98% quando lançadas pelo Spellbook, chegando a **90% com Magery 100.0**
+(eram **80%**). A Maestria **Chamado Inquebrável** aumenta essa chance de
 forma relativa. Scrolls, NPCs, summons de outros círculos e outras magias não
 usam essa curva.
 

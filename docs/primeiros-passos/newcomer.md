@@ -5,7 +5,9 @@ Newcomer ajuda a começar com segurança. Ele dura **168 horas** (sete dias) e i
 ## Durante o benefício
 
 - Há bônus de 50% na chance de ganho de skill.
-- Em PvM elegível, há **100% adicionais de experiência de Maestria PvM** e 25% adicionais de gold de criaturas.
+- Em PvM elegível, há **100% adicionais de experiência de Maestria PvM** e, no
+  2.3.0, **metade do ouro** das criaturas (antes, um quarto). O bônus de XP
+  continua dobrando.
 - A proteção de [Nujelm Safe Haven](../mundo/nujelm.md) bloqueia conflito entre jogadores, stealing, ações nocivas de pets ou summons, viagens mágicas, Fields e dano recebido dentro da região definida.
 - No 0.40.0, o benefício Newcomer não libera ganho de skill dentro do Safe Haven.
 - Em uma morte fora da Arena, o newcomer retorna automaticamente a Nujelm após 15 segundos. Os itens restantes continuam no corpo.

@@ -117,6 +117,8 @@ unless a point is repaired, and an empty kit disappears.
 
 New characters receive a complete Spellbook, an empty Runebook and a shrunken horse. Spellbooks and Runebooks are preserved when the rest of the inventory is saved for an arena fight.
 
+In 2.3.0, every Mage sells the **Runic Atlas** for **250,000** Gold: a rune book for **48** runes and up to **100** charges, recharged with Recall scrolls like a Runebook.
+
 See [Healing and resources](../combate/cura-recursos.md) for all values and delays.
 
 !!! success "Status: 0.45.1"

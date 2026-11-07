@@ -22,6 +22,11 @@ precisa estar vivo, fora da Arena, sem combate, agressão recente ou trade, alé
 de possuir follower slots e espaço físico suficientes no local. Ao retornar, o
 pet volta sob controle e recebe a ordem de seguir.
 
+Estatuetas de shrink não apodrecem: largadas no chão, dentro ou fora de casa,
+ficam até alguém pegar, como um pet no estábulo. Pets de estatuetas perdidas
+não somem de vez: chame a staff, que devolve cada um numa estatueta nova no
+seu banco.
+
 ## Montarias raras
 
 | Grupo | Possibilidades | Animal Taming mínimo | Funcionamento |

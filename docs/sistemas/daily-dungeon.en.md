@@ -32,6 +32,10 @@ Darkmane, Skeletrex, Hellion, Echidnite, Birling Blades, and Prometheoid).
 They rarely leave level clothing dyes: wight's ash, gorestain, clotted
 crimson, charnel ember, and mire black.
 
+In 2.3.0, **2** in every **100** Bloodmire Darkmanes are born tamable: it needs
+**100** Animal Taming, takes **1** slot, and the mount keeps the colour of the
+level it was born on. When one is born, the game and Discord announce it.
+
 **Thorne, the Bloodmire Stalker**, at the entrance, offers **1** contract per
 account per day, the **Bloodmire Bounty**: **6,000** PvM Mastery XP in that
 dungeon for a crate with **1** Loot Pack roll without utilities and equipment

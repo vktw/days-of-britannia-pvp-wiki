@@ -31,10 +31,11 @@ jogo).
 
 ## Vis e barra
 
-**Vis** é uma carga até **100** que sobe quando você causa ou recebe dano de
+**Vis** é uma carga até **180** que sobe quando você causa ou recebe dano de
 criaturas e quando cura aliados em PvM, mostrada como quarta linha da barra
 de vida. Cada habilidade gasta Vis e tem recarga; sem Vis suficiente ela
-falha e gasta o que você tinha.
+falha sem gastar nada (e só pede **3** segundos de espera). Custos e recargas
+não mudaram; com o cliente DoB atualizado, a barra mostra até **180**.
 
 A **barra** leva **4** habilidades de qualquer escola e **1** suprema, que
 exige **três** habilidades da mesma escola na barra. Arraste os ícones do
@@ -69,6 +70,11 @@ Cada grupo é fraco a uma escola (**+25%** de dano) e resiste a outra
 - **Sombra**: Signum Umbrae (Marca Sombria) — marca que amplia o dano da party; Passus Umbrae (Passo Sombrio) — teleporta e golpeia três vezes; Caecitas (Cegueira) — cega (erros); Eclipsis (Eclipse) — dano com escuridão (mais dano da party, chance de erro).
 - **Sangue**: Missio Sanguinis (Sangria) — dreno que cura quem conjura; Pactum Sanguinis (Pacto de Sangue) — troca 20% da vida máxima por Vis, sem cursor; Coagulum (Coágulo) — reduz o dano das criaturas; Exsanguinatio (Exsanguinação) — dreno em área que cura a party.
 - **Vazio**: Tractus Vacui (Puxão do Vazio) — puxa para perto e provoca; Concha Vacui (Concha do Vazio) — absorve dano e zap adjacentes; Puteus Gravitatis (Poço Gravitacional) — enraíza com energia; Singularitas (Singularidade) — puxa, enraíza e colapsa.
+
+No 2.3.0, a **Magnum Opus** aceita encadernação: clique duas vezes numa
+encadernação de boss e escolha a sua Opus. Ela ganha o visual e a cor da
+encadernação, e as opções Turn e Restore funcionam como no Hunter's Compendium
+e no Slayer's Codex.
 
 ## Só PvM
 

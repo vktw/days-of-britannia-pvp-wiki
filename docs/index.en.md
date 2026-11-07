@@ -21,8 +21,8 @@ hide:
 
 <section class="dob-landing-strip" aria-label="Server status">
   <span class="dob-landing-stat"><strong><i aria-hidden="true"></i>Server online</strong><small>Britannia is active</small></span>
-  <span class="dob-landing-stat"><strong>2.2.0</strong><small>Current version</small></span>
-  <a class="dob-landing-stat" href="patches/"><strong>Auction and craft orders</strong><small>Latest update</small></a>
+  <span class="dob-landing-stat"><strong>2.3.0</strong><small>Current version</small></span>
+  <a class="dob-landing-stat" href="patches/"><strong>Skills, trades and mounts</strong><small>Latest update</small></a>
 </section>
 
 <nav class="dob-landing-shortcuts" aria-label="Manual shortcuts">
@@ -81,17 +81,17 @@ hide:
   <h2 id="dob-landing-news" class="dob-landing-section__title">The shard keeps moving</h2>
   <div class="dob-landing-news">
     <article class="dob-landing-patch">
-      <span class="dob-landing-patch__tag">Latest update · 2.2.0</span>
-      <h3>Auction and craft orders</h3>
-      <p class="dob-landing-patch__date"><time datetime="2026-11-01">November 1, 2026</time></p>
-      <p>The global auction arrives with .auction, Aldric pays crafters — plus six new Harts, a forever PvP ladder, and the Mantle in the Hunt.</p>
+      <span class="dob-landing-patch__tag">Latest update · 2.3.0</span>
+      <h3>Skills, trades and mounts</h3>
+      <p class="dob-landing-patch__date"><time datetime="2026-11-03">November 3, 2026</time></p>
+      <p>Five skills at 100 for everyone, trade quests with Edric, Charter II and the Runic Atlas — plus the Rideable Darkmane.</p>
       <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="patches/">Read patch notes</a>
     </article>
     <div class="dob-landing-articles">
       <h3>Latest updated articles</h3>
-      <a href="sistemas/arcana/"><time datetime="2026-11-01">Nov 1</time><span><strong>Arcana</strong><small>Six schools, Vis, and the ability bar</small></span></a>
-      <a href="patches/"><time datetime="2026-11-01">Nov 1</time><span><strong>Patch notes</strong><small>2.2.0, 2.1.0, and 2.0.0</small></span></a>
-      <a href="sistemas/leilao/"><time datetime="2026-11-01">Nov 1</time><span><strong>Auction</strong><small>Global .auction with a Discord channel</small></span></a>
+      <a href="sistemas/arcana/"><time datetime="2026-11-03">Nov 3</time><span><strong>Arcana</strong><small>Vis up to 180 and a bound Magnum Opus</small></span></a>
+      <a href="patches/"><time datetime="2026-11-03">Nov 3</time><span><strong>Patch notes</strong><small>2.3.0, 2.2.0, and 2.1.0</small></span></a>
+      <a href="sistemas/leilao/"><time datetime="2026-11-03">Nov 3</time><span><strong>Auction</strong><small>Bank lots on a single row</small></span></a>
       <a href="sistemas/spawns-raros/"><time datetime="2026-11-01">Nov 1</time><span><strong>Rare spawns</strong><small>Six new Harts and the Nightmare</small></span></a>
     </div>
   </div>

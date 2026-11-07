@@ -68,7 +68,7 @@ position is highlighted. Records update after a successful world save.
 
 ## `.auction`
 
-Opens the global **auction**: list any tradeable item from your backpack for **24**, **48**, or **72** hours, with a starting price and increment (up to **10** auctions per account). See [Auction](sistemas/leilao.md) for commission, extension, and anonymity.
+Opens the global **auction**: list any tradeable item from your backpack for **24**, **48**, or **72** hours, with a starting price and increment (up to **10** auctions per account). With the bank open, you can also auction items from it, even from inside a bag. See [Auction](sistemas/leilao.md) for commission, extension, and anonymity.
 
 !!! success "Status: 0.42.0"
     The commands below are available to players on the official server.

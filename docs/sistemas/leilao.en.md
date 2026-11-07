@@ -10,6 +10,10 @@ A bid comes from your bank gold and returns if outbid; a bid in the last
 who bids. After the first bid the auction cannot be cancelled; a sale pays
 the price less a **10%** commission, and an unsold item returns to your bank.
 
+In the window, each lot's picture, name, bid, time left, and button line up on
+the same row. You can also auction items from your bank: with the bank open,
+use the command and pick the item straight from it, even from inside a bag.
+
 Auctions have their own Discord channel: each auction is announced when it
 opens, again at most once an hour when it gets new bids, and when it ends. No
 announcement shows who sells or bids.

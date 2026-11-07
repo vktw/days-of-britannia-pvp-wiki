@@ -19,6 +19,9 @@ New characters start with the following skills at **100.0**:
 | Swords, Tactics, Archery, Healing | Magery, Meditation |
 | Focus | Resisting Spells |
 
+In 2.3.0, every character, new or old, also has **Anatomy**, **Evaluating
+Intelligence**, **Parrying**, **Fencing**, and **Macing** at **100**.
+
 Profession-specific skills are assigned separately. Existing characters keep
 their saved values; the compatible migration never lowers an existing skill.
 

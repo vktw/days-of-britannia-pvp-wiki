@@ -188,7 +188,7 @@ back to its own poison. The flask now also poisons monsters' summoned creatures.
 ## Eighth-circle summons
 
 The six eighth-circle summoning spells use a 2% to 98% success curve when cast
-from a Spellbook, reaching **80% at 100.0 Magery** and **88% at 110.0**. The
+from a Spellbook, reaching **90% at 100.0 Magery** (it was **80%**). The
 **Unbroken Calling** Mastery increases that chance relatively. Scrolls, NPCs,
 summons from other circles, and other spells do not use this curve.
 
