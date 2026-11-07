@@ -83,6 +83,8 @@ O scroll usa o tempo normal de permanência do loot no corpo. Não é necessári
 
 No 0.49.0, um scroll de Maestria que você já conhece pode ser consumido para um bônus de **+5% de efeito por 60 minutos** de jogo. Se ela estiver inativa, o bônus a ativa sem ocupar um dos cinco espaços; só um bônus por vez, e o Compendium mostra o bônus e o tempo restante.
 
+No 2.4.0, os bônus passaram a somar em camadas: cada pergaminho numa Maestria conhecida adiciona uma camada de **+5%** por **60** minutos, com relógio próprio, até **3** camadas (**+15%**). O pergaminho do tesouro vale duas camadas. Pergaminhos da mesma Maestria se empilham; ao usar uma pilha, você escolhe quantos aplicar. Para separar uma pilha, dê dois cliques nela, digite a quantidade e use Separar; a nova pilha mantém a Maestria.
+
 ## Catálogo completo das Maestrias
 
 Valores numéricos-base do Live 0.42.0. As colunas Nv 1, Nv 10 e Nv 20 resumem a

@@ -22,6 +22,10 @@ unlocked do not advance the locked stage.
 | **Orc Hunter** | 10 eligible Orcs | 700 PvM Mastery XP, 1,000 gold, and one DoB Magic Bracelet |
 | **Ettin Hunter** | 10 eligible Ettins | 800 PvM Mastery XP, 1,000 gold, and one DoB Magic Earring |
 
+In 2.4.0, the first five stages also give two random Tomes of Expertise each,
+with the gold. A step whose gold you already received before this version does
+not give its tomes.
+
 The hints point to Britain Cemetery, Despise Trolls, Despise Lizardmen, Desert of
 Compassion, Shame, Covetous, Orc Cave, and Despise, but they do not lock the
 achievement to those locations. After the eighth stage, the full catalogue

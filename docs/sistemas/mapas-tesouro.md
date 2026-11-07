@@ -85,6 +85,30 @@ você está.
 - O **Metal Chest** feito em Tinkering treina Lockpicking até **100**: feito por um tinker **100**, a tranca exige **76**; baús já feitos não mudam.
 - O mapa do tesouro reinicia de verdade após **30 dias** sem escavar (o baú muda de lugar); guardiões nascem em volta do baú, não em cima; item roubado por um Grubber volta no corpo dele. A party do dono do mapa também pode desarmar a armadilha. No 1.3.0, cada baú chama no máximo **1 Ancient Guardian**, que deixa loot, e a morte dele desarma a armadilha; pegar um item do baú não chama mais monstro novo.
 
+## Treasure Map Book no 2.4.0
+
+O **Treasure Map Book**, vendido pelo Mapmaker por **250.000** Gold, é um livro
+blessed de **1** stone para até **50** mapas decodificados. Solte um mapa
+decodificado sobre o livro; com dois cliques, veja o nível, a facet e a posição
+de cada um e tire o que quiser para a mochila.
+
+O livro tem cursor próprio: aponte para um mapa ou para um container seu (a
+mochila também) e todos os mapas que você decodificou vão para ele, até **50**.
+Só vale o que você carrega ou guarda no banco; o que está no chão, numa casa
+ou com outro personagem é recusado.
+
+A janela é um livro aberto, como a do Códice do Caçador: **6** mapas por
+página, com nível, lugar, dias restantes e botão de tirar, setas para virar a
+página e um filtro por nível (todos e cada nível, de Stash a Trove, com a
+contagem de mapas).
+
+O mapa que completa **30** dias vai para o seu banco, com aviso no primeiro
+login se você estava offline; ao lado de cada mapa, em quantos dias ele sai,
+em vermelho nos últimos **3**.
+
+O livro é de couro marrom, pode ser virado e aceita uma encadernação de livro,
+como o Runebook, o Hunter's Compendium, o Slayer's Codex e a Magnum Opus.
+
 ## Continue explorando
 
 Consulte [Maestria PvM](pvm-mastery.md) para os bônus, [Cartography](../craft/cartography.md) para os mapas, [Comandos](../comandos.md) para o `.fortunetide` e [Recompensas PvM](../itens/recompensas-pvm.md) para o loot.

@@ -22,6 +22,10 @@ ser liberada não avançam a etapa bloqueada.
 | **Orc Hunter** | 10 Orcs elegíveis | 700 XP de Maestria PvM, 1.000 gold e um DoB Magic Bracelet |
 | **Ettin Hunter** | 10 Ettins elegíveis | 800 XP de Maestria PvM, 1.000 gold e um DoB Magic Earring |
 
+No 2.4.0, as cinco primeiras etapas dão também dois Tomes of Expertise
+aleatórios cada, junto com o ouro. Quem já recebeu o ouro de um passo antes
+desta versão não recebe os tomos dele.
+
 As dicas apontam para Britain Cemetery, Despise Trolls, Despise Lizardmen,
 Deserto da Compaixão, Shame, Covetous, Orc Cave e Despise, mas não bloqueiam
 outros locais elegíveis. Depois da oitava etapa, o catálogo completo é liberado.

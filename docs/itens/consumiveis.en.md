@@ -119,6 +119,8 @@ New characters receive a complete Spellbook, an empty Runebook and a shrunken ho
 
 In 2.3.0, every Mage sells the **Runic Atlas** for **250,000** Gold: a rune book for **48** runes and up to **100** charges, recharged with Recall scrolls like a Runebook.
 
+In 2.4.0, the Mapmaker sells the **Treasure Map Book** for **250,000** Gold: a blessed **1**-stone book for up to **50** decoded maps, with an open-book window, a tier filter, and a cursor of its own; the **30**-day map goes to your bank. The book is brown leather, can be turned, and takes a book binding, as does the Runic Atlas — which also takes a binding without losing its entries, returning to the original with Restore.
+
 See [Healing and resources](../combate/cura-recursos.md) for all values and delays.
 
 !!! success "Status: 0.45.1"

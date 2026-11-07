@@ -198,7 +198,9 @@ pelo jogo. As oito etapas iniciais são sequenciais:
 As dicas apontam para Britain Cemetery, Despise Trolls, Despise Lizardmen,
 Deserto da Compaixão, Shame, Covetous, Orc Cave e Despise, mas outros locais
 elegíveis também contam. Cada etapa entrega XP de Maestria PvM e gold; as
-recompensas específicas ficam em [Achievements](../sistemas/achievements.md).
+cinco primeiras dão também dois Tomes of Expertise aleatórios cada (sem
+retroativo para ouro já recebido). As recompensas específicas ficam em
+[Achievements](../sistemas/achievements.md).
 
 ### 4. Escolha um primeiro estilo
 

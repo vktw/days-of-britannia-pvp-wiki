@@ -21,8 +21,8 @@ hide:
 
 <section class="dob-landing-strip" aria-label="Status do servidor">
   <span class="dob-landing-stat"><strong><i aria-hidden="true"></i>Servidor online</strong><small>Britannia está ativa</small></span>
-  <span class="dob-landing-stat"><strong>2.3.0</strong><small>Versão atual</small></span>
-  <a class="dob-landing-stat" href="patches/"><strong>Skills, ofícios e montarias</strong><small>Última atualização</small></a>
+  <span class="dob-landing-stat"><strong>2.4.0</strong><small>Versão atual</small></span>
+  <a class="dob-landing-stat" href="patches/"><strong>Camadas de conhecimento e Livro de Mapas</strong><small>Última atualização</small></a>
 </section>
 
 <nav class="dob-landing-shortcuts" aria-label="Atalhos do manual">
@@ -81,17 +81,17 @@ hide:
   <h2 id="dob-landing-news" class="dob-landing-section__title">O shard não para</h2>
   <div class="dob-landing-news">
     <article class="dob-landing-patch">
-      <span class="dob-landing-patch__tag">Última atualização · 2.3.0</span>
-      <h3>Skills, ofícios e montarias</h3>
-      <p class="dob-landing-patch__date"><time datetime="2026-11-03">3 de novembro de 2026</time></p>
-      <p>Cinco skills em 100 para todos, missões de ofício com Edric, Charter II e Runic Atlas — e o Rideable Darkmane.</p>
+      <span class="dob-landing-patch__tag">Última atualização · 2.4.0</span>
+      <h3>Camadas de conhecimento e Livro de Mapas</h3>
+      <p class="dob-landing-patch__date"><time datetime="2026-11-06">6 de novembro de 2026</time></p>
+      <p>Scrolls de Conhecimento em camadas, Treasure Map Book, Arsenal da casa e Protective Ward.</p>
       <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="patches/">Ler patch notes</a>
     </article>
     <div class="dob-landing-articles">
       <h3>Últimos artigos atualizados</h3>
-      <a href="sistemas/arcana/"><time datetime="2026-11-03">3 nov</time><span><strong>Arcanos</strong><small>Vis até 180 e Magnum Opus com encadernação</small></span></a>
-      <a href="patches/"><time datetime="2026-11-03">3 nov</time><span><strong>Patch notes</strong><small>2.3.0, 2.2.0 e 2.1.0</small></span></a>
-      <a href="sistemas/leilao/"><time datetime="2026-11-03">3 nov</time><span><strong>Leilão</strong><small>Lotes do banco e linha única</small></span></a>
+      <a href="sistemas/arcana/"><time datetime="2026-11-06">6 nov</time><span><strong>Arcanos</strong><small>Passus Umbrae no tile da criatura</small></span></a>
+      <a href="patches/"><time datetime="2026-11-06">6 nov</time><span><strong>Patch notes</strong><small>2.4.0, 2.3.0 e 2.2.0</small></span></a>
+      <a href="sistemas/mapas-tesouro/"><time datetime="2026-11-06">6 nov</time><span><strong>Mapas do Tesouro</strong><small>Treasure Map Book do Mapmaker</small></span></a>
       <a href="sistemas/spawns-raros/"><time datetime="2026-11-01">1 nov</time><span><strong>Spawns raros</strong><small>Seis novos Harts e o Pesadelo</small></span></a>
     </div>
   </div>

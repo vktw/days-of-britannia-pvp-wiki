@@ -36,6 +36,11 @@ No 0.46.2, o Make Max dos Armor Kits para quando faltam lingotes ou outro
 requisito, em vez de repetir a mensagem e travar o menu. Fabricar um kit toca
 o som do martelo e reabre o menu de Blacksmithy.
 
+No 2.4.0, a janela de criação dos Armor Kits mostra a chance real de sucesso e
+de exceptional: a curva do metal (Blackrock com Blacksmith **110** é **91%**,
+não **70%**) e o bônus de **+10%** de uma ferramenta Reliable ou Refined, que
+já valiam no sorteio.
+
 Cada peça de **Leather Armor** passa a ter exatamente o mesmo `Armor Rating` da
 peça correspondente de Chain, Ringmail ou Gorget no mesmo material. Misturar
 Leather com metal não gera mais vantagem sobre o kit; a curva de Blacksmithy e

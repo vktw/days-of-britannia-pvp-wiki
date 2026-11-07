@@ -2,6 +2,28 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 2.4.0 · Camadas de conhecimento e Livro de Mapas
+
+Publicado em 6 de novembro de 2026.
+
+- Os Pergaminhos de Conhecimento agora somam camadas: cada pergaminho numa Maestria que você já conhece adiciona uma camada de **+5%** por **60** minutos, com relógio próprio, até **3** camadas (**+15%**). O de tesouro vale duas camadas. Pergaminhos da mesma Maestria agora se empilham, e ao usar uma pilha você escolhe quantos aplicar.
+- Novo Treasure Map Book, vendido pelo Mapmaker por **250.000** Gold: um livro blessed que pesa **1** stone e guarda até **50** mapas do tesouro que você decodificou. Solte um mapa decodificado sobre o livro e abra-o com dois cliques para ver o nível, a facet e a posição de cada um, e tirar o que quiser para a mochila.
+- O Treasure Map Book tem cursor próprio: aponte para um mapa ou para um container seu (a mochila também) e todos os mapas que você decodificou vão para o livro, até **50**. Só vale o que você carrega ou guarda no banco; o que está no chão, numa casa ou com outro personagem é recusado.
+- No livro, o mapa que completa **30** dias vai para o seu banco, com aviso no primeiro login se você estava offline. A janela mostra, ao lado de cada mapa, em quantos dias ele sai, em vermelho nos últimos **3**.
+- A janela do livro é um livro aberto, como a do Códice do Caçador: **seis** mapas em cada página, com nível, lugar, dias restantes e o botão de tirar, e setas para virar a página. Um filtro por nível passa por todos os mapas e por cada nível (de Stash a Trove), mostrando quantos mapas aparecem.
+- Novo Arsenal da casa (Armory): deed vendido pelo Architect por **250.000** gold, um por casa. Dono e co-donos usam o mesmo armazenamento e **cinco** loadouts. Guarda armas, armaduras, joias, roupas, poções, reagentes, flechas, bolts, bandagens e bolsas vazias. O loadout grava tipo, material e tier das peças, e depois de uma morte veste peças iguais que estiverem guardadas. Ao guardar a si mesmo ou um container, uma lista deixa você desmarcar o que não quer guardar. Não funciona em combate (**30** segundos).
+- Nova deed de Protective Ward, vendida pelo Animal Trainer por **50.000** gold: compre quantas quiser e use na montaria, da mochila ou do banco. Na próxima vez em que morreria, a montaria é salva e vai para o seu banco como estatueta, e a ward é consumida. Vale para qualquer morte, inclusive PvP.
+- O Passus Umbrae agora funciona quando você mira direto numa criatura: você aparece no tile dela, em vez de receber "That location is blocked". Mirando no chão, nada muda.
+- Os cinco primeiros passos do caminho inicial (First Hunt, Troll Hunter, Scaled Hunter, Scorpion Hunter e Earth Elemental Hunter) agora dão também dois Tomes of Expertise aleatórios cada um, entregues junto com o ouro. Quem já recebeu o ouro de um passo antes desta versão não recebe os tomos dele.
+- A janela de criação dos Armor Kits de Blacksmith agora mostra a chance real de sucesso e de exceptional: a curva do metal (Blackrock com Blacksmith **110** é **91%**, não **70%**) e o bônus de **+10%** de uma ferramenta Reliable ou Refined, que já valiam no sorteio.
+- As encomendas do Aldric agora pagam **+75%** quando você mesmo fez o item e **+50%** quando ele é exceptional (**225%** da base com os dois), antes +50% e +25%.
+- Novo item no Kharag: o Elixir da Prosperidade, por **1.000** pontos. Por **60** minutos de jogo, cada kill de PvM de que você participa rende **10%** a mais do ouro da criatura, colocado direto na sua mochila (no banco, se ela estiver cheia) com um aviso, somado ao bônus Young se você o tiver.
+- As missões de ofício de produção de Edric (Ferraria, Carpintaria, Costura, Culinária, Alquimia e Escrita) agora contam toda tentativa de fabricar, com ou sem sucesso, como a coleta já fazia; o total de cada missão não mudou, e a doma continua contando só sucessos. As missões agora entregam a ferramenta Enduring prometida; ela se perdia ao concluir a missão.
+- O Treasure Map Book ganhou um visual próprio, um livro de couro marrom que pode ser virado, e agora aceita uma encadernação de livro, como o Runebook, o Hunter's Compendium, o Slayer's Codex e a Magnum Opus. O Runic Atlas agora também aceita uma encadernação de livro, sem perder suas entradas, e pode voltar ao visual original com Restore.
+- Agora dá para separar uma pilha de Pergaminhos de Conhecimento: dê dois cliques nela, digite a quantidade e use Separar. A nova pilha mantém a Maestria.
+
+Consulte [Maestria PvM](sistemas/pvm-mastery.md), [Mapas do Tesouro](sistemas/mapas-tesouro.md), [Casas](sistemas/casas.md), [Pets e montarias](sistemas/pets-montarias.md), [Arcanos](sistemas/arcana.md), [Conquistas](sistemas/achievements.md), [Armaduras](itens/armaduras.md), [Kharag](sistemas/kharag.md), [Craft](craft/index.md) e [Livros e montarias](itens/consumiveis.md).
+
 ## 2.3.0 · Skills, ofícios e montarias
 
 Publicado em 3 de novembro de 2026.

@@ -27,6 +27,13 @@ they stay until someone picks them up, like a pet in the stable. Pets from
 lost statuettes are not gone for good: call staff, who returns each one in a
 new statuette in your bank.
 
+## Protective Ward in 2.4.0
+
+The **Protective Ward** is a deed sold by the Animal Trainer for **50,000**
+gold: buy as many as you like and use one on your mount, from your backpack or
+your bank. The next time it would die, it is saved and goes to your bank as a
+statuette, and the ward is spent. It covers every death, PvP included.
+
 ## Rare mounts
 
 | Group | Possibilities | Minimum Animal Taming | Behavior |

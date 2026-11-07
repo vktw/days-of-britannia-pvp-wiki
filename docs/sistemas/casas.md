@@ -57,5 +57,16 @@ Bankers vendem a **Commodity Deed Box por 20.000 Gold**. Para operar Commodity
 Deeds, a caixa precisa estar **secured dentro de uma casa**; mantê-la na mochila
 não é suficiente.
 
+## Arsenal da casa no 2.4.0
+
+O **Arsenal da casa (Armory)** é um addon vendido pelo Architect por
+**250.000** gold: **1** por casa. O dono e os co-donos usam o mesmo
+armazenamento e **5** loadouts. Ele guarda armas, armaduras, joias, roupas,
+poções, reagentes, flechas, bolts, bandagens e bolsas vazias. O loadout grava
+o tipo, o material e o tier das peças, e depois de uma morte veste peças iguais
+que estiverem guardadas. Ao guardar a si mesmo ou um container, uma lista deixa
+você desmarcar o que não quer guardar. Não funciona em combate (**30**
+segundos).
+
 !!! success "Status: 0.45.0"
     As permissões de co-owners correspondem às notas de produção.

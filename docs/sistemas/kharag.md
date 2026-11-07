@@ -54,8 +54,8 @@ No 2.2.0, **Aldric, o Mestre Artesão**, chegou ao lado do Kharag com
 **encomendas diárias**: todo dia a partir das **20:00** ele pede um tipo de
 item (kits, armas Bloodrock e Blackrock, arcos, casa, joias) e aceita quantos
 você entregar, com mira num item ou container. Cada item dá pontos no seu
-saldo do Kharag pelo valor dos materiais, **+50%** se foi você quem fez e
-**+25%** se for exceptional. No dia seguinte os itens vão a leilão um de cada
+saldo do Kharag pelo valor dos materiais, **+75%** se foi você quem fez e
+**+50%** se for exceptional (**225%** da base com os dois). No dia seguinte os itens vão a leilão um de cada
 vez; o gold sai da economia, e o não vendido é descartado.
 
 Quem entrega nas encomendas ganha títulos: **Apprentice of the Guild** com
@@ -88,6 +88,13 @@ minério, que também é montado nela.
 | Blackrock | 85.000 |
 | Mythril | 95.000 |
 | Brittanium | 105.000 |
+
+## Elixir da Prosperidade no 2.4.0
+
+No 2.4.0, o Kharag vende o **Elixir da Prosperidade** por **1.000** pontos. Por
+**60** minutos de jogo, cada kill de PvM de que você participa rende **10%** a
+mais do ouro da criatura, colocado direto na sua mochila (no banco, se ela
+estiver cheia) com um aviso, somado ao bônus Young se você o tiver.
 
 ## Continue explorando
 

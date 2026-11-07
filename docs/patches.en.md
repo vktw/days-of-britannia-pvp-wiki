@@ -2,6 +2,28 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 2.4.0 · Layers of knowledge and the Map Book
+
+Published on November 6, 2026.
+
+- Scrolls of Knowledge now add up in layers: each scroll used on a Mastery you already know adds a layer of **+5%** for **60** minutes, with its own clock, up to **3** layers (**+15%**). The treasure scroll is worth two layers. Scrolls of the same Mastery now stack, and using a stack lets you choose how many to apply.
+- New Treasure Map Book, sold by the Mapmaker for **250,000** Gold: a blessed book that weighs **1** stone and holds up to **50** treasure maps you decoded. Drop a decoded map onto the book and double-click it to see each map's level, facet and position, and take any of them out to your backpack.
+- The book has a cursor of its own: aim it at a map, or at one of your containers (the backpack too), and every map you decoded goes into the book, up to **50**. Only what you carry or keep in your bank counts; what is on the ground, in a house or on another character is refused.
+- In the book, a map that completes **30** days goes to your bank, with a notice at your first login if you were offline. The window shows beside each map in how many days it leaves, in red in the last **3**.
+- The book's window is an open book, like the Slayer's Codex: **six** maps on each page, with level, place, days left and the take button, and arrows to turn the page. A tier filter turns through all the maps and each tier (Stash to Trove), showing how many maps it lists.
+- New house Armory: a deed sold by the Architect for **250,000** gold, one per house. The owner and co-owners share its storage and **five** loadouts. It holds weapons, armor, jewelry, clothing, potions, reagents, arrows, bolts, bandages and empty bags. A loadout records the type, material and tier of the pieces, and after a death it wears matching pieces from the storage. Storing yourself or a container opens a list where you can unmark what you want to keep. It does not work in combat (**30** seconds).
+- New Protective Ward deed, sold by the Animal Trainer for **50,000** gold: buy as many as you like and use one on your mount, from your backpack or your bank. The next time your mount would die, it is saved and goes to your bank as a statuette, and the ward is spent. It covers every death, PvP included.
+- Passus Umbrae now works when you aim straight at a creature: you appear on its tile instead of getting "That location is blocked". Aimed at the ground, nothing changes.
+- The first five steps of the starting path (First Hunt, Troll Hunter, Scaled Hunter, Scorpion Hunter and Earth Elemental Hunter) now also give two random Tomes of Expertise each, delivered with the gold. A step whose gold you already received before this version does not give its tomes.
+- The craft window of the Blacksmith Armor Kits now shows the real success and exceptional chances: the metal curve (Blackrock at Blacksmith **110** is **91%**, not **70%**) and the **+10%** of a Reliable or Refined tool, which already applied to the roll.
+- Aldric's craft orders now pay **+75%** when you made the item yourself and **+50%** when it is exceptional (**225%** of the base with both), up from +50% and +25%.
+- New at Kharag: the Prosperity Draught, for **1,000** points. For **60** minutes of play, every PvM kill you share in gives **10%** more of the creature's gold, placed straight in your backpack (in your bank if it is full) with a message, on top of the Young bonus if you have it.
+- Edric's crafting trade quests (Blacksmithing, Carpentry, Tailoring, Cooking, Alchemy and Inscription) now count every craft attempt, successful or not, as gathering already did; each quest's total is unchanged, and taming still counts only successes. The quests now give the promised Enduring tool; it was lost on completing the quest.
+- The Treasure Map Book has a look of its own, a brown leather book that can be turned, and now takes a book binding, like the Runebook, the Hunter's Compendium, the Slayer's Codex and the Magnum Opus. The Runic Atlas now takes a book binding too, without losing its entries, and can return to its original look with Restore.
+- You can now split a stack of Scrolls of Knowledge: double-click it, type the amount and use Split. The new pile keeps its Mastery.
+
+See [PvM Mastery](sistemas/pvm-mastery.md), [Treasure Maps](sistemas/mapas-tesouro.md), [Houses](sistemas/casas.md), [Pets and mounts](sistemas/pets-montarias.md), [Arcana](sistemas/arcana.md), [Achievements](sistemas/achievements.md), [Armor](itens/armaduras.md), [Kharag](sistemas/kharag.md), [Craft](craft/index.md) and [Books and mounts](itens/consumiveis.md).
+
 ## 2.3.0 · Skills, trades and mounts
 
 Published on November 3, 2026.

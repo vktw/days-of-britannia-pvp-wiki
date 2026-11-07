@@ -72,7 +72,9 @@ Pesca, Culinária, Alquimia, Inscrição e Doma. Ao aceitar, a skill sobe para
 **30** e você ganha a ferramenta do ofício; ao cumprir a tarefa, a skill sobe
 para **60** e você ganha uma ferramenta Enduring do ofício, um
 [Tome of Expertise](../sistemas/tomes-expertise.md) e **500** de XP de Maestria
-PvM. Quem conclui todos os ofícios ganha mais **1.000** de ouro, **1.000** de
+PvM. No 2.4.0, as missões de produção (Ferraria, Carpintaria, Alfaiataria,
+Culinária, Alquimia e Inscrição) contam toda tentativa de fabricar, com ou sem
+sucesso; a doma conta só sucessos; os totais não mudaram. Quem conclui todos os ofícios ganha mais **1.000** de ouro, **1.000** de
 XP e o título the Jack of All Trades. Uma missão por vez, cada ofício uma vez
 por personagem.
 

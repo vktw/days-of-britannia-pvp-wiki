@@ -57,5 +57,15 @@ Bankers sell the **Commodity Deed Box for 20,000 Gold**. To operate Commodity
 Deeds, the box must be **secured inside a house**; keeping it in your backpack
 is not enough.
 
+## House Armory in 2.4.0
+
+The house **Armory** is an addon sold by the Architect for **250,000** gold:
+**1** per house. The owner and co-owners share its storage and **5** loadouts.
+It holds weapons, armor, jewelry, clothing, potions, reagents, arrows, bolts,
+bandages, and empty bags. A loadout records the type, material, and tier of
+the pieces, and after a death it wears matching pieces from the storage.
+Storing yourself or a container opens a list where you can unmark what you want
+to keep. It does not work in combat (**30** seconds).
+
 !!! success "Status: 0.45.0"
     Co-owner permissions match the production notes.
