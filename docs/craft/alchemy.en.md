@@ -26,6 +26,14 @@ has its own color: Invisibility grey, Total Refreshment red, Greater Heal
 yellow, and Deadly Poison green; Total Mana keeps its own. Existing kegs
 receive the new color automatically.
 
+## House Alchemy Lab in 2.3.0
+
+The house **Alchemy Lab** is an addon sold by the Alchemist for **250,000**
+Gold: it works like the public Lab, with DoB Kegs and the **7.5 percentage-point**
+bonus, but with no craft fee (**1** per house). The owner, co-owners and
+friends use it from inside the house; visitors cannot. Only the owner can
+redeed it, and if the house falls the deed goes to the owner's bank.
+
 ## Venom Flask in 0.51.0
 
 The **Venom Flask** follows the Deadly Poison recipe (**90.0 to 110.0**,

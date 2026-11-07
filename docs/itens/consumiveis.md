@@ -117,6 +117,8 @@ um ponto, e um kit vazio desaparece.
 
 Novos personagens recebem Spellbook completo, Runebook vazio e cavalo shrinkado. Spellbooks e Runebooks são preservados quando o restante do inventário é guardado para uma luta de arena.
 
+No 2.3.0, todo Mage vende o **Runic Atlas** por **250.000** Gold: um livro de runas para **48** runas e até **100** cargas, recarregado com scrolls de Recall como o Runebook.
+
 Veja [Cura e recursos](../combate/cura-recursos.md) para todas as faixas e delays.
 
 !!! success "Status: 0.45.1"

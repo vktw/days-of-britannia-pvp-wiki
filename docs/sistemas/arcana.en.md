@@ -30,10 +30,12 @@ open school; the scroll of an ability you already know gives the school's
 
 ## Vis and the bar
 
-**Vis** is a charge of up to **100** that rises as you deal or take damage
+**Vis** is a charge of up to **180** that rises as you deal or take damage
 from creatures and as you heal allies in PvM, shown as the fourth row of the
 health bar. Each ability spends Vis and has a cooldown; without enough Vis it
-fails and spends what you had.
+fails without spending anything (asking only **3** seconds of rest). Costs and
+cooldowns are unchanged; with the updated DoB client, the bar shows up to
+**180**.
 
 The **bar** holds **4** abilities of any school and **1** ultimate, which
 requires **three** abilities of its school on the bar. Drag the book's icons
@@ -68,6 +70,10 @@ another (**-25%**), shown in the creature's tooltip beside the Slayer Group.
 - **Shadow**: Signum Umbrae (Shadow Mark) — mark that amplifies party damage; Passus Umbrae (Shadow Step) — teleports and strikes three times; Caecitas (Blindness) — blinds (misses); Eclipsis (Eclipse) — damage with darkness (more party damage, miss chance).
 - **Blood**: Missio Sanguinis (Bloodletting) — drain that heals the caster; Pactum Sanguinis (Blood Pact) — trades 20% of max life for Vis, no cursor; Coagulum (Clot) — reduces creature damage; Exsanguinatio (Exsanguination) — area drain that heals the party.
 - **Void**: Tractus Vacui (Void Pull) — pulls close and taunts; Concha Vacui (Void Shell) — absorbs damage and zaps adjacents; Puteus Gravitatis (Gravity Well) — roots with energy; Singularitas (Singularity) — pulls, roots, and collapses.
+
+In 2.3.0, the **Magnum Opus** takes a binding: double-click a boss binding and
+choose your Opus. It takes the binding's look and colour, and Turn and Restore
+work as on the Hunter's Compendium and the Slayer's Codex.
 
 ## PvM only
 

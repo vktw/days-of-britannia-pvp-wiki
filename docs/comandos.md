@@ -69,7 +69,7 @@ atualizados depois de um world save bem-sucedido.
 
 ## `.auction`
 
-Abre o **leilão global**: liste qualquer item negociável da mochila por **24**, **48** ou **72** horas, com lance inicial e incremento (até **10** leilões por conta). Veja [Leilão](sistemas/leilao.md) para comissões, prorrogação e anonimato.
+Abre o **leilão global**: liste qualquer item negociável da mochila por **24**, **48** ou **72** horas, com lance inicial e incremento (até **10** leilões por conta). Com o banco aberto, também dá para leiloar itens dele, inclusive de dentro de uma bolsa. Veja [Leilão](sistemas/leilao.md) para comissões, prorrogação e anonimato.
 
 !!! success "Status: 0.42.0"
     Os comandos abaixo estão disponíveis aos jogadores no servidor oficial.

@@ -73,10 +73,10 @@ As Fire Feathers da Rare Phoenix funcionam na receita do Fire Bow. Armas produzi
 
 No 0.43.0, o **Fire Bow** exibe corretamente a cor do item.
 
-No PvM do 0.42.0, ataques com armas contra criaturas chegam a **80%** de
-chance-base em 100.0 de skill efetiva e a **88%** em 110.0. O Elven Bow é a
+No PvM, ataques com armas contra criaturas chegam a **90%** de
+chance-base em 100.0 de skill efetiva (eram **80%**), com teto de **98%**. O Elven Bow é a
 exceção explícita:
-seu +10 de Archery pode chegar a **96%** em 120.0 quando combinado com o
+seu +10 de Archery pode chegar ao teto de **98%** em 120.0 quando combinado com o
 amuleto correspondente, e seu +10 de Tactics continua influenciando o dano
 acima de 100.0. A velocidade 2.50 também vale no PvP; os caps de skill e a
 fórmula de PvP não mudam.

@@ -66,9 +66,27 @@ items, **Journeyman Artisan** at **500**, **Master of Commissions** at
 Kharag now has rewards for crafters: the **Artisan's Mark**, in **6** colors,
 which colors your name in the "crafted by" line of everything you craft, for
 good (to change the color, buy another); common blessed tools with **5,000**
-charges and a weight of **1** stone; the **Giant Beetle** and **Giant Fire
-Beetle**, found nowhere else, tamed in a statuette; and three single-use dyes
-(Royal Violet, Twilight Lavender, and Jade).
+charges and a weight of **1** stone, for **1,000** points each (now including
+Hatchet, Fishing Pole, Mapmaker's Pen, and Skillet); the **Giant Beetle** and
+**Giant Fire Beetle**, found nowhere else, tamed in a statuette; and three
+single-use dyes (Royal Violet, Twilight Lavender, and Jade).
+
+## Metal beetles in 2.3.0
+
+Kharag trades **Giant Beetles** in the DoB ore colors, from Bronze to
+Brittanium. The statuette releases from the backpack an already tamed beetle,
+in the ore's color, which is also ridden on it.
+
+| Beetle | Points |
+|---|---:|
+| Bronze | 35,000 |
+| Shadow | 45,000 |
+| Silver | 55,000 |
+| Gold | 65,000 |
+| Bloodrock | 75,000 |
+| Blackrock | 85,000 |
+| Mythril | 95,000 |
+| Brittanium | 105,000 |
 
 ## Keep exploring
 

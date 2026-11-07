@@ -1,14 +1,15 @@
 # Season of the Wild Hunt
 
 Em novembro, a **Season of the Wild Hunt** instala caçadas em regiões
-selvagens de Felucca. De **1 a 30 de novembro**, **4 vezes por dia**
-(**10:00**, **14:00**, **18:00** e **22:00** de Brasília), a trompa anuncia
-uma besta marcada; a cada hora sem acharem a presa, surge uma pista nova. O
-Huntwarden atende no Safe Haven até **7 de dezembro**.
+selvagens de Felucca. De **1 a 30 de novembro**, a cada **4 horas**
+(**02:00**, **06:00**, **10:00**, **14:00**, **18:00** e **22:00** de
+Brasília), a trompa anuncia uma besta marcada; a cada hora sem acharem a
+presa, surge uma pista nova. O Huntwarden atende no Safe Haven até **7 de
+dezembro**.
 
 A temporada tem fases: de **1 a 10**, a Caça Primeira com a Corça Branca; de
-**11 a 20**, entram o urso e o unicórnio; de **21 a 30**, a caçada das
-**22:00** é a do **Erlking**. A moeda é a **Moonmark** (a mesma de antes, com
+**11 a 20**, entram o urso e o unicórnio; de **21 a 30**, uma caçada sorteada
+por dia é a do **Erlking**. A moeda é a **Moonmark** (a mesma de antes, com
 novo nome).
 
 ## A charada e o rastro
@@ -43,20 +44,26 @@ de uma casa.
   próprio sangue (**2** poças frias, **3** velhas, **4** frescas).
 - **Urso coberto de geada** (a partir de dia 11, marcado pela tempestade):
   tolera mais barulho, foge uma vez e pouco, e ataca com Investida e Rugido
-  anunciados.
+  anunciados. Ele usa a cor da temporada, como a Corça do Luar, e deixa o
+  mesmo rastro de poças de sangue, que cresce conforme a pista fica fresca.
 - **Unicórnio pálido** (a partir de dia 11): foge em saltos, com um brilho
-  no chão antes de cada um, e ataca com Chuva de Estrelas.
-- **Erlking** (caçada das **22:00**, dias **21 a 30**): espera com a matilha
-  espectral, nomeia um caçador como presa e solta os cães. Os cães só ficam
-  sólidos perto das pedras de proteção, e o Erlking fica fora de alcance
-  enquanto a matilha corre. Na metade da vida ele chama mais cães. Vencê-lo
-  rende **100** Moonmarks.
+  no chão antes de cada um, e ataca com Chuva de Estrelas. Ele usa a cor da
+  temporada, como a Corça do Luar, e deixa o mesmo rastro de poças de sangue,
+  que cresce conforme a pista fica fresca.
+- **Erlking** (dias **21 a 30**, uma caçada sorteada por dia): espera com a
+  matilha espectral, nomeia um caçador como presa e solta os cães. Ele usa a
+  cor da temporada, como a Corça do Luar, e deixa o mesmo rastro de poças de
+  sangue. Os cães só ficam sólidos perto das pedras de proteção, e o Erlking
+  fica fora de alcance enquanto a matilha corre. Os cães também usam a cor
+  da temporada e continuam mudando de cor quando ficam sólidos. Na metade da
+  vida ele chama mais cães. Vencê-lo rende **100** Moonmarks.
 
 ## Recompensas
 
 Cada caçada paga **Moonmarks** por conta participante: **50** de base, mais
 **10** por emboscada, **10** sem fuga e **10** achando antes da segunda
-dica (antes: **40** e **5** cada). O Huntwarden troca **11** prêmios, com
+dica (antes: **40** e **5** cada). Os Moonmarks alcançam quem caçou a até
+**24** tiles da presa quando ela cai. O Huntwarden troca **11** prêmios, com
 nomes próprios e deeds que mantêm o nome:
 
 | Recompensa | Moonmarks | Limite por conta |

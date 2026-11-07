@@ -67,9 +67,27 @@ com **2.000** e **Grand Artisan of Britannia** com **5.000**.
 O Kharag ganhou recompensas para quem crafta: a **Marca de Artesão**, em
 **6** cores, que deixa seu nome colorido no "crafted by" de tudo que você
 crafta, para sempre (para trocar a cor, compre outra); ferramentas comuns
-blessed de **5.000** cargas e **1** stone; **Giant Beetle** e **Giant Fire
-Beetle** domados em estatueta, só dele; e **três** tintas de uso único (Violeta
-Real, Lavanda do Crepúsculo e Jade).
+blessed de **5.000** cargas e **1** stone, por **1.000** pontos cada
+(agora com Machadinha, Vara de Pescar, Pena de Cartógrafo e Frigideira);
+**Giant Beetle** e **Giant Fire Beetle** domados em estatueta, só dele; e
+**três** tintas de uso único (Violeta Real, Lavanda do Crepúsculo e Jade).
+
+## Besouros de metal no 2.3.0
+
+O Kharag troca **Giant Beetles** nas cores dos minérios DoB, de Bronze a
+Brittanium. A estatueta solta da mochila um besouro já domado, na cor do
+minério, que também é montado nela.
+
+| Besouro | Pontos |
+|---|---:|
+| Bronze | 35.000 |
+| Shadow | 45.000 |
+| Silver | 55.000 |
+| Gold | 65.000 |
+| Bloodrock | 75.000 |
+| Blackrock | 85.000 |
+| Mythril | 95.000 |
+| Brittanium | 105.000 |
 
 ## Continue explorando
 

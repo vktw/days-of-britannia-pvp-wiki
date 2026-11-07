@@ -7,6 +7,12 @@ description: "Amplie permanentemente o banco do personagem com a Royal Banking C
 A **Royal Banking Charter I** amplia permanentemente a capacidade do banco do
 personagem de **125 para 250 itens**.
 
+## Charter II no 2.3.0
+
+A **Royal Banking Charter II** chega no menu do Banker: por **150.000** Gold
+da conta, ela eleva permanentemente o banco do personagem de **250** para
+**500** itens. Só pode ser comprada por quem já tem a Charter I.
+
 ## Como comprar
 
 1. Abra o menu de contexto de um Banker.

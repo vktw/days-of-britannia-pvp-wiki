@@ -4,7 +4,7 @@ This page will be updated when content is approved for publication. Released sys
 
 For now, see [Arcana](sistemas/arcana.md), [Auction](sistemas/leilao.md), and [Kharag](sistemas/kharag.md) for the current additions.
 
-!!! info "Current version: 2.2.0"
+!!! info "Current version: 2.3.0"
     No next patch has been publicly announced yet.
     Development notes do not represent live behavior until they are published
     and confirmed in production.

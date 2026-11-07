@@ -7,7 +7,8 @@ aumentam a chance. A dica de Slayer Group no tooltip das criaturas selvagens
 
 Os baús ficam em terra de Felucca, fora de cidades, dungeons e áreas com
 guards, com tier pela força da criatura: **Stash**, **Supply**, **Cache**,
-**Hoard** e **Trove**.
+**Hoard** e **Trove**. No 2.3.0, abrir um mapa que você consegue ler mostra
+também a posição exata do tesouro (x, y); só quem pode ler o mapa vê.
 
 ## O que vem no baú
 

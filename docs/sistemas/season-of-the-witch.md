@@ -57,6 +57,11 @@ Brasília: **10:00 e 22:00** em The Missing Names (1 a 7 de outubro), **02:00, 1
 14:00 e 22:00** em The Gathering (8 a 21) e **02:00, 06:00, 10:00, 14:00, 18:00 e 22:00** em
 The Sabbath (22 a 31).
 
+No 2.3.0, o coven ganhou Slayer Groups: as bruxas e o Arauto Sepulcral são
+**Humanoid**; os mortos-vivos, o Espectro Vinculado, a Grave Mother e o
+Ossuary Warden são **Undead**. Slayers, o Slayer's Codex, Hunter Contracts e
+Scrolls of Knowledge passam a valer no confronto.
+
 ## Moeda e prazo de resgate
 
 Coven Orb é a moeda da edição e pertence a ela: somente Orbs da temporada

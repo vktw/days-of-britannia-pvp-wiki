@@ -64,6 +64,18 @@ de qualidade separada e só aparece quando a receita e a categoria permitem esse
 resultado. Por isso, as páginas exibem essas informações em colunas distintas e
 não somam os percentuais.
 
+## Missões de ofício no 2.3.0
+
+**Edric, o Instrutor de Ofícios**, fica ao lado do banco de Britain com missões
+para **10** ofícios: Mineração, Ferraria, Lenhador, Carpintaria, Alfaiataria,
+Pesca, Culinária, Alquimia, Inscrição e Doma. Ao aceitar, a skill sobe para
+**30** e você ganha a ferramenta do ofício; ao cumprir a tarefa, a skill sobe
+para **60** e você ganha uma ferramenta Enduring do ofício, um
+[Tome of Expertise](../sistemas/tomes-expertise.md) e **500** de XP de Maestria
+PvM. Quem conclui todos os ofícios ganha mais **1.000** de ouro, **1.000** de
+XP e o título the Jack of All Trades. Uma missão por vez, cada ofício uma vez
+por personagem.
+
 !!! info "Escopo da primeira organização"
     As páginas priorizam receitas especiais do DoB e referências práticas do
     catálogo nativo. Receitas não listadas continuam acessíveis no gump oficial;

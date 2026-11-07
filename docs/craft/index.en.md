@@ -63,6 +63,17 @@ quality roll and appears only when the recipe and category allow it. For that
 reason, the pages show the information in separate columns and do not add the
 percentages together.
 
+## Trade quests in 2.3.0
+
+**Edric, the Trade Instructor**, stands beside the Britain bank with quests for
+**10** trades: Mining, Blacksmithing, Lumberjacking, Carpentry, Tailoring,
+Fishing, Cooking, Alchemy, Inscription, and Animal Taming. Accepting raises the
+skill to **30** and gives the trade's tool; doing the task raises it to **60**
+and gives an Enduring tool of the trade, a
+[Tome of Expertise](../sistemas/tomes-expertise.md), and **500** PvM Mastery
+XP. Finishing every trade adds **1,000** gold, **1,000** XP, and the title the
+Jack of All Trades. One quest at a time, each trade once per character.
+
 !!! info "First organization scope"
     The pages prioritize DoB special recipes and practical references from the
     native catalog. Unlisted recipes remain available in the official gump and

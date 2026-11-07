@@ -7,7 +7,8 @@ by Masteries, contracts, achievements, and scrolls.
 
 Chests lie on Felucca land, away from towns, dungeons, and guarded areas, with
 the tier set by the creature's strength: **Stash**, **Supply**, **Cache**,
-**Hoard**, and **Trove**.
+**Hoard**, and **Trove**. In 2.3.0, opening a map you can read also shows the
+treasure's exact position (x, y); only whoever can read the map sees it.
 
 ## What the chest holds
 

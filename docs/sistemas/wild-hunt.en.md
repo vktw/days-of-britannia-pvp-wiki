@@ -1,13 +1,13 @@
 # Season of the Wild Hunt
 
 In November, the **Season of the Wild Hunt** sets hunts in Felucca's wild
-regions. From **November 1 to 30**, **4 times a day** (**10:00**, **14:00**,
-**18:00**, and **22:00** Brasilia time), the horn names a marked beast; every
-hour nobody finds the quarry, a new clue is added. The Huntwarden serves in
-the Safe Haven until **December 7**.
+regions. From **November 1 to 30**, every **4 hours** (**02:00**, **06:00**,
+**10:00**, **14:00**, **18:00**, and **22:00** Brasilia time), the horn names
+a marked beast; every hour nobody finds the quarry, a new clue is added. The
+Huntwarden serves in the Safe Haven until **December 7**.
 
 The season has phases: **1–10**, the First Hunt with the White Hind; **11–20**,
-the bear and the unicorn join; **21–30**, the **22:00** hunt is the
+the bear and the unicorn join; **21–30**, a drawn hunt a day is the
 **Erlking's**. The currency is the **Moonmark** (the same coin, renamed).
 
 ## The riddle and the trail
@@ -41,20 +41,27 @@ house.
   circle. The Moonlit one has **2,000** life; its trail is only pools of its
   own blood (**2** cold pools, **3** old, **4** fresh).
 - **Frost-rimed grizzly** (from day 11, storm-marked): tolerates more noise,
-  flees once and not far, and strikes with an announced Charge and Roar.
+  flees once and not far, and strikes with an announced Charge and Roar. It
+  wears the season's colour, like the Moonlit Hind, and leaves the same trail
+  of blood pools, growing as the trail gets fresher.
 - **Pale unicorn** (from day 11): flees in leaps, a glimmer on the ground
-  before each one, and strikes with Starfall.
-- **Erlking** (**22:00** hunt, days **21–30**): waits with the spectral pack,
-  names a hunter as quarry, and looses the hounds. The hounds only hold solid
-  form near the ward stones, and the Erlking stays out of reach while his pack
-  runs. At half his life he calls more hounds. Defeating him pays **100**
-  Moonmarks.
+  before each one, and strikes with Starfall. It wears the season's colour,
+  like the Moonlit Hind, and leaves the same trail of blood pools, growing as
+  the trail gets fresher.
+- **Erlking** (days **21–30**, one drawn hunt a day): waits with the spectral
+  pack, names a hunter as quarry, and looses the hounds. He wears the season's
+  colour, like the Moonlit Hind, and leaves the same trail of blood pools. The
+  hounds only hold solid form near the ward stones, and the Erlking stays out
+  of reach while his pack runs. The hounds wear the season's colour too and
+  still change colour when they turn solid. At half his life he calls more
+  hounds. Defeating him pays **100** Moonmarks.
 
 ## Rewards
 
 Each hunt pays **Moonmarks** per taking part account: **50** base, plus
 **10** for an ambush, **10** with no flight, and **10** for finding it before
-the second hint (previously **40** and **5** each). The Huntwarden trades
+the second hint (previously **40** and **5** each). Moonmarks reach hunters
+up to **24** tiles from the quarry when it falls. The Huntwarden trades
 **11** rewards, with proper names and deeds that keep the name:
 
 | Reward | Moonmarks | Account limit |

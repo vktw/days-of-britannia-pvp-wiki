@@ -73,9 +73,9 @@ Fire Feathers from a Rare Phoenix work in the Fire Bow recipe. Weapons made thro
 
 In 0.43.0, the **Fire Bow** correctly displays the item's color.
 
-In 0.42.0 PvM, weapon attacks against creatures reach an **80%** base chance at
-100.0 effective skill and **88%** at 110.0. The Elven Bow is the explicit exception: its +10
-Archery can reach **96%** at 120.0 when combined with the matching amulet, and
+In PvM, weapon attacks against creatures reach a **90%** base chance at
+100.0 effective skill (it was **80%**), with a **98%** cap. The Elven Bow is the explicit exception: its +10
+Archery can reach the **98%** cap at 120.0 when combined with the matching amulet, and
 its +10 Tactics continues to affect damage above 100.0. The 2.50 speed also
 applies in PvP; skill caps and the PvP formula do not change.
 

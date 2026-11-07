@@ -22,6 +22,11 @@ character must be alive, outside the Arena, and free from combat, recent
 aggression, or trade, with enough follower slots and physical space at the
 location. The pet returns under control with the follow order.
 
+Shrink statuettes do not decay: left on the ground, inside a house or outside,
+they stay until someone picks them up, like a pet in the stable. Pets from
+lost statuettes are not gone for good: call staff, who returns each one in a
+new statuette in your bank.
+
 ## Rare mounts
 
 | Group | Possibilities | Minimum Animal Taming | Behavior |
