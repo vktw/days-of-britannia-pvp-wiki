@@ -39,7 +39,7 @@ The shard's first seven custom-art items live here: the bonsai tree and the
 six ipe/flamboyant/jacaranda trees. A Legendary birth is announced to the
 whole server. Each bonsai weighs **5 stones**.
 
-<img src="../../assets/bonsais-dob.png" alt="The 16 bonsais by rarity" loading="lazy">
+<img src="/assets/bonsais-dob.png" alt="The 16 bonsais by rarity" loading="lazy" width="640">
 
 ## Keep exploring
 

@@ -38,7 +38,7 @@ Os sete primeiros itens com arte própria do shard estão aqui: bonsai tree e
 os seis ipês/flamboyant/jacarandá. O nascimento de um Legendary é anunciado
 para todo o servidor. Cada bonsai pesa **5 stones**.
 
-<img src="../../assets/bonsais-dob.png" alt="Os 16 bonsais por raridade" loading="lazy">
+<img src="/assets/bonsais-dob.png" alt="Os 16 bonsais por raridade" loading="lazy" width="640">
 
 ## Continue explorando
 
