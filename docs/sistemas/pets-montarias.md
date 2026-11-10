@@ -27,6 +27,13 @@ ficam até alguém pegar, como um pet no estábulo. Pets de estatuetas perdidas
 não somem de vez: chame a staff, que devolve cada um numa estatueta nova no
 seu banco.
 
+## Protective Ward no 2.4.0
+
+A **Protective Ward** é uma deed vendida pelo Animal Trainer por **50.000**
+gold: compre quantas quiser e use na montaria, da mochila ou do banco. Na
+próxima vez em que ela morreria, ela é salva e vai para o seu banco como
+estatueta, e a ward é consumida. Vale para qualquer morte, inclusive PvP.
+
 ## Montarias raras
 
 | Grupo | Possibilidades | Animal Taming mínimo | Funcionamento |

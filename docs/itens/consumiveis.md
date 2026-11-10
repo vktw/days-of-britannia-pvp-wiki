@@ -119,6 +119,8 @@ Novos personagens recebem Spellbook completo, Runebook vazio e cavalo shrinkado.
 
 No 2.3.0, todo Mage vende o **Runic Atlas** por **250.000** Gold: um livro de runas para **48** runas e até **100** cargas, recarregado com scrolls de Recall como o Runebook.
 
+No 2.4.0, o Mapmaker vende o **Treasure Map Book** por **250.000** Gold: um livro blessed de **1** stone para até **50** mapas decodificados, com janela de livro aberto, filtro por nível e cursor próprio; o mapa de **30** dias vai para o seu banco. O livro é de couro marrom, pode ser virado e aceita encadernação de livro, como o Runic Atlas — que também aceita encadernação sem perder as entradas, voltando ao original com Restore.
+
 Veja [Cura e recursos](../combate/cura-recursos.md) para todas as faixas e delays.
 
 !!! success "Status: 0.45.1"

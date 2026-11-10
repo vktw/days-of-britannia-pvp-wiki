@@ -71,8 +71,11 @@ Fishing, Cooking, Alchemy, Inscription, and Animal Taming. Accepting raises the
 skill to **30** and gives the trade's tool; doing the task raises it to **60**
 and gives an Enduring tool of the trade, a
 [Tome of Expertise](../sistemas/tomes-expertise.md), and **500** PvM Mastery
-XP. Finishing every trade adds **1,000** gold, **1,000** XP, and the title the
-Jack of All Trades. One quest at a time, each trade once per character.
+XP. In 2.4.0, the crafting quests (Blacksmithing, Carpentry, Tailoring,
+Cooking, Alchemy, and Inscription) count every craft attempt, successful or
+not; taming counts only successes; the totals are unchanged. Finishing every
+trade adds **1,000** gold, **1,000** XP, and the title the Jack of All Trades.
+One quest at a time, each trade once per character.
 
 !!! info "First organization scope"
     The pages prioritize DoB special recipes and practical references from the

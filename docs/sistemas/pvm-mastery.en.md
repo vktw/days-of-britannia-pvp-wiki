@@ -82,6 +82,8 @@ The scroll uses the normal corpse loot lifetime. A mastery does not need to be a
 
 In 0.49.0, a scroll for a Mastery you already know can be consumed for a **+5% effect bonus for 60 minutes** of play. If it is inactive, the bonus activates it without taking one of the five slots; one bonus at a time, and the Compendium shows the bonus and the time left.
 
+In 2.4.0, bonuses stack in layers: each scroll used on a known Mastery adds a layer of **+5%** for **60** minutes, with its own clock, up to **3** layers (**+15%**). The treasure scroll is worth two layers. Scrolls of the same Mastery stack; using a stack lets you choose how many to apply. To split a stack, double-click it, type the amount and use Split; the new pile keeps its Mastery.
+
 ## Complete catalog of Masteries
 
 Baseline numeric values on Live 0.42.0. The Level 1, Level 10, and Level 20 columns

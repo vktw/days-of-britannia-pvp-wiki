@@ -193,8 +193,10 @@ by the game. The eight introductory stages are sequential:
 
 The hints point to Britain Cemetery, Despise Trolls, Despise Lizardmen, Desert of
 Compassion, Shame, Covetous, Orc Cave, and Despise, but other eligible locations
-also count. Each stage grants PvM Mastery XP and gold; see
-[Achievements](../sistemas/achievements.md) for the specific rewards.
+also count. Each stage grants PvM Mastery XP and gold; the first five also grant
+two random Tomes of Expertise each (no retroactive tomes for gold already
+received). See [Achievements](../sistemas/achievements.md) for the specific
+rewards.
 
 ### 4. Choose a first playstyle
 

@@ -52,8 +52,8 @@ In 2.2.0, **Aldric, the Master Artisan**, arrived beside Kharag with daily
 craft orders: every day from **20:00** he asks for one kind of item (kits,
 Bloodrock and Blackrock weapons, bows, house items, jewels) and takes as many
 as you deliver, by targeting an item or a container. Each item adds points to
-your Kharag balance for its materials' value, **+50%** if you made it and
-**+25%** if it is exceptional. The next day the items go to auction one at a
+your Kharag balance for its materials' value, **+75%** if you made it and
+**+50%** if it is exceptional (**225%** of the base with both). The next day the items go to auction one at a
 time; the sale gold leaves the economy, and one that does not sell is
 discarded.
 
@@ -87,6 +87,13 @@ in the ore's color, which is also ridden on it.
 | Blackrock | 85,000 |
 | Mythril | 95,000 |
 | Brittanium | 105,000 |
+
+## Prosperity Draught in 2.4.0
+
+In 2.4.0, Kharag sells the **Prosperity Draught** for **1,000** points. For
+**60** minutes of play, every PvM kill you share in gives **10%** more of the
+creature's gold, placed straight in your backpack (in your bank if it is full)
+with a message, on top of the Young bonus if you have it.
 
 ## Keep exploring
 

@@ -36,6 +36,11 @@ In 0.46.2, Armor Kit Make Max stops when ingots or another requirement are
 missing instead of repeating the message and locking the menu. Crafting a kit
 plays the hammer sound and reopens the Blacksmithy menu.
 
+In 2.4.0, the Armor Kit craft window shows the real success and exceptional
+chances: the metal curve (Blackrock at Blacksmith **110** is **91%**, not
+**70%**) and the **+10%** of a Reliable or Refined tool, which already applied
+to the roll.
+
 Each **Leather Armor** piece now has exactly the same `Armor Rating` as its
 matching Chain, Ringmail, or Gorget piece in the same material. Mixing Leather
 with metal no longer gives an advantage over the kit; the Blacksmithy curve and

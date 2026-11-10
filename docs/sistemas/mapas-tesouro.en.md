@@ -84,6 +84,29 @@ the port and time, and tells whether the Tide is active where you are.
 - The Tinkering **Metal Chest** trains Lockpicking to **100**: made by a **100** tinker, its lock needs **76**; old chests unchanged.
 - Treasure maps truly reset after **30 days** undug (the chest moves); guardians spawn around the chest, not on top; an item stolen by a Grubber returns on its corpse. The map owner's party can also disarm the trap. In 1.3.0, each chest calls at most **1 Ancient Guardian**, which leaves loot, and its death disarms the trap; lifting an item from the chest no longer calls a new monster.
 
+## Treasure Map Book in 2.4.0
+
+The **Treasure Map Book**, sold by the Mapmaker for **250,000** Gold, is a
+blessed **1**-stone book for up to **50** decoded maps. Drop a decoded map onto
+the book; double-click it to see each map's level, facet and position, and take
+any of them out to your backpack.
+
+The book has a cursor of its own: aim it at a map or at one of your containers
+(the backpack too) and every map you decoded goes into it, up to **50**. Only
+what you carry or keep in your bank counts; what is on the ground, in a house
+or on another character is refused.
+
+The window is an open book, like the Slayer's Codex: **6** maps per page, with
+level, place, days left and a take button, arrows to turn the page, and a tier
+filter (all plus each tier, from Stash to Trove, with the map count).
+
+A map that completes **30** days goes to your bank, with a notice at your first
+login if you were offline; beside each map, in how many days it leaves, in red
+in the last **3**.
+
+The book is brown leather, can be turned, and takes a book binding, like the
+Runebook, the Hunter's Compendium, the Slayer's Codex and the Magnum Opus.
+
 ## Keep exploring
 
 See [PvM Mastery](pvm-mastery.md) for bonuses, [Cartography](../craft/cartography.md) for maps, [Commands](../comandos.md) for `.fortunetide`, and [PvM rewards](../itens/recompensas-pvm.md) for loot.
