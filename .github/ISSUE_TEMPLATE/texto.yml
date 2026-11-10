@@ -1,0 +1,26 @@
+name: "Propor texto novo"
+description: Explicação ou passo a passo que ainda falta na wiki.
+title: "[texto] "
+labels: ["texto"]
+body:
+  - type: input
+    id: tema
+    attributes:
+      label: Tema
+      description: Sobre qual sistema ou tarefa é o texto.
+    validations:
+      required: true
+  - type: textarea
+    id: texto
+    attributes:
+      label: Texto sugerido
+      description: Escreva com suas palavras. A manutenção formata e traduz.
+    validations:
+      required: true
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do jogo
+      description: A versão exibida na página inicial da wiki.
+    validations:
+      required: false

@@ -1,0 +1,26 @@
+name: "Sugerir correção"
+description: Um número, nome, local ou regra da wiki está diferente do jogo.
+title: "[correção] "
+labels: ["correção"]
+body:
+  - type: input
+    id: pagina
+    attributes:
+      label: Página afetada
+      description: "Nome da página ou link (ex.: Maestria PvM)."
+    validations:
+      required: true
+  - type: textarea
+    id: erro
+    attributes:
+      label: O que está errado
+      description: O que a wiki diz hoje e o que o jogo mostra.
+    validations:
+      required: true
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do jogo
+      description: A versão exibida na página inicial da wiki quando você viu o erro.
+    validations:
+      required: false
