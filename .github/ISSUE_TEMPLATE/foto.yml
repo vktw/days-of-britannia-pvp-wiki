@@ -1,0 +1,26 @@
+name: "Enviar foto"
+description: Foto de local, criatura, item ou evento para ilustrar a wiki.
+title: "[foto] "
+labels: ["foto"]
+body:
+  - type: textarea
+    id: foto
+    attributes:
+      label: Foto
+      description: Arraste a imagem para este campo. Só fotos suas ou com permissão de uso.
+    validations:
+      required: true
+  - type: input
+    id: contexto
+    attributes:
+      label: Onde e quando
+      description: Local no jogo, data e versão do jogo. Sem isso a foto não pode ser usada.
+    validations:
+      required: true
+  - type: input
+    id: pagina
+    attributes:
+      label: Página destino (se souber)
+      description: Qual página da wiki deveria usar a foto.
+    validations:
+      required: false

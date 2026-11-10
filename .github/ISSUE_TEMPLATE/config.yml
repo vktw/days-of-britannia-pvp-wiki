@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "Dúvida sobre jogar (Discord)"
+    url: https://discord.gg/e2VDbg2NYw
+    about: Perguntas de gameplay vão para o Discord, não para as issues.
