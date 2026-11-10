@@ -1,13 +1,14 @@
 ---
 template: home.html
-description: Official Days of Britannia manual for getting started, understanding combat, and consulting Live systems.
+title: Brazilian Ultima Online shard
+description: "Days of Britannia, an active Brazilian Ultima Online shard. Guide to getting started, playing free, understanding combat, and consulting the Live systems."
 hide:
   - toc
 ---
 
 <section class="dob-landing-hero" aria-labelledby="dob-landing-title">
-  <span class="dob-landing-kicker">Ultima Online shard</span>
-  <h1 id="dob-landing-title" class="dob-landing-hero__title">Britannia<br>is <em>calling.</em></h1>
+  <span class="dob-landing-kicker">Brazilian Ultima Online shard</span>
+  <h1 id="dob-landing-title" class="dob-landing-hero__title">Ultima Online<br>is <em>calling.</em></h1>
   <p class="dob-landing-hero__lede">Hunt dragons in Destard, mine in Minoc, and trade blows with PKs across the world. The nostalgia of the Brazilian Ultima Online freeshards is back.</p>
   <div class="dob-landing-cta">
     <a class="dob-landing-btn dob-landing-btn--fire" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">

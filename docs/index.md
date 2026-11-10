@@ -1,13 +1,14 @@
 ---
 template: home.html
-description: Manual oficial do Days of Britannia para começar, entender o combate e consultar os sistemas Live.
+title: Shard brasileiro de Ultima Online
+description: "Days of Britannia: shard brasileiro de Ultima Online ativo. Guia para começar, jogar grátis, entender o combate e consultar os sistemas Live."
 hide:
   - toc
 ---
 
 <section class="dob-landing-hero" aria-labelledby="dob-landing-title">
-  <span class="dob-landing-kicker">Shard de Ultima Online</span>
-  <h1 id="dob-landing-title" class="dob-landing-hero__title">Britannia<br>te <em>chama.</em></h1>
+  <span class="dob-landing-kicker">Shard brasileiro de Ultima Online</span>
+  <h1 id="dob-landing-title" class="dob-landing-hero__title">Ultima Online<br>te <em>chama.</em></h1>
   <p class="dob-landing-hero__lede">Cace dragões em Destard, minere em Minoc e troque golpes com PKs pelo mundo. A nostalgia dos freeshards brasileiros de Ultima Online está de volta.</p>
   <div class="dob-landing-cta">
     <a class="dob-landing-btn dob-landing-btn--fire" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
