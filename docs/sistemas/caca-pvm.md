@@ -25,6 +25,8 @@ Fale com um deles para consultar o contrato disponível.
 O contrato usa a progressão de XP de Maestria PvM elegível como referência e não
 cria uma tabela de loot paralela para as criaturas. O tooltip das criaturas
 selvagens mostra o grupo de Slayer, o mesmo de maestrias, contratos e scrolls.
+No 2.5.0, Corpser, Reaper, Whipping Vine, Swamp Tentacle, Bogling, Bog Thing e
+Quagmire passaram ao grupo Fey.
 
 ## Criaturas mágicas
 

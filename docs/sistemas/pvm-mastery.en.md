@@ -84,6 +84,8 @@ In 0.49.0, a scroll for a Mastery you already know can be consumed for a **+5% e
 
 In 2.4.0, bonuses stack in layers: each scroll used on a known Mastery adds a layer of **+5%** for **60** minutes, with its own clock, up to **3** layers (**+15%**). The treasure scroll is worth two layers. Scrolls of the same Mastery stack; using a stack lets you choose how many to apply. To split a stack, double-click it, type the amount and use Split; the new pile keeps its Mastery.
 
+In 2.5.0, the **+15%** cap became the total across all your Masteries: scrolls of different Masteries count together. An inactive Mastery is still activated by its scroll, outside the slots. When the total is full, a new scroll is refused and stays with you, without replacing another Mastery's bonus.
+
 ## Complete catalog of Masteries
 
 Baseline numeric values on Live 0.42.0. The Level 1, Level 10, and Level 20 columns

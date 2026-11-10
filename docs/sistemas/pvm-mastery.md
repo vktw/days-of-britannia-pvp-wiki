@@ -85,6 +85,8 @@ No 0.49.0, um scroll de Maestria que você já conhece pode ser consumido para u
 
 No 2.4.0, os bônus passaram a somar em camadas: cada pergaminho numa Maestria conhecida adiciona uma camada de **+5%** por **60** minutos, com relógio próprio, até **3** camadas (**+15%**). O pergaminho do tesouro vale duas camadas. Pergaminhos da mesma Maestria se empilham; ao usar uma pilha, você escolhe quantos aplicar. Para separar uma pilha, dê dois cliques nela, digite a quantidade e use Separar; a nova pilha mantém a Maestria.
 
+No 2.5.0, o limite de **+15%** passou a ser do total, somando todas as Maestrias: pergaminhos de Maestrias diferentes valem ao mesmo tempo. Uma Maestria inativa continua sendo ativada pelo pergaminho, fora dos espaços. Quando o total está cheio, um pergaminho novo é recusado e fica com você, sem substituir o bônus de outra Maestria.
+
 ## Catálogo completo das Maestrias
 
 Valores numéricos-base do Live 0.42.0. As colunas Nv 1, Nv 10 e Nv 20 resumem a

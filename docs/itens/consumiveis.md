@@ -16,7 +16,8 @@ efeito da potion permanece o mesmo e ela não é consumida quando a mana já est
 cheia.
 
 No 0.50.0, **Mage, Alchemist e Docks Alchemist** mantêm pelo menos **320 de
-cada reagente**, e o Mage mantém **320 Blank Scrolls**.
+cada reagente**, e o Mage mantém **320 Blank Scrolls**. No 2.5.0, o piso de
+reagentes subiu para **640** de cada um dos oito clássicos.
 
 ## Dragon Blood Clothing Dye
 
@@ -27,6 +28,17 @@ uma cobrança dinâmica em gold com piso de 50.000; o dye possui uma carga.
 No 0.49.0, as tintas especiais (Great Harts raros, Pestilent, Black Moon,
 Heaven e Dragon Blood) também pintam o cabelo e a barba do próprio personagem
 — mire em si mesmo — e a própria mochila.
+
+## Thessaly, a Desatadora, no 2.5.0
+
+**Thessaly, a Desatadora**, fica em Nujel'm e troca armas e armaduras mágicas
+do loot por tintas de uso único para roupas, na cor da magia: Vanquishing ou
+Invulnerability custa **1** peça, Power ou Fortification **5**, Force ou
+Hardening **10**, Might ou Guarding **15** e Ruin ou Defense **20**, mais
+**50.000** de ouro por tinta. As peças saem da mochila e do banco, inclusive
+de dentro de bolsas, e a troca é inteira ou nenhuma. O preço de cada tinta
+sobe **1%** a cada troca e cai **1%** por dia sem troca, nunca abaixo de
+**50.000**.
 
 ## Hides e Leather no 0.43.0
 

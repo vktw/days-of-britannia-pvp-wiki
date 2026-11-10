@@ -2,6 +2,27 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 2.5.0 · The Hall of Echoes
+
+Published on November 8, 2026.
+
+- Thessaly, the Unbinder, in Nujel'm, trades the magical weapons and armor of the loot for one-use clothing tints in the colour of the magic: Vanquishing or Invulnerability takes **1** piece, Power or Fortification **5**, Force or Hardening **10**, Might or Guarding **15** and Ruin or Defense **20**, plus **50,000** gold per tint. The pieces come from your backpack and bank, bags inside them included, and the trade is whole or nothing. The price of each tint rises **1%** with every trade and falls **1%** for each day without one, never below **50,000**.
+- The first tame or the death of a wild Rideable Darkmane is now announced to the whole server and on Discord, with the player's name, **5** minutes later.
+- Man in the Hedge: the notice that the true one awaits at the center now reaches only those in the maze, and his death is no longer announced. The event ends with the mount he leaves: its tame or death is announced to the whole server and on Discord, with the winner's name, **5** minutes later.
+- Mage, Alchemist and Docks Alchemist now keep at least **640** of each of the eight classic reagents (previously **320**).
+- New Donation Chest beside the Nujel'm bank, with the same contents as Britain's: what is given at one can be taken at the other.
+- Hall of Echoes, a new solo challenge on Sundays, booked in .events: **24** hours, one run per account, **4** waves and **6** echoes drawn from **10** of the shard's bosses, faithful copies of the originals without their helpers, the same for everyone that day, with a new theme each week. Dying only ends the run, with nothing lost. All the gold goes straight to the bank with a **100%** bonus, and each stage earns Kharag points. One hour before it opens, the event is announced in the game and on Discord.
+- Each Sunday's champion takes a trophy and the title the Echo Champion, and the podium earns medals for the talisman slot: gold for the first, silver for the second and bronze for the third. Every creature defeated in the Hall has a **0.5%** chance to leave, straight into the backpack, one of these items in the event's colour: the Dye of the Echoes, a decorative skull or the Helm of the Returning Echo, a Dragon Helm of Invulnerability with a random Mastery at **+10%**.
+- Armory: taking out a stack (potions, reagents, arrows, bandages) opens a window that asks how many, with the whole stack filled in.
+- Armory: a loadout now also records the weapons, bows and shields you carry in your backpack, bags inside it included. Equipping it brings matching stored pieces back to the backpack, never again the ones you already carry.
+- Scrolls of Knowledge of different Masteries now work together: the **+15%** cap (three layers) is the total across all your Masteries. An inactive Mastery is still activated by its scroll, outside the slots. A new scroll no longer replaces another Mastery's bonus: when the total is full it is refused and stays with you.
+- Donation Chest: no container goes into the chest any more, not even one placed by staff. A crate full of items counted as a single item, so the chest went past **100** without deleting the oldest.
+- Corpser, Reaper, Whipping Vine, Swamp Tentacle, Bogling, Bog Thing and Quagmire are now in the Fey Slayer Group: they count for the group's contracts, achievements and scrolls, and Fey Slayer weapons work on them.
+- Armory: a new search field with a Search button. Type part of a name (case and accents do not matter) and press Search: only the matching items show, in the chosen category, each with its own Take. An empty field and Search show everything again.
+- The .events window now lists the shard's events, each with its own button: the Free-for-All's opens its registration window, with a button back to the list, and the Hall of Echoes' opens its bookings.
+
+See [Consumables](itens/consumiveis.md), [Daily Dungeon](sistemas/daily-dungeon.md), [Rare spawns](sistemas/spawns-raros.md), [Hall of Echoes](sistemas/hall-of-echoes.md), [PvM Mastery](sistemas/pvm-mastery.md), [Donation Chest](sistemas/donation-chest.md), [PvM hunt](sistemas/caca-pvm.md), [Houses](sistemas/casas.md) and [Commands](comandos.md).
+
 ## 2.4.0 · Layers of knowledge and the Map Book
 
 Published on November 6, 2026.

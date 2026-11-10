@@ -34,7 +34,9 @@ crimson, charnel ember, and mire black.
 
 In 2.3.0, **2** in every **100** Bloodmire Darkmanes are born tamable: it needs
 **100** Animal Taming, takes **1** slot, and the mount keeps the colour of the
-level it was born on. When one is born, the game and Discord announce it.
+level it was born on. When one is born, the game and Discord announce it. In
+2.5.0, the first tame and the death of a wild one are also announced to the
+whole server and on Discord, with the player's name, **5** minutes later.
 
 **Thorne, the Bloodmire Stalker**, at the entrance, offers **1** contract per
 account per day, the **Bloodmire Bounty**: **6,000** PvM Mastery XP in that
