@@ -172,6 +172,11 @@ Eleventh Heart**, extra loot, and a Chronicle connected to **Elias Wren**.
 While the event is active, Town Criers can also share a rumor that mentions it;
 see [Whispers of Britannia](whispers-britannia.md).
 
+In 2.5.0, the notice that the true one awaits at the center reaches only those
+in the maze, and his death is no longer announced. The event ends with the
+mount he leaves: its tame or death is announced to the whole server and on
+Discord, with the winner's name, **5** minutes later.
+
 ## Nightmare
 
 From time to time, **four crystal skulls** wake at the corners of a stone

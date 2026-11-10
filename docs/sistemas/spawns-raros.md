@@ -172,6 +172,11 @@ Eleventh Heart**, loot extra e uma Chronicle relacionada a **Elias Wren**.
 Enquanto o evento está ativo, Town Criers também podem compartilhar um rumor
 que o menciona; consulte [Whispers of Britannia](whispers-britannia.md).
 
+No 2.5.0, o aviso de que o verdadeiro aguarda no centro aparece só para quem
+está no labirinto, e a morte dele não é mais anunciada. O evento termina com
+a montaria que ele deixa: a doma ou a morte dela é anunciada para todo o
+servidor e no Discord, com o nome do vencedor, **5** minutos depois.
+
 ## Pesadelo
 
 De tempos em tempos, **quatro crânios de cristal** despertam nos cantos de

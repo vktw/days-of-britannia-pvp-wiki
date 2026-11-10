@@ -2,6 +2,27 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 2.5.0 · O Hall of Echoes
+
+Publicado em 8 de novembro de 2026.
+
+- Thessaly, a Desatadora, em Nujel'm, troca armas e armaduras mágicas do loot por tintas de uso único para roupas, na cor da magia: Vanquishing ou Invulnerability custa **1** peça, Power ou Fortification **5**, Force ou Hardening **10**, Might ou Guarding **15** e Ruin ou Defense **20**, mais **50.000** de ouro por tinta. As peças saem da mochila e do banco, inclusive de dentro de bolsas, e a troca é inteira ou nenhuma. O preço de cada tinta sobe **1%** a cada troca e cai **1%** por dia sem troca, nunca abaixo de **50.000**.
+- A primeira doma e a morte de um Rideable Darkmane selvagem agora são anunciadas para todo o servidor e no Discord, com o nome do jogador, **5** minutos depois.
+- Man in the Hedge: o aviso de que o verdadeiro aguarda no centro agora aparece só para quem está no labirinto, e a morte dele não é mais anunciada. O evento termina com a montaria que ele deixa: a doma ou a morte dela é anunciada para todo o servidor e no Discord, com o nome do vencedor, **5** minutos depois.
+- Mage, Alchemist e Docks Alchemist agora mantêm pelo menos **640** de cada um dos oito reagentes clássicos (antes, **320**).
+- Novo Donation Chest ao lado do banco de Nujel'm, com o mesmo conteúdo do de Britain: o que for doado em um pode ser retirado no outro.
+- Hall of Echoes, um novo desafio solo aos domingos, reservado em .events: **24** horários, uma corrida por conta, **4** ondas e **6** ecos sorteados entre **10** bosses do shard, cópias fiéis dos originais, sem seus ajudantes, os mesmos para todos no dia, com tema novo a cada semana. Morrer só encerra a corrida, sem perder nada. Todo o gold vai direto para o banco, com **100%** de bônus, e cada etapa rende pontos do Kharag. Uma hora antes de abrir, o evento é anunciado no jogo e no Discord.
+- O campeão de cada domingo leva um troféu e o título the Echo Champion, e o pódio ganha medalhas para o espaço do talismã: ouro para o primeiro, prata para o segundo e bronze para o terceiro. Cada criatura derrotada no Hall tem **0,5%** de chance de deixar, direto na mochila, um destes itens na cor do evento: a Tinta dos Ecos, uma caveira decorativa ou o Helm of the Returning Echo, um Dragon Helm de Invulnerability com uma Maestria sorteada a **+10%**.
+- Arsenal: ao retirar uma pilha (poções, reagentes, flechas, bandagens), uma janela pergunta a quantidade, com a pilha inteira já preenchida.
+- Arsenal: o loadout agora também grava as armas, arcos e escudos que você leva na mochila, inclusive dentro de bolsas. Ao equipar, peças iguais guardadas voltam para a mochila, sem repetir as que você já carrega.
+- Pergaminhos de Conhecimento de Maestrias diferentes agora valem ao mesmo tempo: o limite de **+15%** (três camadas) é do total, somando todas as Maestrias. Uma Maestria inativa continua sendo ativada pelo pergaminho, fora dos espaços. Um pergaminho novo não substitui mais o bônus de outra Maestria: quando o total está cheio, ele é recusado e fica com você.
+- Donation Chest: nenhum recipiente entra mais no baú, nem colocado pela staff. Um caixote cheio de itens contava como um item só, e o baú passava de **100** sem apagar os mais antigos.
+- Corpser, Reaper, Whipping Vine, Swamp Tentacle, Bogling, Bog Thing e Quagmire agora são do Slayer Group Fey: contam para contratos, conquistas e pergaminhos do grupo, e as armas Fey Slayer valem contra eles.
+- Arsenal: novo campo de busca com o botão Buscar. Digite parte do nome (maiúsculas e acentos não importam) e clique em Buscar: aparecem só os itens que batem, na categoria escolhida, cada um com seu Retirar. Campo vazio e Buscar mostram tudo de novo.
+- O .events agora lista os eventos do shard, cada um com seu botão: o do Free-for-All abre a janela de inscrição dele, com um botão para voltar à lista, e o do Hall of Echoes abre as reservas.
+
+Consulte [Consumíveis](itens/consumiveis.md), [Daily Dungeon](sistemas/daily-dungeon.md), [Spawns raros](sistemas/spawns-raros.md), [Hall of Echoes](sistemas/hall-of-echoes.md), [Maestria PvM](sistemas/pvm-mastery.md), [Donation Chest](sistemas/donation-chest.md), [Caça PvM](sistemas/caca-pvm.md), [Casas](sistemas/casas.md) e [Comandos](comandos.md).
+
 ## 2.4.0 · Camadas de conhecimento e Livro de Mapas
 
 Publicado em 6 de novembro de 2026.

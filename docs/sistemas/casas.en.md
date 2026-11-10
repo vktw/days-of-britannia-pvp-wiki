@@ -63,9 +63,16 @@ The house **Armory** is an addon sold by the Architect for **250,000** gold:
 **1** per house. The owner and co-owners share its storage and **5** loadouts.
 It holds weapons, armor, jewelry, clothing, potions, reagents, arrows, bolts,
 bandages, and empty bags. A loadout records the type, material, and tier of
-the pieces, and after a death it wears matching pieces from the storage.
-Storing yourself or a container opens a list where you can unmark what you want
-to keep. It does not work in combat (**30** seconds).
+the pieces, and after a death it wears matching pieces from the storage. In
+2.5.0, a loadout also records the weapons, bows, and shields you carry in your
+backpack, bags inside it included; equipping it brings matching stored pieces
+back to the backpack, never again the ones you already carry. Storing yourself
+or a container opens a list where you can unmark what you want to keep. Taking
+out a stack (potions, reagents, arrows, bandages) opens a window that asks how
+many, with the whole stack filled in. A search field with a Search button
+filters items by name (case and accents do not matter), in the chosen category,
+each with its own Take; an empty field and Search show everything again. It
+does not work in combat (**30** seconds).
 
 !!! success "Status: 0.45.0"
     Co-owner permissions match the production notes.

@@ -17,7 +17,7 @@ theme:
   palette:
     scheme: dob
 extra:
-  dob_version: "2.4.0"
+  dob_version: "2.5.0"
 extra_css:
   - stylesheets/extra.css?v=20261015.1
 extra_javascript:
@@ -161,6 +161,7 @@ nav:
       - Arena e treino:
           - Arena e treinamento: arena.md
           - Free-for-All: sistemas/free-for-all.md
+          - Hall of Echoes: sistemas/hall-of-echoes.md
   # Os URLs mundo/ permanecem estáveis para links publicados; o antigo hub
   # Mundo, as páginas gerais e threat-inventory ficam fora do menu por compatibilidade.
   - Comandos: comandos.md

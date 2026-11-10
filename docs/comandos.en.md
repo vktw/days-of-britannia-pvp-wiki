@@ -49,7 +49,7 @@ Shows the selected Daily Dungeon and the time remaining until the next rotation.
 
 ## `.events`
 
-Opens registration for the weekly **Free-for-All**, from 15 minutes before the time. See [Free-for-All](sistemas/free-for-all.md) for days, rules, and rewards.
+Opens registration for the weekly **Free-for-All**, from 15 minutes before the time. In 2.5.0, the window lists the shard's events, each with its own button: the Free-for-All's opens registration, with a way back to the list, and the Hall of Echoes' opens the bookings. See [Free-for-All](sistemas/free-for-all.md) and [Hall of Echoes](sistemas/hall-of-echoes.md).
 
 ## `.fortunetide`
 

@@ -49,7 +49,7 @@ Mostra qual Daily Dungeon está selecionada e quanto tempo falta para a próxima
 
 ## `.events`
 
-Abre o registro do **Free-for-All** semanal, a partir de 15 minutos antes do horário. Veja [Free-for-All](sistemas/free-for-all.md) para dias, regras e recompensas.
+Abre o registro do **Free-for-All** semanal, a partir de 15 minutos antes do horário. No 2.5.0, a janela passou a listar os eventos do shard, cada um com seu botão: o do Free-for-All abre a inscrição, com volta à lista, e o do Hall of Echoes abre as reservas. Veja [Free-for-All](sistemas/free-for-all.md) e [Hall of Echoes](sistemas/hall-of-echoes.md).
 
 ## `.fortunetide`
 

@@ -33,7 +33,9 @@ crimson, charnel ember e mire black.
 
 No 2.3.0, **2** em cada **100** Darkmanes do Bloodmire nascem domáveis: exige
 **100** de Animal Taming, ocupa **1** slot e a montaria guarda a cor do nível
-em que nasceu. Quando um nasce, o jogo e o Discord avisam.
+em que nasceu. Quando um nasce, o jogo e o Discord avisam. No 2.5.0, a primeira
+doma e a morte de um selvagem também são anunciadas para todo o servidor e no
+Discord, com o nome do jogador, **5** minutos depois.
 
 **Thorne, o Espreitador de Bloodmire**, na entrada, oferece **1** contrato
 por conta por dia, a **Bloodmire Bounty**: **6.000** de XP de Maestria PvM

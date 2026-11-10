@@ -4,7 +4,7 @@ Esta página será atualizada quando houver conteúdo aprovado para divulgação
 
 Enquanto isso, consulte [Arcanos](sistemas/arcana.md), [Leilão](sistemas/leilao.md) e [Kharag](sistemas/kharag.md) para as novidades atuais.
 
-!!! info "Versão atual: 2.4.0"
+!!! info "Versão atual: 2.5.0"
     Ainda não há um próximo patch anunciado publicamente.
     Notas de desenvolvimento não representam comportamento live até serem
     publicadas e confirmadas em produção.

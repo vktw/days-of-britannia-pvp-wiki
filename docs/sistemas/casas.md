@@ -64,9 +64,16 @@ O **Arsenal da casa (Armory)** é um addon vendido pelo Architect por
 armazenamento e **5** loadouts. Ele guarda armas, armaduras, joias, roupas,
 poções, reagentes, flechas, bolts, bandagens e bolsas vazias. O loadout grava
 o tipo, o material e o tier das peças, e depois de uma morte veste peças iguais
-que estiverem guardadas. Ao guardar a si mesmo ou um container, uma lista deixa
-você desmarcar o que não quer guardar. Não funciona em combate (**30**
-segundos).
+que estiverem guardadas. No 2.5.0, o loadout também grava as armas, arcos e
+escudos que você leva na mochila, inclusive dentro de bolsas; ao equipar,
+peças iguais guardadas voltam para a mochila, sem repetir as que você já
+carrega. Ao guardar a si mesmo ou um container, uma lista deixa
+você desmarcar o que não quer guardar. Ao retirar uma pilha (poções,
+reagentes, flechas, bandagens), uma janela pergunta a quantidade, com a pilha
+inteira já preenchida. Um campo de busca com o botão Buscar filtra os itens
+pelo nome (maiúsculas e acentos não importam), na categoria escolhida, cada um
+com seu Retirar; campo vazio e Buscar mostram tudo de novo. Não funciona em
+combate (**30** segundos).
 
 !!! success "Status: 0.45.0"
     As permissões de co-owners correspondem às notas de produção.

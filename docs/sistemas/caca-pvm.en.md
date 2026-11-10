@@ -24,7 +24,9 @@ either one to review the available contract.
 
 The contract uses eligible PvM Mastery XP progression as its reference and does
 not create a parallel creature-loot table. Wild creature tooltips show the
-Slayer Group, the same one used by Masteries, contracts, and scrolls.
+Slayer Group, the same one used by Masteries, contracts, and scrolls. In 2.5.0,
+Corpser, Reaper, Whipping Vine, Swamp Tentacle, Bogling, Bog Thing, and
+Quagmire joined the Fey group.
 
 ## Magical creatures
 

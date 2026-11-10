@@ -17,7 +17,8 @@ menu displays the recipe as `total mana`; the potion's effect is unchanged and
 it is not consumed when mana is already full.
 
 In 0.50.0, **Mage, Alchemist, and Docks Alchemist** keep at least **320 of
-every reagent**, and the Mage keeps **320 Blank Scrolls**.
+every reagent**, and the Mage keeps **320 Blank Scrolls**. In 2.5.0, the
+reagent floor rose to **640** of each of the eight classics.
 
 ## Dragon Blood Clothing Dye
 
@@ -28,6 +29,17 @@ dynamic gold charge with a 50,000-gold floor; the dye has one charge.
 In 0.49.0, special dyes (rare Great Harts, Pestilent, Black Moon, Heaven, and
 Dragon Blood) also dye your own hair and beard — target yourself — and your
 own backpack.
+
+## Thessaly, the Unbinder, in 2.5.0
+
+**Thessaly, the Unbinder**, stands in Nujel'm and trades the magical weapons
+and armor of the loot for one-use clothing tints in the colour of the magic:
+Vanquishing or Invulnerability takes **1** piece, Power or Fortification **5**,
+Force or Hardening **10**, Might or Guarding **15** and Ruin or Defense **20**,
+plus **50,000** gold per tint. The pieces come from your backpack and bank,
+bags inside them included, and the trade is whole or nothing. The price of each
+tint rises **1%** with every trade and falls **1%** for each day without one,
+never below **50,000**.
 
 ## Hides and Leather in 0.43.0
 
