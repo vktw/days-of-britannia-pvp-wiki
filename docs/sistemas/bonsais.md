@@ -2,22 +2,24 @@
 
 Cortando árvores em **Felucca**, lenhadores encontram **mudas de bonsai**
 (em média, 1 a cada 3.000 toras; no máximo 1 por conta a cada 24 horas). A muda
-vai para a mochila com o aviso da descoberta.
+vai para a mochila com o aviso da descoberta, sem tirar nada da coleta: você
+recebe as toras normalmente.
 
 ## Como plantar
 
 Tranque a muda na sua casa e dê dois cliques nela, a até **2 tiles**, sendo
 dono ou co-dono: em **24 horas** ela vira um bonsai surpresa. A muda precisa
-continuar trancada para terminar de crescer.
+continuar trancada para terminar de crescer. Dois cliques na muda mostram
+quanto tempo falta.
 
 ## Adubo
 
 Criaturas da floresta — Reapers, Corpsers, Boglings, Bog Things, Wisps, Shadow
 Wisps, Pixies, dryads, satyrs, treefellows e centaurs —
 deixam **bonsai fertilizer**. Use o adubo da mochila na muda **antes** de
-plantar: a muda adubada garante pelo menos um bonsai **Uncommon**, e só mudas
-adubadas geram **Legendary** (5% de chance). Desde o 0.52.0 o adubo cai com
-mais frequência, e ainda mais no 0.53.0.
+plantar: a muda adubada passa a mostrar **Fertilized**, garante pelo menos um
+bonsai **Uncommon**, e só mudas adubadas geram **Legendary** (5% de chance).
+Desde o 0.52.0 o adubo cai com mais frequência, e ainda mais no 0.53.0.
 
 ## Raridades
 
@@ -34,7 +36,9 @@ cultivou:
 
 Os sete primeiros itens com arte própria do shard estão aqui: bonsai tree e
 os seis ipês/flamboyant/jacarandá. O nascimento de um Legendary é anunciado
-para todo o servidor.
+para todo o servidor. Cada bonsai pesa **5 stones**.
+
+<img src="/assets/bonsais-dob.png" alt="Os 16 bonsais por raridade" loading="lazy" width="640">
 
 ## Continue explorando
 

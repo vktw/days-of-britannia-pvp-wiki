@@ -84,7 +84,10 @@ def main() -> int:
             if target.startswith(("http://", "https://", "data:")):
                 continue
             local_target = target.split("?", 1)[0].split("#", 1)[0]
-            destination = (page.parent / local_target).resolve()
+            if local_target.startswith("/"):
+                destination = (DOCS / local_target[1:]).resolve()
+            else:
+                destination = (page.parent / local_target).resolve()
             if not destination.is_file() and page.parent == DOCS and local_target.startswith("../"):
                 destination = (DOCS / local_target[3:]).resolve()
             if not destination.is_file():
