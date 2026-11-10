@@ -39,8 +39,8 @@ function personalizeDobSearch() {
 
   if (input) {
     input.placeholder = document.documentElement.lang.toLowerCase().startsWith("en")
-      ? "Search the codex"
-      : "Buscar no códice";
+      ? "Search the Wiki"
+      : "Buscar na Wiki";
   }
 }
 
