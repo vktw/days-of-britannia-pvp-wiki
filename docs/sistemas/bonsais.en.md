@@ -2,22 +2,25 @@
 
 Chopping trees in **Felucca**, lumberjacks find **bonsai saplings** (on
 average, 1 per 3,000 logs; at most 1 per account every 24 hours). The sapling
-lands in your backpack with its discovery message.
+lands in your backpack with its discovery message, costing nothing from the
+harvest: you still get your logs as usual.
 
 ## How to plant
 
 Lock the sapling down in your house and double-click it, within **2 tiles**, as
 owner or co-owner: in **24 hours** it becomes a surprise bonsai. The sapling
-must stay locked down to finish growing.
+must stay locked down to finish growing. Double-clicking the sapling shows how
+much time is left.
 
 ## Fertilizer
 
 Forest creatures — Reapers, Corpsers, Boglings, Bog Things, Wisps, Shadow
 Wisps, Pixies, dryads, satyrs, treefellows, and centaurs —
 drop **bonsai fertilizer**. Use the fertilizer from your backpack on the
-sapling **before** planting: a fertilized sapling guarantees at least an
-**Uncommon** bonsai, and only fertilized saplings grow **Legendary** (5%
-chance). Since 0.52.0 fertilizer drops more often, and even more in 0.53.0.
+sapling **before** planting: a fertilized sapling shows **Fertilized**,
+guarantees at least an **Uncommon** bonsai, and only fertilized saplings grow
+**Legendary** (5% chance). Since 0.52.0 fertilizer drops more often, and even
+more in 0.53.0.
 
 ## Rarities
 
@@ -34,7 +37,9 @@ cultivator's name:
 
 The shard's first seven custom-art items live here: the bonsai tree and the
 six ipe/flamboyant/jacaranda trees. A Legendary birth is announced to the
-whole server.
+whole server. Each bonsai weighs **5 stones**.
+
+<img src="../../assets/bonsais-dob.png" alt="The 16 bonsais by rarity" loading="lazy">
 
 ## Keep exploring
 
