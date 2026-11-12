@@ -2,6 +2,30 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 2.6.0 · Breeding the rare mounts
+
+Published on November 11, 2026.
+
+- New female of the rare mounts of Britannia: a mare, an ostard hen or a llama dam, in dark brown and with any of her family's looks (the four horses, the three ostards or the llama). Each family has its own cycle: every **6** to **7** days a new one is born in Felucca, whether others still live or not. She needs **101.0** Animal Taming and moves every **12** hours, and everyone hears when she appears, without the place, and when she is tamed or killed. Each female gives **15** crossings.
+- New Vale Clover, dropped by plant creatures (Reaper, Corpser, Bog Thing, Bogling, Swamp Tentacle, Whipping Vine and Treefellow) and, rarely, found while chopping wood in Felucca (at most one an account every **24** hours). One of them and **101.0** Cooking, with an amulet or scroll, make the feed of a crossing.
+- New breeding pen: a **500,000** gold deed at the Animal Trainer, one per account, placed by the same rules as a house. It holds a male, a female and an offspring, who do not count as followers and cannot be hurt, behind a gate only the owner opens. When you choose the spot, the pen shows in blue to you alone, with the question "Place the pen here?". After **90** days without the owner in the game, the shrunk animals and the deed go to the bank.
+- The breeding's charm: Animal Lore on a rare stallion tells which rare his blood can give and how strong his line is; a foal's tooltip shows its mother, father and stable; you name your stable in the pen's window; when a rare is born everyone hears of it, in the game and on Discord, with its generation; a shrunken mount's statuette shows its lineage; and three new achievements: Rare Blood, Tenth Generation and Master Breeder, which gives the title the Master Breeder.
+- Every week a rare female goes up for auction in .auction, shrunk, of a random family and look.
+- A tamed mount now obeys any owner, with or without Animal Taming: whoever buys a mount from a tamer uses it as normal.
+- Crossing the rare mounts: with **100.0** Herding, Animal Lore and Veterinary and one feed, a male and a female of the same family give, in **72** hours, a tame adult offspring. The offspring has the mother's look and the father's hue, up to **10** numbers above or below, and sometimes it is born in the exclusive hue of the father's band: Obsidian, Ivory, Old Gold, Royal Crimson, Malachite, Sapphire, Amethyst or Glacier, in two tones and with a sparkle, which carries the hue in the name and does not breed. The higher the generation of the father's line, the better the chance of the rare hue.
+- New rare event, the Death Rider: now and then, in Felucca, the dead rise in three waves and the necromancer Seris leads them, Odran's scythe in her hands. Beware when she names you a false witness: for a few seconds, the damage you deal her turns on you. Four skulls before the statues at the crypt's entrance show the event is on and light up as each wave falls. Whoever defeats her sees her Skeletal Steed rise and may try to tame it with **100** Animal Taming; the tamer earns the Death Rider achievement and the title the Death Rider. In this event death is real.
+- Hall of Echoes: the all-time list now breaks ties by kills, as the event does. The order is wins, then the best stage, then kills, then time, and the line shows the kills ("best 2/10, 9 kills, 20:23").
+- Every creature of the Hall of Echoes now belongs to a Slayer group, so the Slayer's Codex, the Arcana's affinity and slayer weapons count against them: each creature keeps its original creature's group, and those that had none take one: the dinosaurs (all but the raptor), Reptilian; the hell cat, Abyss; the echo of the Engine of Nightmares, Elemental. The real Engine of Nightmares, the event's boss, is Elemental too, like its constructs.
+- The Bloodmire Bounty's crate now has floors instead of rising one tier: a weapon at least Force, armor or a shield at least Hardening, magic jewelry at least **+5%** in its PvM Mastery bonus and a magic skill amulet at least **+5**. Anything above a floor stays as rolled.
+- Commodity deeds can now be sold in .auction: a filled deed goes up with the goods inside; an empty deed is still refused. The auction window is wider, so bids up to **100,000,000** fit.
+- The Hall of Echoes' Helm of the Returning Echo shows its right name, without "red" in front, on the helms already dropped too.
+- Rare bosses and creatures on the improved AIs (such as the Bloodmire's) no longer pace by a house's steps or back and forth on a Fire Field: their walk now keeps out of the areas they may not enter, and they cross the fire to whoever attacks them.
+- Murus Flammae: the wall now hits every creature it passes through, including those running toward you. It rises where you aim and rolls away from you.
+- Death Rider: inside the crypt, arrows and spells are no longer blocked by its roof; its outer walls still block. The same stone blocks and stairs no longer block above their height elsewhere in Felucca.
+- Two new achievements lead from the starting path to the Arcana: Into the Bloodmire (**3,000** XP), your first kill in the Bloodmire, and First Bloodmire Bounty (**5,000** XP), your first delivered Bounty.
+
+See [Pets and mounts](sistemas/pets-montarias.md), [Rare spawns](sistemas/spawns-raros.md), [Hall of Echoes](sistemas/hall-of-echoes.md), [PvM Mastery](sistemas/pvm-mastery.md), [Auction](sistemas/leilao.md), [Arcana](sistemas/arcana.md), [Daily Dungeon](sistemas/daily-dungeon.md), [Achievements](sistemas/achievements.md) and [Commands](comandos.md).
+
 ## 2.5.0 · The Hall of Echoes
 
 Published on November 8, 2026.

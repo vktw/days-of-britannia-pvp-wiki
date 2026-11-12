@@ -177,6 +177,20 @@ está no labirinto, e a morte dele não é mais anunciada. O evento termina com
 a montaria que ele deixa: a doma ou a morte dela é anunciada para todo o
 servidor e no Discord, com o nome do vencedor, **5** minutos depois.
 
+## Death Rider no 2.6.0
+
+De tempos em tempos, em Felucca, os mortos se erguem em **três** ondas e a
+necromante **Seris** os lidera, com a foice de Odran nas mãos (o evento volta
+a cada **72** a **120** horas). Cuidado quando ela apontar para você como
+falsa testemunha: por alguns segundos, o dano que você causar nela volta para
+você. **Quatro** caveiras diante das estátuas da entrada da cripta mostram que
+o evento está acontecendo e se acendem a cada onda vencida. Quem a derrotar vê
+o **Skeletal Steed** dela se erguer e pode tentar domá-lo com **100** de
+Animal Taming; quem domar ganha a conquista **Death Rider** e o título **the
+Death Rider**. Neste evento a morte é de verdade. Dentro da cripta, flechas e
+magias não são mais bloqueadas pelo teto; as paredes de fora continuam
+bloqueando.
+
 ## Pesadelo
 
 De tempos em tempos, **quatro crânios de cristal** despertam nos cantos de

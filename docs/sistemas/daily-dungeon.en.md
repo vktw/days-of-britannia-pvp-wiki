@@ -47,6 +47,13 @@ Stalker hands a new copy if you lose yours.
 On delivering the first Bounty, the character receives the **Slayer's Codex**:
 see how it works in [Slayer's Codex](slayers-codex.md).
 
+In 2.6.0, the Bounty's crate gained floors instead of rising one tier: a
+weapon at least Force, armor or a shield at least Hardening, magic jewelry at
+least **+5%** in its PvM Mastery bonus and a magic skill amulet at least **+5**;
+anything above a floor stays as rolled. Two achievements mark the path:
+**Into the Bloodmire** (**3,000** XP, your first Bloodmire kill) and **First
+Bloodmire Bounty** (**5,000** XP, your first delivered Bounty).
+
 ## Lost Lands access
 
 Common player access to Lost Lands and its dungeons is closed under the Live ruleset. Identify the Daily Dungeon through the command and the in-game signs; do not assume that a dungeon outside the rotation offers the same bonuses.

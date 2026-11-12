@@ -22,8 +22,8 @@ hide:
 
 <section class="dob-landing-strip" aria-label="Server status">
   <span class="dob-landing-stat"><strong><i aria-hidden="true"></i>Server online</strong><small>Britannia is active</small></span>
-  <span class="dob-landing-stat"><strong>2.5.0</strong><small>Current version</small></span>
-  <a class="dob-landing-stat" href="patches/"><strong>The Hall of Echoes</strong><small>Latest update</small></a>
+  <span class="dob-landing-stat"><strong>2.6.0</strong><small>Current version</small></span>
+  <a class="dob-landing-stat" href="patches/"><strong>Breeding the rare mounts</strong><small>Latest update</small></a>
 </section>
 
 <nav class="dob-landing-shortcuts" aria-label="Manual shortcuts">
@@ -82,17 +82,17 @@ hide:
   <h2 id="dob-landing-news" class="dob-landing-section__title">The shard keeps moving</h2>
   <div class="dob-landing-news">
     <article class="dob-landing-patch">
-      <span class="dob-landing-patch__tag">Latest update · 2.5.0</span>
-      <h3>The Hall of Echoes</h3>
-      <p class="dob-landing-patch__date"><time datetime="2026-11-08">November 8, 2026</time></p>
-      <p>A solo challenge on Sundays, Thessaly and a handier Armory.</p>
+      <span class="dob-landing-patch__tag">Latest update · 2.6.0</span>
+      <h3>Breeding the rare mounts</h3>
+      <p class="dob-landing-patch__date"><time datetime="2026-11-11">November 11, 2026</time></p>
+      <p>Rare females in Felucca, the breeding pen, the Death Rider, and the wiki stable.</p>
       <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="patches/">Read patch notes</a>
     </article>
     <div class="dob-landing-articles">
       <h3>Latest updated articles</h3>
+      <a href="sistemas/pets-montarias/"><time datetime="2026-11-11">Nov 11</time><span><strong>Pets and mounts</strong><small>Rare crossing and the Death Rider</small></span></a>
+      <a href="patches/"><time datetime="2026-11-11">Nov 11</time><span><strong>Patch notes</strong><small>2.6.0, 2.5.0, and 2.4.0</small></span></a>
       <a href="sistemas/hall-of-echoes/"><time datetime="2026-11-08">Nov 8</time><span><strong>Hall of Echoes</strong><small>Solo challenge on Sundays</small></span></a>
-      <a href="patches/"><time datetime="2026-11-08">Nov 8</time><span><strong>Patch notes</strong><small>2.5.0, 2.4.0, and 2.3.0</small></span></a>
-      <a href="sistemas/mapas-tesouro/"><time datetime="2026-11-06">Nov 6</time><span><strong>Treasure Maps</strong><small>The Mapmaker's Treasure Map Book</small></span></a>
       <a href="sistemas/spawns-raros/"><time datetime="2026-11-01">Nov 1</time><span><strong>Rare spawns</strong><small>Six new Harts and the Nightmare</small></span></a>
     </div>
   </div>

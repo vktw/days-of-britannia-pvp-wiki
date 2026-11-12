@@ -23,7 +23,20 @@ pódio ganha medalhas para o espaço do talismã: **ouro** para o primeiro,
 Cada criatura derrotada no Hall tem **0,5%** de chance de deixar, direto na
 mochila, um destes itens na cor do evento: a **Tinta dos Ecos**, uma caveira
 decorativa ou o **Helm of the Returning Echo**, um Dragon Helm de
-Invulnerability com uma Maestria sorteada a **+10%**.
+Invulnerability com uma Maestria sorteada a **+10%**. O elmo mostra o nome
+certo, sem "red" na frente.
+
+## Histórico e grupos no 2.6.0
+
+O histórico do Hall desempata por abates, como o evento: a ordem é vitórias,
+depois o melhor estágio, depois os abates e depois o tempo, e a linha mostra
+os abates ("melhor 2/10, 9 abates, 20:23").
+
+Todas as criaturas do Hall pertencem a um grupo Slayer: cada uma mantém o
+grupo da criatura original, e as que não tinham ganharam um — os dinossauros
+(menos o raptor), Reptilian; o hell cat, Abyss; o eco do Engine of Nightmares,
+Elemental. O Engine de verdade, boss do evento, é Elemental como seus
+constructs, então Codex, afinidade dos Arcanos e slayers valem no confronto.
 
 ## Continue explorando
 

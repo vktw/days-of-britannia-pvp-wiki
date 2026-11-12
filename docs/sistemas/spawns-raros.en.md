@@ -177,6 +177,19 @@ in the maze, and his death is no longer announced. The event ends with the
 mount he leaves: its tame or death is announced to the whole server and on
 Discord, with the winner's name, **5** minutes later.
 
+## Death Rider in 2.6.0
+
+Now and then, in Felucca, the dead rise in **three** waves and the necromancer
+**Seris** leads them, Odran's scythe in her hands (the event returns every
+**72** to **120** hours). Beware when she names you a false witness: for a few
+seconds, the damage you deal her turns on you. **Four** skulls before the
+statues at the crypt's entrance show the event is on and light up as each wave
+falls. Whoever defeats her sees her **Skeletal Steed** rise and may try to
+tame it with **100** Animal Taming; the tamer earns the **Death Rider**
+achievement and the title **the Death Rider**. In this event death is real.
+Inside the crypt, arrows and spells are no longer blocked by its roof; its
+outer walls still block.
+
 ## Nightmare
 
 From time to time, **four crystal skulls** wake at the corners of a stone

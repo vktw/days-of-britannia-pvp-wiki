@@ -2,6 +2,30 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 2.6.0 · A procriação das montarias raras
+
+Publicado em 11 de novembro de 2026.
+
+- Nova fêmea das montarias raras de Britannia: égua, ostard ou lhama, em marrom escuro e com qualquer um dos visuais da família (os quatro cavalos, os três ostards ou a lhama). Cada família tem o seu ciclo: a cada **6** a **7** dias nasce uma nova em Felucca, haja outras vivas ou não. Precisa de **101.0** de Animal Taming, muda de lugar a cada **12** horas, e todos ficam sabendo quando ela surge, sem o local, e quando é domada ou morta. Cada fêmea dá **15** cruzas.
+- Novo Vale Clover, que cai das criaturas-planta (Reaper, Corpser, Bog Thing, Bogling, Swamp Tentacle, Whipping Vine e Treefellow) e aparece raramente ao cortar lenha em Felucca (no máximo um por conta a cada **24** horas). Com um deles e **101.0** de Cooking, com amuleto ou pergaminho, faz-se a ração do cruzamento.
+- Novo cercado de criação: um deed de **500.000** de ouro no Animal Trainer, um por conta, colocado com as mesmas regras de uma casa. Guarda um macho, uma fêmea e um filhote, que não contam como seguidores e não podem ser feridos, atrás de um portão que só o dono abre. Ao escolher o lugar, o cercado aparece em azul só para você, com a pergunta "Colocar o cercado aqui?". Depois de **90** dias sem o dono entrar, os animais encolhidos e o deed vão para o banco.
+- O charme da criação: Animal Lore num garanhão raro diz de qual rara é o sangue dele e o quanto a linhagem dele é forte; o potro mostra no tooltip a mãe, o pai e o haras; você batiza o seu haras na janela do cercado; quando nasce uma rara, todos ficam sabendo, no jogo e no Discord, com a geração dela; a estatueta de uma montaria encolhida mostra a linhagem; e há três conquistas novas: Rare Blood, Décima Geração e Mestre dos Haras, que dá o título the Master Breeder.
+- Toda semana uma fêmea rara vai a leilão no .auction, encolhida, de família e visual sorteados.
+- Uma montaria domada agora obedece a qualquer dono, tenha ele Animal Taming ou não: quem compra uma montaria de um domador usa normalmente.
+- Cruzamento das montarias raras: com **100.0** em Herding, Animal Lore e Veterinary e uma ração, um macho e uma fêmea da mesma família dão, em **72** horas, um filhote adulto e domado. O filhote tem o visual da mãe e a cor do pai, até **10** números acima ou abaixo, e às vezes nasce com a cor exclusiva da faixa do pai: Obsidian, Ivory, Old Gold, Royal Crimson, Malachite, Sapphire, Amethyst ou Glacier, em dois tons e com um brilho, que leva a cor no nome e não procria. Quanto maior a geração da linhagem do pai, maior a chance da cor rara.
+- Novo evento raro, o Death Rider: de tempos em tempos, em Felucca, os mortos se erguem em três ondas e a necromante Seris os lidera, com a foice de Odran nas mãos. Cuidado quando ela apontar para você como falsa testemunha: por alguns segundos, o dano que você causar nela volta para você. Quatro caveiras diante das estátuas da entrada da cripta mostram que o evento está acontecendo e se acendem a cada onda vencida. Quem a derrotar vê o Skeletal Steed dela se erguer e pode tentar domá-lo com **100** de Animal Taming; quem domar ganha a conquista Death Rider e o título the Death Rider. Neste evento a morte é de verdade.
+- Hall of Echoes: o histórico agora desempata por abates, como o evento. A ordem é vitórias, depois o melhor estágio, depois os abates e depois o tempo, e a linha mostra os abates ("melhor 2/10, 9 abates, 20:23").
+- Todas as criaturas do Hall of Echoes agora pertencem a um grupo Slayer, então o Slayer's Codex, a afinidade dos Arcanos e as armas slayer valem contra elas: cada criatura mantém o grupo da criatura original, e as que não tinham ganharam um: os dinossauros (menos o raptor), Reptilian; o hell cat, Abyss; o eco do Engine of Nightmares, Elemental. O Engine of Nightmares de verdade, o boss do evento, também passa a ser Elemental, como seus constructs.
+- A caixa do Bloodmire Bounty agora tem piso em vez de subir um nível: arma no mínimo Force, armadura ou escudo no mínimo Hardening, joia mágica no mínimo **+5%** no bônus de PvM Mastery e amuleto mágico de skill no mínimo **+5**. O que vier acima do piso continua como saiu.
+- Agora dá para leiloar commodity deed no .auction: a deed preenchida vai a leilão com a mercadoria dentro; a deed vazia continua recusada. A janela do leilão ficou mais larga, para caber lances de até **100.000.000**.
+- O Helm of the Returning Echo, do Hall of Echoes, mostra o nome certo, sem o "red" na frente, também nos elmos que já caíram.
+- Os chefes raros e as criaturas de IA aprimorada (como as do Bloodmire) não ficam mais presos andando junto à escada de uma casa, nem para lá e para cá em cima de um Fire Field: o caminho deles agora respeita as áreas onde não podem entrar, e eles atravessam o fogo até quem os ataca.
+- Murus Flammae: a muralha agora acerta toda criatura que ela atravessa, inclusive as que vêm correndo na sua direção. Ela nasce onde você mira e segue para longe de você.
+- Death Rider: dentro da cripta, flechas e magias não são mais bloqueadas pelo teto; as paredes de fora continuam bloqueando. Os mesmos blocos e escadas de pedra deixam de bloquear acima da sua altura em outros lugares de Felucca.
+- Duas novas conquistas levam do caminho inicial à Arcana: Into the Bloodmire (**3.000** XP), a primeira morte no Bloodmire, e First Bloodmire Bounty (**5.000** XP), o primeiro Bounty entregue.
+
+Consulte [Pets e montarias](sistemas/pets-montarias.md), [Spawns raros](sistemas/spawns-raros.md), [Hall of Echoes](sistemas/hall-of-echoes.md), [Maestria PvM](sistemas/pvm-mastery.md), [Leilão](sistemas/leilao.md), [Arcanos](sistemas/arcana.md), [Daily Dungeon](sistemas/daily-dungeon.md), [Conquistas](sistemas/achievements.md) e [Comandos](comandos.md).
+
 ## 2.5.0 · O Hall of Echoes
 
 Publicado em 8 de novembro de 2026.

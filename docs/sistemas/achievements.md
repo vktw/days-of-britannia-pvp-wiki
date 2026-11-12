@@ -112,6 +112,13 @@ Consulte [Spawns raros](spawns-raros.md) para os ciclos e requisitos de doma.
 - Encomendas do Aldric: **Apprentice of the Guild** com **100** itens,
   **Journeyman Artisan** com **500**, **Master of Commissions** com **2.000** e
   **Grand Artisan of Britannia** com **5.000**.
+- No 2.6.0, **Into the Bloodmire** (**3.000** de XP, a primeira morte no
+  Bloodmire) e **First Bloodmire Bounty** (**5.000** de XP, o primeiro Bounty
+  entregue) levam do caminho inicial à Arcana.
+- Também no 2.6.0, **Rare Blood** (**3.000** de XP), **Décima Geração**
+  (**3.000** de XP) e **Mestre dos Haras** (**5.000** de XP e o título **the
+  Master Breeder**), da criação de montarias raras, e **Death Rider** (domar o
+  Skeletal Steed, com o título **the Death Rider**).
 
 ## Limites
 

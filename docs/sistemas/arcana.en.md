@@ -64,7 +64,7 @@ another (**-25%**), shown in the creature's tooltip beside the Slayer Group.
 | Fey | Blood | Life |
 | Elemental | Void | Frost |
 
-- **Fire**: Pluvia Ignea (Ember Rain) — rain over an area; Murus Flammae (Flame Wall) — rolling wall that leaves Ablaze; Eruptio Ignis (Fireburst) — explosion that detonates Ablaze; Ruina Caeli (Meteor) — meteor with burning ground.
+- **Fire**: Pluvia Ignea (Ember Rain) — rain over an area; Murus Flammae (Flame Wall) — rolling wall that leaves Ablaze; in 2.6.0, the wall rises where you aim, rolls away from you, and hits every creature it passes through, including ones coming toward you; Eruptio Ignis (Fireburst) — explosion that detonates Ablaze; Ruina Caeli (Meteor) — meteor with burning ground.
 - **Frost**: Carcer Glaciei (Ice Prison) — freezes the surroundings; Fractura (Shatter) — shatters, bigger on frozen, and breaks freeze; Campus Pruinae (Frost Field) — slowing field with cold; Hiems Aeterna (Blizzard) — blizzard that freezes after 4 seconds inside.
 - **Life**: Circulus Sanationis (Healing Circle) — area heal for allies and pets; Scutum Lucis (Aegis) — shield against creatures; Purgatio (Purify) — cures poison and curse and hurts Undead and Abyss; Renascentia (Rebirth) — resurrects a PvM ghost and heals the living.
 - **Shadow**: Signum Umbrae (Shadow Mark) — mark that amplifies party damage; Passus Umbrae (Shadow Step) — teleports and strikes three times (in 2.4.0, aiming at a creature lands you on its tile; on the ground, nothing changes); Caecitas (Blindness) — blinds (misses); Eclipsis (Eclipse) — damage with darkness (more party damage, miss chance).

@@ -46,6 +46,13 @@ progresso, e o Espreitador entrega nova cópia se você perder a sua.
 Na primeira Bounty entregue, o personagem recebe o **Slayer's Codex**: veja
 como ele funciona em [Slayer's Codex](slayers-codex.md).
 
+No 2.6.0, a caixa da Bounty passou a ter pisos em vez de subir um nível: arma
+no mínimo Force, armadura ou escudo no mínimo Hardening, joia mágica no mínimo
+**+5%** no bônus de PvM Mastery e amuleto mágico de skill no mínimo **+5**; o
+que vier acima do piso continua como saiu. Duas conquistas marcam o caminho:
+**Into the Bloodmire** (**3.000** XP, a primeira morte no Bloodmire) e
+**First Bloodmire Bounty** (**5.000** XP, o primeiro Bounty entregue).
+
 ## Acesso às Lost Lands
 
 O acesso comum de jogadores às Lost Lands e às suas dungeons está fechado no ruleset Live. A Daily Dungeon deve ser identificada pelo comando e pela sinalização disponível no jogo; não presuma que uma dungeon fora da rotação ofereça os mesmos bônus.

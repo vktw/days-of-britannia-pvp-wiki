@@ -64,7 +64,7 @@ Cada grupo é fraco a uma escola (**+25%** de dano) e resiste a outra
 | Fey | Sangue | Vida |
 | Elemental | Vazio | Gelo |
 
-- **Fogo**: Pluvia Ignea (Chuva Brasas) — chuva em área; Murus Flammae (Muralha de Chamas) — parede rolante que deixa Ablaze; Eruptio Ignis (Erupção Ígnea) — explosão que detona Ablaze; Ruina Caeli (Meteoro) — meteoro com chão queimando.
+- **Fogo**: Pluvia Ignea (Chuva Brasas) — chuva em área; Murus Flammae (Muralha de Chamas) — parede rolante que deixa Ablaze; no 2.6.0, a muralha nasce onde você mira, segue para longe de você e acerta toda criatura que atravessa, inclusive vindo na direção; Eruptio Ignis (Erupção Ígnea) — explosão que detona Ablaze; Ruina Caeli (Meteoro) — meteoro com chão queimando.
 - **Gelo**: Carcer Glaciei (Prisão Glacial) — congela o entorno; Fractura (Estilhaço) — estilhaça, maior em congelado, e quebra freeze; Campus Pruinae (Campo de Geada) — campo lento com frio; Hiems Aeterna (Nevasca) — nevasca que congela após 4 segundos dentro.
 - **Vida**: Circulus Sanationis (Círculo de Cura) — cura em área aliados e pets; Scutum Lucis (Égide) — escudo contra criaturas; Purgatio (Purificação) — cura veneno e maldição e fere Undead e Abyss; Renascentia (Renascença) — ressuscita fantasma PvM e cura vivos.
 - **Sombra**: Signum Umbrae (Marca Sombria) — marca que amplia o dano da party; Passus Umbrae (Passo Sombrio) — teleporta e golpeia três vezes (no 2.4.0, mirando numa criatura você aparece no tile dela; no chão, nada muda); Caecitas (Cegueira) — cega (erros); Eclipsis (Eclipse) — dano com escuridão (mais dano da party, chance de erro).
