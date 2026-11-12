@@ -2,7 +2,7 @@
 
 This page gathers the shard-specific rules for storing pets, finding rare
 mounts, and releasing controlled creatures. Exact event locations remain part
-of exploration.
+of exploration. A tamed mount obeys any owner, with or without Animal Taming.
 
 ## Shrink Potion
 
@@ -48,6 +48,50 @@ Zostrich, and Forest Ostard statuettes preserve the animal's original color.
 
 For clues without revealing coordinates, see [Rare spawns](spawns-raros.md) and
 [Whispers of Britannia](whispers-britannia.md).
+
+## Rare females in 2.6.0
+
+Rare mounts gained tamable females: a mare, an ostard hen or a llama dam, in
+dark brown and with any of her family's looks. Each family has its own cycle:
+every **6** to **7** days a new one is born in Felucca, whether others still
+live or not. She needs **101.0** Animal Taming, moves every **12** hours, and
+everyone hears when she appears, without the place, and when she is tamed or
+killed. Each female gives **15** crossings. Every week a rare female goes up
+for auction in `.auction`, shrunk, of a random family and look.
+
+## Breeding pen in 2.6.0
+
+The **breeding pen** is a **500,000** gold deed at the Animal Trainer, one per
+account, placed by the same rules as a house. It holds a male, a female and an
+offspring, who do not count as followers and cannot be hurt, behind a gate only
+the owner opens. When you choose the spot, the pen shows in blue to you alone,
+with the question "Place the pen here?". After **90** days without the owner
+in the game, the shrunk animals and the deed go to the bank.
+
+## Crossing in 2.6.0
+
+With **100.0** Herding, Animal Lore and Veterinary and one feed, a male and a
+female of the same family give, in **72** hours, a tame adult offspring. The
+feed takes **1** Vale Clover — dropped by plant creatures (Reaper, Corpser,
+Bog Thing, Bogling, Swamp Tentacle, Whipping Vine and Treefellow) and rarely
+found while chopping wood in Felucca (at most one an account every **24**
+hours) — and **101.0** Cooking, with an amulet or scroll counting. The
+offspring has the mother's look and the father's hue, up to **10** numbers
+above or below, and sometimes it is born in the exclusive hue of the father's
+band: Obsidian, Ivory, Old Gold, Royal Crimson, Malachite, Sapphire, Amethyst
+or Glacier, in two tones and with a sparkle, which carries the hue in the name
+and does not breed. The higher the generation of the father's line, the better
+the chance of the rare hue.
+
+## Lineage and achievements in 2.6.0
+
+Animal Lore on a rare stallion tells which rare his blood can give and how
+strong his line is. A foal's tooltip shows its mother, father and stable, and
+you name your stable in the pen's window. When a rare is born everyone hears of
+it, in the game and on Discord, with its generation, and a shrunken mount's
+statuette shows its lineage. There are three new achievements: **Rare Blood**,
+**Tenth Generation** and **Master Breeder**, which gives the title **the
+Master Breeder**.
 
 ## General rules
 

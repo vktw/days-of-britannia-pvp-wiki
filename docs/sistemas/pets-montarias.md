@@ -2,7 +2,8 @@
 
 Esta página reúne as regras próprias do shard para guardar pets, encontrar
 montarias raras e liberar criaturas controladas. As localizações exatas dos
-eventos continuam sendo parte da exploração.
+eventos continuam sendo parte da exploração. Uma montaria domada obedece a
+qualquer dono, tenha ele Animal Taming ou não.
 
 ## Shrink Potion
 
@@ -48,6 +49,50 @@ Frenzied, Zostrich e Forest Ostards preservam a cor original do animal.
 
 Para encontrar pistas sem revelar coordenadas, consulte [Spawns
 raros](spawns-raros.md) e [Whispers of Britannia](whispers-britannia.md).
+
+## Fêmeas raras no 2.6.0
+
+As montarias raras ganharam fêmeas domáveis: égua, ostard ou lhama, em marrom
+escuro e com qualquer um dos visuais da família. Cada família tem o seu ciclo:
+a cada **6** a **7** dias nasce uma nova em Felucca, haja outras vivas ou não.
+Ela exige **101.0** de Animal Taming, muda de lugar a cada **12** horas, e
+todos ficam sabendo quando ela surge, sem o local, e quando é domada ou morta.
+Cada fêmea dá **15** cruzas. Toda semana uma fêmea rara vai a leilão no
+`.auction`, encolhida, de família e visual sorteados.
+
+## Cercado de criação no 2.6.0
+
+O **cercado de criação** é um deed de **500.000** de ouro no Animal Trainer,
+um por conta, colocado com as mesmas regras de uma casa. Ele guarda um macho,
+uma fêmea e um filhote, que não contam como seguidores e não podem ser feridos,
+atrás de um portão que só o dono abre. Ao escolher o lugar, o cercado aparece
+em azul só para você, com a pergunta "Colocar o cercado aqui?". Depois de
+**90** dias sem o dono entrar, os animais encolhidos e o deed vão para o
+banco.
+
+## Cruzamento no 2.6.0
+
+Com **100.0** em Herding, Animal Lore e Veterinary e uma ração, um macho e uma
+fêmea da mesma família dão, em **72** horas, um filhote adulto e domado. A
+ração leva **1** Vale Clover — que cai de criaturas-planta (Reaper, Corpser,
+Bog Thing, Bogling, Swamp Tentacle, Whipping Vine e Treefellow) e aparece
+raramente ao cortar lenha em Felucca (no máximo um por conta a cada **24**
+horas) — e **101.0** de Cooking, valendo amuleto ou pergaminho. O
+filhote tem o visual da mãe e a cor do pai, até **10** números acima ou
+abaixo, e às vezes nasce com a cor exclusiva da faixa do pai: Obsidian, Ivory,
+Old Gold, Royal Crimson, Malachite, Sapphire, Amethyst ou Glacier, em dois tons
+e com um brilho, que leva a cor no nome e não procria. Quanto maior a geração
+da linhagem do pai, maior a chance da cor rara.
+
+## Linhagem e conquistas no 2.6.0
+
+Animal Lore num garanhão raro diz de qual rara é o sangue dele e o quanto a
+linhagem dele é forte. O potro mostra no tooltip a mãe, o pai e o haras, e
+você batiza o seu haras na janela do cercado. Quando nasce uma rara, todos
+ficam sabendo, no jogo e no Discord, com a geração dela, e a estatueta de uma
+montaria encolhida mostra a linhagem. Há três conquistas novas: **Rare
+Blood**, **Décima Geração** e **Mestre dos Haras**, que dá o título **the
+Master Breeder**.
 
 ## Regras gerais
 

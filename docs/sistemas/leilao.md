@@ -14,7 +14,9 @@ seu banco.
 Na janela, a imagem, o nome, o lance, o tempo e o botão de cada lote ficam
 alinhados na mesma linha. Também dá para leiloar itens do banco: com o banco
 aberto, use o comando e escolha o item direto dele, inclusive de dentro de
-uma bolsa.
+uma bolsa. Commodity deeds preenchidas também entram: a deed vai a leilão com
+a mercadoria dentro (vazia é recusada). A janela ficou mais larga para caber
+lances de até **100.000.000**.
 
 Os leilões têm canal próprio no Discord: cada leilão é anunciado ao abrir,
 com novo aviso no máximo uma vez por hora quando recebe lances novos, e ao

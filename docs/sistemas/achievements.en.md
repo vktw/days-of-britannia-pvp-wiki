@@ -111,6 +111,13 @@ See [Rare spawns](spawns-raros.md) for cycles and taming requirements.
 - Aldric's craft orders: **Apprentice of the Guild** at **100** items,
   **Journeyman Artisan** at **500**, **Master of Commissions** at **2,000**,
   and **Grand Artisan of Britannia** at **5,000**.
+- In 2.6.0, **Into the Bloodmire** (**3,000** XP, your first Bloodmire kill)
+  and **First Bloodmire Bounty** (**5,000** XP, your first delivered Bounty)
+  lead from the starting path to the Arcana.
+- Also in 2.6.0, **Rare Blood** (**3,000** XP), **Tenth Generation** (**3,000**
+  XP) and **Master Breeder** (**5,000** XP and the title **the Master
+  Breeder**), from rare mount breeding, and **Death Rider** (taming the
+  Skeletal Steed, with the title **the Death Rider**).
 
 ## Limits
 

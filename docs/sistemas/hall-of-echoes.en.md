@@ -23,7 +23,21 @@ for the second, and **bronze** for the third.
 Every creature defeated in the Hall has a **0.5%** chance to leave, straight
 into the backpack, one of these items in the event's colour: the **Dye of the
 Echoes**, a decorative skull, or the **Helm of the Returning Echo**, a Dragon
-Helm of Invulnerability with a random Mastery at **+10%**.
+Helm of Invulnerability with a random Mastery at **+10%**. The helm shows its
+right name, without "red" in front.
+
+## Records and groups in 2.6.0
+
+The Hall's all-time list breaks ties by kills, as the event does: the order is
+wins, then the best stage, then kills, then time, and the line shows the kills
+("best 2/10, 9 kills, 20:23").
+
+Every Hall creature belongs to a Slayer group: each keeps its original
+creature's group, and those that had none take one — the dinosaurs (all but
+the raptor), Reptilian; the hell cat, Abyss; the echo of the Engine of
+Nightmares, Elemental. The real Engine, the event's boss, is Elemental like
+its constructs, so the Codex, the Arcana's affinity and slayers count in the
+fight.
 
 ## Keep exploring
 
