@@ -87,6 +87,19 @@ as fact.
 
 Do not push, deploy, or modify GitHub secrets unless the user explicitly asks.
 
+Exception — autonomous patch-note reconciliation (owner-approved 2026-11-12):
+when live production (`C:\TrueUO`, `Docs/Agent/RELEASES.md`) is ahead of
+`extra.dob_version`, the agent may execute the full reconciliation and publish
+it (push branch, open PR, merge only after green CI, verify the deploy) WITHOUT
+asking, provided: (1) every required gate passes (`audit_wiki.py`, strict
+build, localization/site-contract/fact-registry audits, `git diff --check`);
+(2) only expected files change (patch notes, reference pages, version labels,
+audit headings, home/proximo-patch); (3) any gate failure or out-of-scope
+surprise stops the run and escalates to the owner instead of publishing. After
+publishing, file a GitHub issue in this repository summarizing the release and
+what was verified. Kill-switch: the owner saying to pause, or deleting the
+scheduled task that triggers this work.
+
 ## Public content rules
 
 - Write player-facing pages in Brazilian Portuguese.
