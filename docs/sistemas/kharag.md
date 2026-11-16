@@ -98,6 +98,13 @@ estiver cheia) com um aviso, somado ao bônus Young se você o tiver.
 
 ## Continue explorando
 
+## Encomendas no 2.7.0
+
+Aldric agora aceita kits de Chainmail e Platemail de Bronze, Driftseeker Pole de
+Oak, Ash, Yew, Heartwood, Bloodwood ou Frostwood com todos os usos, e roupas DoB
+com durabilidade cheia. Os leilões dos itens entregues começam em **100 gp** e
+sobem **100**.
+
 Consulte [Craft](../craft/index.md), [Maestria PvM](pvm-mastery.md) e
 [Recompensas PvM](../itens/recompensas-pvm.md) para usar os elixires, e
 [Nujelm Safe Haven](../mundo/nujelm.md) para o local.

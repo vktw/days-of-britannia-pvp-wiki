@@ -2,6 +2,21 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 2.7.0 · Fire e Ice: Vharaxis e Skjoldra
+
+Publicado em 14 de novembro de 2026.
+
+- Fire e Ice agora podem ser acessadas pelo mundo em Felucca; suas saídas para as Lost Lands continuam fechadas. As duas dungeons ficam sempre abertas, com criaturas Legendary, IA aprimorada e quatro criaturas Mythic em salas próprias.
+- Fire e Ice concedem **+200%** de XP, **+200%** de Loot Packs e **+50%** de ouro. Vharaxis, em Fire, e Skjoldra, em Ice, despertam após o primeiro boot; depois de uma morte, o próximo despertar ocorre em **10 dias**, reduzidos em um dia a cada **100** mortes na dungeon, até **3** dias. Os avisos aparecem no jogo e no Discord.
+- O sopro dos dragões é um cone anunciado por rugido. Vharaxis causa **100** de dano entre o golpe e a queimadura; Skjoldra causa **80** e congela por **5 segundos**. Cada despertar também traz uma montaria ancestral da cor da dungeon, que exige **Animal Taming 101** e muda de lugar a cada **12 horas** enquanto selvagem.
+- Aldric agora aceita kits de Chainmail e Platemail de Bronze, Driftseeker Pole de Oak, Ash, Yew, Heartwood, Bloodwood ou Frostwood com todos os usos, e roupas DoB com durabilidade cheia. Os leilões começam em **100 gp** e sobem **100**.
+- Na Fortune Tide, Map in a Bottle passa a ter **3%** por lance, até **6** garrafas por dia por IP; cada garrafa vem um tier acima e nunca abaixo de Hoard. Eyes of Newt e Bat Wings também são vendidos dentro da proteção de guards, e os vendors mantêm pelo menos **999** de cada reagente.
+- Tintas especiais agora empilham somente com o mesmo tipo e cor, e cada pintura consome uma tinta. O Arsenal busca também pela Maestria PvM, guarda Scrolls of Knowledge comuns e garrafas vazias, preserva a Maestria dos loadouts e responde em **0,5 segundo**.
+- O Treasure Map Book agora guarda **100** mapas e abre por um índice de tiers e tempo restante. Cada mapa tem **Ver** e **Bússola**; a bússola aponta o Tracking para o baú e desaparece ao chegar, com clique direito, após escavar ou depois de **30 minutos**.
+- Water Troughs east e south passaram para Misc. Add-Ons de Carpentry. Os testes DoB de tesouro fecham com clique direito no cliente DoB, exceto o tabuleiro do pavio. Uma arma de Power é listada semanalmente em `.auction`.
+
+Consulte [Spawns raros](sistemas/spawns-raros.md), [Mapas do Tesouro](sistemas/mapas-tesouro.md), [Casas](sistemas/casas.md), [Kharag](sistemas/kharag.md), [Consumíveis](itens/consumiveis.md), [Maestria PvM](sistemas/pvm-mastery.md), [Craft](craft/index.md) e [Comandos](comandos.md).
+
 ## 2.5.0 · O Hall of Echoes
 
 Publicado em 8 de novembro de 2026.

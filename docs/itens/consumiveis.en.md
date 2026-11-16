@@ -18,7 +18,10 @@ it is not consumed when mana is already full.
 
 In 0.50.0, **Mage, Alchemist, and Docks Alchemist** keep at least **320 of
 every reagent**, and the Mage keeps **320 Blank Scrolls**. In 2.5.0, the
-reagent floor rose to **640** of each of the eight classics.
+ reagent floor rose to **640** of each of the eight classics.
+
+In 2.7.0, Eyes of Newt and Bat Wings are also sold by alchemists inside guard
+protection, and vendors keep at least **999** of every reagent.
 
 ## Dragon Blood Clothing Dye
 

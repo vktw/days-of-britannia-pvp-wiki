@@ -113,5 +113,12 @@ como o Runebook, o Hunter's Compendium, o Slayer's Codex e a Magnum Opus.
 
 Consulte [Maestria PvM](pvm-mastery.md) para os bônus, [Cartography](../craft/cartography.md) para os mapas, [Comandos](../comandos.md) para o `.fortunetide` e [Recompensas PvM](../itens/recompensas-pvm.md) para o loot.
 
+## Atualizações do livro no 2.7.0
+
+O livro agora guarda até **100** mapas e abre em um índice com quantidades por
+tier e tempo restante. Cada mapa tem **Ver** e **Bússola**; a bússola aponta o
+Tracking para o baú e desaparece com clique direito, ao chegar, após escavar ou
+depois de **30 minutos**.
+
 !!! success "Status: 1.0.0"
     Mapas do tesouro de Felucca, com testes DoB desde o 1.1.0.

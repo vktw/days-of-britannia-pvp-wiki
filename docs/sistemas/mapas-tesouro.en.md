@@ -111,5 +111,12 @@ Runebook, the Hunter's Compendium, the Slayer's Codex and the Magnum Opus.
 
 See [PvM Mastery](pvm-mastery.md) for bonuses, [Cartography](../craft/cartography.md) for maps, [Commands](../comandos.md) for `.fortunetide`, and [PvM rewards](../itens/recompensas-pvm.md) for loot.
 
+## Book updates in 2.7.0
+
+The book now holds up to **100** maps and opens on an index with counts by tier
+and time remaining. Each map has **View** and **Compass**; Compass points
+Tracking at the chest and disappears on right-click, on arrival, after digging,
+or after **30 minutes**.
+
 !!! success "Status: 1.0.0"
     Felucca treasure maps, with DoB tests since 1.1.0.

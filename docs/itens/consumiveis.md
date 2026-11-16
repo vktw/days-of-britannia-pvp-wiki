@@ -17,7 +17,10 @@ cheia.
 
 No 0.50.0, **Mage, Alchemist e Docks Alchemist** mantêm pelo menos **320 de
 cada reagente**, e o Mage mantém **320 Blank Scrolls**. No 2.5.0, o piso de
-reagentes subiu para **640** de cada um dos oito clássicos.
+ reagentes subiu para **640** de cada um dos oito clássicos.
+
+No 2.7.0, Eyes of Newt e Bat Wings também são vendidos por alquimistas dentro da
+proteção de guards, e os vendors mantêm pelo menos **999** de cada reagente.
 
 ## Dragon Blood Clothing Dye
 

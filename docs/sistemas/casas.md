@@ -75,5 +75,12 @@ pelo nome (maiúsculas e acentos não importam), na categoria escolhida, cada um
 com seu Retirar; campo vazio e Buscar mostram tudo de novo. Não funciona em
 combate (**30** segundos).
 
+## Atualizações do Arsenal no 2.7.0
+
+O Arsenal também guarda Scrolls of Knowledge comuns e garrafas vazias. A busca
+encontra uma peça pelo nome da Maestria PvM que ela carrega, e o loadout preserva
+essa Maestria ao escolher a peça de maior nível, depois os atributos e a
+durabilidade. A pausa entre ações é de **0,5 segundo**.
+
 !!! success "Status: 0.45.0"
     As permissões de co-owners correspondem às notas de produção.

@@ -97,6 +97,13 @@ with a message, on top of the Young bonus if you have it.
 
 ## Keep exploring
 
+## Craft orders in 2.7.0
+
+Aldric now takes Bronze Chainmail and Platemail kits, Driftseeker Poles in Oak,
+Ash, Yew, Heartwood, Bloodwood, or Frostwood with all uses, and DoB Cloth at
+full durability. Auctions for delivered items start at **100 gp** and rise by
+**100**.
+
 See [Craft](../craft/index.md), [PvM Mastery](pvm-mastery.md), and
 [PvM rewards](../itens/recompensas-pvm.md) for using the draughts, and
 [Nujel'm Safe Haven](../mundo/nujelm.md) for the location.

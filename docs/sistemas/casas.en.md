@@ -74,5 +74,12 @@ filters items by name (case and accents do not matter), in the chosen category,
 each with its own Take; an empty field and Search show everything again. It
 does not work in combat (**30** seconds).
 
+## Armory updates in 2.7.0
+
+The Armory also stores ordinary Scrolls of Knowledge and empty bottles. Search
+finds a piece by the PvM Mastery it carries, and a loadout preserves that Mastery
+when choosing the highest-level piece, then stats and durability. The action
+pause is **0.5 seconds**.
+
 !!! success "Status: 0.45.0"
     Co-owner permissions match the production notes.

@@ -192,6 +192,23 @@ fighters learn where the Nightmare waits; only a Grandmaster tamer can tame
 it, earning the **Dreambreaker** achievement and **the Dreambreaker** title
 (the shard announces who did it **5 minutes** later).
 
+## Fire and Ice in 2.7.0
+
+Fire and Ice are open dungeons in Felucca, always available, with their exits to
+the Lost Lands closed. Their creatures have the strength of the Bloodmire's
+depths, are Legendary or Mythic, and grant **+200%** XP, **+200%** Loot Packs,
+and **+50%** gold.
+
+Vharaxis, the Cinder Tyrant, is in Fire; Skjoldra, the Rime Tyrant, is in Ice.
+After a death, the next waking is in **10 days**, shortened by one day for every
+**100** dungeon kills, down to **3** days. The breath is a cone warned by a roar:
+Vharaxis deals **100** damage between the hit and burn; Skjoldra deals **80** and
+freezes for **5 seconds**.
+
+Each waking brings an ancient mount in the dungeon's colour. It requires
+**Animal Taming 101**, is not attacked while wild, and moves every **12 hours**
+until tamed.
+
 ## Season of the Witch
 
 In October, the **Season of the Witch** coven holds one Felucca cemetery at a
