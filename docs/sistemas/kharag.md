@@ -96,6 +96,15 @@ No 2.4.0, o Kharag vende o **Elixir da Prosperidade** por **1.000** pontos. Por
 mais do ouro da criatura, colocado direto na sua mochila (no banco, se ela
 estiver cheia) com um aviso, somado ao bônus Young se você o tiver.
 
+## Encomendas no 2.7.0
+
+Aldric agora aceita kits de Chainmail e Platemail de Bronze, Driftseeker Pole de
+Oak, Ash, Yew, Heartwood, Bloodwood ou Frostwood com todos os usos (vara gasta
+não vale), e roupas DoB do alfaiate com durabilidade cheia: Mantle of the
+Titan, Windrunner Robe e Sage's Robe por **80** pontos, Thieving Cape por
+**100** e Trailseeker Cloak por **90**. Os leilões dos itens entregues começam
+em **100 gp** e sobem em incrementos de **100** (antes **500**).
+
 ## Continue explorando
 
 Consulte [Craft](../craft/index.md), [Maestria PvM](pvm-mastery.md) e

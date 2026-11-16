@@ -95,6 +95,15 @@ In 2.4.0, Kharag sells the **Prosperity Draught** for **1,000** points. For
 creature's gold, placed straight in your backpack (in your bank if it is full)
 with a message, on top of the Young bonus if you have it.
 
+## Craft orders in 2.7.0
+
+Aldric now takes Bronze Chainmail and Platemail kits, Driftseeker Poles in Oak,
+Ash, Yew, Heartwood, Bloodwood, or Frostwood with all uses (a worn pole is
+refused), and the tailor's DoB garments at full durability: the Mantle of the
+Titan, Windrunner Robe, and Sage's Robe for **80** points, the Thieving Cape
+for **100**, and the Trailseeker Cloak for **90**. Auctions for delivered
+items start at **100 gp** and rise by **100** (previously **500**).
+
 ## Keep exploring
 
 See [Craft](../craft/index.md), [PvM Mastery](pvm-mastery.md), and

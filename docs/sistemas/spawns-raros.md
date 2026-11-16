@@ -207,6 +207,27 @@ Animal Taming consegue domá-lo, ganhando a conquista **Quebra-Sonhos** e o
 título **the Dreambreaker** (o servidor anuncia quem conseguiu **5 minutos**
 depois).
 
+## Fire e Ice no 2.7.0
+
+Fire e Ice são dungeons abertas em Felucca, sempre disponíveis, com as saídas
+para as Lost Lands fechadas. Suas criaturas têm a força do fundo da Bloodmire,
+são Legendary ou Mythic e concedem **+200%** de XP, **+200%** de Loot Packs e
+**+50%** de ouro.
+
+Vharaxis, the Cinder Tyrant, fica em Fire; Skjoldra, the Rime Tyrant, em Ice.
+Depois de uma morte, o próximo despertar ocorre em **10 dias**, reduzidos em um
+dia a cada **100** mortes na dungeon, até **3** dias. As Mythic têm salas
+próprias: Sythrakh e Kazrath na Fire, Nivaris e Hrimgar na Ice. O sopro é um
+cone anunciado por rugido: Vharaxis causa **100** de dano entre o golpe e a
+queimadura, com cura pela metade enquanto queima; Skjoldra causa **80** e
+congela por **5 segundos**. Criaturas de Ice são imunes ao Arcano de Gelo, e
+as de Fire ao Arcano de Fogo e a magias de fogo.
+
+Cada despertar traz uma montaria ancestral da cor da dungeon, cada uma com
+nome próprio. Ela exige **Animal Taming 101**, não é agressiva e não é
+atacada enquanto selvagem, muda de lugar a cada **12 horas** até ser domada e
+guarda a cor domada.
+
 ## Season of the Witch
 
 Em outubro, o coven da **Season of the Witch** ocupa um cemitério de Felucca

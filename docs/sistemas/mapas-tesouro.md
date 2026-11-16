@@ -31,7 +31,9 @@ com o Tome do tesouro.
 Com o cliente DoB, o dono do mapa e a party escolhem entre o teste comum e o
 **teste DoB** ao usar lockpick ou Remove Trap; outro cliente só tem o comum.
 A escolha vale por etapa, sem trocar; em fechadura DoB, lockpick comum e a
-magia Unlock não funcionam. Fechar a janela do Pavio não pausa o estudo; para
+magia Unlock não funcionam. No 2.7.0, as janelas da fechadura e do pavio fecham
+com clique direito, como o botão Fechar (no tabuleiro do pavio, o clique
+direito continua girando a peça; precisa do cliente DoB novo). Fechar a janela do Pavio não pausa o estudo; para
 voltar a ela, abra o baú. Fechar ou se afastar com o pavio aceso explode a
 armadilha.
 
@@ -112,6 +114,16 @@ como o Runebook, o Hunter's Compendium, o Slayer's Codex e a Magnum Opus.
 ## Continue explorando
 
 Consulte [Maestria PvM](pvm-mastery.md) para os bônus, [Cartography](../craft/cartography.md) para os mapas, [Comandos](../comandos.md) para o `.fortunetide` e [Recompensas PvM](../itens/recompensas-pvm.md) para o loot.
+
+## Atualizações do livro no 2.7.0
+
+O livro agora guarda até **100** mapas, inclusive os que você já tem, e abre
+em um índice: quantos mapas há de cada nível, com botão direto para a lista
+daquele nível, e quantos saem no próximo save, em até 3 dias, em até 7 dias ou
+depois (o botão Índice, no pé da lista, volta para ele). Cada mapa tem **Ver**,
+que abre o mapa sem tirá-lo do livro, e **Bússola**, que liga a seta do
+Tracking apontando para o baú do mapa. A seta some com um clique direito nela,
+quando você chega ao ponto, se o mapa for escavado ou depois de **30 minutos**.
 
 !!! success "Status: 1.0.0"
     Mapas do tesouro de Felucca, com testes DoB desde o 1.1.0.

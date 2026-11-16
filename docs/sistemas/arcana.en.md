@@ -69,7 +69,9 @@ another (**-25%**), shown in the creature's tooltip beside the Slayer Group.
 - **Life**: Circulus Sanationis (Healing Circle) — area heal for allies and pets; Scutum Lucis (Aegis) — shield against creatures; Purgatio (Purify) — cures poison and curse and hurts Undead and Abyss; Renascentia (Rebirth) — resurrects a PvM ghost and heals the living.
 - **Shadow**: Signum Umbrae (Shadow Mark) — mark that amplifies party damage; Passus Umbrae (Shadow Step) — teleports and strikes three times (in 2.4.0, aiming at a creature lands you on its tile; on the ground, nothing changes); Caecitas (Blindness) — blinds (misses); Eclipsis (Eclipse) — damage with darkness (more party damage, miss chance).
 - **Blood**: Missio Sanguinis (Bloodletting) — drain that heals the caster; Pactum Sanguinis (Blood Pact) — trades 20% of max life for Vis, no cursor; Coagulum (Clot) — reduces creature damage; Exsanguinatio (Exsanguination) — area drain that heals the party.
-- **Void**: Tractus Vacui (Void Pull) — pulls close and taunts; Concha Vacui (Void Shell) — absorbs damage and zaps adjacents; Puteus Gravitatis (Gravity Well) — roots with energy; Singularitas (Singularity) — pulls, roots, and collapses.
+- **Void**: Tractus Vacui (Void Pull) - pulls close and taunts; Concha Vacui (Void Shell) - absorbs damage and zaps adjacents; Puteus Gravitatis (Gravity Well) - roots with energy; Singularitas (Singularity) - pulls, roots, and collapses.
+
+In 2.7.0, Ice creatures are immune to the Frost Arcanum, and Fire's to the Fire Arcanum and fire spells (Fireball, Fire Field, Flame Strike, and Meteor Swarm).
 
 In 2.3.0, the **Magnum Opus** takes a binding: double-click a boss binding and
 choose your Opus. It takes the binding's look and colour, and Turn and Restore
