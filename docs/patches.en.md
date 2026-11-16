@@ -2,6 +2,21 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 2.7.0 · Fire and Ice: Vharaxis and Skjoldra
+
+Published on November 14, 2026.
+
+- Fire and Ice can now be entered from the world in Felucca; their exits to the Lost Lands remain closed. Both dungeons are always open, with Legendary creatures, improved AI, and four Mythic creatures in their own rooms.
+- Fire and Ice grant **+200%** XP, **+200%** Loot Packs, and **+50%** gold. Vharaxis in Fire and Skjoldra in Ice wake after the first boot; after a death, the next waking is in **10 days**, shortened by one day for every **100** dungeon kills, down to **3** days. Notices appear in game and on Discord.
+- The dragons' breath is a cone warned by a roar. Vharaxis deals **100** damage between its hit and burn; Skjoldra deals **80** and freezes for **5 seconds**. Each waking also brings an ancient mount in the dungeon's colour, requiring **Animal Taming 101** and moving every **12 hours** while wild.
+- Aldric now takes Bronze Chainmail and Platemail kits, Driftseeker Poles in Oak, Ash, Yew, Heartwood, Bloodwood, or Frostwood with all uses, and DoB Cloth at full durability. Auctions start at **100 gp** and rise by **100**.
+- During the Fortune Tide, Map in a Bottle rises to **3%** per cast, up to **6** bottles per day per IP; each bottle is one tier higher and never below Hoard. Eyes of Newt and Bat Wings are also sold inside guard protection, and vendors keep at least **999** of every reagent.
+- Special dyes now stack only with the same type and colour, and each painting spends one dye. The Armory also searches by PvM Mastery, stores ordinary Scrolls of Knowledge and empty bottles, preserves loadout Masteries, and responds in **0.5 seconds**.
+- The Treasure Map Book now holds **100** maps and opens on an index by tier and time remaining. Each map has **View** and **Compass**; Compass points Tracking at the chest and disappears on arrival, on right-click, after digging, or after **30 minutes**.
+- East and south Water Troughs moved to Carpentry's Misc. Add-Ons. DoB treasure tests close with right-click in the DoB client, except on the fuse board. A weapon of Power is listed weekly in `.auction`.
+- Rewards: the rare dyes of Vharaxis and Skjoldra, a wall trophy, a signature weapon with a PvM-only effect, the titles the Emberscarred, the Winterscarred and the Dragonsbane, a book binding from each at **5%**, rare house decorations (an ember dragon egg in Fire, a dragon frozen in ice in Ice), a dragon lantern from the Legendary creatures, the titles the Ashbreaker and the Rimebreaker for felling both Legendary creatures of a dungeon, and ready, stackable draughts: Fire's guards against Skjoldra and Ice's against Vharaxis.
+
+See [Rare spawns](sistemas/spawns-raros.md), [Treasure Maps](sistemas/mapas-tesouro.md), [Houses](sistemas/casas.md), [Kharag](sistemas/kharag.md), [Consumables](itens/consumiveis.md), [PvM Mastery](sistemas/pvm-mastery.md), [Craft](craft/index.md),, [Auction](sistemas/leilao.md), [Arcana](sistemas/arcana.md), [Pets and mounts](sistemas/pets-montarias.md), [Daily Dungeon](sistemas/daily-dungeon.md), [Achievements](sistemas/achievements.md) and [Commands](comandos.md).
 ## 2.6.0 · Breeding the rare mounts
 
 Published on November 11, 2026.

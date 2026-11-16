@@ -112,6 +112,9 @@ Consulte [Spawns raros](spawns-raros.md) para os ciclos e requisitos de doma.
 - Encomendas do Aldric: **Apprentice of the Guild** com **100** itens,
   **Journeyman Artisan** com **500**, **Master of Commissions** com **2.000** e
   **Grand Artisan of Britannia** com **5.000**.
+- No 2.7.0, **the Emberscarred**, **the Winterscarred** e **the Dragonsbane**
+  (recompensas de Fire e Ice), e **the Ashbreaker** e **the Rimebreaker**
+  (derrubar as duas Legendary de uma dungeon).
 - No 2.6.0, **Into the Bloodmire** (**3.000** de XP, a primeira morte no
   Bloodmire) e **First Bloodmire Bounty** (**5.000** de XP, o primeiro Bounty
   entregue) levam do caminho inicial à Arcana.

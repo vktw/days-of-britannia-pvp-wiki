@@ -22,8 +22,8 @@ hide:
 
 <section class="dob-landing-strip" aria-label="Status do servidor">
   <span class="dob-landing-stat"><strong><i aria-hidden="true"></i>Servidor online</strong><small>Britannia está ativa</small></span>
-  <span class="dob-landing-stat"><strong>2.6.0</strong><small>Versão atual</small></span>
-  <a class="dob-landing-stat" href="patches/"><strong>A procriação das montarias raras</strong><small>Última atualização</small></a>
+  <span class="dob-landing-stat"><strong>2.7.0</strong><small>Versão atual</small></span>
+  <a class="dob-landing-stat" href="patches/"><strong>Fire e Ice: Vharaxis e Skjoldra</strong><small>Última atualização</small></a>
 </section>
 
 <nav class="dob-landing-shortcuts" aria-label="Atalhos do manual">
@@ -82,18 +82,18 @@ hide:
   <h2 id="dob-landing-news" class="dob-landing-section__title">O shard não para</h2>
   <div class="dob-landing-news">
     <article class="dob-landing-patch">
-      <span class="dob-landing-patch__tag">Última atualização · 2.6.0</span>
-      <h3>A procriação das montarias raras</h3>
-      <p class="dob-landing-patch__date"><time datetime="2026-11-11">11 de novembro de 2026</time></p>
-      <p>Fêmeas raras em Felucca, cercado de criação, Death Rider e o haras da wiki.</p>
+      <span class="dob-landing-patch__tag">Última atualização · 2.7.0</span>
+      <h3>Fire e Ice: Vharaxis e Skjoldra</h3>
+      <p class="dob-landing-patch__date"><time datetime="2026-11-14">14 de novembro de 2026</time></p>
+      <p>Tiranos que despertam com mortes, montarias ancestrais e recompensas.</p>
       <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="patches/">Ler patch notes</a>
     </article>
     <div class="dob-landing-articles">
       <h3>Últimos artigos atualizados</h3>
       <a href="sistemas/pets-montarias/"><time datetime="2026-11-11">11 nov</time><span><strong>Pets e montarias</strong><small>Cruzamento de raras e Death Rider</small></span></a>
-      <a href="patches/"><time datetime="2026-11-11">11 nov</time><span><strong>Patch notes</strong><small>2.6.0, 2.5.0 e 2.4.0</small></span></a>
-      <a href="sistemas/hall-of-echoes/"><time datetime="2026-11-08">8 nov</time><span><strong>Hall of Echoes</strong><small>Desafio solo aos domingos</small></span></a>
-      <a href="sistemas/spawns-raros/"><time datetime="2026-11-01">1 nov</time><span><strong>Spawns raros</strong><small>Seis novos Harts e o Pesadelo</small></span></a>
+      <a href="patches/"><time datetime="2026-11-14">14 nov</time><span><strong>Patch notes</strong><small>2.7.0, 2.6.0 e 2.5.0</small></span></a>
+      <a href="sistemas/spawns-raros/"><time datetime="2026-11-14">14 nov</time><span><strong>Spawns raros</strong><small>Fire e Ice, Death Rider e tiranos</small></span></a>
+      <a href="sistemas/mapas-tesouro/"><time datetime="2026-11-14">14 nov</time><span><strong>Mapas do Tesouro</strong><small>Livro com 100 mapas e Bússola</small></span></a>
     </div>
   </div>
 </section>

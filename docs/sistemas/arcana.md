@@ -71,6 +71,8 @@ Cada grupo é fraco a uma escola (**+25%** de dano) e resiste a outra
 - **Sangue**: Missio Sanguinis (Sangria) — dreno que cura quem conjura; Pactum Sanguinis (Pacto de Sangue) — troca 20% da vida máxima por Vis, sem cursor; Coagulum (Coágulo) — reduz o dano das criaturas; Exsanguinatio (Exsanguinação) — dreno em área que cura a party.
 - **Vazio**: Tractus Vacui (Puxão do Vazio) — puxa para perto e provoca; Concha Vacui (Concha do Vazio) — absorve dano e zap adjacentes; Puteus Gravitatis (Poço Gravitacional) — enraíza com energia; Singularitas (Singularidade) — puxa, enraíza e colapsa.
 
+No 2.7.0, as criaturas de Ice são imunes ao Arcano de Gelo, e as de Fire ao Arcano de Fogo e a magias de fogo (Fireball, Fire Field, Flame Strike e Meteor Swarm).
+
 No 2.3.0, a **Magnum Opus** aceita encadernação: clique duas vezes numa
 encadernação de boss e escolha a sua Opus. Ela ganha o visual e a cor da
 encadernação, e as opções Turn e Restore funcionam como no Hunter's Compendium

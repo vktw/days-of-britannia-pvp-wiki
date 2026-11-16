@@ -15,6 +15,7 @@ the same row. You can also auction items from your bank: with the bank open,
 use the command and pick the item straight from it, even from inside a bag.
 Filled commodity deeds go up too: the deed auctions with the goods inside
 (empty is refused). The window is wider so bids up to **100,000,000** fit.
+Every week a weapon of Power is listed in `.auction`.
 
 Auctions have their own Discord channel: each auction is announced when it
 opens, again at most once an hour when it gets new bids, and when it ends. No

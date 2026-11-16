@@ -111,6 +111,9 @@ See [Rare spawns](spawns-raros.md) for cycles and taming requirements.
 - Aldric's craft orders: **Apprentice of the Guild** at **100** items,
   **Journeyman Artisan** at **500**, **Master of Commissions** at **2,000**,
   and **Grand Artisan of Britannia** at **5,000**.
+- In 2.7.0, **the Emberscarred**, **the Winterscarred** and **the Dragonsbane**
+  (Fire and Ice rewards), and **the Ashbreaker** and **the Rimebreaker**
+  (felling both Legendaries of a dungeon).
 - In 2.6.0, **Into the Bloodmire** (**3,000** XP, your first Bloodmire kill)
   and **First Bloodmire Bounty** (**5,000** XP, your first delivered Bounty)
   lead from the starting path to the Arcana.

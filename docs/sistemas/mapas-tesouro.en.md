@@ -31,7 +31,9 @@ treasure Tome.
 With the DoB client, the map owner and the party choose between the common
 test and the **DoB test** on lockpick or Remove Trap; other clients only get
 the common one. The choice holds per step, with no switching; on a DoB lock,
-common lockpick and the Unlock spell do not work. Closing the Fuse window does
+common lockpick and the Unlock spell do not work. In 2.7.0, the lock and fuse
+windows close on right-click, like the Close button (on the fuse board,
+right-click still turns a piece; it needs the new DoB client). Closing the Fuse window does
 not pause study; to return to it, open the chest. Closing or walking away with
 the fuse lit explodes the trap.
 
@@ -110,6 +112,17 @@ Runebook, the Hunter's Compendium, the Slayer's Codex and the Magnum Opus.
 ## Keep exploring
 
 See [PvM Mastery](pvm-mastery.md) for bonuses, [Cartography](../craft/cartography.md) for maps, [Commands](../comandos.md) for `.fortunetide`, and [PvM rewards](../itens/recompensas-pvm.md) for loot.
+
+## Book updates in 2.7.0
+
+The book now holds up to **100** maps, including the ones you already have, and
+opens on an index: how many maps of each tier, with a button straight to that
+tier's list, and how many leave at the next save, within 3 days, within 7 days
+or later (the Index button, at the foot of the list, goes back to it). Each map
+has **View**, which opens the map without taking it out of the book, and
+**Compass**, which turns on the Tracking arrow pointing at the map's chest.
+The arrow goes away with a right-click on it, when you reach the spot, if the
+map is dug or after **30 minutes**.
 
 !!! success "Status: 1.0.0"
     Felucca treasure maps, with DoB tests since 1.1.0.
