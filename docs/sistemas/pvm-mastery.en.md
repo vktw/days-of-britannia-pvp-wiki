@@ -86,6 +86,18 @@ In 2.4.0, bonuses stack in layers: each scroll used on a known Mastery adds a la
 
 In 2.5.0, the **+15%** cap became the total across all your Masteries: scrolls of different Masteries count together. An inactive Mastery is still activated by its scroll, outside the slots. When the total is full, a new scroll is refused and stays with you, without replacing another Mastery's bonus.
 
+## Jewelry sacrifice in 2.7.1
+
+Through the **Hunter's Compendium** **Sacrifice** menu, aim at a Mastery jewel
+or a container. Rings, bracelets, and earrings feed their own slots, adding up
+to **+5%** to the jewel worn in that slot for **60 minutes of play**, within the
+Mastery caps. An empty slot gains nothing. Named, blessed, insured, or worn
+pieces are refused.
+
+Temporary effects from **Scroll of Knowledge**, Codex sacrifices, and Compendium
+sacrifices appear in the buff bar with their current total and layers in the
+tooltip. The updated DoB client is required.
+
 ## Complete catalog of Masteries
 
 Baseline numeric values on Live 0.42.0. The Level 1, Level 10, and Level 20 columns

@@ -25,7 +25,8 @@ location. The pet returns under control with the follow order.
 Shrink statuettes do not decay: left on the ground, inside a house or outside,
 they stay until someone picks them up, like a pet in the stable. Pets from
 lost statuettes are not gone for good: call staff, who returns each one in a
-new statuette in your bank.
+new statuette in your bank. In 2.7.1, pets stored in a statuette or the stable
+are not removed by cleanup; storing a pet also stops bleeding and cures poison.
 
 ## Protective Ward in 2.4.0
 

@@ -26,7 +26,8 @@ pet volta sob controle e recebe a ordem de seguir.
 Estatuetas de shrink não apodrecem: largadas no chão, dentro ou fora de casa,
 ficam até alguém pegar, como um pet no estábulo. Pets de estatuetas perdidas
 não somem de vez: chame a staff, que devolve cada um numa estatueta nova no
-seu banco.
+seu banco. No 2.7.1, pets guardados em statuette ou no estábulo não são removidos
+pela limpeza; guardar um pet também interrompe sangramento e cura poison.
 
 ## Protective Ward no 2.4.0
 

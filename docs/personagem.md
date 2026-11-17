@@ -34,10 +34,15 @@ podem elevar o valor efetivo acima desse limite conforme as regras da skill.
 ## Progressão de skills
 
 As 49 skills ativas usam curvas de treino calibradas. Entre **30.0 e 100.0**, a
-progressão projetada agora mira **4 ou 6 horas ativas**, conforme a skill. O
+progressão projetada mira cerca de **3 ou 5 horas ativas**, conforme a skill. O
 ganho protegido continua atuando somente quando a skill está atrás da curva e
-mantém os limites de **8 ou 10 horas** para os perfis rápido e normal. Abaixo
-de 30.0, não há progresso protegido acumulado; o progresso já salvo é mantido.
+mantém os limites de **5 ou 7 horas** para os perfis rápido e normal. Abaixo de
+30.0, não há progresso protegido acumulado; o progresso já salvo é mantido.
+
+Quando um **Tome of Expertise** ou uma quest de ofício aumenta uma skill entre
+30.0 e 100.0, o tempo protegido acompanha o novo valor. Se a skill já chegou ao
+limite protegido sem alcançar 100.0, cada uso aceito ainda concede **0,1** até
+100.0. Uma skill que diminui perde o tempo protegido e volta à curva normal.
 
 Anatomy, Evaluating Intelligence, Fencing, Wrestling, Parrying e Mace Fighting
 ganham **0.2** quando um ganho normal é aprovado em combate PvM elegível, sem

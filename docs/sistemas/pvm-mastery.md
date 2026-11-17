@@ -87,6 +87,18 @@ No 2.4.0, os bônus passaram a somar em camadas: cada pergaminho numa Maestria c
 
 No 2.5.0, o limite de **+15%** passou a ser do total, somando todas as Maestrias: pergaminhos de Maestrias diferentes valem ao mesmo tempo. Uma Maestria inativa continua sendo ativada pelo pergaminho, fora dos espaços. Quando o total está cheio, um pergaminho novo é recusado e fica com você, sem substituir o bônus de outra Maestria.
 
+## Sacrifício de joias no 2.7.1
+
+Pelo menu **Sacrifice** do **Hunter's Compendium**, mire uma joia de Maestria ou
+um container. Anéis, braceletes e brincos alimentam seus próprios slots e somam
+até **+5%** à joia vestida no slot por **60 minutos de jogo**, respeitando os
+tetos da Maestria. Um slot vazio não ganha nada. Peças nomeadas, blessed,
+seguradas ou vestidas não são aceitas.
+
+Os efeitos temporários do **Scroll of Knowledge**, dos sacrifícios do Codex e do
+Compendium aparecem na barra de buffs com o total atual e suas camadas no
+tooltip. O cliente DoB atualizado é necessário.
+
 ## Catálogo completo das Maestrias
 
 Valores numéricos-base do Live 0.42.0. As colunas Nv 1, Nv 10 e Nv 20 resumem a

@@ -197,10 +197,13 @@ pelo jogo. As oito etapas iniciais são sequenciais:
 
 As dicas apontam para Britain Cemetery, Despise Trolls, Despise Lizardmen,
 Deserto da Compaixão, Shame, Covetous, Orc Cave e Despise, mas outros locais
-elegíveis também contam. Cada etapa entrega XP de Maestria PvM e gold; as
-cinco primeiras dão também dois Tomes of Expertise aleatórios cada (sem
-retroativo para ouro já recebido). As recompensas específicas ficam em
-[Achievements](../sistemas/achievements.md).
+elegíveis também contam. Cada etapa entrega XP de Maestria PvM. Desde o 2.7.1,
+cada uma das oito etapas dá **2.000** de gold (antes **1.000**) e dois Tomes of
+Expertise. **First PvM Hunt**, **First Daily Dungeon Kill**, **Area Miner**,
+**Area Fisher**, **Area Lumberjack** e **First Trainer Fight** também dão
+**2.000** de gold e dois Tomes, além do XP. Vale para conclusões a partir do
+patch; recompensas já recebidas não são pagas novamente. As recompensas
+específicas ficam em [Achievements](../sistemas/achievements.md).
 
 ### 4. Escolha um primeiro estilo
 

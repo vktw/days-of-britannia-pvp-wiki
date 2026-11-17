@@ -96,6 +96,10 @@ No 2.4.0, o Kharag vende o **Elixir da Prosperidade** por **1.000** pontos. Por
 mais do ouro da criatura, colocado direto na sua mochila (no banco, se ela
 estiver cheia) com um aviso, somado ao bônus Young se você o tiver.
 
+No 2.7.1, o **Elixir da Prosperidade**, o **Hunter's Draught** e o **Fortune
+Draught** mostram tempo restante e efeito na barra de buffs. O cliente DoB
+atualizado é necessário.
+
 ## Encomendas no 2.7.0
 
 Aldric agora aceita kits de Chainmail e Platemail de Bronze, Driftseeker Pole de

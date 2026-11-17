@@ -228,6 +228,9 @@ nome próprio. Ela exige **Animal Taming 101**, não é agressiva e não é
 atacada enquanto selvagem, muda de lugar a cada **12 horas** até ser domada e
 guarda a cor domada.
 
+No 2.7.1, a **emberfox** e a **hoarshell mite** também entregam Loot Packs,
+ouro e os drops de Fire ou Ice, apesar do corpo de animal.
+
 ## Season of the Witch
 
 Em outubro, o coven da **Season of the Witch** ocupa um cemitério de Felucca

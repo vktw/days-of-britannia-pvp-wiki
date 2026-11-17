@@ -226,6 +226,9 @@ of its own. It requires **Animal Taming 101**, is not aggressive and is not
 attacked while wild, moves every **12 hours** until tamed, and keeps its
 colour once tamed.
 
+In 2.7.1, the **emberfox** and **hoarshell mite** also give Loot Packs, gold,
+and Fire or Ice dungeon drops despite their animal bodies.
+
 ## Season of the Witch
 
 In October, the **Season of the Witch** coven holds one Felucca cemetery at a
