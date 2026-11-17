@@ -38,10 +38,22 @@ Caem com **5%** de chance, em **20** capas. No 1.3.0, o **Restore** de um livro
 encadernado pede confirmação antes de devolver o visual original (a
 encadernação continua sem voltar).
 
+## Sacrifício no 2.7.1
+
+O menu **Sacrifice** do Codex aceita uma arma ou armadura mágica, ou um container
+com elas. Armas preenchem **Attack** e armaduras preenchem **Defense** contra
+qualquer criatura no PvM por **60 minutos de jogo**. Cada peça vale **0,25%** em
+Ruin ou Defense, **0,33%** em Might ou Guarding, **0,5%** em Force ou Hardening,
+**1%** em Power ou Fortification e **5%** em Vanquishing ou Invulnerability,
+até **+10%** em cada efeito. Defense continua limitada a **90%**.
+
+Só entram peças próprias, mágicas, sem nome próprio, não blessed, seguradas,
+vestidas ou protegidas. O sacrifício consome as peças confirmadas.
+
 ## Continue explorando
 
 Consulte [Daily Dungeon](daily-dungeon.md) para o Bloodmire e a Bounty, e
 [Maestria PvM](pvm-mastery.md) para a progressão de combate.
 
-!!! success "Status: 1.2.0"
+!!! success "Status: 2.7.1"
     Compêndio de grupos de Slayer com bônus permanentes.

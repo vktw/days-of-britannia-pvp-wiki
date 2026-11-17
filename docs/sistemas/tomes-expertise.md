@@ -46,6 +46,12 @@ dois cliques num tome e clique numa bolsa — os tomes daquela skill na bolsa
 viram um só, até **+100,0**. Para ler um tome, dê dois cliques nele e clique em
 você.
 
+No 2.7.1, quando um tome aumenta uma skill entre **30,0** e **100,0**, o tempo
+de treino protegido acompanha o novo valor. A curva leva cerca de **3 horas** nas
+skills rápidas e **5 horas** nas demais; a garantia protegida é de **5** e **7
+horas**. Uma skill parada no limite protegido ainda ganha **0,1** por uso até
+100,0.
+
 Para outras recompensas de caça, consulte [Recompensas PvM](../itens/recompensas-pvm.md).
 
 !!! success "Status: 0.42.0"

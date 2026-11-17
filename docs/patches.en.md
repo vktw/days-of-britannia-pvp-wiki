@@ -2,6 +2,21 @@
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 2.7.1 · Sacrifice
+
+Published on November 16, 2026.
+
+- In the **Slayer's Codex**, the **Sacrifice** menu lets you aim at a magic weapon or armor piece, or a container holding them. Weapons give Attack and armor gives Defense against every PvM creature for **60 minutes of play** per sacrifice, up to **+10%** each: **0.25%** per Ruin or Defense piece, **0.33%** for Might or Guarding, **0.5%** for Force or Hardening, **1%** for Power or Fortification, and **5%** for Vanquishing or Invulnerability. Defense remains capped at **90%**.
+- In the **Hunter's Compendium**, use **Sacrifice** on a Mastery jewel or container. Rings, bracelets, and earrings feed their own slot, adding up to **+5%** to the jewel worn there, within the Mastery caps, for **60 minutes of play**. An empty slot gains nothing; named, blessed, insured, or worn pieces are refused.
+- When a **Tome of Expertise** or a trade quest raises a skill, protected training follows the new value. From **30 to 100**, the curves now take about **3 hours** for fast skills and **5 hours** for the others; the protected guarantee is now **5** and **7 hours**. Skills that reached the protected limit below 100 now gain **0.1** per use until 100.
+- Fire and Ice **emberfoxes** and **hoarshell mites** now give Loot Packs, gold, and dungeon drops like the other creatures.
+- The eight introductory stages now give **2,000** gold (was **1,000**) and two Tomes of Expertise. First PvM Hunt, First Daily Dungeon Kill, Area Miner, Area Fisher, Area Lumberjack, and First Trainer Fight also give **2,000** gold and two Tomes, as well as their XP. This applies to completions from this patch onward.
+- **Hunter's Draught**, **Fortune Draught**, and **Prosperity Draught** now appear in the buff bar with time left and effect. Scroll of Knowledge and Codex and Compendium sacrifices also show one icon per effect, with the current total and layers in the tooltip. The updated DoB client is required.
+- **Veil of the Gorgon** keeps its **+7** Str, Dex, and Int bonuses and its Mastery slot after relogging.
+- Pets stored in statuettes or the stable are no longer removed by cleanup. The mount lost inside a statuette was returned to its owner; storing a pet also stops bleeding and cures poison.
+
+See [PvM Mastery](sistemas/pvm-mastery.md), [Slayer's Codex](sistemas/slayers-codex.md), [Tomes of Expertise](sistemas/tomes-expertise.md), [Character](personagem.md), [Pets and mounts](sistemas/pets-montarias.md), [Achievements](sistemas/achievements.md), [Fire and Ice](sistemas/spawns-raros.md), and [Kharag](sistemas/kharag.md).
+
 ## 2.7.0 · Fire and Ice: Vharaxis and Skjoldra
 
 Published on November 14, 2026.

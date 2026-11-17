@@ -193,10 +193,13 @@ by the game. The eight introductory stages are sequential:
 
 The hints point to Britain Cemetery, Despise Trolls, Despise Lizardmen, Desert of
 Compassion, Shame, Covetous, Orc Cave, and Despise, but other eligible locations
-also count. Each stage grants PvM Mastery XP and gold; the first five also grant
-two random Tomes of Expertise each (no retroactive tomes for gold already
-received). See [Achievements](../sistemas/achievements.md) for the specific
-rewards.
+also count. Each stage grants PvM Mastery XP. Since 2.7.1, all eight stages grant
+**2,000** gold (was **1,000**) and two Tomes of Expertise. **First PvM Hunt**,
+**First Daily Dungeon Kill**, **Area Miner**, **Area Fisher**, **Area Lumberjack**,
+and **First Trainer Fight** also grant **2,000** gold and two Tomes, as well as
+their XP. This applies to completions from the patch onward; rewards already
+received are not paid again. See [Achievements](../sistemas/achievements.md) for
+the specific rewards.
 
 ### 4. Choose a first playstyle
 

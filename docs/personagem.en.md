@@ -32,10 +32,15 @@ value above that limit according to the skill's rules.
 ## Skill progression
 
 The 49 active skills use calibrated training curves. Between **30.0 and 100.0**,
-projected progression now targets **4 or 6 active hours**, depending on the
+projected progression now takes about **3 or 5 active hours**, depending on the
 skill. Protected gain still operates only while a skill is behind its curve and
-keeps the **8- or 10-hour** limits for the fast and normal profiles. No
-protected progress is banked below 30.0; saved progress is preserved.
+keeps the **5- or 7-hour** limits for the fast and normal profiles. No protected
+progress is banked below 30.0; saved progress is preserved.
+
+When a **Tome of Expertise** or a trade quest raises a skill between 30.0 and
+100.0, protected time follows the new value. If a skill has reached its
+protected limit below 100.0, each accepted use still grants **0.1** until 100.0.
+A skill that drops loses its protected time and returns to the normal curve.
 
 Anatomy, Evaluating Intelligence, Fencing, Wrestling, Parrying, and Mace
 Fighting gain **0.2** when a normal gain is approved in eligible PvM combat,

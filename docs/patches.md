@@ -2,6 +2,21 @@
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 2.7.1 · Sacrifício
+
+Publicado em 16 de novembro de 2026.
+
+- No **Slayer's Codex**, o menu **Sacrifice** permite mirar uma arma ou armadura mágica, ou um container com elas. Armas dão Attack e armaduras dão Defense contra toda criatura no PvM, por **60 minutos de jogo** a cada sacrifício, até **+10%** em cada efeito: **0,25%** por peça de Ruin ou Defense, **0,33%** de Might ou Guarding, **0,5%** de Force ou Hardening, **1%** de Power ou Fortification e **5%** de Vanquishing ou Invulnerability. Defense continua limitada a **90%**.
+- No **Hunter's Compendium**, use **Sacrifice** em uma joia de Maestria ou container. Anéis, braceletes e brincos alimentam o próprio slot, somando até **+5%** à joia vestida nele, dentro dos limites das Maestrias, por **60 minutos de jogo**. Slot vazio não ganha nada; peças nomeadas, blessed, seguradas ou vestidas não são aceitas.
+- Quando um **Tome of Expertise** ou uma quest de ofício aumenta uma skill, o treino protegido acompanha o novo valor. De **30 a 100**, as curvas passam a levar cerca de **3 horas** nas skills rápidas e **5 horas** nas demais; a garantia protegida passa a **5** e **7 horas**. Skills que chegaram ao limite protegido sem alcançar 100 continuam ganhando **0,1** por uso até 100.
+- **Emberfox** e **hoarshell mite** de Fire e Ice agora concedem Loot Packs, ouro e drops da dungeon como as outras criaturas.
+- Os oito passos do caminho inicial dão **2.000** de ouro (antes **1.000**) e dois Tomes of Expertise. First PvM Hunt, First Daily Dungeon Kill, Area Miner, Area Fisher, Area Lumberjack e First Trainer Fight também dão **2.000** de ouro e dois Tomes, além do XP. Vale para conclusões a partir deste patch.
+- **Hunter's Draught**, **Fortune Draught** e **Prosperity Draught** aparecem na barra de buffs com tempo restante e efeito. Scroll of Knowledge e os sacrifícios do Codex e do Compendium também mostram um ícone por efeito, com o total atual e as camadas no tooltip. É necessário o cliente DoB atualizado.
+- **Veil of the Gorgon** mantém os bônus de **+7** em Str, Dex e Int e o slot de Maestria depois de relogar.
+- Pets guardados em statuettes ou no estábulo não são removidos pela limpeza. A montaria que foi perdida dentro de uma statuette foi devolvida ao dono; guardar um pet também interrompe sangramento e cura poison.
+
+Consulte [Maestria PvM](sistemas/pvm-mastery.md), [Slayer's Codex](sistemas/slayers-codex.md), [Tomes of Expertise](sistemas/tomes-expertise.md), [Personagem](personagem.md), [Pets e montarias](sistemas/pets-montarias.md), [Achievements](sistemas/achievements.md), [Fire e Ice](sistemas/spawns-raros.md) e [Kharag](sistemas/kharag.md).
+
 ## 2.7.0 · Fire e Ice: Vharaxis e Skjoldra
 
 Publicado em 14 de novembro de 2026.

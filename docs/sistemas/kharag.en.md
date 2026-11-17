@@ -95,6 +95,10 @@ In 2.4.0, Kharag sells the **Prosperity Draught** for **1,000** points. For
 creature's gold, placed straight in your backpack (in your bank if it is full)
 with a message, on top of the Young bonus if you have it.
 
+In 2.7.1, the **Prosperity Draught**, **Hunter's Draught**, and **Fortune Draught**
+show their remaining time and effect in the buff bar. The updated DoB client is
+required.
+
 ## Craft orders in 2.7.0
 
 Aldric now takes Bronze Chainmail and Platemail kits, Driftseeker Poles in Oak,

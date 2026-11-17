@@ -22,8 +22,8 @@ hide:
 
 <section class="dob-landing-strip" aria-label="Server status">
   <span class="dob-landing-stat"><strong><i aria-hidden="true"></i>Server online</strong><small>Britannia is active</small></span>
-  <span class="dob-landing-stat"><strong>2.7.0</strong><small>Current version</small></span>
-  <a class="dob-landing-stat" href="patches/"><strong>Fire and Ice: Vharaxis and Skjoldra</strong><small>Latest update</small></a>
+  <span class="dob-landing-stat"><strong>2.7.1</strong><small>Current version</small></span>
+  <a class="dob-landing-stat" href="patches/"><strong>Sacrifice</strong><small>Latest update</small></a>
 </section>
 
 <nav class="dob-landing-shortcuts" aria-label="Manual shortcuts">
@@ -82,16 +82,16 @@ hide:
   <h2 id="dob-landing-news" class="dob-landing-section__title">The shard keeps moving</h2>
   <div class="dob-landing-news">
     <article class="dob-landing-patch">
-      <span class="dob-landing-patch__tag">Latest update · 2.7.0</span>
-      <h3>Fire and Ice: Vharaxis and Skjoldra</h3>
-      <p class="dob-landing-patch__date"><time datetime="2026-11-14">November 14, 2026</time></p>
-      <p>Tyrants that wake with kills, ancestral mounts, and rewards.</p>
+      <span class="dob-landing-patch__tag">Latest update · 2.7.1</span>
+      <h3>Sacrifice</h3>
+      <p class="dob-landing-patch__date"><time datetime="2026-11-16">November 16, 2026</time></p>
+      <p>Turn unused equipment and jewelry into temporary PvM power.</p>
       <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="patches/">Read patch notes</a>
     </article>
     <div class="dob-landing-articles">
       <h3>Latest updated articles</h3>
       <a href="sistemas/pets-montarias/"><time datetime="2026-11-11">Nov 11</time><span><strong>Pets and mounts</strong><small>Rare crossing and the Death Rider</small></span></a>
-      <a href="patches/"><time datetime="2026-11-14">Nov 14</time><span><strong>Patch notes</strong><small>2.7.0, 2.6.0, and 2.5.0</small></span></a>
+      <a href="patches/"><time datetime="2026-11-16">Nov 16</time><span><strong>Patch notes</strong><small>2.7.1, 2.7.0, and 2.6.0</small></span></a>
       <a href="sistemas/spawns-raros/"><time datetime="2026-11-14">Nov 14</time><span><strong>Rare spawns</strong><small>Fire and Ice, Death Rider, and tyrants</small></span></a>
       <a href="sistemas/mapas-tesouro/"><time datetime="2026-11-14">Nov 14</time><span><strong>Treasure Maps</strong><small>Book with 100 maps and Compass</small></span></a>
     </div>

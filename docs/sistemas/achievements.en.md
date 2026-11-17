@@ -22,9 +22,12 @@ unlocked do not advance the locked stage.
 | **Orc Hunter** | 10 eligible Orcs | 700 PvM Mastery XP, 1,000 gold, and one DoB Magic Bracelet |
 | **Ettin Hunter** | 10 eligible Ettins | 800 PvM Mastery XP, 1,000 gold, and one DoB Magic Earring |
 
-In 2.4.0, the first five stages also give two random Tomes of Expertise each,
-with the gold. A step whose gold you already received before this version does
-not give its tomes.
+In 2.4.0, the first five stages also gave two random Tomes of Expertise each,
+with the gold. In 2.7.1, all eight stages now give **2,000** gold (was **1,000**)
+and two Tomes. **First PvM Hunt**, **First Daily Dungeon Kill**, **Area Miner**,
+**Area Fisher**, **Area Lumberjack**, and **First Trainer Fight** also give
+**2,000** gold and two Tomes, as well as their XP. This applies to completions
+from the patch onward; earlier rewards are not paid again.
 
 The hints point to Britain Cemetery, Despise Trolls, Despise Lizardmen, Desert of
 Compassion, Shame, Covetous, Orc Cave, and Despise, but they do not lock the

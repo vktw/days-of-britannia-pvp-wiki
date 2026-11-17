@@ -43,6 +43,12 @@ In 1.3.0, to join same-skill tomes (**75.0** Inscription required): double-click
 a tome and target a bag — that skill's tomes in the bag become one, up to
 **+100.0**. To read a tome, double-click it and target yourself.
 
+In 2.7.1, when a tome raises a skill between **30.0** and **100.0**, protected
+training time follows the new value. The curve takes about **3 hours** for fast
+skills and **5 hours** for the others; the protected guarantee is **5** and **7
+hours**. A skill stalled at its protected limit still gains **0.1** per use
+until 100.0.
+
 For other hunting rewards, see [PvM rewards](../itens/recompensas-pvm.md).
 
 !!! success "Status: 0.42.0"

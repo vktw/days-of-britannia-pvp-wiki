@@ -38,10 +38,22 @@ Codex. They drop at **5%**, in **20** covers. In 1.3.0, **Restore** on a bound
 book asks for confirmation before returning the original look (the binding is
 still not returned).
 
+## Sacrifice in 2.7.1
+
+The Codex's **Sacrifice** menu accepts a magic weapon or armor piece, or a
+container holding them. Weapons fill **Attack** and armor fills **Defense**
+against any PvM creature for **60 minutes of play**. Each piece is worth
+**0.25%** at Ruin or Defense, **0.33%** at Might or Guarding, **0.5%** at Force
+or Hardening, **1%** at Power or Fortification, and **5%** at Vanquishing or
+Invulnerability, up to **+10%** per effect. Defense remains capped at **90%**.
+
+Only your own magic pieces with no name of their own, and not blessed, insured,
+worn, or protected, are eligible. Sacrifice consumes the confirmed pieces.
+
 ## Keep exploring
 
 See [Daily Dungeon](daily-dungeon.md) for the Bloodmire and the Bounty, and
 [PvM Mastery](pvm-mastery.md) for combat progression.
 
-!!! success "Status: 1.2.0"
+!!! success "Status: 2.7.1"
     Slayer group compendium with permanent bonuses.
