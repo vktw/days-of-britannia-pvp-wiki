@@ -1,3 +1,7 @@
+---
+description: "DoB Razor: the assistant shipped with the official launcher, how it starts, and what it does."
+---
+
 # DoB Razor
 
 The official launcher automatically launches **DoB Razor** together with the client. There is no need to open the wizard manually.

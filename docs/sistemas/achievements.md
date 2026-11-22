@@ -1,3 +1,7 @@
+---
+description: "Achievements: trilha inicial, catálogo de atividades, conquistas sazonais e recompensas."
+---
+
 # Achievements
 
 Achievements registram os primeiros objetivos PvM e atividades especiais do personagem. Use `.achievements` para abrir o catálogo, acompanhar o progresso e consultar as recompensas.

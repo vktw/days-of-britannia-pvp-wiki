@@ -1,3 +1,7 @@
+---
+description: "Visão geral do craft: nove categorias, materiais, faixas de skill e chances oficiais do servidor."
+---
+
 # Craft
 
 O catálogo atual organiza o craft em nove categorias. Esta seção reúne as

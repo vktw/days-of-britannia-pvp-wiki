@@ -1,3 +1,7 @@
+---
+description: "Próximo patch planejado: apenas mudanças aprovadas e ainda não publicadas no servidor."
+---
+
 # Próximo Patch Planejado
 
 Esta página será atualizada quando houver conteúdo aprovado para divulgação. Sistemas já lançados ficam nas páginas de referência e em [Patch notes](patches.md), sem misturar recursos Live com propostas em desenvolvimento.

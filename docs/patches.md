@@ -1,3 +1,7 @@
+---
+description: "Patch notes oficiais do servidor, da versão atual às mudanças publicadas anteriores."
+---
+
 # Patch notes
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.

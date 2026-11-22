@@ -1,3 +1,7 @@
+---
+description: "Kharag: Commodity Deed donations, points, draughts, and rewards for crafters."
+---
+
 # Kharag, Heart of the Earth
 
 At the **Nujel'm Safe Haven**, **Kharag, Heart of the Earth**, accepts full

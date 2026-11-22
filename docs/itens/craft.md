@@ -1,3 +1,7 @@
+---
+description: "Página de compatibilidade: o conteúdo canônico de Craft está na visão geral e nas páginas por categoria."
+---
+
 # Craft
 
 ## Conteúdo consolidado

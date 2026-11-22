@@ -1,3 +1,7 @@
+---
+description: "Threat Rating: an endurance scale to decide whether to hunt alone or form a group."
+---
+
 # Threat Rating
 
 **Threat Rating** is a quick endurance reference. Use it to decide whether to fight alone, prepare consumables, or form a group.

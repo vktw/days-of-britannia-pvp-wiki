@@ -1,3 +1,7 @@
+---
+description: "Tailoring no Live: Leather Armor Kit, DoB Cloth, roupas e curvas de sucesso."
+---
+
 # Tailoring
 
 ## Leather Armor Kit no 2.2.0

@@ -1,3 +1,7 @@
+---
+description: "Newcomer: seven days of protection, the (Young) mark, gold and XP bonuses, and limits."
+---
+
 # Newcomer and protection
 
 Newcomer helps you get started safely. It lasts **168 hours** (seven days) and marks the character as `(Young)`.

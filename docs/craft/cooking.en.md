@@ -1,3 +1,7 @@
+---
+description: "Cooking on Live: recipes, success curves, and a crafting simulator with official values."
+---
+
 # Cooking
 
 <section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Cooking" data-craft-sim-slider-max="105" aria-labelledby="dob-craft-cooking-title">

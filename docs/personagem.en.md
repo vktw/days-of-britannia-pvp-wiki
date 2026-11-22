@@ -1,3 +1,7 @@
+---
+description: "Character reference: starting stats, skills at 100, training progression, and skill rules."
+---
+
 # Character
 
 ## Initial base

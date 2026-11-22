@@ -1,3 +1,7 @@
+---
+description: "Compatibility page: the official connection flow was consolidated into Start here."
+---
+
 # How to connect
 
 This page has been consolidated into [Start here](index.md), which now

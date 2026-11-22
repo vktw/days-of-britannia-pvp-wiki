@@ -1,3 +1,7 @@
+---
+description: "Visão geral dos sistemas do Days of Britannia e onde cada regra player-facing está documentada."
+---
+
 # Sistemas
 
 Days of Britannia roda em um emulador moderno de Ultima Online. A base clássica

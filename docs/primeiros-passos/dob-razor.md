@@ -1,3 +1,7 @@
+---
+description: "DoB Razor: assistente incluído no launcher oficial, como ele inicia e o que faz."
+---
+
 # DoB Razor
 
 O launcher oficial inicia automaticamente o **DoB Razor** junto com o cliente. Não é necessário abrir o assistente manualmente.

@@ -1,3 +1,7 @@
+---
+description: "How Days of Britannia PvP works: pressure and response, physical damage, magic, healing, poison, fields, and invisibility."
+---
+
 # PvP
 
 Days of Britannia's custom PvP runs on a modern emulator and is built around

@@ -1,3 +1,7 @@
+---
+description: "Brazilian Ultima Online community: the shard, the official launcher, and where to start."
+---
+
 # Ultima Online Brasil: shards, servers, and community
 
 Players searching for **Ultima Online Brasil**, an **Ultima Online Shard Brasil**, or an **Ultima Online Server International** will find a community that has kept Britannia alive for decades. This page introduces the origins of **UO**, the rise of Brazilian freeshards, and the Days of Britannia experience for players from Brasil and other countries.

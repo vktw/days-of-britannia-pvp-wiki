@@ -1,3 +1,7 @@
+---
+description: "Blacksmithy no Live: armas de Bloodrock e Blackrock, kits de armadura, curvas de metal e simulador de craft."
+---
+
 # Blacksmithy
 
 ## Novas armas Bloodrock e Blackrock no 1.0.0

@@ -44,8 +44,7 @@ jobs:
       - name: Build strict site
         run: mkdocs build --strict --clean
 
-      - name: Advisory audit rendered site
-        continue-on-error: true
+      - name: Audit rendered site
         run: python scripts/audit_rendered_site.py
 
       - name: Package release

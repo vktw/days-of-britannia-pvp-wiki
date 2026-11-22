@@ -1,3 +1,7 @@
+---
+description: "Season of the Witch: covens in Felucca, undead waves, and rewards."
+---
+
 # Season of the Witch
 
 In October, the **Season of the Witch** brings a coven of five witches to the

@@ -1,3 +1,7 @@
+---
+description: "Bowcraft and Fletching: bows, arrows, success curves, and the shard's crafting simulator."
+---
+
 # Bowcraft
 
 <section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Fletching" data-craft-sim-slider-max="105" data-craft-sim-exceptional-mode="fifty-minus-ten" aria-labelledby="dob-craft-bowcraft-title">

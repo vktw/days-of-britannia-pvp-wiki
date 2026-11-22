@@ -1,3 +1,7 @@
+---
+description: "Season of Thorns: Overgrown creatures and seasonal PvM rewards."
+---
+
 # Season of Thorns
 
 In September, **Season of Thorns** brings Overgrown creatures and seasonal

@@ -1,3 +1,7 @@
+---
+description: "Morte e recuperação: como voltar em Nujelm, recuperar o corpo e usar Resurrection."
+---
+
 # Morte e recuperação
 
 Ao morrer, você escolhe como voltar a [Nujelm Safe Haven](../mundo/nujelm.md):

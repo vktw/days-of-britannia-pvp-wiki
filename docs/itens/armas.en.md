@@ -1,3 +1,7 @@
+---
+description: "Classic and DoB weapon catalog: offensive qualities, materials, and skill ranges."
+---
+
 # Classic weapons
 
 ## Qualities

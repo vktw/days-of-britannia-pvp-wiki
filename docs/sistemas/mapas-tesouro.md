@@ -1,3 +1,7 @@
+---
+description: "Mapas do tesouro: drop por Threat, decodificação, baús, tiers e Treasure Map Book."
+---
+
 # Mapas do Tesouro
 
 Toda criatura elegível pode deixar um **mapa do tesouro de Felucca** ao

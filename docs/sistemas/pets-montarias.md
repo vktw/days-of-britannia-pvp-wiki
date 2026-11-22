@@ -1,3 +1,7 @@
+---
+description: "Pets e montarias: Shrink Potion, Protective Ward, montarias raras e cruzamento no Live."
+---
+
 # Pets e montarias
 
 Esta página reúne as regras próprias do shard para guardar pets, encontrar

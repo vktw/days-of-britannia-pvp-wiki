@@ -1,3 +1,7 @@
+---
+description: "Slayer's Codex: Slayer groups, Attack and Defense points, and equipment Sacrifice."
+---
+
 # Slayer's Codex
 
 On delivering the first **Bloodmire Bounty**, the character receives the

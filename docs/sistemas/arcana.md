@@ -1,3 +1,7 @@
+---
+description: "Arcanos: seis escolas de magia PvM, Magnum Opus, Vis, barra de habilidades e progressão."
+---
+
 # Arcanos
 
 Os **Arcanos** são habilidades ativas de PvM em **seis** escolas — **Fogo**,

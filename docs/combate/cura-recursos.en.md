@@ -1,3 +1,7 @@
+---
+description: "Compatibility page: healing, bandages, and resources were consolidated into the single PvP guide."
+---
+
 # Healing and resources
 
 ## Consolidated content

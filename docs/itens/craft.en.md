@@ -1,3 +1,7 @@
+---
+description: "Compatibility page: canonical Craft content is in the overview and the per-category pages."
+---
+
 # Craft
 
 ## Consolidated content

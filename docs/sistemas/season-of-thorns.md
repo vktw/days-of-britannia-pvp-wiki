@@ -1,3 +1,7 @@
+---
+description: "Season of Thorns: criaturas Overgrown e recompensas sazonais no PvM."
+---
+
 # Season of Thorns
 
 Em setembro, a **Season of Thorns** traz criaturas Overgrown e recompensas

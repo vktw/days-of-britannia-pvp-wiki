@@ -1,3 +1,7 @@
+---
+description: "Hall of Echoes: Sunday solo challenge, bookings in .events, waves, and rewards."
+---
+
 # Hall of Echoes
 
 Every Sunday, the **Hall of Echoes** opens a solo PvM challenge: book one of

@@ -1,3 +1,7 @@
+---
+description: "Threat Rating: escala de resistência para decidir se vale caçar sozinho ou formar grupo."
+---
+
 # Threat Rating
 
 O **Threat Rating** é uma referência rápida de resistência. Use-o para decidir se vale lutar sozinho, preparar consumíveis ou formar um grupo.

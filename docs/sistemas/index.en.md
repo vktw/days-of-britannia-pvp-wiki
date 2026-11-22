@@ -1,3 +1,7 @@
+---
+description: "Overview of Days of Britannia systems and where each player-facing rule is documented."
+---
+
 # Systems
 
 Days of Britannia runs on a modern Ultima Online emulator. Its classic base is

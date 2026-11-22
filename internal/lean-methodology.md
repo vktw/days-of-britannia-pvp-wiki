@@ -81,20 +81,23 @@ localização verifica pares PT-BR/EN, headings, comandos, números, links e ter
 protegidos. O gate de contrato do site verifica navegação e assets locais. O gate
 do registry confirma que fatos apontam para páginas canônicas existentes. Após o
 build, o gate renderizado verifica `lang`, título, marcador Atlas, links de idioma,
-metadata canônica e anchors duplicados.
+URLs de hreflang, canonical, metadados Open Graph/Twitter, bloco JSON-LD e anchors
+duplicados.
 
 Esses gates rodam no CI antes do empacotamento. Eles detectam deriva estrutural e
 quebras de publicação; não substituem a fonte live nem provam que uma regra de
-gameplay está correta. A auditoria de metadata SEO mais ampla permanece uma
-etapa posterior, quando houver necessidade comprovada.
+gameplay está correta. A auditoria de metadata SEO mais ampla (fora da estrutura
+já verificada) permanece uma etapa posterior, quando houver necessidade
+comprovada.
 
 ### Política de bloqueio
 
-Os gates de links, paridade PT-BR/EN, navegação/assets, registry e build são
-bloqueadores: uma falha impede o pacote e o deploy. A auditoria renderizada de
-metadata, canonical, hreflang e anchors é advisory por enquanto: aparece no CI,
-mas não interrompe uma publicação. Ela só vira bloqueadora após evidência de
-falsos positivos baixos e benefício operacional claro.
+Todos os gates automatizados são bloqueadores: links, paridade PT-BR/EN,
+navegação/assets, registry, build e auditoria renderizada. Uma falha impede o
+pacote e o deploy. A auditoria renderizada deixou de ser advisory em 2026-11-22
+porque uma falha real de URL nos links hreflang passou despercebida com o
+`continue-on-error`: as URLs esperadas são determinísticas e os falsos positivos
+são baixos.
 
 ## Recomendações, não bloqueios
 

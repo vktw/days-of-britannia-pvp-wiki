@@ -1,3 +1,7 @@
+---
+description: "Compatibility page: Magery and Spellbook were consolidated into the single PvP guide."
+---
+
 # Magery
 
 ## Consolidated content

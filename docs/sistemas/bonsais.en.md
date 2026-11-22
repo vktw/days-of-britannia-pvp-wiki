@@ -1,3 +1,7 @@
+---
+description: "Bonsais: saplings in Felucca, planting at home, and seasonal varieties."
+---
+
 # Bonsais
 
 Chopping trees in **Felucca**, lumberjacks find **bonsai saplings** (on

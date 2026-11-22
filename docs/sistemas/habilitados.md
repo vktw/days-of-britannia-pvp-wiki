@@ -1,3 +1,7 @@
+---
+description: "Sistemas habilitados no Live: combate, magia, PvM, craft, mundo e eventos do shard."
+---
+
 # Sistemas habilitados
 
 - Combate físico com Swords, Macing, Fencing, Archery e Wrestling.

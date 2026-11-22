@@ -1,3 +1,7 @@
+---
+description: "Compatibility page: poison and the Venom Flask were consolidated into the single PvP guide."
+---
+
 # Poison
 
 ## Consolidated content

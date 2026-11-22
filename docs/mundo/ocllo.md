@@ -1,3 +1,7 @@
+---
+description: "Ocllo: cidade de Felucca sem guards, serviços e regras atuais de PvP e stealing."
+---
+
 # Ocllo em Felucca
 
 Ocllo é uma cidade de Felucca sem guards. Desde o Live 0.23.0, a ilha não possui mais as restrições especiais de PvP, dano ou stealing que pertenciam ao Safe Haven.

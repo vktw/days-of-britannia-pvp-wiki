@@ -1,3 +1,7 @@
+---
+description: "Página de compatibilidade: a conexão oficial foi consolidada em Comece aqui."
+---
+
 # Como conectar
 
 Esta página foi consolidada em [Comece aqui](index.md), que agora reúne a

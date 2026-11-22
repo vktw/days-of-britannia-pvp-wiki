@@ -1,3 +1,7 @@
+---
+description: "Official server patch notes, from the current version back through earlier published changes."
+---
+
 # Patch notes
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.

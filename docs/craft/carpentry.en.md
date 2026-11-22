@@ -1,3 +1,7 @@
+---
+description: "Carpentry on Live: Driftseeker Pole, house items, woods, and success curves."
+---
+
 # Carpentry
 
 ## Driftseeker Pole in 1.0.0

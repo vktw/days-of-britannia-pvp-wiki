@@ -1,3 +1,7 @@
+---
+description: "Guarded cities: bank and vendors for PKs, calling the guards, and confirmed exceptions."
+---
+
 # Cities and guards
 
 This page only records confirmed exceptions. The absence of a city on the list does not mean that it is unprotected.

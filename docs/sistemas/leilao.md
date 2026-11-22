@@ -1,3 +1,7 @@
+---
+description: "Leilão global com .auction: duração, lances, comissão e itens do banco."
+---
+
 # Leilão
 
 O **leilão global** negocia itens entre jogadores com o comando **.auction**:

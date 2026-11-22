@@ -1,3 +1,7 @@
+---
+description: "Alchemy no Live: poções, Deadly Poison Potion, curvas de sucesso e equipamentos do ofício."
+---
+
 # Alchemy
 
 ## Deadly Poison e preservação de reagentes no 0.45.0

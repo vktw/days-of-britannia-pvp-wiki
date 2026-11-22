@@ -1,3 +1,7 @@
+---
+description: "Página de compatibilidade: local inicial, stats e recursos da criação estão em Comece aqui."
+---
+
 # Seu primeiro personagem
 
 O conteúdo desta página foi consolidado em [Comece aqui](index.md), que reúne

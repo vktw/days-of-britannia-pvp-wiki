@@ -1,3 +1,7 @@
+---
+description: "Cartography no Live: mapas do tesouro, decodificação e simulador de craft."
+---
+
 # Cartography
 
 <section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Cartography" data-craft-sim-slider-max="105" aria-labelledby="dob-craft-cartography-title">

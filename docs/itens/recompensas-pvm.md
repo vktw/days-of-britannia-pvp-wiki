@@ -1,3 +1,7 @@
+---
+description: "Recompensas PvM: XP de Maestria, gold, Loot Packs, tintas e itens de caça elegível."
+---
+
 # Recompensas PvM
 
 No PvM customizado do shard, derrotar uma criatura elegível pode conceder experiência de Maestria PvM a participantes próximos com direito ao loot. Gold, chance de Loot Pack e outras recompensas acompanham a resistência do encontro; a classe de Threat ajuda a comparar o risco, mas não garante um item específico.

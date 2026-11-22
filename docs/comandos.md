@@ -1,3 +1,7 @@
+---
+description: "Referência dos comandos do shard com sintaxe exata para arena, eventos, leilão, pets, rankings e busca."
+---
+
 # Comandos de jogador
 
 ## `.arena`

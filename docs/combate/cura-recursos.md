@@ -1,3 +1,7 @@
+---
+description: "Página de compatibilidade: cura, bandagens e recursos foram consolidados no guia único de PvP."
+---
+
 # Cura e recursos
 
 ## Conteúdo consolidado

@@ -1,3 +1,7 @@
+---
+description: "Alchemy on Live: potions, Deadly Poison Potion, success curves, and trade tools."
+---
+
 # Alchemy
 
 ## Deadly Poison and reagent preservation in 0.45.0

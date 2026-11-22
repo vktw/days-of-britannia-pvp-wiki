@@ -1,3 +1,7 @@
+---
+description: "Hall of Echoes: desafio solo de domingo, reservas em .events, ondas e recompensas."
+---
+
 # Hall of Echoes
 
 Todo domingo, o **Hall of Echoes** abre um desafio solo de PvM: reserve um dos

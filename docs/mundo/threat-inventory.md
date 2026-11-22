@@ -1,3 +1,7 @@
+---
+description: "Página de compatibilidade: o inventário de Threat foi consolidado em Threat Rating."
+---
+
 # Como consultar Threat
 
 Esta página foi consolidada em [Threat Rating](threat-rating.md), que agora
