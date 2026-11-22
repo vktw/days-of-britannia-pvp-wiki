@@ -1,3 +1,7 @@
+---
+description: "Glassblowing: recipes and a crafting simulator with the shard's success curves."
+---
+
 # Glassblowing
 
 <section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Alchemy" data-craft-sim-slider-max="105" aria-labelledby="dob-craft-glassblowing-title">

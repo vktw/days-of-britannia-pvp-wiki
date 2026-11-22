@@ -1,3 +1,7 @@
+---
+description: "Compatibility page: the former Items entry was reorganized as Craft."
+---
+
 # Items
 
 ## Consolidated content

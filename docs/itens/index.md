@@ -1,3 +1,7 @@
+---
+description: "Página de compatibilidade: a antiga entrada Itens foi reorganizada como Craft."
+---
+
 # Itens
 
 ## Conteúdo consolidado

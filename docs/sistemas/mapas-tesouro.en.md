@@ -1,3 +1,7 @@
+---
+description: "Treasure maps: Threat-based drops, decoding, chests, tiers, and the Treasure Map Book."
+---
+
 # Treasure Maps
 
 Every eligible creature may drop a **Felucca treasure map** on death, with

@@ -1,3 +1,7 @@
+---
+description: "Catálogo de armaduras: metais DoB, proteção, durabilidade e qualidades de defesa."
+---
+
 # Armaduras clássicas
 
 ## Metais do Live 0.13.0

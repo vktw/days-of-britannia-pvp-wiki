@@ -1,3 +1,7 @@
+---
+description: "Use `.arena` to duel another player or train with the PvP Trainer: loot modes, ranking, season, and Free-for-All times."
+---
+
 # Arena
 
 Use `.arena` to open the system. You can challenge another player or, in the

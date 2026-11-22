@@ -1,3 +1,7 @@
+---
+description: "Compatibility page: the first-hour route was consolidated into Start here."
+---
+
 # Your first hour in Britannia
 
 This page has been consolidated into [Start here](index.md), which contains

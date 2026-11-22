@@ -1,3 +1,7 @@
+---
+description: "Compatibility page: armor and Parrying were consolidated into the single PvP guide."
+---
+
 # Armor and Parrying
 
 ## Consolidated content

@@ -1,3 +1,7 @@
+---
+description: "Systems enabled on Live: combat, magic, PvM, craft, world, and shard events."
+---
+
 # Enabled systems
 
 - Physical combat with Swords, Macing, Fencing, Archery and Wrestling.

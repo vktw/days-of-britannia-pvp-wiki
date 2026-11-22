@@ -1,3 +1,7 @@
+---
+description: "Comunidade brasileira de Ultima Online: o shard, o launcher oficial e onde começar."
+---
+
 # Ultima Online Brasil: shards, servidores e comunidade
 
 Quem procura por **Ultima Online Brasil**, por um **Ultima Online Shard Brasil** ou por um **Ultima Online Server International** encontra uma comunidade que mantém Britannia viva há décadas. Esta página apresenta a origem de **UO**, o surgimento dos freeshards brasileiros e a proposta de Days of Britannia para jogadores do Brasil e de outros países.

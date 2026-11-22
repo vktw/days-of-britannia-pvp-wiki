@@ -1,3 +1,7 @@
+---
+description: "Arcana: six PvM magic schools, Magnum Opus, Vis, ability bar, and progression."
+---
+
 # Arcana
 
 The **Arcana** are active PvM abilities in **six** schools — **Fire**,

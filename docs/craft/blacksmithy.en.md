@@ -1,3 +1,7 @@
+---
+description: "Blacksmithy on Live: Bloodrock and Blackrock weapons, armor kits, metal curves, and a crafting simulator."
+---
+
 # Blacksmithy
 
 ## New Bloodrock and Blackrock weapons in 1.0.0

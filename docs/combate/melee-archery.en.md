@@ -1,3 +1,7 @@
+---
+description: "Compatibility page: melee, archery, and weapons were consolidated into the single PvP guide."
+---
+
 # Melee and Archery
 
 ## Consolidated content

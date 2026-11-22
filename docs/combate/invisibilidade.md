@@ -1,3 +1,7 @@
+---
+description: "Página de compatibilidade: Hiding, Stealth e invisibilidade foram consolidados no guia único de PvP."
+---
+
 # Invisibilidade e Detect Hidden
 
 ## Conteúdo consolidado

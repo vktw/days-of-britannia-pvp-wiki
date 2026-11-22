@@ -1,3 +1,7 @@
+---
+description: "Inscription no Live: pergaminhos, livros e simulador de craft com curvas de sucesso."
+---
+
 # Inscription
 
 <section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Inscribe" data-craft-sim-slider-max="105" aria-labelledby="dob-craft-inscription-title">

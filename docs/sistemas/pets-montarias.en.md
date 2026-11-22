@@ -1,3 +1,7 @@
+---
+description: "Pets and mounts: Shrink Potion, Protective Ward, rare mounts, and breeding on Live."
+---
+
 # Pets and mounts
 
 This page gathers the shard-specific rules for storing pets, finding rare

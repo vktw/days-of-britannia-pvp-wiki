@@ -1,3 +1,7 @@
+---
+description: "Consumables and tools: potions, global cooldown, reagents, dyes, and utilities."
+---
+
 # Consumables, tools, and utilities
 
 Kit quantities and detailed effects correspond to the official server.

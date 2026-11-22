@@ -1,3 +1,7 @@
+---
+description: "Season of the Wild Hunt: caçadas em Felucca, rastros, presas, Erlking e recompensas."
+---
+
 # Season of the Wild Hunt
 
 Em novembro, a **Season of the Wild Hunt** instala caçadas em regiões

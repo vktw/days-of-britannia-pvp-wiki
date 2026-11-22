@@ -1,3 +1,7 @@
+---
+description: "Carpentry no Live: Driftseeker Pole, itens de casa, madeiras e curvas de sucesso."
+---
+
 # Carpentry
 
 ## Driftseeker Pole no 1.0.0

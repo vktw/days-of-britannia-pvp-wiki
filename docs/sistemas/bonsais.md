@@ -1,3 +1,7 @@
+---
+description: "Bonsais: mudas em Felucca, plantio em casa e variedades sazonais."
+---
+
 # Bonsais
 
 Cortando árvores em **Felucca**, lenhadores encontram **mudas de bonsai**

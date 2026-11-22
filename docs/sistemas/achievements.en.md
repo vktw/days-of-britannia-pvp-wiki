@@ -1,3 +1,7 @@
+---
+description: "Achievements: introductory path, activity catalogue, seasonal achievements, and rewards."
+---
+
 # Achievements
 
 Achievements record a character's first PvM goals and special activities. Use `.achievements` to open the catalogue, track progress, and review rewards.

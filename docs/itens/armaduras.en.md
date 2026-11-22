@@ -1,3 +1,7 @@
+---
+description: "Armor catalog: DoB metals, protection, durability, and defense qualities."
+---
+
 # Classic armor
 
 ## Live 0.13.0 metals

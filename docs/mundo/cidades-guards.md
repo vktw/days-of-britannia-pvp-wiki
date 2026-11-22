@@ -1,3 +1,7 @@
+---
+description: "Cidades com guards: banco e vendors para PKs, chamada de guards e exceções confirmadas."
+---
+
 # Cidades e guards
 
 ## Como os guards agem no 1.3.0

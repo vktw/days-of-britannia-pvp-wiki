@@ -1,3 +1,7 @@
+---
+description: "Maps and travel: the Britain starting point, facet rules, and moving through the world."
+---
+
 # Maps and travel
 
 Verified rules for players on the official server.

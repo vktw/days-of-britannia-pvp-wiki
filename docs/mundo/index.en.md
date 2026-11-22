@@ -1,3 +1,7 @@
+---
+description: "Compatibility page: the main navigation now groups Nujelm, Threat Rating, and events by area."
+---
+
 # World
 
 This page remains accessible to preserve its published URL. The main navigation

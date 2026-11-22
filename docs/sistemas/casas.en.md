@@ -1,3 +1,7 @@
+---
+description: "Houses: protection, doors, Armory, and the shard's storage rules."
+---
+
 # Houses
 
 ## Private-house boundary

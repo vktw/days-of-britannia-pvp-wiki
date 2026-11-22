@@ -1,3 +1,7 @@
+---
+description: "Nujelm Safe Haven: death-return point, services, and protection rules in Felucca."
+---
+
 # Nujelm Safe Haven
 
 Nujelm became the official Felucca Safe Haven in Live 0.23.0 and remains the

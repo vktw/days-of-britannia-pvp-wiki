@@ -1,3 +1,7 @@
+---
+description: "Página de compatibilidade: poison e Venom Flask foram consolidados no guia único de PvP."
+---
+
 # Poison
 
 ## Conteúdo consolidado

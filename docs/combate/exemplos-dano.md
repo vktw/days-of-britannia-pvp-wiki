@@ -1,3 +1,7 @@
+---
+description: "Página de compatibilidade: os exemplos de dano foram consolidados no guia único de PvP."
+---
+
 # Exemplos de dano
 
 ## Conteúdo consolidado

@@ -1,3 +1,7 @@
+---
+description: "Kharag: doação de Commodity Deeds, pontos, elixires e recompensas para crafters."
+---
+
 # Kharag, o Coração da Terra
 
 No **Nujel'm Safe Haven**, **Kharag, o Coração da Terra**, recebe

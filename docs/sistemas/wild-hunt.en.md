@@ -1,3 +1,7 @@
+---
+description: "Season of the Wild Hunt: hunts in Felucca, trails, quarries, the Erlking, and rewards."
+---
+
 # Season of the Wild Hunt
 
 In November, the **Season of the Wild Hunt** sets hunts in Felucca's wild

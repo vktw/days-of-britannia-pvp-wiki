@@ -1,3 +1,7 @@
+---
+description: "Donation Chest: chests in Britain and Nujelm for giving and taking items without limit."
+---
+
 # Donation Chest
 
 Beside the Britain bank stands the **Donation Chest**, a golden metal chest

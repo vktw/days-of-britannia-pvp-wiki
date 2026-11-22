@@ -1,3 +1,7 @@
+---
+description: "Free-for-All: horários, inscrição, regras da disputa e títulos."
+---
+
 # Free-for-All
 
 Toda semana, o **Free-for-All** leva os jogadores ao Cemitério de Britain em

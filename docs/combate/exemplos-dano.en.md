@@ -1,3 +1,7 @@
+---
+description: "Compatibility page: damage examples were consolidated into the single PvP guide."
+---
+
 # Damage examples
 
 ## Consolidated content

@@ -1,3 +1,7 @@
+---
+description: "Newcomer: sete dias de proteção, marca (Young), bônus de gold e XP e limites."
+---
+
 # Newcomer e proteção
 
 Newcomer ajuda a começar com segurança. Ele dura **168 horas** (sete dias) e identifica o personagem com a marca `(Young)`.

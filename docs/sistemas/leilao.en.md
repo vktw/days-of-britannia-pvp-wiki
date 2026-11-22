@@ -1,3 +1,7 @@
+---
+description: "Global auction with .auction: duration, bids, commission, and bank items."
+---
+
 # Auction
 
 The global **auction** trades items between players with the **.auction**

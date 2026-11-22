@@ -1,3 +1,7 @@
+---
+description: "Masonry: stone recipes and a crafting simulator with the server's curves."
+---
+
 # Masonry
 
 <section class="dob-craft-simulator" data-dob-craft-simulator data-craft-sim-skill="Carpentry" data-craft-sim-slider-max="105" aria-labelledby="dob-craft-masonry-title">

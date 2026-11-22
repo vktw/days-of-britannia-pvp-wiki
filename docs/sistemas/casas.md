@@ -1,3 +1,7 @@
+---
+description: "Casas: proteção, portas, Arsenal e regras de armazenamento do shard."
+---
+
 # Casas
 
 ## Fronteira de casas privadas

@@ -1,3 +1,7 @@
+---
+description: "Página de compatibilidade: a navegação principal agora agrupa Nujelm, Threat Rating e eventos por área."
+---
+
 # Mundo
 
 Esta página permanece acessível para preservar o URL publicado. A navegação

@@ -1,3 +1,7 @@
+---
+description: "Tinkering no Live: ferramentas Enduring, Metal Chest e o catálogo indexado do menu."
+---
+
 # Tinkering
 
 ## Atualização do 0.45.0

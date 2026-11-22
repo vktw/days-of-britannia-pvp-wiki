@@ -1,3 +1,7 @@
+---
+description: "Season of the Witch: covens em Felucca, ondas de mortos-vivos e recompensas."
+---
+
 # Season of the Witch
 
 Em outubro, a **Season of the Witch** traz um coven de cinco bruxas aos

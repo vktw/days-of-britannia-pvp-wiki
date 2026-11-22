@@ -1,3 +1,7 @@
+---
+description: "Compatibility page: the Threat inventory was consolidated into Threat Rating."
+---
+
 # Checking Threat
 
 This page has been consolidated into [Threat Rating](threat-rating.md), which

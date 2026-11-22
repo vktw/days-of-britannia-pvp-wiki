@@ -1,3 +1,7 @@
+---
+description: "Donation Chest: baús de Britain e Nujelm para doar e pegar itens sem limite."
+---
+
 # Donation Chest
 
 Ao lado do banco de Britain fica o **Donation Chest**, um baú de metal

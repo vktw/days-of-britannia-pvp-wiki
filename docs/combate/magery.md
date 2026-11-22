@@ -1,3 +1,7 @@
+---
+description: "Página de compatibilidade: Magery e Spellbook foram consolidados no guia único de PvP."
+---
+
 # Magery
 
 ## Conteúdo consolidado

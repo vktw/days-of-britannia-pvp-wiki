@@ -1,3 +1,7 @@
+---
+description: "Compatibility page: starting location, stats, and creation resources are in Start here."
+---
+
 # Your first character
 
 This page has been consolidated into [Start here](index.md), which contains

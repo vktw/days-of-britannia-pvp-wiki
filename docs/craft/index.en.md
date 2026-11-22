@@ -1,3 +1,7 @@
+---
+description: "Craft overview: nine categories, materials, skill ranges, and the server's official chances."
+---
+
 # Craft
 
 The current catalog organizes crafting into nine categories. This section gathers

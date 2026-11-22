@@ -1,3 +1,7 @@
+---
+description: "PvM rewards: Mastery XP, gold, Loot Packs, dyes, and items from eligible hunts."
+---
+
 # PvM rewards
 
 In the shard's custom PvM, defeating an eligible creature may grant nearby participants with looting rights PvM Mastery experience. Gold, Loot Pack opportunities, and other rewards follow the encounter's resilience; the Threat class helps compare risk but does not guarantee a specific item.

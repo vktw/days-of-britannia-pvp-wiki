@@ -1,3 +1,7 @@
+---
+description: "Planned next patch: only approved changes not yet published on the server."
+---
+
 # Planned next patch
 
 This page will be updated when content is approved for publication. Released systems stay in the reference pages and [Patch notes](patches.md), without mixing Live features with work in development.

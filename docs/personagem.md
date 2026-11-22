@@ -1,3 +1,7 @@
+---
+description: "Referência do personagem: stats iniciais, skills em 100, progressão de treino e regras de skill."
+---
+
 # Personagem
 
 ## Base inicial

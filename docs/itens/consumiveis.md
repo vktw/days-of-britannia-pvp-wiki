@@ -1,3 +1,7 @@
+---
+description: "Consumíveis e ferramentas: poções, cooldown global, reagentes, tintas e utilidades."
+---
+
 # Consumíveis, ferramentas e utilidades
 
 ## Potions

@@ -93,6 +93,8 @@ plugins:
             Comandos: Commands
             Atualizações: Updates
             Próximo patch planejado: Planned next patch
+hooks:
+  - hooks/seo.py
 markdown_extensions:
   - admonition
   - attr_list

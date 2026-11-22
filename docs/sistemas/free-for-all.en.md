@@ -1,3 +1,7 @@
+---
+description: "Free-for-All: times, registration, match rules, and titles."
+---
+
 # Free-for-All
 
 Every week, the **Free-for-All** takes players to the Britain Cemetery in

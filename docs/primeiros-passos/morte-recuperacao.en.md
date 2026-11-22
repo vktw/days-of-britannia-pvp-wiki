@@ -1,3 +1,7 @@
+---
+description: "Death and recovery: returning in Nujelm, recovering your corpse, and using Resurrection."
+---
+
 # Death and recovery
 
 When you die, choose how to return to [Nujelm Safe Haven](../mundo/nujelm.md):

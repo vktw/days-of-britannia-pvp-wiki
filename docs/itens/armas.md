@@ -1,3 +1,7 @@
+---
+description: "Catálogo de armas clássicas e DoB: qualidades ofensivas, materiais e faixas de skill."
+---
+
 # Armas clássicas
 
 ## Qualidades

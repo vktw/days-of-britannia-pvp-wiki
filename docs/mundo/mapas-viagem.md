@@ -1,3 +1,7 @@
+---
+description: "Mapas e viagens: ponto inicial em Britain, regras de facet e deslocamento pelo mundo."
+---
+
 # Mapas e viagem
 
 ## Felucca
