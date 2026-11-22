@@ -80,8 +80,10 @@ A Fase 3 adiciona controles executáveis somente onde o retorno é alto. O gate 
 localização verifica pares PT-BR/EN, headings, comandos, números, links e termos
 protegidos. O gate de contrato do site verifica navegação e assets locais. O gate
 do registry confirma que fatos apontam para páginas canônicas existentes. Após o
-build, o gate renderizado verifica `lang`, título, marcador Atlas, links de idioma,
-URLs de hreflang, canonical, metadados Open Graph/Twitter, bloco JSON-LD e anchors
+build, o gate renderizado verifica `lang` (com valor PT-BR/en), título, marcador
+Atlas, links de idioma, URLs de hreflang, canonical (inclusive o canonical das
+páginas de compatibilidade definido em `scripts/seo_config.json`), metadados Open
+Graph/Twitter, bloco JSON-LD com BreadcrumbList, breadcrumb visível e anchors
 duplicados.
 
 Esses gates rodam no CI antes do empacotamento. Eles detectam deriva estrutural e

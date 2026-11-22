@@ -1,0 +1,15 @@
+{
+  "combate/armor-parrying": "combate/",
+  "combate/cura-recursos": "combate/",
+  "combate/exemplos-dano": "combate/",
+  "combate/invisibilidade": "combate/",
+  "combate/magery": "combate/",
+  "combate/melee-archery": "combate/",
+  "combate/poison": "combate/",
+  "itens/index": "craft/",
+  "itens/craft": "craft/",
+  "mundo/threat-inventory": "mundo/threat-rating/",
+  "primeiros-passos/conexao": "primeiros-passos/",
+  "primeiros-passos/personagem-inicial": "primeiros-passos/",
+  "primeiros-passos/primeira-hora": "primeiros-passos/"
+}
