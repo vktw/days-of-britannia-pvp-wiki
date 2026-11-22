@@ -1320,6 +1320,47 @@ body {
   padding: 0.5rem clamp(1.25rem, 3vw, 2.75rem) 3.5rem;
 }
 
+.dob-breadcrumb {
+  box-sizing: border-box;
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 0 clamp(1.25rem, 3vw, 2.75rem);
+  color: var(--dob-text-muted);
+  font-size: 0.68rem;
+}
+
+.dob-breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dob-breadcrumb li + li::before {
+  content: "/";
+  margin-right: 0.5rem;
+  color: var(--dob-gold);
+  opacity: 0.75;
+}
+
+.dob-breadcrumb a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.dob-breadcrumb a:hover,
+.dob-breadcrumb a:focus-visible {
+  color: var(--dob-gold-hover);
+  text-decoration: underline;
+}
+
+.dob-breadcrumb li[aria-current="page"] {
+  color: var(--dob-text);
+}
+
 .md-typeset {
   color: var(--dob-text);
   font-size: 0.79rem;
@@ -2122,6 +2163,11 @@ body {
     padding-left: 1rem;
   }
 
+  .dob-breadcrumb {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
   .md-typeset__table,
   .md-typeset__scrollwrap {
     box-sizing: border-box;
@@ -2145,6 +2191,11 @@ body {
 
   .md-content__inner {
     padding: 0.6rem 0.85rem 2.5rem;
+  }
+
+  .dob-breadcrumb {
+    padding: 0 0.85rem;
+    font-size: 0.64rem;
   }
 
   .md-typeset {
