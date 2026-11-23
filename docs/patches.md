@@ -6,6 +6,37 @@ description: "Patch notes oficiais do servidor, da versão atual às mudanças p
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 2.8.0 · Tempestas, Mors e o Chamado da Podridão
+
+Publicado em 22 de novembro de 2026.
+
+- **Arcanum Tempestas**, a escola da tempestade: **Catena Fulguris** (um raio que salta entre criaturas e as deixa Eletrizadas), **Impetus Venti** (uma rajada ao seu redor que empurra e causa o dobro em quem está Eletrizado), **Campus Fulminis** (um campo que atinge todas as criaturas dentro a cada **2** segundos) e a suprema **Ira Tonantis** (uma tempestade de raios por **12** segundos). É forte contra **Reptilianos** e fraca contra **Elementais**.
+- **Arcanum Mors**, a escola da morte: **Condemnatio** (marca uma criatura e explode após **5** segundos, mais forte abaixo de **30%** de vida), **Decimatio** (golpeia em volta de um ponto e ceifa quem está abaixo de **15%**), **Hora Mortis** (marca as criaturas no selo para o seu grupo causar mais dano) e a suprema **Finis** (pilares que caem sobre a área e matam quem está abaixo de **20%**). Chefes nunca são executados: recebem dano extra. É forte contra **Fééricos** e fraca contra **Mortos-vivos**.
+- As duas escolas valem como as outras seis: **Maelis Greyveil** abre cada uma por **100.000** de ouro, e os pergaminhos caem das criaturas fracas a elas (**Reptilianos** para Tempestas, **Fééricos** para Mors). É necessário o cliente DoB atualizado.
+- **O Chamado da Podridão**: a cada hora, a região de **32×32** tiles da superfície de Felucca com mais abates elegíveis vira o Chamado, anunciado a todos sem coordenadas, só com a região mais próxima e os nomes de até **três** personagens que mataram pelo menos **10** criaturas ali naquela hora. Dentro da área de **24** tiles de raio, as criaturas dão mais XP de Maestria, mais Loot Packs e mais ouro, do nível **0** (+**75%** de XP, +**5%** de ouro) ao nível **5** (o bônus de Fire e Ice). Os vermes da podridão ficam sempre por perto, e o PvP é aberto como no resto de Felucca fora das cidades.
+- O Chamado sobe **1** nível por hora quando os jogadores batem a meta de abates dentro dele, e nunca esfria. A meta considera o movimento do shard: **20** abates por IP distinto online, pela média das últimas **24** horas, com no mínimo **3** IPs. Abates extras contam para o nível seguinte, e quem está dentro é avisado quando a meta da hora é batida.
+- No nível **5**, o **Rei da Podridão** desperta na virada da hora seguinte, com aviso a todos **15** minutos antes: ondas de vermes, os **Rasgatúmulos** e, por fim, **Grummoth**. Só a morte dele encerra o Chamado.
+- No clímax, só quem está dentro do Chamado fere as criaturas, inclusive os alimentadores da ninhada e os tentáculos: golpes, flechas, magias, Arcanas, venenos e pets vindos de fora não causam dano. As criaturas do clímax também não saem da área.
+- Fora do clímax, um abate só conta para o nível do Chamado e só dá o ouro e os Loot Packs dele quando você e a criatura estão dentro da área. O bônus de XP de Maestria também exige os dois dentro.
+- Recompensas do Chamado: dos vermes, raramente, dois troféus de parede, potes de vermes e ovos animados e a tinta **Rot King's Bile**; de Grummoth, a **Shroud of Rot** (+**5** de Str, Dex e Int, pode ser tingida), a **Carapace of the Brood**, um escudo Invulnerability com **Infestation** contra as criaturas que te acertam, e a encadernação do Rei; e o título **the Rotcleaver** para quem o feriu.
+- Com o cliente DoB atualizado, o mapa-múndi mostra o Chamado assim que ele é anunciado a todos: a área tracejada, a chama no centro e uma etiqueta com o nível, o estado e o progresso; dentro da área, um ícone na barra de buffs mostra o bônus. A borda do Chamado também aparece no chão: poças de bile, cogumelos e ossos, por onde dá para andar.
+- Livro das Arcanas: os tooltips agora mostram o valor de cada nível. **Pactum Sanguinis** evolui a cada nível: **50** de Vis no nível **1** e +**0,25** por nível, mantendo os +**10** dos níveis **25** e **50** (**94,75** no nível **100**). **Coagulum** e **Hora Mortis** também crescem a cada nível (**Coagulum** **50%** e **Hora Mortis** **40%**, **65%** abaixo de **30%** de vida, no nível **100**).
+- **Vitae contra o Abismo**: o **Circulus Sanationis** causa **18** de dano por segundo nas criaturas do Abismo dentro dele, o escudo do **Scutum Lucis** rende **25%** a mais contra golpes delas e a proteção da **Purgatio** dura **2** segundos a mais contra o veneno e as maldições delas.
+- **Tractus Vacui** e **Singularitas** não arrastam mais um chefe para fora da área da luta: ele fica na borda, ainda preso ou provocado.
+- A **Greater Cure** agora sempre cura o **Deadly Poison** em PvP e PvM.
+- Um **Young** que mata um inocente, ou tem murder count, perde a recuperação de **15** segundos; os outros bônus de Young continuam.
+- **Skara Brae** não tem mais proteção de guardas em Felucca.
+- O aviso de assassino perto de uma cidade protegida agora também vai para o Discord.
+- A mensagem de entrar ou sair da proteção dos guardas agora aparece no passo exato, sem atraso.
+- Os títulos acima do nome não escondem mais a tag da guild: ela aparece logo depois do título.
+- A fêmea rara comprada no leilão agora pode ser encolhida com a **Shrink Potion**; as que já estão com os jogadores, inclusive no estábulo, passam a aceitar o shrink sem nada a fazer.
+- O ícone de buff do **Scroll of Knowledge** agora mostra +**10** quando o **Scroll of Knowledge** do Tesouro está ativo; antes aparecia +**5**, mas o bônus de +**10** sempre valeu.
+- A área ao sul da montanha de **Dagger Isle** não aceita mais casas nem currais.
+- Durante a **Season of the Wild Hunt**, o banco de **Britain** entra no clima da caçada: peles curando, carcaças penduradas, um urso abatido e um urso empalhado na beira do rio, e tapetes de urso e troféus na frente do banco.
+- O cliente DoB obrigatório desta versão traz o livro das Arcanas com Tempestas e Mors e seus efeitos, os tooltips por nível, o Chamado no mapa-múndi e as artes novas do Chamado.
+
+Consulte [Chamado da Podridão](sistemas/chamado-da-podridao.md), [Arcanos](sistemas/arcana.md), [Maestria PvM](sistemas/pvm-mastery.md), [Slayer's Codex](sistemas/slayers-codex.md), [Pets e montarias](sistemas/pets-montarias.md), [Casas](sistemas/casas.md), [Cidades e guards](mundo/cidades-guards.md), [Newcomer](primeiros-passos/newcomer.md), [Consumíveis](itens/consumiveis.md), [Season of the Wild Hunt](sistemas/wild-hunt.md) e [Comandos](comandos.md).
+
 ## 2.7.1 · Sacrifício
 
 Publicado em 16 de novembro de 2026.

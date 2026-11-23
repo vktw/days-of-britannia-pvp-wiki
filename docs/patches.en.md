@@ -6,6 +6,37 @@ description: "Official server patch notes, from the current version back through
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 2.8.0 · Tempestas, Mors, and the Rot's Call
+
+Published on November 22, 2026.
+
+- **Arcanum Tempestas**, the storm school: **Catena Fulguris** (a bolt that leaps from creature to creature and leaves them Electrified), **Impetus Venti** (a gust around you that pushes and deals double to the Electrified), **Campus Fulminis** (a field that strikes every creature inside every **2** seconds), and the supreme **Ira Tonantis** (a storm of bolts for **12** seconds). It is strong against **Reptilians** and weak against **Elementals**.
+- **Arcanum Mors**, the death school: **Condemnatio** (marks a creature and bursts **5** seconds later, stronger below **30%** of its life), **Decimatio** (strikes around a point and reaps what is below **15%**), **Hora Mortis** (marks the creatures in its seal so your group deals more to them), and the supreme **Finis** (pillars that fall on the area and kill what is below **20%**). Bosses are never executed: they take extra damage instead. It is strong against the **Fey** and weak against the **Undead**.
+- Both schools stand with the other six: **Maelis Greyveil** opens each for **100,000** gold, and their scrolls drop from the creatures weak to them (**Reptilians** for Tempestas, the **Fey** for Mors). The updated DoB client is required.
+- **The Rot's Call**: every hour, the **32×32**-tile area on Felucca's surface with the most eligible kills becomes the Call, told to all with no coordinates, only the nearest region and the names of up to **three** characters who killed at least **10** creatures there in that hour. Inside its **24**-tile radius, creatures give more Mastery XP, more Loot Packs, and more gold, from level **0** (+**75%** XP, +**5%** gold) to level **5** (Fire and Ice's bonus). The rot worms are always near, and PvP is open as everywhere in Felucca outside the towns.
+- The Call rises **1** level an hour when the players reach the kill goal inside it, and never cools. The goal follows the shard's activity: **20** kills per unique IP online, by the mean of the last **24** hours, with at least **3** IPs. Extra kills count toward the next level, and those inside are told when the hour's goal is reached.
+- At level **5**, the **Rot King** wakes at the next hour's turn, with a warning to all **15** minutes before: waves of worms, the **Tombrenders**, and, last, **Grummoth**. Only his death ends the Call.
+- In the climax, only those inside the Call can harm its creatures, the brood's feeders and the tentacles included: blows, arrows, spells, Arcana, poisons, and pets from outside deal no damage. The climax's creatures do not leave the area either.
+- Outside the climax, a kill counts for the Call's level and gives its gold and Loot Packs only when you and the creature are inside the area. The Mastery XP bonus also asks both inside.
+- The Call's rewards: from the worms, rarely, two wall trophies, worm jars and animated eggs, and the **Rot King's Bile** dye; from Grummoth, the **Shroud of Rot** (+**5** Str, Dex, and Int, dyeable), the **Carapace of the Brood**, an Invulnerability shield with **Infestation** against the creatures that strike you, and the Rot King's binding; and the title **the Rotcleaver** for whoever hurt him.
+- With the updated DoB client, the world map shows the Call once it is told to all: its dashed area, the flame at its centre, and a label with its level, state, and progress; inside, a buff bar icon shows its bonus. The Call's edge also shows on the ground: bile pools, mushrooms, and bones you can walk over.
+- The Arcana book: the tooltips now show each level's value. **Pactum Sanguinis** grows every level: **50** Vis at level **1** and +**0.25** a level, keeping the +**10** of levels **25** and **50** (**94.75** at level **100**). **Coagulum** and **Hora Mortis** also grow every level (**Coagulum** **50%** and **Hora Mortis** **40%**, **65%** below **30%** of life, at level **100**).
+- **Vitae against the Abyss**: **Circulus Sanationis** deals **18** a second to the Abyssal creatures inside it, **Scutum Lucis**' shield lasts **25%** longer against their blows, and **Purgatio**'s ward lasts **2** seconds longer against their poison and curses.
+- **Tractus Vacui** and **Singularitas** no longer drag a boss out of its fight's area: it stays at the edge, still held or taunted.
+- A **Greater Cure** now always cures **Deadly Poison** in PvP and PvM.
+- A **Young** who kills an innocent, or has a murder count, loses the **15**-second recovery; the other Young bonuses stay.
+- **Skara Brae** is no longer guarded in Felucca.
+- The murderer alert near a guarded city now also goes to Discord.
+- Entering or leaving the guards' protection is now told on the exact step, without delay.
+- Titles above the name no longer hide the guild tag: it shows right after the title.
+- The rare female bought at the auction can now be shrunk with a **Shrink Potion**; those players already own, stabled ones included, accept it with nothing to do.
+- The **Scroll of Knowledge** buff icon now shows +**10** while the Treasure **Scroll of Knowledge** is running; it showed +**5**, but the +**10** bonus always applied.
+- The area south of **Dagger Isle**'s mountain no longer takes houses or breeding pens.
+- During the **Season of the Wild Hunt**, the **Britain** bank takes on the hunt's mood: hides curing, hanging carcasses, a slain bear and a stuffed bear on the river bank, and bear rugs and trophies before the bank.
+- This version's mandatory DoB client brings the Arcana book with Tempestas and Mors and their effects, the per-level tooltips, the Call on the world map, and the Call's new art.
+
+See [The Rot's Call](sistemas/chamado-da-podridao.md), [Arcana](sistemas/arcana.md), [PvM Mastery](sistemas/pvm-mastery.md), [Slayer's Codex](sistemas/slayers-codex.md), [Pets and mounts](sistemas/pets-montarias.md), [Houses](sistemas/casas.md), [Cities and guards](mundo/cidades-guards.md), [Newcomer](primeiros-passos/newcomer.md), [Consumables](itens/consumiveis.md), [Season of the Wild Hunt](sistemas/wild-hunt.md), and [Commands](comandos.md).
+
 ## 2.7.1 · Sacrifice
 
 Published on November 16, 2026.

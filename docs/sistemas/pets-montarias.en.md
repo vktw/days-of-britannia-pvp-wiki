@@ -62,7 +62,10 @@ every **6** to **7** days a new one is born in Felucca, whether others still
 live or not. She needs **101.0** Animal Taming, moves every **12** hours, and
 everyone hears when she appears, without the place, and when she is tamed or
 killed. Each female gives **15** crossings. Every week a rare female goes up
-for auction in `.auction`, shrunk, of a random family and look.
+for auction in `.auction`, shrunk, of a random family and look. In 2.8.0, the
+female bought at the auction can be shrunk with a **Shrink Potion**; those
+players already own, stabled ones included, accept the shrink with nothing to
+do.
 
 ## Breeding pen in 2.6.0
 

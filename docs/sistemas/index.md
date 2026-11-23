@@ -24,6 +24,7 @@ recebe regras de PvP e PvM customizadas para o objetivo do shard.
 - [Nujelm Safe Haven](../mundo/nujelm.md): proteção e retornos seguros em Felucca.
 - [Threat Rating](../mundo/threat-rating.md): escala, interpretação e consulta no jogo.
 - [Spawns raros](spawns-raros.md): Phoenix, Modry, Seraphel, Rare Events e montarias raras.
+- [Chamado da Podridão](chamado-da-podridao.md): evento por hora em Felucca, níveis e clímax.
 - [Whispers of Britannia](whispers-britannia.md): rumores públicos e pistas de Town Criers.
 
 As páginas explicam apenas o que está disponível para jogadores e como isso afeta a experiência.

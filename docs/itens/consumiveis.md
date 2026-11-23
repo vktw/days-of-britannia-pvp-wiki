@@ -8,6 +8,8 @@ description: "Consumíveis e ferramentas: poções, cooldown global, reagentes, 
 
 Potions bebíveis compartilham um cooldown global de 15 segundos. Greater Heal recupera 40 hits e Total Mana recupera 40 mana. Total Refresh e Invisibility possuem efeito imediato.
 
+No 2.8.0, a **Greater Cure** sempre cura o **Deadly Poison** em PvP e PvM.
+
 Poison Potions não são ingeridas quando aplicadas em armas e não acionam o cooldown das potions bebíveis; elas utilizam o fluxo da skill Poisoning.
 
 ## Eyes of Newt e Total Mana

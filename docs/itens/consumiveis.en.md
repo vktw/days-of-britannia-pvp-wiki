@@ -10,6 +10,8 @@ Kit quantities and detailed effects correspond to the official server.
 
 Drinkable potions share a 15 second global cooldown. Greater Heal recovers 40 hits and Total Mana recovers 40 mana. Total Refresh and Invisibility take effect immediately.
 
+In 2.8.0, **Greater Cure** always cures **Deadly Poison** in PvP and PvM.
+
 Poison Potions are not ingested when applied to weapons and do not trigger the cooldown of drinkable potions; they use the flow of the Poisoning skill.
 
 ## Eyes of Newt and Total Mana

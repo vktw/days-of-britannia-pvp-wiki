@@ -86,6 +86,8 @@ In 2.4.0, bonuses stack in layers: each scroll used on a known Mastery adds a la
 
 In 2.5.0, the **+15%** cap became the total across all your Masteries: scrolls of different Masteries count together. An inactive Mastery is still activated by its scroll, outside the slots. When the total is full, a new scroll is refused and stays with you, without replacing another Mastery's bonus.
 
+In 2.8.0, the **Scroll of Knowledge** buff icon shows +**10** while the Treasure **Scroll of Knowledge** is running. It showed +**5**, but the +**10** bonus always applied.
+
 ## Jewelry sacrifice in 2.7.1
 
 Through the **Hunter's Compendium** **Sacrifice** menu, aim at a Mastery jewel

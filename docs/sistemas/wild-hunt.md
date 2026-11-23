@@ -99,6 +99,14 @@ Conquistas da temporada dão títulos acima do nome: **Caçador Selvagem**, por
 Silencioso**, por caçada com emboscada e sem fuga (**the Silent Stalker**,
 **5.000** de XP).
 
+## Decoração do banco de Britain no 2.8.0
+
+Durante a temporada, o banco de **Britain** entra no clima da caçada: peles
+curando, carcaças penduradas, um urso abatido e um urso empalhado na beira do
+rio, e tapetes de urso e troféus na frente do banco. A decoração fica de **1** a
+**30** de novembro e sai em **1** de dezembro; o Huntwarden continua no Safe
+Haven até **7** de dezembro.
+
 ## Continue explorando
 
 Consulte [Spawns raros](spawns-raros.md) para os eventos raros, [Maestria

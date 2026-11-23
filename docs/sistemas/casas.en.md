@@ -88,5 +88,11 @@ list shows, beside each jewel, its Mastery with the bonus in purple and its
 stat bonuses smaller (an amulet shows its skill bonus), and search finds these
 words too.
 
+## Krampus on Dagger Isle in 2.8.0
+
+The area south of **Dagger Isle**'s mountain no longer takes houses or breeding
+pens. The restriction covers the whole Krampus event area; a building whose
+footprint touches it is refused too.
+
 !!! success "Status: 0.45.0"
     Co-owner permissions match the production notes.

@@ -87,6 +87,8 @@ No 2.4.0, os bônus passaram a somar em camadas: cada pergaminho numa Maestria c
 
 No 2.5.0, o limite de **+15%** passou a ser do total, somando todas as Maestrias: pergaminhos de Maestrias diferentes valem ao mesmo tempo. Uma Maestria inativa continua sendo ativada pelo pergaminho, fora dos espaços. Quando o total está cheio, um pergaminho novo é recusado e fica com você, sem substituir o bônus de outra Maestria.
 
+No 2.8.0, o ícone de buff do **Scroll of Knowledge** mostra +**10** enquanto o **Scroll of Knowledge** do Tesouro está ativo. Antes aparecia +**5**, mas o bônus de +**10** sempre valeu.
+
 ## Sacrifício de joias no 2.7.1
 
 Pelo menu **Sacrifice** do **Hunter's Compendium**, mire uma joia de Maestria ou

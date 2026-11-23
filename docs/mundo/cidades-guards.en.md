@@ -10,6 +10,10 @@ This page only records confirmed exceptions. The absence of a city on the list d
 
 PKs can use the bank and vendors of guarded cities. Any player can call the guards on a city PK, even one with no crime. Guards no longer kill outright: each blow takes **90** life every **2 seconds** from PKs and criminals while the target stays in the protected area.
 
+## Protection notices in 2.8.0
+
+In 2.8.0, the murderer alert near a guarded city also goes to Discord. Entering or leaving the guards' protection is told on the exact step, without delay.
+
 ## Cove
 
 Cove in Felucca has no guard protection and can be used as an open PvP area.
@@ -17,6 +21,10 @@ Cove in Felucca has no guard protection and can be used as an open PvP area.
 ## Ocllo in Felucca
 
 Ocllo is an unguarded Felucca city without the former Safe Haven restriction on PvP, damage, or stealing. The rule applies to the city region; do not assume protection merely because you are near another urban core.
+
+## Skara Brae in Felucca
+
+In 2.8.0, Skara Brae is no longer guarded in Felucca.
 
 ## Britain and Moonglow in Felucca
 

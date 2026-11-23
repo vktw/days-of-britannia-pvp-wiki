@@ -63,7 +63,9 @@ a cada **6** a **7** dias nasce uma nova em Felucca, haja outras vivas ou não.
 Ela exige **101.0** de Animal Taming, muda de lugar a cada **12** horas, e
 todos ficam sabendo quando ela surge, sem o local, e quando é domada ou morta.
 Cada fêmea dá **15** cruzas. Toda semana uma fêmea rara vai a leilão no
-`.auction`, encolhida, de família e visual sorteados.
+`.auction`, encolhida, de família e visual sorteados. No 2.8.0, a fêmea comprada
+no leilão pode ser encolhida com a **Shrink Potion**; as que os jogadores já
+têm, inclusive no estábulo, passam a aceitar o shrink sem nada a fazer.
 
 ## Cercado de criação no 2.6.0
 

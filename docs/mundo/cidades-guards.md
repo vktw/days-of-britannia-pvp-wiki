@@ -11,6 +11,12 @@ pode chamar os guards contra um PK dentro da cidade, mesmo sem crime dele. Os
 guards não matam na hora: cada golpe tira **90** de vida a cada **2 segundos**
 de PKs e criminosos, enquanto o alvo continuar na área protegida.
 
+## Avisos de proteção no 2.8.0
+
+No 2.8.0, o aviso de assassino perto de uma cidade protegida também vai para o
+Discord. A mensagem de entrar ou sair da proteção dos guardas aparece no passo
+exato, sem atraso.
+
 ## Cove
 
 Cove em Felucca não possui proteção de guards e pode ser usada como área aberta de PvP.
@@ -18,6 +24,10 @@ Cove em Felucca não possui proteção de guards e pode ser usada como área abe
 ## Ocllo em Felucca
 
 Ocllo é uma cidade de Felucca sem guards e sem a antiga restrição especial de PvP, dano ou stealing do Safe Haven. A ausência de guards vale para a região da cidade; não presuma proteção por estar perto de outro núcleo urbano.
+
+## Skara Brae em Felucca
+
+No 2.8.0, Skara Brae perde a proteção de guards em Felucca.
 
 ## Britain e Moonglow em Felucca
 

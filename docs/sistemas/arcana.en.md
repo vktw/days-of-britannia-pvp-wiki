@@ -1,13 +1,13 @@
 ---
-description: "Arcana: six PvM magic schools, Magnum Opus, Vis, ability bar, and progression."
+description: "Arcana: eight PvM magic schools, Magnum Opus, Vis, ability bar, and progression."
 ---
 
 # Arcana
 
-The **Arcana** are active PvM abilities in **six** schools — **Fire**,
-**Frost**, **Life**, **Shadow**, **Blood**, and **Void** — each with **three**
-abilities and one ultimate, gathered in the new **Magnum Opus** book. Using
-them requires the updated DoB client.
+The **Arcana** are active PvM abilities in **eight** schools — **Fire**,
+**Frost**, **Life**, **Shadow**, **Blood**, **Void**, **Tempestas**, and
+**Mors** — each with **three** abilities and one ultimate, gathered in the new
+**Magnum Opus** book. Using them requires the updated DoB client.
 
 ## How to begin
 
@@ -31,6 +31,8 @@ open school; the scroll of an ability you already know gives the school's
 | Shadow | Humanoid |
 | Blood | Fey |
 | Void | Elemental |
+| Tempestas | Reptilian |
+| Mors | Fey |
 
 ## Vis and the bar
 
@@ -53,29 +55,41 @@ buy levels with gold and put each into an ability, with no maximum level. At
 levels **25** and **50** the ability gains a larger area, duration, or effect
 and a new animation.
 
-Each Slayer Group is weak to one school (**+25%** ability damage) and resists
-another (**-25%**), shown in the creature's tooltip beside the Slayer Group.
+Each Slayer Group can be weak to more than one school (**+25%** ability damage
+for each) and resist more than one (**-25%**), shown in the creature's tooltip
+beside the Slayer Group.
 
 ## The schools
 
 | Group | Weak to | Resists |
 |---|---|---|
-| Undead | Fire | Blood |
+| Undead | Fire | Blood and Mors |
 | Arachnid | Fire | Shadow |
-| Reptilian | Frost | Fire |
+| Reptilian | Frost and Tempestas | Fire |
 | Abyss | Life | Void |
 | Humanoid | Shadow | Life |
-| Fey | Blood | Life |
-| Elemental | Void | Frost |
+| Fey | Blood and Mors | Life |
+| Elemental | Void | Frost and Tempestas |
 
 - **Fire**: Pluvia Ignea (Ember Rain) — rain over an area; Murus Flammae (Flame Wall) — rolling wall that leaves Ablaze; in 2.6.0, the wall rises where you aim, rolls away from you, and hits every creature it passes through, including ones coming toward you; Eruptio Ignis (Fireburst) — explosion that detonates Ablaze; Ruina Caeli (Meteor) — meteor with burning ground.
 - **Frost**: Carcer Glaciei (Ice Prison) — freezes the surroundings; Fractura (Shatter) — shatters, bigger on frozen, and breaks freeze; Campus Pruinae (Frost Field) — slowing field with cold; Hiems Aeterna (Blizzard) — blizzard that freezes after 4 seconds inside.
 - **Life**: Circulus Sanationis (Healing Circle) — area heal for allies and pets; Scutum Lucis (Aegis) — shield against creatures; Purgatio (Purify) — cures poison and curse and hurts Undead and Abyss; Renascentia (Rebirth) — resurrects a PvM ghost and heals the living.
 - **Shadow**: Signum Umbrae (Shadow Mark) — mark that amplifies party damage; Passus Umbrae (Shadow Step) — teleports and strikes three times (in 2.4.0, aiming at a creature lands you on its tile; on the ground, nothing changes); Caecitas (Blindness) — blinds (misses); Eclipsis (Eclipse) — damage with darkness (more party damage, miss chance).
 - **Blood**: Missio Sanguinis (Bloodletting) — drain that heals the caster; Pactum Sanguinis (Blood Pact) — trades 20% of max life for Vis, no cursor; Coagulum (Clot) — reduces creature damage; Exsanguinatio (Exsanguination) — area drain that heals the party.
+- **Tempestas**: Catena Fulguris (Chain Lightning) — a bolt that leaps between creatures and leaves them Electrified; Impetus Venti (Gale) — pushes and deals double to the Electrified; Campus Fulminis (Shock Field) — strikes every creature inside every **2** seconds; Ira Tonantis (Wrath of Thunder) — a storm of bolts for **12** seconds. It is strong against Reptilians and weak against Elementals.
+- **Mors**: Condemnatio (Condemnation) — marks and bursts **5** seconds later, stronger below **30%** of life; Decimatio (Decimation) — strikes around a point and reaps what is below **15%**; Hora Mortis (Hour of Death) — marks the creatures in its seal so the group deals more damage; Finis (The End) — pillars that kill what is below **20%**. Bosses are never executed: they take extra damage instead. It is strong against the Fey and weak against the Undead.
 - **Void**: Tractus Vacui (Void Pull) - pulls close and taunts; Concha Vacui (Void Shell) - absorbs damage and zaps adjacents; Puteus Gravitatis (Gravity Well) - roots with energy; Singularitas (Singularity) - pulls, roots, and collapses.
 
 In 2.7.0, Ice creatures are immune to the Frost Arcanum, and Fire's to the Fire Arcanum and fire spells (Fireball, Fire Field, Flame Strike, and Meteor Swarm).
+
+In 2.8.0, the book's tooltips show each level's value. **Pactum Sanguinis**
+gives **50** Vis at level **1** and +**0.25** a level, keeping the +**10** of
+levels **25** and **50** (**94.75** at level **100**). **Coagulum** reaches
+**50%** and **Hora Mortis** **40%**, or **65%** below **30%** of life, at level
+**100**. Against the Abyss, **Circulus Sanationis** deals **18** damage a
+second, **Scutum Lucis**' shield lasts **25%** longer, and **Purgatio**'s ward
+lasts **2** seconds longer. **Tractus Vacui** and **Singularitas** no longer
+drag a boss out of its fight's area.
 
 In 2.3.0, the **Magnum Opus** takes a binding: double-click a boss binding and
 choose your Opus. It takes the binding's look and colour, and Turn and Restore
@@ -97,5 +111,5 @@ See [PvM Mastery](pvm-mastery.md) for progression, [Slayer's
 Codex](slayers-codex.md) for weak groups, and [Whispers of
 Britannia](whispers-britannia.md) for finding creatures.
 
-!!! success "Status: 2.0.0"
-    Active PvM abilities in six schools.
+!!! success "Status: 2.8.0"
+    Active PvM abilities in eight schools.
