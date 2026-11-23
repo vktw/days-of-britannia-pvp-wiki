@@ -9,9 +9,9 @@
         <span>Days of Britannia</span>
       </a>
       <nav class="dob-landing-nav__links" aria-label="{% if dob_en %}Home sections{% else %}Seções da página{% endif %}">
-        <a href="#dob-landing-paths">{% if dob_en %}The game{% else %}O jogo{% endif %}</a>
+        <a href="#dob-landing-pillars">{% if dob_en %}The game{% else %}O jogo{% endif %}</a>
+        <a href="#dob-landing-seasons">{% if dob_en %}Seasons{% else %}Temporadas{% endif %}</a>
         <a href="#dob-landing-start">{% if dob_en %}How to join{% else %}Como entrar{% endif %}</a>
-        <a href="#dob-landing-news">{% if dob_en %}News{% else %}Novidades{% endif %}</a>
       </nav>
       <div class="dob-landing-nav__tools">
         <a class="dob-header-player-count" href="https://uoservers.com/server/dob-shard-days-of-britannia" target="_blank" rel="noopener noreferrer" data-dob-player-count data-dob-player-source="https://dobshard.com/api/player-status.php" data-dob-player-state="loading" aria-label="{% if dob_en %}Server status{% else %}Status do servidor{% endif %}">
@@ -38,7 +38,14 @@
   <div class="md-content dob-landing-page" data-md-component="content">
     <article class="md-content__inner md-typeset">
       {% block content %}
-        {% include "partials/content.html" %}
+        {#- Slots da home: o Markdown marca o lugar e o template injeta as
+            temporadas a partir de extra.dob_seasons (mkdocs.yml). -#}
+        {% import "partials/dob-season.html" as dob_season with context %}
+        {% set dob_l = 'en' if i18n_page_locale == 'en' else 'pt' %}
+        {% set dob_today = build_date_utc.strftime('%Y-%m-%d') %}
+        {{ page.content
+          | replace('<div data-dob-slot="season-badge"></div>', dob_season.badge(dob_l, dob_today))
+          | replace('<div data-dob-slot="seasons"></div>', dob_season.section(dob_l, dob_today, '')) }}
       {% endblock %}
     </article>
   </div>

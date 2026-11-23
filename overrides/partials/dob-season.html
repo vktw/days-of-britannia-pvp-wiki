@@ -1,0 +1,111 @@
+{#-
+  Temporadas mensais da home. Os dados ficam em `extra.dob_seasons` no
+  mkdocs.yml. O HTML sai pronto no build (estado do dia do build) e o dob.js
+  recalcula a temporada ativa, a contagem de dias e a linha do tempo com a
+  data do visitante, para a página não envelhecer entre um deploy e outro.
+-#}
+
+{% macro _t(L, pt, en) %}{{ en if L == 'en' else pt }}{% endmacro %}
+
+{% macro _date(L, d) -%}
+  {%- set months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'] -%}
+  {%- if L == 'en' -%}{{ months[(d[5:7] | int) - 1] }} {{ d[8:10] | int }}{%- else -%}{{ d[8:10] }}/{{ d[5:7] }}{%- endif -%}
+{%- endmacro %}
+
+{% macro _state(s, today) -%}
+  {%- if s.end < today -%}past{%- elif s.start > today -%}next{%- else -%}current{%- endif -%}
+{%- endmacro %}
+
+{#- Temporada em destaque no build: a ativa; senão a próxima; senão a última. -#}
+{% macro _featured_id(today) -%}
+  {%- set seasons = config.extra.dob_seasons | d([]) -%}
+  {%- set current = seasons | selectattr('mechanics') | selectattr('start', 'le', today) | selectattr('end', 'ge', today) | list -%}
+  {%- set upcoming = seasons | selectattr('mechanics') | selectattr('start', 'gt', today) | list -%}
+  {%- set detailed = seasons | selectattr('mechanics') | list -%}
+  {%- if current -%}{{ current[0].id }}{%- elif upcoming -%}{{ upcoming[0].id }}{%- elif detailed -%}{{ detailed[-1].id }}{%- endif -%}
+{%- endmacro %}
+
+{% macro badge(L, today) %}
+  {%- set seasons = config.extra.dob_seasons | d([]) -%}
+  {%- set fid = _featured_id(today) -%}
+  {%- for s in seasons if s.id == fid %}
+  {%- set st = _state(s, today) %}
+  <a class="dob-season-badge" href="#dob-landing-seasons" data-dob-season-badge data-state="{{ st }}">
+    <svg class="dob-season-badge__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2c1 3.5 4.5 5.6 4.5 10.2A4.5 4.5 0 0 1 12 17a4.5 4.5 0 0 1-4.5-4.8c0-1.9.9-3.3 1.9-4.4.2 1.6 1 2.6 2.1 3 .3-3 .5-5.5.5-8.8Z"/><path d="M6.2 13.5A6 6 0 0 0 12 22a6 6 0 0 0 5.8-8.5"/></svg>
+    <span data-dob-season-badge-label>{% if st == 'current' %}{{ _t(L, 'Temporada ativa', 'Active season') }}{% else %}{{ _t(L, 'Próxima temporada', 'Next season') }}{% endif %}:</span>
+    <strong data-dob-season-badge-name>{{ s.name }}</strong>
+    <span class="dob-season-badge__count" data-dob-season-badge-count>{% if st == 'current' %}{{ _t(L, 'até', 'until') }} {{ _date(L, s.end) }}{% else %}{{ _t(L, 'começa em', 'starts') }} {{ _date(L, s.start) }}{% endif %}</span>
+  </a>
+  {%- endfor %}
+{% endmacro %}
+
+{% macro section(L, today, base) %}
+  {%- set seasons = config.extra.dob_seasons | d([]) -%}
+  {%- set fid = _featured_id(today) -%}
+  <div class="dob-seasons" data-dob-seasons>
+    {%- for s in seasons if s.mechanics %}
+    {%- set st = _state(s, today) %}
+    <article class="dob-season-card" data-dob-season="{{ s.id }}" data-state="{{ st }}" style="--dob-season-accent: {{ s.accent | d('#f0a53c') }}"{% if s.id != fid %} hidden{% endif %}>
+      <div class="dob-season-card__media" {% set ab = '../' if L == 'en' else '' %}data-dob-clip-webm="{{ (ab ~ s.clip_webm) if s.clip_webm else '' }}" data-dob-clip-mp4="{{ (ab ~ s.clip_mp4) if s.clip_mp4 else '' }}">
+        {%- if s.image %}
+        <img src="{{ '../' if L == 'en' else '' }}{{ s.image }}" alt="" loading="lazy">
+        {%- else %}
+        <span class="dob-season-card__placeholder" aria-hidden="true">{{ s.name }}</span>
+        {%- endif %}
+      </div>
+      <div class="dob-season-card__body">
+        <span class="dob-season-card__status" data-dob-season-status>
+          {%- if st == 'current' %}{{ _t(L, 'Temporada ativa', 'Active season') }} · {{ _t(L, 'por tempo limitado', 'limited time') }}
+          {%- elif st == 'next' %}{{ _t(L, 'Próxima temporada', 'Next season') }}
+          {%- else %}{{ _t(L, 'Temporada encerrada', 'Season ended') }}{% endif -%}
+        </span>
+        <h3>{{ s.name }}</h3>
+        {%- if s.subtitle %}<p class="dob-season-card__subtitle">{{ _t(L, s.subtitle.pt, s.subtitle.en) }}</p>{% endif %}
+        <p class="dob-season-card__dates">
+          {{ _date(L, s.start) }} – {{ _date(L, s.end) }}
+          {%- if s.rewards_until %} · {{ _t(L, 'O ' ~ s.rewards_npc ~ ' troca recompensas até', s.rewards_npc ~ ' trades rewards until') }} {{ _date(L, s.rewards_until) }}{% endif %}
+        </p>
+        <ul class="dob-season-card__mechanics">
+          {%- for m in (s.mechanics.en if L == 'en' else s.mechanics.pt) %}
+          <li>{{ m }}</li>
+          {%- endfor %}
+        </ul>
+        {%- if s.boss %}
+        <p class="dob-season-card__boss"><strong>{{ _t(L, 'Chefe', 'Boss') }}: {{ s.boss.name }}.</strong> {{ _t(L, s.boss.pt, s.boss.en) }}</p>
+        {%- endif %}
+        {%- if s.rewards %}
+        <ul class="dob-season-card__rewards" aria-label="{{ _t(L, 'Recompensas exclusivas', 'Exclusive rewards') }}">
+          {%- for r in s.rewards %}
+          <li><i style="--dob-swatch: {{ r.swatch | d('#888') }}" aria-hidden="true"></i><span><strong>{{ r.name }}</strong><small>{{ _t(L, r.pt, r.en) }}</small></span></li>
+          {%- endfor %}
+        </ul>
+        {%- endif %}
+        {%- if s.link %}
+        <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="{{ base }}{{ s.link }}">{{ _t(L, 'Guia da temporada', 'Season guide') }}</a>
+        {%- endif %}
+      </div>
+    </article>
+    {%- endfor %}
+
+    <ol class="dob-season-timeline" aria-label="{{ _t(L, 'Histórico de temporadas', 'Season history') }}">
+      {%- for s in seasons %}
+      {%- set st = _state(s, today) %}
+      <li data-dob-season-step="{{ s.id }}" data-state="{{ st }}">
+        {%- if s.link %}<a href="{{ base }}{{ s.link }}">{% else %}<span>{% endif %}
+          <small>{{ _t(L, s.month.pt, s.month.en) }}</small>
+          <strong>{{ s.name }}</strong>
+          <em data-dob-season-step-label>{% if st == 'current' %}{{ _t(L, 'Agora', 'Now') }}{% elif st == 'next' %}{{ _t(L, 'Em breve', 'Coming soon') }}{% else %}{{ _t(L, 'Encerrada', 'Ended') }}{% endif %}</em>
+        {%- if s.link %}</a>{% else %}</span>{% endif %}
+      </li>
+      {%- endfor %}
+    </ol>
+  </div>
+  <script type="application/json" data-dob-seasons-data>{{ {
+    'locale': L,
+    'seasons': seasons | map(attribute='id') | list,
+    'starts': seasons | map(attribute='start') | list,
+    'ends': seasons | map(attribute='end') | list,
+    'names': seasons | map(attribute='name') | list,
+    'detailed': seasons | selectattr('mechanics') | map(attribute='id') | list
+  } | tojson }}</script>
+{% endmacro %}

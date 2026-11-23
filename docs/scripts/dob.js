@@ -1055,9 +1055,294 @@ function bindDobYoutube() {
   });
 }
 
+/* Home v2: temporadas. O HTML vem pronto do build; aqui a página recalcula a
+   temporada ativa, a contagem de dias e a linha do tempo com a data de hoje
+   em Brasília, para não depender de um deploy na virada do mês. */
+const DOB_SEASON_TEXT = {
+  pt: {
+    active: "Temporada ativa",
+    next: "Próxima temporada",
+    ended: "Temporada encerrada",
+    limited: "por tempo limitado",
+    today: "encerra hoje",
+    tomorrow: "encerra amanhã",
+    days: (n) => `encerra em ${n} dias`,
+    startsTomorrow: "começa amanhã",
+    starts: (n) => `começa em ${n} dias`,
+    now: "Agora",
+    soon: "Em breve",
+    over: "Encerrada",
+  },
+  en: {
+    active: "Active season",
+    next: "Next season",
+    ended: "Season ended",
+    limited: "limited time",
+    today: "ends today",
+    tomorrow: "ends tomorrow",
+    days: (n) => `ends in ${n} days`,
+    startsTomorrow: "starts tomorrow",
+    starts: (n) => `starts in ${n} days`,
+    now: "Now",
+    soon: "Coming soon",
+    over: "Ended",
+  },
+};
+
+function dobBrasiliaDayNumber(date) {
+  const shifted = new Date(date.getTime() - 3 * 3600 * 1000);
+  return Date.UTC(shifted.getUTCFullYear(), shifted.getUTCMonth(), shifted.getUTCDate()) / 86400000;
+}
+
+function dobIsoDayNumber(iso) {
+  const [year, month, day] = iso.split("-").map(Number);
+  return Date.UTC(year, month - 1, day) / 86400000;
+}
+
+function bindDobSeasons() {
+  const dataNode = document.querySelector("[data-dob-seasons-data]:not([data-dob-seasons-bound])");
+  if (!dataNode) {
+    return;
+  }
+  dataNode.dataset.dobSeasonsBound = "true";
+
+  let data;
+  try {
+    data = JSON.parse(dataNode.textContent);
+  } catch {
+    return;
+  }
+
+  const text = DOB_SEASON_TEXT[data.locale] || DOB_SEASON_TEXT.pt;
+  const today = dobBrasiliaDayNumber(new Date());
+  const seasons = data.seasons.map((id, index) => {
+    const start = dobIsoDayNumber(data.starts[index]);
+    const end = dobIsoDayNumber(data.ends[index]);
+    const state = end < today ? "past" : start > today ? "next" : "current";
+    return { id, name: data.names[index], start, end, state };
+  });
+
+  const detailed = seasons.filter((season) => data.detailed.includes(season.id));
+  const featured =
+    detailed.find((season) => season.state === "current") ||
+    detailed.find((season) => season.state === "next") ||
+    detailed[detailed.length - 1];
+
+  seasons.forEach((season) => {
+    const step = document.querySelector(`[data-dob-season-step="${season.id}"]`);
+    if (step) {
+      step.dataset.state = season.state;
+      const label = step.querySelector("[data-dob-season-step-label]");
+      if (label) {
+        label.textContent = season.state === "current" ? text.now : season.state === "next" ? text.soon : text.over;
+      }
+    }
+  });
+
+  document.querySelectorAll("[data-dob-season]").forEach((card) => {
+    const season = seasons.find((item) => item.id === card.dataset.dobSeason);
+    card.hidden = !featured || card.dataset.dobSeason !== featured.id;
+    if (!season) {
+      return;
+    }
+    card.dataset.state = season.state;
+    const status = card.querySelector("[data-dob-season-status]");
+    if (status) {
+      status.textContent =
+        season.state === "current" ? `${text.active} · ${text.limited}` : season.state === "next" ? text.next : text.ended;
+    }
+  });
+
+  const badge = document.querySelector("[data-dob-season-badge]");
+  if (!badge || !featured) {
+    return;
+  }
+
+  if (featured.state === "past") {
+    badge.hidden = true;
+    return;
+  }
+
+  badge.hidden = false;
+  badge.dataset.state = featured.state;
+  const label = badge.querySelector("[data-dob-season-badge-label]");
+  const name = badge.querySelector("[data-dob-season-badge-name]");
+  const count = badge.querySelector("[data-dob-season-badge-count]");
+  if (label) {
+    label.textContent = `${featured.state === "current" ? text.active : text.next}:`;
+  }
+  if (name) {
+    name.textContent = featured.name;
+  }
+  if (count) {
+    if (featured.state === "current") {
+      const left = featured.end - today;
+      count.textContent = left <= 0 ? text.today : left === 1 ? text.tomorrow : text.days(left);
+    } else {
+      const until = featured.start - today;
+      count.textContent = until === 1 ? text.startsTomorrow : text.starts(until);
+    }
+  }
+}
+
+/* Home v2: pilares em abas no desktop/tablet; no celular ficam empilhados. */
+const DOB_TABS_QUERY = "(min-width: 45em)";
+
+function syncDobTabs(root) {
+  const tablist = root.querySelector('[role="tablist"]');
+  const tabs = [...root.querySelectorAll('[role="tab"]')];
+  const panels = tabs.map((tab) => document.getElementById(tab.getAttribute("aria-controls")));
+  const wide = window.matchMedia(DOB_TABS_QUERY).matches;
+
+  if (!tablist) {
+    return;
+  }
+
+  tablist.hidden = !wide;
+  const selected = tabs.find((tab) => tab.getAttribute("aria-selected") === "true") || tabs[0];
+  panels.forEach((panel, index) => {
+    if (!panel) {
+      return;
+    }
+    if (wide) {
+      panel.setAttribute("role", "tabpanel");
+      panel.hidden = tabs[index] !== selected;
+    } else {
+      panel.removeAttribute("role");
+      panel.hidden = false;
+    }
+  });
+}
+
+function selectDobTab(root, tab, focus) {
+  root.querySelectorAll('[role="tab"]').forEach((item) => {
+    const active = item === tab;
+    item.setAttribute("aria-selected", active ? "true" : "false");
+    item.tabIndex = active ? 0 : -1;
+  });
+  syncDobTabs(root);
+  if (focus) {
+    tab.focus();
+  }
+}
+
+function bindDobTabs() {
+  document.querySelectorAll("[data-dob-tabs]:not([data-dob-tabs-bound])").forEach((root) => {
+    root.dataset.dobTabsBound = "true";
+    const tabs = () => [...root.querySelectorAll('[role="tab"]')];
+
+    root.addEventListener("click", (event) => {
+      const tab = event.target.closest('[role="tab"]');
+      if (tab && root.contains(tab)) {
+        selectDobTab(root, tab, false);
+      }
+    });
+
+    root.addEventListener("keydown", (event) => {
+      const tab = event.target.closest('[role="tab"]');
+      if (!tab) {
+        return;
+      }
+      const list = tabs();
+      const index = list.indexOf(tab);
+      const moves = { ArrowRight: index + 1, ArrowLeft: index - 1, Home: 0, End: list.length - 1 };
+      if (!(event.key in moves)) {
+        return;
+      }
+      event.preventDefault();
+      selectDobTab(root, list[(moves[event.key] + list.length) % list.length], true);
+    });
+
+    syncDobTabs(root);
+  });
+
+  if (!window.dobTabsMediaBound) {
+    window.dobTabsMediaBound = true;
+    window.matchMedia(DOB_TABS_QUERY).addEventListener("change", () => {
+      document.querySelectorAll("[data-dob-tabs]").forEach(syncDobTabs);
+    });
+  }
+}
+
+/* Home v2: clipes curtos (mudos, em loop). Um bloco com data-dob-clip-webm ou
+   data-dob-clip-mp4 vazios continua mostrando a imagem de capa. O vídeo só
+   carrega sem "reduzir movimento" e sem economia de dados, e só toca visível. */
+function dobClipsAllowed() {
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const saveData = navigator.connection?.saveData === true;
+  return !reduced && !saveData;
+}
+
+function dobClipObserver() {
+  if (!window.dobClipObserver && "IntersectionObserver" in window) {
+    window.dobClipObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        const video = entry.target;
+        if (entry.isIntersecting && !video.closest("[hidden]")) {
+          video.play().catch(() => {});
+        } else {
+          video.pause();
+        }
+      });
+    }, { threshold: 0.25 });
+  }
+  return window.dobClipObserver;
+}
+
+function bindDobClips() {
+  if (!dobClipsAllowed()) {
+    return;
+  }
+
+  document.querySelectorAll("[data-dob-clip-webm], [data-dob-clip-mp4]").forEach((slot) => {
+    if (slot.dataset.dobClipBound) {
+      return;
+    }
+    slot.dataset.dobClipBound = "true";
+
+    const webm = slot.dataset.dobClipWebm?.trim();
+    const mp4 = slot.dataset.dobClipMp4?.trim();
+    if (!webm && !mp4) {
+      return;
+    }
+
+    const poster = slot.querySelector("img");
+    const video = document.createElement("video");
+    video.muted = true;
+    video.loop = true;
+    video.playsInline = true;
+    video.autoplay = true;
+    video.preload = "metadata";
+    video.setAttribute("muted", "");
+    video.setAttribute("playsinline", "");
+    video.setAttribute("aria-hidden", "true");
+    if (poster) {
+      video.poster = poster.currentSrc || poster.src;
+    }
+    [[webm, "video/webm"], [mp4, "video/mp4"]].forEach(([src, type]) => {
+      if (src) {
+        const source = document.createElement("source");
+        source.src = src;
+        source.type = type;
+        video.append(source);
+      }
+    });
+    video.addEventListener("loadeddata", () => {
+      if (poster) {
+        poster.hidden = true;
+      }
+    }, { once: true });
+    slot.append(video);
+    dobClipObserver()?.observe(video);
+  });
+}
+
 function bindDobUi() {
   bindDobHome();
   bindDobYoutube();
+  bindDobSeasons();
+  bindDobTabs();
+  bindDobClips();
   bindDobSearchShortcut();
   personalizeDobSearch();
   bindDobPlayerCount();
