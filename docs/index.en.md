@@ -83,7 +83,7 @@ hide:
     </article>
     <article class="dob-pillar" id="dob-pillar-economia" role="tabpanel" aria-labelledby="dob-pillar-tab-economia">
       <div class="dob-pillar__media" data-dob-clip-webm="" data-dob-clip-mp4="">
-        <img src="../assets/home/economia.webp?v=20261123.2" alt="Kharag, the Heart of the Earth, with its reward list open in Nujel'm" loading="lazy">
+        <img src="../assets/home/economia.webp?v=20261123.3" alt="Kharag, the Heart of the Earth, window showing points per ingot and per wood, in the Nujel'm Safe Haven" loading="lazy">
       </div>
       <div class="dob-pillar__body">
         <span class="dob-pillar__num">IV · Purpose</span>

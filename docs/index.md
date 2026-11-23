@@ -83,7 +83,7 @@ hide:
     </article>
     <article class="dob-pillar" id="dob-pillar-economia" role="tabpanel" aria-labelledby="dob-pillar-tab-economia">
       <div class="dob-pillar__media" data-dob-clip-webm="" data-dob-clip-mp4="">
-        <img src="assets/home/economia.webp?v=20261123.2" alt="Kharag, o Coração da Terra, com a lista de recompensas aberta em Nujel'm" loading="lazy">
+        <img src="assets/home/economia.webp?v=20261123.3" alt="Janela do Kharag, o Coração da Terra, com os pontos por lingote e por madeira, no Safe Haven de Nujel'm" loading="lazy">
       </div>
       <div class="dob-pillar__body">
         <span class="dob-pillar__num">IV · Propósito</span>
