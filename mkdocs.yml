@@ -22,7 +22,7 @@ extra:
   # tempo). Ordem cronológica. Datas no fuso de Brasília; a página escolhe a
   # temporada ativa pela data do visitante, então a troca de mês não exige
   # deploy. Para uma temporada nova: acrescente um item no fim. Campos de texto
-  # têm "pt" e "en". "image" e "clip_*" (caminhos a partir de docs/, ex. assets/home/x.webm) vazios usam o visual padrão.
+  # têm "pt" e "en". Em rewards, "image" (PNG do item) substitui a bolinha de cor "swatch". "image" e "clip_*" (caminhos a partir de docs/, ex. assets/home/x.webm) vazios usam o visual padrão.
   dob_seasons:
     - id: thorns
       name: Season of Thorns

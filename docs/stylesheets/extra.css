@@ -3647,6 +3647,16 @@ body:has(.dob-landing-page) .md-container::before {
   box-shadow: 0 0 14px color-mix(in srgb, var(--dob-swatch) 45%, transparent);
 }
 
+.dob-season-card__reward-art {
+  flex: none;
+  width: 3.2rem;
+  height: 3.2rem;
+  object-fit: contain;
+  image-rendering: pixelated;
+  border-radius: 4px;
+  background: radial-gradient(circle, rgb(255 255 255 / 8%), transparent 70%);
+}
+
 .dob-season-card__rewards span {
   display: grid;
   gap: 0.15rem;
