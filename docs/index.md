@@ -1,106 +1,154 @@
 ---
 template: home.html
 title: Shard brasileiro de Ultima Online
-description: "Days of Britannia: shard brasileiro de Ultima Online ativo. Guia para começar, jogar grátis, entender o combate e consultar os sistemas Live."
+description: "Days of Britannia é um shard brasileiro de Ultima Online grátis: Felucca clássico com Arcanos, inimigos com IA tática, montarias raras e uma temporada nova a cada mês. Sem loja e sem doações."
 hide:
   - toc
 ---
 
-<section class="dob-landing-hero" aria-labelledby="dob-landing-title">
+<!--
+  Home em 5 dobras. Clipes: preencha data-dob-clip-webm / data-dob-clip-mp4
+  (MP4/WebM mudos, 5 a 8 s, < 1,5 MB, em docs/assets/home/). Com os dois
+  vazios, a página mostra a imagem de capa. As temporadas vêm de
+  extra.dob_seasons no mkdocs.yml.
+-->
+
+<section class="dob-landing-hero dob-landing-hero--v2" aria-labelledby="dob-landing-title">
+  <div class="dob-landing-hero__media" data-dob-clip-webm="assets/home/hero-loop.webm?v=20261123.2" data-dob-clip-mp4="assets/home/hero-loop.mp4?v=20261123.2" aria-hidden="true"></div>
+  <div data-dob-slot="season-badge"></div>
   <span class="dob-landing-kicker">Shard brasileiro de Ultima Online</span>
-  <h1 id="dob-landing-title" class="dob-landing-hero__title">Ultima Online<br>te <em>chama.</em></h1>
-  <p class="dob-landing-hero__lede">Cace dragões em Destard, minere em Minoc e troque golpes com PKs pelo mundo. A nostalgia dos freeshards brasileiros de Ultima Online está de volta.</p>
+  <h1 id="dob-landing-title" class="dob-landing-hero__title">O Ultima Online clássico de Felucca, <em>com combate e progressão de ARPG moderno.</em></h1>
+  <p class="dob-landing-hero__lede">Domine 8 escolas de Arcanos, enfrente inimigos com IA tática, crie linhagens raras de montarias e dispute uma temporada nova a cada mês.</p>
   <div class="dob-landing-cta">
     <a class="dob-landing-btn dob-landing-btn--fire" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
       <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 21h16"></path></svg>
-      <span>Jogar agora</span>
+      <span>Baixar Launcher e Jogar</span>
     </a>
     <a class="dob-landing-btn dob-landing-btn--ghost" href="https://discord.gg/e2VDbg2NYw" target="_blank" rel="noopener noreferrer">Entrar no Discord</a>
+      <a class="dob-landing-btn dob-landing-btn--ghost" href="#dob-landing-video"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z"></path></svg><span>Ver o trailer</span></a>
   </div>
-  <p class="dob-landing-hero__note">Launcher oficial para Windows. Versões para Linux e macOS em <a href="primeiros-passos/">Primeiros passos</a>.</p>
+  <p class="dob-landing-hero__note">Grátis, sem loja e sem doações. Launcher para Windows; Linux e macOS em preview em <a href="primeiros-passos/">Primeiros passos</a>.</p>
 </section>
 
 <section class="dob-landing-strip" aria-label="Status do servidor">
-  <span class="dob-landing-stat"><strong><i aria-hidden="true"></i>Servidor online</strong><small>Britannia está ativa</small></span>
+  <a class="dob-landing-stat" href="https://uoservers.com/server/dob-shard-days-of-britannia" target="_blank" rel="noopener noreferrer" data-dob-player-count data-dob-player-source="https://dobshard.com/api/player-status.php" data-dob-player-state="loading"><strong><i aria-hidden="true"></i><span data-dob-player-value>— online</span></strong><small>Jogadores agora</small></a>
   <span class="dob-landing-stat"><strong>2.8.0</strong><small>Versão atual</small></span>
   <a class="dob-landing-stat" href="patches/"><strong>Tempestas e Mors</strong><small>Última atualização</small></a>
 </section>
 
-<nav class="dob-landing-shortcuts" aria-label="Atalhos do manual">
-  <a href="primeiros-passos/"><strong>Novo jogador</strong><small>Instalação, personagem e primeira hora</small></a>
-  <a href="sistemas/pvm-mastery/"><strong>PvM e progressão</strong><small>Caçadas, Maestrias e recompensas</small></a>
-  <a href="combate/"><strong>PvP e Arena</strong><small>Combate, pressão e competição</small></a>
-  <a href="craft/"><strong>Craft e economia</strong><small>Receitas, materiais e chances</small></a>
-</nav>
-
-<section class="dob-landing-section" aria-labelledby="dob-landing-paths">
-  <span class="dob-landing-kicker">Três jeitos de jogar</span>
-  <h2 id="dob-landing-paths" class="dob-landing-section__title">Escolha seu caminho</h2>
-  <div class="dob-landing-paths">
-    <a class="dob-landing-path" href="sistemas/pvm-mastery/">
-      <span class="dob-landing-path__art"><img src="assets/card-pvm-mastery.webp?v=20260813.1" alt="Caçador enfrenta um dragão ancestral em um templo em ruínas" loading="lazy"></span>
-      <span class="dob-landing-path__body">
-        <span class="dob-landing-path__num">I · PvM</span>
-        <strong>Maestria PvM</strong>
-        <small>Caçar, evoluir e montar sua própria build.</small>
-        <span class="dob-landing-path__more">Ver progressão <span aria-hidden="true">→</span></span>
-      </span>
-    </a>
-    <a class="dob-landing-path" href="arena/">
-      <span class="dob-landing-path__art"><img src="assets/card-arena-pvp.webp?v=20260813.1" alt="Dois campeões se enfrentam em uma arena de pedra" loading="lazy"></span>
-      <span class="dob-landing-path__body">
-        <span class="dob-landing-path__num">II · PvP</span>
-        <strong>Arena e PvP</strong>
-        <small>Duelos, competição e combate entre jogadores.</small>
-        <span class="dob-landing-path__more">Conhecer a arena <span aria-hidden="true">→</span></span>
-      </span>
-    </a>
-    <a class="dob-landing-path" href="sistemas/">
-      <span class="dob-landing-path__art"><img src="assets/card-britannia-exploration.webp?v=20260813.1" alt="Viajante observa Britannia, seus portos, cidades e montanhas" loading="lazy"></span>
-      <span class="dob-landing-path__body">
-        <span class="dob-landing-path__num">III · Mundo</span>
-        <strong>Britannia viva</strong>
-        <small>Exploração, ameaças e eventos raros.</small>
-        <span class="dob-landing-path__more">Explorar sistemas <span aria-hidden="true">→</span></span>
-      </span>
-    </a>
-  </div>
-</section>
-
-<section class="dob-landing-section dob-landing-section--glow" aria-labelledby="dob-landing-start">
-  <span class="dob-landing-kicker">Em poucos minutos</span>
-  <h2 id="dob-landing-start" class="dob-landing-section__title">Como entrar</h2>
-  <ol class="dob-landing-steps">
-    <li><strong>Baixe o launcher</strong><p>Instale, atualize e entre no servidor pelo caminho recomendado.</p><a href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">DoBLauncher.exe <span aria-hidden="true">→</span></a></li>
-    <li><strong>Entre no Discord</strong><p>Conheça jogadores, acompanhe novidades e participe da comunidade.</p><a href="https://discord.gg/e2VDbg2NYw" target="_blank" rel="noopener noreferrer">Abrir convite <span aria-hidden="true">→</span></a></li>
-    <li><strong>Leia o guia inicial</strong><p>Instalação, personagem e primeira hora em Britannia.</p><a href="primeiros-passos/">Primeiros passos <span aria-hidden="true">→</span></a></li>
-  </ol>
-</section>
-
-<section class="dob-landing-section" aria-labelledby="dob-landing-news">
-  <span class="dob-landing-kicker">Novidades</span>
-  <h2 id="dob-landing-news" class="dob-landing-section__title">O shard não para</h2>
-  <div class="dob-landing-news">
-    <article class="dob-landing-patch">
-      <span class="dob-landing-patch__tag">Última atualização · 2.8.0</span>
-      <h3>Tempestas, Mors e o Chamado da Podridão</h3>
-      <p class="dob-landing-patch__date"><time datetime="2026-11-22">22 de novembro de 2026</time></p>
-      <p>Duas escolas novas de Arcanos e o Chamado da Podridão em Felucca.</p>
-      <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="patches/">Ler patch notes</a>
-    </article>
-    <div class="dob-landing-articles">
-      <h3>Últimos artigos atualizados</h3>
-      <a href="sistemas/chamado-da-podridao/"><time datetime="2026-11-22">22 nov</time><span><strong>Chamado da Podridão</strong><small>Níveis, clímax e recompensas</small></span></a>
-      <a href="patches/"><time datetime="2026-11-22">22 nov</time><span><strong>Patch notes</strong><small>2.8.0, 2.7.1 e 2.7.0</small></span></a>
-      <a href="sistemas/arcana/"><time datetime="2026-11-22">22 nov</time><span><strong>Arcanos</strong><small>Tempestas, Mors e valores por nível</small></span></a>
-      <a href="sistemas/wild-hunt/"><time datetime="2026-11-22">22 nov</time><span><strong>Season of the Wild Hunt</strong><small>Decoração no banco de Britain</small></span></a>
+<section class="dob-landing-section" aria-labelledby="dob-landing-pillars">
+  <span class="dob-landing-kicker">Por que jogar</span>
+  <h2 id="dob-landing-pillars" class="dob-landing-section__title">O que faz o DoB diferente</h2>
+  <div class="dob-pillars" data-dob-tabs>
+    <div class="dob-pillars__tabs" role="tablist" aria-label="Pilares do jogo" hidden>
+      <button type="button" role="tab" id="dob-pillar-tab-arcanos" aria-controls="dob-pillar-arcanos" aria-selected="true">Arcanos e Maestrias</button>
+      <button type="button" role="tab" id="dob-pillar-tab-montarias" aria-controls="dob-pillar-montarias" aria-selected="false" tabindex="-1">Montarias e tintas</button>
+      <button type="button" role="tab" id="dob-pillar-tab-ia" aria-controls="dob-pillar-ia" aria-selected="false" tabindex="-1">Inimigos com IA</button>
+      <button type="button" role="tab" id="dob-pillar-tab-economia" aria-controls="dob-pillar-economia" aria-selected="false" tabindex="-1">Economia e Kharag</button>
     </div>
+    <article class="dob-pillar" id="dob-pillar-arcanos" role="tabpanel" aria-labelledby="dob-pillar-tab-arcanos">
+      <div class="dob-pillar__media" data-dob-clip-webm="assets/home/arcanos.webm?v=20261123.2" data-dob-clip-mp4="assets/home/arcanos.mp4?v=20261123.2">
+        <img src="assets/home/arcanos.webp?v=20261123.2" alt="Ceifador do Arcano Finis (Mors) abate um grupo de criaturas, com os números de dano na tela" loading="lazy">
+      </div>
+      <div class="dob-pillar__body">
+        <span class="dob-pillar__num">I · Poder e build</span>
+        <h3>Arcanos e Maestrias</h3>
+        <p>Seu PvM deixa de ser apertar um botão. O Magnum Opus reúne 8 escolas de Arcanos (Fogo, Gelo, Vida, Sombra, Sangue, Vazio, Tempestas e Mors), cada uma com três habilidades e uma suprema.</p>
+        <p>A Maestria PvM evolui a cada abate. Os Arcanos são habilidades de PvM: o PvP clássico continua do jeito que você conhece.</p>
+        <a class="dob-pillar__more" href="sistemas/arcana/">Ver Arcanos na wiki <span aria-hidden="true">→</span></a>
+      </div>
+    </article>
+    <article class="dob-pillar" id="dob-pillar-montarias" role="tabpanel" aria-labelledby="dob-pillar-tab-montarias">
+      <div class="dob-pillar__media" data-dob-clip-webm="assets/home/montarias.webm?v=20261123.2" data-dob-clip-mp4="assets/home/montarias.mp4?v=20261123.2">
+        <img src="assets/home/montarias.webp?v=20261123.2" alt="Montarias raras com tintas exclusivas em frente ao banco de Britain" loading="lazy">
+      </div>
+      <div class="dob-pillar__body">
+        <span class="dob-pillar__num">II · Status e coleção</span>
+        <h3>Montarias e tintas</h3>
+        <p>Raridade que todo mundo enxerga no banco de Britain. Cruze linhagens raras de montarias e conquiste tintas exclusivas de temporada e de eventos.</p>
+        <p>No DoB, prestígio não se compra: se caça, se cria e se exibe.</p>
+        <a class="dob-pillar__more" href="sistemas/pets-montarias/">Ver pets e montarias na wiki <span aria-hidden="true">→</span></a>
+      </div>
+    </article>
+    <article class="dob-pillar" id="dob-pillar-ia" role="tabpanel" aria-labelledby="dob-pillar-tab-ia">
+      <div class="dob-pillar__media" data-dob-clip-webm="assets/home/ia-boss.webm?v=20261123.4" data-dob-clip-mp4="assets/home/ia-boss.mp4?v=20261123.4">
+        <img src="assets/home/ia-boss.webp?v=20261123.4" alt="Um mago prende o Orc Warlord num X de Wall of Stone, e ele quebra a pedra e parte para cima do mago" loading="lazy">
+      </div>
+      <div class="dob-pillar__body">
+        <span class="dob-pillar__num">III · Adrenalina</span>
+        <h3>Inimigos com IA tática</h3>
+        <p>Prendeu a criatura num X de Wall of Stone? As criaturas avançadas derrubam a parede e vêm atrás de você. A IA aprimorada também persegue quem ataca de longe, fareja quem se esconde e vai atrás de quem cura.</p>
+        <p>No começo da progressão, o PvM continua clássico. A IA aprimorada fica com as criaturas avançadas, como o Orc Warlord, que rendem mais ouro, XP e loot.</p>
+        <a class="dob-pillar__more" href="sistemas/caca-pvm/">Ver caçadas na wiki <span aria-hidden="true">→</span></a>
+      </div>
+    </article>
+    <article class="dob-pillar" id="dob-pillar-economia" role="tabpanel" aria-labelledby="dob-pillar-tab-economia">
+      <div class="dob-pillar__media" data-dob-clip-webm="" data-dob-clip-mp4="">
+        <img src="assets/home/economia.webp?v=20261123.3" alt="Janela do Kharag, o Coração da Terra, com os pontos por lingote e por madeira, no Safe Haven de Nujel'm" loading="lazy">
+      </div>
+      <div class="dob-pillar__body">
+        <span class="dob-pillar__num">IV · Propósito</span>
+        <h3>Economia viva e Kharag</h3>
+        <p>Cada lingote, tora e tábua tem destino. Troque Commodity Deeds com o Kharag por elixires, tintas e estatuetas, e negocie no leilão global.</p>
+        <p>Uma economia pensada para valorizar tanto quem caça quanto quem cria.</p>
+        <a class="dob-pillar__more" href="sistemas/kharag/">Ver o Kharag na wiki <span aria-hidden="true">→</span></a>
+      </div>
+    </article>
   </div>
+</section>
+
+<section class="dob-landing-section dob-landing-section--glow" aria-labelledby="dob-landing-seasons">
+  <span class="dob-landing-kicker">Temporadas mensais</span>
+  <h2 id="dob-landing-seasons" class="dob-landing-section__title">Um servidor que se reinventa a cada mês</h2>
+  <div data-dob-slot="seasons"></div>
+</section>
+
+<section class="dob-landing-section" aria-labelledby="dob-landing-relief">
+  <span class="dob-landing-kicker">Quality of life</span>
+  <h2 id="dob-landing-relief" class="dob-landing-section__title">Conforto que faz diferença no dia a dia</h2>
+  <ul class="dob-relief">
+    <li>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 21V8l8-5 8 5v13"/><path d="M9 21v-6h6v6"/><path d="M8 11h8"/></svg>
+      <strong>Arsenal da casa</strong>
+      <p>O Armory guarda armas, armaduras, poções e reagentes com 5 loadouts. Depois de morrer, o loadout veste de novo as peças iguais que estiverem guardadas.</p>
+    </li>
+    <li>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 21s-7-4.4-9.3-9A5.3 5.3 0 0 1 12 6a5.3 5.3 0 0 1 9.3 6c-2.3 4.6-9.3 9-9.3 9Z"/><path d="M12 10v6M9 13h6"/></svg>
+      <strong>Ressurreição inteligente</strong>
+      <p>Levantou com bandagem ou Resurrection? O equipamento volta a ser vestido e o resto vai para a mochila.</p>
+    </li>
+    <li>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2V5Z"/><path d="M4 19a2 2 0 0 1 2-2h13"/><path d="m10 7 3 3m0-3-3 3"/></svg>
+      <strong>Treasure Map Book</strong>
+      <p>Até 100 mapas do tesouro num livro só, separados por nível e prazo. A Bússola aponta o caminho até o baú.</p>
+    </li>
+    <li>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.1L3 17.7 6.3 21l6.3-6.3a4 4 0 0 0 5.1-5.4l-2.6 2.6-2.6-.7-.7-2.6 2.9-2.3Z"/></svg>
+      <strong>Kit de reparo</strong>
+      <p>Conserta o equipamento, a mochila ou tudo de uma vez, sem falhar. Nada de correr atrás de ferreiro.</p>
+    </li>
+    <li>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 3l6 16 2.5-6.5L20 10 5 3Z"/><path d="M14 14l5 5"/></svg>
+      <strong>Proteção de cursor</strong>
+      <p>Item na mão ao morrer, deslogar ou no restart vai para a mochila ou o banco. Nunca para o chão.</p>
+    </li>
+    <li>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2V5Z"/><path d="M4 19a2 2 0 0 1 2-2h13"/><circle cx="12.5" cy="10" r="2.5"/></svg>
+      <strong>Runic Atlas</strong>
+      <p>Vendido pelo Mage: 48 runas e até 100 cargas num livro só, recarregado com scrolls de Recall como o Runebook.</p>
+    </li>
+  </ul>
 </section>
 
 <section class="dob-landing-section" aria-labelledby="dob-landing-video">
-  <span class="dob-landing-kicker">Comunidade</span>
-  <h2 id="dob-landing-video" class="dob-landing-section__title">DoB em vídeo</h2>
+  <span class="dob-landing-kicker">Trailer e comunidade</span>
+  <h2 id="dob-landing-video" class="dob-landing-section__title">Veja o DoB em ação</h2>
+  <figure class="dob-trailer">
+    <video controls preload="none" playsinline poster="assets/home/trailer-poster.webp?v=20261123.1" aria-label="Trailer do Days of Britannia">
+      <source src="assets/home/trailer.mp4?v=20261123.1" type="video/mp4">
+    </video>
+    <figcaption>Trailer do Days of Britannia · 41 s · Música: “Determined Pursuit”, de Emma_MA (domínio público, CC0)</figcaption>
+  </figure>
   <div class="dob-landing-video" data-dob-youtube hidden>
     <button type="button" class="dob-landing-video__frame" data-dob-youtube-frame>
       <img data-dob-youtube-thumb alt="" loading="lazy">
@@ -118,17 +166,25 @@ hide:
   </div>
 </section>
 
-<section class="dob-landing-final" aria-label="Comece a jogar">
-  <a class="dob-landing-final__card" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
-    <img src="assets/hero-action-launcher.webp?v=20260821.1" alt="" loading="lazy">
-    <span class="dob-landing-kicker">Entre em Britannia</span>
-    <strong>Baixe o launcher oficial</strong>
-    <span class="dob-landing-btn dob-landing-btn--fire">Jogar agora</span>
-  </a>
-  <a class="dob-landing-final__card dob-landing-final__card--discord" href="https://discord.gg/e2VDbg2NYw" target="_blank" rel="noopener noreferrer">
-    <img src="assets/hero-action-discord.webp?v=20260821.1" alt="" loading="lazy">
-    <span class="dob-landing-kicker">Junte-se à comunidade</span>
-    <strong>Entre no nosso Discord</strong>
-    <span class="dob-landing-btn dob-landing-btn--ghost">Entrar no Discord</span>
-  </a>
+<section class="dob-landing-section dob-landing-section--glow" aria-labelledby="dob-landing-start">
+  <span class="dob-landing-kicker">Em 2 minutos</span>
+  <h2 id="dob-landing-start" class="dob-landing-section__title">Comece agora</h2>
+  <ol class="dob-landing-steps">
+    <li><strong>Baixe o launcher</strong><p>Ele instala e atualiza o jogo. Windows, com Linux e macOS em preview.</p><a href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">DoBLauncher.exe <span aria-hidden="true">→</span></a></li>
+    <li><strong>Crie a conta no login</strong><p>Digite um usuário e uma senha novos: a conta é criada na hora, sem cadastro em site.</p><a href="primeiros-passos/">Primeiros passos <span aria-hidden="true">→</span></a></li>
+    <li><strong>Entre no Discord</strong><p>Avisos de eventos, comércio entre jogadores e guildas recrutando.</p><a href="https://discord.gg/e2VDbg2NYw" target="_blank" rel="noopener noreferrer">Abrir convite <span aria-hidden="true">→</span></a></li>
+  </ol>
+  <div class="dob-landing-cta dob-landing-cta--center">
+    <a class="dob-landing-btn dob-landing-btn--fire" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 21h16"></path></svg>
+      <span>Baixar Launcher e Jogar</span>
+    </a>
+    <a class="dob-landing-btn dob-landing-btn--ghost" href="https://discord.gg/e2VDbg2NYw" target="_blank" rel="noopener noreferrer">Entrar no Discord</a>
+  </div>
+  <nav class="dob-landing-footlinks" aria-label="Mais informações">
+    <a href="primeiros-passos/">Wiki</a>
+    <a href="patches/">Patch notes</a>
+    <a href="proximo-patch/">Próximo patch</a>
+    <a href="combate/">Regras de combate</a>
+  </nav>
 </section>

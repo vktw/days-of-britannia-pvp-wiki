@@ -227,9 +227,19 @@ report can become a CI gate in a later phase.
 1. Update `extra.dob_version` in `mkdocs.yml`.
 2. Add/update the release entry in `docs/patches.md`.
 3. Move any shipped claims out of `docs/proximo-patch.md`.
-4. Update the home-page release card in `docs/index.md`.
+4. Update the home-page status strip (version and latest update) in `docs/index.md` and `docs/index.en.md`.
 5. Search for the old version and review every remaining occurrence.
 6. Run all documentation checks and inspect header/home rendering.
+
+### Change the monthly season on the home page
+
+1. Edit `extra.dob_seasons` in `mkdocs.yml`: one item per season, in
+   chronological order, with Brasília dates and `pt`/`en` text.
+2. Seasons with `mechanics` get the large card; every season appears in the
+   timeline. The badge and card switch by the visitor's date in `dob.js`, so
+   the month change does not need a deploy, but a new season does.
+3. Optional media: `image`, `clip_webm`, `clip_mp4`, as paths from `docs/`.
+4. Build and inspect the home in PT and EN.
 
 ### Change navigation or theme
 

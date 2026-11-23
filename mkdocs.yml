@@ -18,11 +18,101 @@ theme:
     scheme: dob
 extra:
   dob_version: "2.8.0"
+  # Temporadas mensais da home (selo do topo, cartão da temporada e linha do
+  # tempo). Ordem cronológica. Datas no fuso de Brasília; a página escolhe a
+  # temporada ativa pela data do visitante, então a troca de mês não exige
+  # deploy. Para uma temporada nova: acrescente um item no fim. Campos de texto
+  # têm "pt" e "en". Em rewards, "image" (PNG do item) substitui a bolinha de cor "swatch". "image" e "clip_*" (caminhos a partir de docs/, ex. assets/home/x.webm) vazios usam o visual padrão.
+  dob_seasons:
+    - id: thorns
+      name: Season of Thorns
+      start: "2026-09-01"
+      end: "2026-09-30"
+      month: { pt: Setembro, en: September }
+      link: sistemas/season-of-thorns/
+    - id: witch
+      name: Season of the Witch
+      start: "2026-10-01"
+      end: "2026-10-31"
+      month: { pt: Outubro, en: October }
+      link: sistemas/season-of-the-witch/
+    - id: wild-hunt
+      name: Season of the Wild Hunt
+      subtitle: { pt: A Caçada Selvagem, en: The Wild Hunt }
+      start: "2026-11-01"
+      end: "2026-11-30"
+      rewards_until: "2026-12-07"
+      rewards_npc: Huntwarden
+      month: { pt: Novembro, en: November }
+      link: sistemas/wild-hunt/
+      accent: "#cfd8e6"
+      image: "assets/home/season-wild-hunt.webp?v=20261123.2"
+      clip_webm: "assets/home/season-wild-hunt.webm?v=20261123.2"
+      clip_mp4: "assets/home/season-wild-hunt.mp4?v=20261123.2"
+      mechanics:
+        pt:
+          - A cada 4 horas a trompa soa, e os presságios apontam a região de Felucca onde está a presa.
+          - Siga as poças de sangue, que crescem quando a pista está fresca, e desconfie das trilhas falsas.
+          - Surpreenda a presa e não a deixe fugir para ganhar Moonmarks extras, a moeda da temporada.
+        en:
+          - Every 4 hours the horn sounds, and omens point to the Felucca region where the quarry hides.
+          - Follow the blood pools, which grow when the trail is fresh, and beware of false trails.
+          - Catch the quarry by surprise and don't let it escape to earn extra Moonmarks, the season currency.
+      boss:
+        name: Erlking
+        pt: De 21 a 30/11, um horário sorteado por dia é do Erlking. Ele escolhe um jogador como presa e solta cães espectrais, que só ficam sólidos perto das pedras de proteção.
+        en: From Nov 21 to 30, one random hunt slot per day belongs to the Erlking. He picks a player as prey and releases spectral hounds that only turn solid near the warding stones.
+      rewards:
+        - name: Moonlight Pigment
+          swatch: "#f2f5fa"
+          image: "assets/home/rewards/reward-moonlight-pigment.png?v=20261123.1"
+          pt: Tinta branco-neve (hue 2090), por 375 Moonmarks.
+          en: Snow-white dye (hue 2090), for 375 Moonmarks.
+        - name: Visage of the Hunter's Moon
+          swatch: "#f2f5fa"
+          image: "assets/home/rewards/reward-visage-hunters-moon.png?v=20261123.1"
+          pt: Máscara de cervo branco-neve, por 575 Moonmarks. Uma por conta.
+          en: Snow-white stag mask, for 575 Moonmarks. One per account.
+    - id: christmas
+      name: Season of Christmas
+      subtitle: { pt: Temporada de Natal, en: Christmas Season }
+      start: "2026-12-01"
+      end: "2026-12-31"
+      rewards_until: "2027-01-07"
+      rewards_npc: Christmas Keeper
+      month: { pt: Dezembro, en: December }
+      link: ""
+      accent: "#d8343f"
+      image: ""
+      clip_webm: ""
+      clip_mp4: ""
+      mechanics:
+        pt:
+          - Os jogadores doam lingotes à árvore de Nujel'm e liberam bônus globais juntos.
+          - Amigo secreto com sorteio em 16/12; o presente com cartão chega ao banco em 24/12.
+          - Com 100 ou mais de Stealing, dá para roubar os três baús do acampamento do Krampus durante o raid.
+        en:
+          - Players donate ingots to the Nujel'm tree and unlock global bonuses together.
+          - Secret Santa draw on Dec 16; the gift and its card arrive at your bank on Dec 24.
+          - With 100 or more Stealing, you can rob the three chests in Krampus's camp during the raid.
+      boss:
+        name: Krampus
+        pt: No castelo em Dagger Isle. Cerca de 250 minions mortos chamam o raid, no máximo um a cada 12 horas. Vença os bodes para abrir os portões; no salão, os presentes explodem.
+        en: In the castle on Dagger Isle. About 250 slain minions summon the raid, at most once every 12 hours. Defeat the goats to open the gates; in the hall, the presents explode.
+      rewards:
+        - name: Christmas Red Pigment
+          swatch: "#c4182f"
+          pt: Um vermelho novo (hue 2862), por 375 Christmas Candy. Uma por conta.
+          en: A brand-new red (hue 2862), for 375 Christmas Candy. One per account.
+        - name: Krampus Black Bear
+          swatch: "#17171a"
+          pt: Montaria preta (hue 1175), prêmio por 620.000 pontos doados à árvore.
+          en: Black mount (hue 1175), awarded for 620,000 points donated to the tree.
 extra_css:
-  - stylesheets/extra.css?v=20261122.1
+  - stylesheets/extra.css?v=20261123.2
 extra_javascript:
   - scripts/blacksmith.js?v=20260906.1
-  - scripts/dob.js?v=20261110.1
+  - scripts/dob.js?v=20261123.2
 plugins:
   - search:
       lang:
