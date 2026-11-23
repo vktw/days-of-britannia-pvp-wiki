@@ -89,5 +89,11 @@ durabilidade — grave de novo os seus loadouts para valer. A pausa entre açõe
 bônus em roxo e os atributos em menor (o amuleto mostra o bônus da perícia), e
 a busca também acha esses textos.
 
+## Krampus em Dagger Isle no 2.8.0
+
+A área ao sul da montanha de **Dagger Isle** não aceita mais casas nem cercados
+de criação. A restrição vale para toda a área do evento de Krampus; uma
+construção cujo terreno encoste nela também é recusada.
+
 !!! success "Status: 0.45.0"
     As permissões de co-owners correspondem às notas de produção.

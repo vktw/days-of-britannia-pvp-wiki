@@ -17,7 +17,7 @@ theme:
   palette:
     scheme: dob
 extra:
-  dob_version: "2.7.1"
+  dob_version: "2.8.0"
 extra_css:
   - stylesheets/extra.css?v=20261122.1
 extra_javascript:
@@ -50,6 +50,7 @@ plugins:
             Morte e recuperação: Death and recovery
             Nujelm Safe Haven: Nujelm Safe Haven
             Spawns raros: Rare spawns
+            Chamado da Podridão: "The Rot's Call"
             Whispers of Britannia: Whispers of Britannia
             PvP: PvP
             Como funciona o PvP: How PvP works
@@ -145,6 +146,7 @@ nav:
       - Mundo e eventos:
           - Pets e montarias: sistemas/pets-montarias.md
           - Spawns raros: sistemas/spawns-raros.md
+          - Chamado da Podridão: sistemas/chamado-da-podridao.md
           - Bonsais: sistemas/bonsais.md
           - Whispers of Britannia: sistemas/whispers-britannia.md
           - Nujelm Safe Haven: mundo/nujelm.md

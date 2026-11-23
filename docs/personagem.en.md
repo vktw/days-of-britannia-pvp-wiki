@@ -100,6 +100,11 @@ In 0.50.0, the Polymorph Daemon form carries up to **1,000 stones** between
 character and backpack. When the form ends, the normal limit returns and any
 excess leaves you overloaded until you unload.
 
+## Titles and guild tag in 2.8.0
+
+Titles shown above the name no longer hide the guild tag: the tag shows right
+after the title.
+
 ## Race
 
 Human is the only permanent race available to players. Temporary spell transformations remain separate effects.

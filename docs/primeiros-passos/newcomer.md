@@ -15,6 +15,7 @@ Newcomer ajuda a começar com segurança. Ele dura **168 horas** (sete dias) e i
 - A proteção de [Nujelm Safe Haven](../mundo/nujelm.md) bloqueia conflito entre jogadores, stealing, ações nocivas de pets ou summons, viagens mágicas, Fields e dano recebido dentro da região definida.
 - No 0.40.0, o benefício Newcomer não libera ganho de skill dentro do Safe Haven.
 - Em uma morte fora da Arena, o newcomer retorna automaticamente a Nujelm após 15 segundos. Os itens restantes continuam no corpo.
+- No 2.8.0, um Young que mata um inocente, ou tem murder count, perde apenas a recuperação de 15 segundos; os outros bônus de Newcomer continuam.
 
 O benefício vale somente para o primeiro personagem elegível por conta e não se transfere para outros personagens.
 

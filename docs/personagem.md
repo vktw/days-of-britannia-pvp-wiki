@@ -102,6 +102,11 @@ No 0.50.0, a forma Daemon do Polymorph carrega até **1.000 stones** entre
 personagem e mochila. Ao sair da forma, o limite normal volta e o excesso deixa
 você sobrecarregado até descarregar.
 
+## Títulos e guild tag no 2.8.0
+
+Os títulos exibidos acima do nome não escondem mais a tag da guild: a tag
+aparece logo depois do título.
+
 ## Raça
 
 Human é a única raça permanente disponível para jogadores. Transformações temporárias de magia continuam sendo efeitos separados.

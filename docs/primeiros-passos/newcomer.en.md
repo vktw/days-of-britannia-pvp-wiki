@@ -13,6 +13,7 @@ Newcomer helps you get started safely. It lasts **168 hours** (seven days) and m
 - [Nujelm Safe Haven](../mundo/nujelm.md) blocks player conflict, stealing, harmful actions by pets or summons, magical travel, Fields, and received damage inside the defined region.
 - In 0.40.0, the Newcomer benefit does not enable skill gain inside Safe Haven.
 - When a newcomer dies outside the Arena, they return automatically to Nujelm after 15 seconds. Remaining items stay on the corpse.
+- In 2.8.0, a Young who kills an innocent, or has a murder count, loses only the 15-second recovery; the other Newcomer bonuses stay.
 
 The benefit applies only to the first eligible character on an account and does not transfer to other characters.
 

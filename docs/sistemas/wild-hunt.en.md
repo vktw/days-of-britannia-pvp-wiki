@@ -96,6 +96,14 @@ Season achievements grant overhead titles: **Wild Hunter**, for **25** hunts
 (**the Wild Hunter**, **10,000** XP), and **Silent Stalker**, for an
 ambush-started, flight-free hunt (**the Silent Stalker**, **5,000** XP).
 
+## Britain bank decoration in 2.8.0
+
+During the season, the **Britain** bank takes on the hunt's mood: hides curing,
+hanging carcasses, a slain bear and a stuffed bear on the river bank, and bear
+rugs and trophies before the bank. The decoration stands from **1** to **30**
+November and leaves on **1** December; the Huntwarden stays in the Safe Haven
+through **7** December.
+
 ## Keep exploring
 
 See [Rare spawns](spawns-raros.md) for rare events, [PvM Mastery](pvm-mastery.md)
