@@ -62,7 +62,7 @@ try {
 
     $branch = "codex/reconciliacao-$($prod.Replace('.', ''))-$(Get-Date -Format 'yyyyMMdd')"
     if (Test-Path $AutoDir) {
-        git -C $WikiRoot worktree remove --force $AutoDir 2>$1 | Out-Null
+        git -C $WikiRoot worktree remove --force $AutoDir 2>&1 | Out-Null
         git -C $WikiRoot worktree prune
     }
     git -C $WikiRoot worktree add --detach $AutoDir origin/main --quiet
