@@ -8,13 +8,13 @@ hide:
 
 <!--
   Home em 5 dobras. Clipes: preencha data-dob-clip-webm / data-dob-clip-mp4
-  (MP4/WebM mudos, 5 a 8 s, < 1,5 MB, em docs/assets/clips/). Com os dois
+  (MP4/WebM mudos, 5 a 8 s, < 1,5 MB, em docs/assets/home/). Com os dois
   vazios, a página mostra a imagem de capa. As temporadas vêm de
   extra.dob_seasons no mkdocs.yml.
 -->
 
 <section class="dob-landing-hero dob-landing-hero--v2" aria-labelledby="dob-landing-title">
-  <div class="dob-landing-hero__media" data-dob-clip-webm="" data-dob-clip-mp4="" aria-hidden="true"></div>
+  <div class="dob-landing-hero__media" data-dob-clip-webm="assets/home/hero-loop.webm?v=20261123.2" data-dob-clip-mp4="assets/home/hero-loop.mp4?v=20261123.2" aria-hidden="true"></div>
   <div data-dob-slot="season-badge"></div>
   <span class="dob-landing-kicker">Shard brasileiro de Ultima Online</span>
   <h1 id="dob-landing-title" class="dob-landing-hero__title">O Ultima Online clássico de Felucca, <em>com combate e progressão de ARPG moderno.</em></h1>
@@ -46,8 +46,8 @@ hide:
       <button type="button" role="tab" id="dob-pillar-tab-economia" aria-controls="dob-pillar-economia" aria-selected="false" tabindex="-1">Economia e Kharag</button>
     </div>
     <article class="dob-pillar" id="dob-pillar-arcanos" role="tabpanel" aria-labelledby="dob-pillar-tab-arcanos">
-      <div class="dob-pillar__media" data-dob-clip-webm="" data-dob-clip-mp4="">
-        <img src="assets/pillar-arcanos.webp?v=20261123.1" alt="Conjurador cercado por anéis de energia arcana em ruínas" loading="lazy">
+      <div class="dob-pillar__media" data-dob-clip-webm="assets/home/arcanos.webm?v=20261123.2" data-dob-clip-mp4="assets/home/arcanos.mp4?v=20261123.2">
+        <img src="assets/home/arcanos.webp?v=20261123.2" alt="Ceifador do Arcano Finis (Mors) abate um grupo de criaturas, com os números de dano na tela" loading="lazy">
       </div>
       <div class="dob-pillar__body">
         <span class="dob-pillar__num">I · Poder e build</span>
@@ -58,8 +58,8 @@ hide:
       </div>
     </article>
     <article class="dob-pillar" id="dob-pillar-montarias" role="tabpanel" aria-labelledby="dob-pillar-tab-montarias">
-      <div class="dob-pillar__media" data-dob-clip-webm="" data-dob-clip-mp4="">
-        <img src="assets/pillar-montarias.webp?v=20261123.1" alt="Urso espectral invocado ao lado de seu mestre" loading="lazy">
+      <div class="dob-pillar__media" data-dob-clip-webm="assets/home/montarias.webm?v=20261123.2" data-dob-clip-mp4="assets/home/montarias.mp4?v=20261123.2">
+        <img src="assets/home/montarias.webp?v=20261123.2" alt="Montarias raras com tintas exclusivas em frente ao banco de Britain" loading="lazy">
       </div>
       <div class="dob-pillar__body">
         <span class="dob-pillar__num">II · Status e coleção</span>
@@ -70,8 +70,8 @@ hide:
       </div>
     </article>
     <article class="dob-pillar" id="dob-pillar-ia" role="tabpanel" aria-labelledby="dob-pillar-tab-ia">
-      <div class="dob-pillar__media" data-dob-clip-webm="" data-dob-clip-mp4="">
-        <img src="assets/card-pvm-mastery.webp?v=20260813.1" alt="Caçador enfrenta um dragão ancestral em um templo em ruínas" loading="lazy">
+      <div class="dob-pillar__media" data-dob-clip-webm="assets/home/ia-boss.webm?v=20261123.2" data-dob-clip-mp4="assets/home/ia-boss.mp4?v=20261123.2">
+        <img src="assets/home/ia-boss.webp?v=20261123.2" alt="O Orc Warlord derruba um Wall of Stone para alcançar o mago escondido atrás dele" loading="lazy">
       </div>
       <div class="dob-pillar__body">
         <span class="dob-pillar__num">III · Adrenalina</span>
@@ -83,7 +83,7 @@ hide:
     </article>
     <article class="dob-pillar" id="dob-pillar-economia" role="tabpanel" aria-labelledby="dob-pillar-tab-economia">
       <div class="dob-pillar__media" data-dob-clip-webm="" data-dob-clip-mp4="">
-        <img src="assets/hero-action-discord.webp?v=20260821.1" alt="Aventureiros negociam ao redor de uma mesa numa taverna" loading="lazy">
+        <img src="assets/home/economia.webp?v=20261123.2" alt="Kharag, o Coração da Terra, com a lista de recompensas aberta em Nujel'm" loading="lazy">
       </div>
       <div class="dob-pillar__body">
         <span class="dob-pillar__num">IV · Propósito</span>

@@ -46,7 +46,7 @@ HOME_TITLE = {
     "pt-BR": "Days of Britannia: shard brasileiro de Ultima Online grátis",
     "en": "Days of Britannia: free Brazilian Ultima Online shard",
 }
-HOME_IMAGE = "assets/hero-main-dark-test-b.webp?v=20260806.1"
+HOME_IMAGE = "assets/home/hero-britain.webp?v=20261123.2"
 SAME_AS = [
     "https://discord.gg/e2VDbg2NYw",
     "https://www.youtube.com/@DaysOfBritannia",
@@ -245,8 +245,8 @@ def on_post_page(output: str, page, config, **kwargs) -> str:
         f'<meta property="og:title" content="{esc(title)}">',
         f'<meta property="og:description" content="{esc(description)}">',
         f'<meta property="og:image" content="{esc(image)}">',
-        f'<meta property="og:image:width" content="{3548 if is_home else 1536}">',
-        f'<meta property="og:image:height" content="{1774 if is_home else 1024}">',
+        f'<meta property="og:image:width" content="{1600 if is_home else 1536}">',
+        f'<meta property="og:image:height" content="{899 if is_home else 1024}">',
         f'<meta name="twitter:title" content="{esc(title)}">',
         f'<meta name="twitter:description" content="{esc(description)}">',
         f'<meta name="twitter:image" content="{esc(image)}">',

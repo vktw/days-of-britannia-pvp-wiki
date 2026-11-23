@@ -1274,8 +1274,8 @@ function dobClipsAllowed() {
 }
 
 function dobClipObserver() {
-  if (!window.dobClipObserver && "IntersectionObserver" in window) {
-    window.dobClipObserver = new IntersectionObserver((entries) => {
+  if (!window.dobClipIo && "IntersectionObserver" in window) {
+    window.dobClipIo = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         const video = entry.target;
         if (entry.isIntersecting && !video.closest("[hidden]")) {
@@ -1286,7 +1286,7 @@ function dobClipObserver() {
       });
     }, { threshold: 0.25 });
   }
-  return window.dobClipObserver;
+  return window.dobClipIo;
 }
 
 function bindDobClips() {

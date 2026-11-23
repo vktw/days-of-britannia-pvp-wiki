@@ -8,13 +8,13 @@ hide:
 
 <!--
   Home page in 5 folds. Clips: fill data-dob-clip-webm / data-dob-clip-mp4
-  (muted MP4/WebM, 5 to 8 s, < 1.5 MB, in docs/assets/clips/; on this English page use ../assets/clips/...). With both
+  (muted MP4/WebM, 5 to 8 s, < 1.5 MB, in docs/assets/home/; on this English page use ../assets/home/...). With both
   empty, the page shows the cover image. Seasons come from extra.dob_seasons
   in mkdocs.yml.
 -->
 
 <section class="dob-landing-hero dob-landing-hero--v2" aria-labelledby="dob-landing-title">
-  <div class="dob-landing-hero__media" data-dob-clip-webm="" data-dob-clip-mp4="" aria-hidden="true"></div>
+  <div class="dob-landing-hero__media" data-dob-clip-webm="../assets/home/hero-loop.webm?v=20261123.2" data-dob-clip-mp4="../assets/home/hero-loop.mp4?v=20261123.2" aria-hidden="true"></div>
   <div data-dob-slot="season-badge"></div>
   <span class="dob-landing-kicker">Brazilian Ultima Online shard</span>
   <h1 id="dob-landing-title" class="dob-landing-hero__title">Classic Felucca Ultima Online, <em>with modern ARPG combat and progression.</em></h1>
@@ -46,8 +46,8 @@ hide:
       <button type="button" role="tab" id="dob-pillar-tab-economia" aria-controls="dob-pillar-economia" aria-selected="false" tabindex="-1">Economy and Kharag</button>
     </div>
     <article class="dob-pillar" id="dob-pillar-arcanos" role="tabpanel" aria-labelledby="dob-pillar-tab-arcanos">
-      <div class="dob-pillar__media" data-dob-clip-webm="" data-dob-clip-mp4="">
-        <img src="../assets/pillar-arcanos.webp?v=20261123.1" alt="Caster surrounded by rings of arcane energy among ruins" loading="lazy">
+      <div class="dob-pillar__media" data-dob-clip-webm="../assets/home/arcanos.webm?v=20261123.2" data-dob-clip-mp4="../assets/home/arcanos.mp4?v=20261123.2">
+        <img src="../assets/home/arcanos.webp?v=20261123.2" alt="The Finis (Mors) Arcana reaper cuts down a pack of creatures, damage numbers on screen" loading="lazy">
       </div>
       <div class="dob-pillar__body">
         <span class="dob-pillar__num">I · Power and builds</span>
@@ -58,8 +58,8 @@ hide:
       </div>
     </article>
     <article class="dob-pillar" id="dob-pillar-montarias" role="tabpanel" aria-labelledby="dob-pillar-tab-montarias">
-      <div class="dob-pillar__media" data-dob-clip-webm="" data-dob-clip-mp4="">
-        <img src="../assets/pillar-montarias.webp?v=20261123.1" alt="Spectral bear summoned beside its master" loading="lazy">
+      <div class="dob-pillar__media" data-dob-clip-webm="../assets/home/montarias.webm?v=20261123.2" data-dob-clip-mp4="../assets/home/montarias.mp4?v=20261123.2">
+        <img src="../assets/home/montarias.webp?v=20261123.2" alt="Rare mounts with exclusive dyes in front of the Britain bank" loading="lazy">
       </div>
       <div class="dob-pillar__body">
         <span class="dob-pillar__num">II · Status and collection</span>
@@ -70,8 +70,8 @@ hide:
       </div>
     </article>
     <article class="dob-pillar" id="dob-pillar-ia" role="tabpanel" aria-labelledby="dob-pillar-tab-ia">
-      <div class="dob-pillar__media" data-dob-clip-webm="" data-dob-clip-mp4="">
-        <img src="../assets/card-pvm-mastery.webp?v=20260813.1" alt="Hunter faces an ancient dragon in a ruined temple" loading="lazy">
+      <div class="dob-pillar__media" data-dob-clip-webm="../assets/home/ia-boss.webm?v=20261123.2" data-dob-clip-mp4="../assets/home/ia-boss.mp4?v=20261123.2">
+        <img src="../assets/home/ia-boss.webp?v=20261123.2" alt="The Orc Warlord smashes a Wall of Stone to reach the mage hiding behind it" loading="lazy">
       </div>
       <div class="dob-pillar__body">
         <span class="dob-pillar__num">III · Adrenaline</span>
@@ -83,7 +83,7 @@ hide:
     </article>
     <article class="dob-pillar" id="dob-pillar-economia" role="tabpanel" aria-labelledby="dob-pillar-tab-economia">
       <div class="dob-pillar__media" data-dob-clip-webm="" data-dob-clip-mp4="">
-        <img src="../assets/hero-action-discord.webp?v=20260821.1" alt="Adventurers trading around a tavern table" loading="lazy">
+        <img src="../assets/home/economia.webp?v=20261123.2" alt="Kharag, the Heart of the Earth, with its reward list open in Nujel'm" loading="lazy">
       </div>
       <div class="dob-pillar__body">
         <span class="dob-pillar__num">IV · Purpose</span>
