@@ -97,8 +97,11 @@ build, localization/site-contract/fact-registry audits, `git diff --check`);
 audit headings, home/proximo-patch); (3) any gate failure or out-of-scope
 surprise stops the run and escalates to the owner instead of publishing. After
 publishing, file a GitHub issue in this repository summarizing the release and
-what was verified. Kill-switch: the owner saying to pause, or deleting the
-scheduled task that triggers this work.
+what was verified. Scheduled runs execute in an isolated worktree
+(`C:\dob-wiki-auto`, recreated from origin/main each run) so local work is
+never touched; any abort opens or updates a "[auto] Reconciliação bloqueada"
+issue instead of failing silently. Kill-switch: the owner saying to pause, or
+deleting the scheduled task that triggers this work.
 
 ## Public content rules
 
