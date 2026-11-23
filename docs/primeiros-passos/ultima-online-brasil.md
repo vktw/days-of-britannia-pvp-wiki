@@ -1,10 +1,10 @@
 ---
-description: "Comunidade brasileira de Ultima Online: o shard, o launcher oficial e onde começar."
+description: "Days of Britannia é um shard brasileiro de Ultima Online com PvP e PvM customizados, launcher oficial e manual em português e inglês."
 ---
 
 # Ultima Online Brasil: shards, servidores e comunidade
 
-Quem procura por **Ultima Online Brasil**, por um **Ultima Online Shard Brasil** ou por um **Ultima Online Server International** encontra uma comunidade que mantém Britannia viva há décadas. Esta página apresenta a origem de **UO**, o surgimento dos freeshards brasileiros e a proposta de Days of Britannia para jogadores do Brasil e de outros países.
+Quem procura por **Ultima Online Brasil**, por um **Ultima Online Shard Brasil** ou por um **Ultima Online Server International** encontra no Days of Britannia um mundo mantido por comunidade, com regras próprias de PvP e PvM e documentação em português e inglês. Esta página apresenta a origem de **UO**, o surgimento dos freeshards brasileiros e o que você encontra neste servidor antes de começar.
 
 ## O que é Ultima Online?
 
@@ -40,6 +40,33 @@ Days of Britannia faz parte dessa tradição de mundos mantidos por comunidade. 
 
 Para jogar, use sempre o [launcher oficial de Days of Britannia](index.md). Depois, siga o guia de [primeiros passos](index.md), consulte a seção sobre seu primeiro personagem e leia as regras atuais desta wiki. Experiências trazidas de outro Servidor podem ajudar na adaptação, mas não substituem as informações específicas deste mundo.
 
+## Por que jogar no Days of Britannia?
+
+Em resumo: é um shard brasileiro com sistemas próprios, documentados e atualizados a cada patch. Na prática, você encontra:
+
+- **PvP com estrutura:** duelos e treino pela `.arena`, ranking por temporada e o Free-for-All em horários fixos. A [Arena](../arena.md) explica o fluxo sem revelar a lógica interna do PvP Trainer.
+- **PvM progressivo:** [Maestria PvM](../sistemas/pvm-mastery.md), [Slayer's Codex](../sistemas/slayers-codex.md), [Arcanos](../sistemas/arcana.md), [Daily Dungeon](../sistemas/daily-dungeon.md) e eventos sazonais como [Wild Hunt](../sistemas/wild-hunt.md) e [Hall of Echoes](../sistemas/hall-of-echoes.md).
+- **Progressão clara:** personagens novos começam com as skills iniciais em **100.0**, o status **Newcomer** dura **7 dias** e o treino protegido acompanha a curva da skill.
+- **Craft com referência oficial:** [receitas por categoria](../craft/index.md), materiais, faixas de skill e simuladores.
+- **Acesso pelo launcher:** instalação e criação de conta pelo DoB Launcher, sem configurar cliente manualmente.
+- **Manual bilíngue:** as mesmas regras em português e inglês.
+
+## Como começar a jogar
+
+1. **Baixe o launcher oficial** na página de [Primeiros passos](index.md): há pacotes para Windows, Linux e macOS em preview.
+2. **Crie sua conta** no próprio launcher. A conta é criada automaticamente, com limite de até **5** contas por IP.
+3. **Entre com seu primeiro personagem:** ele começa perto do banco de Britain, em Felucca, com **100 STR, 100 DEX e 100 INT** e as skills iniciais em **100.0**.
+4. **Siga a trilha inicial:** abra `.achievements` e cumpra as **8** etapas. O status **Newcomer** dura **7 dias** e concede bônus de ouro e XP.
+5. **Escolha um caminho:** PvP na Arena, PvM com Maestrias ou craft. Cada seção do manual explica um deles.
+
+## Regras que valem neste shard
+
+- Não há skill cap global efetivo: cada skill base de jogador é limitada a **100.0**, e bônus temporários podem elevar o valor efetivo conforme as regras da skill.
+- Todo personagem, novo ou antigo, tem Anatomy, Evaluating Intelligence, Parrying, Fencing e Macing em **100** desde o 2.3.0.
+- Entre **30.0 e 100.0**, as curvas de treino levam cerca de **3** ou **5 horas**; o ganho protegido mantém limites de **5** e **7 horas** para os perfis rápido e normal.
+- O ruleset não usa pet bonding, e pets e summons de jogadores não atacam outros jogadores.
+- As regras mudam por patch: a versão vigente aparece no cabeçalho da wiki e o histórico fica nos [Patch notes](../patches.md).
+
 ## Ultima Online Server International e jogadores internacionais
 
 Days of Britannia é desenvolvido no Brasil, mas também é amigável para quem procura um **Ultima Online Server International** ou um shard brasileiro acessível em inglês. A wiki possui versões em português e inglês; no celular ou no computador, use os botões **PT | EN** no cabeçalho para trocar o idioma da página.
@@ -47,6 +74,24 @@ Days of Britannia é desenvolvido no Brasil, mas também é amigável para quem 
 Jogadores internacionais podem acessar as mesmas informações sobre conexão, personagem, combate, itens, sistemas e atualizações na [English version of the official wiki](https://dobshard.com/en/). Os nomes tradicionais de skills, itens e comandos de UO são preservados para facilitar a comunicação entre jogadores brasileiros e internacionais.
 
 O servidor continua tendo identidade brasileira. A documentação em inglês existe para reduzir a barreira de entrada, permitir que visitantes entendam as regras antes de jogar e acolher grupos de diferentes países.
+
+## Perguntas frequentes
+
+### Preciso conhecer Ultima Online para começar?
+
+Não. O guia de [Primeiros passos](index.md) cobre launcher, conta, personagem e primeira hora, e a trilha de [Achievements](../sistemas/achievements.md) apresenta os primeiros objetivos PvM.
+
+### Posso jogar em inglês?
+
+Sim. Use o botão **EN** no cabeçalho ou acesse a [English version of the official wiki](https://dobshard.com/en/). Nomes de skills, itens e comandos são preservados nas duas versões.
+
+### Posso trazer meu personagem de outro shard?
+
+Não. Cada mundo mantém contas, personagens e economia próprios.
+
+### Onde vejo o que mudou?
+
+Nos [Patch notes](../patches.md), com a versão atual indicada no cabeçalho da wiki.
 
 ## Para conhecer mais
 
