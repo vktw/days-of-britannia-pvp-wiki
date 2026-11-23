@@ -132,9 +132,9 @@ hide:
       <p>Item na mão ao morrer, deslogar ou no restart vai para a mochila ou o banco. Nunca para o chão.</p>
     </li>
     <li>
-      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg>
-      <strong>Save que não congela</strong>
-      <p>O backup do save é feito depois, sem pausar o servidor. O mundo não para no meio da sua luta.</p>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2V5Z"/><path d="M4 19a2 2 0 0 1 2-2h13"/><circle cx="12.5" cy="10" r="2.5"/></svg>
+      <strong>Runic Atlas</strong>
+      <p>Vendido pelo Mage: 48 runas e até 100 cargas num livro só, recarregado com scrolls de Recall como o Runebook.</p>
     </li>
   </ul>
 </section>

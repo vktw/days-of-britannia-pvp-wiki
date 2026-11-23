@@ -132,9 +132,9 @@ hide:
       <p>An item in hand when you die, log out, or the server restarts goes to your backpack or bank. Never to the ground.</p>
     </li>
     <li>
-      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg>
-      <strong>Saves that don't freeze</strong>
-      <p>The save backup runs afterwards, without pausing the server. The world doesn't stop in the middle of your fight.</p>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2V5Z"/><path d="M4 19a2 2 0 0 1 2-2h13"/><circle cx="12.5" cy="10" r="2.5"/></svg>
+      <strong>Runic Atlas</strong>
+      <p>Sold by the Mage: 48 runes and up to 100 charges in a single book, recharged with Recall scrolls like a Runebook.</p>
     </li>
   </ul>
 </section>
