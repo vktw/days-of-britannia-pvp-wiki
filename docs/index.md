@@ -25,6 +25,7 @@ hide:
       <span>Baixar Launcher e Jogar</span>
     </a>
     <a class="dob-landing-btn dob-landing-btn--ghost" href="https://discord.gg/e2VDbg2NYw" target="_blank" rel="noopener noreferrer">Entrar no Discord</a>
+      <a class="dob-landing-btn dob-landing-btn--ghost" href="#dob-landing-video"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z"></path></svg><span>Ver o trailer</span></a>
   </div>
   <p class="dob-landing-hero__note">Grátis, sem loja e sem doações. Launcher para Windows; Linux e macOS em preview em <a href="primeiros-passos/">Primeiros passos</a>.</p>
 </section>
@@ -140,8 +141,14 @@ hide:
 </section>
 
 <section class="dob-landing-section" aria-labelledby="dob-landing-video">
-  <span class="dob-landing-kicker">Comunidade</span>
-  <h2 id="dob-landing-video" class="dob-landing-section__title">DoB em vídeo</h2>
+  <span class="dob-landing-kicker">Trailer e comunidade</span>
+  <h2 id="dob-landing-video" class="dob-landing-section__title">Veja o DoB em ação</h2>
+  <figure class="dob-trailer">
+    <video controls preload="none" playsinline poster="assets/home/trailer-poster.webp?v=20261123.1" aria-label="Trailer do Days of Britannia">
+      <source src="assets/home/trailer.mp4?v=20261123.1" type="video/mp4">
+    </video>
+    <figcaption>Trailer do Days of Britannia · 41 s · Música: “Determined Pursuit”, de Emma_MA (domínio público, CC0)</figcaption>
+  </figure>
   <div class="dob-landing-video" data-dob-youtube hidden>
     <button type="button" class="dob-landing-video__frame" data-dob-youtube-frame>
       <img data-dob-youtube-thumb alt="" loading="lazy">

@@ -3886,3 +3886,31 @@ body:has(.dob-landing-page) .md-container::before {
     display: none;
   }
 }
+
+/* Trailer hospedado no site */
+.md-typeset .dob-trailer {
+  margin: 1.6rem 0 0;
+  border: 1px solid var(--dob-line);
+  background: #000;
+}
+
+.md-typeset .dob-trailer video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  background: #000;
+}
+
+.md-typeset .dob-trailer figcaption {
+  display: block;
+  max-width: none;
+  width: auto;
+  margin: 0;
+  font-style: normal;
+  padding: 0.7rem 1rem;
+  background: var(--dob-surface);
+  color: var(--dob-muted, inherit);
+  font-size: 0.72rem;
+  text-align: left;
+}
