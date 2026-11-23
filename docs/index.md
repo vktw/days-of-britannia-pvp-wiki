@@ -76,8 +76,8 @@ hide:
       <div class="dob-pillar__body">
         <span class="dob-pillar__num">III · Adrenalina</span>
         <h3>Inimigos com IA tática</h3>
-        <p>Uma nova geração de inimigos que não morre travada atrás de parede. A nova inteligência de combate derruba Wall of Stone e Energy Field, persegue quem ataca de longe, fareja quem se esconde e vai atrás de quem cura.</p>
-        <p>Estreou no Orc Warlord e chega às criaturas novas, que rendem mais ouro, XP e loot.</p>
+        <p>Prendeu a criatura num X de Wall of Stone? As criaturas avançadas derrubam a parede e vêm atrás de você. A IA aprimorada também persegue quem ataca de longe, fareja quem se esconde e vai atrás de quem cura.</p>
+        <p>No começo da progressão, o PvM continua clássico. A IA aprimorada fica com as criaturas avançadas, como o Orc Warlord, que rendem mais ouro, XP e loot.</p>
         <a class="dob-pillar__more" href="sistemas/caca-pvm/">Ver caçadas na wiki <span aria-hidden="true">→</span></a>
       </div>
     </article>

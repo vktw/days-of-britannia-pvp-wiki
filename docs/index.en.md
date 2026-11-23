@@ -76,8 +76,8 @@ hide:
       <div class="dob-pillar__body">
         <span class="dob-pillar__num">III · Adrenaline</span>
         <h3>Enemies with tactical AI</h3>
-        <p>A new generation of enemies that won't die stuck behind a wall. The new combat intelligence breaks Wall of Stone and Energy Field, chases ranged attackers, sniffs out hidden players, and goes after whoever heals.</p>
-        <p>It debuted on the Orc Warlord and is coming to new creatures, which give more gold, XP, and loot.</p>
+        <p>Trapped a creature in an X of Wall of Stone? Advanced creatures smash the wall and come for you. The enhanced AI also chases ranged attackers, sniffs out hidden players, and goes after whoever heals.</p>
+        <p>Early progression keeps classic PvM. The enhanced AI belongs to advanced creatures, like the Orc Warlord, which give more gold, XP, and loot.</p>
         <a class="dob-pillar__more" href="sistemas/caca-pvm/">Read about hunting in the wiki <span aria-hidden="true">→</span></a>
       </div>
     </article>
