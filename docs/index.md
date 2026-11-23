@@ -103,13 +103,13 @@ hide:
 </section>
 
 <section class="dob-landing-section" aria-labelledby="dob-landing-relief">
-  <span class="dob-landing-kicker">Para quem já jogou UO</span>
-  <h2 id="dob-landing-relief" class="dob-landing-section__title">O que não vai mais te irritar</h2>
+  <span class="dob-landing-kicker">Quality of life</span>
+  <h2 id="dob-landing-relief" class="dob-landing-section__title">Conforto que faz diferença no dia a dia</h2>
   <ul class="dob-relief">
     <li>
-      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg>
-      <strong>Save que não congela</strong>
-      <p>O backup do save é feito depois, sem pausar o servidor. O mundo não para no meio da sua luta.</p>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 21V8l8-5 8 5v13"/><path d="M9 21v-6h6v6"/><path d="M8 11h8"/></svg>
+      <strong>Arsenal da casa</strong>
+      <p>O Armory guarda armas, armaduras, poções e reagentes com 5 loadouts. Depois de morrer, o loadout veste de novo as peças iguais que estiverem guardadas.</p>
     </li>
     <li>
       <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 21s-7-4.4-9.3-9A5.3 5.3 0 0 1 12 6a5.3 5.3 0 0 1 9.3 6c-2.3 4.6-9.3 9-9.3 9Z"/><path d="M12 10v6M9 13h6"/></svg>
@@ -117,24 +117,24 @@ hide:
       <p>Levantou com bandagem ou Resurrection? O equipamento volta a ser vestido e o resto vai para a mochila.</p>
     </li>
     <li>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2V5Z"/><path d="M4 19a2 2 0 0 1 2-2h13"/><path d="m10 7 3 3m0-3-3 3"/></svg>
+      <strong>Treasure Map Book</strong>
+      <p>Até 100 mapas do tesouro num livro só, separados por nível e prazo. A Bússola aponta o caminho até o baú.</p>
+    </li>
+    <li>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.1L3 17.7 6.3 21l6.3-6.3a4 4 0 0 0 5.1-5.4l-2.6 2.6-2.6-.7-.7-2.6 2.9-2.3Z"/></svg>
+      <strong>Kit de reparo</strong>
+      <p>Conserta o equipamento, a mochila ou tudo de uma vez, sem falhar. Nada de correr atrás de ferreiro.</p>
+    </li>
+    <li>
       <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 3l6 16 2.5-6.5L20 10 5 3Z"/><path d="M14 14l5 5"/></svg>
       <strong>Proteção de cursor</strong>
       <p>Item na mão ao morrer, deslogar ou no restart vai para a mochila ou o banco. Nunca para o chão.</p>
     </li>
     <li>
-      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
-      <strong>PvP justo nos eventos</strong>
-      <p>No Free-for-All, todos lutam com o mesmo kit, anônimos sob o mesmo manto e o mesmo nome. Ganha quem joga melhor.</p>
-    </li>
-    <li>
-      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
-      <strong>Respeito ao seu tempo</strong>
-      <p>Hall of Echoes todo domingo, com horário reservado, e eventos com hora marcada. Uma ou duas horas por dia já rendem.</p>
-    </li>
-    <li>
-      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18M4 4l16 18"/></svg>
-      <strong>Foco no jogo, não na carteira</strong>
-      <p>Sem loja e sem doações. Toda vantagem sai de Felucca, não do cartão de crédito.</p>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg>
+      <strong>Save que não congela</strong>
+      <p>O backup do save é feito depois, sem pausar o servidor. O mundo não para no meio da sua luta.</p>
     </li>
   </ul>
 </section>

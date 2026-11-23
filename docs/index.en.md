@@ -103,13 +103,13 @@ hide:
 </section>
 
 <section class="dob-landing-section" aria-labelledby="dob-landing-relief">
-  <span class="dob-landing-kicker">For UO veterans</span>
-  <h2 id="dob-landing-relief" class="dob-landing-section__title">What won't annoy you anymore</h2>
+  <span class="dob-landing-kicker">Quality of life</span>
+  <h2 id="dob-landing-relief" class="dob-landing-section__title">Comfort that makes a difference every day</h2>
   <ul class="dob-relief">
     <li>
-      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg>
-      <strong>Saves that don't freeze</strong>
-      <p>The save backup runs afterwards, without pausing the server. The world doesn't stop in the middle of your fight.</p>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 21V8l8-5 8 5v13"/><path d="M9 21v-6h6v6"/><path d="M8 11h8"/></svg>
+      <strong>House armory</strong>
+      <p>The Armory stores weapons, armor, potions, and reagents with 5 loadouts. After a death, the loadout puts matching stored pieces back on.</p>
     </li>
     <li>
       <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 21s-7-4.4-9.3-9A5.3 5.3 0 0 1 12 6a5.3 5.3 0 0 1 9.3 6c-2.3 4.6-9.3 9-9.3 9Z"/><path d="M12 10v6M9 13h6"/></svg>
@@ -117,24 +117,24 @@ hide:
       <p>Back up with bandages or Resurrection? Your equipment is worn again and the rest goes to your backpack.</p>
     </li>
     <li>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2V5Z"/><path d="M4 19a2 2 0 0 1 2-2h13"/><path d="m10 7 3 3m0-3-3 3"/></svg>
+      <strong>Treasure Map Book</strong>
+      <p>Up to 100 treasure maps in a single book, sorted by level and time left. The Compass points the way to the chest.</p>
+    </li>
+    <li>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.1L3 17.7 6.3 21l6.3-6.3a4 4 0 0 0 5.1-5.4l-2.6 2.6-2.6-.7-.7-2.6 2.9-2.3Z"/></svg>
+      <strong>Repair kit</strong>
+      <p>Repairs your equipment, your backpack, or everything at once, and never fails. No more hunting for a blacksmith.</p>
+    </li>
+    <li>
       <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 3l6 16 2.5-6.5L20 10 5 3Z"/><path d="M14 14l5 5"/></svg>
       <strong>Cursor protection</strong>
       <p>An item in hand when you die, log out, or the server restarts goes to your backpack or bank. Never to the ground.</p>
     </li>
     <li>
-      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3 4 6v6c0 4.5 3.4 8 8 9 4.6-1 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
-      <strong>Fair PvP in events</strong>
-      <p>In the Free-for-All, everyone fights with the same kit, anonymous under the same cloak and the same name. The best player wins.</p>
-    </li>
-    <li>
-      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
-      <strong>Respect for your time</strong>
-      <p>Hall of Echoes every Sunday, with a reserved slot, and events at set times. One or two hours a day already pay off.</p>
-    </li>
-    <li>
-      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18M4 4l16 18"/></svg>
-      <strong>Focus on the game, not your wallet</strong>
-      <p>No shop and no donations. Every edge comes from Felucca, not from a credit card.</p>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg>
+      <strong>Saves that don't freeze</strong>
+      <p>The save backup runs afterwards, without pausing the server. The world doesn't stop in the middle of your fight.</p>
     </li>
   </ul>
 </section>
