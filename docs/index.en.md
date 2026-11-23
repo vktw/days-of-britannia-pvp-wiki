@@ -70,8 +70,8 @@ hide:
       </div>
     </article>
     <article class="dob-pillar" id="dob-pillar-ia" role="tabpanel" aria-labelledby="dob-pillar-tab-ia">
-      <div class="dob-pillar__media" data-dob-clip-webm="../assets/home/ia-boss.webm?v=20261123.2" data-dob-clip-mp4="../assets/home/ia-boss.mp4?v=20261123.2">
-        <img src="../assets/home/ia-boss.webp?v=20261123.2" alt="The Orc Warlord smashes a Wall of Stone to reach the mage hiding behind it" loading="lazy">
+      <div class="dob-pillar__media" data-dob-clip-webm="../assets/home/ia-boss.webm?v=20261123.4" data-dob-clip-mp4="../assets/home/ia-boss.mp4?v=20261123.4">
+        <img src="../assets/home/ia-boss.webp?v=20261123.4" alt="A mage traps the Orc Warlord in an X of Wall of Stone, and it smashes the stone and charges the mage" loading="lazy">
       </div>
       <div class="dob-pillar__body">
         <span class="dob-pillar__num">III · Adrenaline</span>

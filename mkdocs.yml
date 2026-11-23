@@ -65,10 +65,12 @@ extra:
       rewards:
         - name: Moonlight Pigment
           swatch: "#f2f5fa"
+          image: "assets/home/rewards/reward-moonlight-pigment.png?v=20261123.1"
           pt: Tinta branco-neve (hue 2090), por 375 Moonmarks.
           en: Snow-white dye (hue 2090), for 375 Moonmarks.
         - name: Visage of the Hunter's Moon
           swatch: "#f2f5fa"
+          image: "assets/home/rewards/reward-visage-hunters-moon.png?v=20261123.1"
           pt: Máscara de cervo branco-neve, por 575 Moonmarks. Uma por conta.
           en: Snow-white stag mask, for 575 Moonmarks. One per account.
     - id: christmas
