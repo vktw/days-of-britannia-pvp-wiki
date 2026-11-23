@@ -1,7 +1,7 @@
 ---
 template: home.html
 title: Brazilian Ultima Online shard
-description: "Days of Britannia: classic Felucca UO with Arcana, tactical-AI enemies, rare mounts, and a new season every month. Free, with no shop and no donations."
+description: "Days of Britannia is a free Brazilian Ultima Online shard: classic Felucca with Arcana, tactical-AI enemies, rare mounts, and a new season every month. No shop and no donations."
 hide:
   - toc
 ---
@@ -16,7 +16,8 @@ hide:
 <section class="dob-landing-hero dob-landing-hero--v2" aria-labelledby="dob-landing-title">
   <div class="dob-landing-hero__media" data-dob-clip-webm="" data-dob-clip-mp4="" aria-hidden="true"></div>
   <div data-dob-slot="season-badge"></div>
-  <h1 id="dob-landing-title" class="dob-landing-hero__title">Classic Felucca UO, <em>with modern ARPG combat and progression.</em></h1>
+  <span class="dob-landing-kicker">Brazilian Ultima Online shard</span>
+  <h1 id="dob-landing-title" class="dob-landing-hero__title">Classic Felucca Ultima Online, <em>with modern ARPG combat and progression.</em></h1>
   <p class="dob-landing-hero__lede">Master 8 schools of Arcana, face enemies with tactical AI, breed rare mount bloodlines, and compete in a new season every month.</p>
   <div class="dob-landing-cta">
     <a class="dob-landing-btn dob-landing-btn--fire" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
@@ -136,6 +137,26 @@ hide:
       <p>No shop and no donations. Every edge comes from Felucca, not from a credit card.</p>
     </li>
   </ul>
+</section>
+
+<section class="dob-landing-section" aria-labelledby="dob-landing-video">
+  <span class="dob-landing-kicker">Community</span>
+  <h2 id="dob-landing-video" class="dob-landing-section__title">DoB on video</h2>
+  <div class="dob-landing-video" data-dob-youtube hidden>
+    <button type="button" class="dob-landing-video__frame" data-dob-youtube-frame>
+      <img data-dob-youtube-thumb alt="" loading="lazy">
+      <span class="dob-landing-video__play" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      </span>
+    </button>
+    <div class="dob-landing-video__body">
+      <strong><a class="dob-landing-video__title" data-dob-youtube-title href="https://www.youtube.com/@DaysOfBritannia" target="_blank" rel="noopener noreferrer"></a></strong>
+      <small>Random video from the channel · <time data-dob-youtube-date></time></small>
+      <span class="dob-landing-video__actions">
+        <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="https://www.youtube.com/@DaysOfBritannia" target="_blank" rel="noopener noreferrer">Visit channel</a>
+      </span>
+    </div>
+  </div>
 </section>
 
 <section class="dob-landing-section dob-landing-section--glow" aria-labelledby="dob-landing-start">

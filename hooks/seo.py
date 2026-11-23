@@ -40,6 +40,18 @@ SECTIONS = {
     },
 }
 HOME = {"pt-BR": "Início", "en": "Home"}
+# The home page targets the game, not the manual: brand first, then the query
+# players type ("shard brasileiro de Ultima Online").
+HOME_TITLE = {
+    "pt-BR": "Days of Britannia: shard brasileiro de Ultima Online grátis",
+    "en": "Days of Britannia: free Brazilian Ultima Online shard",
+}
+HOME_IMAGE = "assets/hero-main-dark-test-b.webp?v=20260806.1"
+SAME_AS = [
+    "https://discord.gg/e2VDbg2NYw",
+    "https://www.youtube.com/@DaysOfBritannia",
+    "https://uoservers.com/server/dob-shard-days-of-britannia",
+]
 
 LINK_RE = re.compile(r"<link\b[^>]*rel=\"alternate\"[^>]*>")
 TITLE_RE = re.compile(r"<title>(.*?)</title>", re.S)
@@ -87,7 +99,17 @@ def _breadcrumbs(base: str, is_en: bool, site_url: str, title: str, current: str
     return crumbs
 
 
-def _json_ld(*, url: str, title: str, description: str, language: str, site_url: str, crumbs: list[dict[str, str]]) -> str:
+def _json_ld(
+    *,
+    url: str,
+    title: str,
+    description: str,
+    language: str,
+    site_url: str,
+    crumbs: list[dict[str, str]],
+    home: bool = False,
+    image: str = "",
+) -> str:
     graph = [
         {
             "@type": "WebSite",
@@ -106,6 +128,37 @@ def _json_ld(*, url: str, title: str, description: str, language: str, site_url:
             "isPartOf": {"@id": f"{site_url}#website"},
         },
     ]
+    if home:
+        graph.append(
+            {
+                "@type": "Organization",
+                "@id": f"{site_url}#organization",
+                "name": "Days of Britannia",
+                "url": site_url,
+                "logo": _absolute(site_url, "assets/logo.png"),
+                "sameAs": SAME_AS,
+            }
+        )
+        graph.append(
+            {
+                "@type": "VideoGame",
+                "@id": f"{site_url}#game",
+                "name": "Days of Britannia",
+                "alternateName": ["DoB Shard", "DoB"],
+                "url": url,
+                "description": description,
+                "image": image,
+                "genre": ["MMORPG", "Ultima Online shard"],
+                "gamePlatform": "PC",
+                "operatingSystem": "Windows, Linux, macOS",
+                "playMode": "MultiPlayer",
+                "inLanguage": ["pt-BR", "en"],
+                "isAccessibleForFree": True,
+                "offers": {"@type": "Offer", "price": "0", "priceCurrency": "BRL"},
+                "publisher": {"@id": f"{site_url}#organization"},
+                "sameAs": SAME_AS,
+            }
+        )
     if crumbs:
         graph.append(
             {
@@ -160,7 +213,11 @@ def on_post_page(output: str, page, config, **kwargs) -> str:
     description = (page.meta.get("description") or config.site_description or "").strip()
     locale = "en_US" if is_en else "pt_BR"
     alternate_locale = "pt_BR" if is_en else "en_US"
-    image = _absolute(site_url, OG_IMAGE)
+    is_home = base == "" and not target
+    image = _absolute(site_url, HOME_IMAGE if is_home else OG_IMAGE)
+    if is_home:
+        title = HOME_TITLE[lang]
+        output = TITLE_RE.sub(f"<title>{html.escape(title)}</title>", output, count=1)
 
     crumb_title = title.removesuffix(f" - {SITE_NAME}")
     crumbs = _breadcrumbs(base, is_en, site_url, crumb_title, canonical, lang) if base and ARTICLE_MARKER in output else []
@@ -188,8 +245,8 @@ def on_post_page(output: str, page, config, **kwargs) -> str:
         f'<meta property="og:title" content="{esc(title)}">',
         f'<meta property="og:description" content="{esc(description)}">',
         f'<meta property="og:image" content="{esc(image)}">',
-        '<meta property="og:image:width" content="1536">',
-        '<meta property="og:image:height" content="1024">',
+        f'<meta property="og:image:width" content="{3548 if is_home else 1536}">',
+        f'<meta property="og:image:height" content="{1774 if is_home else 1024}">',
         f'<meta name="twitter:title" content="{esc(title)}">',
         f'<meta name="twitter:description" content="{esc(description)}">',
         f'<meta name="twitter:image" content="{esc(image)}">',
@@ -200,6 +257,8 @@ def on_post_page(output: str, page, config, **kwargs) -> str:
             language=lang,
             site_url=site_url if site_url.endswith("/") else f"{site_url}/",
             crumbs=crumbs,
+            home=is_home,
+            image=image,
         ),
     ]
     head_block = "    " + "\n    ".join(tags) + "\n  "

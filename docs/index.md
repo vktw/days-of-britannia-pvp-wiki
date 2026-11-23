@@ -1,7 +1,7 @@
 ---
 template: home.html
 title: Shard brasileiro de Ultima Online
-description: "Days of Britannia: o UO clássico de Felucca com Arcanos, inimigos com IA tática, montarias raras e uma temporada nova a cada mês. Grátis, sem loja e sem doações."
+description: "Days of Britannia é um shard brasileiro de Ultima Online grátis: Felucca clássico com Arcanos, inimigos com IA tática, montarias raras e uma temporada nova a cada mês. Sem loja e sem doações."
 hide:
   - toc
 ---
@@ -16,7 +16,8 @@ hide:
 <section class="dob-landing-hero dob-landing-hero--v2" aria-labelledby="dob-landing-title">
   <div class="dob-landing-hero__media" data-dob-clip-webm="" data-dob-clip-mp4="" aria-hidden="true"></div>
   <div data-dob-slot="season-badge"></div>
-  <h1 id="dob-landing-title" class="dob-landing-hero__title">O UO clássico de Felucca, <em>com combate e progressão de ARPG moderno.</em></h1>
+  <span class="dob-landing-kicker">Shard brasileiro de Ultima Online</span>
+  <h1 id="dob-landing-title" class="dob-landing-hero__title">O Ultima Online clássico de Felucca, <em>com combate e progressão de ARPG moderno.</em></h1>
   <p class="dob-landing-hero__lede">Domine 8 escolas de Arcanos, enfrente inimigos com IA tática, crie linhagens raras de montarias e dispute uma temporada nova a cada mês.</p>
   <div class="dob-landing-cta">
     <a class="dob-landing-btn dob-landing-btn--fire" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
@@ -136,6 +137,26 @@ hide:
       <p>Sem loja e sem doações. Toda vantagem sai de Felucca, não do cartão de crédito.</p>
     </li>
   </ul>
+</section>
+
+<section class="dob-landing-section" aria-labelledby="dob-landing-video">
+  <span class="dob-landing-kicker">Comunidade</span>
+  <h2 id="dob-landing-video" class="dob-landing-section__title">DoB em vídeo</h2>
+  <div class="dob-landing-video" data-dob-youtube hidden>
+    <button type="button" class="dob-landing-video__frame" data-dob-youtube-frame>
+      <img data-dob-youtube-thumb alt="" loading="lazy">
+      <span class="dob-landing-video__play" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      </span>
+    </button>
+    <div class="dob-landing-video__body">
+      <strong><a class="dob-landing-video__title" data-dob-youtube-title href="https://www.youtube.com/@DaysOfBritannia" target="_blank" rel="noopener noreferrer"></a></strong>
+      <small>Vídeo aleatório do canal · <time data-dob-youtube-date></time></small>
+      <span class="dob-landing-video__actions">
+        <a class="dob-landing-btn dob-landing-btn--ghost dob-landing-btn--small" href="https://www.youtube.com/@DaysOfBritannia" target="_blank" rel="noopener noreferrer">Ver canal</a>
+      </span>
+    </div>
+  </div>
 </section>
 
 <section class="dob-landing-section dob-landing-section--glow" aria-labelledby="dob-landing-start">
