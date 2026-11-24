@@ -14,7 +14,7 @@ hide:
 -->
 
 <section class="dob-landing-hero dob-landing-hero--v2" aria-labelledby="dob-landing-title">
-  <div class="dob-landing-hero__media" data-dob-clip-webm="../assets/home/hero-loop.webm?v=20261123.2" data-dob-clip-mp4="../assets/home/hero-loop.mp4?v=20261123.2" aria-hidden="true"></div>
+  <div class="dob-landing-hero__media" data-dob-clip-webm="../assets/home/hero-loop.webm?v=20261123.2" data-dob-clip-mp4="../assets/home/hero-loop.mp4?v=20261123.2" aria-hidden="true"><img src="../assets/home/hero-loop-poster.webp?v=20261124.1" alt="" fetchpriority="high"></div>
   <div data-dob-slot="season-badge"></div>
   <span class="dob-landing-kicker">Brazilian Ultima Online shard</span>
   <h1 id="dob-landing-title" class="dob-landing-hero__title">Classic Felucca Ultima Online, <em>with modern ARPG combat and progression.</em></h1>
