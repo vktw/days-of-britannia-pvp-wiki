@@ -17,8 +17,8 @@ hide:
   <div class="dob-landing-hero__media" data-dob-clip-webm="../assets/home/hero-loop.webm?v=20261123.2" data-dob-clip-mp4="../assets/home/hero-loop.mp4?v=20261123.2" aria-hidden="true"><img src="../assets/home/hero-loop-poster.webp?v=20261124.1" alt="" fetchpriority="high"></div>
   <div data-dob-slot="season-badge"></div>
   <span class="dob-landing-kicker">Brazilian Ultima Online shard</span>
-  <h1 id="dob-landing-title" class="dob-landing-hero__title">Classic Felucca Ultima Online, <em>with modern ARPG combat and progression.</em></h1>
-  <p class="dob-landing-hero__lede">Master 8 schools of Arcana, face enemies with tactical AI, breed rare mount bloodlines, and compete in a new season every month.</p>
+  <h1 id="dob-landing-title" class="dob-landing-hero__title">Classic Felucca. <em>A real challenge.</em></h1>
+  <p class="dob-landing-hero__lede">The Ultima Online you know, with modern ARPG combat and progression. Master 8 schools of Arcana, face enemies with tactical AI, breed rare mount bloodlines, and compete in a new season every month.</p>
   <div class="dob-landing-cta">
     <a class="dob-landing-btn dob-landing-btn--fire" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
       <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 21h16"></path></svg>
