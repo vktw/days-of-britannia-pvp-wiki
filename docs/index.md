@@ -17,8 +17,8 @@ hide:
   <div class="dob-landing-hero__media" data-dob-clip-webm="assets/home/hero-loop.webm?v=20261123.2" data-dob-clip-mp4="assets/home/hero-loop.mp4?v=20261123.2" aria-hidden="true"><img src="assets/home/hero-loop-poster.webp?v=20261124.1" alt="" fetchpriority="high"></div>
   <div data-dob-slot="season-badge"></div>
   <span class="dob-landing-kicker">Shard brasileiro de Ultima Online</span>
-  <h1 id="dob-landing-title" class="dob-landing-hero__title">O Ultima Online clássico de Felucca, <em>com combate e progressão de ARPG moderno.</em></h1>
-  <p class="dob-landing-hero__lede">Domine 8 escolas de Arcanos, enfrente inimigos com IA tática, crie linhagens raras de montarias e dispute uma temporada nova a cada mês.</p>
+  <h1 id="dob-landing-title" class="dob-landing-hero__title">Felucca clássico. <em>Desafio de verdade.</em></h1>
+  <p class="dob-landing-hero__lede">O Ultima Online que você conhece, com combate e progressão de ARPG moderno. Domine 8 escolas de Arcanos, enfrente inimigos com IA tática, crie linhagens raras de montarias e dispute uma temporada nova a cada mês.</p>
   <div class="dob-landing-cta">
     <a class="dob-landing-btn dob-landing-btn--fire" href="https://downloads.dobshard.com/launcher/latest/DoBLauncher.exe">
       <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 21h16"></path></svg>

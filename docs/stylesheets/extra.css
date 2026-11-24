@@ -3938,3 +3938,8 @@ body:has(.dob-landing-hero--v2) .md-container::before {
     background-image: none;
   }
 }
+
+/* Título do topo: a segunda frase sempre em linha própria. */
+.md-typeset .dob-landing-hero--v2 .dob-landing-hero__title em {
+  display: block;
+}
