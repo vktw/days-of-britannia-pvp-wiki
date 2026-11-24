@@ -107,7 +107,7 @@ extra:
           pt: Montaria preta (hue 1175), prêmio por 620.000 pontos doados à árvore.
           en: Black mount (hue 1175), awarded for 620,000 points donated to the tree.
 extra_css:
-  - stylesheets/extra.css?v=20261123.2
+  - stylesheets/extra.css?v=20261124.1
 extra_javascript:
   - scripts/blacksmith.js?v=20260906.1
   - scripts/dob.js?v=20261123.2
