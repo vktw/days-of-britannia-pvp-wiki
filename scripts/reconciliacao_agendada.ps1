@@ -18,6 +18,9 @@ $ServerRepo = "C:\TrueUO"
 $AutoDir = "C:\dob-wiki-auto"
 $RepoSlug = "vktw/days-of-britannia-pvp-wiki"
 $BlockTitlePrefix = "[auto] Reconciliação bloqueada"
+# $false: o PR fica aberto para aprovação do dono.
+# $true (escolha do dono em 2026-11-24): merge automático após CI verde.
+$AutoMerge = $true
 
 function Get-ProductionVersion {
     git -C $ServerRepo fetch origin main --quiet
@@ -68,14 +71,21 @@ try {
     git -C $WikiRoot worktree add --detach $AutoDir origin/main --quiet
     Write-Output "worktree=$AutoDir branch=$branch"
 
+    if ($AutoMerge) {
+        $MergeStep = "Com CI verde, faça merge, verifique o deploy em https://dobshard.com/ e abra uma issue no repo resumindo a versão publicada e o que foi verificado."
+    } else {
+        $MergeStep = "NÃO faça merge: deixe o PR pronto para revisão, atribuído a vktw, com o resumo da versão e do que foi verificado no corpo. O dono aprova e faz o merge."
+    }
+
     $prompt = @"
 Rotina autônoma de reconciliação da wiki (política em AGENTS.md, exceção aprovada em 2026-11-12).
 Produção está em v$prod e a wiki em v$wiki. Você está num worktree isolado de origin/main (detached); crie a branch $branch antes de editar.
 1) Extraia o escopo de C:\TrueUO\Docs\Patches\$prod.md e do PatchCatalog PT+EN (Scripts/Services/PatchNotes/PatchCatalog.cs e PatchCatalogEnglish.cs, tag da versão). Use git show origin/main:<path>, somente leitura.
 2) Verifique cada mecânica player-facing no código do servidor.
-3) Atualize docs/patches.md e .en.md (nova seção no topo), páginas de referência afetadas, docs/index.md e .en.md, docs/proximo-patch.md e .en.md, dob_version em mkdocs.yml e o heading em scripts/audit_wiki.py. PT-BR primeiro, EN em paridade (mesmos números, comandos, links).
-4) Rode todos os gates: scripts\audit_wiki.py, scripts\audit_localization.py, scripts\audit_site_contract.py, scripts\audit_fact_registry.py, report_fact_freshness, python -m mkdocs build --strict --clean, git diff --check.
-5) Se TODOS passarem e só arquivos esperados mudaram: commit, push (upstream da branch), abra o PR, aguarde o CI ficar verde, faça merge, verifique o deploy em https://dobshard.com/ e abra uma issue no repo resumindo a versão publicada e o que foi verificado.
+3) Atualize docs/patches.md e .en.md (nova seção no topo), páginas de referência afetadas, docs/proximo-patch.md e .en.md, dob_version em mkdocs.yml e o heading em scripts/audit_wiki.py. PT-BR primeiro, EN em paridade (mesmos números, comandos, links).
+   HOME (docs/index.md e .en.md): mude SÓ o texto dentro de duas tags na faixa de status: o <strong> do "Versão atual"/"Current version" (número da versão) e o <strong> do "Última atualização"/"Latest update" (nome curto do patch, 2 a 4 palavras). Não adicione, remova nem reordene tags, classes ou atributos; não mexa em overrides/, docs/stylesheets/, docs/scripts/, docs/assets/, hooks/ nem .github/. Temporadas (extra.dob_seasons) só mudam se o patch trouxer temporada nova.
+4) Rode todos os gates: scripts\audit_home_layout.py --auto-scope (layout da home e escopo de arquivos), scripts\audit_wiki.py, scripts\audit_localization.py, scripts\audit_site_contract.py, scripts\audit_fact_registry.py, report_fact_freshness, python -m mkdocs build --strict --clean, git diff --check.
+5) Se TODOS passarem e só arquivos esperados mudaram: commit, push (upstream da branch), abra o PR e aguarde o CI ficar verde. $MergeStep
 6) Se qualquer gate falhar ou algo sair do escopo: NÃO publique; suba a branch, abra o PR como rascunho e registre o bloqueio numa issue.
 Regras: nenhum segredo no repo; nunca altere o servidor do jogo; sem especulação (só delta publicado + código verificado); internal/offgame nunca é commitado (não existe neste worktree).
 "@

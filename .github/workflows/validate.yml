@@ -40,6 +40,15 @@ jobs:
       - name: Audit fact registry
         run: python scripts/audit_fact_registry.py
 
+      - name: Guard home layout
+        run: |
+          git fetch --no-tags --depth=1 origin "${{ github.base_ref }}"
+          if [[ "${{ github.head_ref }}" == codex/reconciliacao-* ]]; then
+            python scripts/audit_home_layout.py --base FETCH_HEAD --auto-scope
+          else
+            python scripts/audit_home_layout.py --base FETCH_HEAD || echo "::warning::Estrutura da home mudou; esperado só em PRs de layout."
+          fi
+
       - name: Build strict site
         run: mkdocs build --strict --clean
 
