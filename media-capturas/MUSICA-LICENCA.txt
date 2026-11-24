@@ -1,4 +1,18 @@
-Trilha de home-trailer-musica.mp4
+Trilha de trailer-house.mp4
+
+Título: Starting Over (122 BPM), faixa 2 do "Free Rhythm Game Music Pack 1"
+Artista: Tricks & Traps (enviada por tricksntraps)
+Fonte: https://opengameart.org/content/free-rhythm-game-music-pack-1
+Arquivo: https://opengameart.org/sites/default/files/2_starting_over.wav
+SHA-256 do arquivo: 07f5b8350ae0deb9e1e03c0360cc3643cbd224eefd09b80193e8dbc27429b4a0
+Licença indicada na página: CC0 1.0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Consultado em: 2026-11-23
+
+Uso: trecho de 59,49 s a 103,75 s, volume ajustado para cerca de -16 LUFS, fade in de 1 s e fade out de 2 s.
+
+---
+
+Trilha de home-trailer-musica.mp4 (corte anterior)
 
 Título: Determined Pursuit (epic orchestra loop)
 Autor: Emma_MA
@@ -8,5 +22,3 @@ SHA-256 do arquivo: e4f3be098b50213b56a60aefe60fffae79cd9f7c9008088f93c187ef1bbc
 Licença: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
 Texto na página do autor: "This track is in the public domain as of January 2017. No attribution necessary."
 Consultado em: 2026-11-23
-
-Uso: primeiros 41,5 s, volume ajustado para cerca de -16 LUFS, fade in de 1 s e fade out de 2 s.
