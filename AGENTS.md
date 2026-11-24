@@ -90,11 +90,14 @@ Do not push, deploy, or modify GitHub secrets unless the user explicitly asks.
 Exception — autonomous patch-note reconciliation (owner-approved 2026-11-12):
 when live production (`C:\TrueUO`, `Docs/Agent/RELEASES.md`) is ahead of
 `extra.dob_version`, the agent may execute the full reconciliation and publish
-it (push branch, open PR, merge only after green CI, verify the deploy) WITHOUT
-asking, provided: (1) every required gate passes (`audit_wiki.py`, strict
+it (push branch, open PR; merge only after green CI when `$AutoMerge` in
+`scripts/reconciliacao_agendada.ps1` is `$true`, otherwise leave the PR for the
+owner to approve) WITHOUT asking, provided: (1) every required gate passes (`audit_wiki.py`, strict
 build, localization/site-contract/fact-registry audits, `git diff --check`);
 (2) only expected files change (patch notes, reference pages, version labels,
-audit headings, home/proximo-patch); (3) any gate failure or out-of-scope
+audit headings, home/proximo-patch) and `scripts/audit_home_layout.py
+--auto-scope` passes: on the home only the text of the "current version" and
+"latest update" stats may change, never tags, classes or attributes; (3) any gate failure or out-of-scope
 surprise stops the run and escalates to the owner instead of publishing. After
 publishing, file a GitHub issue in this repository summarizing the release and
 what was verified. Scheduled runs execute in an isolated worktree
