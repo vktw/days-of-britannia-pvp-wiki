@@ -14,11 +14,6 @@
         <a href="#dob-landing-start">{% if dob_en %}How to join{% else %}Como entrar{% endif %}</a>
       </nav>
       <div class="dob-landing-nav__tools">
-        <a class="dob-header-player-count" href="https://uoservers.com/server/dob-shard-days-of-britannia" target="_blank" rel="noopener noreferrer" data-dob-player-count data-dob-player-source="https://dobshard.com/api/player-status.php" data-dob-player-state="loading" aria-label="{% if dob_en %}Server status{% else %}Status do servidor{% endif %}">
-          <i aria-hidden="true"></i>
-          <span data-dob-player-value aria-live="polite">— online</span>
-          <span class="dob-player-tooltip" data-dob-player-updated role="tooltip">{% if dob_en %}Last update: waiting{% else %}Última atualização: aguardando{% endif %}</span>
-        </a>
         {% if config.extra.alternate %}
           <nav class="dob-language-switcher" aria-label="{% if dob_en %}Language{% else %}Idioma{% endif %}">
             {% for alternate in config.extra.alternate %}
