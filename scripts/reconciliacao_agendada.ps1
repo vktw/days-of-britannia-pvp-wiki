@@ -18,9 +18,9 @@ $ServerRepo = "C:\TrueUO"
 $AutoDir = "C:\dob-wiki-auto"
 $RepoSlug = "vktw/days-of-britannia-pvp-wiki"
 $BlockTitlePrefix = "[auto] Reconciliação bloqueada"
-# $false: o PR fica aberto para aprovação do dono (padrão).
-# $true: merge automático após CI verde (exceção de 2026-11-12 em AGENTS.md).
-$AutoMerge = $false
+# $false: o PR fica aberto para aprovação do dono.
+# $true (escolha do dono em 2026-11-24): merge automático após CI verde.
+$AutoMerge = $true
 
 function Get-ProductionVersion {
     git -C $ServerRepo fetch origin main --quiet
