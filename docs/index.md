@@ -144,10 +144,10 @@ hide:
   <span class="dob-landing-kicker">Trailer e comunidade</span>
   <h2 id="dob-landing-video" class="dob-landing-section__title">Veja o DoB em ação</h2>
   <figure class="dob-trailer">
-    <video controls preload="none" playsinline poster="assets/home/trailer-poster.webp?v=20261123.1" aria-label="Trailer do Days of Britannia">
-      <source src="assets/home/trailer.mp4?v=20261123.1" type="video/mp4">
+    <video controls preload="none" playsinline poster="assets/home/trailer-poster.webp?v=20261124.1" aria-label="Trailer do Days of Britannia">
+      <source src="assets/home/trailer.mp4?v=20261124.1" type="video/mp4">
     </video>
-    <figcaption>Trailer do Days of Britannia · 41 s · Música: “Determined Pursuit”, de Emma_MA (domínio público, CC0)</figcaption>
+    <figcaption>Trailer do Days of Britannia · 44 s · Música: “Starting Over”, de Tricks &amp; Traps (domínio público, CC0)</figcaption>
   </figure>
   <div class="dob-landing-video" data-dob-youtube hidden>
     <button type="button" class="dob-landing-video__frame" data-dob-youtube-frame>
