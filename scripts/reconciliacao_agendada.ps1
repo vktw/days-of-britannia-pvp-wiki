@@ -1,6 +1,8 @@
-# Rotina agendada de reconciliação da wiki (política em AGENTS.md).
+﻿# Rotina agendada de reconciliação da wiki (política em AGENTS.md).
 #
-# Uso: executado pelo Agendador de Tarefas do Windows (diário).
+# Uso: executado pelo Agendador de Tarefas do Windows (diário, 00:00).
+# Salvo em UTF-8 COM BOM: o Windows PowerShell 5.1 lê arquivos sem BOM como
+# ANSI e corrompe os acentos (título da issue e prompt do agente).
 # 1. Compara a versão em produção (origin/main do servidor) com a dob_version
 #    da wiki (lida do origin/main, sem depender do checkout local).
 # 2. Sem gap, encerra sem fazer nada (idempotente).
@@ -64,9 +66,27 @@ try {
     }
 
     $branch = "codex/reconciliacao-$($prod.Replace('.', ''))-$(Get-Date -Format 'yyyyMMdd')"
+    git -C $WikiRoot worktree prune
     if (Test-Path $AutoDir) {
-        git -C $WikiRoot worktree remove --force $AutoDir 2>&1 | Out-Null
-        git -C $WikiRoot worktree prune
+        # Só remove se for um worktree registrado deste repo. Uma pasta que
+        # não é worktree (clone avulso, sobra de execução antiga) é renomeada,
+        # nunca apagada, para não perder trabalho e não travar a rotina.
+        $autoFull = (Resolve-Path $AutoDir).Path.TrimEnd('\').Replace('\', '/').ToLowerInvariant()
+        $registered = git -C $WikiRoot worktree list --porcelain |
+            Where-Object { $_ -like 'worktree *' } |
+            ForEach-Object { $_.Substring(9).TrimEnd('/').Replace('\', '/').ToLowerInvariant() }
+        if ($registered -contains $autoFull) {
+            $prev = $ErrorActionPreference
+            $ErrorActionPreference = "Continue"
+            git -C $WikiRoot worktree remove --force $AutoDir 2>&1 | Out-Null
+            $ErrorActionPreference = $prev
+            git -C $WikiRoot worktree prune
+        }
+        if (Test-Path $AutoDir) {
+            $parked = "$AutoDir-antigo-$(Get-Date -Format 'yyyyMMdd-HHmmss')"
+            Rename-Item -Path $AutoDir -NewName (Split-Path $parked -Leaf)
+            Write-Output "Pasta $AutoDir não era worktree registrado; renomeada para $parked"
+        }
     }
     git -C $WikiRoot worktree add --detach $AutoDir origin/main --quiet
     Write-Output "worktree=$AutoDir branch=$branch"
