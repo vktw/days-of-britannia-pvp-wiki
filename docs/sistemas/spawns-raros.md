@@ -22,6 +22,26 @@ efetiva, maior a chance de receber um bônus sobre o rendimento normal.
 
 ## Rare Britannia
 
+## Velho Barba-Cinza no 2.9.0
+
+O **Velho Barba-Cinza** é um grizzly raro que desperta nas áreas selvagens de
+Felucca, um por vez, **24 a 48 horas** depois do ciclo anterior. O anúncio não
+publica o ponto. O abate pode render um couro de Barba-Cinza, uma tinta rara e,
+raramente, um troféu; a doma deixa o animal com o domador. A região aproximada
+aparece no mapa em um quadrado de **401 × 401 tiles** e some com o aviso da doma
+ou morte.
+
+O [Reinforced Backpack Kit](../craft/tailoring.md), feito com **4** couros e
+**101** de Tailoring, aumenta uma vez a mochila própria de **125** para **150**
+itens. O `.auction` oferece um couro por semana.
+
+## Regiões raras no 2.9.0
+
+O mesmo quadrado aproximado de **401 × 401 tiles** pode marcar fêmeas raras, o
+Companion selvagem, Barba-Cinza, Great Harts e a montaria rara de Britannia após
+a dica do dia. Ele não revela coordenadas nem o ponto exato e é removido quando o
+servidor anuncia a doma ou morte. É necessário o cliente DoB.
+
 O mundo mantém uma única montaria selvagem **Rare Britannia** ativa por vez em
 uma área acessível da natureza pré-T2A de Felucca. Ela aparece com uma das
 famílias e variações de cor disponíveis e exige **Animal Taming 90.0** para ser

@@ -6,6 +6,27 @@ description: "Official server patch notes, from the current version back through
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 2.9.0 · DoB Companion
+
+Published on November 24, 2026.
+
+- **Companion**: one very rare dog, in one of six breeds, appears at a time in Felucca. It requires **101.0** Animal Taming; the shard announces its appearance and each move, and announces its tame or death **5 minutes** later.
+- With **100.0** Herding, the Companion fetches your share of loot from corpses within **12 tiles**, one load per trip to your backpack. If it is full, the item stays on the corpse; double-clicking chooses the carried categories.
+- The Companion does not fight, is not a target, does not die, takes no follower slot, and costs no stamina to walk over. Only one can be active per character; it leaves in PvP, arenas, and Safe Havens and returns by itself.
+- The Companion can be stored and traded in a **Shrink Potion** statuette, including through auction and trade, and can be looted like any statuette. It also carves creatures killed by its owner, with cut leather, the owner's Forensics, and the carved resources brought back; carving can be disabled in its window.
+- **Old Greymuzzle**, a rare grizzly, wakes in Felucca's wild areas, one at a time, **24 to 48 hours** after the previous one. Its killer receives greymuzzle leather, a rare dye, and sometimes a trophy; its tamer keeps it.
+- The world map shows an approximate region in a **401 × 401-tile** square for rare females, the wild Companion, Old Greymuzzle, Great Harts, and the rare Britannia mount after the day's hint; it never shows the exact point, and the square disappears with the tame or death notice. The DoB client is required.
+- The **Reinforced Backpack Kit**, made with **4** greymuzzle leathers and **101** Tailoring, permanently raises your own backpack from **125** to **150** items. Once a week, `.auction` sells one leather; Old Greymuzzle Hunter and Tamer achievements and the title **the Grizzled** after **10** participating kills are new.
+- **Begging** at **90.0** or more gives a chance of a discount on NPC vendor purchases of **100 gc** or more: from **1%** to up to **10%** according to skill, with a Magic Amulet or Treasure Tome. A Begging Magic Amulet spends one use per discount; ordinary begging is unchanged.
+- New Magic Amulets of Swordsmanship, Mace Fighting, Fencing, Archery, Wrestling, Tactics, Anatomy, Parrying, Magery, Evaluating Intelligence, Resisting Spells, Healing, Mining, Lumberjacking, Fishing, and Musicianship have **500–1,500** uses from loot and **1,000–3,000** from treasure. Existing amulets and other skills are unchanged.
+- The **Erlking** and his spectral hounds belong to the **Fey** slayer group; each hound defeated in his hunt gives **5 Moonmarks** to participants, up to **6 hounds** per hunt.
+- Striking your own pet or summon no longer applies the **2-minute** combat lock; it never makes you criminal, while striking another player's pet still counts as combat.
+- Edric gains **Tinkering, Fletching, and Cartography** quests. The **Jack of All Trades** title now requires all **13** trades; craft attempts that consume materials count, including easy recipes, and long tasks are no longer cut off in his window.
+- Account gold is exact up to **999,999,999**. Payments that do not fit go to the bank as a check; trades that would exceed the limit are refused without moving gold. Changing offered gold in a secure trade clears both accepts, and status gold updates immediately after payments, refunds, and bank-paid purchases.
+- A **Rare Phoenix** chasing someone no longer enters guarded towns, the Safe Haven, or arenas: on crossing the boundary it returns to its cemetery and drops the chase.
+
+See [Pets and mounts](sistemas/pets-montarias.md), [Rare spawns](sistemas/spawns-raros.md), [Craft](craft/index.md), [PvM rewards](itens/recompensas-pvm.md), [PvM hunting](sistemas/caca-pvm.md), [Character](personagem.md), [How PvP works](combate/index.md), [Auction](sistemas/leilao.md), and [Commands](comandos.md).
+
 ## 2.8.0 · Tempestas, Mors, and the Rot's Call
 
 Published on November 22, 2026.

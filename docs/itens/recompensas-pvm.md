@@ -103,6 +103,14 @@ No 1.1.0, o amuleto de **Fishing** passa a gastar **1** uso a cada lance, inclus
 
 ## Magic Skill Amulets no 0.42.0
 
+## Amuletos de skill no 2.9.0
+
+Os novos amuletos de Swordsmanship, Mace Fighting, Fencing, Archery, Wrestling,
+Tactics, Anatomy, Parrying, Magery, Evaluating Intelligence, Resisting Spells,
+Healing, Mining, Lumberjacking, Fishing e Musicianship têm **500–1.500** usos
+no loot e **1.000–3.000** em tesouros. Cada ação da skill continua gastando um
+uso; amuletos já existentes e as skills de crafting e restantes não mudam.
+
 Os novos **Magic Skill Amulets** podem conceder bônus de **+1 a +5 em 80%**
 das gerações e de **+6 a +10 em 20%**. A skill precisa estar ativa; skills
 inativas e as oito skills modernas que começam em 100.0 não entram na rolagem.

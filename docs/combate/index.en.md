@@ -4,6 +4,13 @@ description: "How Days of Britannia PvP works: pressure and response, physical d
 
 # PvP
 
+## Own pet in 2.9.0
+
+Striking your own pet or summon no longer starts the **2-minute** combat lock and
+does not make you criminal; you can use event gates, enter the Arena or
+Free-for-All, and use a Shrink Potion immediately afterward. Striking another
+player's pet still counts as combat.
+
 Days of Britannia's custom PvP runs on a modern emulator and is built around
 pressure and response, not a fixed rotation. Players combine physical damage,
 magic, and poison to force a

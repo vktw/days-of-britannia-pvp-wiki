@@ -4,6 +4,13 @@ description: "Como funciona o PvP do Days of Britannia: pressão e resposta, dan
 
 # PvP
 
+## Pet próprio no 2.9.0
+
+Atacar o próprio pet ou invocação não inicia o bloqueio de combate de **2
+minutos** e não torna o jogador criminoso; isso permite usar portais de evento,
+entrar na Arena ou no Free-for-All e usar Shrink Potion logo depois. Atacar o
+pet de outro jogador continua contando como combate.
+
 O PvP customizado de Days of Britannia roda em um emulador moderno e é baseado
 em pressão e resposta, não em uma rotação fixa. O jogador combina dano físico,
 magia e poison para obrigar uma

@@ -30,6 +30,13 @@ Quagmire joined the Fey group.
 
 ## Magical creatures
 
+In the Erlking's Wild Hunt, he and his spectral hounds belong to the **Fey**
+slayer group. Each hound defeated gives **5 Moonmarks** to participants, up to
+**6 hounds** per hunt.
+
+Striking your own pet or summon does not apply the **2-minute** combat lock;
+striking another player's pet still counts as combat.
+
 In PvM, magical creatures consider the actual success chance of **Cure** when
 deciding whether to use it and may cast **Mana Drain** or **Mana Vampire**.
 Protections for players, pets, and summons remain active; this behavior also

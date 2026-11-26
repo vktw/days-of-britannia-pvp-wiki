@@ -103,6 +103,14 @@ In 1.1.0, the **Fishing** amulet spends **1** use per cast, including in shallow
 
 ## Magic Skill Amulets in 0.42.0
 
+## Skill amulets in 2.9.0
+
+New amulets of Swordsmanship, Mace Fighting, Fencing, Archery, Wrestling,
+Tactics, Anatomy, Parrying, Magery, Evaluating Intelligence, Resisting Spells,
+Healing, Mining, Lumberjacking, Fishing, and Musicianship have **500–1,500** uses
+from loot and **1,000–3,000** from treasure. Each skill action still spends one
+use; existing amulets and crafting and remaining skills are unchanged.
+
 New **Magic Skill Amulets** can grant **+1 to +5 in 80%** of generations and
 **+6 to +10 in 20%**. The skill must be active; inactive skills and the eight
 modern skills that start at 100.0 are excluded.

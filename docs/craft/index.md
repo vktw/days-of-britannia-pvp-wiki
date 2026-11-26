@@ -68,6 +68,13 @@ de qualidade separada e só aparece quando a receita e a categoria permitem esse
 resultado. Por isso, as páginas exibem essas informações em colunas distintas e
 não somam os percentuais.
 
+## Missões de ofício no 2.9.0
+
+Edric agora também oferece **Tinkering, Fletching e Cartography**, totalizando
+**13** ofícios. Nas missões, toda tentativa de craft que consome material conta,
+inclusive receita fácil; a janela não corta mais tarefas longas. O título **the
+Jack of All Trades** exige os 13 ofícios, e quem já o tinha não perde o título.
+
 ## Missões de ofício no 2.3.0
 
 **Edric, o Instrutor de Ofícios**, fica ao lado do banco de Britain com missões

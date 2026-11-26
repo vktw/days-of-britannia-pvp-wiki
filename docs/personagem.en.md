@@ -85,6 +85,14 @@ the tool swing shown.
 
 ## Stats and buffs
 
+## Account gold in 2.9.0
+
+Account gold is exact and capped at **999,999,999**. A payment that does not fit
+goes to the bank as a check; a trade that would exceed the limit is refused
+without moving gold. Changing offered gold in a secure trade clears both accepts.
+The status total (bank plus backpack) updates immediately after payments,
+auction refunds, and purchases paid from the bank.
+
 - Permanent stats: maximum 100 each and 300 in total.
 - Temporary buffs, potions and items can raise each stat up to 120.
 - Bless: +10 in STR, DEX and INT.
