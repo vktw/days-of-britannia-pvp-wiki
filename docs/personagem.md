@@ -87,6 +87,14 @@ Fortune Tide, com o golpe da ferramenta mostrado.
 
 ## Stats e buffs
 
+## Gold da conta no 2.9.0
+
+O gold da conta é exato e tem limite de **999.999.999**. Um pagamento que não
+cabe vai para o banco como cheque; uma troca que ultrapassaria o limite é
+recusada sem mover gold. Alterar o gold oferecido em uma troca segura desfaz os
+aceites dos dois lados. O total exibido no status (banco mais mochila) atualiza
+imediatamente após pagamentos, reembolsos de leilão e compras pagas pelo banco.
+
 - Stats permanentes: máximo de 100 cada e 300 no total.
 - Buffs temporários, potions e itens podem elevar cada stat até 120.
 - Bless: +10 em STR, DEX e INT.

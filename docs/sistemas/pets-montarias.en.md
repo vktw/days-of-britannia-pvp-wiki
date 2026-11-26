@@ -39,6 +39,26 @@ gold: buy as many as you like and use one on your mount, from your backpack or
 your bank. The next time it would die, it is saved and goes to your bank as a
 statuette, and the ward is spent. It covers every death, PvP included.
 
+## Companion in 2.9.0
+
+A wild **Companion**, in one of six breeds, appears at a time in Felucca and
+requires **101.0** Animal Taming. The shard announces its appearance and each
+move, then announces its tame or death **5 minutes** later. With **100.0**
+Herding, it fetches its owner's share of corpse loot within **12 tiles**, one
+load per trip; a full backpack leaves the item on the corpse. Double-clicking
+opens its category window.
+
+The Companion does not fight, cannot be targeted, does not die, takes no
+follower slot, and costs no stamina to walk over. Only one is active per
+character; it leaves in PvP, arenas, and Safe Havens and returns by itself. It
+can be stored and traded in a **Shrink Potion** statuette, including by auction,
+and can be looted. It also carves corpses killed by its owner, bringing cut
+leather, the owner's Forensics, and the resources; carving can be disabled in
+the window.
+
+!!! success "Status: 2.9.0"
+    Rules confirmed on the official server; the DoB client is required for the window.
+
 ## Rare mounts
 
 | Group | Possibilities | Minimum Animal Taming | Behavior |

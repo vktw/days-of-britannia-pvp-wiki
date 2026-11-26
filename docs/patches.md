@@ -6,6 +6,27 @@ description: "Patch notes oficiais do servidor, da versão atual às mudanças p
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 2.9.0 · DoB Companion
+
+Publicado em 24 de novembro de 2026.
+
+- **Companion**: um cão muito raro, de uma entre seis raças, surge por vez em Felucca. Exige **101.0** de Animal Taming; o servidor avisa quando ele surge e muda de lugar, e **5 minutos** depois da doma ou morte.
+- Com **100.0** de Herding, o Companion busca sua parte do loot em corpos a até **12 tiles**, levando uma carga por viagem à mochila. Se ela estiver cheia, o item fica no corpo; dois cliques escolhem as categorias carregadas.
+- O Companion não luta, não é alvo, não morre, não ocupa follower slot e não consome stamina ao ser atravessado. Só há um ativo por personagem; ele sai em PvP, arenas e Safe Havens e volta sozinho.
+- O Companion pode ser guardado e negociado em uma estatueta de **Shrink Potion**, inclusive por leilão e troca, e pode ser saqueado como qualquer estatueta. Ele também pode carnear os corpos das criaturas mortas pelo dono, com o couro já cortado, Forensics do dono e os recursos trazidos; o carving pode ser desligado na janela.
+- **Velho Barba-Cinza**, um grizzly raro, desperta nas áreas selvagens de Felucca, um por vez, **24 a 48 horas** depois do anterior. Quem o mata recebe couro de Barba-Cinza, tinta rara e, às vezes, um troféu; quem o doma fica com ele.
+- O mapa-múndi mostra uma região aproximada em um quadrado de **401 × 401 tiles** para fêmeas raras, Companion selvagem, Barba-Cinza, Great Harts e a montaria rara de Britannia após a dica do dia; nunca mostra o ponto exato, e o quadrado some com o aviso da doma ou morte. É necessário o cliente DoB.
+- O **Reinforced Backpack Kit**, feito com **4** couros de Barba-Cinza e **101** de Tailoring, aumenta permanentemente a mochila própria de **125** para **150** itens. Uma vez por semana, `.auction` leiloa um couro; surgem as conquistas de Caçador e Domador do Barba-Cinza e o título **the Grizzled** após **10** abates participantes.
+- **Begging** em **90.0** ou mais dá chance de desconto em compras de **100 gc** ou mais de NPC vendors: de **1%** a até **10%** conforme a skill, com Magic Amulet ou Treasure Tome. O Magic Amulet de Begging gasta um uso por desconto; o mendigar tradicional não muda.
+- Novos Magic Amulets de Swordsmanship, Mace Fighting, Fencing, Archery, Wrestling, Tactics, Anatomy, Parrying, Magery, Evaluating Intelligence, Resisting Spells, Healing, Mining, Lumberjacking, Fishing e Musicianship têm **500–1.500** usos no loot e **1.000–3.000** em tesouros. Amuletos existentes e as outras skills não mudam.
+- O **Erlking** e seus cães espectrais pertencem ao grupo de slayers **Fey**; cada cão derrotado em sua caçada rende **5 Moonmarks** a quem participou, até **6 cães** por caçada.
+- Atacar o próprio pet ou invocação não aplica os **2 minutos** de combate; ainda não torna o jogador criminoso, enquanto atacar o pet de outro jogador continua contando como combate.
+- Edric ganha missões de **Tinkering, Fletching e Cartography**. O título **the Jack of All Trades** passa a exigir os **13** ofícios; tentativas de craft que gastam material contam, inclusive receitas fáceis, e tarefas longas não são cortadas na janela.
+- O gold da conta fica exato até **999.999.999**. Pagamentos que não cabem vão ao banco como cheque; trocas que excederiam o limite são recusadas sem mover gold. Alterar o gold oferecido em uma troca segura desfaz os aceites dos dois lados, e o gold do status atualiza imediatamente após pagamentos, reembolsos e compras pelo banco.
+- A **Rare Phoenix** que persegue alguém não entra em cidades guardadas, Safe Haven ou arenas: ao cruzar o limite, volta ao cemitério e abandona a perseguição.
+
+Consulte [Pets e montarias](sistemas/pets-montarias.md), [Spawns raros](sistemas/spawns-raros.md), [Craft](craft/index.md), [Recompensas PvM](itens/recompensas-pvm.md), [Caça PvM](sistemas/caca-pvm.md), [Personagem](personagem.md), [Como funciona o PvP](combate/index.md), [Leilão](sistemas/leilao.md) e [Comandos](comandos.md).
+
 ## 2.8.0 · Tempestas, Mors e o Chamado da Podridão
 
 Publicado em 22 de novembro de 2026.

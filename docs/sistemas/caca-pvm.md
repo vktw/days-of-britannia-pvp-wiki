@@ -30,6 +30,13 @@ Quagmire passaram ao grupo Fey.
 
 ## Criaturas mágicas
 
+Na Caçada Selvagem do Erlking, ele e os cães espectrais pertencem ao grupo de
+slayers **Fey**. Cada cão derrotado rende **5 Moonmarks** a quem participou, até
+**6 cães** por caçada.
+
+Atacar o próprio pet ou invocação não aplica o bloqueio de combate de **2
+minutos**; atacar o pet de outro jogador continua contando como combate.
+
 No PvM, criaturas mágicas consideram a chance real de sucesso de **Cure** ao
 decidir se usam a magia e podem lançar **Mana Drain** ou **Mana Vampire**.
 Proteções para jogadores, pets e summons permanecem ativas; o comportamento

@@ -67,6 +67,13 @@ quality roll and appears only when the recipe and category allow it. For that
 reason, the pages show the information in separate columns and do not add the
 percentages together.
 
+## Trade quests in 2.9.0
+
+Edric now also offers **Tinkering, Fletching, and Cartography**, for **13**
+trades total. Every craft attempt that consumes materials counts, including an
+easy recipe; long tasks are no longer cut off in the window. The **Jack of All
+Trades** title requires all 13 trades, and players who already had it keep it.
+
 ## Trade quests in 2.3.0
 
 **Edric, the Trade Instructor**, stands beside the Britain bank with quests for

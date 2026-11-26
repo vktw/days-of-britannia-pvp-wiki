@@ -40,6 +40,25 @@ gold: compre quantas quiser e use na montaria, da mochila ou do banco. Na
 próxima vez em que ela morreria, ela é salva e vai para o seu banco como
 estatueta, e a ward é consumida. Vale para qualquer morte, inclusive PvP.
 
+## Companion no 2.9.0
+
+Um **Companion** selvagem, de uma entre seis raças, surge por vez em Felucca e
+exige **101.0** de Animal Taming. O servidor anuncia o surgimento e cada mudança
+de lugar, e anuncia a doma ou morte **5 minutos** depois. Com **100.0** de
+Herding, ele busca a parte do dono no loot de corpos a até **12 tiles**, uma
+carga por viagem; mochila cheia deixa o item no corpo. Dois cliques abrem a
+janela de categorias.
+
+O Companion não luta, não pode ser alvo, não morre, não ocupa follower slot e não
+gasta stamina ao ser atravessado. Só um fica ativo por personagem; ele sai em
+PvP, arenas e Safe Havens e retorna sozinho. Pode ser guardado e negociado em
+uma estatueta de **Shrink Potion**, inclusive por leilão, e pode ser saqueado.
+Também carneia corpos mortos pelo dono, com couro cortado, Forensics do dono e
+os recursos trazidos; o carving pode ser desligado na janela.
+
+!!! success "Status: 2.9.0"
+    Regras confirmadas no servidor oficial; o cliente DoB é necessário para a janela.
+
 ## Montarias raras
 
 | Grupo | Possibilidades | Animal Taming mínimo | Funcionamento |

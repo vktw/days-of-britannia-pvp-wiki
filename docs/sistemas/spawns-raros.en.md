@@ -22,6 +22,26 @@ a bonus over the normal yield.
 
 ## Rare Britannia
 
+## Old Greymuzzle in 2.9.0
+
+**Old Greymuzzle** is a rare grizzly that wakes in Felucca's wild areas, one at
+a time, **24 to 48 hours** after the previous cycle. The notice does not publish
+the point. Its kill may award greymuzzle leather, a rare dye, and rarely a
+trophy; taming keeps the animal with the tamer. The approximate region appears
+on the map as a **401 × 401-tile** square and disappears with the tame or death
+notice.
+
+The [Reinforced Backpack Kit](../craft/tailoring.md), made with **4** leathers
+and **101** Tailoring, permanently raises your own backpack from **125** to
+**150** items. `.auction` offers one leather each week.
+
+## Rare regions in 2.9.0
+
+The same approximate **401 × 401-tile** square can mark rare females, the wild
+Companion, Old Greymuzzle, Great Harts, and the rare Britannia mount after the
+day's hint. It reveals neither coordinates nor the exact point and is removed
+when the server announces the tame or death. The DoB client is required.
+
 The world maintains one active wild **Rare Britannia** mount at a time in an
 accessible area of pre-T2A Felucca wilderness. It appears with one of the
 available families and color variations and requires **90.0 Animal Taming** to
