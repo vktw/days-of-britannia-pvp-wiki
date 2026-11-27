@@ -36,6 +36,12 @@ ingots e o **Chainmail Armor Kit Deed** por 100 ingots; ambos exigem **75.0 de
 Inscription**. Cada deed libera sete peças, preservando o material e o hue do
 kit. Uma falha elegível consome 10 ingots.
 
+Desde o **2.10.1**, quando o craft pelo Baú de Recursos está ligado, os kits
+usam primeiro o material da mochila e depois o do baú. A janela já mostra o
+total com **+casa**; isso vale para o **Platemail Armor Kit**, o **Chainmail
+Armor Kit** e o **Leather Armor Kit**. Com o craft desligado, fora da casa ou
+sem a permissão de dono/co-dono, o baú não entra na contagem.
+
 No 0.46.2, o Make Max dos Armor Kits para quando faltam lingotes ou outro
 requisito, em vez de repetir a mensagem e travar o menu. Fabricar um kit toca
 o som do martelo e reabre o menu de Blacksmithy.

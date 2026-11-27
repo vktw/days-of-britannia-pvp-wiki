@@ -61,6 +61,15 @@ Bankers sell the **Commodity Deed Box for 20,000 Gold**. To operate Commodity
 Deeds, the box must be **secured inside a house**; keeping it in your backpack
 is not enough.
 
+## Resource Chest and Armor Kits in 2.10.1
+
+With crafting turned on in the **Resource Chest**, the owner and co-owners can
+craft from inside the house, using the backpack first and then the chest. Since
+**2.10.1**, this also applies to the **Platemail Armor Kit**, **Chainmail Armor
+Kit**, and **Leather Armor Kit**: the window adds the chest's resources with
+**+house**, and consumption uses the backpack before the chest. With crafting
+off, outside the house, or without owner/co-owner access, the chest is not used.
+
 ## House Armory in 2.4.0
 
 The house **Armory** is an addon sold by the Architect for **250,000** gold:

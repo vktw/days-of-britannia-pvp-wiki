@@ -8,7 +8,7 @@ This page will be updated when content is approved for publication. Released sys
 
 For now, see [Pets and mounts](sistemas/pets-montarias.md), [Rare spawns](sistemas/spawns-raros.md), [Craft](craft/index.md), and [PvM rewards](itens/recompensas-pvm.md) for the current additions.
 
-!!! info "Current version: 2.9.0"
+!!! info "Current version: 2.10.1"
     No next patch has been publicly announced yet.
     Development notes do not represent live behavior until they are published
     and confirmed in production.

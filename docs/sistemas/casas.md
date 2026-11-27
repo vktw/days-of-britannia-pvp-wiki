@@ -61,6 +61,15 @@ Bankers vendem a **Commodity Deed Box por 20.000 Gold**. Para operar Commodity
 Deeds, a caixa precisa estar **secured dentro de uma casa**; mantê-la na mochila
 não é suficiente.
 
+## Baú de Recursos e Armor Kits no 2.10.1
+
+Com o craft ligado no **Baú de Recursos**, o dono e os co-donos podem fabricar de
+dentro da casa usando primeiro a mochila e depois o baú. Desde o **2.10.1**, isso
+também vale para o **Platemail Armor Kit**, o **Chainmail Armor Kit** e o
+**Leather Armor Kit**: a janela soma os recursos do baú com **+casa**, e o
+consumo usa a mochila antes do baú. Com o craft desligado, fora da casa ou sem
+acesso de dono/co-dono, o baú não é usado.
+
 ## Arsenal da casa no 2.4.0
 
 O **Arsenal da casa (Armory)** é um addon vendido pelo Architect por

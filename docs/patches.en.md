@@ -6,6 +6,19 @@ description: "Official server patch notes, from the current version back through
 
 This page summarizes changes players can notice. Current numbers and full instructions belong on the reference pages.
 
+## 2.10.1 · Armor Kits and the Resource Chest
+
+Published on November 26, 2026.
+
+- **Armor Kits**: with crafting from the Resource Chest on, the **Platemail
+  Armor Kit**, **Chainmail Armor Kit**, and **Leather Armor Kit** now use the
+  backpack first and then the chest, as the rest of crafting does. Before, the
+  window showed the total with the chest (+house), but the kit asked for all its
+  material, ingots or leather, in the backpack.
+
+See [Armor](itens/armaduras.md), [Tailoring](craft/tailoring.md), and
+[Houses](sistemas/casas.md).
+
 ## 2.9.0 · DoB Companion
 
 Published on November 24, 2026.

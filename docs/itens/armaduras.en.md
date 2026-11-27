@@ -36,6 +36,12 @@ ingots and a **Chainmail Armor Kit Deed** for 100 ingots; both require **75.0
 Inscription**. Each deed releases seven pieces while preserving the kit's
 material and hue. An eligible failure consumes 10 ingots.
 
+Since **2.10.1**, when crafting from the Resource Chest is on, kits use their
+material in the backpack first and then the chest. The window already shows the
+total with **+house**; this applies to the **Platemail Armor Kit**, **Chainmail
+Armor Kit**, and **Leather Armor Kit**. With crafting off, outside the house, or
+without owner/co-owner access, the chest is not counted.
+
 In 0.46.2, Armor Kit Make Max stops when ingots or another requirement are
 missing instead of repeating the message and locking the menu. Crafting a kit
 plays the hammer sound and reopens the Blacksmithy menu.
