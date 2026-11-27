@@ -11,6 +11,11 @@ O **Leather Armor Kit** fica em DoB Armor Kits: com Royal Armorer's Charter e
 de couro. Todo kit de armadura agora mostra quem o fez, e as peças que saem
 dele levam a marca.
 
+Desde o **2.10.1**, com o craft pelo Baú de Recursos ligado, o Leather Armor
+Kit conta e consome primeiro o Barbed leather da mochila e depois o do baú.
+Isso exige que você seja dono ou co-dono dentro da casa; com o craft desligado,
+fora da casa ou sem essa permissão, só a mochila é usada.
+
 ## Reinforced Cloth no 1.1.0
 
 O **Reinforced Cloth** é um insumo do loot de PvM. No menu de Tailoring, ligue

@@ -32,8 +32,8 @@ hide:
 
 <section class="dob-landing-strip" aria-label="Server status">
   <a class="dob-landing-stat" href="https://uoservers.com/server/dob-shard-days-of-britannia" target="_blank" rel="noopener noreferrer" data-dob-player-count data-dob-player-source="https://dobshard.com/api/player-status.php" data-dob-player-state="loading"><strong><i aria-hidden="true"></i><span data-dob-player-value>— online</span></strong><small>Players right now</small></a>
-  <span class="dob-landing-stat"><strong>2.9.0</strong><small>Current version</small></span>
-  <a class="dob-landing-stat" href="patches/"><strong>DoB Companion</strong><small>Latest update</small></a>
+  <span class="dob-landing-stat"><strong>2.10.1</strong><small>Current version</small></span>
+  <a class="dob-landing-stat" href="patches/"><strong>Armor Kits and Chest</strong><small>Latest update</small></a>
 </section>
 
 <section class="dob-landing-section" aria-labelledby="dob-landing-pillars">

@@ -6,6 +6,19 @@ description: "Patch notes oficiais do servidor, da versão atual às mudanças p
 
 Esta página resume mudanças percebidas pelos jogadores. Números atuais e instruções completas ficam nas páginas de referência.
 
+## 2.10.1 · Armor Kits e o Baú de Recursos
+
+Publicado em 26 de novembro de 2026.
+
+- **Armor Kits**: com o craft pelo Baú de Recursos ligado, o **Platemail
+  Armor Kit**, o **Chainmail Armor Kit** e o **Leather Armor Kit** agora usam
+  primeiro a mochila e depois o baú, como o restante do craft. Antes, a janela
+  mostrava o total com o baú (+casa), mas o kit exigia todo o material, lingotes
+  ou couro, na mochila.
+
+Consulte [Armaduras](itens/armaduras.md), [Tailoring](craft/tailoring.md) e
+[Casas](sistemas/casas.md).
+
 ## 2.9.0 · DoB Companion
 
 Publicado em 24 de novembro de 2026.

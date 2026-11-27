@@ -11,6 +11,11 @@ Charter and **75** Inscription, **35** Barbed leather become a deed for the
 **6** leather pieces. Every armor kit now shows who made it, and the pieces it
 opens into carry that mark.
 
+Since **2.10.1**, with crafting from the Resource Chest on, the Leather Armor
+Kit counts and consumes Barbed leather from the backpack first and then the
+chest. You must be the owner or a co-owner inside the house; with crafting off,
+outside the house, or without that access, only the backpack is used.
+
 ## Reinforced Cloth in 1.1.0
 
 **Reinforced Cloth** is a PvM loot ingredient. In the Tailoring menu, turn the

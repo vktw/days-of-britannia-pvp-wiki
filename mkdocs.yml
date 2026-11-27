@@ -17,7 +17,7 @@ theme:
   palette:
     scheme: dob
 extra:
-  dob_version: "2.9.0"
+  dob_version: "2.10.1"
   # Temporadas mensais da home (selo do topo, cartão da temporada e linha do
   # tempo). Ordem cronológica. Datas no fuso de Brasília; a página escolhe a
   # temporada ativa pela data do visitante, então a troca de mês não exige
